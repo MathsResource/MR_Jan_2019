@@ -1,0 +1,57 @@
+Revolution R Enterprise ScaleR: Fast, Highly Scalable R on Multiple Processors
+Big Data Needs Scalable Analysis Tools
+
+Analytics-driven breakthroughs in various fields continue driving the desire for advanced analytics technologies. Cost, performance and functionality -- common trade-offs in enterprising computing -- are becoming a challenge for IT professionals seeking to adopt analytics. Organizations' technological needs typically exceed existing tools' capabilities. Huge datasets, for example, continue increasing in size; single-core processors and legacy hardware cannot keep pace with the data explosion.
+
+IT leaders need scalable data-analysis software able to run on newer hardware, specifically software able to execute on multiple cores and/or in a distributed environment. These tools need to both scale and to be deployed in the cloud.
+
+Revolution R Enterprise is a commercial distribution of R that includes the RevoScaleR package. It can be applied to extremely large datasets, including terabyte-class datasets, without the need for expensive or specialized hardware.
+
+In this paper, we discuss our approach to scalability specific to RevoScaleR. Among the topics addressed are data storage, reading and writing data, data handling in memory, and using multiple-core processors.
+
+%============================================================================%
+\subsection*{Storing Data at Scale with the .XDF Format}
+
+One of the keys to scalability is the ability to process more data than can fit into memory. This requires a system to be able to work with "chunks" of data instead of the data remaining resident in memory. RevoScaleR has its own file format, XDF, which is able to rapidly access data by row or by column and to read some data sequentially. XDF file data is stored in the same binary format used in memory, which eliminates the need for conversion when it is brought into memory. The data can also be stored in a size that makes the most sense. Values that are no more than 256, for example, can be stored in a byte per number, while some floating point values can be stored in four bytes per number. New variables and rows can be added without needing to rewrite the entire file.
+
+Reading Data at Scale: the Multicore Approach
+
+The optimal data chunk size depends on factors such as disk and RAM. Chunk sizes can vary. To eliminate bottleneck and optimize I/O bandwidth, RevoScaleR dedicates one core to reading data while the remaining cores process data from the previous read. If all the data can fit into memory that is permitted, all cores process that data.
+
+Handling Data in Memory
+
+Using the appropriate-sized data in memory reduces the space and time needed to move data. The amount of data conversion and copying is minimized, saving time and speed. No conversion or copying is started unless the values are actually loaded into the CPU.
+
+Using R on Multiple Cores on a Single Computer
+
+Nearly all RevoScaleR computations use multiple cores, if they are available, to minimize computational overhead. It is more efficient to feed large chunks of data to each core. For certain types of analytic routines -- such as descriptive statistics and linear or logistic regression -- a large chunk of observations for all of the variables is read into memory by one core. Simultaneously, the data chunk from the previous read is split among the remaining cores for processing. The code used for processing needs only know its specific task -- no inter-thread communication and synchronization is required.
+
+When a RevoScaleR algorithm is provided with a data source as input, it loops over data, reading a block at a time by using a separate worker thread (Thread 0). Other worker threads (Threads 1..n) process the data block and update the results. When all the data is processed, a master results object is created.
+
+%============================================================================%
+\subsection*{Using R on Multiple Computers}
+
+A key to efficiently using multiple computers is to minimize the information communicated among them. In RevoScaleR, the master node controls all the other computations. The intermediate results from all cores are aggregated on that node, and only that information is returned to the master node. The master node monitors the compute nodes, aggregates the results those nodes return, and then processes those results.
+
+RevoScaleR offers several options for getting data to the cores on each node. The most efficient method is storing any data needed locally on each node.
+
+For iterative algorithms such as logistic regression and K-means clustering, the master node controls the iterations. If the algorithm has not converged, another iteration is initiated. The master mode aggregates all intermediate results, then produces the final result.
+
+%============================================================================%
+\subsection*{Efficient Parallelization of Statistical and Data-Mining Algorithms}
+
+RevoScaleR is designed to automatically and efficiently parallelize external memory algorithms, which don't require all data to be in memory. These algorithms are automatically parallelized such that the fastest algorithms per core are also the fastest when parallelized. This allows engineers to focus on obtaining the optimal speed per core.
+
+Other issues are important as well. Categorical data is very common in statistical computations, and they are handled in ways that save memory, increase speed, and increase computational precision as well.
+
+In statistical modeling, the same values are commonly used in different parts of a computation. RevoScaleR has a sophisticated algorithm for pre-analyzing models to detect duplication. It can also detect co-linearities in models that might cause wasted computations or computational failures. These are removed prior to computation.
+
+Conclusion - R at Scale: RevoScaleR
+
+The RevoScaleR library provides extremely fast statistical analysis on terabyte-class data sets without needing specialized hardware. The RevoScaleR platform offers efficient, local data storage, which offers numerous benefits when working with extremely large datasets.
+
+About Revolution Analytics
+
+Revolution Analytics delivers advanced analytics software used by leading organizations for their data analysis, development, and mission-critical production needs. The company is committed to fostering the growth of the R community, local users groups worldwide, and by providing free academic licenses for Revolution R Enterprise.
+
+ 
