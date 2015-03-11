@@ -1,0 +1,78 @@
+AcademyR - Certification Study Guide
+1. Introduction to Big Data Analytics (5%)
+
+Objectives
+
+Describe the characteristics of big data and associated challenges
+
+Understand technology and architectural strategy for big data
+
+Study Resources
+
+What is data science? O’Reilly
+Real-Time Big Data Analytics: Emerging Architecture
+Fast, Powerful and Cost-Effective Analytics Reshaping Business Competition Worldwide
+The Rise of Big Data Spurs a Revolution in Big Analytics
+2. R as a programming language (25%)
+
+Objectives
+
+Perform Simple Manipulations on numbers and vectors
+Perform operations on arrays and matrices
+Understanding of objects, their modes and attributes.
+Perform operations on ordered and unordered factors.
+Use lists and data frames for more complex operations
+Use basic pre-built functions in R
+Write your own functions in R
+Understand scoping rules
+Recognize different types of objected oriented programming in R
+Customizing the R environment
+R installation and Administration
+Study Resources
+
+Venebles, Smith and R Development Core Team, “Introduction to R”
+'R in Action'
+Burns, R Inferno (Optional)
+3. Big Data Management in Revolution R Enterprise (30%)
+
+Objectives
+
+Import and export large data from data sources
+Compute summary statistics on large data
+Compute cross tabulation on data sets.
+Perform different types of data manipulations such as transforming, subsetting, merging, recording, sorting and aggregation
+Visualize large data sets
+Study Resources
+
+RevoScaleR User Guide, Chapters 1 to 4,15 to 17
+RevoScaleR Data step
+4. Big Data Exploration and Statistical analysis in Revolution R Enterprise (20%)
+
+Objectives
+
+Perform data summaries and crosstabs on large data
+Perform correlation and variance/Covariance Matrices
+Analyze a scenario and determine the methods to deploy for variable selection
+Analyze a scenario and deploy appropriate statistical tests
+Use unsupervised learning techniques (e.g. k-means clustering)
+Study Resources
+
+RevoScaleR User Guide, Chapters 5, 6, 12
+Kabacoff, R in Action Chapter 7,14 (Optional)
+5. Advanced Big Data Analytics - Modeling in Revolution R Enterprise (20%)
+
+Objectives
+
+Describe the steps for training a set of data in order to identify new data based on known data
+Describe the critical steps in model selection, prediction, validation and scoring
+Identify the use cases for logistic regression, Bayes theorem
+Estimate generalized linear models with large data
+Use decision trees and forests for classification and regression
+Perform simulations in parallel using tools provided by Revolution R Enterprise
+Study Resources
+
+RevoScaleR User Guide, Chapters 5, 6, 12
+Big data decision trees with R
+James, Witten, Hastie & Tibshirani– Introduction to Statistical Learning (Chapters 1-4, 6, 8, 10)
+Kabacoff, R in Action, Chapter 8, 13 (Optional)
+Kuhn, Max Applied Predictive Modeling with R. (Optional)
