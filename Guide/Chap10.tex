@@ -1,0 +1,20 @@
+Chapter 10.
+Estimating Decision Tree
+Models
+The rxDTree function in RevoScaleR fits tree-based models using a binning-based recursive
+partitioning algorithm. The resulting model is similar to that produced by the recommended R
+package rpart. Both classification-type trees and regression-type trees are supported; as with
+rpart, the difference is determined by the nature of the response variable: a factor response
+generates a classification tree; a numeric response generates a regression tree.
+10.1 The rxDTree Algorithm
+Decision trees are effective algorithms widely used for classification and regression. Building a
+decision tree generally requires that all continuous variables be sorted in order to decide where
+to split the data. This sorting step becomes time and memory prohibitive when dealing with
+large data. Various techniques have been proposed to overcome the sorting obstacle, which
+can be roughly classified into two groups: performing data pre-sorting or using approximate
+summary statistic of the data. While pre-sorting techniques follow standard decision tree
+algorithms more closely, they cannot accommodate very large data sets. These big data
+decision trees are normally parallelized in various ways to enable large scale learning: data
+parallelism partitions the data either horizontally or vertically so that different processors see
+different observations or variables and task parallelism builds different tree nodes on different
+processors.
