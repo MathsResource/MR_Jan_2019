@@ -1,0 +1,91 @@
+Chapter 9.
+Fitting Generalized Linear
+Models
+Generalized linear models (GLM) are a framework for a wide range of analyses. They relax the
+assumptions for a standard linear model in two ways. First, a functional form can be specified
+for the conditional mean of the predictor. This is referred to as the “link” function. Second,
+you can specify a distribution for the response variable. The rxGlm function in RevoScaleR
+provides the ability to estimate generalized linear models on large data sets.
+The following family/link combinations are implemented in C++ for performance
+enhancements: binomial/logit, gamma/log, poisson/log, and Tweedie. Other family/link
+combinations use a combination of C++ and R code. Any valid R family object that can be used
+with glm() can be used with rxGlm(), including those that are user-defined. The following table
+shows all of the supported family/link combinations (in addition to user-define
+
+
+9.1 A Simple Example Using the Poisson Family
+The Poisson family is used to estimate models of count data. Examples from the literature
+include the following types of response variables:
+ Number of drinks on a Saturday night
+ Number of bacterial colonies in a Petri dish
+ Number of children born to married women
+ Number of credit cards a person has
+We’ll start with a simple example from Kabacoff’s R in Action book (2011), using data provided
+with the robust R package. The data are from a placebo-controlled clinical trial of 59 epileptics.
+Patients with partial seizures were enrolled in a randomized clinical trial of the anti-epileptic
+drug, progabide. Counts of epileptic seizures were recorded during the trial. The data set also
+includes a baseline 8-week seizure count and the age of the patient.
+To access this data, first make sure the robust package is installed, then use the data command
+to load the the data frame:
+data(breslow.dat, package = "robust")
+First, let’s get some basic information on the data set, then draw a histogram of the sumY
+variable, containing the total count of seizures during the trial.
+
+9.3 An Example Using the Tweedie Family
+The Tweedie family of distributions provide flexible models for estimation. The power
+parameter var.power determines the shape of the distribution, with familiar models as special
+cases: if var.power is set to 0, Tweedie is a normal distribution; when set to 1, it is Poisson;
+when 2, it is Gamma; when 3, it is inverse Gaussian. If var.power is between 1 and 2, it is a
+compound Poisson distribution and is appropriate for positive data that also contains exact
+zeros, for example, insurance claims data, rainfall data, or fish-catch data. If var.power is
+greater than 2, it is appropriate for positive data.
+In this example, we’ll use a subsample from the 5% sample of the U.S. 2000 census. We will
+consider the annual cost of property insurance for heads of household ages 21 through 89, and 
+Fitting Generalized Linear Models 115
+its relationship to age, sex, and region. A variable “perwt” in the data set represents the
+probability weight for that observation. First, to create the subsample (specify the correct data
+path for your downloaded data):
+bigDataDir = "C:/Revolution/Data"
+bigCensusData <- file.path(bigDataDir, "Census5PCT2000.xdf")
+propinFile <- "CensusPropertyIns.xdf"
+propinDS <- rxDataStep(inData = bigCensusData, outFile = propinFile,
+ rowSelection = (related == 'Head/Householder') & (age > 20) & (age < 90),
+ varsToKeep = c("propinsr", "age", "sex", "region", "perwt"),
+ blocksPerRead = 10, overwrite = TRUE)
+rxGetInfo(propinDS)
+File name: C:\YourWorkingDir\CensusPropertyIns.xdf
+Number of observations: 5175270
+Number of variables: 5
+Number of blocks: 10
+Compression type: zlib
+An Xdf data source representing the new data file is returned. The new data file has over 5
+million observations.
+Let’s do one more step in data cleaning. The variable region has some very long factor level
+character strings, and it also has a number of levels for which there are no observations. We
+can see this using rxSummary:
+rxSummary(~region, data = propinDS)
+Call:
+rxSummary(formula = ~region, data = propinDS)
+Summary Statistics Results for: ~region
+File name: C:\YourWorkingDir\CensusPropertyIns.xdf
+Number of valid observations: 5175270
+Category Counts for region
+Number of categories: 17
+Number of valid observations: 5175270
+Number of missing observations: 0
+region Counts
+New England Division 265372
+Middle Atlantic Division 734585
+Mixed Northeast Divisions (1970 Metro) 0
+East North Central Div. 847367
+West North Central Div. 366417
+Mixed Midwest Divisions (1970 Metro) 0
+South Atlantic Division 981614
+East South Central Div. 324003
+West South Central Div. 553425
+Mixed Southern Divisions (1970 Metro) 0
+Mountain Division 328940
+Pacific Division 773547
+Mixed Western Divisions (1970 Metro) 0
+Military/Military reservations 0
+PUMA boundaries cross state lines-1% sample 0
