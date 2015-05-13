@@ -9,17 +9,21 @@ provides the ability to estimate generalized linear models on large data sets.
 The following family/link combinations are implemented in C++ for performance
 enhancements: binomial/logit, gamma/log, poisson/log, and Tweedie. Other family/link
 combinations use a combination of C++ and R code. Any valid R family object that can be used
-with glm() can be used with rxGlm(), including those that are user-defined. The following table
+with glm() can be used with \texttt{rxGlm()}, including those that are user-defined. The following table
 shows all of the supported family/link combinations (in addition to user-define
-
+%=================================================================%
 
 9.1 A Simple Example Using the Poisson Family
 The Poisson family is used to estimate models of count data. Examples from the literature
 include the following types of response variables:
- Number of drinks on a Saturday night
- Number of bacterial colonies in a Petri dish
- Number of children born to married women
- Number of credit cards a person has
+
+\begin{itemize}
+\item Number of drinks on a Saturday night
+\item Number of bacterial colonies in a Petri dish
+\item Number of children born to married women
+\item Number of credit cards a person has
+\end{itemize}
+%==================================================================================================================%
 We’ll start with a simple example from Kabacoff’s R in Action book (2011), using data provided
 with the robust R package. The data are from a placebo-controlled clinical trial of 59 epileptics.
 Patients with partial seizures were enrolled in a randomized clinical trial of the anti-epileptic
@@ -45,6 +49,10 @@ Fitting Generalized Linear Models 115
 its relationship to age, sex, and region. A variable “perwt” in the data set represents the
 probability weight for that observation. First, to create the subsample (specify the correct data
 path for your downloaded data):
+
+%==================================================================================================================%
+\begin{framed}
+\begin{verbatim}
 bigDataDir = "C:/Revolution/Data"
 bigCensusData <- file.path(bigDataDir, "Census5PCT2000.xdf")
 propinFile <- "CensusPropertyIns.xdf"
@@ -58,11 +66,16 @@ Number of observations: 5175270
 Number of variables: 5
 Number of blocks: 10
 Compression type: zlib
-An Xdf data source representing the new data file is returned. The new data file has over 5
+\end{verbatim}
+\end{framed}
+%---------------------------------------------%
+An \texttt{Xdf} data source representing the new data file is returned. The new data file has over 5
 million observations.
 Let’s do one more step in data cleaning. The variable region has some very long factor level
 character strings, and it also has a number of levels for which there are no observations. We
 can see this using rxSummary:
+\begin{framed}
+\begin{verbatim}
 rxSummary(~region, data = propinDS)
 Call:
 rxSummary(formula = ~region, data = propinDS)
@@ -73,6 +86,8 @@ Category Counts for region
 Number of categories: 17
 Number of valid observations: 5175270
 Number of missing observations: 0
+\end{verbatim}
+\end{framed}
 region Counts
 New England Division 265372
 Middle Atlantic Division 734585
@@ -89,3 +104,7 @@ Pacific Division 773547
 Mixed Western Divisions (1970 Metro) 0
 Military/Military reservations 0
 PUMA boundaries cross state lines-1% sample 0
+
+
+
+%==================================================================================================================%
