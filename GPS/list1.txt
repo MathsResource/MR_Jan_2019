@@ -14,4 +14,14 @@ Newpark, Dublin, Ireland	53.279690	-6.181159
 Skerries, Co. Dublin, Ireland	53.580551	-6.107878
 Downings, Co. Donegal, Ireland	55.194862	-7.836965
 Tuam, Co. Galway, Ireland	53.514114	-8.856518
-Galway, Ireland	53.270962	-9.062691
+Galway, Galway, Ireland	53.270962	-9.062691
+Crumlin, Dublin, Ireland	53.328430	-6.304864
+Cork, Cork, Ireland	51.903614	-8.468399
+Limerick, Ireland	52.668018	-8.630498
+Dublin, Ireland	53.353584	-6.251495
+Dublin, Ireland	53.350140	-6.266155
+Ballinasloe, Co. Galway, Ireland	53.328053	-8.224597
+Gort, Co. Galway, Ireland	53.066643	-8.818749
+Knockcroghery, Co. Roscommon, Ireland	53.575588	-8.096581
+Ardrahan, Co. Galway, Ireland	53.156433	-8.805865
+Carraroe, Co. Galway, Ireland	53.263466	-9.599905
