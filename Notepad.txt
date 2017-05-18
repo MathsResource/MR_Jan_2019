@@ -1,0 +1,26 @@
+
+Spire Dublin 	
+
+Irish UTM 	734697 734697	
+Decimal GPS 	53.349787,-6.2624867
+
+
+library(rgdal)
+library(sp)
+
+
+CRS("+init=epsg:2157")
+
+https://gis.stackexchange.com/questions/45263/converting-geographic-coordinate-system-in-r
+
+
+Projection examples
+library(maps); library(ggplot2); library(mapproj)
+states <- map_data("state")
+usamap <- ggplot(states, aes(x=long, y=lat, group=group)) +
+ geom_polygon(fill="white", colour="black")
+usamap + coord_map("mercator")
+
+# Mercator preserves direction and is useful for navigation. But distances and areas are distorted, especially near the polar region
+
+usamap + coord_map("azequalarea") 

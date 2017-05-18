@@ -1,0 +1,100 @@
+2,Steady 0,Dublin,County Dublin,1,110,627[2],6.2%
+2,Steady 0,Cork,County Cork,198,582[3],4.3%
+3,Steady 0,Limerick,County Limerick & County Clare,91,454[4],0.8%
+4,Steady 0,Galway,County Galway,76,778[5],5.6%
+5,Steady 0,Waterford,County Waterford & County Kilkenny,51,519[6],4.7%
+6,Steady 0,Drogheda,County Louth & County Meath,38,578[7],9.9%
+7,Steady 0,Dundalk,County Louth,37,816[8],7.8%
+8,Steady 0,Swords[b],County Dublin,36,924[9],8.6%
+9,Steady 0,Bray,County Wicklow & County Dublin,31,872[10],-0.1%
+10,Steady 0,Navan,County Meath,28,559[11],14.9%
+11,Steady 0,Ennis,County Clare,25,360[12],4.6%
+12,Increase 1,Kilkenny[c],County Kilkenny,24,423[13],10.1%
+13,Decrease 1,Tralee,County Kerry,23,693[14],4.2%
+14,Steady 0,Carlow,County Carlow & County Laois,23,030[15],11.1%
+15,Increase 2,Newbridge,County Kildare,21,561[16],16.4%
+16,Decrease 1,Naas,County Kildare,20,713[17],3.3%
+17,Increase 4,Athlone,County Westmeath & County Roscommon,20,153[18],14.9%
+18,Increase 9,Portlaoise,County Laois,20,145[19],37.9%
+19,Decrease 1,Mullingar,County Westmeath,20,103[20],9.2%
+20,Decrease 1,Wexford,County Wexford,20,072[21],10.5%
+21,Increase 3,Balbriggan,County Dublin,19,960[22],28.3%
+22,Decrease 2,Letterkenny,County Donegal,19,588[23],11.4%
+23,Decrease 1,Celbridge,County Kildare,19,537[24],13.2%
+24,Decrease 8,Sligo,County Sligo,19,452[25],0.3%
+25,Decrease 2,Clonmel,County Tipperary & County Waterford,17,908[26],5.3%
+26,Increase 3,Greystones,County Wicklow,17,468[27],19.9%
+27,Decrease 2,Malahide,County Dublin,15,846[28],6.1%
+28,Decrease 2,Leixlip,County Kildare,15,452[29],5.3%
+29,Increase 2,Carrigaline,County Cork,14,775[30],15.1%
+30,Steady 0,Tullamore,County Offaly,14,361[31],11.1%
+31,Decrease 3,Killarney,County Kerry,14,219[32],-2.6%
+32,Increase 1,Arklow,County Wicklow,13,009[33],10.6%
+33,Decrease 2,Maynooth,County Kildare,12,510[34],16.8%
+34,Steady 0,Cobh,County Cork,12,347[35],9.2%
+35,Decrease 3,Castlebar,County Mayo,12,318[36],3.6%
+36,Increase 3,Midleton,County Cork,12,001[37],19.4%
+37,Steady 0,Mallow,County Cork,11,605[38],13.3%
+38,Increase 9,Ashbourne,County Meath,11,355[39],33.1%
+39,Decrease 3,Ballina,County Mayo,11,086[40],6.5%
+40,Increase 5,Laytown-Bettystown-Mornington,County Meath,10,889[41],21.3%
+41,Steady 0,Enniscorthy,County Wexford,10,838[42],13.6%
+42,Decrease 4,Wicklow,County Wicklow,10,356[43],2.8%
+43,Decrease 3,Tramore,County Waterford,10,328[44],7.2%
+44,Increase 7,Cavan,County Cavan,10,205[45],29.5%
+45,Increase 5,Athy,County Kildare,9,926,20.8%
+46,Decrease 3,Shannon,County Clare,9,673,4.9%
+47,Decrease 5,Skerries,County Dublin,9,671,1.4%
+48,Decrease 2,Longford,County Longford,9,601,8.7%
+49,Decrease 1,Dungarvan,County Waterford,9,427,12.7%
+50,Decrease 6,Portmarnock,County Dublin,9,285,3.4%
+51,Decrease 2,Rush,County Dublin,9,231,11.4%
+52,Increase 5,Gorey,County Wexford,9,114,26.7%
+53,Increase 3,Ratoath,County Meath,9,043,24.7%
+54,Decrease 2,Nenagh,County Tipperary,8,439,8.9%
+55,Increase 5,Trim,County Meath,8,268,20.3%
+56,Increase 2,Tuam,County Galway,8,242,19.7%
+57,Decrease 4,New Ross,County Wexford,8,151,5.7%
+58,Decrease 3,Kildare,County Kildare,8,142,8.0%
+59,Decrease 5,Thurles,County Tipperary,7,933,3.3%
+60,Steady 0,Youghal,County Cork,7,794,14.9%
+61,Increase 2,Portarlington,County Laois & County Offaly,7,788,29.7%
+62,Decrease 1,Monaghan,County Monaghan,7,452,11.1%
+63,Increase 10,Lusk,County Dublin,7,022,34.1%
+64,Increase 2,Edenderry,County Offaly,6,977,18.5%
+65,Increase 4,Dunboyne,County Meath,6,959,21.8%
+66,Decrease 2,Buncrana,County Donegal,6,839,15.7%
+67,Decrease 3,Donabate,County Dublin,6,778,23.3%
+68,Increase 11,Clane,County Kildare,6,702,34.9%
+69,Decrease 7,Ballinasloe,County Galway & County Roscommon,6,659,5.6%
+70,Decrease 2,Bandon,County Cork,6,640,14.1%
+71,Decrease 4,Fermoy,County Cork,6,489,10.5%
+72,Increase 3,Newcastle West,County Limerick,6,327,24.1%
+73,Decrease 2,Westport,County Mayo,6,063,10.7%
+74,Decrease 9,Carrick-on-Suir,County Tipperary & County Waterford,5,931,0.4%
+75,Decrease 3,Kells,County Meath,5,888,12.2%
+76,Steady 0,Birr,County Offaly & County Tipperary,5,822,14.6%
+77,Increase 15,Kinsealy-Drinan,County Dublin,5,814,59.2%
+78,Decrease 4,Passage West,County Cork,5,790,11.3%
+79,Decrease 1,Roscommon,County Roscommon,5,693,13.5%
+80,Increase 7,Kilcock,County Kildare,5,533,35.0%
+81,Decrease 1,Roscrea,County Tipperary,5,403,7.3%
+82,Decrease 5,Tipperary,County Tipperary,5,310,4.8%
+83,Increase 8,Sallins,County Kildare,5,283,38.8%
+84,Decrease 2,Loughrea,County Galway,5,062,11.7%
+85,Increase 5,Blessington,County Wicklow,5,010,24.7%
+86,Decrease 5,Ardee,County Louth,4,927,5.0%
+87,Decrease 4,Carrickmacross,County Monaghan,4,925,12.3%
+88,Steady 0,Kinsale,County Cork,4,893,19.4%
+89,Decrease 4,Ballybofey-Stranorlar,County Donegal,4,852,16.2%
+90,Decrease 6,Listowel,County Kerry,4,832,11.4%
+91,Decrease 3,Oranmore,County Galway,4,799,36.6%
+92,Decrease 3,Mountmellick,County Laois,4,735,16.4%
+93,Decrease 7,Clonakilty,County Cork,4,721,13.6%
+94,Increase new,Carrigtwohill,County Cork,4,551,63.6%
+95,Increase new,Cashel,County Tipperary,4,051,38.0%
+96,Increase 3,Kilcoole,County Wicklow,4,049,24.5%
+97,Increase 3,Duleek,County Meath,3,988,23.2%
+98,Increase new,Carrick-on-Shannon,County Leitrim,3,980,25.8%
+99,Increase new,Tullow,County Carlow,3,972,30.3%
+100,Increase new,Athenry,County Galway
