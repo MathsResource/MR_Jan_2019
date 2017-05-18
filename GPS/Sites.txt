@@ -1,1 +1,5 @@
-Thomond Park Stadium, Limerick, Ireland	52.673306	-8.642367
+Thomond Park Stadium, Limerick, Ireland,	52.673306	-8.642367
+St Colman's Cathedral, Cobh, Cork, Ireland,	51.851463	-8.293687
+Collins Barracks, Dublin, Ireland,	53.348782	-6.287363
+Natural History Museum, Dublin, Co. Dublin, Ireland,	53.340080	-6.255072
+Wellington Monument, Dublin, Ireland,	53.348976	-6.303094
