@@ -1,0 +1,17 @@
+Wexford, Wexford,Ireland	52.336918	-6.463338
+Maynooth, Co. Kildare, Ireland	53.381290	-6.591850
+Naas, Co. Kildare, Ireland	53.220566	-6.659308
+Newbridge, Co. Kildare, Ireland	53.176861	-6.802586
+Ennis, Clare, Ireland	52.847054	-8.988436
+Clane, Co. Kildare, Ireland	53.293785	-6.687040
+Mhuine Bheag, Co. Carlow, Ireland	52.703434	-6.956577
+Skibbereen, Co. Cork, Ireland	51.555923	-9.262130
+Skerries, Co. Dublin, Ireland	53.580429	-6.106339
+Mallow, Co. Cork, Ireland	52.138977	-8.653916
+Navan, Co. Meath, Ireland	53.653042	-6.684230
+Ovens, Co. Cork, Ireland	51.880878	-8.658640
+Newpark, Dublin, Ireland	53.279690	-6.181159
+Skerries, Co. Dublin, Ireland	53.580551	-6.107878
+Downings, Co. Donegal, Ireland	55.194862	-7.836965
+Tuam, Co. Galway, Ireland	53.514114	-8.856518
+Galway, Ireland	53.270962	-9.062691
