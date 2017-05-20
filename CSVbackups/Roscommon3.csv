@@ -1,0 +1,77 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","1427NEW003",NA,NA,"Unknown",NA,NA,NA,1999-06-21,168600,286550,"to 100m","STONEPARK",NA,"Roscommon",20,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"cf well grant info",NA,NA
+"2","1429SEW113",NA,NA,"Borehole",67.1,4.6,"Bedrock Met",1998-09-09,169210,291060,"to 100m","CLOGGARNAGH",NA,"Roscommon",14,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,30.5,33.5,NA,NA,NA,"Drilled by Patrick Briody, Rathangan",NA,"Yield estimated"
+"3","1723NEW008","ILC 1788B",NA,"Borehole",68.3,6.1,"Bedrock Met",1976-08-31,196400,247300,"to 100m","CARROWCLOGHAN",NA,"Roscommon",48,"Agri & domestic use","Poor","V",36,NA,NA,18.3,2,152,42.7,NA,NA,NA,NA,NA,NA,NA
+"4","1723NEW009","ILC 1759",NA,"Borehole",54.9,0.9,"Bedrock Met",1975-05-09,193500,248200,"to 100m","CURRAGHBOY",NA,"Roscommon",48,"Agri & domestic use","Poor","V",34.9,NA,NA,20.1,1.74,178,33.5,50.3,NA,NA,NA,NA,NA,"72 hr test"
+"5","1723NEW013","ILC 1790",NA,"Borehole",46,2.7,"Bedrock Met",1978-10-04,188510,244790,"to 100m","CUILLEENOOLAGH",NA,"Roscommon",47,"Agri & domestic use","Moderate","IV",54.5,NA,NA,4,13.6,178,18.3,32.9,43.3,NA,NA,"Limestone",NA,"72 hr test"
+"6","1723NEW014","ILC 1789",NA,"Borehole",32.6,1.8,"Bedrock Met",1975-09-24,188300,244200,"to 100m","MILLTOWN",NA,"Roscommon",47,"Agri & domestic use","Moderate","IV",76.4,NA,NA,9.4,8.1,203,19.5,31.1,NA,NA,NA,NA,NA,"72 hr test"
+"7","1723NEW020",NA,NA,"Borehole",34.4,24.4,"Bedrock Not Met",NA,191230,242850,"to 100m","FEACLE",NA,"Roscommon",48,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8","1723NEW056","ILC 1759",NA,"Borehole",54.9,0.9,"Bedrock Met",1975-05-09,193260,247730,"to 100m","CURRAGHBOY",NA,"Roscommon",48,"Agri & domestic use","Poor","V",34.9,NA,NA,20.1,1.74,178,33.5,50.3,NA,NA,NA,"CLEAR & colourless; no iron.",NA,"72 hr test"
+"9","1723NEW082",NA,NA,"Dug well",7.6,NA,"Bedrock Not Met",NA,192810,242660,"to 100m","CARROWKEERAN","Keoghville","Roscommon",48,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10","1723SEW014","ILC 1776",NA,"Borehole",39.6,20.1,"Bedrock Met",1975-12-16,199500,234500,"to 100m","JOHNSTOWN DEMESNE",NA,"Roscommon",55,"Agri & domestic use","Poor","V",32.7,NA,NA,18.6,1.76,127,21.3,36.6,NA,NA,NA,NA,NA,NA
+"11","1725NEW111","Ballyleague TW 1","Roscommon Co Co","Borehole",61,11.5,"Bedrock Met",1989-10-15,199100,269600,"to 100m","BALLYCLARE",NA,"Roscommon",37,"Other","Excellent",NA,1090,NA,NA,NA,NA,150,6,26,NA,NA,NA,"Drilled by East Galway Drilling Co.
+Limestone",NA,"Yield estimated"
+"12","1725NEW130","TW 11","Roscommon Co Co","Borehole",37,12.5,"Bedrock Met",1994-09-15,187990,263120,"to 100m","SLEVINAGEE",NA,"Roscommon",39,"Other","Failure",NA,220,NA,NA,NA,NA,150,15.2,21.3,31,35,NA,"Drilled by O'Donohoe Bros, Gorey
+Limestone/Dolomite",NA,"Estimated Yield"
+"13","1725NEW131","TW 10","Roscommon Co Co","Borehole",27.5,4,"Bedrock Met",1994-09-15,186680,262330,"to 100m","STONEPARK",NA,"Roscommon",39,"Other","Poor",NA,12,NA,NA,NA,NA,150,21,NA,NA,NA,NA,"Drilled by O'Donohoe Bros, Gorey
+Limestone",NA,"Estimated Yield"
+"14","1725NEW132",NA,"Roscommon Co Co","Borehole",32,10.5,"Bedrock Met",1994-09-15,187410,261970,"to 100m","BALLINAGARD",NA,"Roscommon",39,"Other","Excellent",NA,545,NA,NA,NA,NA,150,6,15.2,18.3,NA,NA,"Drilled by O'Donohoe Bros, Gorey;
+Weathered Dolomite",NA,"Estimated Yield"
+"15","1725NWW049",NA,NA,"Borehole",66.1,NA,"DTB Unknown",1972-09-15,178250,268760,"to 100m","BALLYDOOLEY",NA,"Roscommon",34,NA,"Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"16","1725SEW022",NA,NA,"Borehole",102.4,9.1,"Bedrock Met",NA,187040,258070,"to 100m","KNOCKADANGAN",NA,"Roscommon",41,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Patrick Healy",NA,NA
+"17","1725SEW028",NA,NA,"Borehole",73.2,6.1,"Bedrock Met",NA,190080,257030,"to 100m","KILCASH",NA,"Roscommon",42,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,127,NA,NA,NA,NA,NA,"Drilled by Patrick Healy",NA,NA
+"18","1725SEW081",NA,"Roscommon Co Co","Borehole",44.8,NA,"DTB Unknown",NA,191540,257680,"to 100m","CARTRONPERAGH",NA,"Roscommon",42,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled 1957",NA,NA
+"19","1725SEW082",NA,NA,"Borehole",NA,4,"Bedrock Met",NA,187600,259230,"to 100m","TROMAUN",NA,"Roscommon",41,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,127,NA,NA,NA,NA,NA,"Drilled by Pat Healy, Tullyroe, in 1970",NA,NA
+"20","1725SWW008",NA,NA,"Borehole",50,6.7,"Bedrock Met",1971-03-26,183140,254560,"to 100m","LISGILLALEA",NA,"Roscommon",44,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,27.4,45.7,NA,NA,NA,"Limestone from 6.7m to 47.5m, then Sandstone 
+Drilled by Pat Healy, Tullyroe",NA,NA
+"21","1727NEW006",NA,NA,"Unknown",NA,NA,NA,NA,199510,287490,"to 100m","CARRIGEEN",NA,"Roscommon",18,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No data",NA,"chemistry data available"
+"22","1727NWW006",NA,NA,"Borehole",24.4,NA,"Bedrock Not Met",1998-10-07,184450,280170,"to 100m","CORBALEY",NA,"Roscommon",28,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,15.2,22.9,NA,NA,NA,NA,NA,NA
+"23","1727NWW008","ILC 1839",NA,"Borehole",2.9,NA,NA,NA,181230,285680,"to 100m","BALLYMURRAY",NA,"Roscommon",22,"Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"o/b boulder caly
+lst - black argillaceous
+grey oulitic lst underlying"
+"24","1727SEW105",NA,NA,"Borehole",54.9,9.1,"Bedrock Met",1998-11-25,195030,273340,"to 100m","AGHACLOGHER",NA,"Roscommon",36,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,42.7,48.8,NA,NA,NA,"Drilled by Patrick Briody, Rathangan",NA,"Estimated Yield"
+"25","1727SWW083",NA,NA,"Unknown",NA,NA,NA,1999-01-05,184510,276390,"to 100m","RATHMORE",NA,"Roscommon",28,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WELL GRANT INFO",NA,NA
+"26","1729NWW099",NA,NA,"Borehole",47.2,21.3,"Bedrock Met",NA,180870,301170,"to 100m","BALLYTRASNA",NA,"Roscommon",6,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"27","1729NWW268",NA,NA,"Borehole",67.1,10.7,"Bedrock Met",1996-10-15,180140,305140,"to 100m","DEERPARK",NA,"Roscommon",6,"Domestic use only","Poor",NA,6.5,NA,NA,NA,NA,203,48.8,61,NA,NA,NA,"Drilled by Patrick Briody","For 2 houses","Yield estimated"
+"28","1729NWW269",NA,NA,"Borehole",103.6,5.5,"Bedrock Met",1996-10-15,182610,300080,"to 100m","GRALLAGH MORE",NA,"Roscommon",6,NA,"Failure",NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Patrick Briody
+Grey/Black Limestone",NA,"no water"
+"29","1729SWW009",NA,NA,"Borehole",21.3,18.3,"Bedrock Met",1999-10-15,176340,292600,"to 100m","LURGAN",NA,"Roscommon",15,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,152,18.9,NA,NA,NA,NA,NA,NA,NA
+"30","1729SWW010",NA,NA,"Borehole",54.9,18.3,"Bedrock Met",1999-02-23,176460,291490,"to 100m","MANTUAR",NA,"Roscommon",15,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,50.3,53.3,NA,NA,NA,NA,NA,NA
+"31","1729SWW040",NA,NA,"Borehole",61,NA,NA,NA,180570,298710,"to 100m","HAREPARK",NA,"Roscommon",10,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Ran dry very fast.","Exact location unknown.",NA
+"32","1731SEW014",NA,NA,"Unknown",NA,NA,NA,1998-01-26,190610,317440,"to 100m","ALTAGOWLAN",NA,"Roscommon",2,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WELL GRANT INFO",NA,NA
+"33","2027NWW010",NA,NA,"Borehole",29.5,NA,NA,NA,203430,286860,"to 100m","DRUMMAN MORE",NA,"Roscommon",24,"Unknown","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Data source GSI stride sheet
+calculations very approx. taken from Stride sheet",NA
+"34","1725NEW019",NA,NA,"Borehole",36,10.5,"Bedrock Met",NA,190170,262320,"to 200m","LISBRIDE",NA,"Roscommon",40,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"35","1725NEW046",NA,NA,"Borehole",11.4,8.2,"Bedrock Met",1966-05-13,193100,266750,"to 200m","TONLEGEE",NA,"Roscommon",40,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/ROS 256",NA,NA
+"36","1725NWW079","Arigna borehole",NA,"Borehole",54.9,NA,"DTB Unknown",NA,176800,267710,"to 200m","ARIGNAGH",NA,"Roscommon",38,NA,"Good",NA,327,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"37","1725SEW046",NA,NA,"Borehole",30.5,NA,"DTB Unknown",NA,193800,258340,"to 200m","KNOCKCROGHERY",NA,"Roscommon",42,"Other","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"38","1725SWW013",NA,NA,"Borehole",20.1,6.7,"Bedrock Met",1976-01-20,180950,259700,"to 200m","TOBERAVADDY","Passage","Roscommon",41,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB\ROS 1214",NA,NA
+"39","1727NEW035",NA,NA,"Borehole",28.4,NA,"DTB Unknown",1970-09-10,196200,287330,"to 200m","CUILMORE",NA,"Roscommon",23,"Agri & domestic use","Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/ROS 1345",NA,NA
+"40","1727SWW071",NA,NA,"Dug well",4.6,4.6,"Bedrock Presumed",1964-09-15,183800,273950,"to 200m","GRANGE",NA,"Roscommon",35,"Agri & domestic use","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/ROS 241",NA,NA
+"41","1727SWW088","ILC 1085",NA,"Borehole",45.7,NA,NA,NA,179130,270960,"to 200m","NEWTOWN",NA,"Roscommon",34,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"42","1729NWW267",NA,NA,"Borehole",80,NA,"DTB Unknown",NA,183680,302000,"to 200m","RATHDIVEEN",NA,"Roscommon",6,"Industrial use","Good","III",320,NA,NA,NA,25.06,NA,NA,NA,NA,NA,NA,"well probably more than 80m deep","report by O Neill GWEng","proven yield 320m3/d spec. cap 25.6. the predicted safe yield is 600m3/d"
+"43","1723NEW018",NA,NA,"Dug well",9.4,7,"Bedrock Met",1968-09-27,191000,241000,"to 500m","SHEEAN",NA,"Roscommon",51,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/ROS 145",NA,NA
+"44","1723NEW048",NA,NA,"Borehole",69.5,21.3,"Bedrock Met",NA,185690,246140,"to 500m","CARROWNADURLY","Dysert","Roscommon",47,NA,"Moderate",NA,90,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Kelly & Bennett, Longford, 1958
+LIMESTONE",NA,NA
+"45","1723NEW063",NA,NA,"Dug well",8.8,7,"Bedrock Met",NA,191040,240780,"to 500m","SHEEAN",NA,"Roscommon",51,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"46","1723NEW072",NA,NA,"Borehole",26.8,NA,"DTB Unknown",1970-08-21,195750,244940,"to 500m","MULLAGH",NA,"Roscommon",48,"Agri & domestic use","Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/ROS 1372",NA,NA
+"47","1723NEW092",NA,NA,"Borehole",19.5,8.2,"Bedrock Met",NA,192370,249680,"to 500m","GORTNASOOLBOY",NA,"Roscommon",45,NA,"Good",NA,218.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Data source - Donal Daly one inch maps",NA
+"48","1725NEW020",NA,NA,"Borehole",21.3,9.5,"Bedrock Met",1965-09-21,189430,263280,"to 500m","CARROWROE",NA,"Roscommon",40,"Agri & domestic use","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"49","1725NEW021",NA,NA,"Borehole",21.3,15.2,"Bedrock Met",1961-06-08,189440,263290,"to 500m","CARROWROE",NA,"Roscommon",40,"Agri & domestic use","Poor",NA,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/ROS 142",NA,NA
+"50","1725NEW028",NA,NA,"Borehole",21.9,17.1,"Bedrock Met",1968-06-15,191800,266450,"to 500m","BALLINABOY",NA,"Roscommon",40,"Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/ROS 683",NA,NA
+"51","1725NEW039",NA,NA,"Dug well",6.4,6.1,"Bedrock Met",1974-12-15,196480,268340,"to 500m","MONEEN",NA,"Roscommon",36,"Agri & domestic use","Poor",NA,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/ROS 93",NA,NA
+"52","1725NEW041",NA,NA,"Borehole",25.3,2.1,"Bedrock Met",1973-12-15,197150,267400,"to 500m","GARDENTOWN",NA,"Roscommon",40,"Agri & domestic use","Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/ROS 2175, 2149, 1640",NA,NA
+"53","1725NEW045",NA,NA,"Borehole",22.3,20.7,"Bedrock Met",1971-08-15,194270,267040,"to 500m","CLOONTIMULLAN",NA,"Roscommon",40,"Agri & domestic use","Poor",NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"54","1725NEW088",NA,NA,"Borehole",15.2,NA,"DTB Unknown",1972-09-15,190900,267250,"to 500m","BALLYNACULLIA",NA,"Roscommon",40,"Agri & domestic use","Poor",NA,4.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"55","1725NEW089",NA,NA,"Borehole",21.9,17.1,"Bedrock Met",NA,191430,266650,"to 500m","CARTRON (BRETT)",NA,"Roscommon",40,"Agri & domestic use","Poor",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"56","1725NWW077",NA,NA,"Borehole",NA,NA,"DTB Unknown",NA,182390,265920,"to 500m","CAMS",NA,"Roscommon",39,NA,"Good",NA,109.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Donal Daly's one inch maps
+",NA
+"57","1725NWW078","87/18","ROSCOMMON CO CO","Borehole",NA,NA,NA,NA,180670,262780,"to 500m","CASTLECOOTE",NA,"Roscommon",39,"Public supply (Co Co)","Moderate",NA,75,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Donal Daly's one inch maps",NA
+"58","1725SWW005",NA,NA,"Borehole",12.8,3.1,"Bedrock Met",1960-10-15,181000,256800,"to 500m","CORRA BEG",NA,"Roscommon",41,"Agri & domestic use","Poor",NA,7.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB\ROS 90 (DEC 1962)",NA,NA
+"59","1725SWW006",NA,NA,"Borehole",52.4,12.2,"Bedrock Met",1973-08-23,182150,256400,"to 500m","ARAGHTY",NA,"Roscommon",41,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/ROS 676",NA,NA
+"60","1727NEW031",NA,NA,"Dug well",0.9,NA,"DTB Unknown",1970-04-27,186460,286760,"to 500m","CLOONBOYOGE",NA,"Roscommon",22,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/ROS 1096",NA,NA
+"61","1731SEW015","892",NA,"Borehole",48.8,10.7,"Bedrock Met",NA,186620,313860,"to 500m","BALLYFARNON",NA,"Roscommon",1,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,24.4,42.7,NA,NA,NA,NA,"PLOTTED IN THE TOWN",NA
+"62","2027NWW021",NA,NA,"Borehole",36.6,NA,"DTB Unknown",1970-08-21,202250,288880,"to 500m","DRUMMAN BEG",NA,"Roscommon",18,"Agri & domestic use","Poor",NA,24,NA,NA,NA,NA,24,NA,NA,NA,NA,NA,"WTB/ROS 1385",NA,NA
+"63","2027NWW022",NA,NA,"Borehole",39,19.5,"Bedrock Met",1970-05-08,203370,288550,"to 500m","KNOCKHALL","Rinnafarna","Roscommon",18,NA,"Poor",NA,16.4,NA,NA,NA,NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA
+"64","2027NWW041",NA,"Roscommon Co. Co.","Borehole",45,9,"Bedrock Met",NA,205080,287000,"to 500m","ROOSKY",NA,"Roscommon",24,"Public supply (Co Co)","Good",NA,185.5,NA,NA,NA,NA,185.5,NA,NA,NA,NA,NA,NA,"Located at water tower  Roosky.
+From Donal Daly's one inch maps",NA

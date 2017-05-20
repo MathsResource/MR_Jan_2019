@@ -1,0 +1,113 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","2023NEW007","well 1",NA,"Borehole",13.7,NA,"DTB Unknown",NA,223800,242100,"to 100m","ROSEMOUNT",NA,"Westmeath",31,"Agri & domestic use","Good","I",221.5,NA,NA,NA,331,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","2023NEW008"," well 2",NA,"Borehole",13.7,NA,"DTB Unknown",NA,223800,242000,"to 100m","BALLYBRICKOGE",NA,"Westmeath",31,"Agri & domestic use","Good","I",202,NA,NA,NA,351,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","2023NEW016",NA,NA,"Borehole",79.2,7,"Bedrock Met",1998-05-01,221260,247090,"to 100m","MULLAGHMEEHAN",NA,"Westmeath",24,"Agri & domestic use","Poor","V",10.9,NA,NA,NA,0.45,150,60.9,NA,NA,NA,NA,NA,NA,NA
+"4","2023NEW021",NA,NA,"Borehole",60.9,5.4,"Bedrock Met",1998-03-01,223310,248500,"to 100m","MULLAGHCLOE",NA,"Westmeath",23,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,150,56.4,NA,NA,NA,NA,NA,NA,NA
+"5","2023NEW025",NA,NA,"Borehole",76.2,3.6,"Bedrock Met",NA,221310,240540,"to 100m","BALLINDERRY",NA,"Westmeath",31,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,150,68.6,NA,NA,NA,NA,NA,NA,NA
+"6","2023NEW026",NA,NA,"Borehole",91.4,5.4,"Bedrock Met",1998-06-15,219080,243640,"to 100m","MOYVOUGHLY",NA,"Westmeath",30,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,150,59.4,NA,NA,NA,NA,NA,NA,NA
+"7","2025NEW201",NA,NA,"Borehole",16.7,NA,"DTB Unknown",NA,225930,260300,"to 100m","BALLYNACARROW",NA,"Westmeath",10,"Agri & domestic use","Moderate","III",65.5,NA,NA,NA,21.5,150,16.8,NA,NA,NA,NA,NA,NA,NA
+"8","2025SEW201","ILC 1446",NA,"Borehole",11.9,NA,"DTB Unknown",1968-11-24,225350,257450,"to 100m","BALLYMAGLAVY",NA,"Westmeath",10,"Agri & domestic use","Poor","III",24,NA,NA,NA,78.7,150,NA,NA,NA,NA,NA,NA,NA,"test date 16-nov-1968"
+"9","2025SEW209",NA,NA,"Borehole",45.7,9.7,"Bedrock Met",1998-06-01,228720,259660,"to 100m","CHURCHTOWN",NA,"Westmeath",10,"Agri & domestic use","Poor","V",38.2,NA,NA,NA,1.79,150,39.6,NA,NA,NA,NA,NA,NA,NA
+"10","2025SWW008",NA,NA,"Borehole",85.3,3.6,"Bedrock Met",2000-05-03,212190,250490,"to 100m","TULLYHOGAN",NA,"Westmeath",23,"Agri & domestic use","Poor","V",21.8,NA,NA,NA,0.89,150,67.1,NA,NA,NA,NA,NA,NA,"dd=24.38m"
+"11","2323NEW220","TP 1",NA,"Dug well",3,NA,"Bedrock Not Met",NA,258400,248970,"to 100m","ANNASKINNAN",NA,"Westmeath",27,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Pit was dry",NA
+"12","2323NEW221","TP 2",NA,"Dug well",2.8,NA,"Bedrock Not Met",1996-08-08,258610,248750,"to 100m","ANNASKINNAN",NA,"Westmeath",27,"Other",NA,NA,NA,NA,NA,NA,NA,NA,2.5,NA,NA,NA,NA,NA,NA,NA
+"13","2323NEW222","TP 3",NA,"Dug well",2.6,NA,"Bedrock Not Met",1996-08-08,258280,249830,"to 100m","ANNASKINNAN",NA,"Westmeath",27,"Other",NA,NA,NA,NA,NA,NA,NA,NA,2.3,NA,NA,NA,NA,NA,NA,NA
+"14","2323NEW223","TP 5",NA,"Dug well",3.4,NA,"Bedrock Not Met",1996-08-08,258910,249900,"to 100m","ANNASKINNAN",NA,"Westmeath",27,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","2323NEW224","TP 6",NA,"Dug well",2.7,NA,"Bedrock Not Met",1996-08-08,258790,249120,"to 100m","ANNASKINNAN",NA,"Westmeath",27,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"16","2323NEW225","TP 7",NA,"Dug well",3.2,NA,"Bedrock Not Met",1996-08-08,255920,247520,"to 100m","CORRELLSTOWN",NA,"Westmeath",27,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"17","2323NEW226","TP 8",NA,"Dug well",3,NA,"Bedrock Not Met",1996-08-08,255700,247230,"to 100m","CORRELLSTOWN",NA,"Westmeath",27,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"18","2323NEW227","TP (",NA,"Dug well",2.7,NA,"Bedrock Not Met",1996-08-08,255120,247410,"to 100m","CROSSANSTOWN",NA,"Westmeath",27,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"19","2323NEW228","TP 10",NA,"Dug well",2.8,NA,"Bedrock Not Met",1996-08-08,254840,247440,"to 100m","CROSSANSTOWN",NA,"Westmeath",27,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"20","2323NEW229","TP 11",NA,"Dug well",2.6,NA,"Bedrock Not Met",1996-08-08,255350,247740,"to 100m","CORRELLSTOWN",NA,"Westmeath",27,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"21","2323NWW008","TP 56",NA,"Dug well",1.5,NA,"Bedrock Not Met",1996-08-08,243930,240700,"to 100m","PIERCETOWN",NA,"Westmeath",33,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"22","2323NWW009","TP 57",NA,"Dug well",1.6,NA,"Bedrock Not Met",1996-08-08,244080,241360,"to 100m","CASLTLELOST WEST",NA,"Westmeath",33,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"23","2323NWW010","TP 58",NA,"Dug well",1.6,NA,"Bedrock Not Met",1996-08-08,244230,240990,"to 100m","CASTLELOST WEST",NA,"Westmeath",33,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"24","2323NWW011","TP 59",NA,"Dug well",1.5,NA,"Bedrock Not Met",1996-08-08,244460,240640,"to 100m","CASTLELOST WEST",NA,"Westmeath",33,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"25","2323NWW012","ILC 1363",NA,"Borehole",25.7,NA,"DTB Unknown",NA,239840,249890,"to 100m","CARTRON",NA,"Westmeath",26,"Agri & domestic use","Moderate","IV",41.6,NA,NA,NA,13.6,150,NA,NA,NA,NA,NA,NA,NA,"72 HR TEST 4-aug-1997"
+"26","2323NWW013","ILC 1363 C",NA,"Borehole",33.2,NA,"DTB Unknown",1970-10-28,239880,248940,"to 100m","LADESTOWN",NA,"Westmeath",26,"Agri & domestic use","Poor","V",37.5,NA,NA,NA,2.16,150,NA,NA,NA,NA,NA,NA,NA,"test date 5-nov-1971  72hr test"
+"27","2323SEW200","TP 54",NA,"Dug well",1.6,NA,"Bedrock Not Met",1996-08-08,245350,238760,"to 100m","KILTOTAN",NA,"Westmeath",33,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"28","2323SEW201","TP 55",NA,"Dug well",1.7,NA,"Bedrock Not Met",1996-08-08,245060,239160,"to 100m","KILTOTAN",NA,"Westmeath",33,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"29","2323SWW100","TP 52",NA,"Dug well",1.6,NA,"Bedrock Not Met",1996-08-14,244780,238780,"to 100m","KILTOTAN",NA,"Westmeath",33,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"30","2323SWW101","TP 53",NA,"Dug well",1.5,NA,"Bedrock Not Met",1996-08-14,244900,239010,"to 100m","KILTOTAN",NA,"Westmeath",33,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"31","2323SWW103",NA,NA,"Borehole",30.5,13.4,"Bedrock Met",1999-09-18,241800,234250,"to 100m","MONTRATH",NA,"Westmeath",39,"Agri & domestic use","Moderate","IV",54.5,NA,NA,NA,8.93,150,16.8,NA,NA,NA,NA,NA,NA,NA
+"32","2325NEW002","I LC 1868",NA,"Borehole",36.3,33.5,"Bedrock Met",1980-07-14,255260,265170,"to 100m","DRUMCREE",NA,"Westmeath",8,"Unknown","Moderate","IV",76.3,NA,NA,NA,7,150,14,33.5,35.3,NA,NA,NA,NA,NA
+"33","2325NEW004","ILC 1345",NA,"Borehole",39.6,NA,"DTB Unknown",NA,259700,267700,"to 100m","ARCHERSTOWN",NA,"Westmeath",8,"Agri & domestic use","Moderate","IV",72,NA,NA,NA,5.03,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"34","2325SEW001"," I L C 1760"," I L C","Borehole",15.8,11.9,"Bedrock Met",1974-09-04,259710,255710,"to 100m","CRADDANSTOWN",NA,"Westmeath",20,"Agri use only","Poor","IV",36.6,NA,NA,NA,4.4,125,12.2,15.5,NA,NA,NA,NA,NA,"Chemistry data available"
+"35","2325SEW008","TP 4",NA,"Dug well",2.6,NA,"Bedrock Not Met",1996-08-08,258520,250190,"to 100m","BALLYHAW",NA,"Westmeath",27,"Other",NA,NA,NA,NA,NA,NA,NA,NA,2.5,NA,NA,NA,NA,NA,NA,NA
+"36","2325SEW009","TP 12",NA,"Dug well",3,NA,"Bedrock Not Met",1996-08-09,256720,253910,"to 100m","HODGESTOWN",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"37","2325SEW010","TP 13",NA,"Dug well",3,NA,"Bedrock Not Met",1996-08-09,256140,253700,"to 100m","HODGESTOWN",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"38","2325SEW011","TP 14",NA,"Dug well",2.9,NA,"Bedrock Not Met",1996-08-09,256650,253320,"to 100m","HIGGANSTOWN",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"39","2325SEW012","TP 15",NA,"Dug well",2.4,NA,"Bedrock Not Met",1996-08-09,257200,253130,"to 100m","HIGGANSTOWN",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"40","2325SEW013","TP 16",NA,"Dug well",2.7,NA,"Bedrock Not Met",1996-08-09,257520,253890,"to 100m","HIGGANSTOWN",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"41","2325SEW014","TP 17",NA,"Dug well",2.4,NA,"Bedrock Not Met",1996-08-09,257690,254390,"to 100m","CORBETSTOWN",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"42","2325SEW015","TP 18",NA,"Dug well",2.5,NA,"Bedrock Not Met",1996-08-08,256550,254320,"to 100m","MILLERSTOWN",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"43","2325SEW016","TP 19",NA,"Dug well",2.6,NA,"Bedrock Not Met",1996-08-09,257230,252060,"to 100m","KILLUCAN",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"44","2325SEW017","TP 20",NA,"Dug well",2.9,NA,"Bedrock Not Met",1996-08-09,257360,251920,"to 100m","KILLUCAN",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"45","2325SEW018","TP 21",NA,"Dug well",2.5,NA,"Bedrock Not Met",1996-08-12,257890,252050,"to 100m","KILLUCAN",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"46","2325SEW019","TP 22",NA,"Dug well",2.8,NA,"Bedrock Not Met",1996-08-12,257580,251500,"to 100m","RATHWIRE",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"47","2325SEW020","TP 23",NA,"Dug well",2.6,NA,"Bedrock Not Met",1996-08-12,258320,251520,"to 100m","CURRISTOWN",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,1.7,NA,NA,NA,NA,NA,NA,"seepage"
+"48","2325SEW021","TP 24",NA,"Dug well",3,NA,"Bedrock Not Met",1996-08-12,257130,250950,"to 100m","RATHWIRE",NA,"Westmeath",27,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"49","2325SEW022","TP 25",NA,"Dug well",2.9,NA,"Bedrock Not Met",1996-08-12,256300,251590,"to 100m","RATHWIRE",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"50","2325SEW023","TP 26",NA,"Dug well",2.6,NA,"Bedrock Not Met",1996-08-12,256390,258290,"to 100m","BALLYGILLIN",NA,"Westmeath",13,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"51","2325SEW024","TP 27",NA,"Dug well",2.7,NA,"Bedrock Not Met",1996-08-12,256200,258680,"to 100m","BALLYGILLIN",NA,"Westmeath",13,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"52","2325SEW025","TP 28",NA,"Dug well",2.2,NA,"Bedrock Not Met",1996-08-12,256080,257950,"to 100m","BALLYGILLIN",NA,"Westmeath",13,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"53","2325SEW026","TP 29",NA,"Dug well",2.6,NA,"Bedrock Not Met",1996-08-12,254510,257840,"to 100m","REYNELLA",NA,"Westmeath",13,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"54","2325SEW027","TP 30",NA,"Dug well",3,NA,"Bedrock Not Met",1996-08-13,255110,257660,"to 100m","REYNELLA",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,2.6,NA,NA,NA,NA,NA,NA,NA
+"55","2325SEW028","TP 31",NA,"Borehole",2.5,NA,"Bedrock Not Met",1996-08-13,255630,257130,"to 100m","BALRATH EAST",NA,"Westmeath",20,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,2,NA,NA,NA,NA,NA,NA,NA
+"56","2325SEW029","TP 32",NA,"Borehole",2.8,NA,"Bedrock Not Met",1996-08-13,252750,253060,"to 100m","CLONICKILVANT",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"57","2325SEW030","TP 33",NA,"Borehole",0.9,0.7,"Bedrock Met",1996-08-13,253190,253130,"to 100m","CLONICKILVANT",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"58","2325SEW031","TP 34",NA,"Dug well",2.2,NA,"Bedrock Not Met",1996-08-13,253080,253360,"to 100m","CLONICKILVANT",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"59","2325SEW032","TP 35",NA,"Dug well",2.7,NA,"Bedrock Not Met",1996-08-13,252890,254120,"to 100m","CLONICKILVANT",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"60","2325SEW033","TP 36",NA,"Dug well",2.4,NA,"Bedrock Not Met",1996-08-13,252580,253790,"to 100m","CLONICKILVANT",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"61","2325SEW034","TP 37",NA,"Dug well",2.6,NA,"Bedrock Not Met",1996-08-13,252230,254920,"to 100m","CLONICKILVANT",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"62","2325SEW035","TP 38",NA,"Dug well",2.6,NA,"Bedrock Not Met",1996-08-13,252570,254520,"to 100m","CLONICKILVANT",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"63","2325SEW036","TP 39",NA,"Dug well",2.3,NA,"Bedrock Not Met",1996-08-13,253510,253620,"to 100m","CLONICKILVANT",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"64","2325SEW037","TP 40",NA,"Dug well",2.6,NA,"Bedrock Not Met",1996-08-13,253580,253340,"to 100m","CLONICKILVANT",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,1.8,NA,NA,NA,NA,NA,NA,NA
+"65","2325SEW038","TP 41",NA,"Dug well",2.5,NA,"Bedrock Not Met",1996-08-13,253310,254150,"to 100m","CLONICKILVANT",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"66","2325SEW039","TP 42",NA,"Dug well",2.8,NA,"Bedrock Not Met",1996-08-13,254220,254370,"to 100m","CLONLOST",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,1.3,NA,NA,NA,NA,NA,NA,NA
+"67","2325SEW040","TP 43",NA,"Dug well",2.9,NA,"Bedrock Not Met",1996-08-13,254380,254640,"to 100m","CLONLOST",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"68","2325SEW041","TP 44",NA,"Dug well",1.5,NA,"Bedrock Not Met",1996-08-13,256520,253040,"to 100m","HIGGANSTOWN",NA,"Westmeath",41,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"69","2325SEW042","TP 45",NA,"Dug well",2.8,NA,"Bedrock Not Met",1996-08-13,254670,255660,"to 100m","CLONLOST",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,2.5,NA,NA,NA,NA,NA,NA,NA
+"70","2325SEW043","TP 46",NA,"Dug well",2.6,1.2,"Bedrock Met",1996-08-13,255010,255900,"to 100m","CLONLOST",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"71","2325SEW044","TP 47",NA,"Dug well",3,NA,"Bedrock Not Met",1996-08-13,254970,255640,"to 100m","CLONLOST",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"72","2325SEW045","TP 48",NA,"Dug well",3,NA,"Bedrock Not Met",1996-08-13,254660,255430,"to 100m","CLONLOST",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"73","2325SEW046","TP 49",NA,"Dug well",2.8,NA,"Bedrock Not Met",1996-08-13,259470,253720,"to 100m","JORISTOWN LOWER",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"74","2325SEW048","TP 51",NA,"Dug well",3,NA,"Bedrock Not Met",1996-08-14,259210,254300,"to 100m","JORISTOWN LOWER",NA,"Westmeath",20,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"75","2325SEW052",NA,NA,"Borehole",60.9,7.9,"Bedrock Met",1998-10-07,248450,258770,"to 100m","CLONKILL",NA,"Westmeath",12,"Agri & domestic use","Poor","V",16.4,NA,NA,NA,0.36,200,42.6,48.7,NA,NA,NA,NA,NA,NA
+"76","2325SEW055",NA,NA,"Borehole",68.6,6.4,"Bedrock Met",NA,249170,257440,"to 100m","LOUGHAGAR MORE",NA,"Westmeath",55,"Agri & domestic use","Moderate","V",43.6,NA,NA,NA,0.84,150,60.3,67,NA,NA,NA,NA,NA,NA
+"77","2325SEW058","ILC 258",NA,"Borehole",21.3,3.9,"Bedrock Presumed",NA,253570,251640,"to 100m","KERINSTOWN",NA,"Westmeath",20,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"test date Oct 1955"
+"78","2325SEW059","ILC 259",NA,"Borehole",21.3,NA,"DTB Unknown",NA,253440,251980,"to 100m","KERINSTOWN",NA,"Westmeath",20,"Agri & domestic use","Moderate","III",43.6,NA,NA,NA,43.6,150,NA,NA,NA,NA,NA,NA,NA,"dd= 1m  test date 5-11-1955"
+"79","2325SEW060","ILC 260",NA,"Borehole",41.4,NA,"DTB Unknown",NA,253880,251930,"to 100m","KERINSTOWN",NA,"Westmeath",20,"Agri & domestic use","Good",NA,NA,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,NA,NA,"reported stated the well was ""very good"""
+"80","2327SWW029",NA,NA,"Borehole",36.5,18.3,"Bedrock Met",2000-06-01,244350,279640,"to 100m","LISNUGENT",NA,"Westmeath",11,"Agri & domestic use","Poor","IV",32.7,NA,NA,NA,3.58,150,24.4,NA,NA,NA,NA,NA,NA,NA
+"81","2023NEW022",NA,NA,"Borehole",60.9,5.4,"Bedrock Met",NA,215020,245780,"to 200m","BRYANMORE LOWER",NA,"Westmeath",23,"Agri & domestic use","Moderate","V",65.5,NA,NA,NA,2.87,150,53.3,NA,NA,NA,NA,NA,NA,NA
+"82","2023NWW133","A1",NA,"Borehole",19.5,NA,"Bedrock Not Met",1983-04-15,212350,246720,"to 200m","FEARMORE",NA,"Westmeath",2,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83","2023NWW134","A2",NA,"Borehole",20,NA,"Bedrock Not Met",1983-04-19,214730,246880,"to 200m","KILLININNEEN",NA,"Westmeath",23,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"84","2023SEW101","Trial bore",NA,"Borehole",61,12,"Bedrock Met",NA,217660,238910,"to 200m","AGHANARGIT",NA,"Westmeath",30,"Other","Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"85","2323NWW014","ILC 1444",NA,"Borehole",14.6,NA,"DTB Unknown",NA,238130,241820,"to 200m","CLOONAGH",NA,"Westmeath",32,"Agri & domestic use","Moderate","II",45.7,NA,NA,NA,150,150,NA,NA,NA,NA,NA,NA,NA,NA
+"86","2325NWW004",NA,NA,"Borehole",24.4,9.1,"Bedrock Presumed",NA,240760,264080,"to 200m","MULTYFARNHAM",NA,"Westmeath",7,NA,"Good",NA,240,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"test date 11 jan 1971"
+"87","2327SWW008","IL C 1083 A",NA,"Borehole",13.9,NA,"DTB Unknown",NA,243100,273310,"to 200m","ROCHESTOWN",NA,"Westmeath",3,"Unknown","Moderate","II",87.3,NA,NA,NA,54.6,NA,NA,NA,NA,NA,NA,NA,NA,"dd= 1.6m   test date 29-1-1965"
+"88","2327SWW009","ILC 1083",NA,"Borehole",52.4,NA,"DTB Unknown",NA,243120,273260,"to 200m","ROCHESTOWN",NA,"Westmeath",3,"Agri & domestic use","Moderate","V",43.6,NA,NA,NA,2.4,NA,NA,NA,NA,NA,NA,NA,"O' Neill estate","dd- 18.3m   test date 3-8-1965"
+"89","2327SWW034","ILC 1084",NA,"Borehole",14.9,NA,"DTB Unknown",NA,241670,273060,"to 200m","COOLE",NA,"Westmeath",2,"Agri & domestic use","Moderate","IV",54.5,NA,NA,NA,7,NA,NA,NA,NA,NA,NA,NA,NA,"dd= 7.7m  test 7-dec-1974"
+"90","2023NEW003","L C 890",NA,"Borehole",36.9,5.4,"Bedrock Met",1962-04-01,217550,244810,"to 500m","TOORBEG",NA,"Westmeath",23,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,17.9,NA,NA,NA,NA,NA,NA,NA
+"91","2023NEW005",NA,NA,"Borehole",61,35,"Bedrock Met",NA,216600,245900,"to 500m","KILTOBER",NA,"Westmeath",23,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"92","2023NEW012",NA,NA,"Borehole",76.2,3.3,"Bedrock Met",2000-09-01,219550,249730,"to 500m","BALLYMORE",NA,"Westmeath",23,"Agri & domestic use","Poor",NA,34.9,NA,NA,NA,NA,150,57.9,68.6,NA,NA,NA,NA,NA,NA
+"93","2023NEW019",NA,NA,"Borehole",61,7.6,"Bedrock Met",1999-05-01,224320,242280,"to 500m","ROSEMOUNT","ROSEMOUNT","Westmeath",31,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,150,53.3,NA,NA,NA,NA,NA,NA,NA
+"94","2023NEW036","A3",NA,"Borehole",13.5,NA,"Bedrock Not Met",1983-04-19,220460,241730,"to 500m","BALLINDERRY",NA,"Westmeath",30,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"95","2023NWW130",NA,NA,"Borehole",21.3,NA,"Bedrock Not Met",1997-11-01,209020,247270,"to 500m","GLASSAN",NA,"Westmeath",22,"Agri & domestic use","Poor",NA,34.9,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,NA,NA,NA
+"96","2023SWW304",NA,NA,"Borehole",49.4,4.6,"Bedrock Met",1982-07-08,211730,236390,"to 500m","NEWCASTLE",NA,"Westmeath",36,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,30.5,42.7,NA,NA,NA,"Drilled by Joe Dempsey, Clonbullogue
+Blue Limestone",NA,NA
+"97","2025SEW200",NA,NA,"Borehole",48.1,2.4,"Bedrock Met",1982-08-19,228030,259500,"to 500m","CHURCHTOWN",NA,"Westmeath",10,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,NA,NA,NA
+"98","2025SWW019",NA,NA,"Borehole",45.7,5.4,"Bedrock Met",1998-01-01,210670,250840,"to 500m","LISSOY",NA,"Westmeath",15,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,150,39.6,38.1,39.6,NA,NA,NA,NA,NA
+"99","2323NEW233","ILC 1116",NA,"Borehole",19.9,NA,"DTB Unknown",NA,248590,249110,"to 500m","CLOWNSTOWN",NA,"Westmeath",26,"Agri & domestic use","Moderate","II",65.5,NA,NA,NA,72.7,NA,NA,NA,NA,NA,NA,NA,NA,"dd= 0.9m      test date 15-dec-1964"
+"100","2323NWW002","LC 833",NA,"Borehole",14.9,NA,"Bedrock Not Met",1962-03-01,234700,249650,"to 500m","JAMESTOWN",NA,"Westmeath",24,"Unknown","Moderate","II",65.5,NA,NA,NA,218.3,NA,14.9,NA,NA,NA,NA,NA,NA,"Date 11/7/1962"
+"101","2323NWW021",NA,NA,"Borehole",25.9,NA,"Bedrock Not Met",2000-08-23,230280,241500,"to 500m","MONADUFF",NA,"Westmeath",31,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,150,12.2,18.3,22.9,NA,NA,NA,NA,"Estimated safe yield"
+"102","2325NEW005","ILC 1734",NA,"Borehole",39.9,NA,"DTB Unknown",NA,259630,267720,"to 500m","ARCHERSTOWN",NA,"Westmeath",8,"Agri & domestic use","Moderate","IV",55.6,NA,NA,NA,5.6,175,NA,NA,NA,NA,NA,NA,NA,"dd= 9.8m  test date 28-6-73"
+"103","2325NEW006","ILC 1346",NA,"Borehole",16.1,NA,"DTB Unknown",NA,259230,267690,"to 500m","ARCHERSTOWN",NA,"Westmeath",8,"Agri & domestic use","Moderate",NA,80,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,NA,NA,NA
+"104","2325NWW008",NA,NA,"Borehole",42.6,12.2,"Bedrock Met",1998-01-19,233860,268850,"to 500m","CULVIN",NA,"Westmeath",6,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,150,30.5,36.6,NA,NA,NA,NA,NA,"Estimated safe max yield"
+"105","2325SEW003","L C 733",NA,"Borehole",10.9,5.1,"Bedrock Presumed",NA,252380,259210,"to 500m","EDMONDSTOWN",NA,"Westmeath",13,"Unknown","Good",NA,130.9,NA,NA,NA,NA,NA,5.7,NA,NA,NA,NA,NA,NA,"date of info 1963"
+"106","2325SEW053",NA,NA,"Borehole",30,12.2,"Bedrock Met",1998-10-01,249660,259890,"to 500m","DOWNS",NA,"Westmeath",12,"Agri & domestic use","Poor","V",38.2,NA,NA,NA,3.13,150,NA,NA,NA,NA,NA,NA,NA,NA
+"107","2325SEW056",NA,NA,"Borehole",53.3,3.6,"Bedrock Met",1997-11-01,256470,253780,"to 500m","HODGESTOWN",NA,"Westmeath",20,"Agri & domestic use","Poor",NA,24,NA,NA,NA,NA,NA,39.6,47.2,NA,NA,NA,NA,NA,NA
+"108","2325SEW057","ILC 732 A",NA,"Borehole",24.7,NA,"DTB Unknown",NA,252970,256600,"to 500m","KILLYNAN PRATT",NA,"Westmeath",13,"Agri & domestic use","Poor","V",17.4,NA,NA,NA,1,150,NA,NA,NA,NA,NA,NA,NA,"test date 24-8-1966   dd=  16.8m"
+"109","2325SWW005",NA,NA,"Borehole",24.4,4.6,"Bedrock Met",NA,230900,254680,"to 500m","MILLTOWN",NA,"Westmeath",18,"Agri & domestic use","Poor","IV",19.6,NA,NA,NA,21.58,150,12.1,18.3,NA,NA,NA,NA,NA,NA
+"110","2327SWW032",NA,NA,"Borehole",45.7,5.4,"Bedrock Met",1992-10-30,236030,274110,"to 500m","LISMACAFFEREY",NA,"Westmeath",2,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,150,30.5,39,NA,NA,NA,NA,NA,NA
+"111","2625NWW073",NA,NA,"Borehole",8.2,6.4,"Bedrock Presumed",1968-06-01,260260,262810,"to 500m","DELVIN","DELVIN","Westmeath",14,"Unknown","Good",NA,327.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

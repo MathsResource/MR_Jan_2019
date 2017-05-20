@@ -1,0 +1,464 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","0207SEW008",NA,NA,"Borehole",NA,NA,NA,NA,42590,70290,"to 100m","SUSSA",NA,"Kerry",88,"Industrial use",NA,NA,NA,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,"182/6. Between Sussa & Cools",NA,NA
+"2","0207SEW011",NA,"CAHIRSIVEEN CREAMERY","Spring",NA,NA,NA,NA,46880,76530,"to 100m","LETTER",NA,"Kerry",79,"Industrial use","Low Spring",NA,NA,90,NA,NA,NA,NA,NA,NA,NA,NA,NA,"182/7.  Have storage reservoir.",NA,NA
+"3","0207SEW020","WG 39-2002",NA,"Borehole",4.9,61,"Bedrock Met",NA,41200,72350,"to 100m","GARRANE",NA,"Kerry",88,"Agri & domestic use","Poor","V",21.8,NA,NA,12.8,1.7,152,45.1,53.3,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"6 hr test"
+"4","0207SEW022","WG 33-2003",NA,"Borehole",4.9,70.1,"Bedrock Met",2003-08-15,38010,75890,"to 100m","TINNIES UPPER",NA,"Kerry",78,"Agri & domestic use","Poor","V",10.9,NA,NA,27.4,0.4,152,53.6,61.6,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale",NA,"6 hr test"
+"5","0209NEW009","TW 2",NA,"Borehole",6,85,"Bedrock Met",1986-03-01,43150,103010,"to 100m","BALLYHEABOUGHT",NA,"Kerry",43,"Industrial use","Excellent","I",491,NA,NA,3.1,158.39,150,18,24,43.5,NA,NA,"PWL - 4m, 48hr pump test.",NA,NA
+"6","0209NEW010","TW 1",NA,"Borehole",7.5,91,"Bedrock Met",1986-03-01,43100,102800,"to 100m","BALLYHEABOUGHT",NA,"Kerry",43,"Industrial use","Excellent","I",895,895,NA,7.5,119.33,150,7.5,36.5,55,NA,NA,"SP cap - 118m3/d/m. Artesian at 22m3/d. PWL - 7.5m, 72hr test",NA,NA
+"7","0209NEW012",NA,"BALLYFERRITER RWSS/BALLYWIHEEN","Spring",NA,NA,NA,1977-09-01,35820,103260,"to 100m","BALLYWIHEEN",NA,"Kerry",42,"Public supply (Co Co)","Low Spring",NA,NA,104,NA,NA,NA,NA,NA,NA,NA,NA,NA,"171/8. According to well survey Q of 171/8 + 171/7 = 50m3/d",NA,NA
+"8","0209NEW014",NA,"BALLYFERRITER WEST","Spring",NA,NA,NA,NA,35320,104070,"to 100m","BALLYFERRITER",NA,"Kerry",42,"Public supply (Co Co)","Low Spring",NA,NA,81,NA,NA,NA,NA,NA,NA,NA,NA,NA,"171/7. Combined Q of 171/7 & 171/8 is 150m3/d, 65m3/d minimum",NA,NA
+"9","0209NEW015",NA,NA,"Borehole",NA,NA,NA,1998-04-01,35360,103450,"to 100m","BALLYWIHEEN",NA,"Kerry",42,"Industrial use","Excellent","II",420,NA,NA,11.4,36.84,NA,NA,NA,NA,NA,NA,"PWL = 16.33. 250m3/d is safe Q.",NA,NA
+"10","0209NEW022",NA,NA,"Borehole",20.1,76.2,"Bedrock Met",2004-04-05,43860,102270,"to 100m","BALLYNABOOLY",NA,"Kerry",43,"Agri & domestic use","Poor","V",21.8,NA,NA,19.5,1.12,152,52.4,69.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale",NA,"6 hr test"
+"11","0209NWW002",NA,"TEERAVANE WSS","Spring",NA,NA,NA,1981-10-13,33220,102260,"to 100m","TEERAVANE",NA,"Kerry",42,"Public supply (Co Co)","Low Spring",NA,NA,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,"171/2 . Q = 32m3/d. Chem anlaysis file 3.6.8",NA,NA
+"12","0209NWW003",NA,"GRAIGUE - CLOGHER WSS","Spring",NA,NA,NA,1981-10-13,32050,102610,"to 100m","GRAIGUE",NA,"Kerry",42,"Public supply (Co Co)","Low Spring",NA,NA,68,NA,NA,NA,NA,NA,NA,NA,NA,NA,"171/1. Q = 24m3/d. Chem analysis file 3.6.8",NA,NA
+"13","0209SEW001","ILC 1503",NA,"Borehole",8,20.4,"Bedrock Met",1969-07-22,43360,99190,"to 100m","BALLYMACADOYLE",NA,"Kerry",53,"Agri & domestic use","Moderate",NA,65,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,"Drilled by contract; DtB approx",NA,"Steel lined"
+"14","0209SWW001",NA,"FAHAN WSS","Spring",NA,NA,NA,NA,34470,97920,"to 100m","FAHAN",NA,"Kerry",52,"Public supply (Co Co)","Low Spring",NA,31,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,"171/5. North of Fahan village. Co Co info Q = 31m3/d.",NA,NA
+"15","0211SEW001",NA,"BALLINAVENOORAGH WSS","Spring",NA,NA,NA,1981-10-13,43290,110420,"to 100m","BALLINAVENOORAGH",NA,"Kerry",34,"Public supply (Co Co)",NA,NA,NA,136,NA,NA,NA,NA,NA,NA,NA,NA,NA,"160/3.  Chemical analysis file 3.6.8",NA,"Steel Casing, Max Safe yield: 
+32.7m3/day"
+"16","0505SEW005","WG 41-99",NA,"Borehole",4.3,50.3,"Bedrock Met",2003-12-02,78050,55820,"to 100m","CLOGHERANE",NA,"Kerry",108,"Agri & domestic use","Moderate","V",54.5,NA,NA,21.9,2.48,165,29,36.6,NA,NA,NA,"Drilled by Southern Pumps Ltd, Cork",NA,"72 hr test"
+"17","0507NEW004","WG 139-2001",NA,"Borehole",10.1,67.1,"Bedrock Met",2002-08-15,79670,88990,"to 100m","BALLYLEDDER",NA,"Kerry",65,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,44.2,57.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield estimated"
+"18","0507NEW005","WG 137-99",NA,"Borehole",14.3,88.4,"Bedrock Met",2003-10-15,70300,86810,"to 100m","DROM EAST",NA,"Kerry",72,"Agri & domestic use","Poor","V",21.8,NA,NA,27.4,0.8,152,69.2,81.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"6 hr test"
+"19","0507NEW007","WG 74-2003",NA,"Borehole",9.1,103.6,"Bedrock Met",2004-01-27,76790,87890,"to 100m","DROMLEAGH",NA,"Kerry",64,"Agri & domestic use","Poor","V",16.4,NA,NA,61,0.27,159,67.1,91.4,NA,NA,NA,"Drilled by Southern Pumps Ltd, Cork
+Sandstone",NA,"12 hr test"
+"20","0507SWW011","WG 30-2000",NA,"Borehole",2.7,54.9,"Bedrock Met",2000-04-15,52700,79030,"to 100m","CAPPAGH",NA,"Kerry",80,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,21.3,41.1,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"21","0509NWW014",NA,"ANNASCAUL WSS","Spring",NA,NA,NA,1981-10-13,57450,103440,"to 100m","COUMDUFF",NA,"Kerry",44,"Public supply (Co Co)","Low Spring",NA,205,159,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Chemical analysis file 3.6.8. 2 springs Q may be 205m3/d",NA,NA
+"22","0509SEW016",NA,NA,"Borehole",15,79,"Bedrock Met",NA,78740,96910,"to 100m","BANSHAGH",NA,"Kerry",56,"Industrial use","Excellent",NA,545,973,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/2. Lined to rock. Water is recycled.
+2 boreholes",NA,NA
+"23","0509SEW018",NA,NA,"Borehole",15,79,"Bedrock Met",1976-03-23,78790,96900,"to 100m","BANSHAGH",NA,"Kerry",56,"Industrial use","Good",NA,393,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Lining 16.7m. Water is recycled, 136m3/d stored (also W016)",NA,NA
+"24","0509SEW019","WG 14-2003",NA,"Borehole",9.4,91.4,"Bedrock Met",2003-10-23,72370,91670,"to 100m","CALLAHANISKA",NA,"Kerry",64,"Agri & domestic use","Moderate","V",43.6,NA,NA,16.2,2.7,152,57.9,82.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"6 hr test"
+"25","0511NEW028","Ballymacquin Slugaire","ARDFERT NORTH WSS (BALLYHEIGUE)","Spring",NA,NA,NA,NA,77030,126860,"to 100m","KNOCKROE",NA,"Kerry",14,"Public supply (Co Co)","High Spring",NA,3636,3636,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Chemical analysis in file 3.6.8",NA,NA
+"26","0511NEW029",NA,"GLENDERRY WSS","Borehole",NA,36.6,"DTB Unknown",1981-10-13,71370,129250,"to 100m","GLENDERRY",NA,"Kerry",14,"Public supply (Co Co)","Good",NA,114,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Chem anal - file 3.6.8, also a Spring at 150/1. Q = 38m3/d",NA,NA
+"27","0511SWW006",NA,"CAPPAGH WSS","Spring",NA,NA,NA,NA,51400,112880,"to 100m","CLOONSHARRAGH",NA,"Kerry",35,"Public supply (Co Co)","Low Spring",NA,NA,91,NA,NA,NA,NA,NA,NA,NA,NA,NA,"161/2. Combination of wells - Q value from Co Co info 24/6/9",NA,NA
+"28","0511SWW007",NA,"CLOGHANE WSS","Spring",NA,NA,NA,NA,50680,112420,"to 100m","BALLYNALACKEN",NA,"Kerry",35,"Public supply (Co Co)","Low Spring",NA,NA,114,NA,NA,NA,NA,NA,NA,NA,NA,NA,"161/3. Combination of wells - 3 springs.",NA,NA
+"29","0805NWW004","WG 93-2001",NA,"Borehole",10.7,82.3,"Bedrock Met",2002-09-15,84950,65550,"to 100m","MUCKERA",NA,"Kerry",101,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,61,74.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield estimated"
+"30","0807NEW017",NA,"CLOGHANE CREAMERY","Borehole",NA,59,"DTB Unknown",NA,103230,87810,"to 100m","CLOGHANE",NA,"Kerry",67,"Industrial use","Good",NA,336,41,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/27. 336m3/d is capacity, yield has never diminished",NA,NA
+"31","0807NEW018",NA,NA,"Borehole",NA,NA,NA,NA,98110,88540,"to 100m","ARDAGH",NA,"Kerry",66,"Industrial use","Excellent",NA,654,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Info from J. Dunne - in rockfield Lst but overlain by gravel",NA,NA
+"32","0807SEW013",NA,NA,"Borehole",5.2,73.2,"Bedrock Met",1998-12-15,108790,75350,"to 100m","INCHEE",NA,"Kerry",86,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,152,45.7,64.5,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"33","0807SWW004",NA,NA,"Borehole",NA,NA,NA,NA,90780,71180,"to 100m","GORTAMULLIN",NA,"Kerry",93,"Industrial use","Good",NA,327,55,NA,NA,NA,NA,NA,NA,NA,NA,NA,"184/5. Q from Kerry data is 327m3/d",NA,NA
+"34","0809NEW089",NA,NA,"Borehole",2.1,36.8,"Bedrock Met",NA,103230,109900,"to 100m","KILCUSNAUN",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"40/3. Unused.",NA,"Lot of Fe in water"
+"35","0809NEW090",NA,NA,"Spring",NA,0.8,"DTB Unknown",NA,104290,109640,"to 100m","BALLYPLIMOTH",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/4. Unused.",NA,NA
+"36","0809NEW091",NA,NA,"Borehole",NA,17.1,"Bedrock Met",NA,103970,108200,"to 100m","CORDAL WEST",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/8. Unused.",NA,"Fe in the water"
+"37","0809NEW092",NA,NA,"Borehole",9.1,19.2,"Bedrock Met",NA,104000,108940,"to 100m","BALLYPLIMOTH",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"40/7. Unused.",NA,NA
+"38","0809NEW093",NA,NA,"Borehole",5.8,51.5,"Bedrock Met",NA,103800,107400,"to 100m","BREAHIG",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"40/9. Unused.",NA,NA
+"39","0809NEW094",NA,NA,"Borehole",24.4,38.6,"Bedrock Met",NA,103990,107000,"to 100m","BREAHIG",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"40/10. Unused.",NA,NA
+"40","0809NEW096",NA,NA,"Spring",NA,NA,NA,NA,100720,106370,"to 100m","CAHERAGH",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/12",NA,NA
+"41","0809NEW099",NA,NA,"Dug well",NA,NA,NA,NA,100300,109070,"to 100m","TONBWEE",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/15",NA,NA
+"42","0809NEW100",NA,NA,"Spring",NA,0.9,"DTB Unknown",NA,100640,108250,"to 100m","CAHERAGH",NA,"Kerry",40,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/17",NA,"Date 1/10/1965"
+"43","0809NEW101",NA,NA,"Borehole",NA,18.3,"DTB Unknown",NA,100670,107880,"to 100m","CAHERAGH",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/18",NA,NA
+"44","0809NEW102",NA,NA,"Borehole",NA,18.3,"DTB Unknown",NA,100770,107790,"to 100m","CAHERAGH",NA,"Kerry",40,"Agri & domestic use","Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/19",NA,NA
+"45","0809NEW103",NA,NA,"Dug well",NA,4.6,"DTB Unknown",NA,100710,107680,"to 100m","CAHERAGH",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/20. Unused.",NA,NA
+"46","0809NEW104",NA,NA,"Borehole",NA,34.1,"Bedrock Met",NA,100930,107230,"to 100m","CAHERAGH",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/21. Unused.",NA,NA
+"47","0809NEW105",NA,NA,"Dug well",NA,6.7,"DTB Unknown",NA,100890,107190,"to 100m","CAHERAGH",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/22",NA,NA
+"48","0809NEW106",NA,NA,"Spring",NA,1.2,"DTB Unknown",NA,100670,106570,"to 100m","ANNA MORE",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/25",NA,NA
+"49","0809NEW111",NA,NA,"Spring",NA,1.1,"Bedrock Not Met",NA,99560,109970,"to 100m","CASTLEISLAND",NA,"Kerry",40,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/30. EC 689 @ Temp 11c",NA,NA
+"50","0809NEW113",NA,NA,"Borehole",1.2,12.8,"Bedrock Presumed",NA,99710,107710,"to 100m","BALLYGREE",NA,"Kerry",40,"Agri use only",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"40/38. EC 751 @ Temp 14c",NA,NA
+"51","0809NEW147",NA,NA,"Borehole",2.4,28,"Bedrock Met",NA,99030,107930,"to 100m","BALLYGREE",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/1. EC 700 @ Temp 14.5c",NA,NA
+"52","0809NEW148",NA,NA,"Borehole",NA,25.9,"Bedrock Not Met",NA,98490,107850,"to 100m","FARRAN",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 550 @ Temp 13.5c.",NA,NA
+"53","0809NEW150",NA,NA,"Dug well",0,2.2,"Bedrock Met",NA,97230,109560,"to 100m","CAMP WEST",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 380 @ Temp 13.5c.",NA,NA
+"54","0809NEW151",NA,NA,"Borehole",6.1,29,"Bedrock Met",NA,97280,109530,"to 100m","CAMP EAST",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"EC 525 @ Temp 13c.",NA,NA
+"55","0809NEW152",NA,NA,"Borehole",0.9,10.1,"Bedrock Met",NA,97000,109810,"to 100m","CAMP",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/10. EC 480 @ Temp 14c.",NA,NA
+"56","0809NEW155",NA,NA,"Borehole",3.1,9.1,"Bedrock Met",NA,97530,109760,"to 100m","CAMP EAST",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/28. EC 698 @ Temp 13c.",NA,NA
+"57","0809NEW156",NA,NA,"Borehole",2.4,61,"Bedrock Met",NA,95350,109200,"to 100m","BALLYMACPIERCE",NA,"Kerry",39,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/30. EC 645 @ Temp 12.5c.",NA,NA
+"58","0809NEW157",NA,NA,"Borehole",3.4,12.5,"Bedrock Met",NA,95130,109760,"to 100m","BALLYMACPIERCE",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/29. EC 735 @ Temp 12c.",NA,NA
+"59","0809NEW158",NA,NA,"Borehole",3.1,12.2,"Bedrock Met",NA,95180,109400,"to 100m","BALLYMACPIERCE",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/31. EC 715 @ Temp 13c.",NA,NA
+"60","0809NEW159",NA,NA,"Borehole",9.1,15.2,"Bedrock Met",NA,97540,107070,"to 100m","CLOONACURRIG",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/61
+EC 555 @ 15.5 C",NA,NA
+"61","0809NEW160",NA,NA,"Borehole",2.4,35.7,"Bedrock Met",NA,96510,107170,"to 100m","BALLYMACDONNELL",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/67. EC 915 @ Temp 13c. Unused",NA,NA
+"62","0809NEW162",NA,NA,"Borehole",2.7,9.1,"Bedrock Met",NA,95670,108410,"to 100m","SPRINGMOUNT",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/72. EC 690 @ Temp 13c.",NA,NA
+"63","0809NEW163",NA,NA,"Borehole",NA,12.2,"Bedrock Met",NA,95620,108500,"to 100m","SPRINGMOUNT",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/73. EC 975 @ Temp 12.5c.",NA,NA
+"64","0809NEW167",NA,NA,"Borehole",NA,14.6,"DTB Unknown",NA,95490,106950,"to 100m","COOLNACALLIAGH",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/75. EC 735 @ Temp 13.5c.",NA,NA
+"65","0809NEW168",NA,NA,"Borehole",10.1,14.3,"Bedrock Met",NA,95460,107170,"to 100m","COOLNACALLIAGH",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/76. EC 732 @ Temp 14.5c.",NA,NA
+"66","0809NEW169",NA,NA,"Dug well",NA,15,"Bedrock Met",NA,98000,105820,"to 100m","FARRAN",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/94. EC 940 @ Temp 12c.",NA,NA
+"67","0809NEW170",NA,NA,"Borehole",19.5,30.5,"Bedrock Met",NA,98190,106540,"to 100m","PARKNAMULLOGE",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/95. EC 641 @ Temp 12.5c.",NA,NA
+"68","0809NEW171",NA,NA,"Borehole",3.7,15.2,"Bedrock Met",NA,95740,106780,"to 100m","COOLNACALLIAGH",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/159. EC 600 @ Temp 14.5c.",NA,NA
+"69","0809NEW172",NA,NA,"Borehole",8.5,13.4,"Bedrock Met",NA,95430,106970,"to 100m","COOLNACALLIAGH",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/160. EC 730 @ Temp 14c.",NA,NA
+"70","0809NEW181",NA,NA,"Dug well",3.7,4.9,"Bedrock Met",NA,98420,109760,"to 100m","FARRANNABRACK",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/20. EC 989 @ Temp 14.5c.",NA,NA
+"71","0809NEW182",NA,NA,"Dug well",NA,4,"DTB Unknown",NA,104560,109430,"to 100m","GLANLAREHAN",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/6. Unused.",NA,NA
+"72","0809NEW194","sp 127",NA,"Borehole",NA,6.7,"Bedrock Not Met",NA,101520,109830,"to 100m","TOBERMAING",NA,"Kerry",40,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"73","0809NEW195","sp 129",NA,"Borehole",7.9,8.5,"Bedrock Met",NA,102120,109560,"to 100m","TOBERMAING",NA,"Kerry",40,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"74","0809NEW196","sp 130",NA,"Borehole",5.2,5.8,"Bedrock Met",NA,102510,109400,"to 100m","TULLIG",NA,"Kerry",40,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"75","0809NEW197","sp 132",NA,"Borehole",8.2,8.5,"Bedrock Met",NA,103110,109130,"to 100m","TULLIG",NA,"Kerry",40,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"76","0809NEW198","sp 134",NA,"Borehole",NA,11.5,"Bedrock Not Met",NA,103870,108820,"to 100m","BALLYNAHALLIA",NA,"Kerry",40,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"77","0809NEW201",NA,NA,"Borehole",6,10.3,"Bedrock Met",NA,99550,108200,"to 100m","CLASHGANNIV",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DtB based on estimated casing depth",NA,NA
+"78","0809NEW203","WG 241-98",NA,"Borehole",4.9,91.4,"Bedrock Met",NA,109300,101590,"to 100m","BARNA",NA,"Kerry",50,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,36.6,57.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,NA
+"79","0809NWW182",NA,NA,"Borehole",7.6,9.1,"Bedrock Met",NA,93190,109330,"to 100m","GORTATLEA",NA,"Kerry",39,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/52. EC 550 @ Temp 16c",NA,NA
+"80","0809NWW183",NA,NA,"Dug well",NA,7.9,"DTB Unknown",NA,92990,109230,"to 100m","GORTATLEA",NA,"Kerry",39,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/53. EC 535 @ Temp 13c",NA,NA
+"81","0809NWW184",NA,NA,"Borehole",21.3,29.9,"Bedrock Met",NA,92680,109050,"to 100m","GORTATLEA",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/54",NA,NA
+"82","0809NWW185",NA,NA,"Borehole",3.7,30.5,"Bedrock Met",NA,92600,108780,"to 100m","GORTATLEA",NA,"Kerry",39,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/55. EC 249 @ Temp 16c
+Met cave while drilling",NA,"Corrodes kettle"
+"83","0809NWW186",NA,NA,"Borehole",NA,91.4,"DTB Unknown",NA,92820,108420,"to 100m","GORTATLEA",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/56. EC 249 @ Temp 14c",NA,NA
+"84","0809NWW187",NA,NA,"Borehole",1.8,38.7,"Bedrock Met",NA,93070,106350,"to 100m","GORTATLEA",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/57. EC 273 @ Temp 16c",NA,"Fe in water"
+"85","0809NWW188",NA,NA,"Borehole",12.2,30.8,"Bedrock Met",NA,93300,108320,"to 100m","GLANBANE",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/58
+EC 492 @ 15.5 C",NA,NA
+"86","0809NWW189",NA,NA,"Borehole",15.2,30.5,"Bedrock Met",NA,92560,107710,"to 100m","GARRAUNDARRAGH",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/59",NA,"Fe in water; corrodes kettle"
+"87","0809NWW190",NA,NA,"Borehole",NA,30.5,"DTB Unknown",NA,92780,107650,"to 100m","GARRAUNDARRAGH",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/60. EC 412 @ Temp 16c",NA,NA
+"88","0809NWW196",NA,NA,"Borehole",18.3,19.2,"Bedrock Met",1968-11-15,94740,107630,"to 100m","KILLFALLINGA",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Unused.",NA,NA
+"89","0809NWW197",NA,NA,"Borehole",6.1,15.2,"Bedrock Met",NA,95000,107360,"to 100m","KILLFALLINGA",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/84. EC 580 @ Temp 14.5c",NA,NA
+"90","0809NWW199",NA,NA,"Borehole",0.6,12.8,"Bedrock Met",NA,94600,108720,"to 100m","KILLFALLINGA",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/89. EC 842 @ Temp 14c",NA,NA
+"91","0809NWW201",NA,NA,"Borehole",4.9,31.4,"Bedrock Met",NA,93360,106700,"to 100m","URROHOGAL",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/91. EC 549 @ Temp 14.5c",NA,NA
+"92","0809NWW202",NA,NA,"Borehole",6.1,26,"Bedrock Met",NA,93450,106620,"to 100m","URROHOGAL",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/92. EC 720 @ Temp 14c",NA,NA
+"93","0809NWW203",NA,NA,"Borehole",NA,24.4,"DTB Unknown",NA,92700,106960,"to 100m","URROHOGAL",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/97. Unused.",NA,NA
+"94","0809NWW204",NA,NA,"Borehole",18.3,21.9,"Bedrock Met",NA,92640,106900,"to 100m","URROHOGAL",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/98. EC 438 @ Temp 16c",NA,NA
+"95","0809NWW205",NA,NA,"Borehole",NA,24.4,"Bedrock Met",NA,90810,106940,"to 100m","BOHERBOY",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/101. EC 405 @ Temp 12.5c",NA,NA
+"96","0809NWW206",NA,NA,"Borehole",21,27.4,"Bedrock Presumed",NA,90750,106910,"to 100m","BOHERBOY",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/103  EC 368 @ 13 C
+DtB estimated from casing",NA,NA
+"97","0809NWW208",NA,NA,"Borehole",12,30.5,"Bedrock Met",NA,92300,109690,"to 100m","GORTATLEA",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/145. Unused.",NA,NA
+"98","0809NWW209",NA,NA,"Borehole",NA,18.3,"DTB Unknown",NA,91920,109820,"to 100m","GORTATLEA",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/146. EC 339 @ Temp 14c",NA,NA
+"99","0809NWW210",NA,NA,"Borehole",12,23.5,"Bedrock Met",NA,91720,109880,"to 100m","GORTATLEA",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/147. EC 405 @ Temp 15.5c",NA,NA
+"100","0809NWW211",NA,NA,"Borehole",NA,48.8,"Bedrock Met",NA,91710,109620,"to 100m","GORTATLEA",NA,"Kerry",39,"Agri use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/148. EC 545 @ Temp 14.5c",NA,NA
+"101","0809NWW213",NA,NA,"Borehole",6.1,33.5,"Bedrock Met",NA,91520,109710,"to 100m","GORTATLEA",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/149. EC 522 @ Temp 13.5c",NA,NA
+"102","0809NWW220",NA,NA,"Borehole",NA,27.4,"Bedrock Met",NA,92160,108640,"to 100m","GORTATLEA",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/141. EC 279 @ Temp 14c",NA,NA
+"103","0809NWW228",NA,NA,"Borehole",12,28.7,"Bedrock Met",NA,92340,108760,"to 100m","GORTATLEA",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/142. EC 472 @ Temp 14.5.",NA,NA
+"104","0809NWW229",NA,"GORTATLEA CREAMERY","Spring",NA,0.7,"DTB Unknown",NA,93730,109830,"to 100m","SCART",NA,"Kerry",39,"Industrial use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/47. EC 628 @ Temp 13c",NA,NA
+"105","0809NWW235",NA,"CASTLEMAINE WSS","Borehole",NA,36.6,"DTB Unknown",1981-10-13,83800,103710,"to 100m","MEANUS",NA,"Kerry",47,"Public supply (Co Co)","Moderate",NA,NA,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Abandoned. Chemical analysis in file 3.6.8.",NA,NA
+"106","0809NWW236","WG 127-98",NA,"Borehole",6.7,61,"Bedrock Met",1999-05-05,83460,105800,"to 100m","LAHARAN",NA,"Kerry",47,"Agri & domestic use","Poor","IV",21.8,NA,NA,3.05,7.15,152,24.4,51.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"8 hr test"
+"107","0809SEW056",NA,NA,"Spring",NA,1.2,"DTB Unknown",1979-09-21,99400,93720,"to 100m","KILBREAN MORE",NA,"Kerry",59,NA,"Intermediate Spring",NA,455,455,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Coolcorcan spring - soft clear water, no CO2
+?173/22",NA,NA
+"108","0809SEW057",NA,"KILCUMMIN GWSS","Borehole",NA,27.4,"DTB Unknown",1981-10-13,99400,95050,"to 100m","RAHANANE",NA,"Kerry",59,"Public supply (Co Co)",NA,NA,NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/21. No chemical analysis.",NA,NA
+"109","0809SWW048","ILC 1614",NA,"Borehole",8.2,62.8,"Bedrock Met",1971-10-02,88300,93400,"to 100m","PALLIS",NA,"Kerry",65,NA,"Failure",NA,NA,NA,NA,NA,NA,203,NA,NA,NA,NA,NA,"Lined  steel.",NA,NA
+"110","0809SWW062",NA,NA,"Borehole",39,91,"Bedrock Met",1997-01-01,93300,91750,"to 100m","LACKABANE","Killarney","Kerry",66,"Industrial use","Poor",NA,9,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,"No GW inflows. Over burden = sand/silts/gravel",NA,NA
+"111","0809SWW063",NA,"BALLYHAR CREAMERY","Borehole",NA,15.2,"DTB Unknown",NA,92960,97000,"to 100m","BALLYHAR",NA,"Kerry",58,"Industrial use","Good",NA,384,190,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/12 . Caved in during construction",NA,NA
+"112","0809SWW067","TW",NA,"Borehole",39,91,"Bedrock Met",1996-11-01,93300,91750,"to 100m","LACKABANE",NA,"Kerry",66,"Unknown","Poor",NA,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"113","0811NEW071",NA,"DUAGH WSS - 1 MILE SOUTH OF DUAGH","Spring",NA,NA,NA,NA,105190,129900,"to 100m","DUAGH",NA,"Kerry",17,"Public supply (Co Co)","Low Spring",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"152/1. Goes dry in summer",NA,NA
+"114","0811NEW083","WG 139-99",NA,"Borehole",3.7,67.1,"Bedrock Met",1999-09-06,103830,127880,"to 100m","TOOR",NA,"Kerry",17,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,33.5,57.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Estimated Yield"
+"115","0811SEW016",NA,NA,"Dug well",2.4,6.4,"Bedrock Met",NA,100160,110550,"to 100m","BAWNLUSKAHA",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/27. Unused.",NA,NA
+"116","0811SEW017",NA,NA,"Dug well",NA,7.3,"Bedrock Not Met",NA,100280,110390,"to 100m","BAWNLUSKAHA",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/28. Unused.",NA,NA
+"117","0811SEW018",NA,NA,"Borehole",2.1,19.8,"Bedrock Met",NA,97370,110200,"to 100m","CAMP",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/11. EC 241 @ Temp 15c",NA,NA
+"118","0811SEW019",NA,NA,"Borehole",1.8,11.3,"Bedrock Met",NA,97360,110150,"to 100m","CAMP",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/12. EC 452 @ Temp 13c.",NA,NA
+"119","0811SEW065",NA,NA,"Borehole",51.8,51.8,"DTB Unknown",NA,102830,110090,"to 100m","BALLYMACADAM",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/2. Unused.",NA,NA
+"120","0811SEW066",NA,NA,"Dug well",NA,5,"Bedrock Not Met",NA,101780,110100,"to 100m","TULLIG",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/1. Unused.",NA,NA
+"121","0811SEW067",NA,NA,"Dug well",NA,1.8,"DTB Unknown",NA,104180,110450,"to 100m","KILCUSNAUN",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/5. Unused.",NA,NA
+"122","0811SEW070",NA,NA,"Spring",NA,NA,NA,NA,99910,110310,"to 100m","MOANMORE",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/3. EC 501 @ Temp 11c.",NA,NA
+"123","0811SEW071",NA,NA,"Dug well",NA,NA,NA,NA,99760,110310,"to 100m","MOANMORE",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/32",NA,NA
+"124","0811SEW072",NA,NA,"Spring",NA,NA,NA,NA,99690,110300,"to 100m","MOANMORE",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/33. Unused.",NA,NA
+"125","0811SEW073",NA,NA,"Dug well",NA,1.5,"DTB Unknown",NA,102980,111260,"to 100m","CRAG",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"40/35",NA,NA
+"126","0811SEW075",NA,NA,"Dug well",0,NA,"Bedrock Met",NA,97150,110750,"to 100m","KNOCKEEN",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/13. EC 739 @ Temp 15c.",NA,NA
+"127","0811SEW076",NA,NA,"Dug well",NA,1.2,"Bedrock Not Met",NA,97130,110900,"to 100m","KNOCKEEN",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/14
+EC 812 @ 12.5 C",NA,NA
+"128","0811SEW077",NA,NA,"Dug well",NA,0.8,"DTB Unknown",NA,97070,110080,"to 100m","KNOCKEEN",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/15. EC 610 @ Temp 12.5c",NA,NA
+"129","0811SEW078",NA,NA,"Borehole",0,21.3,"Bedrock Met",NA,97540,110610,"to 100m","MEANUS",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/16. EC 338 @ Temp 15c.",NA,NA
+"130","0811SEW079",NA,NA,"Dug well",0,1.2,"Bedrock Met",NA,97590,110770,"to 100m","MEANUS",NA,"Kerry",39,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/17. EC 439 @ Temp 11c.",NA,NA
+"131","0811SEW080",NA,NA,"Dug well",NA,2.1,"Bedrock Not Met",NA,98060,110860,"to 100m","KILLALLY",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/18. EC 322 @ Temp 15c.",NA,NA
+"132","0811SEW082",NA,NA,"Borehole",3.1,24.4,"Bedrock Met",NA,98520,110160,"to 100m","KNOCKANNAGORE",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/21. EC 588 @ Temp 15c.
+Met cave at 3.7m and lost drill",NA,"Lot of Fe in water"
+"133","0811SEW083",NA,NA,"Borehole",6.1,18.3,"Bedrock Met",NA,96840,111650,"to 100m","CRAG",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/23. EC 885 @ Temp 13.5c.",NA,NA
+"134","0811SEW084",NA,NA,"Borehole",1.5,14,"Bedrock Met",NA,96810,111600,"to 100m","CRAG",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/23. EC 599 @ Temp 14c.",NA,"Fe in water"
+"135","0811SEW085",NA,NA,"Borehole",14.9,14.9,"Bedrock Presumed",NA,95560,112100,"to 100m","BALLYEGAN",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/26. EC 410 @ Temp 15c.",NA,NA
+"136","0811SEW087",NA,NA,"Borehole",6.1,12.8,"Bedrock Met",NA,95000,111800,"to 100m","KILLSALLAGH",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/33. EC 572 @ Temp 13.5c.",NA,NA
+"137","0811SEW088",NA,NA,"Borehole",NA,17.7,"Bedrock Not Met",NA,96670,111150,"to 100m","KNOCKEEN",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/154. EC 780 @ Temp 14.5c",NA,NA
+"138","0811SEW089",NA,NA,"Dug well",NA,NA,NA,NA,96660,111180,"to 100m","KNOCKEEN",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/155. EC 571 @ Temp 16c. Limey.",NA,NA
+"139","0811SEW099","WG 97-98",NA,"Borehole",0.9,55.5,"Bedrock Met",1998-09-02,101410,113700,"to 100m","AHANEBOY",NA,"Kerry",31,"Agri & domestic use","Excellent","I",436,NA,NA,0.9,479.5,152,36.9,47.2,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"140","0811SEW113","sp 121",NA,"Borehole",7.3,7.9,"Bedrock Met",1961-08-01,101060,111110,"to 100m","ANGLORE",NA,"Kerry",40,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"141","0811SEW114","sp 101",NA,"Borehole",NA,12.8,"DTB Unknown",NA,105700,116420,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"142","0811SEW115","sp 102",NA,"Borehole",NA,12.8,"DTB Unknown",NA,105380,116150,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"143","0811SEW116","sp 104",NA,"Borehole",6,12.8,"Bedrock Presumed",NA,104870,115710,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"144","0811SEW117","sp 105",NA,"Borehole",NA,12.8,"DTB Unknown",NA,104570,115460,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"145","0811SEW118","sp 106",NA,"Borehole",NA,12.8,"DTB Unknown",NA,104250,115210,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"146","0811SEW119","sp 107",NA,"Borehole",6.7,7.6,"Bedrock Met",NA,103950,114950,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"147","0811SEW120","sp 108",NA,"Borehole",NA,6.7,"Bedrock Not Met",NA,103770,114770,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"148","0811SEW121","sp 109",NA,"Borehole",7.6,9.1,"Bedrock Met",NA,103520,114460,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"149","0811SEW122","sp 110",NA,"Borehole",7,9.7,"Bedrock Met",NA,103300,114140,"to 100m","KNOCKAKIP",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"150","0811SEW123","sp 111",NA,"Borehole",NA,12.8,"Bedrock Not Met",NA,103040,113910,"to 100m","CRINNY WEST",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"151","0811SEW124","sp 112",NA,"Borehole",NA,12.8,"Bedrock Not Met",NA,102770,113660,"to 100m","CRINNY WEST",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"152","0811SEW125","sp 113",NA,"Borehole",NA,12.8,"Bedrock Not Met",NA,102570,113390,"to 100m","KNOCKAUNATEE",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"153","0811SEW126","sp 114",NA,"Borehole",NA,12.8,"Bedrock Not Met",NA,102290,113140,"to 100m","KNOCKAUNATEE",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"154","0811SEW127","sp 115",NA,"Borehole",NA,12.8,"Bedrock Not Met",NA,102110,112930,"to 100m","KNOCKAUNATEE",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"155","0811SEW128","sp 116",NA,"Borehole",3,6,"Bedrock Met",NA,101890,112610,"to 100m","DOONEEN",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"156","0811SEW129","sp 117",NA,"Borehole",NA,12.8,"DTB Unknown",NA,101750,112340,"to 100m","CRAG",NA,"Kerry",40,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"157","0811SEW130","sp 119",NA,"Borehole",1.8,4.2,"Bedrock Met",NA,101390,111690,"to 100m","CRAG",NA,"Kerry",40,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"158","0811SEW132","sp 120",NA,"Borehole",NA,5.4,"DTB Unknown",NA,101250,111470,"to 100m","CRAG",NA,"Kerry",40,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"159","0811SEW133","sp 122",NA,"Borehole",6,7.3,"Bedrock Met",NA,100910,110860,"to 100m","ANGLORE",NA,"Kerry",40,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"160","0811SEW134","sp 123",NA,"Borehole",NA,6.7,"Bedrock Not Met",NA,100710,110490,"to 100m","BAWNLUSKAHA",NA,"Kerry",40,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"161","0811SEW135","sp 93",NA,"Borehole",NA,12.8,"Bedrock Not Met",NA,107770,118130,"to 100m","KNOCKEENCREEN",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"162","0811SEW136","sp 94",NA,"Borehole",NA,12.8,"DTB Unknown",NA,107480,117880,"to 100m","KNOCKEENCREEN",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"163","0811SEW137","sp 95",NA,"Borehole",3,12.8,"Bedrock Met",NA,107220,117670,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"164","0811SEW138","sp 96",NA,"Borehole",7.6,11.3,"Bedrock Met",NA,107030,117500,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"165","0811SEW139","sp 97",NA,"Borehole",8.5,12.8,"Bedrock Met",NA,106750,117280,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"166","0811SEW140","sp 98",NA,"Borehole",3,12.8,"Bedrock Met",NA,106600,117110,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"167","0811SEW141","sp 99",NA,"Borehole",NA,12.8,"DTB Unknown",NA,106270,116880,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"168","0811SEW142","sp 100",NA,"Borehole",6,9.7,"Bedrock Met",NA,106020,116670,"to 100m","MEENLEITRIM",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"169","0811SEW143","sp 88",NA,"Borehole",NA,12.8,"DTB Unknown",NA,108870,119410,"to 100m","KNOCKBRACK",NA,"Kerry",23,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"170","0811SEW144","sp 92",NA,"Borehole",NA,12.8,"Bedrock Not Met",NA,108040,118400,"to 100m","KNOCKEENCREEN",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"171","0811SEW145","sp 91",NA,"Borehole",6,12.8,"Bedrock Met",NA,108240,118620,"to 100m","KNOCKBRACK",NA,"Kerry",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"172","0811SEW146","sp 89",NA,"Borehole",3,5.2,"Bedrock Met",NA,108670,119140,"to 100m","KNOCKBRACK",NA,"Kerry",23,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"173","0811SEW147","sp 87",NA,"Borehole",3,12.8,"Bedrock Met",NA,109080,119700,"to 100m","KNOCKBRACK",NA,"Kerry",23,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"174","0811SEW148","WG 225-98",NA,"Borehole",4,61,"Bedrock Met",1999-05-15,103330,113040,"to 100m","CRINNY WEST",NA,"Kerry",31,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,152,27.4,50.3,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Yield estimated"
+"175","0811SWW007","ILC 1537","Clifford Estate","Borehole",1.2,57.3,"Bedrock Met",1974-04-30,84210,117310,"to 100m","LISTELLICK SOUTH",NA,"Kerry",29,NA,"Moderate","III",81.3,NA,NA,5.5,14.73,203,NA,NA,NA,NA,NA,"ILC #1537. Clifford Estate",NA,NA
+"176","0811SWW012","ILC 1538","Clifford Estate","Borehole",2.1,38.7,"Bedrock Met",1972-04-27,84130,117430,"to 100m","LISTELLICK SOUTH",NA,"Kerry",29,NA,"Poor","V",21.8,NA,NA,22.25,0.99,NA,NA,NA,NA,NA,NA,"ILC #1538. Clifford Estate",NA,NA
+"177","0811SWW036",NA,NA,"Borehole",3.4,18.3,"Bedrock Met",NA,93120,114100,"to 100m","BALLINEEDORA",NA,"Kerry",30,"Agri use only","Moderate",NA,55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Excess iron",NA,NA
+"178","0811SWW140",NA,NA,"Borehole",NA,21,"DTB Unknown",NA,93160,113090,"to 100m","CLOGHER",NA,"Kerry",30,"Agri use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fe in the water"
+"179","0811SWW141",NA,"CLOGHER SCHOOL","Borehole",NA,27.1,"DTB Unknown",NA,92850,113090,"to 100m","CLOGHER",NA,"Kerry",30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Lot of Fe in water, not drinkable"
+"180","0811SWW142",NA,NA,"Dug well",NA,7.3,"Bedrock Not Met",NA,92800,113170,"to 100m","CLOGHER",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 881 @ Temp 16c.","Some Fe in water but drinkable",NA
+"181","0811SWW143",NA,NA,"Borehole",3.1,21.3,"Bedrock Met",NA,93030,113120,"to 100m","CLOGHER",NA,"Kerry",30,"Agri use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fe in water, not drinkable"
+"182","0811SWW144",NA,NA,"Borehole",3.1,21.3,"Bedrock Met",NA,92310,113100,"to 100m","CLOGHER",NA,"Kerry",30,"Agri use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Lot of Fe in water"
+"183","0811SWW145",NA,NA,"Borehole",NA,9.4,"DTB Unknown",NA,92100,112920,"to 100m","BALLYDWYER EAST",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 612 @ Temp 13c.",NA,NA
+"184","0811SWW146",NA,NA,"Borehole",NA,9.1,"DTB Unknown",NA,92150,112850,"to 100m","BALLYDWYER EAST",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 575 @ Temp 13c.",NA,NA
+"185","0811SWW147",NA,NA,"Dug well",NA,6.1,"DTB Unknown",NA,90990,113020,"to 100m","GORTSHANVALLY",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 662 @ Temp 13c",NA,NA
+"186","0811SWW148",NA,NA,"Borehole",4.6,36.6,"Bedrock Met",1978-03-20,91610,112740,"to 100m","BALLYDWYER WEST",NA,"Kerry",30,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Cross, Brosna",NA,NA
+"187","0811SWW149",NA,NA,"Dug well",NA,1.5,"Bedrock Not Met",NA,91310,112850,"to 100m","GORTSHANVALLY",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"188","0811SWW150",NA,NA,"Borehole",4.6,33,"Bedrock Met",NA,90050,113340,"to 100m","BALLYBEG",NA,"Kerry",30,"Agri use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 843 @ Temp 17c.",NA,NA
+"189","0811SWW151",NA,NA,"Borehole",NA,7.1,"DTB Unknown",NA,89510,112960,"to 100m","KNOCKAVINNANE",NA,"Kerry",30,"Agri use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Lot of Fe in water, but drinkable"
+"190","0811SWW152",NA,NA,"Borehole",20.1,39.9,"Bedrock Met",NA,89920,113360,"to 100m","KNOCKAVINNANE",NA,"Kerry",30,"Agri use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 515 @ Temp 16c.",NA,"Fe in water but drinkable"
+"191","0811SWW153",NA,NA,"Dug well",NA,17.6,"DTB Unknown",NA,89880,113400,"to 100m","KNOCKAVINNANE",NA,"Kerry",30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Unused.",NA,"Fe in water"
+"192","0811SWW154",NA,NA,"Borehole",NA,30.5,"Bedrock Met",NA,89800,114260,"to 100m","LISSOOLEEN",NA,"Kerry",30,"Agri & domestic use","Poor",NA,20.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 471 @ Temp 13c.",NA,"Fe in water"
+"193","0811SWW156",NA,NA,"Borehole",NA,8.6,"Bedrock Met",NA,89720,114450,"to 100m","POTALEY",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fe in water"
+"194","0811SWW157",NA,NA,"Borehole",6.7,12.8,"Bedrock Met",NA,89620,114440,"to 100m","CLOGHERCLEMIN",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 580 @ Temp 14c.",NA,NA
+"195","0811SWW158",NA,NA,"Borehole",0,61,"Bedrock Met",NA,90200,114300,"to 100m","CARRIGNAFEELA",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 831 @ Temp 14c.",NA,"Some Fe in water"
+"196","0811SWW160",NA,NA,"Borehole",1.2,23.4,"Bedrock Met",NA,90330,114330,"to 100m","CARRIGNAFEELA",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 739 @ Temp 15c",NA,"Silage effluent in water"
+"197","0811SWW161",NA,NA,"Borehole",1.5,27.4,"Bedrock Met",NA,90350,114290,"to 100m","BALLINKNOCK",NA,"Kerry",30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Unused.",NA,NA
+"198","0811SWW162",NA,NA,"Borehole",1.5,54.9,"Bedrock Met",NA,90400,114300,"to 100m","BALLINKNOCK",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 750 @ Temp 13c.",NA,NA
+"199","0811SWW163",NA,NA,"Borehole",NA,51.8,"Bedrock Met",NA,90680,114440,"to 100m","CARRIGNAFEELA",NA,"Kerry",30,"Agri use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 1000 @ Temp 14.5.",NA,"Silage effluent in water"
+"200","0811SWW164",NA,NA,"Borehole",2.7,27.1,"Bedrock Met",NA,90700,114450,"to 100m","CARRIGNAFEELA",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 845 @ Temp 13c",NA,NA
+"201","0811SWW165",NA,NA,"Borehole",0,36.6,"Bedrock Met",NA,91200,114650,"to 100m","PARKEARAGH",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 760 @ Temp 15c.",NA,NA
+"202","0811SWW167",NA,NA,"Borehole",0.3,36,"Bedrock Met",NA,91160,114350,"to 100m","BALLYFINOGE",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 772 @ Temp 14c.",NA,NA
+"203","0811SWW168",NA,NA,"Borehole",1.5,12.2,"Bedrock Met",1972-05-15,91100,113710,"to 100m","BALLYFINOGE",NA,"Kerry",30,"Agri & domestic use","Poor","II",24,NA,NA,0.1,240,NA,NA,NA,NA,NA,NA,"SP cap=396.7m3/d/m.
+EC 671 @ 14c",NA,"Yield reported as 87 m3/d"
+"204","0811SWW169",NA,NA,"Borehole",0,39.6,"Bedrock Met",NA,91350,113770,"to 100m","BALLYBRANNAGH",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 802 @ Temp 14.5",NA,NA
+"205","0811SWW170",NA,NA,"Borehole",3.1,59.5,"Bedrock Met",NA,91600,114340,"to 100m","CRAG",NA,"Kerry",30,"Agri & domestic use","Poor","V",29,NA,NA,12,2.42,NA,NA,NA,NA,NA,NA,"Sp cap = 2.4m3/d/m.  
+EC 710 @ T =14",NA,"Steel Casing, Max Safe yield: 
+32.7m3/day"
+"206","0811SWW171",NA,NA,"Dug well",NA,3.1,"DTB Unknown",NA,91850,113700,"to 100m","BALLYBRANNAGH",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"207","0811SWW172",NA,NA,"Borehole",NA,48.8,"Bedrock Met",NA,92010,114150,"to 100m","RATHANNY",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"EC 430 @ Temp = 15c
+Cave reported",NA,NA
+"208","0811SWW173",NA,NA,"Borehole",NA,19.9,"Bedrock Met",NA,91930,114100,"to 100m","RATHANNY",NA,"Kerry",30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"209","0811SWW174",NA,NA,"Borehole",NA,21,"DTB Unknown",NA,92080,141000,"to 100m","RATHANNY",NA,"Kerry",30,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 362 @ Temp 15.5c",NA,"Lot of Fe in water - is filtered"
+"210","0811SWW193",NA,NA,"Borehole",0.3,90.8,"Bedrock Met",NA,94470,111320,"to 100m","FIDDANE",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/35. Unused.",NA,NA
+"211","0811SWW195",NA,NA,"Borehole",5.5,5.8,"Bedrock Met",NA,94440,111350,"to 100m","FIDDANE",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/36. EC 952 @ Temp 13.5c",NA,NA
+"212","0811SWW196",NA,NA,"Borehole",NA,4.9,"DTB Unknown",NA,94420,111370,"to 100m","FIDDANE",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/37. EC 651 @ Temp 14c",NA,NA
+"213","0811SWW197",NA,NA,"Borehole",NA,19.2,"DTB Unknown",NA,94390,111380,"to 100m","FIDDANE",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/38. Unused.",NA,NA
+"214","0811SWW198",NA,NA,"Borehole",3,9.8,"Bedrock Presumed",NA,94070,110260,"to 100m","SCART",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/45. EC 835 @ Temp 11.5c",NA,NA
+"215","0811SWW199",NA,NA,"Dug well",NA,0.7,"Bedrock Not Met",NA,93800,110000,"to 100m","SCART",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/46. EC 635 @ Temp 14.5c.",NA,NA
+"216","0811SWW202",NA,NA,"Borehole",3.1,73.2,"Bedrock Met",NA,90130,112400,"to 100m","ARABELA",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"EC 821 @ Temp - 14 c.  39/105??",NA,NA
+"217","0811SWW203",NA,NA,"Borehole",NA,15.2,"Bedrock Not Met",NA,89200,111870,"to 100m","BALLYMACTHOMAS",NA,"Kerry",39,"Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/106. EC 571 @ Temp 13c",NA,NA
+"218","0811SWW204",NA,NA,"Borehole",12.5,13.1,"Bedrock Met",NA,89970,111280,"to 100m","DOONIMLAGHBEG",NA,"Kerry",39,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/107. EC 490 @ Temp 12c",NA,NA
+"219","0811SWW205",NA,NA,"Borehole",NA,5.8,"Bedrock Met",NA,89930,110480,"to 100m","BEALAGRELLAGH",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/108. EC 701 @ Temp 14c",NA,NA
+"220","0811SWW206",NA,NA,"Borehole",1.5,61,"Bedrock Met",NA,90010,112440,"to 100m","COOLNADEAD",NA,"Kerry",39,NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/109. Unused.
+Drilled by Cross, Brosna",NA,NA
+"221","0811SWW207",NA,NA,"Borehole",NA,23.1,"DTB Unknown",NA,90490,112520,"to 100m","CLOGHERMORE",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/111. EC 779 @ Temp 13c",NA,NA
+"222","0811SWW208",NA,NA,"Borehole",NA,9.4,"Bedrock Met",NA,91520,112310,"to 100m","ARABELA",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/112. EC 518 @ Temp 15c",NA,"Fe in water"
+"223","0811SWW209",NA,NA,"Borehole",NA,27.1,"DTB Unknown",NA,90870,112130,"to 100m","ARABELA",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/113. EC 658 @ Temp 14c",NA,NA
+"224","0811SWW210",NA,NA,"Borehole",NA,4.8,"DTB Unknown",1980-07-01,91000,112150,"to 100m","ARABELA",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/114",NA,NA
+"225","0811SWW214",NA,NA,"Borehole",NA,14.2,"DTB Unknown",NA,90800,110500,"to 100m","FLEMBY",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/118. EC 362 @ Temp 13c",NA,"Fe in water but drinkable"
+"226","0811SWW215",NA,NA,"Borehole",NA,14.2,"DTB Unknown",NA,90800,110440,"to 100m","FLEMBY",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/119. EC 420 @ Temp 13c",NA,"Fe in water"
+"227","0811SWW216",NA,NA,"Borehole",0.6,10.7,"Bedrock Met",NA,91810,111490,"to 100m","CAHERMORE",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,127,NA,NA,NA,NA,NA,"39/120. EC 585 @ Temp 12c",NA,NA
+"228","0811SWW217",NA,NA,"Borehole",0,14.9,"Bedrock Met",NA,92000,110640,"to 100m","CAHERMORE",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/121. EC 645 @ Temp 13c",NA,NA
+"229","0811SWW218",NA,NA,"Borehole",3.7,9.1,"Bedrock Met",NA,91520,112310,"to 100m","GORTAGULLANE",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/122. EC 849 @ Temp 12c",NA,NA
+"230","0811SWW219",NA,NA,"Borehole",1.2,42.7,"Bedrock Met",NA,91790,112260,"to 100m","KILKERRY",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/123. EC 819 @ Temp 13.5c",NA,NA
+"231","0811SWW220",NA,NA,"Borehole",3.7,33.5,"Bedrock Met",NA,92740,111280,"to 100m","SHANAVALLY",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/124. EC 650 @ Temp 15c",NA,NA
+"232","0811SWW221",NA,NA,"Borehole",NA,11.5,"DTB Unknown",NA,92430,110970,"to 100m","MAGH",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/125. EC 745 @ Temp 13c",NA,"Fe in water"
+"233","0811SWW222",NA,NA,"Dug well",NA,2.7,"DTB Unknown",NA,93170,110520,"to 100m","MAGH",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/126. EC 805 @ Temp 14c",NA,NA
+"234","0811SWW223",NA,NA,"Dug well",NA,2.3,"DTB Unknown",NA,93320,110550,"to 100m","MAGH EAST",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/127. EC 669 @ Temp 13c",NA,NA
+"235","0811SWW224",NA,NA,"Dug well",NA,7.1,"DTB Unknown",NA,93210,111520,"to 100m","MAGH WEST",NA,"Kerry",39,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/131. EC 499 @ Temp 13c",NA,NA
+"236","0811SWW225",NA,NA,"Dug well",NA,4.9,"DTB Unknown",NA,92790,110380,"to 100m","SHANAVALLY",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/129. EC 558 @ Temp 13c. Fe.",NA,NA
+"237","0811SWW226",NA,NA,"Dug well",NA,2.2,"DTB Unknown",NA,92800,110490,"to 100m","SHANAVALLY",NA,"Kerry",39,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/130. EC 544 @ Temp 14C. Fe.",NA,"Fe in water"
+"238","0811SWW227",NA,NA,"Borehole",6.1,10.7,"Bedrock Met",NA,93450,111710,"to 100m","MAGH",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/132. EC 635 @ Temp 13c",NA,NA
+"239","0811SWW228",NA,NA,"Borehole",33.5,36.6,"Bedrock Met",NA,92990,112450,"to 100m","ROCKFIELD",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/133 
+EC 651 @ 12.5 C",NA,"Fe in water"
+"240","0811SWW229",NA,NA,"Borehole",27,42.7,"Bedrock Met",NA,94290,111840,"to 100m","MAGLASS",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/137. EC 692 @ Temp 13c",NA,NA
+"241","0811SWW230",NA,NA,"Borehole",11,23.5,"Bedrock Met",NA,93210,112400,"to 100m","ROCKFIELD",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/138
+EC 909 @ 13 C",NA,NA
+"242","0811SWW231",NA,NA,"Borehole",12,12.7,"Bedrock Presumed",NA,93420,112410,"to 100m","MAGLASS",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/139. Unused.
+DtB inferred from casing",NA,NA
+"243","0811SWW235",NA,NA,"Borehole",26.2,26.2,"Bedrock Presumed",NA,93830,112250,"to 100m","MAGLASS",NA,"Kerry",39,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"39/168
+DtB est from casing",NA,NA
+"244","0811SWW253",NA,NA,"Borehole",1.2,18.3,"Bedrock Met",NA,94710,111280,"to 100m","BALLYEGAN",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/34. EC 719 @ Temp 13c",NA,NA
+"245","0813NEW097",NA,"BALLYLONGFORD CREAMERY","Borehole",NA,24.4,"DTB Unknown",NA,100010,144800,"to 100m","BALLYMACASY",NA,"Kerry",3,"Industrial use","Good",NA,336,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/19. Capacity of well = 336m3/d yield has never diminished",NA,NA
+"246","0813NEW099",NA,"BALLYLONGFORD WSS","Borehole",NA,62,"DTB Unknown",NA,100670,144550,"to 100m","BALLYMACASY",NA,"Kerry",3,"Public supply (Co Co)",NA,NA,NA,34,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/20. On east side of village.",NA,"Abstraction estimated from connections"
+"247","0813NWW058",NA,"BALLYBUNION WSS (LAHESHERAGH)","Spring",NA,NA,NA,NA,90230,141940,"to 100m","LAHESHERAGH NORTH",NA,"Kerry",5,"Public supply (Co Co)","Low Spring",NA,NA,273,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/15. Spring gives 556m3/d in winter. Scries/Doon = 180m3/",NA,NA
+"248","0813NWW070","WG 265-98",NA,"Borehole",2.7,92.7,"Bedrock Met",1999-11-08,93050,142280,"to 100m","FARRANASTACK",NA,"Kerry",5,"Agri & domestic use","Poor","V",21.8,NA,NA,13.7,1.59,152,57,48.7,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"249","0813SEW064",NA,"BALLYBUNION WSS (GALEY X ROADS)","Spring",NA,NA,NA,1981-10-13,95760,136270,"to 100m","GARRYARD",NA,"Kerry",10,"Public supply (Co Co)","Intermediate Spring",NA,1136,909,NA,NA,NA,NA,NA,NA,NA,NA,NA,"According to CO CO Q=1136m3/d. Chem. analysis file - 3.6.8",NA,NA
+"250","0813SWW124",NA,NA,"Borehole",NA,NA,NA,NA,84960,130430,"to 100m","DROMROE",NA,"Kerry",15,"Industrial use",NA,NA,NA,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/6 
+0.5 miles west of Ballincrossig X-Rd",NA,NA
+"251","1107NWW006",NA,"RATHMORE WSS","Spring",NA,NA,NA,1994-07-01,116040,88410,"to 100m","AWNASKIRTAUN",NA,"Kerry",68,"Public supply (Co Co)","Intermediate Spring",NA,545,410,NA,NA,NA,NA,NA,NA,NA,NA,NA,"174/9. Chem anal file 3.6.8. Q from Co Co 1998 data. Q 1979 = 545m3/d",NA,NA
+"252","1111SWW036",NA,"BROSNA PS (KNOPPOGE)","Spring",NA,NA,NA,1981-10-13,111680,117670,"to 100m","TOOREENNABLAUHA",NA,"Kerry",32,"Public supply (Co Co)",NA,NA,NA,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,"163/1 (supp) - well survey no. Chemical analysis 3.6.8",NA,NA
+"253","1111SWW037",NA,"BROSNA WSS","Borehole",NA,31,"DTB Unknown",NA,113240,118640,"to 100m","BROSNA",NA,"Kerry",24,"Public supply (Co Co)","Good",NA,288,55,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Capacity is 288m3/d. 136m3/d - abstracted from 2 Brosna sources - 163/2",NA,NA
+"254","0205NEW006","WG 110-2001",NA,"Borehole",0.3,61,"Bedrock Met",2003-04-15,37150,69200,"to 200m","BALLYNABLOUN",NA,"Kerry",87,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,50.3,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"255","0207SEW009",NA,NA,"Spring",NA,NA,NA,NA,41610,71040,"to 200m","SUSSA",NA,"Kerry",88,"Public supply (Co Co)","Low Spring",NA,NA,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,"182/5. Chlorination.",NA,NA
+"256","0207SEW010",NA,"VALENCIA ISLAND WSS","Spring",NA,NA,NA,NA,40720,76920,"to 200m","GLANLEAM",NA,"Kerry",79,"Public supply (Co Co)","Low Spring",NA,NA,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,"182/3.",NA,NA
+"257","0209NEW013",NA,"BALLYFERRITER RWSS LATEEVEMORE","Spring",NA,NA,NA,NA,39250,103570,"to 200m","LATEEVEMORE",NA,"Kerry",42,"Public supply (Co Co)","Low Spring",NA,150,91,NA,NA,NA,NA,NA,NA,NA,NA,NA,"171/9. According to well survey Q of 171/9 + 171/10 = 150m3/",NA,NA
+"258","0209NEW016",NA,"DINGLE WSS","Borehole",NA,NA,NA,NA,46100,103100,"to 200m","BALLINASIG",NA,"Kerry",43,"Public supply (Co Co)","Excellent",NA,1136,1136,NA,NA,NA,NA,NA,NA,NA,NA,NA,"171/15 - well survey no. Right on fault.",NA,"Date 18/4/1963"
+"259","0209NEW017",NA,"BALLYMORE WSS","Spring",NA,NA,NA,NA,44730,103950,"to 200m","COMMONS OF DINGLE",NA,"Kerry",43,"Public supply (Co Co)","Intermediate Spring",NA,545,545,NA,NA,NA,NA,NA,NA,NA,NA,NA,"171/13. Q is from Co Co 24/06/98. Q - abstraction survey 1979 = 219m3/d",NA,NA
+"260","0209NEW019",NA,"BALLYFERRITER BALLINEANIG WSS","Borehole",NA,55,"DTB Unknown",NA,36590,104710,"to 200m","BALLINEANIG",NA,"Kerry",42,"Public supply (Co Co)","Excellent","III",545,NA,NA,36.3,15.01,NA,NA,NA,NA,NA,NA,"SP cap=15m3/d/m. Q>545m3/d, could not sustain. Fracture @ 27",NA,NA
+"261","0209NEW020",NA,"BALLYFERRITER RWSS - KILMALKEDER","Spring",NA,NA,NA,NA,40000,105740,"to 200m","CAHERDORGAN NORTH",NA,"Kerry",42,"Public supply (Co Co)","Low Spring",NA,NA,68,NA,NA,NA,NA,NA,NA,NA,NA,NA,"171/10 - according to Kerry Co Co, info 24/06/98, Q = 30m3/d",NA,NA
+"262","0209NEW021",NA,"DINGLE CREAMERY","Borehole",NA,9.1,"DTB Unknown",NA,45370,101300,"to 200m","GROVE",NA,"Kerry",43,"Industrial use","Excellent",NA,436,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,"171/14 - abstraction survey no. Well capacity = 436m3/d.",NA,NA
+"263","0209NWW001",NA,"DUNQUIN WSS","Spring",NA,NA,NA,NA,32570,100510,"to 200m","GLANLICK",NA,"Kerry",52,"Public supply (Co Co)","Low Spring",NA,105,46,NA,NA,NA,NA,NA,NA,NA,NA,NA,"171/3 - abstraction survey no. Q according to Co Co in 1998=105m3/d",NA,NA
+"264","0211SEW002",NA,"FEOGHANAGH BRANDON CREEK WS","Spring",NA,NA,NA,NA,42880,110950,"to 200m","BALLINAVENOORAGH",NA,"Kerry",34,"Public supply (Co Co)","Low Spring",NA,150,150,NA,NA,NA,NA,NA,NA,NA,NA,NA,"160/4. Q is from EPA;according to abstraction survey Q=87m3/d",NA,NA
+"265","0509NWW004",NA,"Land Commission","Borehole",9.1,30.5,"Bedrock Met",1964-10-01,59320,101850,"to 200m","ANASCAUL",NA,"Kerry",44,"Agri & domestic use","Moderate",NA,87,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ILC Tralee
+M Lynch, contractor",NA,NA
+"266","0509NWW012",NA,"ANNASCAUL CREAMERY","Borehole",NA,2.9,"DTB Unknown",NA,60720,103150,"to 200m","BALLYANDREEN",NA,"Kerry",45,"Industrial use","Good",NA,264,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,"172/6 - abstraction survey no. Capacity is 264m3/d. Right on fault",NA,NA
+"267","0509SEW008",NA,NA,"Borehole",9.1,26,"Bedrock Met",1928-03-01,77720,96440,"to 200m","KILLORGLIN",NA,"Kerry",56,"Agri & domestic use","Moderate",NA,49.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yield 26m3/day at 22.8m depth",NA,NA
+"268","0509SEW017",NA,"KILLORGLIN CREAMERY","Borehole",NA,33.5,"DTB Unknown",NA,78060,96480,"to 200m","DROMAVALLY",NA,"Kerry",56,"Industrial use","Good",NA,216,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/1 - capacity 216m3/d",NA,NA
+"269","0513SEW014",NA,NA,"Borehole",NA,21.3,"DTB Unknown",NA,74790,130950,"to 200m","TIERSHANAGHAN",NA,"Kerry",14,"Public supply (Co Co)",NA,NA,NA,56,NA,NA,NA,NA,NA,NA,NA,NA,NA,"150/3. 0.5 mile on east side of school.",NA,NA
+"270","0807NEW016",NA,"CLASH/LISAVIGGEEN GWSS","Borehole",NA,15,"DTB Unknown",1981-10-13,99870,89810,"to 200m","LISSYVIGGEEN",NA,"Kerry",67,"Public supply (Co Co)","Good",NA,NA,113,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/25. Q=36m3/d. Q in 1998=5m3/d.",NA,NA
+"271","0807SEW003",NA,"KILGARVAN WSS","Infiltration Gallery",NA,NA,NA,NA,103170,72490,"to 200m","GORTLOUGHERA",NA,"Kerry",94,"Public supply (Co Co)",NA,NA,NA,91,NA,NA,NA,NA,NA,NA,NA,NA,NA,"184/6.",NA,NA
+"272","0809NEW145",NA,NA,"Borehole",10.7,56.7,"Bedrock Met",NA,95430,106530,"to 200m","COOLNACALLIAGH",NA,"Kerry",48,NA,NA,NA,NA,NA,NA,NA,NA,152,15.2,NA,NA,NA,NA,"Unused",NA,NA
+"273","0809NEW183",NA,"TOBERMAING SPRING KERRY CO CO","Spring",NA,NA,NA,1985-01-01,102200,109760,"to 200m","TOBERMAING",NA,"Kerry",40,"Public supply (Co Co)","High Spring",NA,NA,25920,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Chemical analysis in file 3.6.8",NA,NA
+"274","0809NEW184",NA,"CARROW CREAMERY","Borehole",NA,27.4,"DTB Unknown",NA,97650,104520,"to 200m","RANALOUGH",NA,"Kerry",48,"Industrial use","Excellent",NA,648,206,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/17. Capacity = 648m3/d",NA,NA
+"275","0809NWW104",NA,NA,"Borehole",NA,27.4,"Bedrock Met",NA,83450,100700,"to 200m","KILLACLOHANE",NA,"Kerry",47,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Very soft water"
+"276","0809NWW105",NA,NA,"Borehole",NA,65.8,"DTB Unknown",NA,83500,100750,"to 200m","KILLACLOHANE",NA,"Kerry",47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Unused",NA,NA
+"277","0809NWW147",NA,NA,"Borehole",NA,18.3,"Bedrock Met",NA,91030,104110,"to 200m","GRAFFEENS",NA,"Kerry",48,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"EC 771 @ Temp 14c",NA,"hard water"
+"278","0809NWW158",NA,NA,"Borehole",4.6,25,"Bedrock Met",NA,90130,102340,"to 200m","FIERIES",NA,"Kerry",48,"Other",NA,NA,NA,NA,NA,NA,NA,203,NA,NA,NA,NA,NA,"School use; drilled by Cross",NA,NA
+"279","0809NWW231",NA,NA,"Spring",NA,NA,NA,NA,81350,100780,"to 200m","ABBEYLANDS",NA,"Kerry",47,"Public supply (Co Co)","Low Spring",NA,NA,290,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/3 - abstraction survey no. Scheme supplemented by Mid Kerry RWS",NA,NA
+"280","0809NWW232",NA,"CURRANS CREAMERY","Borehole",NA,2.7,"DTB Unknown",NA,93760,106100,"to 200m","MEANUS",NA,"Kerry",48,"Industrial use","Good",NA,336,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/10. Capacity = 336m3/d. Q less after river Maine drainage",NA,NA
+"281","0809NWW233",NA,"FIERIES WSS","Borehole",NA,NA,NA,NA,90870,103280,"to 200m","BALLINVARRIG",NA,"Kerry",48,"Public supply (Co Co)","Good",NA,NA,91,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/9 - abstraction survey no. Q = 432m3/d in wet periods.",NA,NA
+"282","0809NWW234",NA,"CASTLEMAINE CREAMERY","Borehole",NA,30,"DTB Unknown",NA,83680,102750,"to 200m","BRACKHILL",NA,"Kerry",47,"Industrial use","Excellent",NA,648,91,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/4 - abstraction survey no. Slightly different on creamery sheet. EC 562 @ 13 C",NA,NA
+"283","0809NWW240","WG 49-2000",NA,"Borehole",4.3,45.7,"Bedrock Met",2000-07-15,85410,106460,"to 200m","BALLYGAMBOON UPPER",NA,"Kerry",38,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,33.5,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"284","0809SWW064",NA,NA,"Borehole",NA,NA,NA,NA,93370,91470,"to 200m","LACKABANE","Killarney","Kerry",66,"Industrial use","Good",NA,350,682,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/13. Q estimated on hotel accomodation.",NA,"More than one borehole"
+"285","0809SWW065",NA,NA,"Borehole",NA,NA,NA,NA,88180,91390,"to 200m","COOLMAGORT",NA,"Kerry",65,"Industrial use","Excellent",NA,455,455,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/7. Q estimated on hotel accomodation",NA,NA
+"286","0809SWW066",NA,"BEAUFORT CREAMERY","Borehole",NA,30.5,"DTB Unknown",NA,88110,92550,"to 200m","BEAUFORT",NA,"Kerry",65,"Industrial use","Good",NA,216,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/6. Capacity 216m3/d. Artesian well.",NA,NA
+"287","0811NEW072",NA,"DUAGH CREAMERY","Borehole",NA,554.9,"DTB Unknown",NA,104160,127910,"to 200m","TOOR",NA,"Kerry",17,"Industrial use","Good",NA,216,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/24. Capacity of well is 216m3/d.",NA,NA
+"288","0811NWW030",NA,"LIXNAW CREAMERY","Borehole",NA,NA,NA,NA,89570,129400,"to 200m","CLOGHER",NA,"Kerry",15,"Industrial use","Good",NA,336,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/9. Creamery has 2 more wells cap = 336m3/",NA,NA
+"289","0811SWW030",NA,NA,"Borehole",NA,NA,NA,NA,85580,114830,"to 200m","CLASH EAST",NA,"Kerry",29,"Industrial use","Good",NA,NA,140,NA,NA,NA,NA,NA,NA,NA,NA,NA,"173/26. Also abstract 136m3/d from River Flesk at Clogheen",NA,NA
+"290","0811SWW032",NA,NA,"Borehole",4.6,32.9,"Bedrock Met",1961-08-01,89790,114160,"to 200m","LISSOOLEEN",NA,"Kerry",30,"Agri & domestic use","Poor",NA,20.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 1110",NA,NA
+"291","0811SWW069",NA,NA,"Borehole",1.5,13.7,"Bedrock Met",1959-04-01,90120,112600,"to 200m","LOUGHNACAPPAGH",NA,"Kerry",39,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/Ker 1161  Flat ground",NA,NA
+"292","0811SWW076",NA,NA,"Borehole",NA,28,"Bedrock Not Met",NA,89550,113150,"to 200m","KNOCKAVINNANE",NA,"Kerry",29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Unused",NA,NA
+"293","0811SWW246",NA,NA,"Borehole",2.7,36.9,"Bedrock Met",1974-02-01,86170,110170,"to 200m","POULAWADDRA",NA,"Kerry",38,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/TB/Ker 1045.   Farmers Bridge",NA,NA
+"294","0813NEW094",NA,"TARBERT WSS","Spring",NA,NA,NA,NA,107380,146710,"to 200m","TIERACLEA UPPER",NA,"Kerry",3,"Public supply (Co Co)","Low Spring",NA,NA,208,NA,NA,NA,NA,NA,NA,NA,NA,NA,"142/2 - well survey no. Q is an estimate.",NA,NA
+"295","0813NEW095",NA,"TARBERT CREAMERY","Borehole",NA,NA,NA,NA,106770,147470,"to 200m","TIERACLEA LOWER",NA,"Kerry",3,"Industrial use","Good",NA,216,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,"142/1. Capacity of well is 216 m3/d.",NA,NA
+"296","0813NEW096",NA,"ARAN ENERGY REFINERY","Borehole",10.5,90,"Bedrock Met",1994-10-01,104900,148000,"to 200m","KILPADDOGE",NA,"Kerry",3,"Other","Excellent","II",617,NA,NA,27.9,22.11,150,26,40,86,NA,NA,"Minor inflow @ 26 & 40m, major on E @ 86m. 550m3/d is safe Q",NA,NA
+"297","0813NWW057",NA,"KILCOLMAN CREAMERY","Dug well",NA,3,"DTB Unknown",NA,92880,146100,"to 200m","KILCOLMAN",NA,"Kerry",2,"Industrial use","Poor",NA,18,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,"141/1. Q=18m3 according to creamery data.",NA,NA
+"298","0813SEW065",NA,"KILMORNA CREAMERY","Borehole",NA,41.2,"DTB Unknown",NA,106460,131720,"to 200m","SHRONEBEIRNE",NA,"Kerry",11,"Industrial use",NA,NA,NA,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,"152/3",NA,NA
+"299","0813SEW066",NA,"COOLBEHA CREAMERY","Borehole",NA,32.9,"DTB Unknown",NA,96740,139850,"to 200m","KNOCKENAGH NORTH",NA,"Kerry",5,"Industrial use","Good",NA,288,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/13. Capacity is 288m3/d",NA,NA
+"300","0813SEW067",NA,NA,"Borehole",NA,NA,NA,NA,98980,132730,"to 200m","ISLANDMACLOUGHRY",NA,"Kerry",10,"Industrial use","Excellent",NA,500,1000,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/22
+2 deep wells. High Fe.",NA,NA
+"301","0813SEW068",NA,"LISTOWEL CREAMERY","Borehole",NA,64,NA,NA,98910,133900,"to 200m","LISTOWEL",NA,"Kerry",10,"Industrial use","Excellent",NA,552,727,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/18. 2 wells, 55m & 64m deep. Joint capacity 1104m3/d",NA,NA
+"302","0813SEW069",NA,"COOLACLARIG CREAMERY","Borehole",NA,36.6,"DTB Unknown",NA,101280,138170,"to 200m","POLLAGH",NA,"Kerry",6,"Industrial use","Good",NA,216,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/23. Capacity is 216m3/d.",NA,NA
+"303","0813SWW037",NA,NA,"Dug well",NA,4.9,"DTB Unknown",1973-03-23,89530,137960,"to 200m","BLACKPARKS",NA,"Kerry",9,"Domestic use only","Poor",NA,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"304","0813SWW120",NA,"BALLYDUFF CREAMERY","Borehole",NA,48.8,"DTB Unknown",NA,87020,134850,"to 200m","BENMORE",NA,"Kerry",9,"Industrial use","Good",NA,NA,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/7",NA,NA
+"305","0813SWW121",NA,"BALLYDUFF WSS","Dug well",NA,NA,NA,NA,88450,134730,"to 200m","BALLYHORGAN",NA,"Kerry",9,"Public supply (Co Co)","Good",NA,227,115,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/8. Q varies from 115 to 181 to 227 m3/d/m - diff reports",NA,"Abstraction estimated from connections"
+"306","0813SWW122",NA,"BALLINASKREENA CREAMERY","Borehole",NA,NA,NA,NA,80900,134120,"to 200m","BALLYNASKREENA",NA,"Kerry",9,"Industrial use","Good",NA,336,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/2. Capacity of well = 336m3/d",NA,NA
+"307","0813SWW123",NA,"LISSELTON CREAMERY","Borehole",NA,7.6,"DTB Unknown",NA,92650,138600,"to 200m","LOUGHANES",NA,"Kerry",5,"Industrial use","Good",NA,336,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/11. 336m3/d is well capacity, yield never diminished",NA,NA
+"308","0813SWW125",NA,NA,"Borehole",NA,NA,NA,NA,83320,130000,"to 200m","DROMKEEN EAST",NA,"Kerry",15,"Industrial use","Excellent",NA,400,400,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/4. 3,000 pigs used to estimate Q",NA,NA
+"309","1109NWW012","WG 90-98",NA,"Borehole",2.4,86,"Bedrock Met",1999-05-20,114070,105600,"to 200m","KNOCKNABOUL",NA,"Kerry",50,"Agri & domestic use","Moderate","III",87.3,NA,NA,7,12.45,152,62.2,77.4,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"310","0207SEW006",NA,"KERRY B OF H","Borehole",2.1,35.7,"Bedrock Met",1928-12-01,41870,76820,"to 500m","FARRANREAGH",NA,"Kerry",79,"Public supply (Co Co)","Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Lined 6.7m",NA,NA
+"311","0209NEW004",NA,"KERRY COUNTY COUNCIL","Unknown",14.6,18.3,"Bedrock Met",1961-01-01,37570,100320,"to 500m","EMLAGHSLAT",NA,"Kerry",52,"Public supply (Co Co)","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"312","0209NEW005",NA,"KERRY COUNTY COUNCIL","Unknown",18.3,30.5,"Bedrock Met",1961-01-01,39530,101000,"to 500m","CAHERARD",NA,"Kerry",52,"Public supply (Co Co)","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"313","0209NEW006",NA,NA,"Borehole",4.6,15.5,"Bedrock Met",1962-07-06,42030,100890,"to 500m","KNOCKNAHOW",NA,"Kerry",53,"Agri & domestic use","Poor",NA,31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/Ker 786",NA,NA
+"314","0209NEW008",NA,NA,"Borehole",6.4,39.6,"Bedrock Met",NA,44970,100670,"to 500m","FARRAN",NA,"Kerry",53,"Agri & domestic use","Poor",NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 2806",NA,NA
+"315","0507NEW002","WG 58-2001",NA,"Borehole",NA,85.3,"DTB Unknown",2001-06-15,76150,84540,"to 500m","DERRYNAFEANA","Glencar","Kerry",72,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+","Location from site map included with Grant Scheme sheet","Yield estimated only"
+"316","0509NEW005",NA,NA,"Borehole",NA,10.1,"DTB Unknown",1973-10-22,78570,102060,"to 500m","ARDABAUN",NA,"Kerry",46,"Agri & domestic use","Poor",NA,15.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 4935",NA,NA
+"317","0509NWW002",NA,NA,"Borehole",4.3,21.3,"Bedrock Met",1962-07-09,51440,101260,"to 500m","CHURCHFIELD",NA,"Kerry",44,"Agri & domestic use","Poor",NA,31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/Ker 145",NA,NA
+"318","0509NWW009",NA,NA,"Borehole",6.6,21.3,"Bedrock Met",1928-12-01,51470,101180,"to 500m","CHURCHFIELD",NA,"Kerry",44,"Agri & domestic use","Poor",NA,39.3,NA,NA,NA,NA,127,NA,NA,NA,NA,NA,"Lined 8.5m",NA,NA
+"319","0509NWW010",NA,"KERRY B OF H","Borehole",13.9,33.2,"Bedrock Met",1928-10-01,59340,101810,"to 500m","ANASCAUL",NA,"Kerry",44,"Public supply (Co Co)","Poor",NA,39.3,NA,NA,NA,NA,127,NA,NA,NA,NA,NA,"Lined 12.5m",NA,NA
+"320","0509NWW013",NA,NA,"Spring",NA,NA,NA,NA,54000,103520,"to 500m","PUCKISLAND",NA,"Kerry",44,"Public supply (Co Co)","Low Spring",NA,NA,225,NA,NA,NA,NA,NA,NA,NA,NA,NA,"172/3 - abstraction survey no. Receives water from stream. Q=230m3/d",NA,NA
+"321","0509SEW004",NA,"KERRY B OF H","Borehole",40.2,47,"Bedrock Met",1929-01-01,79420,97490,"to 500m","STEALROE",NA,"Kerry",56,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yield not recorded",NA,NA
+"322","0511SEW002",NA,NA,"Dug well",5.8,5.8,"Bedrock Met",1962-07-13,65310,110900,"to 500m","LISNAGREE","Camp","Kerry",36,"Agri & domestic use","Poor",NA,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/Ker 421",NA,NA
+"323","0511SWW003",NA,NA,"Dug well",NA,3.1,"Bedrock Not Met",1962-07-13,53670,110760,"to 500m","BALLINIRY",NA,"Kerry",35,"Agri & domestic use","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/Ker 1365",NA,NA
+"324","0511SWW005",NA,"BRANDON WSS","Spring",NA,NA,NA,NA,51770,114870,"to 500m","TEER",NA,"Kerry",25,"Public supply (Co Co)","Low Spring",NA,181,181,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Q = 136m3/d according to Co Co data. Difficult to locate.",NA,NA
+"325","0809NEW001",NA,NA,"Borehole",2.1,25,"Bedrock Met",1968-12-01,96210,107700,"to 500m","LOUGHNAGORE",NA,"Kerry",39,"Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"326","0809NEW018",NA,NA,"Borehole",3.1,16.2,"Bedrock Met",1958-10-01,101480,107830,"to 500m","COOLAVANNY",NA,"Kerry",40,NA,"Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/Ker 740",NA,NA
+"327","0809NEW025",NA,NA,"Unknown",NA,14.3,"Bedrock Not Met",1961-01-01,97060,104260,"to 500m","DICKSGROVE",NA,"Kerry",48,NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No Water",NA,NA
+"328","0809NEW032",NA,NA,"Borehole",12.2,31.4,"Bedrock Met",1970-02-01,96570,101310,"to 500m","ROSSANEAN",NA,"Kerry",48,"Agri & domestic use","Poor",NA,11.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"329","0809NEW034",NA,NA,"Borehole",3.7,36.9,"Bedrock Met",1970-01-24,97760,102650,"to 500m","TOORNANOULAGH",NA,"Kerry",48,NA,"Poor",NA,11.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"330","0809NEW107",NA,NA,"Spring",NA,0.3,"DTB Unknown",NA,99080,109490,"to 500m","KEALGORM",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"331","0809NEW119",NA,NA,"Spring",NA,1.2,"DTB Unknown",NA,96930,106070,"to 500m","KILFELIM",NA,"Kerry",48,"Agri use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"332","0809NEW144",NA,NA,"Borehole",9,47.6,"Bedrock Met",NA,96440,106000,"to 500m","KILFELIM",NA,"Kerry",48,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Unused",NA,NA
+"333","0809NEW173",NA,NA,"Borehole",10.7,56.7,"Bedrock Met",NA,95440,106480,"to 500m","COOLNACALLIAGH",NA,"Kerry",48,NA,"Poor",NA,10,NA,NA,NA,NA,152,15.2,NA,NA,NA,NA,"Unused.  Water limey.",NA,NA
+"334","0809NWW013",NA,NA,"Borehole",11.6,12.2,"Bedrock Met",1970-04-01,94360,107020,"to 500m","FARRANDOCTOR",NA,"Kerry",39,"Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 4760",NA,NA
+"335","0809NWW017",NA,NA,"Borehole",9.1,19.2,"Bedrock Met",1970-04-01,90800,108850,"to 500m","MOUNTNICHOLAS",NA,"Kerry",39,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 4289",NA,NA
+"336","0809NWW046",NA,NA,"Borehole",1.5,27.4,"Bedrock Met",1970-05-01,89840,104450,"to 500m","GORTAVULLIN",NA,"Kerry",48,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 3211",NA,NA
+"337","0809NWW051",NA,NA,"Borehole",NA,NA,NA,NA,89170,102420,"to 500m","LONGFIELD",NA,"Kerry",47,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 702 @ Temp - 11.5 c",NA,NA
+"338","0809NWW062",NA,NA,"Dug well",NA,3.1,"DTB Unknown",NA,86860,101860,"to 500m","MOUNT HENRY",NA,"Kerry",47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"339","0809NWW100",NA,NA,"Borehole",8.8,18,"Bedrock Met",NA,82850,102400,"to 500m","BALLYMACANDY",NA,"Kerry",47,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,NA,NA,NA
+"340","0809NWW103",NA,NA,"Borehole",NA,27.9,"Bedrock Met",NA,83100,100220,"to 500m","BALLYOUGHTRAGH",NA,"Kerry",47,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 220 @ Temp 13c,  Fe.",NA,"Fe in water"
+"341","0809NWW107",NA,NA,"Borehole",13.7,27.4,"Bedrock Met",NA,89180,102360,"to 500m","LONGFIELD",NA,"Kerry",47,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Unused",NA,"Water always discoloured"
+"342","0809NWW109",NA,NA,"Borehole",3.4,27.4,"Bedrock Met",NA,84100,103840,"to 500m","MEANUS",NA,"Kerry",47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"343","0809NWW110",NA,NA,"Borehole",6.1,54.9,"Bedrock Met",NA,84700,103610,"to 500m","CLOONALASSAN",NA,"Kerry",47,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 558 @ Temp 13.5c",NA,NA
+"344","0809NWW111",NA,NA,"Borehole",NA,30.5,"Bedrock Met",NA,84220,103710,"to 500m","MEANUS","Kiltallagh","Kerry",47,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 719 @ Temp 14c",NA,NA
+"345","0809NWW112",NA,NA,"Borehole",NA,28.8,"Bedrock Met",NA,84100,103790,"to 500m","MEANUS",NA,"Kerry",47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"346","0809NWW114",NA,NA,"Dug well",NA,2.4,"DTB Unknown",NA,84220,103660,"to 500m","KILTALLAGH",NA,"Kerry",47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"347","0809NWW118",NA,NA,"Borehole",NA,21.3,"Bedrock Not Met",NA,87170,105380,"to 500m","BREANSHAGH",NA,"Kerry",47,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"EC 491 @ Temp 14.5c",NA,NA
+"348","0809NWW141",NA,NA,"Unknown",7.3,14.6,"Bedrock Met",NA,91620,105070,"to 500m","CLOONLARA",NA,"Kerry",48,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Unused",NA,NA
+"349","0809NWW146",NA,NA,"Borehole",NA,21.6,"Bedrock Met",NA,91100,105050,"to 500m","CASTLEFARM",NA,"Kerry",48,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"EC 669 @ 12.5 C",NA,NA
+"350","0809NWW150",NA,NA,"Borehole",36,57.9,"Bedrock Presumed",NA,91090,102750,"to 500m","CORBALLY",NA,"Kerry",48,"Industrial use",NA,NA,NA,NA,NA,NA,NA,203,NA,NA,NA,NA,NA,"Creamery; DtB est. from casing",NA,"hard water"
+"351","0809NWW160",NA,NA,"Borehole",6,44.5,"Bedrock Met",NA,94660,106340,"to 500m","FARRANAMRANAGH",NA,"Kerry",48,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,NA,NA,NA
+"352","0809NWW161",NA,NA,"Borehole",NA,41.3,"Bedrock Met",NA,94660,106280,"to 500m","FARRANAMRANAGH",NA,"Kerry",48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Unused",NA,NA
+"353","0809NWW165",NA,NA,"Dug well",NA,5.8,"Bedrock Not Met",NA,89190,104090,"to 500m","CLOONMEALANE",NA,"Kerry",48,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 632 @ Temp 14c",NA,NA
+"354","0809NWW173",NA,NA,"Borehole",2.4,14.5,"Bedrock Met",NA,89190,104030,"to 500m","CLOONMEALANE",NA,"Kerry",48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 510 @ Temp 13c
+Drilled by Dunnes, Mallow",NA,NA
+"355","0809NWW174",NA,NA,"Dug well",NA,2.9,"DTB Unknown",NA,89200,103980,"to 500m","CLOONMEALANE",NA,"Kerry",48,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 905 @ Temp 14c",NA,"Fe in the water"
+"356","0809NWW175",NA,NA,"Spring",NA,NA,NA,NA,89200,103920,"to 500m","CLOONMEALANE",NA,"Kerry",48,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 610 @ Temp 12c",NA,NA
+"357","0809NWW177",NA,NA,"Dug well",NA,3.9,"Bedrock Not Met",NA,89000,103220,"to 500m","TRALIA",NA,"Kerry",48,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 425 @ Temp 15c",NA,"Lot of Fe, not potable"
+"358","0809NWW200",NA,NA,"Borehole",NA,22.6,"DTB Unknown",NA,94370,106900,"to 500m","FARRANDOCTOR",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/90.  EC 530 @ Temp 14c",NA,NA
+"359","0809NWW217",NA,NA,"Borehole",12.2,12.2,"Bedrock Presumed",NA,94370,106840,"to 500m","FARRANDOCTOR",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/164.  EC 262 @ Temp 15c",NA,NA
+"360","0809NWW218",NA,NA,"Borehole",NA,NA,NA,NA,94370,106770,"to 500m","FARRANDOCTOR",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/165.  EC 772 @ Temp 15.  Very limey",NA,NA
+"361","0809SEW010",NA,NA,"Borehole",9.1,26.2,"Bedrock Met",1970-02-19,97290,94540,"to 500m","KNOCKEENNALICKA",NA,"Kerry",58,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"362","0809SEW011",NA,NA,"Borehole",12.2,14,"Bedrock Met",1972-05-01,96870,96070,"to 500m","CLOONTEENS",NA,"Kerry",58,"Agri & domestic use","Poor",NA,30.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 4917",NA,NA
+"363","0809SEW039",NA,NA,"Borehole",3.1,28.3,"Bedrock Met",1962-06-01,96400,92160,"to 500m","DERREEN",NA,"Kerry",66,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"364","0809SEW062",NA,NA,"Borehole",6.1,36.6,"Bedrock Met",1974-08-22,96100,95600,"to 500m","GORTNACARRIGA",NA,"Kerry",58,"Agri & domestic use","Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 5392",NA,NA
+"365","0809SWW034",NA,NA,"Dug well",NA,4.9,"DTB Unknown",1969-06-07,95000,97130,"to 500m","GORTNATONA",NA,"Kerry",58,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 3013",NA,NA
+"366","0809SWW041",NA,NA,"Borehole",30.5,32.6,"Bedrock Met",1971-09-23,92460,95060,"to 500m","BARLEYMOUNT EAST",NA,"Kerry",58,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"367","0809SWW045","ILC 1613",NA,"Borehole",6.1,32.3,"Bedrock Met",1970-12-03,88500,93070,"to 500m","PALLIS",NA,"Kerry",65,"Domestic use only","Poor","V",5.2,NA,NA,20.7,0.25,178,NA,NA,NA,NA,NA,"Well abandoned",NA,"PVC lining"
+"368","0809SWW046","ILC 1615",NA,"Borehole",4.3,38.4,"Bedrock Met",1971-01-22,88500,93020,"to 500m","PALLIS",NA,"Kerry",65,"Domestic use only","Poor","V",13.1,NA,NA,27.7,0.47,178,NA,NA,NA,NA,NA,NA,NA,"PVC lining"
+"369","0809SWW047","ILC 1612",NA,"Borehole",5.5,40.5,"Bedrock Met",1971-01-18,88500,92980,"to 500m","PALLIS",NA,"Kerry",65,"Domestic use only","Poor","V",27.3,NA,NA,20.7,1.3,178,NA,NA,NA,NA,NA,NA,NA,"PVC lining"
+"370","0809SWW049",NA,NA,"Dug well",7,25.9,"Bedrock Met",1961-12-15,85640,90490,"to 500m","CLYDAGH",NA,"Kerry",65,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/Ker 1964",NA,"Yield doubtful - may have been 4800 gpd rather than 4800 gph!!"
+"371","0809SWW052",NA,NA,"Dug well",0.6,5.5,"Bedrock Met",1970-07-01,87770,92280,"to 500m","BEAUFORT",NA,"Kerry",65,"Agri & domestic use","Poor",NA,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 4285",NA,NA
+"372","0809SWW059",NA,NA,"Dug well",NA,3.1,"DTB Unknown",NA,80350,99460,"to 500m","KILDERRY",NA,"Kerry",47,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"not used",NA,"Fe in water"
+"373","0809SWW060",NA,NA,"Dug well",NA,2.8,"DTB Unknown",NA,80350,99410,"to 500m","KILDERRY",NA,"Kerry",47,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 431 @ 13 C",NA,"Soft water"
+"374","0809SWW061",NA,NA,"Dug well",NA,5.5,"Bedrock Met",NA,80350,99370,"to 500m","KILDERRY",NA,"Kerry",47,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Soft water"
+"375","0811NEW016",NA,NA,"Borehole",18.9,18.9,"Bedrock Presumed",1961-09-12,106700,125620,"to 500m","MEENNAHORNA",NA,"Kerry",17,"Agri & domestic use","Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/KER 1757, 945",NA,NA
+"376","0811NEW017",NA,NA,"Borehole",17.4,31.1,"Bedrock Met",1961-09-12,109040,125320,"to 500m","FOIL",NA,"Kerry",17,"Agri & domestic use","Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/KER 1755",NA,NA
+"377","0811NEW059",NA,NA,"Dug well",1.2,1.2,"Bedrock Met",1971-11-15,110000,126320,"to 500m","CURRAGHATOUK",NA,"Kerry",18,"Agri & domestic use","Poor",NA,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KER 4466",NA,NA
+"378","0811NEW070",NA,NA,"Borehole",21.3,29.3,"Bedrock Met",1973-03-12,109040,125280,"to 500m","FOIL",NA,"Kerry",18,"Agri & domestic use","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KER 5187",NA,NA
+"379","0811NWW018",NA,NA,"Borehole",2.9,16.5,"Bedrock Met",1961-06-16,89230,123900,"to 500m","CASTLETOWN","Kilflyn","Kerry",21,"Agri use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/Ker 1583.  Fe+",NA,NA
+"380","0811NWW035",NA,NA,"Borehole",9.1,25,"Bedrock Met",NA,80800,125900,"to 500m","KNOCKBRACK",NA,"Kerry",15,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 5107",NA,NA
+"381","0811SEW056",NA,NA,"Borehole",6.1,25.6,"Bedrock Met",1959-03-01,99210,111060,"to 500m","BALLYNABOUL",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/TB/Ker 191. Yield rather low.",NA,NA
+"382","0811SEW069",NA,NA,"Dug well",NA,6.5,"Bedrock Not Met",NA,99760,110240,"to 500m","MOANMORE",NA,"Kerry",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Unused",NA,NA
+"383","0811SWW004",NA,NA,"Borehole",29.9,31.7,"Bedrock Met",NA,80690,117440,"to 500m","BALLYROE",NA,"Kerry",29,"Domestic use only","Good",NA,164,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"384","0811SWW011",NA,NA,"Borehole",11.6,21.9,"Bedrock Met",1973-08-01,84910,116300,"to 500m","KILLEEN",NA,"Kerry",29,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/TB/Ker 5125",NA,NA
+"385","0811SWW016",NA,NA,"Borehole",3.1,14,"Bedrock Met",1962-09-01,84920,116240,"to 500m","KILLEEN",NA,"Kerry",29,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2255/TB/1456",NA,NA
+"386","0811SWW020",NA,NA,"Borehole",14.6,16.5,"Bedrock Met",1970-09-01,87990,113620,"to 500m","CAHERBREAGH",NA,"Kerry",29,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fe in water",NA,NA
+"387","0811SWW022",NA,NA,"Borehole",6.1,11,"Bedrock Met",1962-06-01,87990,113500,"to 500m","CAHERBREAGH",NA,"Kerry",29,"Domestic use only","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB 1327",NA,NA
+"388","0811SWW023",NA,NA,"Borehole",12.8,30.5,"Bedrock Met",1971-08-01,87990,113430,"to 500m","CAHERBREAGH",NA,"Kerry",29,"Domestic use only","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 3483",NA,NA
+"389","0811SWW024",NA,NA,"Borehole",15.2,15.2,"Bedrock Presumed",1972-05-01,88000,113390,"to 500m","CAHERBREAGH",NA,"Kerry",29,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 2098",NA,NA
+"390","0811SWW025",NA,NA,"Borehole",12.2,13.1,"Bedrock Met",1972-06-01,88000,113320,"to 500m","CAHERBREAGH",NA,"Kerry",29,"Domestic use only","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"391","0811SWW026",NA,NA,"Unknown",4.7,61.6,"Bedrock Met",1935-04-23,84190,114430,"to 500m","TRALEE",NA,"Kerry",29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Lined 4.9m",NA,NA
+"392","0811SWW028",NA,NA,"Borehole",1.2,36,"Bedrock Met",1971-01-01,90890,113760,"to 500m","BALLYFINOGE",NA,"Kerry",30,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 4556",NA,NA
+"393","0811SWW034",NA,NA,"Borehole",1.2,27.4,"Bedrock Met",1970-12-01,90610,114810,"to 500m","CARRIGNAFEELA",NA,"Kerry",30,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"394","0811SWW035",NA,NA,"Borehole",5.2,51.8,"Bedrock Met",1971-01-01,90620,114760,"to 500m","CARRIGNAFEELA",NA,"Kerry",30,"Agri & domestic use","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"395","0811SWW037",NA,NA,"Borehole",1.8,76.2,"Bedrock Met",1971-01-01,90620,114710,"to 500m","CARRIGNAFEELA",NA,"Kerry",30,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 4448",NA,NA
+"396","0811SWW045",NA,NA,"Borehole",NA,14.6,"DTB Unknown",1959-09-01,91960,115050,"to 500m","CRAG",NA,"Kerry",30,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/Ker 145",NA,NA
+"397","0811SWW047",NA,NA,"Borehole",NA,18.6,"Bedrock Not Met",1962-06-28,91620,113910,"to 500m","BALLYBRANNAGH",NA,"Kerry",30,"Domestic use only","Poor",NA,5.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/Ker 1896",NA,NA
+"398","0811SWW048",NA,NA,"Borehole",1.8,30.5,"Bedrock Met",1971-01-01,90370,114040,"to 500m","BALLINKNOCK",NA,"Kerry",30,"Agri & domestic use","Poor",NA,17.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"B/Ker.4451",NA,NA
+"399","0811SWW049",NA,NA,"Borehole",3.7,36.6,"Bedrock Met",1968-05-01,91200,114540,"to 500m","PARKEARAGH",NA,"Kerry",30,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 3160",NA,NA
+"400","0811SWW050",NA,NA,"Borehole",5.5,16.8,"Bedrock Met",1961-09-01,86780,111500,"to 500m","POULAWADDRA","Famers Bridge","Kerry",38,NA,NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Ample supply. W/TB.Ker 1045
+EC 472 @ 14 C",NA,NA
+"401","0811SWW052",NA,NA,"Borehole",1.5,21.3,"Bedrock Met",1959-09-01,88200,112320,"to 500m","BALLYCARTY",NA,"Kerry",38,"Agri & domestic use","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/Ker 821",NA,NA
+"402","0811SWW065",NA,NA,"Borehole",5.2,6.1,"Bedrock Met",1973-05-01,91080,111800,"to 500m","ARABELA",NA,"Kerry",39,"Agri & domestic use","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 5175",NA,NA
+"403","0811SWW068",NA,NA,"Borehole",0,10.4,"Bedrock Met",1972-12-01,91680,111320,"to 500m","CAHERMORE",NA,"Kerry",39,"Agri & domestic use","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 5102",NA,NA
+"404","0811SWW070",NA,NA,"Borehole",NA,15.2,"Bedrock Not Met",1971-10-01,94640,111560,"to 500m","MAGLASS",NA,"Kerry",39,"Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 4738 & 4830",NA,NA
+"405","0811SWW071",NA,NA,"Borehole",3.4,21.9,"Bedrock Met",1972-06-01,90400,115500,"to 500m","GORTNALEAHA",NA,"Kerry",30,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 4913",NA,NA
+"406","0811SWW082",NA,NA,"Dug well",NA,1.8,"DTB Unknown",NA,86600,112930,"to 500m","CURRAGHLEHA",NA,"Kerry",29,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 722 @ Temp - 14 c",NA,NA
+"407","0811SWW109",NA,NA,"Borehole",6.1,85.3,"Bedrock Met",NA,82700,115900,"to 500m","MOUNTHAWK",NA,"Kerry",29,"Other",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"EC 685 @ Temp - 12.5 c",NA,NA
+"408","0811SWW128",NA,NA,"Borehole",NA,16.5,"Bedrock Not Met",NA,80680,117350,"to 500m","BALLYROE",NA,"Kerry",29,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"EC 498 @ Temp - 16 c",NA,NA
+"409","0811SWW166",NA,NA,"Borehole",3.6,36.6,"Bedrock Met",NA,91200,114470,"to 500m","PARKEARAGH",NA,"Kerry",30,NA,"Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"410","0811SWW184",NA,NA,"Borehole",1,24.4,"Bedrock Met",NA,88210,112110,"to 500m","BALLYCARTY",NA,"Kerry",38,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"EC 769 @ Temp - 13 c
+Drilled by Dunnes of Mallow",NA,NA
+"411","0811SWW185",NA,NA,"Dug well",NA,4.1,"DTB Unknown",NA,88200,112060,"to 500m","BALLYCARTY",NA,"Kerry",38,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Unused",NA,NA
+"412","0811SWW186",NA,NA,"Borehole",3.7,17.1,"Bedrock Met",NA,88210,112010,"to 500m","BALLYCARTY",NA,"Kerry",38,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"EC 829 @ Temp - 14 c",NA,NA
+"413","0811SWW250",NA,NA,"Borehole",3.1,61,"Bedrock Met",NA,84700,116270,"to 500m","OAK PARK DEMESNE",NA,"Kerry",29,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Dunnes of Mallow",NA,NA
+"414","0813NEW015",NA,NA,"Borehole",6.1,20.7,"Bedrock Met",1968-06-15,104300,148010,"to 500m","COOLNANOONAGH",NA,"Kerry",3,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KER 3032",NA,NA
+"415","0813NWW037",NA,NA,"Unknown",NA,12.2,"DTB Unknown",1962-07-01,92480,147000,"to 500m","SLISS",NA,"Kerry",2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Pump 12.2m",NA,NA
+"416","0813SEW056",NA,NA,"Borehole",6.7,13.4,"Bedrock Met",1972-07-21,99900,130070,"to 500m","FURHANE",NA,"Kerry",17,"Domestic use only","Poor",NA,25.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"417","0813SWW038",NA,NA,"Borehole",8.2,12.2,"Bedrock Met",1971-03-18,92820,132760,"to 500m","BAWNACHAULIG",NA,"Kerry",10,"Agri & domestic use","Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTBKer.4439",NA,NA
+"418","0813SWW045",NA,NA,"Borehole",4.6,44.8,"Bedrock Met",1972-01-05,81680,131580,"to 500m","FARRAN",NA,"Kerry",15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 4674",NA,NA
+"419","0813SWW054",NA,NA,"Borehole",24.4,29.3,"Bedrock Met",1981-06-01,90800,135660,"to 500m","KILTEEAN",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-15",NA,NA
+"420","1111SWW025",NA,NA,"Borehole",5.2,40.2,"Bedrock Met",1974-01-20,111450,112250,"to 500m","TOOREENNASCARTY",NA,"Kerry",32,"Agri & domestic use","Poor",NA,39,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/3218   Mt Eagle",NA,NA
+"421","1111SWW032",NA,NA,"Dug well",NA,4.9,"Bedrock Not Met",NA,113820,118220,"to 500m","BROSNA WEST",NA,"Kerry",24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

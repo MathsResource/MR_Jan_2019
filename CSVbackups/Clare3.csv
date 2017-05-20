@@ -1,0 +1,317 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","0815NEW016",NA,NA,"Borehole",27,10.7,"Bedrock Met",1966-10-15,96360,163660,"to 100m","DOONBEG",NA,"Clare","47","Agri & domestic use","Moderate",NA,76.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"QUALITY OK;
+WTB/CL 1205",NA,NA
+"2","0815SEW017",NA,NA,"Borehole",48.2,NA,"DTB Unknown",1961-06-07,98630,155920,"to 100m","LEADMORE EAST",NA,"Clare","67","Agri & domestic use","Good",NA,196,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MORE INFO IN BLUE FILE 2.3.3",NA,NA
+"3","0815SEW056","Well C","ESB MONEYPOINT","Borehole",70,1,"Bedrock Met",1982-01-01,103280,152090,"to 100m","CARROWDOTIA SOUTH",NA,"Clare","67","Industrial use","Good","IV",180,NA,NA,24,7.5,300,NA,NA,NA,NA,NA,"Original depth 150m, later plugged with cement from bottom to avoid saline ingress; Drilled by Dunnes, Mallow","Info from K T Cullen","8 day test; EC = 450microS/cm"
+"4","0815SEW058",NA,"KILRUSH CREAMERY","Borehole",NA,NA,NA,NA,99430,155590,"to 100m","BALLYURRA",NA,"Clare","67","Other",NA,NA,NA,50,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1-141. Deep well. Abstraction 50m3/d.",NA,NA
+"5","0815SEW059",NA,NA,"Unknown",NA,NA,NA,NA,99160,154760,"to 100m","CAPPAGH",NA,"Clare","67","Industrial use","Intermediate Spring",NA,NA,25,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2-141. Abstraction 25m3/d.",NA,NA
+"6","0815SEW060",NA,NA,"Borehole",NA,NA,NA,NA,99430,155600,"to 100m","LEADMORE EAST",NA,"Clare","67","Other","Good",NA,NA,225,NA,NA,NA,NA,NA,NA,NA,NA,NA,"3-141. Deep well. Supply poor in drought. Q - managers asses",NA,"Date Nov-1967"
+"7","0815SWW047",NA,NA,"Borehole",23.8,9.1,"Bedrock Met",1964-10-01,88050,159950,"to 100m","KILKEE UPPER",NA,"Clare","56","Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"M LYNCH Driller;
+OIL SEEPAGE IN WATER",NA,NA
+"8","0815SWW063",NA,"DOONAHA CREAMERY","Borehole",NA,NA,NA,NA,88240,155530,"to 100m","DOONAHA WEST",NA,"Clare","66","Other",NA,NA,NA,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Ref 4-141. Q of 20m3/d from manager. Deep well.",NA,NA
+"9","0815SWW064",NA,NA,"Borehole",73.8,4,"Bedrock Met",1998-11-22,85930,158000,"to 100m","MOVEEN EAST",NA,"Clare","55","Agri & domestic use","Good","II",196.4,NA,NA,6.4,30.69,150,57,67.4,NA,NA,NA,"Drilled by Martin Lenihan, Glin",NA,"  dd = 6.4m     2 hr test"
+"10","0817NEW008","209",NA,"Borehole",40.8,5.8,"Bedrock Met",1975-09-08,106310,188040,"to 100m","LISCANNOR",NA,"Clare","14","Group Scheme",NA,NA,NA,NA,NA,NA,NA,152,14.6,32,38.7,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill
+3/4 HP PUMP JET SET AT 38M",NA,NA
+"11","0817NEW009","193",NA,"Borehole",45.7,6,"Bedrock Met",1975-07-04,106370,188340,"to 100m","LISCANNOR",NA,"Clare","14","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,31.4,43.6,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,NA
+"12","0817NEW010","183",NA,"Borehole",26.1,5.9,"Bedrock Met",1975-06-26,106340,188360,"to 100m","LISCANNOR",NA,"Clare","14","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,8.2,13.1,23.5,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,NA
+"13","0817SEW003",NA,"HONANS BRIDGE CREAMERY","Borehole",53,3.7,"Bedrock Met",1963-04-01,107040,178190,"to 100m","KNOCKLOSKERAUN",NA,"Clare","31","Agri & domestic use","Good","IV",131,NA,NA,26.2,5,NA,NA,NA,NA,NA,NA,"No Water by 35m
+at 7.6m Q= 79 m3/d",NA,NA
+"14","1115NEW010",NA,NA,"Borehole",90,NA,"DTB Unknown",1984-04-27,138600,167030,"to 100m","CARRIGORAN",NA,"Clare","51","Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"E COLI LEVELS HIGH. 7-133.",NA,NA
+"15","1115NEW012","MW 1",NA,"Borehole",6,2.5,"Bedrock Met",1996-02-08,136910,160170,"to 100m","LISMACLEANE",NA,"Clare","61","Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"AIR ROTARY; LOCATION VERY VAGUE, SEE KTC FOLDER FOR MORE INFO",NA,NA
+"16","1115NEW013","MW 2",NA,"Borehole",6,2.5,"Bedrock Met",1996-02-08,136890,160210,"to 100m","LISMACLEANE",NA,"Clare","61","Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"AIR ROTARY; LOCATION VERY VAGUE SEE KTC FOLDER FOR MORE INFO",NA,NA
+"17","1115NEW014","MW 3",NA,"Borehole",6,3,"Bedrock Met",1996-02-08,136940,160220,"to 100m","LISMACLEANE",NA,"Clare","61","Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"AIR ROTARY; LOCATION VERY VAGUE SEE KTC FOLDER FOR MORE INFO",NA,NA
+"18","1115NEW015","MW 4",NA,"Borehole",6,3,"Bedrock Met",1996-02-08,136960,160170,"to 100m","LISMACLEANE",NA,"Clare","61","Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"AIR ROTARY; LOCATION VERY VAGUE SEE KTC FOLDER FOR MORE INFO",NA,NA
+"19","1115NEW016","MW 5",NA,"Borehole",6,NA,"Bedrock Not Met",1996-02-07,139130,160690,"to 100m","LISMACLEANE",NA,"Clare","61","Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"AIR ROTARY; LOCATION VERY VAGUE SEE KTC FOLDER FOR MORE INFO",NA,NA
+"20","1115NEW017","MW 6",NA,"Borehole",10,NA,"DTB Unknown",1996-02-07,139190,160670,"to 100m","LISMACLEANE",NA,"Clare","61","Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"AIR ROTARY; LOCATION VERY VAGUE SEE KTC FOLDER FOR MORE INFO",NA,NA
+"21","1115NEW018","MW 7",NA,"Borehole",6,NA,"Bedrock Not Met",1996-02-07,139180,160640,"to 100m","LISMACLEANE",NA,"Clare","61","Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"AIR ROTARY; LOCATION VERY VAGUE SEE KTC FOLDER FOR MORE INFO",NA,NA
+"22","1115NWW016",NA,NA,"Borehole",18.6,4.3,"Bedrock Met",1962-08-01,110700,164110,"to 100m","KILMIHIL",NA,"Clare","48","Agri & domestic use","Good",NA,220,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"23","1115NWW018",NA,"MANAGER KILMIHILL CREAMERY","Borehole",18.6,6.2,"Bedrock Met",1964-10-01,110690,164020,"to 100m","KILMIHIL",NA,"Clare","48","Agri & domestic use","Good",NA,158,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by M Lynch",NA,NA
+"24","1115NWW035",NA,"LISSYCASEY CREAMERY","Borehole",63.4,NA,"DTB Unknown",NA,120600,165450,"to 100m","GORTYGEEHEEN",NA,"Clare","49","Domestic use only","Excellent",NA,1100,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yield 1090 - 1310 m3/d.",NA,NA
+"25","1115NWW036",NA,"KILMIHILL W.S.S.","Borehole",43.3,NA,"DTB Unknown",NA,110730,164030,"to 100m","KILMIHIL",NA,"Clare","48","Public supply (Co Co)","Good",NA,NA,163.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,"4-142. No water treatment.",NA,NA
+"26","1115SWW015",NA,"KILDYSERT CREAMERY","Borehole",NA,NA,NA,NA,122920,158300,"to 100m","RUSHEEN",NA,"Clare","59","Other",NA,NA,NA,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2-142. Deep well. Abstraction 15m3/d.",NA,NA
+"27","1115SWW016",NA,"LABASHEEDA CREAMERY","Borehole",NA,NA,NA,NA,114590,152400,"to 100m","KILLOFIN",NA,"Clare","68","Other",NA,NA,NA,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,"3-142. Deep well. Abstraction 15m3/d.",NA,NA
+"28","1117NEW020",NA,NA,"Borehole",18.3,NA,"DTB Unknown",1967-09-01,126120,187590,"to 100m","ROXTON","Applevale","Clare","25","Agri & domestic use","Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Bored 18m in Lst, reached yellow earth-filled cavity",NA,"Well abandoned"
+"29","1117NEW061","146",NA,"Borehole",61,5.8,"Bedrock Met",1974-10-30,132620,182980,"to 100m","TEERONAUN",NA,"Clare","25","Domestic use only",NA,NA,NA,NA,NA,NA,NA,152,54.9,NA,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,NA
+"30","1117NEW069",NA,"KILNAMONA CREAMERY","Borehole",50,NA,"DTB Unknown",1971-01-01,129010,180920,"to 100m","CAHERBANNAGH",NA,"Clare","25","Other",NA,NA,NA,49,NA,NA,NA,NA,NA,NA,NA,NA,NA,"YIELD CAN DIMINISH A BIT OVER A LONG DAY'S PUMPING. 3-132",NA,NA
+"31","1117NEW074",NA,NA,"Borehole",NA,NA,NA,NA,138290,183330,"to 100m","BALLYMACONNA",NA,"Clare","26","Agri use only",NA,NA,NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1-133. DEEP WELL. Q FROM PROPRIETOR - 24m3/d.",NA,NA
+"32","1117NEW075",NA,"COROFIN CREAMERY","Unknown",NA,NA,NA,NA,128500,188540,"to 100m","BALLYKINNACORRA NORTH",NA,"Clare","17","Other",NA,NA,NA,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Ref 2-123. Abstraction 16m3/d.",NA,NA
+"33","1117NEW076",NA,"BALLYLINE CREAMERY","Unknown",NA,NA,NA,NA,138290,186300,"to 100m","BALLYLINE",NA,"Clare","26","Other",NA,NA,NA,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1-124. ABSTRACTION 11m3/d - MANAGERS ASSESSMENT",NA,NA
+"34","1117NEW083",NA,NA,"Borehole",83.8,7.6,"Bedrock Met",2003-05-28,133010,185690,"to 100m","NOOAN (E.D. RUAN)",NA,"Clare","25","Agri & domestic use","Poor","V",33,NA,NA,NA,2.17,152,80.8,NA,NA,NA,NA,"Drilled by Michael Barrett, Ennis",NA,"24 hr test"
+"35","1117NWW044",NA,"MOY CREAMERY","Unknown",NA,NA,NA,NA,110080,183890,"to 100m","MOY MORE",NA,"Clare","23","Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"4-123.  Q of 10m3/d from pump rating.",NA,NA
+"36","1117NWW048",NA,NA,"Borehole",47.5,0.3,"Bedrock Met",2003-11-15,124250,186250,"to 100m","KIHASKA",NA,"Clare","24","Agri & domestic use","Poor","V",27.3,NA,NA,19.8,1.38,152,31.7,42.7,NA,NA,NA,"Drilled by Liam Flannery, Scarriff
+Sandstone",NA,"3 hr test"
+"37","1117NWW049",NA,NA,"Borehole",87.8,4.6,"Bedrock Met",2003-11-25,122650,186240,"to 100m","MARTRY",NA,"Clare","24","Agri & domestic use","Poor","V",32.7,NA,NA,30.5,1.07,152,79.2,NA,NA,NA,NA,"Drilled by Liam Flannery, Scarriff
+Shale/Slig",NA,"24 hr test"
+"38","1117SEW011","100",NA,"Borehole",112.5,4.9,"Bedrock Met",1973-11-26,133620,177170,"to 100m","CLONROAD BEG",NA,"Clare","33","Agri & domestic use","Moderate",NA,98,NA,NA,NA,NA,152,48.5,108.8,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill
+",NA,"Main supply from fissure zone; well backfilled with gravel to 106m as filter!!"
+"39","1117SEW068",NA,NA,"Borehole",85.3,NA,"DTB Unknown",1996-09-16,130000,179740,"to 100m","ERINAGH BEG",NA,"Clare","33","Other","Good",NA,136.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DATA ENQUIRY BY CLARE CO CO WITH REGARD TO NEARBY HALTING SITE",NA,NA
+"40","1117SEW072",NA,NA,"Borehole",NA,NA,NA,1994-07-15,139300,170800,"to 100m","DROMOLAND",NA,"Clare","42","Other","Moderate",NA,NA,100,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DATA AND GRID REF FROM EPA MANUAL 1994 GW MONITORING. 6-133.",NA,NA
+"41","1117SEW074","BH5","DROMOLAND CASTLE","Borehole",80,1,"Bedrock Met",1990-04-01,140030,171680,"to 100m","KILKIERAN",NA,"Clare","42","Other","Excellent","I",613,NA,NA,2.25,273,NA,NA,NA,NA,NA,NA,"19.1m - yeild 3-4 l/s.  BH 5.",NA,NA
+"42","1117SEW122",NA,"CLARE CO. CO. CARROWMERE G.W.S.S.","Borehole",NA,NA,NA,NA,138900,173850,"to 100m","CARROWMEER",NA,"Clare","42","Public supply (Co Co)","Poor",NA,NA,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,"17-133. No treatment. Abstraction 8m3/d. 1980s data",NA,NA
+"43","1117SEW123",NA,NA,"Unknown",NA,NA,"DTB Unknown",NA,138730,178660,"to 100m","BALLYORTLA NORTH",NA,"Clare","34","Industrial use",NA,NA,NA,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,"3-133. Piggery. Abstraction 7m3/d. 1980s data",NA,NA
+"44","1117SEW124",NA,NA,"Borehole",NA,NA,NA,NA,130060,179900,"to 100m","BALLYNEILLAN",NA,"Clare","33","Industrial use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"4-132. Deep well.",NA,NA
+"45","1117SEW125",NA,"DARRAGH CREAMERY","Borehole",NA,NA,NA,NA,129240,172200,"to 100m","DARRAGH NORTH",NA,"Clare","41","Other",NA,NA,NA,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,"6-132. Deep well. Abstraction 10m3/d",NA,NA
+"46","1117SWW015",NA,"KILMALEY CREAMERY","Unknown",NA,NA,NA,NA,124500,175830,"to 100m","CULLEEN",NA,"Clare","32","Other",NA,NA,NA,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,"5-132. ABSTRACTION 10m3/d - FROM MANAGER.",NA,NA
+"47","1117SWW017",NA,NA,"Borehole",128.6,5.5,"Bedrock Met",1998-11-22,110430,174380,"to 100m","COOR WEST",NA,"Clare","39","Domestic use only","Moderate","IV",87.3,NA,NA,8.8,9.87,152,103.9,121,NA,NA,NA,"High NO2;
+Driller Martin LENIHAN, Glin",NA,"2 hr test"
+"48","1117SWW019",NA,NA,"Borehole",62.2,1.2,"Bedrock Met",2000-09-29,119650,170300,"to 100m","LETTERAGH",NA,"Clare","40","Agri & domestic use","Good","III",163.6,NA,NA,4.6,35.8,150,45.4,55.1,NA,NA,NA,"Drilled by Martin Lenihan, Glin",NA," dd = 4.6m     2  hr test"
+"49","1119NEW015",NA,"TURLOUGH W.S.S.","Spring",NA,NA,NA,NA,129150,205590,"to 100m","TURLOUGH",NA,"Clare","6","Public supply (Co Co)","Low Spring",NA,NA,55,NA,NA,NA,NA,NA,NA,NA,NA,NA,"8-114. Q FROM DESIGN FIGURES. NO TREATMENT.",NA,NA
+"50","1119NWW013",NA,NA,"Spring",NA,0,NA,NA,121470,206460,"to 100m","NEWTOWN",NA,"Clare","5","Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"51","1119NWW014",NA,NA,"Spring",NA,NA,NA,NA,121290,206660,"to 100m","NEWTOWN",NA,"Clare","5","Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"VERY RELIABLE SUPPLY",NA,NA
+"52","1119SEW028",NA,NA,"Borehole",30.4,0.9,"Bedrock Met",NA,134250,196800,"to 100m","COOLOORTA",NA,"Clare","10","Domestic use only","Failure","V",29.5,NA,NA,22.3,1.32,152,27.4,NA,NA,NA,NA,"High Fe,Mn,Turb Q=30?
+Drilled by Michael CROSS, Rathangan",NA,"24 hr test"
+"53","1119SEW030",NA,NA,"Borehole",122,NA,"DTB Unknown",NA,125500,198700,"to 100m","MEGGAGH WEST",NA,"Clare","9",NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRY
+BU",NA,NA
+"54","1119SEW034",NA,NA,"Borehole",90.2,1.2,"Bedrock Met",NA,132720,198540,"to 100m","KNOCKANS LOWER",NA,"Clare","10","Domestic use only","Poor","V",12,NA,NA,36,0.19,152,79.2,NA,NA,NA,NA,"Quality ok 
+Drilled by Michael CROSS, Rathangan",NA,"24 hr test"
+"55","1119SWW014",NA,NA,"Borehole",142.3,5.5,"Bedrock Met",1998-06-16,110800,199820,"to 100m","POULNAGUN",NA,"Clare","8","Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,152,129.5,131.1,NA,NA,NA,"Water/cavities @129-131m High Fe,Mn,Colour; Drilled by CRYSTAL Water Drilling Co.",NA,NA
+"56","1119SWW016",NA,NA,"Borehole",50.3,3.1,"Bedrock Met",1998-01-28,117170,192250,"to 100m","DOON",NA,"Clare","16","Domestic use only","Poor","V",32.7,NA,NA,27.4,1.19,152,36.6,41.1,NA,NA,NA,"cavities@ 37,41m  4 High Mn
+Drilled by Tony LYNCH, Cappamore",NA,"48 hr test"
+"57","1119SWW033",NA,NA,"Borehole",122,NA,"DTB Unknown",NA,125400,198700,"to 100m","MEGGAGH WEST",NA,"Clare","9",NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRY
+BU",NA,NA
+"58","1119SWW038",NA,NA,"Borehole",129.5,9.1,"Bedrock Met",2001-10-02,119430,191020,"to 100m","BALLAGH",NA,"Clare","16","Agri & domestic use","Poor","V",21.8,NA,NA,45.7,0.48,152,121,NA,NA,NA,NA,"Drilled by Crystal Water Drilling, Cappamore",NA," dd = 45.7m    48 hr test"
+"59","1415NEW061",NA,"PARTEEN WSS","Borehole",NA,NA,NA,1990-07-01,159500,161700,"to 100m","ROSMADDA WEST",NA,"Clare","63","Public supply (Co Co)",NA,NA,NA,80,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DATA AND GRID REF FROM EPA MANUAL JULY 1994 GW MONITORING",NA,NA
+"60","1415NEW062",NA,"PARTEEN WS","Borehole",NA,NA,NA,1994-07-01,159000,161100,"to 100m","GORTATOGHER",NA,"Clare","63","Public supply (Co Co)",NA,NA,NA,80,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DATA AND GRID REF FROM EPA MANUAL JULY 1994 GW MONITORING",NA,NA
+"61","1415NEW065",NA,"PARTEEN W.S.S.","Borehole",NA,NA,NA,NA,159280,161540,"to 100m","ROSMADDA WEST",NA,"Clare","63","Public supply (Co Co)",NA,NA,NA,87.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,"10-143. Chlorination, Sedimentation.",NA,NA
+"62","1415NEW066",NA,"PARTEEN W.S.S.","Borehole",32,NA,"DTB Unknown",NA,159580,161790,"to 100m","ROSMADDA WEST",NA,"Clare","63","Public supply (Co Co)","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"9-143. Chlorination, Sedimentation.",NA,NA
+"63","1415NEW067",NA,"PARTEEN CREAMERY.","Spring",NA,NA,NA,NA,159310,161440,"to 100m","ROSMADDA WEST",NA,"Clare","63","Industrial use","Intermediate Spring",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"6-143. Abstraction 13m3/d.",NA,NA
+"64","1415NEW069",NA,NA,"Borehole",67.7,49.1,"Bedrock Met",1999-02-13,161530,168510,"to 100m","SPRINGMOUNT",NA,"Clare","44","Domestic use only","Good","III",109.1,NA,NA,6.4,17.05,152,55.8,64.6,NA,NA,NA,"Good quality; Drilled by Martin Lenihan, Glin",NA,"2 hr test"
+"65","1415NEW073",NA,NA,"Borehole",123.4,33.5,"Bedrock Met",2000-10-06,162720,162150,"to 100m","SPRINGFIELD",NA,"Clare","53","Agri & domestic use","Moderate","V",54.5,NA,NA,31.7,1.72,152,88.4,115.8,NA,NA,NA,"Drilled by Crystal Water Well Drilling, Cappamore",NA," dd = 31.7m   72 hr test"
+"66","1415NEW080",NA,NA,"Borehole",82.3,42.7,"Bedrock Met",2004-06-21,160060,167340,"to 100m","KILMORE",NA,"Clare","53","Agri & domestic use","Moderate","IV",54.5,NA,NA,18.9,2.88,203,75.6,NA,NA,NA,NA,"Drilled by Crystal Water Drilling, Cappamore
+Sandstone",NA,"72 hr test"
+"67","1415NEW081",NA,NA,"Borehole",98.1,14.6,"Bedrock Met",2005-08-28,165020,166730,"to 100m","ARDATAGGLE",NA,"Clare","54","Agri & domestic use","Poor","V",21.8,NA,NA,12.2,1.79,152,85.3,93,NA,NA,NA,"Drilled by Lenihan, Glin",NA,"2 hr test"
+"68","1415NWW033",NA,"SIXMILEBRIDGE RAILWAY STATION","Dug well",9.1,7,"Bedrock Met",NA,147120,165480,"to 100m","CAPPAGHLODGE",NA,"Clare","52","Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"YIELD AMPLE",NA,NA
+"69","1415NWW069",NA,NA,"Borehole",NA,NA,NA,1994-07-01,143900,161900,"to 100m","CLONMONEY NORTH",NA,"Clare","61","Industrial use","Moderate",NA,NA,66,NA,NA,NA,NA,NA,NA,NA,NA,NA,"COULD BE 2 OR MORE WELLS DATA FROM EPA MANUAL JULY 1994",NA,NA
+"70","1415NWW079",NA,NA,"Borehole",182,NA,"DTB Unknown",NA,145130,160900,"to 100m","BUNRATTY CASTLE",NA,"Clare","62",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Bunratty Castle. Lst over red sst, water in the sst.",NA,NA
+"71","1415NWW080",NA,"Woodcock Hill GWSS","Spring",NA,NA,NA,NA,152560,161170,"to 100m","WOODCOCKHILL",NA,"Clare","62","Public supply (Co Co)","Low Spring",NA,NA,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,"11-143. Abstraction 10m3/d from design.",NA,NA
+"72","1415NWW081",NA,NA,"Unknown",NA,NA,NA,NA,151170,160040,"to 100m","CRATLOEMOYLE",NA,"Clare","62","Industrial use","Intermediate Spring",NA,NA,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,"4-143. Q 5m3/d from managers assessment.",NA,NA
+"73","1415NWW082",NA,"CLARE CO. CO. PORTDRINE GWSS","Borehole",NA,NA,NA,NA,148400,160020,"to 100m","PORTDRINE",NA,"Clare","62","Public supply (Co Co)",NA,NA,NA,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,"12-143. Abstraction 10m3/d from EC report.",NA,NA
+"74","1415NWW084",NA,NA,"Borehole",73.8,6.7,"Bedrock Met",1999-06-26,154070,167380,"to 100m","OATFIELD",NA,"Clare","52","Agri & domestic use","Good","III",109.1,NA,NA,5.8,18.8,152,53,67.1,NA,NA,NA,"Drilled by Martin Lenihan, Glin",NA,"  dd = 5.8m       2 hr test"
+"75","1415SEW062","MW 1",NA,"Borehole",6,1,"Bedrock Met",1996-06-24,160890,159510,"to 100m","GILLOGE",NA,"Clare","63","Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"AIR ROTARY; SEE KTC FOLDER GROUNDWATER AT 5.5M",NA,NA
+"76","1415SEW063","MW 2",NA,"Borehole",10,NA,"DTB Unknown",1996-06-25,160770,159190,"to 100m","GILLOGE",NA,"Clare","63","Other",NA,NA,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,"AIR ROTARY; SEE KTC FOLDER GROUNDWATER AT 5M",NA,NA
+"77","1415SEW064","MW 3",NA,"Borehole",6,0.5,"Bedrock Met",1996-06-25,160900,159150,"to 100m","GILLOGE",NA,"Clare","63","Other",NA,NA,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,"AIR ROTARY; SEE KTC FOLDER FOR MORE INFO GW AT 5M",NA,NA
+"78","1415SEW065","MW 4",NA,"Borehole",6.5,NA,"DTB Unknown",1996-06-25,161020,159110,"to 100m","GILLOGE",NA,"Clare","63","Other",NA,NA,NA,NA,NA,NA,NA,NA,5,NA,NA,NA,NA,"AIR ROTARY; SEE KTC FOLDER FOR MORE INFO GW AT 5M",NA,NA
+"79","1417NEW041",NA,"SCARRIFF CREAMERY","Borehole",213.4,NA,"DTB Unknown",NA,163900,183850,"to 100m","BALLYMINOGE",NA,"Clare","28","Other","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"YIELD HAS DROPPED FROM 44m3/D TO 22m3/D CONSIDERED A FAILURE",NA,NA
+"80","1417NEW042",NA,"SCARIFF CREAMERY","Borehole",70,NA,"DTB Unknown",NA,163880,183800,"to 100m","BALLYMINOGE",NA,"Clare","28","Other","Good",NA,196,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"THIS BH IS PUMPED AT 164m3/D CONSIDERED A SUCCESS",NA,NA
+"81","1417NEW046",NA,NA,"Borehole",61,10.7,"Bedrock Met",1998-02-11,161550,188100,"to 100m","CLOONUSKER",NA,"Clare","20","Domestic use only",NA,NA,NA,NA,NA,NA,NA,152,36.6,NA,NA,NA,NA,"Quality good but Mn=27 
+Drilled by Liam FLANNERY, Scarriff",NA,NA
+"82","1417NEW066",NA,NA,"Borehole",73.2,9.7,"Bedrock Met",1999-08-15,156600,182450,"to 100m","DRUMMINNANAV",NA,"Clare","28","Agri & domestic use","Poor","V",10.9,NA,NA,45.7,0.24,152,21.3,64,NA,NA,NA,"Drilled by Liam Flannery, Scarriff
+",NA,"3 hr test"
+"83","1417NEW083",NA,NA,"Borehole",82.3,4.6,"Bedrock Met",NA,163010,186190,"to 100m","AUGHRIM",NA,"Clare","28","Agri & domestic use","Poor",NA,24,NA,NA,NA,NA,152,36.6,NA,NA,NA,NA,"Drilled by Michael Cross, Rathangan",NA,"72 hr test"
+"84","1417NEW085",NA,NA,"Borehole",62.2,7.3,"Bedrock Met",2003-09-15,165910,182130,"to 100m","RAHEEN",NA,"Clare","29","Agri & domestic use","Poor","V",32.7,NA,NA,30.5,1.07,152,18.3,56.4,NA,NA,NA,"Drilled by Liam Flannery, Scarriff
+Limestone",NA,NA
+"85","1417NEW089",NA,NA,"Borehole",103.6,13.7,"Bedrock Met",2000-11-12,160270,184800,"to 100m","CORE",NA,"Clare","28","Agri & domestic use","Poor","V",5.2,NA,NA,84.7,0.06,152,76.2,91.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale",NA,"72 hr test"
+"86","1417NEW092",NA,NA,"Borehole",56.4,4.6,"Bedrock Met",2000-05-20,156000,187800,"to 100m","GLENBONNIV",NA,"Clare","20","Agri & domestic use","Poor","V",32.7,NA,NA,45.7,0.72,152,21.3,30.5,48.8,NA,NA,"Drilled by Tony Lynch, Cappamore
+Limestone/Sandstone",NA,"72 hr test"
+"87","1417NWW039",NA,"CRUSHEEN WSS","Borehole",NA,NA,NA,NA,140680,188420,"to 100m","DRUMMANNEEN",NA,"Clare","18","Public supply (Co Co)","Moderate",NA,46,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"4-124. Chlorination. Yield from pump rating",NA,NA
+"88","1417NWW040",NA,NA,"Borehole",61,0.5,"Bedrock Met",1998-10-15,144400,182150,"to 100m","MAGHERA",NA,"Clare","26","Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,152,52,NA,NA,NA,NA,"High Fe;
+Drilled by Liam FLANNERY, Scarriff",NA,"3 hr test"
+"89","1417NWW049",NA,NA,"Borehole",121.9,16.8,"Bedrock Met",2000-09-15,151200,183020,"to 100m","DRUMCHARLEY",NA,"Clare","27","Agri & domestic use","Poor","V",10.9,NA,NA,45.7,0.24,152,88.4,114.3,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale",NA,"2 hr test"
+"90","1417NWW066",NA,NA,"Borehole",45.7,9.1,"Bedrock Met",2003-04-05,152540,184940,"to 100m","AYLE UPPER",NA,"Clare","27","Agri & domestic use","Moderate","IV",54.5,NA,NA,6.1,9,152,39.6,NA,NA,NA,NA,"Drilled by Michael Barrett, Ennis",NA,"48 hr test"
+"91","1417NWW069","281",NA,"Borehole",30.5,10.8,"Bedrock Met",1976-08-16,149300,182070,"to 100m","CLOONDOORNEY BEG",NA,"Clare","27","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,24.4,29.3,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,NA
+"92","1417SEW030",NA,NA,"Borehole",45.1,16.8,"Bedrock Met",1998-01-01,168380,178760,"to 100m","BALLYHEEFY",NA,"Clare","37","Domestic use only","Poor","V",16.4,NA,NA,30.5,0.54,152,24.4,NA,NA,NA,NA,"Good quality; Driller Michael Cross, Rathangan",NA,"24 hr test"
+"93","1417SEW031",NA,NA,"Borehole",86,36.9,"Bedrock Met",1998-12-18,167950,170300,"to 100m","CLOONFADDA","Killaloe","Clare","45","Domestic use only","Moderate","IV",54.5,NA,NA,NA,93.4,152,65.5,80.5,NA,NA,NA,"Xs Mn
+Drilled by Martin Lenihan, Glin",NA,"2 hr test"
+"94","1417SEW032",NA,NA,"Borehole",33.5,3.1,"Bedrock Met",1998-12-15,155250,173370,"to 100m","KILLADERRY",NA,"Clare","44","Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,152,12.2,NA,NA,NA,NA,"Low hardness:alk 
+drilled by FLANNERY, Scarriff",NA,"3 hr test"
+"95","1417SEW033",NA,NA,"Borehole",48.8,11.9,"Bedrock Met",1999-07-29,169120,172990,"to 100m","KNOCKYCLOVAUN","Killaloe","Clare","45","Domestic use only",NA,NA,NA,NA,NA,NA,NA,152,45.7,NA,NA,NA,NA,"Drilled by MULCAIR, Borrisokane",NA,"Yield estimated"
+"96","1417SEW036",NA,NA,"Borehole",43.9,4.3,"Bedrock Met",2001-07-21,162050,172550,"to 100m","KILBANE",NA,"Clare","44","Agri & domestic use","Moderate","IV",54.5,NA,NA,5.8,9.42,152,25.6,32.3,NA,NA,NA,"Drilled by Martin Lenihan, Glin",NA,"2 hr test"
+"97","1417SEW046",NA,NA,"Borehole",97.5,61,"Bedrock Met",2003-07-01,162460,179640,"to 100m","CAHERHURLY",NA,"Clare","36","Agri & domestic use","Poor","V",32.7,NA,NA,45.7,0.72,152,79.2,91.4,NA,NA,NA,"Drilled by Lynch, Cappamore",NA,"72 hr test"
+"98","1417SEW054",NA,NA,"Borehole",79.2,18.3,"Bedrock Met",NA,167770,172670,"to 100m","GARRAUNBOY",NA,"Clare","45","Agri & domestic use","Poor","V",25.1,NA,NA,NA,1.03,152,54.3,67.1,NA,NA,NA,"Drilled by Mulcair, Borrisokane",NA,"24 hr test; PVC lining"
+"99","1417SWW058",NA,NA,"Borehole",91,NA,"DTB Unknown",1973-12-15,149390,173260,"to 100m","TEERONEA",NA,"Clare","43","Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 4432",NA,NA
+"100","1417SWW085",NA,"MOYRIESK CREAMERY","Unknown",NA,NA,"DTB Unknown",NA,140620,178230,"to 100m","BALLYCRIGHAN",NA,"Clare","34",NA,NA,NA,NA,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,"4-133.  Abstraction 13 m3/d.",NA,NA
+"101","1417SWW086",NA,NA,"Unknown",NA,NA,NA,NA,141100,173360,"to 100m","BALLYKILTY",NA,"Clare","42","Other","Poor",NA,NA,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,"5-133. abstraction 6m3/d",NA,NA
+"102","1417SWW087",NA,"CLARE CO. CO. QUIN W.S.S.","Borehole",53.6,NA,"DTB Unknown",NA,142050,174330,"to 100m","QUIN",NA,"Clare","42","Public supply (Co Co)","Moderate",NA,87.3,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,"11-133. Chlorination. Abstraction 36m3/d.",NA,NA
+"103","1417SWW088",NA,"CLARE CO. CO. QUIN W.S.S.","Borehole",NA,NA,NA,NA,141390,173360,"to 100m","MADARA",NA,"Clare","42","Public supply (Co Co)",NA,NA,NA,18,NA,NA,NA,NA,NA,NA,NA,NA,NA,"12-133. No treatment. Abstraction 18m3/d.",NA,NA
+"104","1419SEW003",NA,NA,"Borehole",51.8,6.1,"Bedrock Met",1998-02-04,158130,190430,"to 100m","CORRACLOON MORE",NA,"Clare","20","Domestic use only","Poor","IV",32.7,NA,NA,7.6,4.3,152,41,NA,NA,NA,NA,"High Fe
+Drilled by Jimmy HICKEY, Woodford",NA,"24 hr test"
+"105","1419SEW004",NA,NA,"Borehole",61,3.7,"Bedrock Met",1998-02-02,159930,192390,"to 100m","CORRAKYLE",NA,"Clare","20","Domestic use only","Poor","IV",32.7,NA,NA,4.6,7.11,152,45.7,NA,NA,NA,NA,"High Mn, TColi, pH
+Drilled by Jimmy HICKEY, Woodford",NA,"24 hr test"
+"106","1419SEW007",NA,"FLAGMOUNT WSS","Unknown",NA,NA,NA,NA,156600,193400,"to 100m","FLAGMOUNT",NA,"Clare","20","Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"5-124. Q-23m3/d from meter readings. No treatment.",NA,NA
+"107","1419SEW008",NA,NA,"Borehole",48.8,16.8,"Bedrock Met",1998-08-15,157300,191150,"to 100m","KNOCKBEHA",NA,"Clare","20","Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,21,40,NA,NA,NA,"Good quality
+Drilled by Liam FLANNERY, Scarriff",NA,"3hr test"
+"108","1419SEW012",NA,NA,"Borehole",43.3,30.5,"Bedrock Met",2001-06-01,157990,191770,"to 100m","CORRACLOON MORE",NA,"Clare","20","Agri & domestic use","Good","III",327.3,NA,NA,NA,9.6,152,38.7,NA,NA,NA,NA,"Drilled by Martin Lenihan, Glin",NA,"2 hr test; assumed dd = 34m"
+"109","1419SWW005",NA,NA,"Dug well",6.1,2.4,"Bedrock Met",1966-12-01,140430,197150,"to 100m","ATTYSLANY NORTH",NA,"Clare","11","Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 936",NA,NA
+"110","1419SWW023",NA,NA,"Borehole",54.9,5.5,"Bedrock Met",2003-05-16,153420,193040,"to 100m","KILLANENA",NA,"Clare","19","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,48.8,NA,NA,NA,NA,"Drilled by Mulcair, Borrisokane",NA,NA
+"111","1717NWW006",NA,"WHITEGATE CREAMERY","Unknown",NA,NA,NA,NA,176460,189180,"to 100m","CAPPANTRUHAUN",NA,"Clare","021A","Other",NA,NA,NA,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2-125. Abstraction 9m3/d - pump rating.",NA,NA
+"112","1717NWW038",NA,"WHITEGATE WSS","Spring",NA,NA,NA,NA,172840,188230,"to 100m","CLOONOOLIA NORTH",NA,"Clare","21","Public supply (Co Co)","Low Spring",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Abstraction 30m3/d from pump rating 6-125 Chlorination",NA,NA
+"113","0515SEW002",NA,NA,"Borehole",46.3,0.9,"Bedrock Met",1970-10-15,80000,151200,"to 200m","CROSS","Cross Village","Clare","65","Agri & domestic use","Moderate",NA,49.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 3535; Quality OK but contains some Fe",NA,NA
+"114","0815SWW003",NA,NA,"Borehole",20.7,7.9,"Bedrock Met",1967-10-15,92550,154150,"to 200m","QUERRIN",NA,"Clare","66","Agri & domestic use","Moderate",NA,52.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"115","0817NEW002","204",NA,"Borehole",21,3,"Bedrock Met",1975-07-09,104230,189600,"to 200m","DERREEN",NA,"Clare","14","Agri & domestic use","Poor",NA,110,NA,NA,NA,NA,152,14.9,17.4,18.9,NA,NA,"Drilled by Shamrock",NA,NA
+"116","0817NEW003","220",NA,"Borehole",26.8,1.5,"Bedrock Met",1975-09-05,104970,188960,"to 200m","BEAGHY",NA,"Clare","14","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,19.2,23.5,26.8,NA,NA,"Drilled by Shamrock",NA,NA
+"117","0817SEW016",NA,NA,"Borehole",55.8,6.7,"Bedrock Met",1964-10-01,105740,179200,"to 200m","LEAGARD NORTH",NA,"Clare","30","Agri & domestic use","Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by M Lynch",NA,NA
+"118","0817SEW030",NA,NA,"Borehole",39,13,"Bedrock Met",NA,104670,172950,"to 200m","FINNOR MORE","Mullagh","Clare","38","Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"QUALITY OK",NA,NA
+"119","0819SEW008",NA,NA,"Borehole",30.8,3.1,"Bedrock Met",1975-08-01,104690,193160,"to 200m","LUOGH SOUTH",NA,"Clare","14","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,9.4,17.4,27.1,NA,NA,"Drilled by Shamrock",NA,NA
+"120","0819SEW015",NA,NA,"Borehole",NA,NA,NA,NA,107100,197270,"to 200m","DOOLIN",NA,"Clare","8",NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No water.",NA,NA
+"121","1115NWW019",NA,NA,"Dug well",3.1,NA,"DTB Unknown",1961-01-01,110060,163860,"to 200m","LISNALIGAUN",NA,"Clare","48","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref. 48-10-33",NA,NA
+"122","1115NWW032",NA,NA,"Borehole",NA,NA,NA,1997-07-01,110680,163920,"to 200m","KILMIHIL",NA,"Clare","48","Public supply (Co Co)","Moderate",NA,NA,68,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DEPTH OF WELL IS ON SAMPLE BOTTLES APPEARS HIGH IN IRON",NA,NA
+"123","1115NWW039",NA,NA,"Borehole",62.5,10.7,"Bedrock Met",1999-09-27,114440,168860,"to 200m","GLENMORE",NA,"Clare","39","Agri & domestic use","Moderate","V",43.6,NA,NA,NA,0.95,152,45.7,53.3,NA,NA,NA,"Drilled by Tony Lynch, Cappamore",NA,"73 hr test"
+"124","1117NEW010","184",NA,"Borehole",69.2,5.8,"Bedrock Met",1975-06-24,138120,184690,"to 200m","BEARNAFUNSHIN",NA,"Clare","26","Domestic use only",NA,NA,NA,NA,NA,NA,NA,152,54.6,64.3,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,NA
+"125","1117NEW018",NA,NA,"Borehole",13.1,1.1,"Bedrock Met",1934-09-06,133590,186720,"to 200m","PORTLECKA","Ruan","Clare","25","Agri & domestic use","Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No water"
+"126","1117NEW019",NA,NA,"Borehole",18.9,7.4,"Bedrock Met",1964-10-01,133590,186680,"to 200m","PORTLECKA","Ruan","Clare","25","Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by M Lynch",NA,NA
+"127","1117NEW078",NA,NA,"Borehole",73.2,4.6,"Bedrock Met",NA,139040,188730,"to 200m","CLOONEEN",NA,"Clare","26","Domestic use only","Poor","V",22.9,NA,NA,6.1,3.75,152,57.9,NA,NA,NA,NA,"Quality ok 
+Drilled by Michael CROSS, Rathangan",NA,"24 hr test"
+"128","1117NEW080",NA,NA,"Borehole",51.8,6.1,"Bedrock Met",2000-08-15,136870,184700,"to 200m","CURRADERRA",NA,"Clare","26","Agri & domestic use","Poor","V",8.5,NA,NA,20.7,0.41,152,42.7,NA,NA,NA,NA,"Drilled by Michael Cross, Rathangan",NA,"72 hr test"
+"129","1117NEW081",NA,NA,"Borehole",47.2,4.3,"Bedrock Met",2001-08-27,127420,183810,"to 200m","GORTCURKA",NA,"Clare","25","Agri & domestic use","Poor","V",26.2,NA,NA,12.2,2.15,152,27.4,39.6,NA,NA,NA,"Drilled by Michael Barrett, Ennis",NA,"5 hr test"
+"130","1117NEW082",NA,NA,"Borehole",45.7,2.1,"Bedrock Met",2002-09-27,134600,184780,"to 200m","AUGHRIM (KELLY)",NA,"Clare","25","Agri & domestic use","Moderate","II",54.5,NA,NA,NA,181.6,152,42.7,NA,NA,NA,NA,"Drilled by Michael Barrett, Ennis",NA,"dd recorded as 0m given a value of 0.3m  72 hr test"
+"131","1117NWW016",NA,"CLARE CO CO","Borehole",18,4.9,"Bedrock Met",1961-01-01,121070,181230,"to 200m","CARROWKEEL",NA,"Clare","32","Public supply (Co Co)","Moderate",NA,54.5,NA,NA,NA,NA,NA,18,NA,NA,NA,NA,"SPRING 17.98M WATER WILL COME UP TO 7M BGL IN 10 MINS",NA,NA
+"132","1117NWW032",NA,NA,"Dug well",1.5,NA,"Bedrock Not Met",1961-06-01,114660,187860,"to 200m","KILLEINAGH",NA,"Clare","23","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB",NA,NA
+"133","1117NWW033",NA,NA,"Dug well",1.5,NA,"DTB Unknown",1962-01-01,113700,187550,"to 200m","GLEN SOUTH",NA,"Clare","23","Agri & domestic use","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"134","1117NWW034",NA,NA,"Borehole",54.9,3.1,"Bedrock Met",1972-11-27,115030,187010,"to 200m","KNOCKDRUMMAGH SOUTH",NA,"Clare","23","Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 4210",NA,NA
+"135","1117SEW012","96",NA,"Borehole",50.3,11.9,"Bedrock Met",1973-11-18,130330,175120,"to 200m","INCH MORE",NA,"Clare","33","Domestic use only",NA,NA,NA,NA,NA,NA,NA,152,41.1,47.9,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,NA
+"136","1117SEW058","99",NA,"Borehole",30.5,6.1,"Bedrock Met",1974-01-13,128430,172020,"to 200m","DARRAGH NORTH",NA,"Clare","41","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,22.3,27.4,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,NA
+"137","1117SEW061","BH 101",NA,"Borehole",13.3,12.2,"Bedrock Met",1996-04-16,133900,177500,"to 200m","ENNIS",NA,"Clare","33",NA,NA,NA,NA,NA,NA,NA,NA,NA,12,NA,NA,NA,NA,"AIR ROTARY, drilled by Glover Site Investigations for Dames & Moore",NA,NA
+"138","1117SEW062","BH 103",NA,"Borehole",7.6,4.5,"Bedrock Met",1996-01-15,131800,178700,"to 200m","ENNIS",NA,"Clare","33","Other",NA,NA,NA,NA,NA,NA,NA,NA,2.5,NA,NA,NA,NA,"Drilled by SHELL & AUGER by Glover Site Investigations for Dames & Moore",NA,NA
+"139","1117SWW013",NA,"CLARE CO CO","Borehole",21,12.8,"Bedrock Met",1961-01-01,120320,176070,"to 200m","FEIGHROE",NA,"Clare","32","Public supply (Co Co)","Good",NA,109,NA,NA,NA,NA,NA,20.7,NA,NA,NA,NA,"SPRING AT 20.7M WATER WILL FLOW OVER PIPE OVERNIGHT",NA,NA
+"140","1119NWW008",NA,NA,"Spring",NA,0,NA,1998-01-01,119750,206000,"to 200m","LISMACTEIGE",NA,"Clare","5","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"141","1119SEW026",NA,"TUBBER GWSS","Spring",NA,NA,NA,NA,139830,193640,"to 200m","CREGGAUNYCAHILL",NA,"Clare","18","Group Scheme","Low Spring",NA,NA,84,NA,NA,NA,NA,NA,NA,NA,NA,NA,"3-124. Q from pump rateing. Chlorination.",NA,NA
+"142","1119SWW005",NA,NA,"Borehole",80.8,1.5,"Bedrock Met",1975-05-20,123450,193550,"to 200m","LEAMANEH NORTH",NA,"Clare","16","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill","Location uncertain, but Leamaneh Castle mentioned",NA
+"143","1119SWW015",NA,NA,"Borehole",54.9,10.7,"Bedrock Met",1998-02-23,120570,190260,"to 200m","KILMORE NORTH",NA,"Clare","16","Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,48.8,NA,NA,NA,NA,"High Fe,Mn,NH4 
+Drilled by TJ CROSS",NA,"2 hr test"
+"144","1119SWW018",NA,"SMITHSTOWN CREAMERY","Unknown",NA,NA,NA,NA,115950,193120,"to 200m","CLOONGARVE",NA,"Clare","15","Other",NA,NA,NA,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,"7-123. Q-13m3/d - managers assessment.",NA,NA
+"145","1121SEW003",NA,"NEW QUAY WSS","Borehole",NA,NA,NA,NA,129280,210410,"to 200m","BEHAGH",NA,"Clare","3","Public supply (Co Co)",NA,NA,NA,95,NA,NA,NA,NA,NA,NA,NA,NA,NA,"7-114. Q from design. Chlorination. Slightly saline - 06/197",NA,NA
+"146","1417NEW002","158",NA,"Borehole",66.4,5.8,"Bedrock Met",1975-01-15,159600,181620,"to 200m","COOLREAGH MORE","Bodyke Village","Clare","28","Group Scheme",NA,NA,NA,NA,NA,NA,NA,152,17.4,33.2,57,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,NA
+"147","1417NEW014",NA,"SCARIFF CREAMERY","Borehole",103.6,1.2,"Bedrock Met",1963-03-01,164260,184470,"to 200m","BALLYMINOGE",NA,"Clare","28","Agri & domestic use","Good","V",104.7,NA,NA,61.6,1.7,NA,NA,NA,NA,NA,NA,"No water before 45.7m. @61M-30m3/d  @104m-104.7m3/d",NA,NA
+"148","1417NEW015",NA,NA,"Borehole",103.6,3.7,"Bedrock Met",1964-10-01,164260,184420,"to 200m","BALLYMINOGE",NA,"Clare","28","Agri & domestic use","Moderate",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by M Lynch",NA,NA
+"149","1417NEW048",NA,NA,"Borehole",61,1.8,"Bedrock Met",1998-02-15,166000,185140,"to 200m","CARROWMORE",NA,"Clare","29","Domestic use only","Moderate","IV",85.1,NA,NA,24.4,3.49,152,51.8,NA,NA,NA,NA,"4hr test Water entry 52m Lining 3.7m Good quality FLANNERY",NA,"4 hr test"
+"150","1417NEW054",NA,NA,"Borehole",NA,NA,NA,NA,163630,186560,"to 200m","TOBERNAGAT",NA,"Clare","29",NA,"Good",NA,275,NA,NA,NA,NA,NA,67,NA,NA,NA,NA,"Water met 67m. Yield 220 - 330 m3/d.",NA,NA
+"151","1417NWW034",NA,NA,"Borehole",64,4.6,"Bedrock Met",1998-03-10,141150,186610,"to 200m","SUNNAGH",NA,"Clare","26","Domestic use only","Poor","III",27.3,NA,NA,0.1,91,152,54.9,NA,NA,NA,NA,"No drawdown
+Driller Michael CROSS, Rathangan",NA,"10hr test"
+"152","1417SEW018",NA,NA,"Dug well",1.8,1.8,"Bedrock Presumed",1969-08-15,157370,172900,"to 200m","ARDSKEAGH","Broadford","Clare","44","Agri & domestic use","Poor",NA,22.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"153","1417SEW040",NA,NA,"Borehole",89,4.3,"Bedrock Met",2001-07-09,162030,172570,"to 200m","KILBANE",NA,"Clare","44","Agri & domestic use","Good","II",273,NA,NA,3.35,81.4,152,65.2,85.3,NA,NA,NA,"Drilled by Martin Lenihan, Glin;
+Sandstone",NA,"2 hr test"
+"154","1417SEW048",NA,NA,"Borehole",129.2,8.2,"Bedrock Met",2003-06-27,161000,173780,"to 200m","KILLOKENNEDY",NA,"Clare","44","Domestic use only","Moderate","IV",54.5,NA,NA,8.23,6.62,152,90.2,115.2,NA,NA,NA,"Driller Lenihen, Glin
+Sandstone",NA,NA
+"155","1417SWW029",NA,"Clare County Council","Dug well",5.5,NA,"DTB Unknown",1956-01-01,153900,176920,"to 200m","FOX AND GEESE",NA,"Clare","35","Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"AMPLE SUPPLY FOR THE WHOLE VILLAGE",NA,NA
+"156","1417SWW083",NA,NA,"Borehole",91,NA,"DTB Unknown",NA,152540,171160,"to 200m","SNATY",NA,"Clare","43","Domestic use only","Good",NA,381,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Crystal clear water.",NA,NA
+"157","1417SWW097",NA,NA,"Borehole",91.4,3.7,"Bedrock Met",2004-05-10,144000,178430,"to 200m","TOONAGH",NA,"Clare","34","Domestic use only","Poor","V",10.9,NA,NA,61,0.18,152,83.8,NA,NA,NA,NA,"Drilled by Michael Barrett, Barefield, Ennis
+Limestone",NA,"3 hr test"
+"158","0513NEW002",NA,NA,"Dug well",3.7,NA,"DTB Unknown",NA,75550,149750,"to 500m","CLOGHAUNSAVAUN",NA,"Clare","71","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"159","0513NEW004",NA,NA,"Dug well",2.4,NA,"Bedrock Not Met",NA,76000,148250,"to 500m","CLOGHAUNBEG",NA,"Clare","71","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 3482",NA,NA
+"160","0813NWW001",NA,NA,"Borehole",24.7,4.3,"Bedrock Met",1970-11-15,83350,149900,"to 500m","RAHONA",NA,"Clare","72","Agri & domestic use","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 3480",NA,NA
+"161","0815NEW035",NA,NA,"Dug well",4.6,NA,"Bedrock Not Met",1961-07-01,103830,161540,"to 500m","CARROW",NA,"Clare","57","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB",NA,NA
+"162","0815NEW051","Doonbeg No. 1",NA,"Borehole",3264,NA,"DTB Unknown",1962-12-20,96350,163550,"to 500m","CARROWMORE SOUTH",NA,"Clare","47","Industrial use","Excellent",NA,502,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Water found at 21.3 - 33.5; 210-215; 242-259; 320-332; 390-415; 582-587; 751-757m",NA,"fresh water at 300-400 mg/l NaCl"
+"163","0815NWW020",NA,NA,"Dug well",6.7,NA,"DTB Unknown",1961-01-01,92900,163290,"to 500m","LISROE",NA,"Clare","46","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref. 46-15-8",NA,NA
+"164","0815NWW021",NA,NA,"Dug well",4.9,NA,"DTB Unknown",1961-12-01,92690,164080,"to 500m","BEALAHA",NA,"Clare","46","Agri & domestic use","Poor",NA,38.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 608 TB 225
+On card Depth = 4.9m & DtoB = 6.1m???",NA,NA
+"165","0815SEW014",NA,NA,"Dug well",8.8,8.8,"Bedrock Presumed",1962-09-15,99250,155450,"to 500m","DRIMNA",NA,"Clare","67","Agri & domestic use","Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 234;
+QUALITY OK",NA,NA
+"166","0815SEW027",NA,NA,"Dug well",4.3,NA,"DTB Unknown",1972-12-12,97550,155900,"to 500m","CARNAUN",NA,"Clare","67","Agri & domestic use","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"167","0815SEW040",NA,NA,"Dug well",0.9,0.9,"Bedrock Met",1961-12-13,103100,157080,"to 500m","MOYADDA MORE",NA,"Clare","57","Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/CL 685",NA,NA
+"168","0815SWW019",NA,NA,"Borehole",29.3,6.7,"Bedrock Met",1970-10-15,92950,154900,"to 500m","SHANGANAGH",NA,"Clare","66","Agri & domestic use","Moderate",NA,71,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 3424",NA,NA
+"169","0815SWW035",NA,NA,"Borehole",19.5,18.3,"Bedrock Met",1971-02-15,93680,158890,"to 500m","BAUNMORE",NA,"Clare","56","Agri & domestic use","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"170","0815SWW043",NA,NA,"Dug well",0.9,NA,"Bedrock Not Met",1962-12-01,87270,159640,"to 500m","KNOCKROE",NA,"Clare","56","Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DEPT OF AGRIC W/CL 574",NA,NA
+"171","0817NEW013","218",NA,"Borehole",25.9,1.8,"Bedrock Met",1975-08-27,104630,187840,"to 500m","CLOGHAUNDINE",NA,"Clare","22","Domestic use only","Poor",NA,6.5,NA,NA,NA,NA,152,20.1,24.1,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,"Supplies 3 cottages"
+"172","0817NEW014","192",NA,"Borehole",21,2.7,"Bedrock Met",1975-07-07,104740,187790,"to 500m","CLOGHAUNDINE",NA,"Clare","22","Domestic use only",NA,NA,NA,NA,NA,NA,NA,152,2.4,18.6,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,"Very good yield of fresh water within 15m of HWM
+"
+"173","0817NEW015","191",NA,"Borehole",30.8,2.7,"Bedrock Met",1975-07-08,104790,187820,"to 500m","CLOGHAUNDINE",NA,"Clare","22","Domestic use only",NA,NA,NA,NA,NA,NA,NA,152,23.5,27.7,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,NA
+"174","0817SEW001",NA,NA,"Borehole",40.2,6.7,"Bedrock Met",1973-02-22,99520,174020,"to 500m","SEAFIELD",NA,"Clare","38","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"175","0819SEW001","203",NA,"Borehole",40.2,9.1,"Bedrock Met",1975-07-21,107200,196900,"to 500m","DOONMACFELIM",NA,"Clare","8","Agri & domestic use","Poor",NA,18,NA,NA,NA,NA,152,11.3,12.5,36.9,NA,NA,"Cavity @ 11.3-12.5m;  Water clear but smells of H2S; Drilled by Shamrock",NA,NA
+"176","0819SEW005",NA,NA,"Dug well",0.9,0.9,"Bedrock Met",1972-07-15,106950,196620,"to 500m","FISHERSTREET",NA,"Clare","8","Agri & domestic use","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 4019",NA,NA
+"177","0819SEW007","205",NA,"Borehole",15.5,6.1,"Bedrock Met",1995-07-30,106300,194400,"to 500m","LUOGH NORTH",NA,"Clare","14","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,6.4,12.8,NA,NA,NA,"Shattered rock at top water entry
+""Very high yield"" Drilled by Shamrock",NA,NA
+"178","0819SEW009","206",NA,"Borehole",40.5,1.1,"Bedrock Met",1975-08-08,105880,192080,"to 500m","CAHERBARNAGH",NA,"Clare","14","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,12.5,28.3,35,NA,NA,"Drilled by Shamrock",NA,NA
+"179","0819SEW011","219",NA,"Borehole",35.7,1.4,"Bedrock Met",1975-08-14,105140,190490,"to 500m","BALLYSTEEN",NA,"Clare","14","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,29.6,33.2,34.1,NA,NA,"Yield ""very high""; water comes from fissured zone. Drilled by Shamrock",NA,NA
+"180","0819SEW016","208",NA,"Borehole",16.2,9.3,"Bedrock Met",1975-08-19,105520,191500,"to 500m","BALLYVRISLAUN",NA,"Clare","14","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,11.9,12.5,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,NA
+"181","1115NEW029",NA,NA,"Borehole",30,NA,"DTB Unknown",1970-01-01,138600,164700,"to 500m","BALLINOOSKY",NA,"Clare","51","Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"182","1115NWW013",NA,NA,"Dug well",2.4,NA,"DTB Unknown",1961-01-01,110600,165540,"to 500m","CLOONAKILLA",NA,"Clare","48","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref. 48-10-16",NA,NA
+"183","1115NWW029",NA,NA,"Borehole",11.3,NA,"DTB Unknown",1964-05-01,120250,164430,"to 500m","GORTYGEEHEEN","Feeaneigh","Clare","49","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref. 49-10-5",NA,NA
+"184","1115NWW030",NA,NA,"Dug well",6.7,NA,"DTB Unknown",1961-11-13,112940,166260,"to 500m","KILTUMPER","Clonigulane","Clare","48","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref. 48-7-18",NA,NA
+"185","1115NWW035",NA,NA,"Borehole",NA,NA,"DTB Unknown",NA,112680,166370,"to 500m","KILTUMPER",NA,"Clare","48","Domestic use only","Excellent",NA,NA,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yield 1090 - 1310 m3/d.",NA,NA
+"186","1117NEW001","107",NA,"Borehole",47.2,25.3,"Bedrock Met",1974-02-11,128630,188340,"to 500m","BALLYKINNACORRA NORTH",NA,"Clare","17","Domestic use only","Poor",NA,2,NA,NA,NA,NA,152,30.5,33.5,NA,NA,NA,"CAVINGS DEEPER THAN 47.2M",NA,NA
+"187","1117NEW047",NA,NA,"Borehole",29.9,6.1,"Bedrock Met",1971-03-05,136380,181840,"to 500m","BAREFIELD",NA,"Clare","26","Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"188","1117NEW058",NA,NA,"Borehole",30.5,3.1,"Bedrock Met",1965-12-15,132720,181070,"to 500m","BALLYMAQUIGGIN",NA,"Clare","33","Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 985",NA,NA
+"189","1117NEW060",NA,NA,"Borehole",1.5,NA,"DTB Unknown",1972-10-17,137370,187640,"to 500m","DRUMSALLAGH",NA,"Clare","18","Agri & domestic use","Poor",NA,7.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 4134",NA,NA
+"190","1117NEW072",NA,NA,"Borehole",75,NA,"DTB Unknown",NA,129640,189440,"to 500m","ISLANDMORE",NA,"Clare","17",NA,"Good",NA,244,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"191","1117NWW005",NA,NA,"Dug well",1.8,1.8,"Bedrock Presumed",NA,113310,188510,"to 500m","ENNISTIMON",NA,"Clare","15","Domestic use only","Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"192","1117NWW006",NA,NA,"Dug well",2.4,2.4,"Bedrock Presumed",NA,113800,186500,"to 500m","GARRAUN",NA,"Clare","23","Domestic use only","Poor",NA,8.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"193","1117NWW008",NA,"Manager, Clare Creameries","Borehole",53,10.4,"Bedrock Met",1964-10-01,111320,188300,"to 500m","ENNISTIMON",NA,"Clare","15","Agri & domestic use","Good",NA,164,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by M Lynch",NA,NA
+"194","1117NWW009",NA,NA,"Borehole",48.8,7.6,"Bedrock Presumed",1971-09-08,113330,188240,"to 500m","ENNISTIMON",NA,"Clare","15","Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"195","1117NWW013",NA,NA,"Dug well",1.8,1.8,"Bedrock Presumed",NA,111050,187060,"to 500m","ATTYCRISTORA",NA,"Clare","23","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"QUALITY OK
+WTB/CL 4356",NA,NA
+"196","1117NWW014",NA,NA,"Dug well",1.8,NA,"Bedrock Not Met",NA,111050,187000,"to 500m","ATTYCRISTORA",NA,"Clare","23","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"197","1117NWW021",NA,NA,"Dug well",1.8,NA,"DTB Unknown",1962-04-01,121370,182490,"to 500m","SILESHAUN EAST",NA,"Clare","24","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref. 24-15-2",NA,NA
+"198","1117NWW039",NA,NA,"Borehole",50.6,6.7,"Bedrock Met",1964-10-01,110370,184230,"to 500m","MOY MORE",NA,"Clare","23","Agri & domestic use","Moderate",NA,76,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by M Lynch",NA,NA
+"199","1117NWW045",NA,NA,"Borehole",140.8,10.1,"Bedrock Met",1999-07-21,118390,186610,"to 500m","MOANREEL NORTH",NA,"Clare","24","Agri & domestic use","Moderate","IV",43.6,NA,NA,NA,13,152,134.1,NA,NA,NA,NA,"Drilled by Martin Lenihan, Glin",NA,"2 hr test"
+"200","1117SEW003",NA,NA,"Borehole",48.8,NA,"DTB Unknown",1972-12-01,138420,178470,"to 500m","CREGGAUN",NA,"Clare","34","Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"201","1117SEW004",NA,NA,"Borehole",18,5.8,"Bedrock Met",1973-02-01,138430,178430,"to 500m","CREGGAUN",NA,"Clare","34","Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 4207",NA,NA
+"202","1117SEW007",NA,NA,"Borehole",27.4,3.4,"Bedrock Met",1972-11-01,138410,178360,"to 500m","CREGGAUN",NA,"Clare","34","Agri & domestic use","Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 4148",NA,NA
+"203","1117SEW024",NA,NA,"Dug well",1.5,0.9,"Bedrock Met",1974-03-15,126680,175910,"to 500m","CAPPALEA SOUTH",NA,"Clare","33","Agri & domestic use","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"QUALITY OK
+WTB/CL 4236",NA,NA
+"204","1117SEW026",NA,NA,"Borehole",36.6,2.7,"Bedrock Met",1971-11-01,139340,176460,"to 500m","MONANOE",NA,"Clare","34","Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"205","1117SEW027",NA,NA,"Borehole",33.5,3.4,"Bedrock Met",1963-03-01,138070,177070,"to 500m","KNOCKHOGAN",NA,"Clare","34","Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 536",NA,NA
+"206","1117SEW032",NA,"ESB REF 34 14 24","Borehole",7.3,NA,"DTB Unknown",1962-06-01,138920,175660,"to 500m","KILLAWINNA",NA,"Clare","34","Agri & domestic use","Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"YIELD GIVEN IS FOR SUMMER",NA,NA
+"207","1117SEW036",NA,NA,"Borehole",24.4,1.2,"Bedrock Met",1968-03-15,139290,174430,"to 500m","CLOONMORE",NA,"Clare","42","Agri & domestic use","Moderate",NA,87.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 124",NA,NA
+"208","1117SEW038",NA,NA,"Borehole",41.5,5.8,"Bedrock Met",1961-10-02,138570,171830,"to 500m","LATOON NORTH",NA,"Clare","42","Agri & domestic use","Poor",NA,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/CL 74 AND WTB/CL 246",NA,"Yield approx."
+"209","1117SEW039",NA,NA,"Borehole",18.3,NA,"DTB Unknown",1964-08-15,139740,174190,"to 500m","COOLSHAMROGE",NA,"Clare","42","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref. 42-2-5",NA,NA
+"210","1117SEW040",NA,NA,"Borehole",30.5,4.3,"Bedrock Met",1964-07-15,139750,174130,"to 500m","COOLSHAMROGE",NA,"Clare","42","Agri & domestic use","Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"QUALITY OKAY;
+WTB/CL 963, 550",NA,NA
+"211","1117SEW050",NA,NA,"Dug well",6.1,NA,"DTB Unknown",1962-03-15,132020,174430,"to 500m","EDENVALE",NA,"Clare","41","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"212","1117SEW051",NA,NA,"Borehole",38.7,NA,"DTB Unknown",1972-09-07,130470,171700,"to 500m","BALLYEA",NA,"Clare","41","Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"BROKEN  RED SST;
+WTB/CL 943",NA,NA
+"213","1117SEW054",NA,NA,"Borehole",36,33.5,"Bedrock Met",1965-08-15,125430,174470,"to 500m","KILMALEY",NA,"Clare","40","Agri & domestic use","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 898",NA,NA
+"214","1117SEW056",NA,NA,"Dug well",1.5,1.5,"DTB Unknown",1972-10-15,125300,172600,"to 500m","CAHERMORE",NA,"Clare","33","Agri & domestic use","Poor",NA,5.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 4117",NA,NA
+"215","1117SEW057",NA,NA,"Borehole",29.3,24.4,"Bedrock Met",1968-03-15,131770,178650,"to 500m","LOUGHVELLA",NA,"Clare","33","Agri & domestic use","Moderate",NA,55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 1331",NA,NA
+"216","1117SWW010",NA,NA,"Borehole",33.5,NA,"DTB Unknown",1964-07-01,124590,176180,"to 500m","CULLEEN",NA,"Clare","32","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref. 32-16-4",NA,NA
+"217","1117SWW014",NA,NA,"Dug well",2.1,NA,"DTB Unknown",1962-03-01,123510,175950,"to 500m","LEHAKNOCK",NA,"Clare","32","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref. 32-16-25",NA,NA
+"218","1119NWW002",NA,"CLARE CO CO","Borehole",28.8,6.1,"Bedrock Met",1961-01-01,122840,207770,"to 500m","BALLYVAUGHAN",NA,"Clare","2","Agri & domestic use","Good",NA,120,NA,NA,NA,NA,NA,28.8,NA,NA,NA,NA,NA,NA,NA
+"219","1119SEW014",NA,NA,"Borehole",46.3,3.1,"Bedrock Met",1970-05-15,137170,194780,"to 500m","CROSS",NA,"Clare","11","Domestic use only","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 3407",NA,NA
+"220","1119SEW015",NA,NA,"Borehole",30.5,1.2,"Bedrock Met",1965-09-15,137170,194720,"to 500m","CROSS",NA,"Clare","11","Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 1033",NA,NA
+"221","1415NEW003","BH 1",NA,"Borehole",12.6,12.6,"Bedrock Presumed",1929-11-01,157750,160500,"to 500m","PARTEEN",NA,"Clare","63","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SAND 0-03m BOG 0.3-7.7m Bound gravel 7.7-10.4m Marl 10.4-12.",NA,NA
+"222","1415NEW004","BH 2",NA,"Borehole",7.6,6.1,"Bedrock Met",1929-11-01,157750,160400,"to 500m","PARTEEN",NA,"Clare","63","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"223","1415NEW013",NA,NA,"Dug well",6.7,4.9,"Bedrock Met",1961-10-10,162100,168570,"to 500m","LEITRIM",NA,"Clare","44","Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WCL 618",NA,NA
+"224","1415NEW016",NA,NA,"Dug well",5.5,2.4,"Bedrock Met",1971-10-15,163440,165540,"to 500m","AUGHBOY",NA,"Clare","53","Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"225","1415NEW025",NA,NA,"Dug well",5.2,2.1,"Bedrock Met",1968-07-15,163630,162170,"to 500m","COTTAGE",NA,"Clare","53","Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"226","1415NEW056","BH 1","ESB","Borehole",13.7,NA,"Bedrock Not Met",1929-11-15,164800,165450,"to 500m","KILDOORUS",NA,"Clare","54","Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"0-12.8 SAND AND GRAVEL 12.8- 13.7 MARL
+Trial Bore for Shannon Scheme",NA,NA
+"227","1415NEW064",NA,NA,"Borehole",NA,NA,NA,NA,162260,166810,"to 500m","BALLYBRACK",NA,"Clare","53",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Artesian, water met 30 - 40m.","Townland uncertain",NA
+"228","1415NWW002",NA,NA,"Borehole",32.3,12.2,"Bedrock Met",1964-06-08,148500,160950,"to 500m","BALLYMORRIS",NA,"Clare","62","Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 624",NA,NA
+"229","1415NWW009",NA,NA,"Borehole",31.4,5.8,"Bedrock Met",1960-07-15,150900,160250,"to 500m","CRATLOEKEEL",NA,"Clare","62","Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"230","1415NWW010",NA,NA,"Borehole",93.6,13.7,"Bedrock Met",1967-05-15,150900,161100,"to 500m","CRATLOEKEEL",NA,"Clare","62","Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 1611; QUALITY OK",NA,NA
+"231","1415NWW011",NA,NA,"Borehole",25.6,1.2,"Bedrock Met",1966-04-15,142540,168990,"to 500m","GRANAGHAN",NA,"Clare","42","Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 1113",NA,NA
+"232","1415NWW012",NA,NA,"Dug well",3.1,0.6,"Bedrock Met",1965-10-01,142540,168940,"to 500m","GRANAGHAN",NA,"Clare","42","Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 996",NA,NA
+"233","1415NWW013",NA,NA,"Borehole",60.2,3.7,"Bedrock Met",1973-03-15,141430,169740,"to 500m","GRANAGHAN BEG",NA,"Clare","42","Agri & domestic use","Poor",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 4229",NA,NA
+"234","1415NWW014",NA,NA,"Borehole",54.3,2.7,"Bedrock Met",1968-01-01,140600,169850,"to 500m","LANGOUGH",NA,"Clare","42","Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"235","1415NWW015",NA,NA,"Borehole",32.3,18.3,"Bedrock Met",1976-06-15,149780,169780,"to 500m","POLLOUGH",NA,"Clare","43","Agri & domestic use","Poor",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"QUALITY OK;
+FM3/1435",NA,NA
+"236","1415NWW023",NA,NA,"Dug well",1.8,1.2,"Bedrock Met",1972-06-15,151490,166260,"to 500m","CORLEA",NA,"Clare","52","Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"237","1415NWW027",NA,NA,"Dug well",4,1.5,"Bedrock Met",1966-09-26,145990,164540,"to 500m","CARROWNALEGAUN",NA,"Clare","52","Agri & domestic use","Poor",NA,7.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"QUALITY OK; WTB/CL 1234",NA,NA
+"238","1415NWW032",NA,NA,"Borehole",21.6,6.1,"Bedrock Met",1971-06-15,149920,163600,"to 500m","GALLOWSHILL",NA,"Clare","52","Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"239","1415NWW035",NA,NA,"Borehole",18.6,2.4,"Bedrock Met",1967-02-21,146690,164350,"to 500m","CAPPAGHCASTLE",NA,"Clare","52","Agri & domestic use","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 1334",NA,NA
+"240","1415NWW058","116",NA,"Borehole",46.3,NA,"DTB Unknown",1974-04-25,150100,163450,"to 500m","GALLOWSHILL",NA,"Clare","52","Domestic use only","Poor",NA,6.5,NA,NA,NA,NA,152,27.4,33.5,39.3,NA,NA,"PUMP AT 43m
+Drilled by Shamrock Water Well Services, Birdhill",NA,NA
+"241","1417NEW001","63",NA,"Borehole",56.2,23.2,"Bedrock Met",1973-07-09,164380,180610,"to 500m","BALLYMALONE",NA,"Clare","36","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,41.1,50.9,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,"""good supply"""
+"242","1417NEW049",NA,"CO. CO.","Borehole",NA,NA,NA,NA,167210,189760,"to 500m","GLENWANISH",NA,"Clare","21",NA,NA,NA,NA,330,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"243","1417NEW051",NA,NA,"Borehole",100,NA,"DTB Unknown",NA,166360,183400,"to 500m","RAHEEN",NA,"Clare","29",NA,"Moderate",NA,110,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Water met >91m",NA,NA
+"244","1417NEW052",NA,NA,"Borehole",100,NA,"DTB Unknown",NA,166850,184850,"to 500m","MEENROSS",NA,"Clare","29",NA,"Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Water met >91m. High sulphur levels.",NA,NA
+"245","1417NEW053",NA,NA,"Borehole",46,NA,"DTB Unknown",NA,165520,185750,"to 500m","TOBERNAGAT",NA,"Clare","29",NA,"Poor",NA,3.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Well was blasted. After blasting S.W.L. - 0.6m, Yield -0.2m3",NA,NA
+"246","1417NEW080",NA,NA,"Borehole",94.5,5.5,"Bedrock Met",2002-08-06,169770,182260,"to 500m","BALLYNAGLERAGH",NA,"Clare","29","Agri & domestic use","Poor","V",9.4,NA,NA,46.9,0.2,152,57.9,80.8,NA,NA,NA,"Drilled by Michael Cross, Rathangan",NA,"24 hr test"
+"247","1417NWW001","101",NA,"Borehole",40.5,2.4,"Bedrock Met",1974-02-05,140490,180310,"to 500m","CRANAGHER",NA,"Clare","34","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,6.1,35.4,NA,NA,NA,"Drilled by Shamrock Water Well Services, Birdhill",NA,NA
+"248","1417NWW024",NA,NA,"Borehole",NA,NA,NA,1986-05-12,152680,180670,"to 500m","MARYFORT/LISMEEHAN",NA,"Clare","35","Industrial use","Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LOCATED 500M FROM WELLS 1417NW021-023",NA,NA
+"249","1417NWW025",NA,NA,"Borehole",55,NA,"DTB Unknown",1986-05-12,152680,180610,"to 500m","MARYFORT/LISMEEHAN",NA,"Clare","35","Industrial use","Good",NA,260,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LOCATED 500M FROM WELLS 1417NW021-023",NA,NA
+"250","1417NWW037",NA,NA,"Borehole",106,NA,"DTB Unknown",NA,146150,183140,"to 500m","TYREDAGH",NA,"Clare","27",NA,"Poor",NA,0.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Water from near surface, first 9 - 12m",NA,NA
+"251","1417NWW038",NA,NA,"Borehole",75,NA,"DTB Unknown",NA,143000,182340,"to 500m","BALLYVROGHAUN OUGHTER",NA,"Clare","26","Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"252","1417SEW006",NA,NA,"Borehole",10.4,1.8,"Bedrock Met",1967-05-01,157280,175610,"to 500m","DRIMEEN/RUAN",NA,"Clare","36","Agri & domestic use","Moderate",NA,52.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL NO REF ON CARD",NA,NA
+"253","1417SEW007",NA,NA,"Borehole",23.5,NA,"DTB Unknown",1966-04-01,155180,175600,"to 500m","LILLAVOY",NA,"Clare","36","Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"254","1417SEW010",NA,NA,"Borehole",21.3,NA,"DTB Unknown",NA,167920,179520,"to 500m","RAHENA MORE",NA,"Clare","37","Agri & domestic use","Poor",NA,8.7,8.7,NA,NA,NA,NA,16.8,NA,NA,NA,NA,"Drilled by Shamrock Water Well Drilling, Birdhill",NA,NA
+"255","1417SEW016",NA,NA,"Borehole",25.9,11,"Bedrock Met",1974-07-01,166190,172510,"to 500m","GORTCALLYROE",NA,"Clare","45","Agri & domestic use","Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"QUALITY OK;
+WTB/CL 3753",NA,NA
+"256","1417SEW017",NA,NA,"Dug well",1.2,NA,"Bedrock Not Met",1971-12-13,161780,174110,"to 500m","KILBANE",NA,"Clare","44","Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"257","1417SEW029",NA,"CO. CO. BROADFORD PS","Spring",NA,NA,NA,NA,157240,171200,"to 500m","GORTNAGLOGH",NA,"Clare","44","Public supply (Co Co)","Low Spring",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Q was 90m3/d at one time. Dries in summer. Mountain stream""""",NA,NA
+"258","1417SWW007",NA,NA,"Borehole",18.9,4.6,"Bedrock Met",1974-08-15,145040,173820,"to 500m","CUTTEEN",NA,"Clare","35","Agri & domestic use","Poor",NA,17.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"QUALITY OK
+WTB/CL 4455",NA,NA
+"259","1417SWW020",NA,NA,"Borehole",23.8,3,"Bedrock Met",1973-05-01,144170,175570,"to 500m","CREEVAGH BEG",NA,"Clare","34","Agri & domestic use","Poor",NA,14.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 4238",NA,NA
+"260","1417SWW021",NA,NA,"Borehole",27.7,4.6,"Bedrock Met",1973-02-01,144160,175530,"to 500m","CREEVAGH BEG",NA,"Clare","34","Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 4226",NA,NA
+"261","1417SWW030",NA,NA,"Borehole",19.8,10.7,"Bedrock Met",1964-05-15,152980,174870,"to 500m","KNOCKATLOE",NA,"Clare","35","Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 666",NA,NA
+"262","1417SWW057",NA,NA,"Borehole",12.2,1.5,"Bedrock Met",1971-04-15,145040,173750,"to 500m","CUTTEEN",NA,"Clare","42","Agri & domestic use","Poor",NA,17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"QUALITY OKAY;
+WTB/CL 3619",NA,NA
+"263","1417SWW060",NA,NA,"Borehole",30.5,3.1,"Bedrock Met",1970-11-15,141620,170670,"to 500m","CAHERSCOOBY",NA,"Clare","42","Agri & domestic use","Good",NA,164,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"QUALITY OKAY WTB/CL 3418",NA,NA
+"264","1417SWW061",NA,NA,"Borehole",41.8,3.1,"Bedrock Met",1970-02-15,141610,170630,"to 500m","CAHERSCOOBY",NA,"Clare","42","Agri & domestic use","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"QUALITY OKAY;
+WTB/CL 3370",NA,NA
+"265","1417SWW062",NA,NA,"Borehole",73.2,3.1,"Bedrock Met",1969-08-15,140560,171010,"to 500m","MOOGHAUN SOUTH",NA,"Clare","42","Agri & domestic use","Failure",NA,0.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"QUALITY OKAY;
+WTB/CL 3305",NA,NA
+"266","1417SWW063",NA,NA,"Borehole",42.7,3.1,"Bedrock Met",1971-04-28,142020,174500,"to 500m","QUIN",NA,"Clare","42","Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/CL 3597",NA,NA
+"267","1417SWW064",NA,"CLARE CO CO","Borehole",51.8,NA,"DTB Unknown",1973-10-15,142010,174460,"to 500m","QUIN",NA,"Clare","42","Agri & domestic use","Moderate","III",90.8,NA,NA,3.7,24.7,NA,NA,NA,NA,NA,NA,"DETAILS FROM CLARE CO CO WITH ENQUIRY 28/75",NA,"112 hr test"
+"268","1417SWW084",NA,NA,"Borehole",182.9,NA,"DTB Unknown",NA,148860,179750,"to 500m","TULLA",NA,"Clare","35",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"269","1419SWW021",NA,NA,"Borehole",73.1,7,"Bedrock Met",2002-08-24,143530,192900,"to 500m","BUNNAHOW",NA,"Clare","18","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,67.1,NA,NA,NA,NA,"Drilled by Mulcair, Borrisokane",NA,NA
+"270","1719SWW003",NA,NA,"Borehole",76.8,4.6,"Bedrock Met",2002-05-15,176350,190190,"to 500m","KILKITTAUN",NA,"Clare","021A","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,73.2,NA,NA,NA,NA,"Drilled by Liam Flannery, Scarriff",NA,NA

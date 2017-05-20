@@ -1,0 +1,101 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","2313NWW005",NA,NA,"Borehole",19.5,5.5,"Bedrock Met",1970-10-16,239370,141320,"to 1km","AHANURE NORTH",NA,"Kilkenny","26","Domestic use only","Moderate",NA,57,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","2313SWW001",NA,NA,"Borehole",15.2,1,"Bedrock Met",1969-05-15,240550,134800,"to 1km","WINDGAP",NA,"Kilkenny","30","Domestic use only","Moderate",NA,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","2313SWW037",NA,NA,"Borehole",29,12.8,"Bedrock Met",1963-08-15,241600,131000,"to 1km","INCHANAGLOGH",NA,"Kilkenny","34","Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/KLK 1625, WTB/KLK 691;
+W/KLK 1743, WTB/KLK 859",NA
+"4","2315NEW015",NA,NA,"Borehole",21.3,NA,"DTB Unknown",1973-08-01,251070,169990,"to 1km","TOMAKEANY",NA,"Kilkenny","10","Unknown","Poor",NA,31.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5","2315NEW028",NA,NA,"Borehole",24.4,NA,"DTB Unknown",1970-10-15,255680,167930,"to 1km","CLOGHARINKA",NA,"Kilkenny","11","Unknown","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6","2315NEW041",NA,NA,"Borehole",14,4.3,"Bedrock Met",NA,254200,163600,"to 1km","BALLYFOYLE",NA,"Kilkenny","15",NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref 15-1-16",NA
+"7","2315NEW049",NA,NA,"Dug well",2.7,NA,"DTB Unknown",1973-05-15,251350,164330,"to 1km","RUTHSTOWN",NA,"Kilkenny","14","Agri & domestic use","Poor",NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 3250",NA
+"8","2315NEW072",NA,NA,"Borehole",38.1,NA,"DTB Unknown",1974-01-15,249640,163690,"to 1km","BALLYRAFTON",NA,"Kilkenny","14","Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Steel Casing, Max Safe yield: 
+32.7m3/day"
+"9","2315NWW001",NA,"REV ROSE PP CLINTSTOWN NS","Borehole",18.3,6.1,"Bedrock Met",1959-12-01,244960,165350,"to 1km","CLINTSTOWN",NA,"Kilkenny","10","Unknown","Moderate",NA,78.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10","2315NWW003",NA,NA,"Borehole",23.8,1.8,"Bedrock Met",1970-08-15,233010,161940,"to 1km","WOODSGIFT",NA,"Kilkenny","12","Agri & domestic use","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Sean Flood, Clonroche",NA
+"11","2315NWW004",NA,NA,"Borehole",91.5,6.1,"Bedrock Met",1971-07-15,233010,161880,"to 1km","WOODSGIFT",NA,"Kilkenny","12","Unknown","Moderate",NA,60,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"12","2315NWW008",NA,NA,"Dug well",3.4,NA,"DTB Unknown",1962-04-01,238730,169280,"to 1km","BALLYRING",NA,"Kilkenny","9","Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref IX/6/12",NA
+"13","2315NWW010",NA,NA,"Borehole",17.7,NA,"DTB Unknown",1972-09-01,235590,167680,"to 1km","FOYLE",NA,"Kilkenny","9","Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14","2315NWW011",NA,NA,"Dug well",4.3,NA,"DTB Unknown",1973-03-15,233840,164820,"to 1km","CLOMANTAGH",NA,"Kilkenny","12","Agri & domestic use","Poor",NA,31.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 1955",NA
+"15","2315NWW182",NA,NA,"Borehole",50.3,NA,"DTB Unknown",1972-05-01,241000,168330,"to 1km","ACRAGAR",NA,"Kilkenny","9","Domestic use only","Poor",NA,33.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KILK 2473",NA
+"16","2315NWW183",NA,NA,"Unknown",7.3,NA,"DTB Unknown",1962-01-01,240100,167960,"to 1km","CLONTUBBRID",NA,"Kilkenny","9","Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref 9/7/12",NA
+"17","2315NWW186",NA,NA,"Borehole",62.4,NA,"DTB Unknown",1973-05-01,234440,168330,"to 1km","GREENKILLMORE",NA,"Kilkenny","8","Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not plotted accurately.",NA
+"18","2315NWW188",NA,NA,"Borehole",74.7,2.7,"Bedrock Met",1978-11-24,230320,169100,"to 1km","GRANGEFERTAGH",NA,"Kilkenny","8","Unknown",NA,NA,NA,NA,NA,NA,NA,150,39.6,59.4,NA,NA,NA,NA,"Drilled by Fogarty Bros",NA
+"19","2315NWW189",NA,NA,"Dug well",2.1,NA,"DTB Unknown",1962-04-01,236810,169930,"to 1km","BALLYGOWNEY",NA,"Kilkenny","9","Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref IX/2/6",NA
+"20","2315NWW190",NA,NA,"Dug well",5.2,NA,"DTB Unknown",1972-04-01,239940,166620,"to 1km","LODGE DEMESNE EAST",NA,"Kilkenny","9","Unknown","Poor",NA,34.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"21","2315NWW191",NA,NA,"Dug well",0.9,NA,"DTB Unknown",1973-10-15,233820,164780,"to 1km","CLOMANTAGH",NA,"Kilkenny","12","Domestic use only","Poor",NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"22","2315NWW208",NA,NA,"Borehole",147.2,6.1,"Bedrock Met",1988-06-15,233040,162090,"to 1km","WOODSGIFT",NA,"Kilkenny","12","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,76.2,82.3,95.1,115.8,NA,NA,"Drilled by Fogarty, Gowran","Also water inflow at 15.2m"
+"23","2315SWW168",NA,NA,"Borehole",37.2,0.9,"Bedrock Met",NA,235710,155520,"to 1km","KYLEBALLYOUGHTER",NA,"Kilkenny","18","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,7.6,NA,NA,NA,NA,NA,"Drilled by Fogarty Bros, Gowran",NA
+"24","2315SWW169",NA,NA,"Dug well",4.9,0.9,"Bedrock Met",NA,238600,157130,"to 1km","TULLAROAN",NA,"Kilkenny","18","Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"25","2315SWW171",NA,NA,"Borehole",NA,12,"Bedrock Presumed",NA,237600,155560,"to 1km","RAHEEN",NA,"Kilkenny","18","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,NA,"Drilled by Barham Bros, Belturbet
+well idle. Rockhead 12m?",NA
+"26","2315SWW172",NA,NA,"Borehole",55.8,26.2,"Bedrock Met",1988-06-16,242000,155500,"to 1km","CORSTOWN",NA,"Kilkenny","18","Agri use only","Moderate",NA,54.5,NA,NA,NA,NA,152,39.6,45.7,NA,NA,NA,NA,"Drilled by Fogarty Bros, Gowran
+Clay and stony O/B Steel casing",NA
+"27","2315SWW173",NA,NA,"Borehole",22.9,5.5,"Bedrock Met",1963-03-15,238600,157250,"to 1km","TULLAROAN",NA,"Kilkenny","18",NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"28","2315SWW175",NA,NA,"Dug well",4.9,2.7,"Bedrock Met",1962-11-15,240580,156320,"to 1km","BRABSTOWN",NA,"Kilkenny","18","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref 18-1-5",NA
+"29","2315SWW177",NA,NA,"Borehole",39.6,NA,"DTB Unknown",1973-03-15,241000,157380,"to 1km","REMEEN",NA,"Kilkenny","18","Agri & domestic use","Poor",NA,34.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 552",NA
+"30","2315SWW178",NA,NA,"Borehole",28,NA,"DTB Unknown",NA,242070,155600,"to 1km","CORSTOWN",NA,"Kilkenny","18","Agri & domestic use","Moderate",NA,49.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 1104",NA
+"31","2315SWW179",NA,NA,"Borehole",37.8,NA,"DTB Unknown",1970-05-08,243700,156330,"to 1km","BARRACKHILL",NA,"Kilkenny","18","Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 2186",NA
+"32","2315SWW180",NA,NA,"Borehole",15.2,NA,"DTB Unknown",NA,238130,153280,"to 1km","BANSE GLEBE",NA,"Kilkenny","18","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref 18-14-25
+Sand and gravel O/B""",NA
+"33","2315SWW182",NA,NA,"Borehole",68.6,48.8,"Bedrock Met",1963-12-15,242900,154150,"to 1km","BALLYFRUNK",NA,"Kilkenny","18",NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Sean Flood, ClonrocheClay O/B",NA
+"34","2315SWW183",NA,NA,"Borehole",70.1,NA,"DTB Unknown",1964-07-15,242880,154050,"to 1km","BALLYFRUNK",NA,"Kilkenny","18","Agri & domestic use","Moderate",NA,55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 862",NA
+"35","2315SWW184",NA,NA,"Borehole",51.8,18.3,"Bedrock Met",1965-07-15,243450,152500,"to 1km","BALLYCALLAN",NA,"Kilkenny","18","Agri & domestic use","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Sean Flood, Clonroche",NA
+"36","2315SWW185",NA,NA,"Dug well",6.4,NA,"DTB Unknown",1960-05-15,243450,152400,"to 1km","BALLYCALLAN",NA,"Kilkenny","18",NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 488",NA
+"37","2315SWW186",NA,NA,"Borehole",18.3,9.1,"Bedrock Met",1964-12-15,243450,152250,"to 1km","BALLYCALLAN",NA,"Kilkenny","18","Agri & domestic use","Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Sean Flood, Clonroche",NA
+"38","2315SWW187",NA,NA,"Borehole",30.5,11,"Bedrock Met",1970-12-15,243450,152180,"to 1km","BALLYCALLAN",NA,"Kilkenny","18",NA,"Good",NA,196,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"39","2315SWW188",NA,NA,"Borehole",48.8,NA,"DTB Unknown",1972-12-15,243640,156820,"to 1km","BALLYDUN",NA,"Kilkenny","18","Agri & domestic use","Poor",NA,42.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 68",NA
+"40","2315SWW189",NA,NA,"Dug well",11.6,NA,"DTB Unknown",1978-07-15,238950,154550,"to 1km","OLDTOWN",NA,"Kilkenny","18",NA,"Poor",NA,31.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"41","2315SWW195",NA,NA,"Borehole",NA,NA,NA,1989-12-18,235400,159460,"to 1km","KILLAHY",NA,"Kilkenny","13",NA,"Poor",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"42","2315SWW196",NA,NA,"Borehole",25,NA,"DTB Unknown",1970-02-15,233850,159650,"to 1km","KILDRINAGH",NA,"Kilkenny","12","Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 2462",NA
+"43","2315SWW208",NA,NA,"Borehole",14,NA,NA,NA,235880,150740,"to 1km","POLLAGH",NA,"Kilkenny","22","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"site from well survey",NA,NA
+"44","2315SWW218",NA,NA,"Borehole",25.9,15.2,"Bedrock Not Met",1970-02-12,240800,150400,"to 1km","BALLYKEEFE",NA,"Kilkenny","22","Agri & domestic use","Good",NA,153,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"45","2315SWW219",NA,NA,"Borehole",64,6.7,"Bedrock Not Met",1970-12-15,240180,150300,"to 1km","BALLYKEEFE",NA,"Kilkenny","22","Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"46","2315SWW220",NA,NA,"Borehole",24.4,6.1,"Bedrock Met",1971-11-15,240800,150220,"to 1km","BALLYKEEFE",NA,"Kilkenny","22","Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"47","2315SWW221",NA,NA,"Borehole",19.8,17.1,"Bedrock Met",1969-04-15,240800,150150,"to 1km","BALLYKEEFE",NA,"Kilkenny","22","Agri & domestic use","Good",NA,131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 151",NA
+"48","2315SWW222",NA,NA,"Borehole",15.2,NA,"DTB Unknown",1971-06-15,240800,150060,"to 1km","BALLYKEEFE",NA,"Kilkenny","22","Agri & domestic use","Good",NA,196,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"49","2315SWW223",NA,NA,"Borehole",13.7,NA,"Bedrock Not Met",NA,241500,150000,"to 1km","BALLYKEEFECASTLE",NA,"Kilkenny","22",NA,"Moderate",NA,87,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"50","2317SEW256",NA,NA,"Borehole",88.4,5.8,"Bedrock Met",1999-05-14,253100,177310,"to 1km","MOYHORA",NA,"Kilkenny","001 or 005","Domestic use only","Poor","II",30.6,NA,NA,NA,NA,150,10.7,62.5,80.8,83.8,NA,"poor location map, situated beside water reservoir in Moyhora",NA,NA
+"51","2315NEW001",NA,NA,"Dug well",6.4,4,"Bedrock Met",NA,252930,168890,"to 2km","DAMERSTOWN",NA,"Kilkenny","10","Unknown","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 2309",NA
+"52","2315NEW002",NA,NA,"Dug well",1.5,0.9,"Bedrock Met",1969-06-03,250050,166450,"to 2km","ESKER",NA,"Kilkenny","10","Unknown","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 2226",NA
+"53","2315NEW007",NA,NA,"Dug well",1.5,NA,"DTB Unknown",1972-06-01,253940,167240,"to 2km","MUCKALEE",NA,"Kilkenny","10","Unknown","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 2950",NA
+"54","2315NEW008",NA,NA,"Dug well",13.4,NA,"DTB Unknown",1970-06-01,249940,167560,"to 2km","KILCOLLAN",NA,"Kilkenny","10","Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"55","2315NEW009",NA,NA,"Dug well",3.7,NA,"DTB Unknown",1972-07-01,250480,168870,"to 2km","MAUDLIN",NA,"Kilkenny","10","Unknown","Poor",NA,30.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 2935",NA
+"56","2315NEW010",NA,NA,"Dug well",4.3,NA,"DTB Unknown",1972-04-01,249060,168940,"to 2km","KILMACAR",NA,"Kilkenny","10","Unknown","Poor",NA,37,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"57","2315NEW011",NA,NA,"Borehole",16.1,NA,"DTB Unknown",1972-06-01,253930,167200,"to 2km","MUCKALEE",NA,"Kilkenny","10","Unknown","Poor",NA,38.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 2846",NA
+"58","2315NEW012",NA,NA,"Spring",1.5,NA,"DTB Unknown",1969-07-01,252920,168820,"to 2km","DAMERSTOWN",NA,"Kilkenny","10","Unknown","Low Spring",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"too inaccurately located to be used in final count of springs in Kilkenny",NA
+"59","2315NEW013",NA,NA,"Borehole",22.2,NA,"DTB Unknown",1971-03-01,253950,168490,"to 2km","DAMERSTOWN",NA,"Kilkenny","10","Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"60","2315NEW014",NA,NA,"Borehole",18.3,NA,"DTB Unknown",1971-09-01,251910,168930,"to 2km","NEWTOWN",NA,"Kilkenny","10","Unknown","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"61","2315NEW018",NA,NA,"Borehole",54.9,NA,"DTB Unknown",NA,247000,166080,"to 2km","SWIFTHEATH",NA,"Kilkenny","10","Unknown","Poor",NA,35.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"62","2315NEW019",NA,NA,"Dug well",0.9,NA,"DTB Unknown",NA,250050,166400,"to 2km","ESKER",NA,"Kilkenny","10","Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 2978",NA
+"63","2315NEW020",NA,NA,"Dug well",1.8,NA,"DTB Unknown",1971-10-01,254530,166230,"to 2km","GAULSTOWN",NA,"Kilkenny","10","Unknown","Poor",NA,33.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 2461",NA
+"64","2315NEW021",NA,NA,"Dug well",5.5,NA,"DTB Unknown",NA,253940,168450,"to 2km","DAMERSTOWN",NA,"Kilkenny","10","Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"65","2315NEW024",NA,NA,"Dug well",4.6,NA,"DTB Unknown",NA,251450,165800,"to 2km","CORBETSTOWN",NA,"Kilkenny","10","Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref. 10/15/3",NA
+"66","2315NEW025",NA,NA,"Dug well",5.2,NA,"DTB Unknown",NA,250420,164750,"to 2km","MOHIL",NA,"Kilkenny","10","Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref.10/15/10",NA
+"67","2315NEW026",NA,NA,"Borehole",32.9,NA,"DTB Unknown",1961-12-01,259400,164550,"to 2km","REEVANAGH",NA,"Kilkenny","11","Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fe taste problem",NA
+"68","2315NEW029",NA,NA,"Dug well",5.5,NA,"DTB Unknown",NA,259900,167550,"to 2km","COOLCULLEN",NA,"Kilkenny","11","Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref.11/7/6",NA
+"69","2315NEW030",NA,NA,"Dug well",0.9,NA,"DTB Unknown",1959-01-01,256970,167130,"to 2km","KNOCKMAJOR",NA,"Kilkenny","11","Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref.XI/10/3",NA
+"70","2315NEW031",NA,NA,"Dug well",0.9,NA,"DTB Unknown",1959-01-01,256970,167080,"to 2km","KNOCKMAJOR",NA,"Kilkenny","11","Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref.XI/14/4",NA
+"71","2315NEW032",NA,NA,"Borehole",10.7,4.3,"Bedrock Met",1962-11-01,256520,168530,"to 2km","COOLRAHEEN",NA,"Kilkenny","11","Unknown","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref.XI/14/14",NA
+"72","2315NEW048",NA,NA,"Dug well",25.6,4.9,"Bedrock Met",NA,255230,165130,"to 2km","CLOGHPOOK",NA,"Kilkenny","15",NA,"Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref.11-13-16",NA
+"73","2315NEW050",NA,NA,"Borehole",22.5,NA,"DTB Unknown",1970-07-15,251930,162370,"to 2km","KNOCKNEW",NA,"Kilkenny","14","Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 2428",NA
+"74","2315NEW060",NA,NA,"Borehole",67.1,2.7,"Bedrock Met",1963-05-15,245300,162250,"to 2km","THREECASTLES",NA,"Kilkenny","14","Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Sean Flood, Clonroche",NA
+"75","2315NWW005",NA,NA,"Borehole",79.2,NA,"DTB Unknown",1973-06-01,231920,167800,"to 2km","BALLYSPELLAN",NA,"Kilkenny","8","Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"not plotted on sheet 8.",NA
+"76","2315NWW007",NA,NA,"Borehole",47.5,NA,"DTB Unknown",1970-08-10,233000,169410,"to 2km","RATHLOGAN",NA,"Kilkenny","8","Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not plotted accurately.",NA
+"77","2315NWW187",NA,NA,"Borehole",55.7,NA,"DTB Unknown",1973-09-01,233000,169350,"to 2km","BALLYSPELLAN",NA,"Kilkenny","8","Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not Plotted accurately - no location",NA
+"78","2315SWW167",NA,NA,"Dug well",4.6,NA,"Bedrock Not Met",NA,241420,159040,"to 2km","GAULSTOWN UPPER",NA,"Kilkenny","18","Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sand and gravel O/B. Limey",NA
+"79","2315SWW176",NA,NA,"Dug well",8.8,NA,"DTB Unknown",NA,240450,158470,"to 2km","GAULSTOWN",NA,"Kilkenny","18","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref  18-2-19",NA
+"80","2315SWW181",NA,NA,"Borehole",30.5,2.1,"Bedrock Met",1969-06-15,239550,152250,"to 2km","KILLEEN",NA,"Kilkenny","18","Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 2296","Date 1/2/1966"
+"81","2315SWW190",NA,NA,"Borehole",37.8,0.9,"Bedrock Met",NA,236320,152890,"to 2km","KILLEEN",NA,"Kilkenny","18","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,NA,"Drilled by Fogarty Bros, Gowran",NA
+"82","2315SWW191",NA,NA,"Borehole",61,NA,"DTB Unknown",NA,240450,158350,"to 2km","GAULSTOWN UPPER",NA,"Kilkenny","18","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Sean Flood, Clonroche",NA
+"83","2315SWW192",NA,NA,"Borehole",32.9,6.1,"Bedrock Met",1970-06-15,241420,158950,"to 2km","GAULSTOWN",NA,"Kilkenny","13",NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Sean Flood, Clonroche",NA
+"84","2315SWW193",NA,NA,"Dug well",7.3,NA,"DTB Unknown",1961-04-25,244420,158800,"to 2km","GAULSTOWN",NA,"Kilkenny","13","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref 13-15-9",NA
+"85","2315SWW199",NA,NA,"Borehole",11,NA,"DTB Unknown",NA,244820,153670,"to 2km","DAMMA",NA,"Kilkenny","19","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no location",NA,NA
+"86","2315SWW200",NA,NA,"Borehole",57.9,NA,"DTB Unknown",1981-12-01,244900,153200,"to 2km","DAMMA LOWER",NA,"Kilkenny","19","Domestic use only","Poor",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Fogarty, Gowran;
+O/B - yellow clay; iron & lime",NA
+"87","2315SWW201",NA,NA,"Borehole",91.4,12.8,"Bedrock Met",1978-09-26,244900,153200,"to 2km","DAMMA LOWER",NA,"Kilkenny","19","Agri use only","Failure",NA,14.2,NA,NA,NA,NA,203,22.9,36.6,NA,NA,NA,NA,"Drilled by Sean Flood, Clonroche;
+O/B-GRAVEL","1 hr test"
+"88","2315SWW202",NA,NA,"Dug well",1.2,NA,"Bedrock Not Met",NA,244800,153550,"to 2km","DAMMA",NA,"Kilkenny","19","Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 1575
+6"" SHEET 19/3  (GA)",NA
+"89","2315SWW217",NA,NA,"Unknown",1.8,NA,"Bedrock Not Met",1962-04-15,237730,151580,"to 2km","POTTLERATH",NA,"Kilkenny","22","Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ref:6SHEET 22/2 ESB REF XX11-5-9.""",NA
+"90","2315SWW224",NA,NA,"Borehole",30.5,NA,"DTB Unknown",1972-03-01,234180,154780,"to 2km","GORTNAGAP",NA,"Kilkenny","17","Unknown","Poor",NA,36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"6 SHEET 17/4 (GA).""",NA
+"91","2315SWW225",NA,NA,"Dug well",5.5,NA,"DTB Unknown",1972-08-01,234180,154720,"to 2km","GORTNAGAP",NA,"Kilkenny","17","Unknown","Poor",NA,31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"6 SHEET 17/4 (GA).""",NA
+"92","2315NEW027",NA,NA,"Borehole",19.8,NA,"DTB Unknown",1972-11-15,259900,167620,"to 5km","COOLCULLEN",NA,"Kilkenny","11","Unknown","Moderate",NA,49.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/KLK 3169",NA

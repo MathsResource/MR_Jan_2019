@@ -1,0 +1,536 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","0511NEW008",NA,NA,"Borehole",NA,13.7,"Bedrock Not Met",1969-01-01,78490,121540,"to 10m","SKRILLAGH",NA,"Kerry",20,NA,NA,NA,NA,NA,NA,NA,NA,203,NA,NA,NA,NA,NA,"Drilled by Maginn & Devlin Ltd, Purley, Surrey",NA,NA
+"2","0205NEW005","WG 122-99",NA,"Borehole",4.6,68.5,"Bedrock Met",1999-11-12,36580,68720,"to 20m","BALLYNABLOUN",NA,"Kerry",96,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,24.4,57.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,NA
+"3","0205NEW007","WG 123-99",NA,"Borehole",5.2,61,"Bedrock Met",2000-06-15,40130,66290,"to 20m","LEABALEAHA","Ballinskelligs","Kerry",97,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,47.2,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield estimated"
+"4","0207SEW007",NA,"KERRY CO CO, DERREEN BRIDGE BH.","Borehole",6,61,"Bedrock Met",1987-01-09,46510,72360,"to 20m","BALLARD UPPER",NA,"Kerry",88,"Public supply (Co Co)","Moderate",NA,43.6,NA,NA,NA,NA,NA,27,NA,NA,NA,NA,"Water at 27m",NA,NA
+"5","0207SEW017","WG 295-98",NA,"Borehole",3.7,85.3,"Bedrock Met",1999-05-15,39030,72490,"to 20m","POUND",NA,"Kerry",87,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,152,51.9,74.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Y"
+"6","0207SEW019","WG 96-2001",NA,"Borehole",6.7,54.9,"Bedrock Met",2001-09-15,35360,75240,"to 20m","COARHA BEG","Valentia Island","Kerry",87,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,152,36.6,42.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone
+","Rotary hammer.
+Location from site map included","Estimated Yield"
+"7","0207SEW021","WG 236-98",NA,"Borehole",4.3,61,"Bedrock Met",2000-07-15,36990,76120,"to 20m","COOL EAST","VALENTIA ISLAND","Kerry",78,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Yield estimated"
+"8","0209NEW011","BH No.1",NA,"Borehole",4,61,"Bedrock Met",1989-10-01,36330,104190,"to 20m","BAILE AN AONAIGH",NA,"Kerry",42,"Industrial use","Good","II",270,NA,NA,8.6,31.4,NA,NA,NA,NA,NA,NA,"SP cap = 31m3/d/m. Close to fault. Excellent quality.",NA,NA
+"9","0209NEW018",NA,"BALLINLOGHIG, KERRY CO CO","Borehole",NA,34,"DTB Unknown",1987-03-01,42470,107810,"to 20m","BALLINLOGHIG",NA,"Kerry",34,"Public supply (Co Co)","Good","III",218,NA,NA,25,8.72,NA,NA,NA,NA,NA,NA,"SP cap=8.7m3/d/m. Running sand at 31m, poss fault zone",NA,NA
+"10","0505NEW002","WG 15-2002",NA,"Borehole",0,70.1,"Bedrock Met",2002-04-15,67280,67750,"to 20m","LOMANAGH SOUTH","Sneem","Kerry",99,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,38.1,59.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone - rock at surface","Location from site map included with Grant Scheme sheet
+Rotary/Hammer","Yield estimated only"
+"11","0505NEW008","WG 274-98",NA,"Borehole",1.2,134.2,"Bedrock Met",1999-02-15,66410,63000,"to 20m","GLEESK",NA,"Kerry",99,"Domestic use only","Poor",NA,9.8,NA,NA,NA,NA,152,70.1,122,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield estimated only"
+"12","0505NEW009","WG 15-2002",NA,"Borehole",0,70.1,"Bedrock Met",2002-04-15,67280,67750,"to 20m","LOMANAGH SOUTH",NA,"Kerry",99,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,38.1,59.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Bedrock at surface - Sandstone",NA,"Yield estimated"
+"13","0505NWW004","WG 61-2000",NA,"Borehole",17.4,64,"Bedrock Met",2001-04-15,56420,69200,"to 20m","CAHERSAVANE",NA,"Kerry",89,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,44.2,51.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"14","0505NWW006","WG 11-99",NA,"Borehole",NA,30.5,"Bedrock Not Met",1999-03-15,53060,63390,"to 20m","SHANAKNOCK",NA,"Kerry",98,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,29,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Gravel",NA,"Estimated Yield"
+"15","0505NWW011","WG 111-98",NA,"Borehole",0.3,41.8,"Bedrock Met",1998-11-30,64760,62390,"to 20m","DERREENDRISLAGH",NA,"Kerry",99,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,9.1,NA,NA,NA,NA,"Drilled by Harte Bros, Bandon
+Sandstone",NA,NA
+"16","0507SEW001","WG 23-98",NA,"Borehole",4,85.3,"Bedrock Met",1998-09-12,78010,71380,"to 20m","DROMLUSK",NA,"Kerry",91,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,39.6,73.2,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"2 hr test"
+"17","0507SWW013","WG 303-98",NA,"Borehole",5.5,61,"Bedrock Met",1999-05-15,56600,71170,"to 20m","DERRINEDEN",NA,"Kerry",89,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,152,27.4,48.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"18","0511NEW027",NA,"KERRY COUNTY COUNCIL, Ardfert RWSS","Borehole",18.6,18.6,"DTB Unknown",1969-08-04,78210,121650,"to 20m","COMMONS NORTH",NA,"Kerry",20,"Public supply (Co Co)","Excellent",NA,2182,2182,NA,0,NA,1200,2.1,8.2,NA,NA,NA,"162/1",NA,"Screen is Johnson stainless steel x 2"
+"19","0511SEW003",NA,"BARROW SPRING - FENIT HARBOUR WSS","Spring",NA,NA,NA,NA,75010,117270,"to 20m","BALLYEA",NA,"Kerry",28,"Public supply (Co Co)","Low Spring",NA,320,320,NA,NA,NA,NA,NA,NA,NA,NA,NA,"161/7. At the faulted contact of WA & DI",NA,NA
+"20","0805NEW001","WG 135-2000",NA,"Borehole",26.5,121.9,"Bedrock Met",2001-02-15,101600,69790,"to 20m","SHANDRUM",NA,"Kerry",94,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,152,57.9,108.2,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"21","0805NWW002","WG 201-99",NA,"Borehole",2.7,91.4,"Bedrock Met",2000-07-15,92250,68890,"to 20m","BALLYGRIFFIN",NA,"Kerry",93,"Agri & domestic use","Poor",NA,5.5,NA,NA,NA,NA,152,51.8,77.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"22","0807SEW015","WG 88-98",NA,"Borehole",2.4,76.2,"Bedrock Met",1998-10-15,103210,70050,"to 20m","CUMMEEN UPPER",NA,"Kerry",94,"Agri & domestic use","Poor",NA,36,NA,NA,NA,NA,152,57.9,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"3 hr test"
+"23","0807SEW019","WG 31-99",NA,"Borehole",3.4,85.3,"Bedrock Met",1999-06-15,109910,73150,"to 20m","SILLAHERTANE",NA,"Kerry",95,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,54.9,74.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"24","0807SEW021","WG 34-2000",NA,"Borehole",3.4,70.1,"Bedrock Met",2000-05-15,97490,71970,"to 20m","LETTER LOWER",NA,"Kerry",93,"Agri & domestic use","Poor",NA,14.2,NA,NA,NA,NA,152,45.7,59.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"25","0807SEW026","WG 34-2003",NA,"Borehole",11,76.2,"Bedrock Met",2003-08-15,97810,72140,"to 20m","LETTER LOWER",NA,"Kerry",93,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,62.5,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield estimated"
+"26","0807SWW010","WG 82-98",NA,"Borehole",7.6,61,"Bedrock Met",1998-09-15,89640,75200,"to 20m","KILKEANA",NA,"Kerry",84,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,33.5,51.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"27","0809NEW185",NA,"TOBERMAING CREAMERY","Dug well",NA,1.8,"DTB Unknown",NA,101660,109770,"to 20m","TOBERMAING",NA,"Kerry",40,"Industrial use","Good",NA,NA,137,NA,NA,NA,NA,NA,NA,NA,NA,NA,"162/12 - well survey no. Slightly different data in creamery",NA,NA
+"28","0809NWW179",NA,"Knockaderry School","Borehole",NA,36.6,"Bedrock Met",NA,95080,102960,"to 20m","KNOCKADERRY",NA,"Kerry",48,"Other",NA,NA,NA,NA,NA,NA,NA,228,NA,NA,NA,NA,NA,"Drilled by Cross",NA,"Lot of Iron in water"
+"29","0809NWW230",NA,"KERRY CO-OP FARRANFORE","Borehole",25,44.8,"Bedrock Met",1976-12-08,93860,103390,"to 20m","FARRANFORE",NA,"Kerry",48,"Industrial use",NA,NA,NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,"134/77 - enquiry no. Well was 56m deep before collapse.",NA,NA
+"30","0809NWW241","WG 223-97",NA,"Borehole",3.4,51.8,"Bedrock Met",2000-09-15,88920,106890,"to 20m","CURRAGHMORE WEST",NA,"Kerry",38,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,38.1,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield estimated"
+"31","0809SEW058",NA,NA,"Borehole",NA,52,"DTB Unknown",1984-11-06,104170,94900,"to 20m","REANLOUGHA",NA,"Kerry",59,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Poor supply, no yield given. Enquiry no. 169/84, file 2.3.8",NA,NA
+"32","0809SEW065","WG 60-2003",NA,"Borehole",30.5,92,"Bedrock Met",2004-05-31,109740,96840,"to 20m","SCRAHANFADDA",NA,"Kerry",60,"Agri & domestic use","Poor","V",21.8,NA,NA,6.1,3.57,152,91.4,NA,NA,NA,NA,"Drilled by Lenihan, Glin
+Pencil",NA,"2 hr test"
+"33","0809SWW013","ILC 1527",NA,"Borehole",11.3,36.6,"Bedrock Met",1969-06-01,88260,96430,"to 20m","FAHA EAST",NA,"Kerry",57,NA,"Moderate",NA,44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ILC #1527. Green Estate.",NA,NA
+"34","0809SWW028","ILC 1372",NA,"Borehole",NA,46.9,"Bedrock Not Met",1969-03-01,88300,96350,"to 20m","FAHA EAST",NA,"Kerry",57,"Domestic use only","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ILC #1372. Green Estate. Problems with sand in pump.",NA,NA
+"35","0811NEW084","WG 257-98",NA,"Borehole",7.6,54.8,"Bedrock Met",1999-05-15,102540,128650,"to 20m","LACKA WEST",NA,"Kerry",17,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,27.4,45.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,NA
+"36","0811NWW029",NA,"LIXNAW WSS","Spring",NA,NA,NA,NA,90570,126700,"to 20m","BALLYREEHAN EAST",NA,"Kerry",16,"Public supply (Co Co)","Intermediate Spring",NA,455,171,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/10. Q is from EPA Q according to well survey = 171m3/d",NA,NA
+"37","0811SEW064",NA,NA,"Borehole",NA,19.8,"Bedrock Not Met",1959-06-01,100790,111060,"to 20m","GLANSHEAROON",NA,"Kerry",40,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/Ker 909 TB/300",NA,NA
+"38","0811SEW097","WG 86-2000",NA,"Borehole",4.3,56.1,"Bedrock Met",2000-09-30,97930,117490,"to 20m","BROUGHANE",NA,"Kerry",30,"Agri & domestic use","Poor","V",32.7,NA,NA,8.2,2.76,152,47.9,NA,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"39","0811SEW149","WG 278/98",NA,"Borehole",1.8,61,"Bedrock Met",1999-03-15,105770,111270,"to 20m","GLANLAREHAN",NA,"Kerry",40,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,152,36.6,53.5,NA,NA,NA,"Drilled by T J Cross
+Shale",NA,"Yield estimated only"
+"40","0811SWW005",NA,NA,"Borehole",2.1,28.7,"Bedrock Met",1974-05-01,84360,117640,"to 20m","LISTELLICK NORTH",NA,"Kerry",29,"Domestic use only","Good","II",109,NA,NA,0.6,178.7,NA,NA,NA,NA,NA,NA,"No iron. Enquiry 64/74 March 1974",NA,NA
+"41","0811SWW138",NA,NA,"Spring",NA,1.2,"DTB Unknown",NA,86730,113400,"to 20m","CURRAGHLEHA EAST",NA,"Kerry",29,"Agri & domestic use","Low Spring",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EC 750 @ Temp 13.5c. Limey.",NA,NA
+"42","0811SWW155",NA,"BALLYMACELLIGOT CREAMERY","Borehole",NA,0.9,"DTB Unknown",NA,92250,112630,"to 20m","BALLYDWYER EAST",NA,"Kerry",30,"Industrial use","Good",NA,288,57,NA,NA,NA,NA,NA,NA,NA,NA,NA,"162/8. Q=109m3/d according to creamery data",NA,NA
+"43","0811SWW175",NA,NA,"Borehole",5.5,61,"Bedrock Met",NA,92040,114300,"to 20m","MWEELINROE",NA,"Kerry",30,"Agri & domestic use","Poor","V",11,NA,NA,5.9,1.86,NA,NA,NA,NA,NA,NA,"Sp cap=1.9m3/d/m.  Driller Cross, Brosna",NA,NA
+"44","0811SWW256",NA,NA,"Dug well",NA,10,"DTB Unknown",1983-06-22,80540,117720,"to 20m","BALLYROE",NA,"Kerry",29,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Spring fed' well. Enquiry no. 93/83, file 2.3.8",NA,NA
+"45","0813NEW044",NA,"KERRY CO CO BALLYLONGFORD WSS","Borehole",13.7,62,"Bedrock Met",1981-10-13,96460,143860,"to 20m","TULLAHENNEL NORTH",NA,"Kerry",5,"Public supply (Co Co)","Good",NA,218,68,NA,NA,NA,NA,NA,NA,NA,NA,NA,"CHEM ANAL -FILE 3.6.8.Q IN SUMMER OF 1961 WAS 218M3/D  151/12",NA,NA
+"46","0813NEW098",NA,"BALLYLONGFORD-KERRY CO CO RENTED BH","Borehole",NA,30,"DTB Unknown",1979-01-18,99470,145110,"to 20m","RUSHEENPARK",NA,"Kerry",2,"Public supply (Co Co)","Poor",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Supply becoming inadequate"" in jan '79. Fe in nearby BH""",NA,NA
+"47","0813NEW104","WG 120-97",NA,"Borehole",3.4,67.7,"Bedrock Met",1998-10-20,96020,143400,"to 20m","TULLAHENNEL NORTH",NA,"Kerry",5,"Agri & domestic use","Poor","IV",32.7,NA,NA,8.2,3.97,152,43.6,58.8,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"48","0813NEW107","WG 10-98",NA,"Borehole",18,97.5,"Bedrock Met",1998-06-04,100180,141640,"to 20m","BALLYLINE WEST",NA,"Kerry",6,"Agri & domestic use","Good","II",273,NA,NA,5.5,49.7,152,75.3,88.1,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"49","0813NWW066","WG 40-97",NA,"Borehole",9.4,43.3,"Bedrock Met",1999-03-07,89510,144520,"to 20m","TRIPPUL WEST",NA,"Kerry",4,"Agri & domestic use","Good","II",218,NA,NA,2.7,79.6,152,38.7,NA,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+pencil",NA,"2 hr test"
+"50","0813NWW068","WG 32-98",NA,"Borehole",16.5,43.3,"Bedrock Met",1998-09-19,93540,140780,"to 20m","FARRANASTACK",NA,"Kerry",5,"Agri & domestic use","Moderate","IV",76.4,NA,NA,7,10.89,152,32.9,39.9,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"51","0813SEW063","BH 2","KERRY COUNTY COUNCIL,  DUAGH BRIDGE","Borehole",9.1,16.2,"Bedrock Met",1985-03-28,107100,130560,"to 20m","LACKA EAST",NA,"Kerry",17,"Public supply (Co Co)","Good","II",342,NA,NA,5.18,66,203,NA,NA,NA,NA,NA,"SP cap=65.8m3/d/m. Rapid recovery indicates high well losses",NA,"Casing/screen is DemCo plastic HDPE"
+"52","0813SWW119",NA,"CAUSEWAY WSS","Spring",NA,NA,NA,NA,82610,132250,"to 20m","BALLINGLANNA",NA,"Kerry",9,"Public supply (Co Co)","Low Spring",NA,NA,90,NA,NA,NA,NA,NA,NA,NA,NA,NA,"151/3. Capacity decreases over extended dry periods.",NA,NA
+"53","1107NWW008","WG 126-2001",NA,"Borehole",25.9,61,"Bedrock Met",2002-04-15,112470,87940,"to 20m","GORTDERRIG","Headford","Kerry",68,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,47.2,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone","Location from site map included with Grant Scheme sheet
+Rotary/Hammer","Yield estimated"
+"54","1109SWW050",NA,"GNEEVGULLIA WSS KERRY CO CO","Spring",NA,NA,NA,1983-03-15,111450,98420,"to 20m","TOOREENNAMULT",NA,"Kerry",60,"Public supply (Co Co)","Intermediate Spring",NA,1000,545,NA,NA,NA,NA,NA,NA,NA,NA,NA,"174/6. Warm spring Temp = 17c. Q can reach 1091m3/d.",NA,NA
+"55","1109SWW055","WG 288-98",NA,"Borehole",1.5,61,"Bedrock Met",1999-03-15,113850,99660,"to 20m","REANASUP",NA,"Kerry",50,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,39.6,48.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Estimated Yield"
+"56","0205NEW001","WG 32-2002",NA,"Borehole",2.7,68.6,"Bedrock Met",2002-08-15,39590,67020,"to 50m","KILLONECAHA",NA,"Kerry",97,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,54.9,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield Estimated"
+"57","0205NEW002","WG 8-2002",NA,"Borehole",2.1,70.1,"Bedrock Met",2002-04-15,39490,66730,"to 50m","KILLONECAHA",NA,"Kerry",96,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,59.4,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"58","0205NEW003","WG 213-98",NA,"Borehole",13.7,61,"Bedrock Met",1999-05-15,44120,69510,"to 50m","FERMOYLE",NA,"Kerry",88,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,152,24.4,30.5,51.8,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"59","0205NEW004","WG 69-99",NA,"Borehole",3.1,73.1,"Bedrock Met",1999-11-11,40990,69440,"to 50m","COOLS",NA,"Kerry",88,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,18.3,61,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"60","0207NEW002","WG 223-98",NA,"Borehole",4.9,63.4,"Bedrock Met",1999-06-15,46490,80390,"to 50m","CASTLEQUIN",NA,"Kerry",79,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,36.6,47.2,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"61","0207SEW001","Trial Bore #1","Cahersiveen Bridge","Borehole",12,13.7,"Bedrock Met",1929-01-01,47030,79880,"to 50m","CAHERSIVEEN","Cahersiveen","Kerry",79,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"62","0207SEW002",NA,"Cahirsiveen Bridge BH #2","Borehole",12.4,12.4,"Bedrock Presumed",1929-01-01,47050,79850,"to 50m","CAHERSIVEEN","Cahersiveen","Kerry",79,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"63","0207SEW003",NA,"Cahersiveen Bridge BH #3","Borehole",12.2,12.5,"Bedrock Met",1929-01-01,47070,79830,"to 50m","CAHERSIVEEN","Cahersiveen","Kerry",79,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"64","0207SEW004",NA,"Cahersiveen Bridge BH #4","Borehole",15.2,15.2,"Bedrock Presumed",1929-01-01,47080,79800,"to 50m","CAHERSIVEEN","Cahersiveen","Kerry",79,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"65","0207SEW005",NA,"Cahersiveen Bridge BH #5","Borehole",9.4,13.7,"Bedrock Met",1929-01-01,47090,79790,"to 50m","CAHERSIVEEN",NA,"Kerry",79,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"66","0207SEW012","WG 115-98",NA,"Borehole",8.5,67.1,"Bedrock Met",1998-12-12,38130,75280,"to 50m","TINNIES LOWER (WEST)",NA,"Kerry",87,"Agri & domestic use","Poor","V",21.8,NA,NA,6.1,3.57,152,24.4,54.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfealel
+Sandstone",NA,"8 hr test"
+"67","0207SEW013","WG 35-2002",NA,"Borehole",1.2,61,"Bedrock Met",2002-08-15,47840,74880,"to 50m","LAHARAN SOUTH",NA,"Kerry",88,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,36.6,47.2,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"68","0207SEW014","WG 172-99",NA,"Borehole",4.6,73.2,"Bedrock Met",2000-02-15,48840,79140,"to 50m","INCHICLOGH",NA,"Kerry",79,"Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,152,27.4,62.5,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"69","0207SEW015","WG 300-98",NA,"Borehole",4,76.2,"Bedrock Met",1999-05-15,36820,75250,"to 50m","COOL WEST",NA,"Kerry",87,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,152,36.6,64,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated  Yield"
+"70","0207SEW016","WG 190-98",NA,"Borehole",4.6,76.2,"Bedrock Met",NA,46330,77600,"to 50m","GARRANEARAGH",NA,"Kerry",79,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,42.6,64.1,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"71","0207SEW018","WG 299-98",NA,"Borehole",6.7,76.2,"Bedrock Met",1999-05-28,46370,76970,"to 50m","OGHERM0NG",NA,"Kerry",79,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,47.2,65.5,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"72","0209SEW006","WG 91-2002",NA,"Borehole",14,67.1,"Bedrock Met",2003-01-24,49300,98940,"to 50m","KINARD WEST",NA,"Kerry",53,"Agri & domestic use","Poor","IV",38.2,NA,NA,9.1,4.18,152,38.4,57.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"6 hr test"
+"73","0313SEW070","WG 122-2001",NA,"Borehole",4.9,56.1,"Bedrock Met",2002-09-20,98210,139500,"to 50m","COOLKERAGH",NA,"Kerry",5,"Agri & domestic use","Moderate","III",87.3,NA,NA,8.2,10.6,152,31.7,43.3,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"74","0505NEW001","WG 20-2001",NA,"Borehole",11.3,61,"Bedrock Met",2001-09-15,73980,68100,"to 50m","GORTAGOWAN","Tahilla","Kerry",100,"Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,152,33.5,48.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone","Location from site map included with Grant Scheme sheet
+Rotary","Estimated Yield"
+"75","0505NEW003","WG 27-2000",NA,"Borehole",0,61,"Bedrock Met",2000-04-15,73140,67460,"to 50m","BRACKLOON",NA,"Kerry",100,"Agri & domestic use","Poor",NA,13.1,NA,NA,NA,NA,152,27.4,47.2,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone - rock at surface",NA,"Estimated Yield"
+"76","0505NEW004","WG 6-2000",NA,"Borehole",8.2,54.9,"Bedrock Met",2000-03-15,74340,65780,"to 50m","TAHILLA",NA,"Kerry",100,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,27.4,50.3,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"77","0505NEW005","WG 195-98",NA,"Borehole",0.9,85.3,"Bedrock Met",1999-01-15,70540,68410,"to 50m","GEARHA",NA,"Kerry",91,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,152,51.8,76.2,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"78","0505NEW006","WG 41-2000",NA,"Borehole",14,61,"Bedrock Met",2000-07-15,72960,65340,"to 50m","TAHILLA",NA,"Kerry",100,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,152,33.5,51.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield estimated only"
+"79","0505NEW007","WG 54-2000",NA,"Borehole",3.7,100.6,"Bedrock Met",2000-08-15,74470,69760,"to 50m","LETTERFINISH",NA,"Kerry",91,"Agri & domestic use","Poor",NA,5.5,NA,NA,NA,NA,152,89.9,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"80","0505NEW010","WG 70-2003",NA,"Borehole",10.1,61,"Bedrock Met",2004-05-15,76910,61710,"to 50m","CANFEE",NA,"Kerry",108,"Agri & domestic use","Poor","V",21.8,NA,NA,34.8,0.63,152,44.2,53.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"6 hr test"
+"81","0505NWW003","WG 81-2001",NA,"Borehole",5.2,61,"Bedrock Met",2001-10-15,52470,69580,"to 50m","GARRANNAFULLA","Waterville","Kerry",89,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,42.7,47.2,NA,NA,NA,"Drilled iby T J Cross, Abbeyfeale
+Sandstone","Location from site map included with Grant Scheme sheet
+Rotary/Hammer","Estimated Yield"
+"82","0505NWW005","WG 73-99",NA,"Borehole",5.2,70.1,"Bedrock Met",2000-03-15,63370,61930,"to 50m","GLANLOUGH LOWER",NA,"Kerry",107,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,45.7,59.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"83","0505NWW008","WG 200-97",NA,"Borehole",22.2,61,"Bedrock Met",NA,55210,68480,"to 50m","KILLAGURTEEN",NA,"Kerry",98,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,42.7,50.3,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"84","0505NWW009","WG 113-2002",NA,"Borehole",38.1,70.1,"Bedrock Met",2003-11-15,56870,69850,"to 50m","OUGHTIV",NA,"Kerry",89,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,48.8,57.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield estimated"
+"85","0505NWW010","WG 4-2004",NA,"Borehole",3.7,85.3,"Bedrock Met",2004-03-15,62830,61710,"to 50m","GLANLOUGH UPPER",NA,"Kerry",107,"Agri & domestic use","Poor","V",10.9,NA,NA,64,0.17,152,69.2,76.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"7 hr test"
+"86","0505SEW001",NA,NA,"Borehole",3.1,80.8,"Bedrock Met",2001-09-07,72760,58390,"to 50m","COLLORUS",NA,"Kerry",108,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,54.9,73.2,NA,NA,NA,"Drilled by Harte Brothers, Clonakilty
+Shale/Sandstone",NA,"3 hr test"
+"87","0505SEW002","WG 191-98",NA,"Borehole",10.3,45.7,"Bedrock Met",1999-04-15,74520,58670,"to 50m","ESKADAWER",NA,"Kerry",108,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,32,42.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"88","0505SEW003","WG 98-98",NA,"Borehole",4,103.6,"Bedrock Met",1999-02-15,78110,54500,"to 50m","COOLCREEN",NA,"Kerry",111,"Agri & domestic use","Poor",NA,8.7,NA,NA,NA,NA,152,54.9,88.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"89","0505SEW004",NA,NA,"Borehole",1.8,56.4,"Bedrock Met",2004-10-08,72410,56750,"to 50m","CUHIG",NA,"Kerry",108,"Agri & domestic use","Moderate","IV",54.5,NA,NA,19.8,2.75,165,50.3,NA,NA,NA,NA,"Drilled by Southern Pumps Ltd, Cork
+Sandstone",NA,"72 hr test"
+"90","0505SEW006","WG 12-99",NA,"Borehole",20.1,91.4,"Bedrock Met",1999-10-15,78760,55810,"to 50m","CUMMERS WEST",NA,"Kerry",109,"Agri & domestic use","Poor",NA,8.2,NA,NA,NA,NA,152,64,80.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,NA
+"91","0507NEW003","WG 13-99",NA,"Borehole",3.1,56.4,"Bedrock Met",1999-11-17,69090,86540,"to 50m","KEEL",NA,"Kerry",71,"Agri & domestic use","Moderate","V",43.6,NA,NA,30.5,1.43,152,12.2,48.8,NA,NA,NA,"Drilled by Southern Pumps, Cork
+Sandstone",NA,"72 hr test"
+"92","0507NEW006","WG 10-2004",NA,"Borehole",5.2,48.8,"Bedrock Met",2004-08-19,72140,87410,"to 50m","CURRAFLUGH",NA,"Kerry",72,"Agri & domestic use","Poor","V",21.8,NA,NA,24.4,0.89,152,9.1,39.6,NA,NA,NA,"Drilled by Southern Drilling, Cork
+Sandstone",NA,"12 hr test"
+"93","0507NEW008","WG 55-2003",NA,"Borehole",3.7,54.9,"Bedrock Met",2004-01-29,71750,87240,"to 50m","CAPPYANTANVALLY",NA,"Kerry",72,"Agri & domestic use","Moderate","V",54.5,NA,NA,24.4,2.23,165,27.4,48.8,NA,NA,NA,"Drilled by Southern Pumps Ltd, Cork
+Sandstone",NA,"72 hr test"
+"94","0507NWW002","WG 93-98",NA,"Borehole",3.7,67.1,"Bedrock Met",1998-09-08,54180,84110,"to 50m","GORTNAGREE",NA,"Kerry",70,"Agri & domestic use","Poor",NA,8.7,NA,NA,NA,NA,152,29,54.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"95","0507NWW003","WG 60-2000",NA,"Borehole",4,67.1,"Bedrock Met",2000-10-15,54210,81580,"to 50m","LISS LOWER",NA,"Kerry",70,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,36.6,53.3,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"96","0507NWW003","WG 48-2003",NA,"Borehole",44.2,67.1,"Bedrock Met",2003-12-15,63260,85120,"to 50m","COOMASAHARN",NA,"Kerry",71,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,152,57.9,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Yield estimated"
+"97","0507SEW002","WG 36-2002",NA,"Borehole",19.8,91.4,"Bedrock Met",2002-07-15,79630,71740,"to 50m","REACASHLAGH",NA,"Kerry",92,"Agri & domestic use","Poor",NA,14.2,NA,NA,NA,NA,152,64,82.6,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"6 hr test"
+"98","0507SEW003","WG 27-2004",NA,"Borehole",7.6,61,"Bedrock Met",2004-12-15,69660,79960,"to 50m","CURRAVAHA",NA,"Kerry",82,"Agri & domestic use","Poor",NA,19.6,NA,NA,NA,NA,152,30.5,48.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated yield"
+"99","0507SWW001","WG 98-2000",NA,"Borehole",9.4,51.8,"Bedrock Met",2001-03-15,54300,71190,"to 50m","DOORY","Mastergeehy","Kerry",89,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,39.6,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone","Rotary/Hammer
+Site map included","Yield estimated only"
+"100","0507SWW002","TP1",NA,"Dug well",0,NA,"Bedrock Met",NA,55270,78130,"to 50m","KEELNAGORE","Mastergeehy","Kerry",80,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unknown
+July 2002",NA,NA
+"101","0507SWW003","TP2",NA,"Dug well",0.8,NA,"Bedrock Met",NA,55250,78060,"to 50m","KEELNAGORE","Mastergeehy","Kerry",80,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unknown
+July 2002",NA,NA
+"102","0507SWW004","TP3",NA,"Dug well",3.6,NA,"Bedrock Met",NA,55190,77980,"to 50m","KEELNAGORE","Mastergeehy","Kerry",80,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unknown
+July 2002",NA,NA
+"103","0507SWW005","TP4",NA,"Dug well",3.2,NA,"Bedrock Met",NA,55090,77940,"to 50m","KEELNAGORE","Mastergeehy","Kerry",80,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unknown
+July 2002",NA,NA
+"104","0507SWW006","TP5",NA,"Dug well",2.6,NA,"Bedrock Met",NA,54990,77880,"to 50m","KEELNAGORE","Mastergeehy","Kerry",80,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unknown
+July 2002",NA,NA
+"105","0507SWW007","TP6",NA,"Dug well",3,NA,"Bedrock Met",NA,54850,77730,"to 50m","KEELNAGORE","Mastergeehy","Kerry",80,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unknown
+July 2002",NA,NA
+"106","0507SWW008","TP7",NA,"Dug well",2.8,NA,"Bedrock Met",NA,55100,77700,"to 50m","KEELNAGORE","Mastergeehy","Kerry",80,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unknown
+July 2002",NA,NA
+"107","0507SWW009","TP8",NA,"Dug well",2.3,NA,"Bedrock Met",NA,55190,77740,"to 50m","KEELNAGORE","Mastergeehy","Kerry",80,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unknown
+July 2002",NA,NA
+"108","0507SWW010","TP9",NA,"Dug well",3.5,NA,"Bedrock Met",NA,55220,77780,"to 50m","KEELNAGORE","Mastergeehy","Kerry",80,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unknown
+July 2002",NA,NA
+"109","0507SWW012","WG 208-98",NA,"Borehole",2.1,70.1,"Bedrock Met",1999-03-15,57880,75540,"to 50m","KEALAFREAGHANE EAST",NA,"Kerry",80,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,152,27.4,36.6,57.9,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"110","0507SWW014","WG 17-2002",NA,"Borehole",29,76.2,"Bedrock Met",2002-09-15,60020,71770,"to 50m","CAPPANAGROUN",NA,"Kerry",90,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,62.5,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"111","0507SWW015","WG 149-97",NA,"Borehole",2.1,61,"Bedrock Met",2000-07-15,61690,76460,"to 50m","BALLYNAKILLY",NA,"Kerry",81,"Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,152,38.1,48.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"112","0507SWW016","WG 22-2004",NA,"Borehole",1.2,61,"Bedrock Met",2004-12-15,51250,79190,"to 50m","CAPPAGH",NA,"Kerry",80,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,39.6,50.3,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated yield"
+"113","0507SWW017","WG 128-98",NA,"Borehole",7.3,103.6,"Bedrock Met",1999-04-15,50300,77070,"to 50m","CANBURRIN",NA,"Kerry",80,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,152,80.8,88.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"114","0509NEW008",NA,NA,"Borehole",4.9,60.9,"Bedrock Met",2002-09-15,67280,108370,"to 50m","SCRALLAGHBEG",NA,"Kerry",36,"Agri & domestic use","Poor","V",32.7,NA,NA,10.1,3.26,152,42.4,53.6,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"6 hr test"
+"115","0509NWW015","WG 43-2000",NA,"Borehole",8.2,79.2,"Bedrock Met",NA,57290,101690,"to 50m","FARRANNACARRIGA",NA,"Kerry",44,"Agri & domestic use","Poor","V",21.8,NA,NA,7,3.11,152,53.9,71.6,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"6 hr test"
+"116","0509SEW005",NA,"Kerry County Council pump","Borehole",29.6,53.3,"Bedrock Met",1962-04-01,72550,94180,"to 50m","TOOREENNASLIGGAUN",NA,"Kerry",56,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"117","0511NEW002","TK1",NA,"Borehole",15.1,88.6,"Bedrock Met",1982-02-01,77600,127950,"to 50m","TOANREAGH",NA,"Kerry",14,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"TK-1",NA,NA
+"118","0511NEW003","TK2",NA,"Borehole",6.1,355.1,"Bedrock Met",1982-02-01,78000,127160,"to 50m","BAWNMORE",NA,"Kerry",14,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"TK-2",NA,NA
+"119","0511NEW009",NA,NA,"Borehole",NA,17.5,"Bedrock Not Met",1969-01-01,78300,121380,"to 50m","BRANDONWELL",NA,"Kerry",20,NA,NA,NA,NA,NA,NA,NA,NA,208,NA,NA,NA,NA,NA,"Good"" supply of water""",NA,NA
+"120","0511NEW030","WG 25-2002",NA,"Borehole",4.9,45.7,"Bedrock Met",2002-03-15,70130,129770,"to 50m","GLENDERRY",NA,"Kerry",13,"Agri & domestic use","Poor",NA,18.5,NA,NA,NA,NA,152,36.6,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield estimated"
+"121","0511NEW031","Ladys Well",NA,"Spring",NA,NA,NA,NA,75730,128270,"to 50m","DIRTANE",NA,"Kerry",14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"122","0511SWW008","WG 54-99",NA,"Borehole",4,61.6,"Bedrock Met",1999-05-14,51250,111860,"to 50m","BALLYNALACKEN",NA,"Kerry",35,"Agri & domestic use","Poor","V",27.3,NA,NA,9.45,2.89,152,44.8,54.6,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Sandstone",NA,"2 hr test"
+"123","0511SWW009","WG 33-2000",NA,"Borehole",7,79.9,"Bedrock Met",2000-06-14,50670,112160,"to 50m","BALLYNALACKEN",NA,"Kerry",35,"Agri & domestic use","Poor","V",32.7,NA,NA,9.45,3.46,152,54.3,72.8,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"124","0511SWW010",NA,NA,"Borehole",3.7,99.1,"Bedrock Met",2002-05-15,54660,110130,"to 50m","GLENNAHOO",NA,"Kerry",35,"Agri & domestic use","Poor","V",27.3,NA,NA,62.5,0.44,165,27.4,82.3,NA,NA,NA,"Drilled by Southern Pumps Ltd, Cork
+Sandstone",NA,"72 hr test"
+"125","0511SWW011","WG 18-2004",NA,"Borehole",7.6,43.3,"Bedrock Met",2004-09-03,50490,110890,"to 50m","CLOGHANE",NA,"Kerry",35,"Agri & domestic use","Good","IV",110,NA,NA,12.2,9,152,30.5,39.3,NA,NA,NA,"Drilled by Lenihan, Glin
+Sandstone",NA,"2 hr test"
+"126","0511SWW012","WG 26-2004",NA,"Borehole",9.1,54.9,"Bedrock Met",2004-09-03,50500,110900,"to 50m","CLOGHANE",NA,"Kerry",35,"Agri & domestic use","Good","IV",110,NA,NA,13.7,8,152,10.7,33.5,NA,NA,NA,"Drilled by Lenihan, Glin
+Sandstone",NA,"2 hr test"
+"127","0805NEW002","WG 287-98",NA,"Borehole",19.8,91.4,"Bedrock Met",1999-06-15,95210,68630,"to 50m","LACKAROE",NA,"Kerry",93,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,152,83.8,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"128","0805NWW003",NA,NA,"Borehole",38.4,100.6,"Bedrock Met",2002-12-15,94960,68640,"to 50m","LACKAROE",NA,"Kerry",93,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,79.2,86.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"129","0807NEW019","WG 45-2001",NA,"Borehole",5.5,61,"Bedrock Met",2001-09-15,109500,80820,"to 50m","GORTNAKILLA",NA,"Kerry",76,"Agri & domestic use","Moderate",NA,21.8,NA,NA,NA,NA,152,30.5,47.2,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"130","0807NEW020",NA,NA,"Borehole",20.4,54.9,"Bedrock Met",1998-08-15,109810,81730,"to 50m","COOMACULLEN",NA,"Kerry",76,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,39.6,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"131","0807NEW021","WG 155-98",NA,"Borehole",5.5,54.9,"Bedrock Met",1998-11-13,108600,87510,"to 50m","ROSSACROO",NA,"Kerry",68,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,152,24.4,42.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"132","0807NEW022","WG 8-2003",NA,"Borehole",13.7,109.7,"Bedrock Met",NA,109870,81800,"to 50m","COOMACULLEN",NA,"Kerry",76,"Agri & domestic use","Poor","V",21.8,NA,NA,36.6,0.6,152,70.7,99.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"6 hr test"
+"133","0807SEW004","WG 44-99",NA,"Borehole",1.8,122.5,"Bedrock Met",1999-10-14,98190,74510,"to 50m","KNOCKEENS",NA,"Kerry",84,"Agri & domestic use","Poor","V",27.3,NA,NA,14,1.95,152,68.6,110,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Sandstone",NA,"2 hr test"
+"134","0807SEW005","WG 145-98",NA,"Borehole",4.6,103.6,"Bedrock Met",1999-04-15,104610,74110,"to 50m","KILFADDA MORE",NA,"Kerry",85,"Agri & domestic use","Poor","V",32.7,NA,NA,24.4,1.34,152,79.2,91.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"1 hr test"
+"135","0807SEW006","WG 23-99",NA,"Borehole",1.2,67.7,"Bedrock Met",1999-10-12,99990,74310,"to 50m","SLAGHT",NA,"Kerry",85,"Agri & domestic use","Poor","V",32.7,NA,NA,9.45,3.46,152,32.9,62.2,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Red Sandstone",NA,"2 hr test"
+"136","0807SEW007","WG 108-98",NA,"Borehole",11.6,85.3,"Bedrock Met",1999-06-15,104170,72160,"to 50m","BARNASTOOKA",NA,"Kerry",94,"Agri & domestic use","Poor","V",32.7,NA,NA,12.2,2.68,152,57.9,71.6,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"1 hr test"
+"137","0807SEW008","WG 123-2000",NA,"Borehole",5.5,183.5,"Bedrock Met",2001-03-27,108930,73440,"to 50m","COOLKNOOHIL",NA,"Kerry",95,"Agri & domestic use","Poor","V",10.9,NA,NA,19.5,0.56,152,169.8,NA,NA,NA,NA,"Drilled by Martin Lenihan
+Pencil",NA,"2 hr test"
+"138","0807SEW009","WG 6-2002",NA,"Borehole",4,67.7,"Bedrock Met",2002-09-19,105780,74030,"to 50m","GORTMARRAHAFINEEN",NA,"Kerry",85,"Agri & domestic use","Poor","IV",32.7,NA,NA,NA,5.37,152,54.9,65.5,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Sandstone",NA,"2 hr test"
+"139","0807SEW010","WG 129-99",NA,"Borehole",6.7,70.1,"Bedrock Met",2000-03-15,105010,74640,"to 50m","ROSSEIGHTRAGH",NA,"Kerry",85,"Agri & domestic use","Poor",NA,19.6,NA,NA,NA,NA,152,42.7,59.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"140","0807SEW011","WG 36-2000",NA,"Borehole",8.2,70.1,"Bedrock Met",2000-05-15,109050,75200,"to 50m","INCHEE",NA,"Kerry",86,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,19.8,56.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"141","0807SEW012","WG 35-2000",NA,"Borehole",3.4,109.7,"Bedrock Met",2000-05-15,98390,71920,"to 50m","LETTER UPPER",NA,"Kerry",94,"Agri & domestic use","Poor",NA,8.7,NA,NA,NA,NA,152,59.4,99.1,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"142","0807SEW014","WG 132-98",NA,"Borehole",9.1,45.7,"Bedrock Met",1998-09-05,96900,71920,"to 50m","KILGORTAREE",NA,"Kerry",93,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,152,30.5,NA,NA,NA,NA,"Drilled by Collins Pumps Ltd, Cork",NA,NA
+"143","0807SEW016","WG 60-98",NA,"Borehole",4.9,67.1,"Bedrock Met",1998-07-28,104950,74410,"to 50m","GORTMARRAHAFINEEN",NA,"Kerry",85,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,42.7,54.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"144","0807SEW017","WG 231-98",NA,"Borehole",21.9,70.1,"Bedrock Met",1999-08-15,95420,74120,"to 50m","FUSTANE LOWER",NA,"Kerry",84,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,152,27.4,51.8,64,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"145","0807SEW018","WG 40-99",NA,"Borehole",0,128,"Bedrock Met",1999-07-15,104790,75270,"to 50m","ROSSEIGHTRAGH",NA,"Kerry",85,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,152,21.3,91.4,126.5,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone - rock at surface",NA,"Estimated Yield"
+"146","0807SEW020","WG 252-98",NA,"Borehole",0.9,85.3,"Bedrock Met",1999-06-15,104250,72540,"to 50m","BARNASTOOKA",NA,"Kerry",94,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,152,27.4,42.7,77.7,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"147","0807SEW022","WG 93-2002",NA,"Borehole",4.3,85.3,"Bedrock Met",2003-06-15,97910,71950,"to 50m","LETTER LOWER",NA,"Kerry",93,"Agri & domestic use","Poor",NA,8.7,NA,NA,NA,NA,152,64,71.6,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield estimated"
+"148","0807SEW023","WG 187-99",NA,"Borehole",0.6,61,"Bedrock Met",2000-07-15,103280,74420,"to 50m","CAHER EAST",NA,"Kerry",85,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated yield"
+"149","0807SEW024","WG 34-2004",NA,"Borehole",3.1,91.4,"Bedrock Met",2004-08-15,107170,74430,"to 50m","INCHEE",NA,"Kerry",85,"Agri & domestic use","Poor","V",13.1,NA,NA,36.6,0.36,127,67.1,83.8,NA,NA,NA,"Drilled by Southern Pumps Ltd, Cork
+Sandstone",NA,"72 hr test"
+"150","0807SEW025","WG 87-2001",NA,"Borehole",0.6,76.2,"Bedrock Met",2003-10-15,101570,74850,"to 50m","COOLOGES",NA,"Kerry",85,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,51.8,59.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"151","0807SEW027","WG 146-98",NA,"Borehole",8.2,70.1,"Bedrock Met",1999-04-15,104940,74270,"to 50m","GORTMARRAHAFINEEN",NA,"Kerry",85,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,152,36.6,57.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"152","0807SEW028",NA,NA,"Borehole",4.9,67.1,"Bedrock Met",1999-04-15,100850,77610,"to 50m","GORTALOUGHANE",NA,"Kerry",85,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,152,39.6,54.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield estimated"
+"153","0807SWW005","WG 177-99",NA,"Borehole",7.3,67.1,"Bedrock Met",2002-02-15,90380,73590,"to 50m","LISSYCLEARIG UPPER",NA,"Kerry",93,"Agri & domestic use","Excellent",NA,16.4,NA,NA,NA,NA,152,53.3,56.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"154","0807SWW006","WG 25-2000",NA,"Borehole",2.1,73.2,"Bedrock Met",2000-08-15,89460,72540,"to 50m","GORTAMULLIN",NA,"Kerry",93,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,36.6,57.9,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"155","0807SWW007","WG 9-2001",NA,"Borehole",5.2,73.2,"Bedrock Met",2002-03-15,82890,70170,"to 50m","CAPPANACUSH WEST",NA,"Kerry",92,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,33.5,59.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"156","0807SWW008","WG 182-99",NA,"Borehole",20.1,112.8,"Bedrock Met",1999-11-15,94440,73240,"to 50m","KILPATRICK",NA,"Kerry",93,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,152,94.5,102.1,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"157","0807SWW009","WG 21-99",NA,"Borehole",6.7,85.3,"Bedrock Met",1999-08-15,93850,74020,"to 50m","TULLIG",NA,"Kerry",93,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,42.7,59.4,71.6,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"158","0807SWW011","WG 203-98",NA,"Borehole",0.6,103.6,"Bedrock Met",1999-01-15,84960,71850,"to 50m","ROSSACOOSANE",NA,"Kerry",92,"Agri & domestic use","Poor",NA,8.7,NA,NA,NA,NA,152,54.9,91.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"159","0807SWW012","WG 117-98",NA,"Borehole",3.4,79.2,"Bedrock Met",1999-09-15,92070,75420,"to 50m","ISTALEA UPPER",NA,"Kerry",84,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,53.4,65.6,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"160","0807SWW013","WG 182-98",NA,"Borehole",13.7,61,"Bedrock Met",1999-05-15,94430,73380,"to 50m","KILPATRICK",NA,"Kerry",93,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,24.4,42.7,47.2,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"161","0807SWW014",NA,NA,"Borehole",11,79.2,"Bedrock Met",2003-03-12,83190,73060,"to 50m","MAULNAHORNA",NA,"Kerry",92,"Agri & domestic use","Poor","V",21.8,NA,NA,24.4,0.89,152,50.9,70.1,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"6 hr test"
+"162","0807SWW015","WG 2-99",NA,"Borehole",19.5,91.4,"Bedrock Met",1999-11-15,92860,74400,"to 50m","ISTALEA LOWER",NA,"Kerry",84,"Agri & domestic use","Poor",NA,13.1,NA,NA,NA,NA,152,70.1,80.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"163","0807SWW016",NA,NA,"Borehole",3.4,80.8,"Bedrock Met",2004-05-15,80450,70030,"to 50m","COOMNAKILLA SOUTH",NA,"Kerry",92,"Agri & domestic use","Poor",NA,13.1,NA,NA,NA,NA,152,27.4,67.1,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield estimated"
+"164","0809NEW154",NA,NA,"Dug well",4.3,6.1,"Bedrock Met",NA,98400,109700,"to 50m","FARRANNABRACK",NA,"Kerry",39,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"39/19. EC 850 @ Temp 15.5c.",NA,NA
+"165","0809NEW186","WG 126-2000",NA,"Borehole",6.1,54.9,"Bedrock Met",NA,107880,107220,"to 50m","CORDAL EAST",NA,"Kerry",40,"Agri & domestic use","Poor","III",16.4,NA,NA,0.6,26.8,152,27.4,48.2,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale",NA,"6 hr test"
+"166","0809NEW187","WG 215-98",NA,"Borehole",3.1,79.2,"Bedrock Met",1998-02-15,106010,104280,"to 50m","MULLEN",NA,"Kerry",49,"Agri & domestic use","Moderate","IV",54.5,NA,NA,6.1,8.93,152,24.4,70.1,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"2 hr test"
+"167","0809NEW188","WG 100-97",NA,"Borehole",2.4,37.8,"Bedrock Met",1998-05-01,105090,103700,"to 50m","GORTACAPPUL",NA,"Kerry",49,"Agri & domestic use","Good","II",218,NA,NA,2.4,89.4,152,31.7,34.2,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test; margin of CF a/c to GRW)"
+"168","0809NEW189","WG 188-98",NA,"Borehole",2.4,50.3,"Bedrock Met",NA,102120,100010,"to 50m","KILSARKAN WEST",NA,"Kerry",49,"Agri & domestic use","Poor","V",16.4,NA,NA,42.7,0.38,165,9.1,19.8,42.7,NA,NA,"Drilled by Southern Pumps, Cork
+Mudstone",NA,"72 hr test"
+"169","0809NEW190","WG 82-2002",NA,"Borehole",4.3,109.7,"Bedrock Met",2002-09-15,107430,102150,"to 50m","KNOCKROWER WEST",NA,"Kerry",49,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,91.4,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Yield estimated"
+"170","0809NEW191","WG 159-99",NA,"Borehole",9.1,70.1,"Bedrock Met",1999-02-21,109100,102220,"to 50m","BARNA",NA,"Kerry",50,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"5 hr test"
+"171","0809NEW192","WG 152-99",NA,"Borehole",3.7,91.4,"Bedrock Met",1999-11-02,107650,109810,"to 50m","COOM",NA,"Kerry",40,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,73.2,77.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Estimated Yield"
+"172","0809NEW199",NA,NA,"Borehole",4.6,57.9,"Bedrock Met",2002-05-06,106690,105380,"to 50m","MULLEN",NA,"Kerry",49,"Agri & domestic use","Poor","V",16.4,NA,NA,19.8,0.83,152,27.4,48.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"6 hr test"
+"173","0809NEW200","WG 55-2001",NA,"Borehole",7.9,53.3,"Bedrock Met",NA,107050,104600,"to 50m","MULLEN",NA,"Kerry",49,"Agri & domestic use","Moderate","II",54.5,NA,NA,NA,182,152,40.2,50.3,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale",NA,"6 hr test; drawdown  = nil; assumed 0.3m"
+"174","0809NEW202","WG 127-2000",NA,"Borehole",5.2,73.2,"Bedrock Met",2002-08-15,108650,109870,"to 50m","COOM","Cordal","Kerry",40,"Agri & domestic use","Poor",NA,6.5,NA,NA,NA,NA,152,54.9,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale
+","Rotary/hammer
+Location from site map included","Yield estimated"
+"175","0809NWW049",NA,NA,"Borehole",18.3,19.2,"Bedrock Met",1968-11-01,94670,107620,"to 50m","KILFALLINGA",NA,"Kerry",39,"Agri & domestic use","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Ker 3395",NA,"AWLR fitted Jun 1981 to Feb 1985"
+"176","0809NWW237","WG 270-98",NA,"Borehole",4,61,"Bedrock Met",1999-03-15,80090,105570,"to 50m","BOOLTEENS WEST",NA,"Kerry",47,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,39.6,48.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"177","0809NWW238","WG 114-99",NA,"Borehole",6.1,73.2,"Bedrock Met",1999-08-20,86980,101490,"to 50m","ARDYWANIG",NA,"Kerry",47,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,54.9,63.1,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"178","0809NWW242","WG 41-2003",NA,"Borehole",7.6,43.9,"Bedrock Met",2003-11-20,85190,106080,"to 50m","BALLYGAMBOON UPPER",NA,"Kerry",47,"Agri & domestic use","Good","III",164,NA,NA,5.2,31.5,152,26.5,34.4,NA,NA,NA,"Drilled by Lenihan, Glin
+Sandstone",NA,"2 hr test"
+"179","0809NWW243","WG 205-99",NA,"Borehole",1.5,61,"Bedrock Met",NA,82820,106080,"to 50m","FARNA",NA,"Kerry",47,"Agri & domestic use","Poor","V",16.4,NA,NA,18.3,0.9,152,38.7,54.3,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"6 hr test"
+"180","0809SEW060",NA,NA,"Borehole",3.7,67.7,"Bedrock Met",1999-05-13,109100,95210,"to 50m","SCRAHANAVEAL",NA,"Kerry",60,"Agri & domestic use","Excellent","I",436.4,NA,NA,NA,715.4,150,50,60,NA,NA,NA,NA,NA,"  dd= 0.61m"
+"181","0809SEW064",NA,NA,"Borehole",4,67,"Bedrock Met",2003-04-17,101500,99710,"to 50m","BAWNAGLANNA",NA,"Kerry",49,"Agri & domestic use","Poor","V",21.8,NA,NA,21.95,0.99,152,27.4,58.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale",NA,"6 hr test"
+"182","0809SEW066","WG 114-2000",NA,"Borehole",NA,36.6,"Bedrock Not Met",2002-05-15,108800,96800,"to 50m","ANNAGHBEG",NA,"Kerry",60,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,33.5,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+No rock met",NA,"Yield estimated"
+"183","0811NEW073","WG 281-98",NA,"Borehole",8.2,50,"Bedrock Met",1999-12-11,106860,126490,"to 50m","KNOCKMEAL",NA,"Kerry",17,"Agri & domestic use","Good","III",131,NA,NA,3.35,39.07,152,29.3,41.8,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"184","0811NEW074","WG 270-98",NA,"Borehole",8.8,54.9,"Bedrock Met",NA,101560,129550,"to 50m","DERRINDAFF",NA,"Kerry",17,"Agri & domestic use","Poor","IV",21.8,NA,NA,3.05,7.15,152,36.6,49.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"8 hr test"
+"185","0811NEW075","WG 38-97",NA,"Borehole",0.6,74.4,"Bedrock Met",1998-01-13,103380,128300,"to 50m","LISROE",NA,"Kerry",17,"Agri & domestic use","Moderate","III",76.4,NA,NA,3.7,20.6,152,54.9,64.3,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"186","0811NEW076","WG 109-99",NA,"Borehole",5.5,43.3,"Bedrock Met",1999-08-06,103260,120190,"to 50m","KNOCKNAGASHEL WEST",NA,"Kerry",23,"Agri & domestic use","Good","III",120,NA,NA,6.4,18.75,152,29.6,39,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"187","0811NEW077","WG 226-97",NA,"Borehole",1.2,62.2,"Bedrock Met",1999-04-08,104270,120400,"to 50m","KNOCKNAGASHEL WEST",NA,"Kerry",23,"Agri & domestic use","Moderate","IV",43.6,NA,NA,7,6.23,152,39,54.3,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"188","0811NEW078","WG 167-98",NA,"Borehole",10.4,50,"Bedrock Met",1999-04-20,107950,121580,"to 50m","KNOCKBRACK",NA,"Kerry",23,"Agri & domestic use","Good","III",120,NA,NA,8.2,14.56,152,33.9,44.8,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"189","0811NEW079",NA,NA,"Borehole",7.6,59.4,"Bedrock Met",NA,104850,129150,"to 50m","KNOCKUNDERVAUL",NA,"Kerry",17,"Agri & domestic use","Poor","V",16.4,NA,NA,12.2,1.34,152,38.7,51.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+",NA,"6 hr test"
+"190","0811NEW080","WG 104-2001",NA,"Borehole",3.7,56.1,"Bedrock Met",2002-04-03,104020,128140,"to 50m","TOOR",NA,"Kerry",17,"Agri & domestic use","Moderate","IV",54.5,NA,NA,5.8,9.41,152,38.4,45.4,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"191","0811NEW081","WG 75-2002",NA,"Borehole",2.7,61,"Bedrock Met",2002-09-10,108160,127820,"to 50m","COOLANEELIG",NA,"Kerry",18,"Agri & domestic use","Good","III",131,NA,NA,5.8,22.61,152,53,55.8,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"192","0811NEW082","WG 17-98",NA,"Borehole",4.9,99.4,"Bedrock Met",NA,102350,129590,"to 50m","LACKA WEST",NA,"Kerry",17,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,80.8,89,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,NA
+"193","0811NEW085","WG 24-2003",NA,"Borehole",7.3,73.2,"Bedrock Not Met",2003-07-08,104290,122290,"to 50m","GORTROE",NA,"Kerry",23,"Agri & domestic use","Poor","V",21.8,NA,NA,7,3.11,152,44.2,66.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+",NA,"6 hr test"
+"194","0811NEW086","WG 29-2004",NA,"Borehole",0,56.1,"Bedrock Not Met",2004-07-05,103010,122810,"to 50m","MUINGWEE",NA,"Kerry",23,"Agri & domestic use","Moderate","III",65.5,NA,NA,4,16.36,152,34.1,48.5,NA,NA,NA,"Drilled by Lenihan, Glin
+Pencil - Rock at surface",NA,"2 hr test"
+"195","0811NWW024","CK1",NA,"Borehole",6.4,94.5,"Bedrock Met",1981-12-01,83020,129240,"to 50m","SLIEVEBWEE",NA,"Kerry",15,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"CK-1",NA,NA
+"196","0811NWW025","CK2",NA,"Borehole",3,205.4,"Bedrock Met",1981-12-01,82760,128400,"to 50m","AGHAMORE SOUTH",NA,"Kerry",15,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"CK-2",NA,NA
+"197","0811NWW026","CK3",NA,"Borehole",6.1,304.8,"Bedrock Met",1982-02-01,83080,127750,"to 50m","AGHAMORE SOUTH",NA,"Kerry",15,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"CK-3",NA,NA
+"198","0811NWW031","WG 84-98",NA,"Borehole",8.2,86,"Bedrock Met",1998-08-13,80160,127950,"to 50m","BALLINORIG WEST",NA,"Kerry",15,"Agri & domestic use","Good","II",131,NA,NA,1.8,71.5,152,70.7,75.9,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Limestone",NA,"2 hr test"
+"199","0811NWW032","WG 118-99",NA,"Borehole",6.4,92,"Bedrock Met",1999-08-11,93830,127840,"to 50m","KNOCKBURRANE",NA,"Kerry",16,"Agri & domestic use","Poor","V",38.2,NA,NA,13.1,2.91,152,67.4,85,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"200","0811NWW033","WG 113-99",NA,"Borehole",0.9,39.6,"Bedrock Met",1999-08-11,94770,128390,"to 50m","KNOCKREAGH",NA,"Kerry",16,"Agri & domestic use","Good","II",218,NA,NA,1.8,119.2,152,29.3,36,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"201","0811SEW093","WG 76-98",NA,"Borehole",4.6,55.5,"Bedrock Met",1998-08-09,103030,119250,"to 50m","MEENBANNIVANE",NA,"Kerry",23,"Agri & domestic use","Good","III",120,NA,NA,3.35,35.8,152,41.8,51.2,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"202","0811SEW094",NA,NA,"Borehole",1.8,55.5,"Bedrock Met",1998-08-12,98280,114070,"to 50m","TULLAGUBBEEN",NA,"Kerry",30,"Agri & domestic use","Good","II",163.6,NA,NA,NA,59.5,150,41.7,49.1,NA,NA,NA,NA,NA,"dd = 2.74m"
+"203","0811SEW095","WG 104-98",NA,"Borehole",4.6,86.8,"Bedrock Met",1998-10-15,96200,112660,"to 50m","NOHAVAL SOUTH",NA,"Kerry",30,"Agri & domestic use","Poor","V",21.8,NA,NA,15.2,1.43,178,58,79.3,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"10 hr test"
+"204","0811SEW096","WG 66-2000",NA,"Borehole",0.6,43.9,"Bedrock Met",2000-07-20,97510,117430,"to 50m","BROUGHANE",NA,"Kerry",30,"Agri & domestic use","Moderate","III",87.3,NA,NA,2.4,35.7,152,31.7,36.3,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"205","0811SEW098","WG 297-98",NA,"Borehole",4,62.2,"Bedrock Met",1999-05-05,98880,117190,"to 50m","KNOCKARIDDERA",NA,"Kerry",30,"Agri & domestic use","Good","II",218,NA,NA,2.1,102.4,152,42.4,54,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"206","0811SEW100","WG 85-98",NA,"Borehole",1.2,37.2,"Bedrock Met",1999-09-18,101750,117540,"to 50m","MUINGVAUTIA",NA,"Kerry",31,"Agri & domestic use","Good","III",120,NA,NA,5.8,20.73,152,29.3,31.7,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"207","0811SEW101","WG 119-98",NA,"Borehole",4.6,54.9,"Bedrock Met",1998-08-15,102090,113780,"to 50m","AHANEBOY",NA,"Kerry",31,"Agri & domestic use","Poor","V",16.4,NA,NA,9.8,1.68,152,37.2,48.2,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Slate",NA,"Date Dec-1968"
+"208","0811SEW102","WG 83-99",NA,"Borehole",3.4,61.6,"Bedrock Met",1998-08-05,106950,110980,"to 50m","BALLINARD",NA,"Kerry",40,"Agri & domestic use","Moderate","III",87.3,NA,NA,4,22,152,41.8,51.5,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"209","0811SEW103",NA,NA,"Borehole",4.6,68.6,"Bedrock Met",2001-07-15,107820,111030,"to 50m","KNOCKATEE",NA,"Kerry",40,"Agri & domestic use","Poor","V",16.4,NA,NA,18.3,1.19,152,45.1,59.3,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+",NA,"6 hr test"
+"210","0811SEW104","WG 7-99",NA,"Borehole",5.2,61,"Bedrock Met",NA,98840,112850,"to 50m","LACKABAUN",NA,"Kerry",30,"Agri & domestic use","Poor","V",21.8,NA,NA,12.2,1.79,152,50.3,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"6 hr test"
+"211","0811SEW105","WG 9-99",NA,"Borehole",3.4,76.2,"Bedrock Met",2001-06-15,101310,114590,"to 50m","AHANEBOY",NA,"Kerry",31,"Agri & domestic use","Poor",NA,38.2,NA,NA,NA,NA,152,39.6,62.5,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Yield estimated"
+"212","0811SEW106","WG 47-2001",NA,"Borehole",NA,29.9,"DTB Unknown",NA,106670,114480,"to 50m","KNOCKACHUR",NA,"Kerry",31,"Agri & domestic use","Failure",NA,1.6,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,"Driller unknown",NA,NA
+"213","0811SEW107","WG 75-2000",NA,"Borehole",4.9,61,"Bedrock Met",2000-07-15,107250,110500,"to 50m","KNOCKATEE",NA,"Kerry",40,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,47.2,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Estimated Yield"
+"214","0811SEW108","WG 5-2000",NA,"Borehole",4.6,61,"Bedrock Met",2000-04-15,100390,115890,"to 50m","MUINGVAUTIA",NA,"Kerry",31,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,39.6,53.3,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+",NA,"No Yield given"
+"215","0811SEW109","WG 239-98",NA,"Borehole",2.1,68.6,"Bedrock Met",1998-12-15,107680,111120,"to 50m","KNOCKATEE",NA,"Kerry",40,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,152,27.4,50.3,57.9,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Estimated Yield"
+"216","0811SEW110","WG 209-98",NA,"Borehole",4,61,"Bedrock Met",1998-12-15,107950,110740,"to 50m","KNOCKATEE",NA,"Kerry",40,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,152,18.3,39.7,53.4,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Estimated Yield"
+"217","0811SEW111","WG 256-98",NA,"Borehole",4,73.2,"Bedrock Met",1999-04-15,107490,110720,"to 50m","KNOCKATEE",NA,"Kerry",40,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,152,48.8,61,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Estimated Yield"
+"218","0811SEW112","WG 75-98",NA,"Borehole",4.6,54.9,"Bedrock Met",1998-10-15,106620,114290,"to 50m","KNOCKACHUR",NA,"Kerry",31,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,21.3,42.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Estimated Yield"
+"219","0811SEW150","WG 16-2004",NA,"Borehole",6.4,56.3,"Bedrock Not Met",2004-07-08,103130,116780,"to 50m","TOOREENMORE",NA,"Kerry",31,"Agri & domestic use","Moderate","IV",76.3,NA,NA,7.9,9.67,152,42.3,50.3,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Pencil",NA,"6 hr test"
+"220","0811SEW152","WG 7-2000",NA,"Borehole",1.2,104.9,"Bedrock Not Met",2001-12-08,103220,116300,"to 50m","TOOREENMORE",NA,"Kerry",31,"Agri & domestic use","Moderate","IV",43.6,NA,NA,6.4,6.81,152,84.1,94.5,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"221","0811SWW237","CI-1",NA,"Borehole",30.5,335.3,"Bedrock Met",1982-04-01,93450,112750,"to 50m","ROCKFIELD",NA,"Kerry",30,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"CI-1",NA,NA
+"222","0811SWW257",NA,NA,"Borehole",27.4,30.5,"DTB Unknown",NA,86700,113430,"to 50m","CURRAGHLEHA WEST",NA,"Kerry",29,"Industrial use",NA,NA,NA,62,NA,NA,NA,NA,NA,NA,NA,NA,NA,"162/4 - well survey no. Deep"" well. Q estimated on accomadation",NA,NA
+"223","0811SWW258",NA,NA,"Borehole",NA,24.4,"DTB Unknown",NA,88400,112780,"to 50m","CURRAGHMACDONAGH",NA,"Kerry",29,"Industrial use","Good",NA,NA,102,NA,NA,NA,NA,NA,NA,NA,NA,NA,"162/5.  Aeration used to treat water. Lime+F
+EC 631 @ 12.5 C",NA,NA
+"224","0811SWW259","WG 175-98",NA,"Borehole",3.1,61.6,"Bedrock Met",1998-09-08,91370,115310,"to 50m","KNOCKARIDDANE",NA,"Kerry",30,"Agri & domestic use","Poor",NA,32.7,NA,NA,5.8,NA,152,41.8,54.6,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"225","0811SWW260","WG 36-2003",NA,"Borehole",1.8,92,"Bedrock Not Met",2004-05-25,89950,117710,"to 50m","BALLINCOLLIG",NA,"Kerry",30,"Agri & domestic use","Poor","IV",36,NA,NA,6.1,5.9,152,56.1,81.4,NA,NA,NA,"Drilled by Lenihan, Glin
+Pencil",NA,"72 hr test"
+"226","0813NEW101","WG174-99",NA,"Borehole",13.1,49.4,"Bedrock Met",2000-12-03,96610,145660,"to 50m","CLOONAMAN",NA,"Kerry",2,"Agri & domestic use","Good","I",327,NA,NA,1.2,268.3,152,29.6,42.1,NA,NA,NA,"Drilled by Martin Kenihan, Glin
+Pencil",NA,"2 hr test"
+"227","0813NEW102","WG27-97",NA,"Borehole",11.9,49.4,"Bedrock Met",1999-09-15,95710,145650,"to 50m","ASTEE EAST",NA,"Kerry",2,"Agri & domestic use","Moderate","IV",43.6,NA,NA,10.1,4.3,152,38.7,42.4,NA,NA,NA,"Drilled by Martin Lenihan, Glin",NA,"2 hr test"
+"228","0813NEW103","WG 32-97",NA,"Borehole",17.1,43.9,"Bedrock Met",NA,106850,145540,"to 50m","SHANAWAY WEST",NA,"Kerry",3,"Agri & domestic use","Good","II",109,NA,NA,1.2,89.4,152,39,NA,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"229","0813NEW105","WG 145-99",NA,"Borehole",16.5,104.9,"Bedrock Met",2000-04-14,95130,143610,"to 50m","TULLAHENNEL NORTH",NA,"Kerry",5,"Agri & domestic use","Poor","V",27.3,NA,NA,8.8,3.08,152,NA,NA,NA,NA,NA,"Drilled by Maryin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"230","0813NEW106","WG 285-98",NA,"Borehole",2.4,122.5,"Bedrock Met",2000-08-26,109360,140100,"to 50m","GLANNALAPPA MIDDLE",NA,"Kerry",6,"Agri & domestic use","Moderate","III",87.3,NA,NA,5.8,15.07,152,94.2,118,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"231","0813NEW108","WG 116-2001",NA,"Borehole",5.2,51.8,"Bedrock Met",2001-11-15,96100,143510,"to 50m","TULLAHENNEL NORTH",NA,"Kerry",5,"Agri & domestic use","Poor","V",16.4,NA,NA,9.1,1.79,152,27.4,44.8,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+",NA,"6 hr test"
+"232","0813NEW109","WG 41-98",NA,"Borehole",35.7,70.1,"Bedrock Met",2000-03-15,98880,142560,"to 50m","BALLYLINE WEST",NA,"Kerry",5,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,152,56.4,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"  Estimated Yield"
+"233","0813NWW059","WG102-98",NA,"Borehole",12.8,49.4,"Bedrock Met",1999-08-14,94230,145600,"to 50m","ASTEE WEST",NA,"Kerry",2,"Agri & domestic use","Good","III",131,NA,NA,5.2,25.3,152,40,44,NA,NA,NA,"Drilled by Martin Lenihan, Glin",NA,"2 hr test"
+"234","0813NWW060","WG30-98",NA,"Borehole",11.6,43.3,"Bedrock Met",1998-09-21,91950,145700,"to 50m","CURRAGHDERRIG",NA,"Kerry",2,"Agri & domestic use","Good","II",109,NA,NA,1.2,89.4,152,32,40,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"dd = 1.22m"
+"235","0813NWW061","WG31-97",NA,"Borehole",17.7,49.4,"Bedrock Met",1998-09-20,92990,146020,"to 50m","CURRAGHDERRIG",NA,"Kerry",2,"Agri & domestic use","Good","II",218,NA,NA,2.4,89.4,152,36,43.9,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"236","0813NWW062","WG234-98",NA,"Borehole",23.8,61.6,"Bedrock Met",1999-06-10,93320,145930,"to 50m","CURRAGHDERRIG",NA,"Kerry",2,"Agri & domestic use","Good","III",109,NA,NA,5.8,18.8,152,49,54,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+pencil",NA,"2 hr test"
+"237","0813NWW063","WG254-97",NA,"Borehole",19.2,55.5,"Bedrock Met",1999-03-19,91840,145290,"to 50m","DERRA",NA,"Kerry",2,"Agri & domestic use","Moderate","IV",54.5,NA,NA,3.7,14.9,152,37.5,48,NA,NA,NA,"Drilled by Martin Lenihan, Glin",NA,"2 hr test"
+"238","0813NWW064","WG172-97",NA,"Borehole",18.6,61.6,"Bedrock Met",1999-03-05,94310,145500,"to 50m","ASTEE WEST",NA,"Kerry",2,"Agri & domestic use","Good","III",109,NA,NA,3.4,32.6,152,44,57,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"239","0813NWW065","WG268-98",NA,"Borehole",15.5,43.3,"Bedrock Met",1999-06-09,90750,145750,"to 50m","GULLANE EAST",NA,"Kerry",2,"Agri & domestic use","Good","II",273,NA,NA,2.7,99.5,152,33.2,36.9,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"240","0813NWW067","WG 9-98",NA,"Borehole",14.6,79.9,"Bedrock Met",1999-03-05,94980,144060,"to 50m","TULLAHENNEL NORTH",NA,"Kerry",5,"Agri & domestic use","Moderate","III",65.5,NA,NA,1.5,43.06,152,64,72.8,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pancil",NA,"2 hr test"
+"241","0813NWW069","WG 11-97",NA,"Borehole",12.5,43.3,"Bedrock Met",1998-09-21,93180,142900,"to 50m","LARHA",NA,"Kerry",5,"Agri & domestic use","Good","II",109,NA,NA,1.2,91,152,29.9,38.7,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+pencil",NA,"2 hr test"
+"242","0813NWW071","WG101-2002",NA,"Borehole",4.3,68.3,"Bedrock Met",2002-01-13,92840,147660,"to 50m","LETTER",NA,"Kerry",2,"Agri & domestic use","Good","III",109,NA,NA,6.7,16.28,152,59.7,64.6,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"243","0813NWW072","WG275-98",NA,"Borehole",14.9,43.3,"Bedrock Met",2000-06-06,94450,145550,"to 50m","ASTEE",NA,"Kerry",2,"Agri & domestic use","Good","II",273,NA,NA,4.3,63.9,152,26.8,35.6,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"244","0813NWW073","WG8-2000",NA,"Borehole",39.6,44.2,"Bedrock Met",NA,91340,148290,"to 50m","CASTLEQUARTER",NA,"Kerry",2,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,27.4,36.6,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale",NA,"Estimated Yield"
+"245","0813NWW074","WG 103-99",NA,"Borehole",9.5,55.5,"Bedrock Met",1999-10-03,90660,146940,"to 50m","ACRES",NA,"Kerry",2,"Agri & domestic use","Good","III",109,NA,NA,5.8,18.84,152,41.8,49.1,NA,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil",NA,"2 hr test"
+"246","0813SEW071","WG 30-2003",NA,"Borehole",8.2,61.6,"Bedrock Not Met",2003-07-07,104200,131480,"to 50m","TRIENEARAGH",NA,"Kerry",17,"Agri & domestic use","Moderate","IV",76.4,NA,NA,18.3,4.2,152,48.8,57.9,NA,NA,NA,"Drilled by Lenihan, Glin
+Pencil",NA,"2 hr test"
+"247","0813SWW058",NA,NA,"Borehole",9.1,15.5,"Bedrock Met",1981-06-01,89590,137200,"to 50m","MWEEVOO",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-1",NA,NA
+"248","0813SWW059",NA,NA,"Borehole",6.6,18.3,"Bedrock Met",1981-06-01,89520,137160,"to 50m","MWEEVOO",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-2",NA,NA
+"249","0813SWW060",NA,NA,"Borehole",20.1,25,"Bedrock Met",1981-06-01,89450,136970,"to 50m","MWEEVOO",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-3",NA,NA
+"250","0813SWW061",NA,NA,"Borehole",11.6,15.4,"Bedrock Met",1981-06-01,89270,137300,"to 50m","MWEEVOO",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-4",NA,NA
+"251","0813SWW062",NA,NA,"Borehole",13.4,17.4,"Bedrock Met",1981-06-01,89120,137540,"to 50m","DUNFERRIS",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-5",NA,NA
+"252","0813SWW063",NA,NA,"Borehole",16.8,21.3,"Bedrock Met",1981-06-01,89000,137830,"to 50m","DUNFERRIS",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-6",NA,NA
+"253","0813SWW064",NA,NA,"Borehole",10.4,17.8,"Bedrock Met",1981-06-01,88660,137060,"to 50m","RAHOONAGH",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-7",NA,NA
+"254","0813SWW065",NA,NA,"Borehole",12.2,18.9,"Bedrock Met",1981-06-01,88280,137990,"to 50m","RAHOONAGH",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-8",NA,NA
+"255","0813SWW066",NA,NA,"Borehole",12.2,15.2,"Bedrock Met",1981-06-01,88170,137890,"to 50m","RAHOONAGH",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-9",NA,NA
+"256","0813SWW067",NA,NA,"Borehole",12.2,21.6,"Bedrock Met",1981-06-01,88960,137450,"to 50m","MWEEVOO",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-10",NA,NA
+"257","0813SWW068",NA,NA,"Borehole",15.2,20.7,"Bedrock Met",1981-06-01,88880,137450,"to 50m","MWEEVOO",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-11",NA,NA
+"258","0813SWW069",NA,NA,"Borehole",15.2,20.1,"Bedrock Met",1981-06-01,88800,137670,"to 50m","MWEEVOO",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-12",NA,NA
+"259","0813SWW070",NA,NA,"Borehole",9.1,16.2,"Bedrock Met",1981-06-01,89760,135850,"to 50m","KILTEEAN",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-16",NA,NA
+"260","0813SWW071",NA,NA,"Borehole",7.6,12.5,"Bedrock Met",1981-07-01,89930,136490,"to 50m","MWEEVUCK",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-20",NA,NA
+"261","0813SWW072",NA,NA,"Borehole",10.7,15.5,"Bedrock Met",1981-07-01,89750,136200,"to 50m","MWEEVUCK",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-21",NA,NA
+"262","0813SWW073",NA,NA,"Borehole",6.1,18.9,"Bedrock Met",1981-07-01,89570,136050,"to 50m","MWEEVUCK",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-22",NA,NA
+"263","0813SWW074",NA,NA,"Borehole",7.6,11.6,"Bedrock Met",1981-07-01,89670,136350,"to 50m","MWEEVUCK",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-23",NA,NA
+"264","0813SWW075",NA,NA,"Borehole",12.8,17.7,"Bedrock Met",1981-07-01,89690,136270,"to 50m","MWEEVUCK",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-24",NA,NA
+"265","0813SWW076",NA,NA,"Borehole",28.3,35.4,"Bedrock Met",1980-07-01,89590,136140,"to 50m","MWEEVUCK",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-25",NA,NA
+"266","0813SWW077",NA,NA,"Borehole",7.6,12.2,"Bedrock Met",1981-07-01,89900,136450,"to 50m","MWEEVUCK",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-26",NA,NA
+"267","0813SWW078",NA,NA,"Borehole",18.3,20.1,"Bedrock Met",1981-07-01,87880,138050,"to 50m","RAHOONAGH",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-27",NA,NA
+"268","0813SWW079",NA,NA,"Borehole",10.7,14,"Bedrock Met",1981-07-01,87890,138280,"to 50m","RAHOONAGH",NA,"Kerry",9,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-28",NA,NA
+"269","0813SWW086","JH13",NA,"Borehole",16.8,20.4,"Bedrock Met",1981-04-01,90520,135440,"to 50m","KILTEEAN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-13",NA,NA
+"270","0813SWW087","JH19",NA,"Borehole",15.2,18.9,"Bedrock Met",1981-07-01,90000,134920,"to 50m","BALLYOUNEEN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"271","0813SWW088","JH14",NA,"Borehole",12.1,16.8,"Bedrock Met",1981-06-01,90300,135230,"to 50m","KILTEEAN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-14",NA,NA
+"272","0813SWW089","JH37",NA,"Borehole",6.1,17.1,"Bedrock Met",1981-08-01,90380,134600,"to 50m","BALLYOUNEEN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-37",NA,NA
+"273","0813SWW090","JH40",NA,"Borehole",10.7,15.8,"Bedrock Met",1981-10-01,90460,134360,"to 50m","BALLYOUNEEN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-40",NA,NA
+"274","0813SWW091","JH38",NA,"Borehole",13.1,27.1,"Bedrock Met",1981-08-01,90150,135080,"to 50m","KILTEEAN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-38",NA,NA
+"275","0813SWW092","JH41",NA,"Borehole",14,16.5,"Bedrock Met",1981-10-01,90550,134200,"to 50m","BALLYOUNEEN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-41",NA,NA
+"276","0813SWW093","JH42",NA,"Borehole",9.1,15.2,"Bedrock Met",1981-10-01,90660,134190,"to 50m","BALLYOUNEEN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-42",NA,NA
+"277","0813SWW094","JH43",NA,"Borehole",13.7,18.3,"Bedrock Met",1981-10-01,90730,134330,"to 50m","BALLYOUNEEN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-43",NA,NA
+"278","0813SWW095","JH44",NA,"Borehole",11.6,40.2,"Bedrock Met",1981-10-01,90590,134290,"to 50m","BALLYOUNEEN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-44",NA,NA
+"279","0813SWW096","JH45",NA,"Borehole",12.2,15.2,"Bedrock Met",1981-10-01,90690,134250,"to 50m","BALLYOUNEEN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-45",NA,NA
+"280","0813SWW097","JH46",NA,"Borehole",9.1,33.2,"Bedrock Met",1981-10-01,90740,134300,"to 50m","BALLYOUNEEN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-46",NA,NA
+"281","0813SWW098","JH47",NA,"Borehole",12.2,41.1,"Bedrock Met",1981-10-01,90920,134300,"to 50m","BALLYOUNEEN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-47",NA,NA
+"282","0813SWW099","JH48",NA,"Borehole",10.7,15.2,"Bedrock Met",1981-10-01,90850,134170,"to 50m","BALLYOUNEEN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-48",NA,NA
+"283","0813SWW100","JH49",NA,"Borehole",12.2,36,"Bedrock Met",1981-10-01,91060,133910,"to 50m","BALLYOUNEEN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-49",NA,NA
+"284","0813SWW101","KH34",NA,"Borehole",9.4,200.6,"Bedrock Met",1981-11-01,91270,134450,"to 50m","BALLYOUNEEN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"KH-34",NA,NA
+"285","0813SWW102","JH53",NA,"Borehole",10.7,20.1,"Bedrock Met",1981-10-01,91240,133690,"to 50m","KILLARIDA",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-53",NA,NA
+"286","0813SWW103","JH54",NA,"Borehole",9.1,15.2,"Bedrock Met",1981-11-01,91010,133600,"to 50m","KILLARIDA",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-54",NA,NA
+"287","0813SWW104","KH29",NA,"Borehole",15.5,257.3,"Bedrock Met",1981-09-01,90590,135750,"to 50m","KILTEEAN",NA,"Kerry",10,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"KH-29",NA,NA
+"288","0813SWW105","KH11",NA,"Borehole",10.7,16.7,"Bedrock Met",1980-04-01,89940,131410,"to 50m","BALLYNAGARE",NA,"Kerry",16,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"KH-11",NA,NA
+"289","0813SWW106","KH12",NA,"Borehole",6.4,9.4,"Bedrock Met",1980-04-01,90080,130750,"to 50m","BALLYNAGARE",NA,"Kerry",16,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"KH-12",NA,NA
+"290","0813SWW107","KH13",NA,"Borehole",3.1,12.2,"Bedrock Met",1980-04-01,89850,130100,"to 50m","CLOGHER",NA,"Kerry",16,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"KH-13",NA,NA
+"291","0813SWW108",NA,NA,"Borehole",12.2,15.8,"Bedrock Met",1981-07-01,86530,138340,"to 50m","BALLYEAGH",NA,"Kerry",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-32",NA,"Date Nov-1967"
+"292","0813SWW109",NA,NA,"Borehole",12.2,20.4,"Bedrock Met",1981-07-01,86250,138470,"to 50m","BALLYEAGH",NA,"Kerry",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-33",NA,NA
+"293","0813SWW110",NA,NA,"Borehole",12.2,17.4,"Bedrock Met",1981-07-01,86860,138490,"to 50m","BALLYEAGH",NA,"Kerry",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-30",NA,NA
+"294","0813SWW111",NA,NA,"Borehole",10.7,15.2,"Bedrock Met",1981-07-01,86790,138460,"to 50m","BALLYEAGH",NA,"Kerry",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-31",NA,NA
+"295","0813SWW112",NA,NA,"Borehole",10.7,15.8,"Bedrock Met",1981-07-01,87030,138590,"to 50m","BALLYEAGH",NA,"Kerry",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"JH-29",NA,NA
+"296","1107NWW007","WG 12-2002",NA,"Borehole",30.5,67.1,"Bedrock Met",2002-04-15,112500,87930,"to 50m","GORTDERRIG","Headford","Kerry",68,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,50.3,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone","Location from site map included with Grant Scheme sheet
+Rotary/ Hammer","Yield estimated"
+"297","1107NWW009","WG 22-2001",NA,"Borehole",5.2,61,"Bedrock Met",2001-06-15,112010,87390,"to 50m","GORTACAREEN","Headford","Kerry",68,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,47.2,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone","Location from site map included with Grant Scheme sheet
+Rotary/Hammer","Estimated Yield"
+"298","1107NWW010","TP1",NA,"Dug well",NA,2.8,"Bedrock Not Met",NA,113170,89170,"to 50m","SHRONE BEG","Rathmore","Kerry",68,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unknown","Location from site map included with report",NA
+"299","1107NWW011","TP2",NA,"Dug well",NA,12,"DTB Unknown",NA,113060,89140,"to 50m","SHRONE BEG","Rathmore","Kerry",68,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unknown","Location from site map included in report. On location of old excavation",NA
+"300","1107NWW012","TP3",NA,"Dug well",NA,3,"Bedrock Not Met",NA,113090,89260,"to 50m","SHRONE BEG","Rathmore","Kerry",68,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unknown","Location from site map included with report.","No water encountered"
+"301","1107NWW013","TP4",NA,"Dug well",NA,4.5,"Bedrock Not Met",NA,113050,89340,"to 50m","SHRONE BEG","Rathmore","Kerry",68,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unknown","Location from site map included in report","No water encountered"
+"302","1107NWW014","TP5",NA,"Dug well",NA,NA,NA,NA,113000,89490,"to 50m","SHRONE BEG","Rathmore","Kerry",68,"Other",NA,NA,NA,NA,NA,NA,NA,NA,3,NA,NA,NA,NA,NA,"Location from site map included with report",NA
+"303","1107NWW015","TP6",NA,"Dug well",0.1,NA,"Bedrock Met",NA,113050,89470,"to 50m","SHRONE BEG","Rathmore","Kerry",68,"Other",NA,NA,NA,NA,NA,NA,NA,NA,4.2,NA,NA,NA,NA,"unknown","Location from site map included with report. 60m SE of TP5",NA
+"304","1107NWW016","WG 97-99",NA,"Borehole",5.5,61,"Bedrock Met",1999-08-15,111760,87310,"to 50m","GORTACAREEN",NA,"Kerry",68,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,21.3,47.2,58,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"305","1107NWW017","WG 20-99",NA,"Borehole",4.3,61,"Bedrock Met",1999-07-15,111880,87310,"to 50m","GORTACAREEN",NA,"Kerry",68,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,152,22.9,47.2,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"306","1107NWW018","WG 3-99",NA,"Borehole",0.6,39.6,"Bedrock Met",NA,110580,87980,"to 50m","DOOCARRIG MORE",NA,"Kerry",68,"Agri & domestic use","Good",NA,218,NA,NA,NA,NA,152,18.3,29,NA,NA,NA,"Drilled by Joe Hilliard, Listowel
+ORS",NA,"Date Nov-1967"
+"307","1107NWW019","WG 100-2002",NA,"Borehole",0.9,85.3,"Bedrock Met",2002-12-15,110240,81000,"to 50m","COOMACULLEN",NA,"Kerry",76,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,59.4,73.2,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Yield estimated"
+"308","1107NWW020",NA,NA,"Borehole",5.5,128.6,"Bedrock Met",2002-09-30,110490,89960,"to 50m","BEHEENAGH","Headford","Kerry",68,"Agri & domestic use","Good","III",218,NA,NA,30.5,7.15,152,45.1,103.6,124.9,NA,NA,"Drilled by Martin Lenihan, Glin
+Pencil","Location from site map included with Grant Scheme data sheet.
+Rotary","2 hr test"
+"309","1107SWW201","WG 68-2002",NA,"Borehole",7.3,70.1,"Bedrock Not Met",2002-10-15,110490,79530,"to 50m","COOMACULLEN",NA,"Kerry",86,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,32,59.4,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Sandstone",NA,"Estimated Yield"
+"310","1109NWW013","WG 73-2000",NA,"Borehole",6.4,54.9,"Bedrock Met",2000-08-15,110180,105960,"to 50m","KNOCKDOWN",NA,"Kerry",41,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,32,42.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Estimated Yield"
+"311","1109NWW014","WG 62-2003",NA,"Borehole",5.2,79.2,"Bedrock Not Met",NA,110840,103980,"to 50m","KNOCKYEALA",NA,"Kerry",50,"Agri & domestic use","Poor","V",21.8,NA,NA,35.7,0.61,152,40.2,48.2,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Pencil",NA,"6 hr test"
+"312","1109SWW053","WG 78-99",NA,"Borehole",18,54.9,"Bedrock Met",1999-08-04,116970,95760,"to 50m","KNOCKNASEED",NA,"Kerry",60,"Agri & domestic use","Moderate","IV",45.8,NA,NA,6.1,7.51,152,27.4,42.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,NA
+"313","1109SWW056","WG 106-2002",NA,"Borehole",7.9,61,"Bedrock Met",NA,115650,96700,"to 50m","KNOCKNASEED",NA,"Kerry",60,"Agri & domestic use","Poor","V",32.7,NA,NA,14.3,2.29,152,42.1,52.7,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+",NA,"6 hr test"
+"314","1109SWW057","WG 10-2003",NA,"Borehole",8.5,64,"Bedrock Not Met",NA,110940,92180,"to 50m","STAGMOUNT",NA,"Kerry",68,"Agri & domestic use","Poor","V",21.8,NA,NA,21.95,0.99,152,50.9,55.5,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Pencil",NA,"6 hr test"
+"315","1111SWW039","WG 166-97",NA,"Borehole",4.3,45.7,"Bedrock Met",2000-07-15,111940,113360,"to 50m","COOLLEGREAN",NA,"Kerry",32,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,32,NA,NA,NA,NA,"Drilled by T J Cross, Abbeyfeale
+Shale",NA,"Estimated Yield"

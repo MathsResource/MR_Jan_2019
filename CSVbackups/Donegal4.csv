@@ -1,0 +1,291 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","1437SEW003",NA,NA,"Borehole",35,6.1,"Bedrock Met",NA,159220,376210,"to 1km","DERRYLAHAN",NA,"Donegal",96,"Unknown","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"INFORMATION FROM DRILLER: PAT DULLEA","ROTARY DRILLED",NA
+"2","1735NEW001",NA,NA,"Dug well",1.8,NA,"DTB Unknown",1970-07-01,189020,365910,"to 1km","ALLA",NA,"Donegal",102,"Unknown","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","1735NEW003",NA,NA,"Borehole",NA,NA,"DTB Unknown",NA,186520,368040,"to 1km","ROSSNOWLAGH",NA,"Donegal",103,"Unknown","Good",NA,152.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLED BY P DUNLEA","prob. located in either BN fmn, or SAG",NA
+"4","1735NEW004",NA,NA,"Borehole",27.4,NA,"DTB Unknown",1971-06-01,190260,367760,"to 1km","GLASBOLIE",NA,"Donegal",103,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5","1735NEW005",NA,NA,"Dug well",1.8,NA,"DTB Unknown",1971-12-01,190250,367770,"to 1km","GLASBOLIE",NA,"Donegal",103,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6","1735NEW006","WTB/DON 1538",NA,"Dug well",0.6,1.2,"Bedrock Met",1973-03-01,190440,367750,"to 1km","GLASBOLIE",NA,"Donegal",103,"Unknown","Poor",NA,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","1735NWW006",NA,NA,"Spring",NA,NA,"DTB Unknown",NA,184320,360500,"to 1km","FINNER",NA,"Donegal",107,"Unknown","High Spring",NA,4550,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"25-10-1983, sampled by CR aldwell. Could be from SAG, or from the underlying BS fmn., or even a combination",NA
+"8","1735SEW001","WTB/DON 747 & 195",NA,"Dug well",8.8,7.6,"Bedrock Met",1961-06-12,189740,358710,"to 1km","CLONTYSEER",NA,"Donegal",107,"Unknown","Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","1735SEW002",NA,NA,"Borehole",45.7,NA,"DTB Unknown",1961-01-01,190720,358930,"to 1km","LISSACHOLLY",NA,"Donegal",107,"Unknown","Poor",NA,7.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10","1735SEW004","WTB/DON 843",NA,"Dug well",9.8,9.1,"Bedrock Met",1961-06-23,193090,359500,"to 1km","CLOGHORE",NA,"Donegal",107,"Unknown","Poor",NA,15.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"11","1735SWW010",NA,NA,"Borehole",33.5,2.7,"Bedrock Presumed",1977-06-01,181970,358770,"to 1km","BUNDORAN","KINLOUGH ROAD","Donegal",106,"Unknown","Good",NA,109,NA,NA,NA,NA,NA,15,NA,NA,NA,NA,"INFORMATION FROM PAT DULLEA","YIELD:SEVERAL THOUSAND G/H
+townland accuracy, but the whole townland is in BN shale",NA
+"12","1737NEW001",NA,NA,"Borehole",33.5,NA,"DTB Unknown",1966-01-01,196270,381420,"to 1km","DRUMNACARRY",NA,"Donegal",94,"Unknown","Poor",NA,6.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13","1737NWW001","WTB/DON 822","DEPT OF AGRICULTURE","Dug well",0.9,1.2,"Bedrock Met",1962-06-22,175490,383590,"to 1km","TULLINTEANE",NA,"Donegal",92,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14","1737NWW002",NA,NA,"Dug well",0.6,1.2,"Bedrock Met",1972-02-07,179740,380480,"to 1km","MEENAWULLAGHAN",NA,"Donegal",92,"Unknown","Poor",NA,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","1737NWW003","WTB/DON 838","DEPARTMENT OF AGRICULTURE","Dug well",2.1,0.9,"Bedrock Met",1962-06-21,176270,380520,"to 1km","LOUGHMUILT",NA,"Donegal",92,"Unknown","Failure",NA,1.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"whole townland located within banagher sandstone formation",NA
+"16","1737SEW001",NA,NA,"Dug well",1.5,1.2,"Bedrock Met",1972-05-01,194610,371000,"to 1km","RATH",NA,"Donegal",104,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"17","1737SEW007",NA,NA,"Borehole",9.1,NA,"DTB Unknown",NA,191780,370060,"to 1km","BALLINTRA",NA,"Donegal",100,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"18","1737SEW009",NA,NA,"Dug well",1.5,3.1,"Bedrock Met",1972-03-01,195920,370440,"to 1km","BALLYDERMOTT",NA,"Donegal",104,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"19","1737SEW010","WTB/DON 1242",NA,"Dug well",2.4,NA,NA,1971-01-02,196750,374610,"to 1km","CORMULLIN",NA,"Donegal",100,"Unknown","Poor",NA,15.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"20","1737SEW011","WTB/DON 1666",NA,"Dug well",0.6,0.9,"Bedrock Met",1973-09-01,192160,370400,"to 1km","LISMINTAN",NA,"Donegal",104,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"21","1737SEW019","WTB/DON 609 & 133",NA,"Borehole",32,19.8,"Bedrock Met",1961-07-01,191640,374180,"to 1km","ROSSILY","LAGHY","Donegal",99,"Unknown","Poor",NA,16.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"22","1737SWW010",NA,NA,"Borehole",30.5,9.1,"Bedrock Met",1970-03-10,181790,374690,"to 1km","CREEVINS",NA,"Donegal",98,"Unknown","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"23","1737SWW011","WTB/DON 1269",NA,"Borehole",31,NA,"DTB Unknown",1970-03-10,181770,374680,"to 1km","CREEVINS",NA,"Donegal",98,"Unknown","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"24","1737SWW013","WTB/DON 1298",NA,"Borehole",32,NA,"DTB Unknown",1969-08-08,181650,378110,"to 1km","INVER",NA,"Donegal",98,"Unknown","Poor",NA,17.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"25","1737SWW014","WTB/DON 839","DEPARTMENT OF AGRICULTURE","Dug well",2.7,2.4,"Bedrock Met",1962-06-20,175980,376120,"to 1km","BEAUGREEN GLEBE",NA,"Donegal",98,"Unknown","Failure",NA,2.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"26","1737SWW015",NA,NA,"Unknown",10.9,NA,"DTB Unknown",NA,175080,376810,"to 1km","BRUCKLESS",NA,"Donegal",98,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"27","1737SWW021","ILC WELL NO. 190","GAELTACHT SERVICES","Borehole",31.7,0.9,"Bedrock Met",1954-11-22,174950,376820,"to 1km","BRUCKLESS","DONEGAL","Donegal",98,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,203,6.7,21.3,NA,NA,NA,NA,NA,NA
+"28","1739NEW001",NA,NA,"Borehole",54.8,11.6,"Bedrock Met",NA,192570,402430,"to 1km","FINTOWN",NA,"Donegal",67,"Industrial use","Good",NA,218.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"mix of rocktypes underlying the townland",NA
+"29","1739SWW001",NA,NA,"Dug well",2.1,NA,"DTB Unknown",NA,182140,392460,"to 1km","MEENACHALLOW",NA,"Donegal",74,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"30","2035NWW003","WTB/DON 895 & 297",NA,"Borehole",29,8.5,"Bedrock Met",1961-05-25,209580,367380,"to 1km","KIMMID","PETTIGO","Donegal",105,"Unknown","Poor",NA,18.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Date 1/2/1966"
+"31","2035NWW005","WTB/DON 1676",NA,"Dug well",1.8,1.2,"Bedrock Met",1973-07-01,209780,367540,"to 1km","KIMMID","PETTIGO","Donegal",105,"Unknown","Poor",NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"32","2037SWW002",NA,NA,"Borehole",150,1,"Bedrock Met",1987-03-01,209030,373120,"to 1km","BALLYMACAVANY","LOUGH DERG","Donegal",101,"Unknown","Failure",NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"HIGH IRON AND MANGANESE",NA
+"33","2039NEW002","WTB/DON 1624",NA,"Dug well",1.5,1.2,"Bedrock Met",1972-07-01,220660,408450,"to 1km","LURGY",NA,"Donegal",61,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"34","2039NEW003","WTB/DON 369",NA,"Dug well",5.2,3.9,"Bedrock Met",1963-05-28,226440,401820,"to 1km","MAGHERAHAAN",NA,"Donegal",70,"Unknown","Poor",NA,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"35","2039NEW007","WTB/DON 674","DEPTARTMENT OF AGRICULTURE","Dug well",1.8,NA,"DTB Unknown",1962-06-16,222950,400080,"to 1km","CARRICKBRACK",NA,"Donegal",70,"Unknown","Poor",NA,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"36","2039NEW008",NA,NA,"Dug well",1.8,0.9,"Bedrock Met",1962-04-01,222880,400060,"to 1km","CARRICKBRACK",NA,"Donegal",69,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"37","2039NEW011","WTB/DON 1023",NA,"Dug well",4.6,1.8,"Bedrock Met",1969-07-01,227520,403550,"to 1km","OAKFIELD DEMENSE",NA,"Donegal",62,"Unknown","Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"38","2039NEW012","WTB/DON 1468",NA,"Dug well",5.5,NA,"DTB Unknown",1972-02-01,220230,407290,"to 1km","KNOCKBRACK",NA,"Donegal",61,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"39","2039NEW013","WTB/DON 784",NA,"Dug well",5.2,3.6,"Bedrock Met",1965-07-23,221950,409350,"to 1km","AGHLEHARD",NA,"Donegal",61,"Unknown","Poor",NA,3.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"40","2039NEW015","WTB/DON 965",NA,"Dug well",2.4,1.2,"Bedrock Met",1973-05-01,217910,409990,"to 1km","SCRIBLEY",NA,"Donegal",53,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"41","2039NEW017","ILC WELL NO 1441A",NA,"Borehole",30.5,7.6,"Bedrock Met",1969-09-11,225930,409940,"to 1km","DRUMOGHILL",NA,"Donegal",54,"Agri & domestic use","Moderate","V",66,NA,NA,NA,NA,178,12.2,24.4,NA,NA,NA,NA,"Rock type based purely on bedrock map. PVC LINER. 8HR BAILER TEST/4.2m DRAWDOWN.",NA
+"42","2039NEW018","ILC WELL NO. 1440A",NA,"Borehole",31.7,NA,"Bedrock Not Met",1969-09-30,225850,409930,"to 1km","DRUMOGHILL",NA,"Donegal",54,"Agri & domestic use","Moderate",NA,66,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"27.4M STEEL LINING IN BORE. 8hr BAILER TEST; 21m DRAWDOWN.",NA
+"43","2039NEW019","ILC WELL NO. 1440B",NA,"Borehole",22.2,18.2,"Bedrock Met",1969-10-24,226170,409930,"to 1km","DRUMOGHILL",NA,"Donegal",54,"Agri & domestic use","Poor","V",31.4,NA,NA,NA,1.8,178,10.1,20.7,NA,NA,NA,NA,"19.20M PVC LINING IN BORE THE DEC 2ND TEST WAS PUMPED, NOT BAILED
+located withing the Letterkenny alluvium as mapped by Teagasc",NA
+"44","2039NWW001",NA,NA,"Dug well",1.2,NA,"DTB Unknown",1971-09-01,212380,405830,"to 1km","RAREAGH",NA,"Donegal",61,"Unknown","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"45","2039NWW002","WTB/DON 1160",NA,"Dug well",1.8,0.9,"Bedrock Met",1969-07-01,214600,400460,"to 1km","CLOGHROE",NA,"Donegal",69,"Unknown","Poor",NA,6.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"46","2039SEW005","WTB/DON 406",NA,"Dug well",3.6,2.4,"Bedrock Met",1968-07-01,223900,398160,"to 1km","CARNOWEN",NA,"Donegal",70,"Unknown","Poor",NA,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"47","2039SEW023","WTB/DON 449",NA,"Dug well",3.6,3.6,"Bedrock Met",1964-10-30,224180,392340,"to 1km","CASHELIN","CASTLEFINN","Donegal",79,"Unknown","Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"48","2039SEW024",NA,NA,"Spring",NA,NA,"DTB Unknown",NA,223100,399950,"to 1km","CARRICKBRACK",NA,"Donegal",70,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NATURAL SPRINGS",NA
+"49","2039SEW025","WTB/DON 1040",NA,"Dug well",3.1,1.8,"Bedrock Met",1963-09-28,222650,392860,"to 1km","MEENLOUGHER",NA,"Donegal",78,"Unknown","Failure",NA,2.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"whole townland located in MF fmn",NA
+"50","2039SEW026","WTB/DON 594 & 104",NA,"Dug well",1.8,1.8,"Bedrock Met",1962-06-22,222220,396570,"to 1km","LEAGHT",NA,"Donegal",78,"Unknown","Poor",NA,8.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"51","2039SEW028","WTB/DON 174",NA,"Dug well",1.8,0.9,"Bedrock Met",1965-05-14,227100,392420,"to 1km","CORMAKILLY",NA,"Donegal",79,"Unknown","Poor",NA,3.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"52","2039SEW030",NA,NA,"Borehole",38.4,3.7,"Bedrock Met",NA,223630,393390,"to 1km","DRUMMURPHY",NA,"Donegal",79,"Unknown","Poor",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"53","2039SEW031",NA,NA,"Borehole",39.6,4.5,"Bedrock Met",NA,224140,394890,"to 1km","CARRICK",NA,"Donegal",79,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"54","2039SEW033","WTB/DON 1060",NA,"Dug well",2.7,2.7,"Bedrock Met",1963-10-31,226770,393020,"to 1km","DRESNAGH",NA,"Donegal",79,"Unknown","Poor",NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"55","2039SEW039",NA,NA,"Borehole",91.5,NA,"DTB Unknown",NA,218910,397770,"to 1km","CAVAN UPPER",NA,"Donegal",78,NA,"Failure",NA,1.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"56","2039SEW040",NA,NA,"Borehole",67,NA,"DTB Unknown",NA,219470,397240,"to 1km","CAVAN UPPER","Killygordon","Donegal",78,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Date 11/7/1962"
+"57","2039SEW041",NA,NA,"Borehole",45.7,NA,"DTB Unknown",NA,218430,396560,"to 1km","CAVAN UPPER","Killygordon","Donegal",78,NA,"Poor",NA,4.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"58","2041NEW006",NA,NA,"Borehole",32,6,"Bedrock Met",NA,225770,426360,"to 1km","RAY","RATHMULLAN","Donegal",37,"Unknown","Good",NA,218.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"townland accuracy, but the whole area is UC fmn.",NA
+"59","2041NEW016",NA,NA,"Dug well",3.1,NA,"DTB Unknown",1969-10-10,217890,420040,"to 1km","MULLAGHEEP",NA,"Donegal",45,"Unknown","Poor",NA,5.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"60","2041NEW020",NA,NA,"Unknown",1,0.6,"Bedrock Met",1967-05-01,215020,420620,"to 1km","KILMACRENNAN","BALLYBOE","Donegal",45,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"YIELD GOES DRY IN SUMMER, PLENTIFUL SUPPLY IN WINTER",NA
+"61","2041NEW021",NA,NA,"Dug well",2.4,1.8,"DTB Unknown",1970-09-01,224380,420050,"to 1km","KILCREEN","RATHMELTON","Donegal",46,"Unknown","Poor",NA,5.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"62","2041NEW022","DEPARTMENT OF AGRICULTURE DON 870",NA,"Dug well",3.6,3.6,"Bedrock Met",1962-11-01,224210,420180,"to 1km","KILCREEN","RATHMELTON","Donegal",46,"Unknown","Failure",NA,2.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"townland accuracy, but the whole area is UC quartzite",NA
+"63","2041NEW026","2087-1",NA,"Borehole",63,2.1,"Bedrock Met",NA,218000,425500,"to 1km","GORTMACALL MORE",NA,"Donegal",27,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Had co-ordinates: E:218341
+                             N:424694",NA,NA
+"64","2041NWW005","WTB/DON 1234",NA,"Dug well",1.8,1.8,"Bedrock Met",1971-02-03,209390,421810,"to 1km","DRUMOGHILL",NA,"Donegal",44,"Unknown","Poor",NA,8.72,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"65","2041NWW006","DEPT. AG. W/DON 131",NA,"Dug well",0.9,NA,"DTB Unknown",1959-05-01,213950,421250,"to 1km","KILCONNELL GLEBE",NA,"Donegal",45,"Unknown","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"HARD WATER",NA
+"66","2041SEW012","DEPT. AG. W/DON 708",NA,"Dug well",2.7,NA,"DTB Unknown",1959-11-01,221080,415280,"to 1km","BALLYMALEEL",NA,"Donegal",53,"Unknown","Poor",NA,4.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"67","2041SEW016",NA,NA,"Borehole",91.4,NA,"DTB Unknown",1969-09-16,216870,411440,"to 1km","LETTERKENNY",NA,"Donegal",53,"Unknown","Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LOWER MAIN STREET","12.2M LINED",NA
+"68","2041SEW017",NA,NA,"Borehole",30.5,NA,"DTB Unknown",1969-09-12,216850,411380,"to 1km","LETTERKENNY",NA,"Donegal",53,"Unknown","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MAIN STREET","6M LINED",NA
+"69","2041SEW020",NA,NA,"Borehole",30.5,NA,"DTB Unknown",1969-09-12,216930,411240,"to 1km","LETTERKENNY","LETTERKENNY","Donegal",53,"Unknown","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"70","2041SEW025","WTB/DON 788",NA,"Dug well",1.8,NA,"DTB Unknown",1960-09-01,218950,413490,"to 1km","CASTLEBANE","LETTERKENNY","Donegal",53,"Unknown","Poor",NA,3.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"71","2041SEW026","WTB/DON 1602",NA,"Dug well",4.5,3,"Bedrock Met",1972-11-01,221980,414800,"to 1km","CASTLEW BAY","LETTERKENNY","Donegal",53,"Unknown","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"72","2041SWW003",NA,NA,"Dug well",2.1,2.1,"Bedrock Met",1969-08-01,210540,417300,"to 1km","TREANTAGH",NA,"Donegal",44,"Unknown","Poor",NA,19.64,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"73","2041SWW013",NA,NA,"Dug well",1,0.3,"Bedrock Met",1964-05-01,210040,414690,"to 1km","BALLYBOLAUDER","LETTERKENNY","Donegal",52,NA,"Poor",NA,5.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"74","2041SWW014",NA,NA,"Dug well",1.8,1.2,"Bedrock Met",NA,213780,415920,"to 1km","GORTALABAN",NA,"Donegal",53,"Unknown","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"75","2041SWW030","WG 409",NA,"Borehole",61.5,3.5,"Bedrock Met",2005-03-18,214700,418550,"to 1km","KEENAGHAN",NA,"Donegal",45,"Agri & domestic use","Poor","V",10.9,NA,NA,7,1.56,150,38,NA,NA,NA,NA,NA,"4 hr test",NA
+"76","2043NWW001",NA,NA,"Spring",NA,NA,"DTB Unknown",NA,209460,441570,"to 1km","DOAGH",NA,"Donegal",16,"Unknown","Low Spring",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1-Oct-1983, Sampled by CR Aldwell. townland accuracy, but the whole area is underlain by granite",NA
+"77","2043SEW001","DEPT. AG. W/DON 567",NA,"Dug well",3,NA,"DTB Unknown",1961-07-24,219630,439250,"to 1km","TAWNY",NA,"Donegal",17,"Unknown","Poor",NA,3.27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"78","2043SEW003","WTB/DON 1170",NA,"Dug well",3,0.6,"Bedrock Met",1970-03-01,216650,437840,"to 1km","SEEDAGH",NA,"Donegal",17,"Unknown","Poor",NA,6.55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"79","2043SEW007","WTB/DON 677",NA,"Dug well",1.2,1.2,"Bedrock Met",1962-07-08,228060,432990,"to 1km","KILLYCOLMAN","RATHMULLAN","Donegal",28,"Unknown","Poor",NA,4.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1.2 M DRIFT",NA
+"80","2043SWW001","WTB/DON 1010",NA,"Dug well",2.3,0.9,"Bedrock Met",1962-12-08,200450,435430,"to 1km","CORCREGGAN",NA,"Donegal",15,"Unknown","Failure",NA,2.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"81","2043SWW004","ESB REF. 16-16-1",NA,"Dug well",1.4,NA,"DTB Unknown",1962-03-01,212800,435440,"to 1km","UMLAGH","CARRICKART","Donegal",17,"Unknown","Poor",NA,8.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SUMMER YIELD = 5.45
+WINTER YIELD = 10.9",NA
+"82","2043SWW005","WTB/DON 1006",NA,"Dug well",2,1,"Bedrock Met",1962-08-27,200140,434160,"to 1km","MAGHERAMENAGH","DUNFANAGHY","Donegal",25,"Unknown",NA,NA,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83","2043SWW006","ESB REF. 25-3-30",NA,"Dug well",7.6,NA,"DTB Unknown",NA,200070,434100,"to 1km","MAGHERAMENAGH","DUNFANAGHY","Donegal",25,"Unknown","Moderate",NA,81,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SUMMER YIELD = 55, WINTER YIELD = 109.",NA
+"84","2339NWW001",NA,NA,"Dug well",4.6,NA,"DTB Unknown",1962-05-10,230080,407040,"to 1km","MOMEEN",NA,"Donegal",62,"Unknown","Poor",NA,3.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"85","2339NWW002",NA,NA,"Borehole",67,NA,"DTB Unknown",1982-01-01,231940,401780,"to 1km","CAVAN",NA,"Donegal",70,"Unknown","Moderate",NA,45.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"INFORMATION FROM DES MEEHAN",NA,NA
+"86","2339NWW003",NA,NA,"Borehole",45.7,NA,"DTB Unknown",1982-01-01,231940,401750,"to 1km","CAVAN",NA,"Donegal",70,"Unknown","Poor",NA,4.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"INFORMATION FROM DES MEEHAN",NA,NA
+"87","2339NWW004",NA,NA,"Borehole",91.4,NA,"DTB Unknown",1982-01-01,231940,401730,"to 1km","CAVAN",NA,"Donegal",70,"Unknown","Failure",NA,1.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"INFORMATION FROM DES MEEHAN","townland accuracy, but the whole area is DG fmn.",NA
+"88","2339NWW005",NA,NA,"Dug well",2.4,2.4,"Bedrock Met",1969-06-01,232670,402110,"to 1km","GLENCASH",NA,"Donegal",71,"Unknown","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"89","2339SWW001","WTB/DON 459",NA,"Dug well",3.1,1.2,"Bedrock Met",1965-02-08,231520,397460,"to 1km","PORTINURE",NA,"Donegal",70,"Unknown","Poor",NA,3.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"90","2341NWW001","DEPT. AG. DON 518",NA,"Dug well",4.9,4,"Bedrock Met",1962-06-08,240890,423780,"to 1km","DRUMADOOEY",NA,"Donegal",38,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"3.96M DRIFT",NA
+"91","2343NEW007",NA,NA,"Borehole",19.8,4.3,"Bedrock Met",NA,254720,449650,"to 1km","KNOCK",NA,"Donegal",5,"Unknown","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"92","2343NEW008","WG 107",NA,"Borehole",60,3,"Bedrock Met",1998-07-30,257910,444820,"to 1km","LEITRIM","CULDAFF","Donegal",12,"Domestic use only","Poor","V",4.54,NA,NA,NA,NA,NA,45,NA,NA,NA,NA,"DULLEA WELL DRILLERS",NA,NA
+"93","2343NWW011",NA,NA,"Spring",NA,NA,"DTB Unknown",NA,238750,448330,"to 1km","BALLYLIFFIN",NA,"Donegal",3,"Unknown","Intermediate Spring",NA,1090,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sampled by CR. Aldwell on 1/10-1983. townland accuracy, but the whole area is TE fmn.",NA
+"94","2343SWW007",NA,NA,"Borehole",NA,3.6,"Bedrock Met",1984-08-01,238780,433300,"to 1km","DRUMINDERRY","BUNCRANA","Donegal",29,"Agri use only",NA,NA,NA,NA,NA,NA,NA,NA,1.5,NA,NA,NA,NA,"INFORMATION FROM P DULLEA","HIGH IRON AND MANGANESE",NA
+"95","1439SEW001",NA,NA,"Dug well",1.5,NA,"DTB Unknown",1970-09-01,169370,393350,"to 2km","LISKEERAGHAN",NA,"Donegal",73,"Unknown","Poor",NA,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"96","1735NEW007",NA,NA,"Borehole",36.6,30.5,"Bedrock Met",1971-06-01,190800,367620,"to 2km","BALLYMAGRORTY",NA,"Donegal",103,"Unknown","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"97","1735NEW008","WTB/DON 1230",NA,"Dug well",3,NA,"DTB Unknown",1970-10-01,187570,365140,"to 2km","CASHEL",NA,"Donegal",103,"Unknown","Poor",NA,27.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"98","1735NEW009","WTB/DON 923 & WTB/DON 320",NA,"Dug well",3,2.7,"Bedrock Met",1963-02-27,187570,365130,"to 2km","CASHEL",NA,"Donegal",103,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"99","1735NEW010",NA,NA,"Borehole",39.6,NA,"DTB Unknown",1971-09-01,187990,361620,"to 2km","BALLYSHANNON",NA,"Donegal",107,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"100","1735NEW011",NA,NA,"Borehole",55.5,NA,"DTB Unknown",1977-06-01,196750,361400,"to 2km","DERRYKILLEW",NA,"Donegal",108,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,48.8,NA,NA,NA,NA,NA,NA,NA
+"101","1735NEW078",NA,NA,"Borehole",45.7,6,"Bedrock Met",NA,190700,368340,"to 2km","BALLYMAGRORTY",NA,"Donegal",103,"Domestic use only","Moderate",NA,55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"data from Pat Dullea, 4/4/02","water was encountered in two fractures",NA
+"102","1735NEW079",NA,NA,"Borehole",61,6,"Bedrock Met",NA,190850,367740,"to 2km","BALLYMAGRORTY",NA,"Donegal",103,"Domestic use only","Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"data from Pat Dullea, 4/4/02","water was encountered in three fractures",NA
+"103","1735NWW001","WTB/DON 559",NA,"Borehole",14.3,0.6,"Bedrock Met",1958-10-13,184080,360440,"to 2km","FINNER",NA,"Donegal",107,"Unknown","Poor",NA,19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"104","1735NWW002","WTB/DON 512",NA,"Borehole",26.5,1.8,"Bedrock Met",1958-10-13,184030,360440,"to 2km","FINNER",NA,"Donegal",107,"Unknown","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"105","1735NWW003","WTB/DON 485 A",NA,"Borehole",45.7,NA,"DTB Unknown",1958-10-13,184010,360440,"to 2km","FINNER",NA,"Donegal",107,"Unknown","Poor",NA,14.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"106","1735SWW001","WTB/DON 194",NA,"Dug well",5.2,3.6,"Bedrock Met",NA,183300,357950,"to 2km","ARDFARN",NA,"Donegal",109,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"107","1735SWW002","WTB/DON 80 & WTB/DON 184",NA,"Dug well",6,3.1,"Bedrock Met",1959-01-26,183400,357940,"to 2km","ARDFARN",NA,"Donegal",109,"Unknown","Poor",NA,6.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"108","1735SWW003",NA,NA,"Borehole",21.3,10.9,"Bedrock Met",1966-03-01,183440,357950,"to 2km","ARDFARN",NA,"Donegal",109,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"109","1735SWW004",NA,NA,"Borehole",24.4,3,"Bedrock Met",1968-01-01,183440,357920,"to 2km","ARDFARN",NA,"Donegal",109,"Unknown","Moderate",NA,54.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"110","1735SWW005",NA,NA,"Borehole",21.3,16.7,"Bedrock Met",1968-01-01,183400,357920,"to 2km","ARDFARN",NA,"Donegal",109,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"111","1735SWW006",NA,NA,"Borehole",24.4,6,"Bedrock Met",1968-01-01,182960,358940,"to 2km","DRUMACRIN",NA,"Donegal",106,"Unknown","Moderate",NA,54.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"112","1735SWW007",NA,NA,"Borehole",30.5,4.2,"Bedrock Met",1968-01-01,182960,358960,"to 2km","DRUMACRIN",NA,"Donegal",106,"Unknown","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"113","1735SWW008","WTB/DON 131",NA,"Borehole",26.8,NA,"DTB Unknown",1963-03-04,184800,358400,"to 2km","RATHMORE",NA,"Donegal",107,"Unknown","Poor",NA,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"114","1735SWW009",NA,NA,"Borehole",24.3,6,"Bedrock Met",1967-05-01,183570,357940,"to 2km","ARDFARN",NA,"Donegal",110,"Unknown","Poor",NA,54.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"115","1737NEW002",NA,NA,"Dug well",0.6,NA,"DTB Unknown",NA,192110,382440,"to 2km","OGHERBEG",NA,"Donegal",93,"Unknown","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"116","1737NEW003",NA,NA,"Borehole",9.1,6.1,"Bedrock Met",1978-07-01,187230,380780,"to 2km","DRUMNALOST",NA,"Donegal",93,"Unknown","Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"BESIDE HOUSE. DRILLER: PAT DULLEA","WELL DEPTH 13/10/78: 5.5m",NA
+"117","1737NEW004",NA,NA,"Borehole",24.4,2.1,"Bedrock Met",1978-07-01,187140,380670,"to 2km","DRUMNALOST",NA,"Donegal",93,"Unknown","Poor",NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"BESIDE HOUSE. DRILLER: PAT DULLEA",NA,NA
+"118","1737SEW002",NA,NA,"Dug well",1.5,NA,"DTB Unknown",NA,194630,374290,"to 2km","LAGHEY",NA,"Donegal",100,"Unknown","Poor",NA,15.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"119","1737SEW003",NA,NA,"Dug well",0.9,1.2,"Bedrock Met",1972-12-01,195500,373220,"to 2km","TRUMMAN EAST",NA,"Donegal",100,"Unknown","Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"120","1737SEW004",NA,NA,"Dug well",1.2,1.5,"Bedrock Met",1972-06-01,193440,372940,"to 2km","TRUMMAN WEST",NA,"Donegal",100,"Unknown","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"121","1737SEW005","WTB/DON 661",NA,"Dug well",2.4,1.5,"Bedrock Met",1973-04-01,194160,373090,"to 2km","TRUMMAN",NA,"Donegal",100,"Unknown","Poor",NA,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"122","1737SEW008",NA,NA,"Dug well",4.8,NA,"DTB Unknown",NA,195060,375210,"to 2km","RAREARY",NA,"Donegal",100,"Unknown","Poor",NA,15.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"123","1737SEW012","WTB/DON 641",NA,"Borehole",17,0.6,"Bedrock Met",1960-02-22,198790,376460,"to 2km","BALLYKILLOWEN",NA,"Donegal",100,"Unknown","Poor",NA,15.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"124","1737SEW013",NA,NA,"Borehole",27.4,2.1,"Bedrock Met",1968-01-01,186830,377800,"to 2km","MOUNTCHARLES",NA,"Donegal",99,"Unknown","Moderate",NA,54.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"INFORMAYION FROM BARHAM BROS., BELTURBET.","WINTER TIME YIELD",NA
+"125","1737SEW014",NA,NA,"Borehole",27.4,3,"Bedrock Met",1965-04-01,186820,377790,"to 2km","MOUNTCHARLES",NA,"Donegal",99,"Unknown","Moderate",NA,54.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"3/4 MILE FROM MOUNTCHARLES ON DOORIN POINT ROAD.",NA,NA
+"126","1737SEW015","WTB/DON 1271",NA,"Dug well",1.5,NA,"DTB Unknown",1973-09-19,193920,376390,"to 2km","DRUMGOWAN",NA,"Donegal",99,"Unknown","Poor",NA,4.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"127","1737SEW016","WTB/DON 783 & 221",NA,"Borehole",35.6,16.7,"Bedrock Met",1963-03-08,190960,371960,"to 2km","DRUMCHORY GLEBE",NA,"Donegal",99,"Unknown","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"128","1737SEW017","WTB/DON 1631",NA,"Dug well",1.8,0.9,"Bedrock Met",1973-03-01,196880,375180,"to 2km","GOLARD",NA,"Donegal",106,"Unknown","Poor",NA,15.27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"129","1737SEW018",NA,NA,"Dug well",0.9,NA,"DTB Unknown",1972-05-01,191760,372480,"to 2km","RATHINNY GLEBE",NA,"Donegal",100,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"130","1737SWW001",NA,NA,"Borehole",18.3,NA,"DTB Unknown",1969-09-12,181460,378780,"to 2km","ARDAGHEY",NA,"Donegal",92,"Unknown","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"131","1737SWW002",NA,NA,"Borehole",45.1,22,"Bedrock Met",1969-08-27,181660,378100,"to 2km","INVER GLEBE",NA,"Donegal",92,"Unknown","Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"132","1737SWW004",NA,NA,"Borehole",32,25.3,"Bedrock Met",1969-08-08,181840,378100,"to 2km","INVER GLEBE",NA,"Donegal",92,"Unknown","Poor",NA,18.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"133","1737SWW005",NA,NA,"Borehole",30.5,8.5,"Bedrock Met",1969-06-25,181680,378070,"to 2km","INVER GLEBE",NA,"Donegal",92,"Unknown","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"134","1737SWW006",NA,NA,"Borehole",18.3,NA,"DTB Unknown",NA,181650,378120,"to 2km","INVER GLEBE",NA,"Donegal",92,"Unknown","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"PUMP LEVEL:16.7m",NA
+"135","1737SWW007",NA,NA,"Borehole",28.6,NA,"DTB Unknown",1969-11-26,181680,378080,"to 2km","INVER GLEBE",NA,"Donegal",92,"Unknown","Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"PUMP LEVEL:27.4m",NA
+"136","1737SWW008",NA,NA,"Borehole",32,NA,"DTB Unknown",1969-08-08,182120,378800,"to 2km","ARDAGHY GLEBE",NA,"Donegal",92,"Unknown","Poor",NA,17.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"INVER VILLAGE",NA,NA
+"137","1737SWW009",NA,NA,"Borehole",28.4,3.7,"Bedrock Met",NA,182690,378560,"to 2km","CRANNY LOWER",NA,"Donegal",92,"Unknown","Poor",NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"138","1737SWW016",NA,NA,"Borehole",20.1,10.6,"Bedrock Met",1970-04-10,184590,377650,"to 2km","DRUMCONOR","MOUNTCHARLES","Donegal",98,"Unknown","Moderate",NA,87.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"139","1737SWW017",NA,NA,"Borehole",18.2,6,"Bedrock Met",1969-07-11,181610,378110,"to 2km","INVER",NA,"Donegal",92,"Unknown","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"140","1737SWW018","WTB/DON 893 & 296","DEPARTMENT OF AGRICULTURE","Dug well",2.1,2.4,"Bedrock Met",1962-06-20,176520,375780,"to 2km","DUNKINEELY",NA,"Donegal",98,"Unknown","Failure",NA,2.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"prob located within a shale band in the BS fmn",NA
+"141","1737SWW019",NA,NA,"Borehole",14.3,NA,"DTB Unknown",NA,184520,377640,"to 2km","DRUMCONOR",NA,"Donegal",93,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"PUMP LEVEL: 13.4m
+YIELD: OVERFLOWING",NA
+"142","1739NWW001",NA,NA,"Borehole",58,NA,"DTB Unknown",1982-06-04,174710,409890,"to 2km","TOBERKEEN",NA,"Donegal",49,"Unknown","Poor",NA,8.7,NA,NA,NA,NA,NA,57.9,NA,NA,NA,NA,"DRILLER: DES MEEHAN",NA,NA
+"143","1739NWW002",NA,NA,"Borehole",91.5,NA,"DTB Unknown",1982-06-04,174660,409860,"to 2km","TOBERKEEN",NA,"Donegal",49,"Unknown","Failure",NA,1.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLER: DES MEEHAN",NA,NA
+"144","1739NWW003",NA,NA,"Borehole",27.5,NA,"DTB Unknown",1982-01-01,174670,409890,"to 2km","TOBERKEEN",NA,"Donegal",49,"Unknown","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLER: DES MEEHAN",NA,NA
+"145","1739NWW004",NA,NA,"Borehole",91.5,NA,"DTB Unknown",1982-06-04,174620,409880,"to 2km","TOBERKEEN",NA,"Donegal",49,"Unknown","Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLER: DES MEEHAN","YIELD: DRY",NA
+"146","1741NEW001","WTB/DON 1230",NA,"Dug well",3,NA,"DTB Unknown",1970-10-01,191560,429450,"to 2km","CASHEL",NA,"Donegal",25,"Unknown","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"147","1741NWW001","ESB REF. 32-4-106",NA,"Dug well",1.2,NA,"DTB Unknown",1962-03-01,185640,427740,"to 2km","CORVEEN",NA,"Donegal",33,"Unknown","Poor",NA,17.45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SUMMER YIELD = 13.09, WINTER YIELD = 21.8",NA
+"148","1743SEW001","ESB REF 25/2/27",NA,"Dug well",1.8,NA,"DTB Unknown",1962-03-01,197530,434440,"to 2km","FAWNMORE",NA,"Donegal",25,"Unknown","Moderate",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"149","2035NWW004",NA,NA,"Dug well",6.4,NA,"DTB Unknown",1972-08-01,211520,369050,"to 2km","GORTINESSY","PETTIGO","Donegal",105,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"150","2037NEW001",NA,NA,"Dug well",3.6,2.4,"Bedrock Met",1971-06-01,225690,389950,"to 2km","ALT UPPER","CASTLEFINN","Donegal",88,"Unknown","Poor",NA,17.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"151","2037SEW001",NA,NA,"Unknown",0.9,NA,"DTB Unknown",1972-12-01,217430,373100,"to 2km","LEHERCRAN",NA,"Donegal",102,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"152","2037SEW002","WTB/DON 1523",NA,"Dug well",1.5,1.8,"Bedrock Met",1973-05-01,218760,375000,"to 2km","CRILLY",NA,"Donegal",102,"Unknown","Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"153","2037SEW003","WTB/DON 1208",NA,"Dug well",4.6,0.9,"Bedrock Met",1973-10-01,218860,374950,"to 2km","CRILLY",NA,"Donegal",102,"Unknown","Poor",NA,20.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"154","2039NEW001","WTB/DON 787",NA,"Dug well",5.2,2.1,"Bedrock Met",1960-10-01,221940,405530,"to 2km","GLENMAQUIN",NA,"Donegal",61,"Unknown","Poor",NA,3.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GLENMAQUIN (UPPER OR LOWER UNKNOWN)","HARD WATER",NA
+"155","2039NEW004","WTB/DON 1025",NA,"Dug well",1.8,1.5,"Bedrock Met",1962-07-27,226430,401700,"to 2km","MAGHERAHAAN",NA,"Donegal",70,"Unknown","Poor",NA,6.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"156","2039NEW005","WTB/DON 96",NA,"Dug well",3,0.6,"Bedrock Met",1964-10-14,226600,400050,"to 2km","BOGAGH",NA,"Donegal",70,"Unknown","Failure",NA,2.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"157","2039NEW006","WTB/DON 972",NA,"Dug well",3.6,2.1,"Bedrock Met",1962-12-17,219190,400810,"to 2km","DRUMGUMBERLAND",NA,"Donegal",69,"Unknown","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"158","2039NEW009","WTB/DON 670",NA,"Dug well",2.7,2.7,"Bedrock Met",1966-05-27,229600,400910,"to 2km","SHEERCLOON",NA,"Donegal",70,"Unknown","Poor",NA,29.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"159","2039NEW010","WTB/DON 1168",NA,"Dug well",1.2,0.9,"Bedrock Met",1970-05-01,219600,404700,"to 2km","CASTLETORRISON","CONVOY","Donegal",61,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"160","2039NEW014",NA,NA,"Dug well",3.6,3,"Bedrock Met",1965-05-01,219880,408700,"to 2km","LISTELLIAN",NA,"Donegal",53,"Unknown","Poor",NA,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"161","2039SEW001"," WTB/DON 727","DEPTARTMENT OF AGRICULTURE","Dug well",0.9,NA,"DTB Unknown",1962-06-16,221600,398040,"to 2km","ROOSKY UPPER",NA,"Donegal",69,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"HARD WATER",NA
+"162","2039SEW002","W/DON 981, WTB/DON 362",NA,"Borehole",11.6,1.8,"Bedrock Met",1963-11-22,223900,398230,"to 2km","CARNOWEN",NA,"Donegal",70,"Unknown","Poor",NA,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DUG 3.96M, BORED 7.62M",NA
+"163","2039SEW003","WTB/DON 153",NA,"Dug well",1.8,1.5,"Bedrock Met",1963-02-16,223900,398200,"to 2km","CARNOWEN",NA,"Donegal",70,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Steel Casing, Max Safe yield: 
+32.7m3/day"
+"164","2039SEW004",NA,NA,"Dug well",1.5,0.9,"Bedrock Met",1971-02-01,223900,398190,"to 2km","CARNOWEN",NA,"Donegal",70,"Unknown","Poor",NA,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"165","2039SEW006","WTB/DON 475",NA,"Dug well",3.6,0.6,"Bedrock Met",1964-12-17,225970,399080,"to 2km","COTTOWN",NA,"Donegal",70,"Unknown","Poor",NA,4.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"166","2039SEW007",NA,NA,"Dug well",3.7,2.4,"Bedrock Met",1971-08-01,221090,395120,"to 2km","MULLINGAR",NA,"Donegal",78,"Unknown","Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"167","2039SEW008",NA,NA,"Dug well",2.8,1.5,"Bedrock Met",1970-09-01,223870,395620,"to 2km","BLAIRSTOWN",NA,"Donegal",79,"Unknown","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"168","2039SEW009","WTB/DON 828",NA,"Dug well",2.1,1.8,"Bedrock Met",1968-04-30,224350,396620,"to 2km","MEENAHONEY",NA,"Donegal",79,"Unknown","Poor",NA,14.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"169","2039SEW010","W/DON 773, WTB/DON 213","DEPTARTMENT OF AGRICULTURE","Dug well",2.1,1.5,"Bedrock Met",1962-06-22,224320,396600,"to 2km","MEENAHONEY",NA,"Donegal",79,"Unknown","Poor",NA,4.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"170","2039SEW011","WTB/DON 1166",NA,"Dug well",3.6,1.8,"Bedrock Met",1970-05-01,223860,398180,"to 2km","CARNOWEN",NA,"Donegal",70,"Unknown","Poor",NA,15.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"171","2039SEW012","WTB/DON 904",NA,"Dug well",4.3,0.9,"Bedrock Met",1963-10-16,221190,392060,"to 2km","DRUMCANNON",NA,"Donegal",78,"Unknown","Poor",NA,8.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"172","2039SEW013","WTB/DON 1007",NA,"Dug well",5.2,2.4,"Bedrock Met",1962-12-06,225800,391840,"to 2km","GORTNAMUCK",NA,"Donegal",79,"Unknown","Poor",NA,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"173","2039SEW014","WTB/DON 1005",NA,"Dug well",4,2.4,"Bedrock Met",1963-09-30,225780,391850,"to 2km","GORTNAMUCK",NA,"Donegal",79,"Unknown","Poor",NA,9.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"174","2039SEW015","WTB/DON 432, W/DON 1066",NA,"Dug well",3.4,0.9,"Bedrock Met",1965-05-18,227370,396490,"to 2km","GORTIN SOUTH",NA,"Donegal",79,"Unknown","Poor",NA,4.36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"175","2039SEW016","WTB/DON 862",NA,"Dug well",3.6,1.8,"Bedrock Met",NA,228790,396260,"to 2km","ARDNAGLASS",NA,"Donegal",79,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"176","2039SEW017","WTB/DON 905",NA,"Dug well",3,2.1,"Bedrock Met",1963-05-27,228950,390730,"to 2km","TULLYARD",NA,"Donegal",79,"Unknown","Failure",NA,1.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"177","2039SEW018","WTB/DON 916",NA,"Dug well",4.9,2.4,"Bedrock Met",NA,223920,392840,"to 2km","DUNGORMAN",NA,"Donegal",79,"Unknown","Poor",NA,16.36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"178","2039SEW019",NA,NA,"Dug well",5.2,1.8,"Bedrock Met",1970-05-01,229530,398030,"to 2km","CALHAME",NA,"Donegal",79,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"179","2039SEW020",NA,NA,"Dug well",0.6,NA,"DTB Unknown",1970-06-01,218640,392750,"to 2km","BALLYNACOR",NA,"Donegal",78,"Unknown","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"180","2039SEW021","WTB/DON 1290",NA,"Dug well",4.5,1.8,"Bedrock Met",NA,217580,391040,"to 2km","MULLAGHANEARY",NA,"Donegal",78,"Unknown","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"181","2039SEW022","WTB/DON 960",NA,"Dug well",4.3,1.8,"Bedrock Met",1963-07-03,223690,393390,"to 2km","DRUMMURPHY",NA,"Donegal",79,"Unknown","Poor",NA,23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"182","2039SEW027","WTB/DON 1265",NA,"Dug well",5.2,1.5,"Bedrock Met",1970-10-01,220430,394250,"to 2km","KILLYGORDON",NA,"Donegal",78,"Unknown","Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"183","2039SEW029","WTB/DON 563",NA,"Dug well",3.4,0.6,"Bedrock Met",1965-06-04,224830,390470,"to 2km","RAWS LOWER",NA,"Donegal",88,"Unknown","Poor",NA,4.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Steel Casing, Max Safe yield: 
+32.7m3/day"
+"184","2039SEW032",NA,NA,"Borehole",33.5,1.2,"Bedrock Met",NA,226650,394970,"to 2km","CASTLEFINN",NA,"Donegal",79,"Unknown","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"185","2039SEW034","WTB/DON 1104",NA,"Dug well",3.6,1.8,"Bedrock Met",1969-08-01,227350,396500,"to 2km","GORTIN SOUTH",NA,"Donegal",79,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"186","2039SWW001","ILC  WELL NO. 115",NA,"Borehole",31,5.2,"Bedrock Met",1954-12-13,213890,395360,"to 2km","DRUMBOE LOWER",NA,"Donegal",78,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,150,26.7,NA,NA,NA,NA,NA,NA,NA
+"187","2039SWW002","WTB/DON 907","DEPARTMENT OF AGRICULTURE","Dug well",4.3,0.3,"Bedrock Met",1962-05-29,212740,397610,"to 2km","CREGGAN",NA,"Donegal",68,"Unknown","Poor",NA,8.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"188","2039SWW003","WTB/DON 1477",NA,"Dug well",1.8,NA,"DTB Unknown",NA,211020,392480,"to 2km","GOLAND",NA,"Donegal",77,"Unknown","Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"189","2041NEW001","DEPT. AG. W/DON 392",NA,"Dug well",1.2,NA,"DTB Unknown",1961-07-25,228050,429580,"to 2km","GLENROSS",NA,"Donegal",28,"Unknown","Poor",NA,5.45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"190","2041NEW002",NA,NA,"Dug well",2.4,NA,"DTB Unknown",1967-05-01,219510,426290,"to 2km","FORQUAR","MILFORD","Donegal",36,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2.4M DRIFT",NA
+"191","2041NEW003","WTB/DON 1148",NA,"Dug well",5.5,1.8,"Bedrock Met",1969-06-01,215820,427090,"to 2km","GOLAN","MILFORD","Donegal",36,"Unknown","Failure",NA,1.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WATER QUALITY FAIR, IRON PRESENT the most likely rock type is TE fmn.",NA
+"192","2041NEW004",NA,NA,"Dug well",2.1,NA,"DTB Unknown",1972-05-01,216450,423890,"to 2km","BALLYSCANLAN LOWER",NA,"Donegal",36,"Unknown","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"193","2041NEW005",NA,NA,"Dug well",1.2,NA,"DTB Unknown",NA,217290,423900,"to 2km","PORTLEEN","MILFORD","Donegal",36,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"194","2041NEW007","DEPT. AG. W/DON 862",NA,"Dug well",1.5,NA,"DTB Unknown",1961-07-26,223720,426440,"to 2km","GLENTIDALY","RATHMULLAN","Donegal",37,"Unknown","Poor",NA,4.36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"195","2041NEW008","DEPT AG. W/DON 486",NA,"Dug well",3.9,NA,"DTB Unknown",1962-12-01,224030,425520,"to 2km","BALLYCONNELLY","RATHMULLAN","Donegal",37,"Unknown","Failure",NA,2.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"townland accuracy, but the whole area is UC quartzite",NA
+"196","2041NEW010","DEPT. AG. W/DON 584",NA,"Dug well",1.2,NA,"DTB Unknown",1961-07-24,222880,423940,"to 2km","CARNHILL","RATHMULLAN","Donegal",37,"Unknown","Failure",NA,2.18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"townland accuracy, but the whole area is UC quartzite",NA
+"197","2041NEW011",NA,NA,"Dug well",NA,NA,"DTB Unknown",1967-05-01,222940,423240,"to 2km","CARN HIGH","RATHMELTON","Donegal",37,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"198","2041NEW012","DEPT. AG. W/DON 795",NA,"Dug well",1.8,NA,"DTB Unknown",1961-07-27,222170,422260,"to 2km","ROUGHAN","RATHMELTON","Donegal",45,"Unknown","Poor",NA,3.27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"199","2041NEW013",NA,NA,"Dug well",6.1,1.2,"Bedrock Met",1972-06-01,225030,424780,"to 2km","DRUMHERIVE","MILFORD","Donegal",37,"Unknown","Poor",NA,4.36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"200","2041NEW014","WTB/DON 894",NA,"Dug well",1.5,1.2,"Bedrock Met",1968-07-01,216220,420340,"to 2km","LETTER",NA,"Donegal",45,"Unknown","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"201","2041NEW015","WTB/DON 1660",NA,"Dug well",2.7,1.5,"Bedrock Met",1973-04-01,216240,420370,"to 2km","LETTER",NA,"Donegal",45,"Unknown","Poor",NA,19.64,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"202","2041NEW017","DEPT. AG. W/DON 719",NA,"Dug well",2.1,NA,"DTB Unknown",1961-07-27,226030,420360,"to 2km","CROGHAN","RATHMELTON","Donegal",46,"Unknown","Poor",NA,3.27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"HARD WATER",NA
+"203","2041NEW018","DEPT. AG. DON 872 & 871",NA,"Dug well",1.8,NA,"DTB Unknown",1962-06-22,222230,423360,"to 2km","CLOONEY",NA,"Donegal",36,"Unknown","Poor",NA,6.55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"204","2041NEW019",NA,NA,"Dug well",0.9,NA,"DTB Unknown",1972-10-01,215020,420600,"to 2km","KILMACRENNAN","BALLYBOE","Donegal",45,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"205","2041NEW024","WG 137",NA,"Borehole",NA,NA,"DTB Unknown",NA,215880,427090,"to 2km","GOLAN","MILFORD","Donegal",36,"Domestic use only","Poor","V",40,NA,NA,30,1.33,NA,NA,NA,NA,NA,NA,"NO MAP",NA,NA
+"206","2041NWW002","WTB/DON 1150",NA,"Dug well",0.9,1.2,"Bedrock Met",1970-12-21,214680,429390,"to 2km","HIGHGLEN",NA,"Donegal",27,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"207","2041NWW003",NA,NA,"Dug well",5.2,9.1,"Bedrock Met",1973-12-20,207480,428560,"to 2km","DRUMNAKILLEW","TERMON","Donegal",35,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"208","2041NWW004","WTB/DON 904",NA,"Dug well",2.8,1.2,"Bedrock Met",1968-07-03,214070,424690,"to 2km","CARROWNASAUL",NA,"Donegal",36,"Unknown","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"209","2041SEW001","WTB/DON 737",NA,"Dug well",4,NA,"DTB Unknown",1960-07-01,217320,416740,"to 2km","ELLISTRIN LITTLE",NA,"Donegal",45,"Unknown","Poor",NA,7.64,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"210","2041SEW002","WTB/DON 701",NA,"Dug well",0.9,0.3,"Bedrock Met",1961-12-01,217300,413810,"to 2km","ELLISTRIN LITTLE",NA,"Donegal",45,"Unknown","Poor",NA,6.55,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"211","2041SEW003","WTB/DON 1738",NA,"Dug well",2.4,1.8,"Bedrock Met",1973-07-01,217220,418860,"to 2km","GORTNAVERN",NA,"Donegal",45,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"212","2041SEW004","DEPT. AG. W/DON 610",NA,"Dug well",1.8,NA,"DTB Unknown",1961-07-16,221220,419090,"to 2km","BREAGHY",NA,"Donegal",45,"Unknown","Failure",NA,2.18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"213","2041SEW005",NA,NA,"Dug well",1.8,NA,"DTB Unknown",1969-09-21,221840,418800,"to 2km","AGHANGADDY GLEBE","RATHMELTON","Donegal",45,"Unknown","Poor",NA,5.45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"214","2041SEW006",NA,NA,"Dug well",2.4,1.2,"Bedrock Met",1972-06-01,221730,417280,"to 2km","CASHELSHANAGHAN","RATHMELTON","Donegal",45,"Unknown","Poor",NA,8.73,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"215","2041SEW007","WTB/DON. 1367",NA,"Dug well",1.8,1.8,"Bedrock Met",1973-08-30,229580,417740,"to 2km","MONEYGREGGAN",NA,"Donegal",46,"Unknown","Poor",NA,30.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"216","2041SEW008","WTB/DON 775",NA,"Dug well",NA,NA,"DTB Unknown",1967-07-26,224730,419020,"to 2km","MAGHERABEG",NA,"Donegal",53,"Unknown","Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"217","2041SEW009","WTB/DON 867",NA,"Dug well",1.5,NA,"DTB Unknown",1962-03-01,217210,418910,"to 2km","GORTNAVERN",NA,"Donegal",45,"Unknown","Poor",NA,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"CONTINUAL OVERFLOW, HARD WATER",NA
+"218","2041SEW010","WTB/DON 891",NA,"Dug well",1.2,1.2,"Bedrock Met",1968-05-01,219140,412770,"to 2km","KILTOY","LETTERKENNY","Donegal",53,"Unknown","Poor",NA,15.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"219","2041SEW013","DEPT. AG. DON 496",NA,"Dug well",2.4,NA,"DTB Unknown",1962-06-12,221730,417240,"to 2km","CASHELSHANAGHAN",NA,"Donegal",46,"Unknown","Poor",NA,5.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"220","2041SEW014",NA,NA,"Dug well",2.1,NA,"DTB Unknown",1970-07-01,219800,413840,"to 2km","LOUGHNAGIN",NA,"Donegal",53,"Unknown","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"221","2041SEW015","WTB/DON 1164",NA,"Dug well",1.8,0.6,"Bedrock Met",1970-07-01,216090,410210,"to 2km","CREEVE",NA,"Donegal",53,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"222","2041SEW018",NA,NA,"Borehole",91.5,NA,"DTB Unknown",1969-03-26,216100,410240,"to 2km","CREEVE","LETTERKENNY","Donegal",53,"Unknown","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"223","2041SEW019","WTB/DON 285",NA,"Unknown",1.8,1.2,"Bedrock Met",1961-08-03,218260,410700,"to 2km","DRUMNAHOAGH","LETTERKENNY","Donegal",53,"Unknown","Failure",NA,2.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"townland accuracy, but the whole townland is TE fmn.",NA
+"224","2041SEW021",NA,"LETTERKENNY CO-OP","Borehole",97.5,NA,"DTB Unknown",NA,216930,411280,"to 2km","LETTERKENNY",NA,"Donegal",53,"Unknown","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SLIGHTLY ARTESIAN, 4.5M LINED",NA
+"225","2041SEW022",NA,NA,"Borehole",32,NA,"DTB Unknown",NA,216930,411310,"to 2km","LETTERKENNY",NA,"Donegal",53,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LINED 12.2M",NA
+"226","2041SEW024","WTB/DON 765",NA,"Dug well",1.2,1.1,"Bedrock Met",1967-10-13,221090,415160,"to 2km","BALLYMALEEL","LETTERKENNY","Donegal",53,"Unknown","Poor",NA,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"227","2041SWW001","WTB/DON 957",NA,"Dug well",3,3,"Bedrock Met",1968-07-01,210030,416350,"to 2km","RATHDONNELL",NA,"Donegal",44,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"228","2041SWW002",NA,NA,"Dug well",2.1,NA,"DTB Unknown",1968-04-01,210030,416320,"to 2km","RATHDONNELL",NA,"Donegal",44,"Unknown","Poor",NA,8.73,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"229","2041SWW004",NA,NA,"Borehole",45.7,NA,"DTB Unknown",NA,211760,410500,"to 2km","GLEBE","LETTERKENNY","Donegal",52,"Unknown","Poor",NA,19.63,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"230","2041SWW005","WTB/DON 419 & W/DON 1048",NA,"Dug well",1.2,1.2,"Bedrock Met",1964-01-24,211750,410450,"to 2km","GLEBE","LETTERKENNY","Donegal",52,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"231","2041SWW006","WTB/DON 1091",NA,"Borehole",44.2,2.4,"Bedrock Met",1969-07-01,214780,414420,"to 2km","KILLYCLUG","LETTERKENNY","Donegal",53,"Unknown","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"232","2041SWW007",NA,NA,"Borehole",44.2,NA,NA,NA,214680,414390,"to 2km","KILLYCLUG","LETTERKENNY","Donegal",53,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LINED TO 1.5M",NA
+"233","2041SWW008","WTB/DON 191",NA,"Dug well",4.3,3,"Bedrock Met",NA,214630,415640,"to 2km","EDENACARAN",NA,"Donegal",53,"Unknown","Poor",NA,6.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"234","2041SWW009",NA,NA,"Dug well",3,6,"Bedrock Met",1972-05-29,206430,414750,"to 2km","MOUNT PLEASURE",NA,"Donegal",52,"Unknown","Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"235","2041SWW010",NA,NA,"Dug well",1.2,0.9,"Bedrock Met",1969-03-01,212240,416340,"to 2km","RATHDONNELL","TRENTAGH","Donegal",44,"Unknown","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"236","2041SWW012","WTB/DON 1725",NA,"Dug well",3.6,6,"Bedrock Met",1974-01-09,202450,413100,"to 2km","STRAMORE",NA,"Donegal",51,"Unknown","Poor",NA,15.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"237","2041SWW015","WTB/DON 903",NA,"Dug well",2.1,1.5,"Bedrock Met",1958-05-10,214720,414380,"to 2km","KILLYCLUG",NA,"Donegal",53,"Unknown","Moderate",NA,87.28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"238","2041SWW022",NA,NA,"Spring",NA,NA,"Bedrock Not Met",NA,211210,419050,"to 2km","BREAGHY","RAMELTON","Donegal",45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"FULL SUPPLY ALL YEAR ROUND",NA
+"239","2043SEW004","ESB REF. 27-7-5",NA,"Dug well",1,NA,"DTB Unknown",1962-03-01,218370,433270,"to 2km","CRANFORD",NA,"Donegal",27,"Unknown","Poor",NA,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SUMMER YIELD = 5.45, WINTER YIELD = 10.9",NA
+"240","2043SEW005","WTB/DON 1375",NA,"Dug well",2.8,1.8,"Bedrock Met",1971-08-01,217340,432220,"to 2km","CARMONEY",NA,"Donegal",27,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"241","2043SEW006",NA,NA,"Dug well",2.4,NA,"DTB Unknown",1969-10-10,222790,430620,"to 2km","DUNMORE",NA,"Donegal",28,"Unknown","Poor",NA,4.36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"242","2043SEW008",NA,NA,"Dug well",2.4,0.9,"Bedrock Met",1972-06-01,227320,434980,"to 2km","CARNGARROW",NA,"Donegal",28,"Unknown","Poor",NA,5.45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"243","2043SWW003",NA,NA,"Dug well",1.8,NA,"DTB Unknown",1962-03-01,206620,435730,"to 2km","CLOONMASS","PORTNABLAGH","Donegal",16,"Unknown","Moderate",NA,49,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SUMMER YIELD = 32.70
+WINTER YIELD 65.5",NA
+"244","2043SWW007",NA,NA,"Borehole",15.2,4.5,"Bedrock Met",1969-03-28,206080,430370,"to 2km","CREESLOUGH",NA,"Donegal",26,"Unknown","Moderate",NA,44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2 MILES FROM CRESSLOUGH VILLAGE",NA,NA
+"245","2043SWW008","WTB/DON 960",NA,"Unknown",0.6,1.8,"Bedrock Met",1971-01-18,208710,430360,"to 2km","CASHEL","CREESLOUGH","Donegal",26,"Unknown","Poor",NA,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"246","2043SWW009",NA,NA,"Borehole",21.3,NA,"DTB Unknown",1969-03-26,210140,430970,"to 2km","DRUMLACKAGH",NA,"Donegal",26,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"12M LINED",NA
+"247","2043SWW010",NA,NA,"Borehole",15.2,NA,"DTB Unknown",1969-03-23,208830,430300,"to 2km","CASHEL","CRESSLOUGH","Donegal",26,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LINED 4.5M",NA
+"248","2043SWW011",NA,NA,"Borehole",15.2,NA,"DTB Unknown",1969-04-18,211090,434030,"to 2km","GLENREE",NA,"Donegal",26,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"7.3m LINED",NA
+"249","2043SWW012",NA,NA,"Borehole",15.2,7.9,"Bedrock Met",1969-04-18,211040,434040,"to 2km","GLENREE","CARRICKART","Donegal",26,"Unknown","Moderate",NA,49.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"250","2043SWW013",NA,NA,"Dug well",1.5,0.6,"Bedrock Met",1969-12-18,211360,435140,"to 2km","MAGHERAGORMAN","CARRICKART","Donegal",26,"Unknown","Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"251","2043SWW014",NA,NA,"Dug well",1.5,0.6,"Bedrock Met",1969-12-18,211440,435040,"to 2km","MAGHERAGORMAN",NA,"Donegal",26,"Unknown","Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"252","2043SWW015",NA,NA,"Borehole",21.3,12.2,"Bedrock Met",1969-03-13,210210,430960,"to 2km","DRUMLACKAGH","CARRICKART","Donegal",26,"Unknown","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"253","2339NWW006","WTB/DON 1067",NA,"Dug well",1.5,1.5,"Bedrock Met",1964-10-29,232330,403240,"to 2km","DRUMLEEN","LIFFORD","Donegal",70,"Unknown","Poor",NA,5.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"254","2341NWW002","WTB/DON 758",NA,"Dug well",3,NA,"DTB Unknown",NA,233230,424920,"to 2km","MORESS",NA,"Donegal",38,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"255","2341NWW004",NA,NA,"Borehole",76.2,NA,NA,1982-01-01,236080,420760,"to 2km","SPEENOGE",NA,"Donegal",47,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"FROM DES MEEHAN, LOCATED ON HIGH GROUND",NA
+"256","2341NWW005",NA,NA,"Borehole",88.4,NA,"DTB Unknown",1982-01-01,236030,420740,"to 2km","SPEENOGE",NA,"Donegal",47,"Unknown","Poor",NA,5.4,NA,NA,NA,NA,NA,86.9,NA,NA,NA,NA,NA,"FROM DES MEEHAN",NA
+"257","2341NWW006",NA,NA,"Borehole",91.5,18.2,"Bedrock Met",1982-01-01,236020,420760,"to 2km","SPEENOGE",NA,"Donegal",47,"Unknown","Poor",NA,3.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"FROM DES MEEHAN",NA
+"258","2341SWW001",NA,"DONEGAL CO-OP CREAMERIES","Borehole",15.2,NA,"DTB Unknown",1969-10-20,230950,416260,"to 2km","NEWTOWNCUNNINGHAM",NA,"Donegal",46,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"259","2341SWW002",NA,"DONEGAL COUNTY COUNCIL","Borehole",57.9,NA,"DTB Unknown",NA,230950,416200,"to 2km","NEWTOWNCUNNINGHAM",NA,"Donegal",46,"Unknown","Poor",NA,17.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"260","2341SWW003","DEPARTMENT OF AGRICULTURE DON 834",NA,"Dug well",6.4,6.4,"Bedrock Met",1962-05-25,230110,410060,"to 2km","ARDAGH",NA,"Donegal",54,"Unknown","Poor",NA,3.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"261","2343NEW001",NA,NA,"Borehole",34.1,19.8,"Bedrock Met",NA,247060,443430,"to 2km","BALLYLOSKY","CARNDONAGH","Donegal",11,NA,"Good",NA,164,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"townland accuracy, but the whole area is UC quartzite",NA
+"262","2343SEW003",NA,NA,"Borehole",11,11,"Bedrock Met",1975-08-30,254170,434940,"to 2km","CARRICKMAQUIGLEY",NA,"Donegal",31,"Unknown","Poor",NA,16.35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"11M LINING, DIAMETER 150MM",NA
+"263","2343SEW004",NA,NA,"Borehole",30.5,9.1,"Bedrock Met",1975-09-30,255280,435220,"to 2km","CARRICKMAQUIGLEY",NA,"Donegal",31,"Unknown","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DIAMETER 150MM",NA
+"264","2343SWW001",NA,"DONEGAL COUNTY COUNCIL","Borehole",27.4,9.1,"Bedrock Met",1982-06-04,238620,430930,"to 2km","TULLYDUSH",NA,"Donegal",29,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"INFORMATION FROM DES MEEHAN","HIGH Fe CONTENT",NA
+"265","2343SWW002",NA,NA,"Borehole",38.1,18.3,"Bedrock Met",1982-06-04,238370,430920,"to 2km","TULLYDUSH",NA,"Donegal",29,"Unknown","Poor",NA,7.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"INFORMATION FROM DES MEEHAN","LINED TO 38.1M",NA
+"266","2343SWW003",NA,NA,"Borehole",42.7,NA,"Bedrock Not Met",1982-06-04,238610,430880,"to 2km","TULLYDUSH",NA,"Donegal",29,"Unknown","Failure",NA,2.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"INFORMATION FROM DES MEEHAN",NA,NA
+"267","2343SWW004",NA,"DONEGAL COUNTY COUNCIL","Borehole",27.7,23.1,"Bedrock Met",NA,235160,432150,"to 2km","ARDARAVAN","BUNCRANA","Donegal",29,"Unknown",NA,NA,NA,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,NA,"DIAMETER 150MM, 23.1M LINED",NA
+"268","2343SWW005",NA,"DONEGAL COUNTY COUNCIL","Borehole",15.2,NA,"DTB Unknown",NA,235150,432090,"to 2km","ARDARAVAN","BUNCRANA","Donegal",29,NA,NA,NA,NA,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,"INFORMATION FROM TOM CONNELL",NA,NA
+"269","2343SWW006",NA,NA,"Borehole",24.4,NA,NA,NA,235030,431870,"to 2km","ARDARAVAN","BUNCRANA","Donegal",29,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"FAHAN ROAD","HIGH GROUND, LAYERS OF MUD IN ROCK",NA
+"270","2345SEW003",NA,NA,"Borehole",34.1,NA,"DTB Unknown",NA,245250,454370,"to 2km","URBALREAGH","MALIN","Donegal",4,"Unknown","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NEAR MONIGLE",NA,NA
+"271","2035NWW001","WTB/DON 1238",NA,"Dug well",1.8,NA,"DTB Unknown",1970-07-30,205340,366350,"to 5km","BELAULT","PETTIGO","Donegal",105,"Unknown","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"272","2035NWW002",NA,NA,"Dug well",3.1,NA,"DTB Unknown",1971-06-01,205100,366290,"to 5km","BELAULT","PETTIGO","Donegal",105,"Unknown","Poor",NA,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Date Nov-1967"
+"273","2037SWW001",NA,NA,"Borehole",95,0.5,"Bedrock Met",1987-03-12,209090,373140,"to 5km","BALLYMACAVANY","LOUGH DERG","Donegal",101,"Unknown","Poor",NA,10.4,NA,NA,NA,NA,200,26,78,NA,NA,NA,"ST PATRICKS PURGATORY, LOUGH DERG. DRILLER: DES MEEHAN & SONS","WATER ANALYSES AVAILABLE FROM REV MC SORLEY",NA
+"274","2041NWW001","ESB REF. 26-14-18",NA,"Dug well",1.4,NA,"DTB Unknown",1962-03-01,206580,428920,"to 5km","KILLOUGHCARRAN","CRESSLOUGH","Donegal",35,"Unknown","Poor",NA,13.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"275","2041SEW011","WTB/DON 586",NA,"Dug well",0.9,NA,"DTB Unknown",1965-07-19,219880,415040,"to 5km","LISNANEES LOWER",NA,"Donegal",53,"Unknown","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LISNANEES (UPPER OR LOWER UNKNOWN)",NA,NA
+"276","2041SEW023",NA,NA,"Dug well",1.2,0.9,"Bedrock Met",1970-07-01,217610,413790,"to 5km","CARNMOGAGH UPPER",NA,"Donegal",53,"Unknown","Poor",NA,16.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"CARNMOGAGH (UPPER OR LOWER UNKNOWN)",NA,NA
+"277","2343NEW003",NA,NA,"Borehole",21.4,9.1,"Bedrock Met",1976-07-31,247080,445200,"to 5km","CARNDONAGH",NA,"Donegal",11,"Unknown","Poor",NA,43.64,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"FROM TOM CONNELL",NA
+"278","2343NEW004","WTB/DON 884 DEPARTMENT OF AGRICULTURE",NA,"Dug well",1.5,NA,"Bedrock Not Met",1961-08-09,247140,445040,"to 5km","CARNDONAGH",NA,"Donegal",11,"Unknown","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"279","2343NEW005",NA,NA,"Borehole",24.7,2.1,"Bedrock Met",1976-07-21,247160,445140,"to 5km","CARNDONAGH",NA,"Donegal",11,"Unknown","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"INFORMATION FROM TOM CONNELL",NA,NA
+"280","2343NEW006",NA,NA,"Borehole",38.1,3.1,"Bedrock Met",NA,248030,445030,"to 5km","TULLANRE","CARNDONAGH","Donegal",11,"Unknown","Moderate",NA,109,NA,NA,NA,300,NA,27.4,NA,NA,NA,NA,"ON THE MOVILLE ROAD","YIELD RATE IS AN ESTIMATE. PUMPED AT 900M3/D FOR 2 HRS AND THERE WAS 3M DRAWDOWN.",NA
+"281","2343SEW002",NA,NA,"Borehole",18.3,12.2,"Bedrock Met",1975-09-01,251920,435830,"to 5km","DRUNG","MOVILLE UPPER","Donegal",21,"Unknown",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"PIGGERIES DRUNG.
+INFORMATION FROM TOM CONNELL",NA,NA

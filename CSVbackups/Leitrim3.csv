@@ -1,0 +1,22 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","1729SEW200",NA,"Jamestown National School","Borehole",47.2,1.2,"Bedrock Met",NA,198210,297500,"to 200m","JAMESTOWN",NA,"Leitrim",31,"Domestic use only","Poor",NA,9.8,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,NA,"New National school",NA
+"2","2029NEW208",NA,NA,"Borehole",91.4,15.2,"Bedrock Met",1997-12-17,219800,303500,"to 200m","AGHADRUMINSHIN",NA,"Leitrim",30,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Patrick Briody, Rathangan
+Limestone",NA,"Yield estimated"
+"3","1729NEW101",NA,NA,"Borehole",48.7,NA,"DTB Unknown",1969-04-01,195930,304080,"to 500m","TULLYLANNAN",NA,"Leitrim",27,"Agri & domestic use","Good",NA,327.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4","1729NEW102",NA,NA,"Borehole",32.1,1.5,"Bedrock Presumed",NA,196360,300800,"to 500m","DROMORE","CARRICK ON SHANNON","Leitrim",31,"Agri & domestic use","Good",NA,130.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Kell and Bennett info 1963"
+"5","1731NEW001","I.W. 105",NA,"Borehole",46.6,16.5,"Bedrock Met",1998-07-21,193420,321260,"to 500m","DERRYNAHINCH",NA,"Leitrim",18,"Domestic use only","Moderate","IV",65.5,NA,NA,7.9,8.27,152,21.6,36.6,NA,NA,NA,"Drilled by Tom Connell, Blackrock, Co. Dublin;
+Slate",NA,"8 hr test"
+"6","2029NEW205",NA,NA,"Borehole",21.6,NA,"DTB Unknown",NA,220100,307260,"to 500m","DRUMSHANGORE",NA,"Leitrim",30,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,NA,NA,"test date 2- mar- 1977"
+"7","2029NEW210",NA,NA,"Borehole",51.8,9.1,"Bedrock Met",1997-04-15,223300,308420,"to 500m","CORRACAR",NA,"Leitrim",26,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,36.6,45.7,NA,NA,NA,"Drilled by Patrick Briody, Rathangan;
+Limestone",NA,"Yield estimated"
+"8","2029NWW002",NA,NA,"Borehole",30.5,NA,"DTB Unknown",1967-05-01,207850,303030,"to 500m","DRIMNA","GARVAGH","Leitrim",28,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","2029NWW004",NA,"Corrawallen Group scheme","Borehole",42.7,3,"Bedrock Presumed",NA,208210,304790,"to 500m","GARADICE",NA,"Leitrim",28,"Group Scheme","Good",NA,392.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10","2029NWW006",NA,NA,"Borehole",33.5,NA,"DTB Unknown",1969-04-01,202630,301510,"to 500m","LISDROMAFARNA","KILNACROSS","Leitrim",28,"Agri & domestic use","Good",NA,196.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"11","2029NWW008",NA,NA,"Borehole",48.7,14,"Bedrock Presumed",NA,204060,300230,"to 500m","CORBOGHIL",NA,"Leitrim",32,"Unknown","Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"12","2029NWW009",NA,NA,"Borehole",25.9,NA,"DTB Unknown",NA,204200,300100,"to 500m","CORBOGHIL",NA,"Leitrim",32,"Unknown","Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13","2029SWW001",NA,NA,"Borehole",24.4,9.1,"Bedrock Presumed",1964-10-20,208910,297020,"to 500m","MOHILL",NA,"Leitrim",32,"Agri & domestic use","Good",NA,130.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Kelly and bennett"
+"14","2029SWW002",NA,NA,"Borehole",12.2,NA,"DTB Unknown",1967-05-01,208850,299240,"to 500m","GORTFADDA","MOHILL","Leitrim",32,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","2029SWW003",NA,NA,"Borehole",24.4,NA,"DTB Unknown",1969-04-01,208570,295960,"to 500m","TREANMORE",NA,"Leitrim",32,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"16","2029SWW007",NA,NA,"Borehole",27.4,NA,"DTB Unknown",NA,212440,292840,"to 500m","DRUMHIRK","CARRICK ON SHANNON","Leitrim",36,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,NA,NA,"test date - jul 1978"
+"17","2031SEW201",NA,"Agricultural Institute","Borehole",49,NA,"DTB Unknown",1961-02-01,215280,313400,"to 500m","CLEENDARGAN",NA,"Leitrim",25,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA
+"18","2031SEW202",NA,NA,"Borehole",24.4,15.2,"Bedrock Presumed",NA,215330,314270,"to 500m","DRUMARIGNA","BALLINMORE","Leitrim",22,"Agri & domestic use","Poor",NA,3.3,NA,NA,NA,NA,3.3,NA,NA,NA,NA,NA,NA,NA,"TEST DATE 8 jun 1970"

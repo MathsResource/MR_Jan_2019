@@ -1,0 +1,361 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","1721NEW002",NA,"Offaly Board of Health","Borehole",15.5,NA,"Bedrock Not Met",1905-04-23,197550,226330,"to 1km","RAGHRA","Shannonbridge","Offaly",13,NA,"Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","1721NEW003",NA,"UNKNOWN","Borehole",13.4,NA,"Bedrock Not Met",1962-04-01,197550,225950,"to 1km","RAGHRA",NA,"Offaly",13,NA,"Good","IV",135.2,NA,NA,36.5,3.7,NA,NA,NA,NA,NA,NA,NA,NA,"Date 18/4/1963"
+"3","1721NEW004",NA,"ELECTRICITY SUPPLY BOARD","Borehole",62.5,2.1,"Bedrock Met",1962-04-01,197600,224850,"to 1km","CLONIFFEEN",NA,"Offaly",13,"Industrial use","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB BH No. 2",NA,NA
+"4","1721NEW005",NA,"ELECTRICITY SUPPLY BOARD","Borehole",45.7,1.8,"Bedrock Met",1962-04-01,197600,224750,"to 1km","CLONIFFEEN",NA,"Offaly",13,"Industrial use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB BH No. 1",NA,NA
+"5","1721NEW006",NA,NA,"Dug well",3.7,3.7,"Bedrock Presumed",1973-10-20,199900,223900,"to 1km","LECARROW",NA,"Offaly",13,"Domestic use only","Poor",NA,20.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6","1721NEW007",NA,NA,"Borehole",38.4,3.1,"Bedrock Met",1966-03-15,198580,226420,"to 1km","CLONIFF",NA,"Offaly",13,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 751",NA,NA
+"7","1721NEW008",NA,NA,"Dug well",8.2,4.3,"Bedrock Met",1971-10-06,199150,229200,"to 1km","CREEVAGH",NA,"Offaly",5,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8","1721SEW001",NA,"ESB","Borehole",27.4,NA,"DTB Unknown",NA,198350,213200,"to 1km","CLOGHAN BEG",NA,"Offaly",29,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 29/7",NA,NA
+"9","2017NWW005",NA,NA,"Dug well",3.7,NA,"Bedrock Not Met",1960-09-01,208000,185000,"to 1km","CLASHAGAD",NA,"Offaly",45,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10","2017NWW007",NA,NA,"Borehole",36.6,NA,"DTB Unknown",1961-03-04,205720,185780,"to 1km","FRANKFORT",NA,"Offaly",45,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No yield data
+ESB ref. 45-10-34",NA,NA
+"11","2017NWW008",NA,NA,"Dug well",7.6,NA,"Bedrock Not Met",1961-03-04,205720,185700,"to 1km","FRANKFORT",NA,"Offaly",45,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref No. 45-10-9",NA,NA
+"12","2017NWW009","ILC 617","LAND COMMISSION, Rolleston Estate","Borehole",32.3,1.8,"Bedrock Met",1960-09-01,205720,185850,"to 1km","FRANKFORT",NA,"Offaly",45,"Domestic use only","Poor",NA,5,NA,NA,NA,NA,NA,6.1,21.3,NA,NA,NA,"see LC Well 1061 also.",NA,"explosives fired at 30.5m; pump at 30.5m"
+"13","2017NWW010",NA,NA,"Dug well",8.2,NA,"Bedrock Not Met",1960-08-01,204510,184490,"to 1km","IRISHTOWN",NA,"Offaly",45,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14","2017NWW011",NA,"OFFALY BOARD OF HEALTH","Borehole",42.7,17.7,"Bedrock Met",1940-01-01,203300,186800,"to 1km","BARNA",NA,"Offaly",45,"Domestic use only","Poor",NA,14.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"15","2017NWW012",NA,NA,"Dug well",6.4,NA,"Bedrock Not Met",1961-04-20,209050,186940,"to 1km","BALLYSTANLEY",NA,"Offaly",45,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB",NA,NA
+"16","2017NWW013",NA,NA,"Dug well",22.9,NA,"Bedrock Not Met",1961-04-20,201300,187650,"to 1km","BEHERNAGH",NA,"Offaly",44,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 44-8-8",NA,NA
+"17","2017NWW014",NA,NA,"Dug well",6.7,NA,"Bedrock Not Met",1961-02-16,202100,188700,"to 1km","AGHNAGROSS",NA,"Offaly",44,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB 44-4-13",NA,NA
+"18","2017NWW015",NA,NA,"Dug well",6.4,NA,"Bedrock Not Met",1961-03-11,203700,189350,"to 1km","GLASSHOUSE",NA,"Offaly",45,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 45-1-10",NA,NA
+"19","2019NEW001",NA,NA,"Borehole",55.6,18.9,"Bedrock Met",1988-01-22,218850,205150,"to 1km","KINNITTY",NA,"Offaly",36,"Public supply (Co Co)","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"20","2019NEW002",NA,"Offaly Board of Health","Borehole",32.6,9.4,"Bedrock Met",1940-01-01,215300,201440,"to 1km","LONGFORD BIG",NA,"Offaly",39,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yield positive - not recorded.",NA,NA
+"21","2019NEW003","Well No. 306","OFFALY COUNTY COUNCIL","Borehole",28.7,2.4,"Bedrock Met",1962-04-01,223730,208520,"to 1km","DEERPARK",NA,"Offaly",37,"Domestic use only","Moderate",NA,41.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"22","2019NEW004",NA,NA,"Dug well",18,NA,"DTB Unknown",NA,215350,209830,"to 1km","ROUNDHILL",NA,"Offaly",31,"Industrial use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB   No Yield  Limestone Rock",NA,NA
+"23","2019NWW003",NA,NA,"Borehole",91,0,"Bedrock Met",NA,213500,209000,"to 1km","RATHMOUNT",NA,"Offaly",31,NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"THE B/H IS LOCATED IN THE L/STONE AQUIFER, BUT WAS DRY.",NA,NA
+"24","2019NWW004",NA,NA,"Borehole",18.3,NA,"Bedrock Not Met",1961-07-01,213570,209450,"to 1km","THOMASTOWN",NA,"Offaly",31,"Public supply (Co Co)","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"EXISTING WELL WAS 12.2m rebored to 18.3m
+T Duffy, contractor",NA,NA
+"25","2019NWW005",NA,NA,"Borehole",18.3,NA,"Bedrock Not Met",1961-08-01,207800,206020,"to 1km","LISHEEN",NA,"Offaly",35,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NO ROCK",NA,NA
+"26","2019NWW006","ILC 703",NA,"Borehole",38.4,30.8,"Bedrock Met",1960-08-15,206180,200580,"to 1km","BALLYEGAN",NA,"Offaly",38,"Domestic use only","Moderate",NA,87.2,NA,NA,NA,NA,NA,19.2,30.8,NA,NA,NA,NA,NA,"Pump at 30.5m; explosives fired at 32.9m"
+"27","2019NWW007",NA,NA,"Borehole",32.9,17.7,"Bedrock Met",1960-05-01,208400,200100,"to 1km","KILCOLMAN",NA,"Offaly",38,"Domestic use only","Poor","V",32.7,NA,NA,32.7,1,NA,NA,NA,NA,NA,NA,"WTB/Off 1295",NA,NA
+"28","2019NWW008",NA,NA,"Borehole",39.6,NA,"DTB Unknown",1961-01-01,205070,200050,"to 1km","BALLYEGAN",NA,"Offaly",38,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No yield data.
+ESB ref. 38-6-9",NA,NA
+"29","2019NWW009",NA,"FOR ESB","Borehole",24.4,NA,"DTB Unknown",NA,206370,201070,"to 1km","CLONKELLY",NA,"Offaly",38,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No yield data.",NA,NA
+"30","2019NWW010",NA,NA,"Borehole",24.4,NA,"DTB Unknown",NA,205650,201680,"to 1km","CLONKELLY",NA,"Offaly",38,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No yield data.",NA,NA
+"31","2019NWW011",NA,NA,"Dug well",4,NA,"Bedrock Not Met",1970-06-15,211110,203630,"to 1km","FORTEL",NA,"Offaly",36,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1120",NA,NA
+"32","2019NWW012",NA,NA,"Borehole",17.7,NA,"Bedrock Not Met",1961-09-01,213050,204170,"to 1km","KILMAINE",NA,"Offaly",36,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Th. Duffy, Contractor; ESB ref. 36-9-7
+Limestone not reached.",NA,NA
+"33","2019NWW013",NA,NA,"Borehole",17.7,NA,"Bedrock Not Met",1961-09-01,209160,204680,"to 1km","CLONBRONE",NA,"Offaly",35,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Steel Casing, Max Safe yield: 
+32.7m3/day"
+"34","2019NWW014",NA,NA,"Borehole",28.3,12.2,"Bedrock Met",1970-10-12,213900,208350,"to 1km","GARRYSALLAGH",NA,"Offaly",36,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1402",NA,NA
+"35","2019NWW015",NA,NA,"Borehole",30.5,NA,"DTB Unknown",1970-02-07,214770,207700,"to 1km","COAGH",NA,"Offaly",36,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1242",NA,NA
+"36","2019NWW016",NA,NA,"Borehole",22.9,12.2,"Bedrock Met",1970-10-12,212180,207740,"to 1km","RATHURE NORTH",NA,"Offaly",36,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1422",NA,NA
+"37","2019NWW017",NA,NA,"Borehole",36.6,12.2,"Bedrock Met",NA,206600,204390,"to 1km","SCURRAGH",NA,"Offaly",35,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"38","2019NWW018","ILC 748A","CORCORAN ESTATE ","Borehole",19.9,NA,"Bedrock Not Met",1965-02-16,213080,202080,"to 1km","OAKLEYPARK",NA,"Offaly",39,"Group Scheme","Poor","III",21.8,NA,NA,0.3,72.67,NA,NA,NA,NA,NA,NA,"LC WELL 748A",NA,NA
+"39","2019NWW022","ILC 982",NA,"Borehole",20.1,NA,"Bedrock Not Met",1962-11-22,213800,209400,"to 1km","THOMASTOWN DEMESNE",NA,"Offaly",31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"40","2019NWW023","ILC 704",NA,"Borehole",38.4,8.2,"Bedrock Met",1960-08-30,205650,200080,"to 1km","BALLYEGAN",NA,"Offaly",38,NA,"Moderate",NA,87.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"41","2019NWW024","ILC 983",NA,"Borehole",21.6,17.4,"Bedrock Met",1964-07-20,213550,209400,"to 1km","THOMASTOWN DEMESNE",NA,"Offaly",31,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"42","2019NWW025","ILC 624","CORCORAN ESTATE","Borehole",42,2.7,"Bedrock Met",1960-06-30,212900,201960,"to 1km","OAKLEY PARK",NA,"Offaly",36,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"43","2019SEW001",NA,"OFFALY COUNTY COUNCIL","Borehole",45.6,2.4,"Bedrock Met",NA,215020,195080,"to 1km","BALLYBRITT",NA,"Offaly",39,"Public supply (Co Co)","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"YIELD 43.6m TO 54.5m3/D, DEMAND 21.8m3/d",NA,NA
+"44","2019SEW003",NA,NA,"Dug well",4.9,NA,"Bedrock Not Met",1957-10-01,216400,191500,"to 1km","KILLAVILLA",NA,"Offaly",43,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB Ref XLIII-10-10",NA,NA
+"45","2019SEW004",NA,NA,"Dug well",6.1,NA,"Bedrock Not Met",1960-10-01,215220,195080,"to 1km","BALLYBRITT",NA,"Offaly",43,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No yield data.",NA,NA
+"46","2019SEW005",NA,NA,"Dug well",7.6,NA,"Bedrock Not Met",NA,216650,190800,"to 1km","COOLANURE",NA,"Offaly",43,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No yield data.
+ESB ref. 43-14-10",NA,NA
+"47","2019SEW006",NA,"Offaly County Council","Borehole",53.9,0.9,"Bedrock Met",1940-01-01,216000,197480,"to 1km","ROSCOMROE",NA,"Offaly",39,"Public supply (Co Co)","Poor",NA,17.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"For Offaly Board of Health",NA,NA
+"48","2019SWW002",NA,NA,"Dug well",9,NA,"DTB Unknown",1961-01-01,214200,197600,"to 1km","BALLYCURRAGH",NA,"Offaly",39,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 39-12-21",NA,NA
+"49","2019SWW005",NA,NA,"Borehole",60.8,NA,"DTB Unknown",NA,205120,193010,"to 1km","SHINRONE",NA,"Offaly",42,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"50","2019SWW008",NA,"OFFALY CO.CO.","Borehole",13.7,7.6,"Bedrock Met",1962-03-01,208430,192860,"to 1km","BALLYLONNAN",NA,"Offaly",42,"Public supply (Co Co)","Moderate",NA,57.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"51","2019SWW011",NA,NA,"Borehole",15.2,NA,"DTB Unknown",NA,214800,193400,"to 1km","AGHODY",NA,"Offaly",43,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 43-6-2",NA,NA
+"52","2019SWW012",NA,NA,"Dug well",5.5,NA,"Bedrock Not Met",1961-04-28,213000,196820,"to 1km","KILLEEN",NA,"Offaly",43,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB",NA,NA
+"53","2019SWW013",NA,"Offaly County Council","Dug well",7.6,NA,"DTB Unknown",NA,205350,195600,"to 1km","CURRALANTY",NA,"Offaly",42,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"54","2019SWW014","Well #8","OFFALY BOARD OF HEALTH","Borehole",61,4.3,"Bedrock Met",1940-01-01,208440,193000,"to 1km","BALLYLONNAN",NA,"Offaly",42,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Pump fitted. Yield not recorded.",NA,NA
+"55","2019SWW015",NA,"OFFALY COUNTY COUNCIL.","Dug well",9.4,6.4,"DTB Unknown",1962-03-01,207400,193550,"to 1km","BROSNA",NA,"Offaly",42,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"6.4 metres = drift, then rock.",NA,NA
+"56","2019SWW017",NA,NA,"Dug well",7.3,NA,"Bedrock Not Met",1964-10-07,212070,197240,"to 1km","KNOCK",NA,"Offaly",38,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 489",NA,NA
+"57","2019SWW018",NA,NA,"Borehole",18.3,NA,"DTB Unknown",1961-01-01,214450,196140,"to 1km","LISSANIERIN",NA,"Offaly",39,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 39-13-11",NA,NA
+"58","2019SWW019",NA,"FOR ESB","Borehole",30.5,NA,"DTB Unknown",NA,212000,199000,"to 1km","GLENACURRAGH",NA,"Offaly",38,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No yield data. ESB ref. 38/12",NA,NA
+"59","2021NEW007",NA,NA,"Dug well",5.5,NA,"Bedrock Not Met",1961-10-01,217830,220140,"to 1km","LEABEG",NA,"Offaly",23,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Mr T Duffy, contractor",NA,NA
+"60","2021NEW009",NA,NA,"Dug well",4.9,NA,"Bedrock Not Met",1960-10-24,226880,221080,"to 1km","BRACKAGH",NA,"Offaly",24,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 471",NA,NA
+"61","2021NEW010",NA,NA,"Dug well",14,NA,"Bedrock Not Met",1963-03-08,228700,221530,"to 1km","HEATH",NA,"Offaly",24,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 666",NA,NA
+"62","2021NEW011",NA,NA,"Borehole",21.3,1.8,"Bedrock Met",1963-07-24,224650,220400,"to 1km","BALLYFARRELL",NA,"Offaly",24,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 365",NA,NA
+"63","2021NEW012",NA,NA,"Dug well",18.3,12.2,"Bedrock Met",NA,224650,220350,"to 1km","BALLYFARRELL",NA,"Offaly",24,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 795",NA,NA
+"64","2021NEW013",NA,NA,"Borehole",21.3,15.2,"Bedrock Met",1971-06-15,224650,220450,"to 1km","BALLYFARRELL",NA,"Offaly",24,"Agri & domestic use","Poor",NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1545",NA,NA
+"65","2021NEW014",NA,NA,"Borehole",10.1,3.7,"Bedrock Met",1961-10-01,217600,220400,"to 1km","LEABEG",NA,"Offaly",23,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Contractor T. Duffy",NA,NA
+"66","2021NEW015",NA,"OFFALY BOARD OF HEALTH","Borehole",61,4.3,"Bedrock Met",1940-01-01,225500,221500,"to 1km","GLASSHOUSE",NA,"Offaly",24,"Domestic use only","Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"67","2021NEW016","Well No. 271","OFFALY CO. CO.","Dug well",3.7,NA,"Bedrock Not Met",NA,223200,225100,"to 1km","BALLINCUR",NA,"Offaly",16,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"68","2021NEW017",NA,NA,"Borehole",23.2,4.9,"Bedrock Met",1966-07-15,223000,227820,"to 1km","KILPATRICK",NA,"Offaly",16,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 651",NA,NA
+"69","2021NEW018",NA,NA,"Borehole",30.5,5.5,"Bedrock Met",1965-04-15,224200,226050,"to 1km","GOLDSMITHSLOT",NA,"Offaly",16,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 626",NA,NA
+"70","2021NEW019",NA,NA,"Dug well",12.2,3.1,"Bedrock Met",1962-10-07,226000,223000,"to 1km","ROSCORE",NA,"Offaly",16,"Domestic use only","Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 579",NA,NA
+"71","2021NEW020",NA,NA,"Borehole",18.6,5.8,"Bedrock Met",1967-03-31,223440,221320,"to 1km","CULLY",NA,"Offaly",16,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 190",NA,NA
+"72","2021NEW021",NA,NA,"Borehole",12.8,4.6,"Bedrock Met",1962-10-16,226000,223150,"to 1km","ROSCORE",NA,"Offaly",16,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 630",NA,NA
+"73","2021NEW022",NA,"TULLAMORE RDC","Borehole",24.5,16.9,"Bedrock Met",1923-05-15,228000,222900,"to 1km","GLASKILL",NA,"Offaly",16,"Domestic use only","Poor",NA,4.4,NA,NA,NA,NA,127,NA,NA,NA,NA,NA,NA,NA,NA
+"74","2021NEW023",NA,NA,"Borehole",29.9,18.6,"Bedrock Met",NA,228000,223000,"to 1km","GLASKILL",NA,"Offaly",16,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1085",NA,NA
+"75","2021NEW024",NA,"OFFALY BOARD OFHEALTH","Borehole",43.9,23.5,"Bedrock Met",1940-01-01,228000,222800,"to 1km","GLASKILL",NA,"Offaly",16,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"yield not recorded",NA,NA
+"76","2021NEW025",NA,NA,"Borehole",16.4,6.4,"Bedrock Met",1961-09-13,229300,223650,"to 1km","LYNALLY GLEBE",NA,"Offaly",16,"Domestic use only","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 448",NA,NA
+"77","2021NEW026",NA,NA,"Borehole",14.9,4.6,"Bedrock Met",1963-04-18,227000,225900,"to 1km","MURRAGH",NA,"Offaly",16,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 686",NA,NA
+"78","2021NEW027",NA,NA,"Dug well",16.5,3.7,"Bedrock Met",1966-07-15,221000,224650,"to 1km","DERRYCOOLEY",NA,"Offaly",15,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 760",NA,NA
+"79","2021NEW028",NA,NA,"Borehole",23.2,4.6,"Bedrock Met",1966-06-15,218500,222440,"to 1km","LEAMORE",NA,"Offaly",15,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 761",NA,NA
+"80","2021NEW029",NA,NA,"Borehole",18.3,5.5,"Bedrock Met",1967-06-07,218500,222340,"to 1km","LEAMORE",NA,"Offaly",15,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"81","2021NEW030",NA,NA,"Dug well",19.8,3.1,"Bedrock Met",1967-05-22,218500,222550,"to 1km","LEAMORE",NA,"Offaly",15,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 880",NA,NA
+"82","2021NEW031",NA,NA,"Borehole",33.5,2.4,"Bedrock Met",1970-04-01,218500,222220,"to 1km","LEAMORE",NA,"Offaly",15,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83","2021NEW032",NA,NA,"Borehole",27.4,4.9,"Bedrock Met",NA,218500,222650,"to 1km","LEAMORE",NA,"Offaly",15,"Domestic use only","Poor",NA,25.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1432",NA,NA
+"84","2021NEW033","Well No. 288","OFFALY COUNTY COUNCIL","Dug well",3.2,1.4,"Bedrock Met",1962-04-01,220850,222500,"to 1km","OUGHTER",NA,"Offaly",15,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yield not recorded.",NA,NA
+"85","2021NEW034",NA,NA,"Dug well",7.9,7.9,"Bedrock Presumed",1968-04-04,226000,228520,"to 1km","DERRIES",NA,"Offaly",15,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1006",NA,NA
+"86","2021NEW035","Well No. 290","OFFALY COUNTY COUNCIL","Dug well",3.7,NA,"Bedrock Not Met",1962-04-01,217400,227200,"to 1km","LEAMANAGHAN",NA,"Offaly",15,"Domestic use only","Poor",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Off. Co.Co. Well 290",NA,NA
+"87","2021NEW036",NA,NA,"Dug well",3.4,NA,"Bedrock Not Met",1961-09-01,219350,227200,"to 1km","DERRYNAGUN",NA,"Offaly",15,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 7-15-30",NA,NA
+"88","2021NEW037",NA,NA,"Dug well",4.6,4.6,"Bedrock Presumed",1970-01-26,215350,225550,"to 1km","BALLYDALY",NA,"Offaly",15,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1274",NA,NA
+"89","2021NEW038","Well No. 303","OFFALY COUNTY COUNCIL","Dug well",4,3.7,"Bedrock Met",1962-04-01,217400,227100,"to 1km","LEAMANAGHAN",NA,"Offaly",15,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"90","2021NEW039",NA,NA,"Borehole",18.9,7.3,"Bedrock Met",1962-09-14,226150,220280,"to 1km","LUGGLASS",NA,"Offaly",24,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"91","2021NEW040",NA,NA,"Borehole",15.2,NA,"Bedrock Not Met",1963-06-10,228550,228100,"to 1km","AHARNEY",NA,"Offaly",8,"Domestic use only","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 691
+NO SOLID ROCK MET",NA,NA
+"92","2021NWW011",NA,"OFFALY COUNTY COUNCIL","Borehole",152,15.2,"Bedrock Met",1982-06-25,212750,229040,"to 1km","RASHINAGH",NA,"Offaly",14,"Industrial use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SURGED AT 300 GPH FOR 4 MIN giving max. yield - poor well",NA,NA
+"93","2021NWW012",NA,"OFFALY BOARD OF HEALTH","Borehole",66.1,5.4,"Bedrock Met",1940-01-01,204550,223750,"to 1km","KILCUMMIN",NA,"Offaly",14,"Public supply (Co Co)","Poor",NA,6.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"94","2021NWW013",NA,"OFFALY BOARD OF HEALTH","Borehole",33.5,7,"Bedrock Met",1940-01-01,205950,222350,"to 1km","BELMONT",NA,"Offaly",14,"Public supply (Co Co)","Poor",NA,39.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"95","2021NWW014",NA,NA,"Borehole",24.4,6.1,"Bedrock Met",1961-07-06,213400,223150,"to 1km","COOLE",NA,"Offaly",15,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 151, 504",NA,NA
+"96","2021NWW015",NA,NA,"Dug well",3.7,NA,"DTB Unknown",1979-10-01,213730,223820,"to 1km","VICARSTOWN",NA,"Offaly",15,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"97","2021NWW016",NA,"OFFALY BOARD OF HEALTH","Borehole",31.4,18.9,"Bedrock Met",1940-01-01,214580,224400,"to 1km","KILCOLGAN",NA,"Offaly",15,"Public supply (Co Co)","Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"98","2021NWW017",NA,NA,"Borehole",18.6,NA,"Bedrock Not Met",1966-10-15,214900,225700,"to 1km","ROSFARAGHAN",NA,"Offaly",15,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"just drift.
+WTB/OFF 774",NA,NA
+"99","2021NWW018",NA,NA,"Dug well",18.3,1.5,"Bedrock Met",1962-08-15,211070,229200,"to 1km","COR MORE",NA,"Offaly",6,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 434",NA,NA
+"100","2021NWW019",NA,NA,"Borehole",19.5,15.2,"Bedrock Met",1963-04-06,203100,220550,"to 1km","MOYSTOWN",NA,"Offaly",22,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 637",NA,NA
+"101","2021NWW020",NA,NA,"Dug well",7,3.7,"Bedrock Met",1963-04-01,203100,220450,"to 1km","MOYSTOWN",NA,"Offaly",22,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 628",NA,NA
+"102","2021NWW021",NA,NA,"Borehole",31.7,NA,"DTB Unknown",1962-10-23,202700,221050,"to 1km","LISCLOONEY",NA,"Offaly",21,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 309, 664",NA,NA
+"103","2021NWW022",NA,NA,"Borehole",25.3,5.5,"Bedrock Met",1966-01-15,202750,220920,"to 1km","LISCLOONEY",NA,"Offaly",21,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 708",NA,NA
+"104","2021NWW023",NA,"OFFALY BOARD OF HEALTH","Borehole",61.3,2.4,"Bedrock Met",1940-01-01,207500,220450,"to 1km","BALLYLOUGHAN",NA,"Offaly",22,"Domestic use only","Poor",NA,6.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"105","2021NWW024",NA,"OFFALY BOARD OF HEALTH","Borehole",76.2,9.1,"Bedrock Met",1940-01-01,204650,220150,"to 1km","CLONONY BEG",NA,"Offaly",22,"Domestic use only","Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shot fired at 76m to get yield"
+"106","2021NWW025","Well No. 278","OFFALY COUNTY COUNCIL","Dug well",3.2,NA,"Bedrock Not Met",1962-04-01,213000,221360,"to 1km","FALSK",NA,"Offaly",14,"Public supply (Co Co)","Poor",NA,30.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"107","2021NWW026",NA,NA,"Borehole",24.4,4.3,"Bedrock Met",1962-04-01,207000,225000,"to 1km","CLONBONIFF",NA,"Offaly",14,"Domestic use only","Poor",NA,17.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"108","2021NWW027","ILC 1099","GREENE ESTATE","Borehole",14.3,NA,"Bedrock Not Met",1964-12-23,214250,225350,"to 1km","ROSFARAGHAN",NA,"Offaly",15,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"BAILING AT 300GPH CAUSED NO CHANGE IN W.L.",NA,NA
+"109","2021SEW001",NA,"OFFALY BOARD OF HEALTH","Borehole",65.7,6.1,"Bedrock Met",NA,217770,213790,"to 1km","FRANKFORD",NA,"Offaly",31,NA,"Poor","V",21.8,NA,NA,15,6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"110","2021SEW005",NA,"Offaly County Council","Borehole",12.2,0,"Bedrock Met",NA,225150,215600,"to 1km","GORTACUR",NA,"Offaly",24,"Public supply (Co Co)","Moderate",NA,65.5,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,"goes dry in summer!"
+"111","2021SEW006",NA,NA,"Borehole",NA,16.1,"Bedrock Met",NA,229580,217900,"to 1km","KILLURIN",NA,"Offaly",24,NA,"Good",NA,163.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Paddy Fay",NA,NA
+"112","2021SEW008",NA,"LAND COMMISSION","Borehole",9.8,7.6,"Bedrock Met",1967-06-01,218000,214000,"to 1km","FRANKFORD",NA,"Offaly",31,NA,"Moderate",NA,87.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"6"" sheet attached to record but can't find record.",NA,NA
+"113","2021SEW009",NA,NA,"Borehole",35.1,9.8,"Bedrock Met",1968-05-20,225670,219850,"to 1km","PALLAS",NA,"Offaly",24,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1019",NA,NA
+"114","2021SEW010","Well No. 274","OFFALY COUNTY COUNCIL","Borehole",15.9,9.5,"Bedrock Met",NA,228720,216250,"to 1km","KILLANANNY",NA,"Offaly",24,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"115","2021SEW011",NA,NA,"Borehole",25.6,14.5,"Bedrock Met",1924-09-01,225000,215700,"to 1km","GORTACUR",NA,"Offaly",24,"Domestic use only","Poor",NA,3.2,NA,NA,NA,NA,127,NA,NA,NA,NA,NA,NA,NA,NA
+"116","2021SEW012",NA,NA,"Borehole",29.6,14.3,"Bedrock Met",1962-09-10,222020,217670,"to 1km","KILLOOLEY",NA,"Offaly",23,"Domestic use only","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 5538",NA,NA
+"117","2021SEW013",NA,"OFFALY BOARD OF HEALTH","Borehole",33.5,16.3,"Bedrock Met",1940-01-01,215120,216230,"to 1km","BROUGHAL",NA,"Offaly",31,"Public supply (Co Co)","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"118","2021SEW016",NA,NA,"Borehole",36.6,10.4,"Bedrock Met",1925-01-01,223150,214550,"to 1km","CAPPAGOWLAN",NA,"Offaly",32,"Domestic use only","Poor",NA,1.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"119","2021SEW017",NA,NA,"Dug well",6.4,NA,"Bedrock Not Met",1961-10-19,224000,213500,"to 1km","DERRIES",NA,"Offaly",32,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 188, 541",NA,NA
+"120","2021SEW018",NA,"(ESB WELL)","Dug well",6.7,6.7,"Bedrock Presumed",1961-01-01,225000,215800,"to 1km","GORTACUR",NA,"Offaly",32,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No Recorded Yield",NA,NA
+"121","2021SEW019",NA,NA,"Borehole",24.4,NA,"DTB Unknown",1964-07-15,225000,215900,"to 1km","GORTACUR",NA,"Offaly",32,"Domestic use only","Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No Depth to Bedrock given
+WTB/OFF 364",NA,NA
+"122","2021SEW020",NA,"OFFALY BOARD OF HEALTH","Borehole",38.1,13.1,"Bedrock Met",1940-01-01,227680,214250,"to 1km","KILLOUGHY",NA,"Offaly",32,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dug to 13.1m, then bored; No Yield Given.",NA,NA
+"123","2021SEW021",NA,"UNKNOWN","Borehole",30.2,4.3,"Bedrock Met",1968-07-25,215700,212820,"to 1km","CURRAGHMORE",NA,"Offaly",31,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1099",NA,NA
+"124","2021SEW022",NA,NA,"Borehole",27.4,24.4,"Bedrock Met",1973-07-02,220200,210900,"to 1km","COOLFIN",NA,"Offaly",31,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 805",NA,NA
+"125","2021SEW023",NA,"OFFALY BOARD OF HEALTH","Borehole",38.1,12.5,"Bedrock Met",1940-01-01,217580,212550,"to 1km","RAHEENMEEL",NA,"Offaly",31,"Public supply (Co Co)","Poor",NA,39.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"126","2021SEW024","Well No. 301","OFFALY COUNTY COUNCIL","Dug well",9.9,NA,"Bedrock Not Met",NA,215140,216320,"to 1km","BROUGHAL",NA,"Offaly",23,NA,"Poor",NA,4.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"127","2021SEW025","ILC 172",NA,"Borehole",22.8,9.7,"Bedrock Met",1954-09-25,221950,217150,"to 1km","KILLOOLEY",NA,"Offaly",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LC WELL 172",NA,NA
+"128","2021SWW001",NA,NA,"Borehole",NA,NA,NA,NA,201520,213780,"to 1km","MOUNTCARTERET",NA,"Offaly",29,"Industrial use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"3 WELLS ON SITE,ALSO 7 B/H ONLY 3-4M DEEP - DISTILLERY TECH RE",NA,NA
+"129","2021SWW009",NA,"OFFALY BOARD OF HEALTH","Borehole",42.7,9,"Bedrock Met",1905-04-23,213150,218950,"to 1km","LUMCLOON",NA,"Offaly",23,"Public supply (Co Co)","Moderate",NA,52.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"130","2021SWW010",NA,NA,"Dug well",4,NA,"Bedrock Not Met",1970-06-29,209250,210800,"to 1km","BALLYCOLLIN",NA,"Offaly",30,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 662",NA,NA
+"131","2021SWW011","Well No. 287","OFFALY COUNTY COUNCIL.","Dug well",9.9,NA,"Bedrock Not Met",1962-04-01,206140,211240,"to 1km","BALLYSLAVIN",NA,"Offaly",30,"Domestic use only","Poor",NA,4.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"In drift.",NA,NA
+"132","2023SEW004",NA,NA,"Borehole",9.1,4.6,"Bedrock Met",NA,225120,233940,"to 1km","RAHEEN",NA,"Offaly",8,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Th. Duffy, Contractor",NA,NA
+"133","2023SEW008",NA,NA,"Borehole",32.9,32.9,"Bedrock Presumed",1973-07-16,229680,230800,"to 1km","TARA",NA,"Offaly",8,"Domestic use only","Poor",NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1628",NA,NA
+"134","2023SEW009",NA,NA,"Borehole",28,18.6,"Bedrock Met",1967-02-06,229690,230940,"to 1km","TARA",NA,"Offaly",8,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 870",NA,NA
+"135","2023SEW010",NA,NA,"Borehole",18.6,NA,"Bedrock Not Met",1967-01-20,229700,230690,"to 1km","TARA",NA,"Offaly",8,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF",NA,NA
+"136","2023SEW011",NA,NA,"Borehole",14.9,NA,"Bedrock Not Met",1962-08-16,226430,230910,"to 1km","ERRY (ARMSTRONG)",NA,"Offaly",8,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 262, 624
+NO SOLID ROCK MET",NA,NA
+"137","2023SEW012",NA,NA,"Dug well",3.5,3.5,"Bedrock Presumed",1961-09-01,224570,233650,"to 1km","RAHEEN",NA,"Offaly",8,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 8-2-1
+LOCATED MOATE ROAD, CLARA",NA,NA
+"138","2023SEW013",NA,NA,"Borehole",9.1,4,"Bedrock Met",1961-11-01,224580,233720,"to 1km","RAHEEN",NA,"Offaly",8,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Th. DUFFY, CONTRACTOR",NA,NA
+"139","2023SEW014",NA,NA,"Borehole",6.1,3.7,"Bedrock Met",1961-11-01,224590,233810,"to 1km","RAHEEN",NA,"Offaly",8,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Th. Duffy, Contractor",NA,NA
+"140","2023SEW015",NA,"OFFALY BOARD OF HEALTH","Borehole",36.9,3.1,"Bedrock Met",1940-01-01,228370,234340,"to 1km","BALLICKNAHEE",NA,"Offaly",8,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"141","2023SEW016",NA,NA,"Dug well",2.7,1.2,"Bedrock Met",1963-08-02,222480,233150,"to 1km","BOLART SOUTH",NA,"Offaly",8,"Domestic use only","Poor",NA,4.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 603",NA,NA
+"142","2023SEW017","Well No. 305","OFFALY CO CO","Dug well",4.9,NA,"Bedrock Not Met",1962-04-01,222300,231200,"to 1km","CLONSHANNY",NA,"Offaly",8,"Domestic use only","Poor",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"143","2023SEW018",NA,"OFFALY CO CO","Borehole",51.8,3.4,"Bedrock Met",1940-01-01,220520,230530,"to 1km","BALLYCUMBER",NA,"Offaly",7,"Public supply (Co Co)","Poor",NA,18.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"FOR OFFALY BOARD OF HEALTH",NA,NA
+"144","2023SEW019",NA,NA,"Borehole",25,4.9,"Bedrock Met",1960-09-01,218420,230120,"to 1km","CASTLETOWN",NA,"Offaly",7,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/Off 120",NA,NA
+"145","2023SEW020",NA,"Offaly County Council","Borehole",73.2,3.7,"Bedrock Met",1940-01-01,216000,231310,"to 1km","CAPPANALOSSET",NA,"Offaly",7,"Public supply (Co Co)","Poor",NA,4.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"FOR OFFALY BOARD OF HEALTH",NA,NA
+"146","2023SEW021",NA,NA,"Dug well",1.5,NA,"DTB Unknown",NA,216260,230010,"to 1km","KILLAGHINTOBER",NA,"Offaly",7,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SEASONAL YIELD VARIATION",NA,NA
+"147","2023SEW022",NA,"Offaly County Council","Dug well",10.1,0.9,"Bedrock Met",1962-04-01,219460,232550,"to 1km","MOOROCK",NA,"Offaly",7,"Domestic use only","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"148","2023SEW023",NA,NA,"Dug well",4,4,"Bedrock Presumed",1966-11-01,221780,236770,"to 1km","TOBER",NA,"Offaly",2,"Domestic use only","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 680",NA,NA
+"149","2023SEW024",NA,NA,"Dug well",3.7,0.9,"Bedrock Met",1962-09-06,221780,236960,"to 1km","TOBER",NA,"Offaly",2,"Domestic use only","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/OFF 480",NA,NA
+"150","2023SEW025",NA,NA,"Borehole",22.3,18.4,"Bedrock Met",1922-04-01,224120,238540,"to 1km","FAHEERAN",NA,"Offaly",2,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,152,17.4,22.3,NA,NA,NA,"disch. at 17.4m = 1.09. At 22.3m = unlimited supply.",NA,"10gph at 17.4m; unlimited supply at 22.3m"
+"151","2023SWW001",NA,"OFFALY COUNTY COUNCIL","Borehole",106.4,12.2,"Bedrock Met",1982-07-06,210620,232860,"to 1km","DOON",NA,"Offaly",6,"Public supply (Co Co)","Good",NA,218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"YIELD VARIES 218 - 545.",NA,NA
+"152","2023SWW002",NA,"OFFALY COUNTY COUNCIL","Dug well",7.6,NA,"Bedrock Not Met",1962-04-01,210950,230400,"to 1km","DOON",NA,"Offaly",6,"Public supply (Co Co)","Moderate",NA,87.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"dug well in drift",NA,NA
+"153","2023SWW003",NA,NA,"Borehole",19.2,13.7,"Bedrock Met",1988-01-13,211800,231250,"to 1km","LACKAGH MORE",NA,"Offaly",6,"Domestic use only","Good",NA,327,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DUG WELL & BOREHOLE IN CLAY. WELL NEARLY SILTED UP.",NA,NA
+"154","2023SWW004","ILC 1101",NA,"Borehole",22.6,NA,"Bedrock Not Met",1965-07-05,203800,231570,"to 1km","CLONASCRA",NA,"Offaly",6,"Domestic use only","Poor","IV",21.8,NA,NA,2.4,9.1,NA,15.2,NA,NA,NA,NA,NA,NA,NA
+"155","2023SWW005",NA,NA,"Dug well",4.6,NA,"Bedrock Not Met",NA,206050,233420,"to 1km","BLOOMHILL",NA,"Offaly",6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Flags & black shales",NA,NA
+"156","2023SWW006",NA,NA,"Dug well",5.5,5.5,"Bedrock Presumed",1971-05-05,205500,233200,"to 1km","BLOOMHILL",NA,"Offaly",6,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"157","2023SWW007",NA,"OFFALY COUNTY COUNCIL","Dug well",4.2,NA,"Bedrock Not Met",1962-04-01,213900,232810,"to 1km","CORRACULLEN",NA,"Offaly",7,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"158","2023SWW008","ILC 1100","COUGHLIN ESTATE","Borehole",24.9,NA,"Bedrock Not Met",1965-05-25,203650,231900,"to 1km","CLONASCRA",NA,"Offaly",6,"Unknown","Moderate",NA,49.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LC WELL 1100. BAILING AT 49m3/d CAUSES NO CHANGE IN W.L.",NA,NA
+"159","2023SWW009","ILC 1048","DALY ESTATE - KIERAN McNEILL","Borehole",44.5,5.7,"Bedrock Met",1967-06-27,205600,233300,"to 1km","BLOOMHILL",NA,"Offaly",6,NA,"Poor","IV",36,NA,NA,10,3.6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"160","2023SWW010","ILC 1047",NA,"Borehole",14,2.1,"Bedrock Met",1967-06-21,205610,233350,"to 1km","BLOOMHILL",NA,"Offaly",6,NA,"Poor","IV",26.2,NA,NA,6.1,4.3,NA,NA,NA,NA,NA,NA,"CLAY & FE, ABANDONED, LOW YIELD.SEE 1048 (W009)",NA,NA
+"161","2321NEW006",NA,NA,"Dug well",2.1,2.1,"Bedrock Presumed",1970-12-03,257550,224670,"to 1km","CLONGARRET",NA,"Offaly",19,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1503",NA,NA
+"162","2321NEW007",NA,"OFFALY BOARD OF HEALTH","Borehole",26.4,21.9,"Bedrock Met",1940-01-01,254830,227180,"to 1km","ESKER MORE",NA,"Offaly",18,"Public supply (Co Co)","Poor",NA,6.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"163","2321NEW008","Well No. 291","OFFALY COUNTY COUNCIL","Dug well",5.2,NA,"Bedrock Not Met",1962-04-01,251720,226550,"to 1km","MOUNTLUCAS",NA,"Offaly",19,"Domestic use only","Poor",NA,8.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"164","2321NEW009",NA,NA,"Dug well",5.2,5.2,"Bedrock Presumed",1969-06-12,253000,226570,"to 1km","MOUNTLUCAS",NA,"Offaly",19,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"165","2321NEW010",NA,NA,"Dug well",3.4,NA,"Bedrock Not Met",1959-01-01,257450,227740,"to 1km","RATHVILLA",NA,"Offaly",19,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 19-3-6",NA,NA
+"166","2321NEW011",NA,NA,"Borehole",14,3.1,"Bedrock Met",1969-08-14,259000,222700,"to 1km","CLONAD",NA,"Offaly",19,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1251",NA,NA
+"167","2321NEW012",NA,NA,"Dug well",7.3,NA,"Bedrock Not Met",1963-08-21,247000,223000,"to 1km","RATHFESTON",NA,"Offaly",18,"Domestic use only","Poor",NA,17.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 706",NA,NA
+"168","2321NEW013",NA,NA,"Borehole",33.5,NA,"Bedrock Not Met",1963-09-24,250000,227410,"to 1km","KILLONEEN",NA,"Offaly",18,"Domestic use only","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 375",NA,NA
+"169","2321NEW014",NA,"OFFALY BOARD OF HEALTH","Borehole",18.3,NA,"Bedrock Not Met",1940-01-01,258300,229500,"to 1km","BALLYLEAKIN",NA,"Offaly",11,"Domestic use only","Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"170","2321NEW015","Well No. 299","OFFALY COUNTY COUNCIL","Dug well",7.6,NA,"Bedrock Not Met",1962-03-01,250470,229060,"to 1km","CAVEMOUNT",NA,"Offaly",10,"Domestic use only","Poor",NA,12.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"171","2321NEW016",NA,NA,"Dug well",1.5,NA,"Bedrock Not Met",NA,257000,228520,"to 1km","RATHLUMBER",NA,"Offaly",11,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 19-3-17",NA,NA
+"172","2321NEW017",NA,"UNKNOWN","Dug well",3.7,NA,"Bedrock Not Met",NA,259820,228400,"to 1km","BALLINAKILL",NA,"Offaly",11,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no yield info.
+ESB ref. 11-16-6",NA,NA
+"173","2321NEW018",NA,NA,"Borehole",15.3,1.1,"Bedrock Met",1924-06-01,254000,221490,"to 1km","BUNNAGAPPAGH",NA,"Offaly",27,"Domestic use only","Poor",NA,17.4,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,NA,NA,NA
+"174","2321NEW019",NA,NA,"Dug well",6.4,NA,"DTB Unknown",1962-01-01,245090,220530,"to 1km","GEASHILL",NA,"Offaly",26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SHALLOW WELL ON PORTARLINGTON RD. BACTERIA REP. UNSATISFACT","on Portarlington Road",NA
+"175","2321NEW020",NA,"OFF. CO. CO.","Dug well",6.1,NA,"DTB Unknown",1962-01-01,245070,220440,"to 1km","GEASHILL",NA,"Offaly",26,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"BACT. REPORT UNSATISFACTORY.","on Ballinagar Road",NA
+"176","2321NEW021",NA,NA,"Borehole",20.7,6.1,"Bedrock Met",1963-05-18,251280,220270,"to 1km","KILBEG",NA,"Offaly",26,"Domestic use only","Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 325",NA,NA
+"177","2321NEW022",NA,NA,"Dug well",3.7,NA,"Bedrock Not Met",1969-04-01,248210,228260,"to 1km","CASTLEBARNAGH",NA,"Offaly",10,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 724",NA,NA
+"178","2321NEW024","ILC 1335","DOUGLAS ESTATE","Borehole",19.2,7.6,"Bedrock Met",1967-02-10,252550,226800,"to 1km","MOUNTLUCAS",NA,"Offaly",19,NA,"Poor","III",21.8,NA,NA,0.9,24.22,NA,NA,NA,NA,NA,NA,"BAILING DONE AT 200GPH/ 21.8 m3/d",NA,NA
+"179","2321NEW025","ILC 1336","DOUGLAS ESTATE ","Borehole",20.4,8.5,"Bedrock Met",1968-10-05,252250,227200,"to 1km","MOUNTLUCAS",NA,"Offaly",19,NA,"Poor","IV",23.1,NA,NA,1.8,12.83,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"180","2321NWW007",NA,NA,"Borehole",12.2,4,"Bedrock Met",1961-11-01,232000,225300,"to 1km","BALLYDROHID",NA,"Offaly",16,"Group Scheme","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"T Duffy, contractor",NA,NA
+"181","2321NWW008",NA,"ADAMS VILLAS/GROUP WATER SCHEME","Borehole",NA,NA,NA,1965-11-05,232660,222540,"to 1km","BALLARD",NA,"Offaly",17,"Group Scheme","Moderate","V",54.5,NA,NA,26.5,2.08,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"182","2321NWW009",NA,NA,"Borehole",41.5,3.7,"Bedrock Met",1925-12-15,233600,225150,"to 1km","TULLAMORE",NA,"Offaly",17,"Industrial use","Moderate",NA,65.5,NA,NA,NA,NA,177,NA,NA,NA,NA,NA,NA,NA,NA
+"183","2321NWW010",NA,NA,"Borehole",19.8,3.1,"Bedrock Met",1969-08-27,233700,227400,"to 1km","ARDAN",NA,"Offaly",17,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"184","2321NWW011",NA,"OFFALY BOARD OF HEALTH","Borehole",47.9,9.4,"Bedrock Met",1940-01-01,238100,227630,"to 1km","WOOD OF O",NA,"Offaly",17,"Public supply (Co Co)","Moderate",NA,52.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"185","2321NWW012",NA,NA,"Borehole",NA,1.9,"Bedrock Presumed",NA,232860,224890,"to 1km","TULLAMORE",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH DATA",NA,NA
+"186","2321NWW013",NA,NA,"Borehole",NA,2.7,"Bedrock Presumed",NA,241870,225350,"to 1km","CAPPYROE",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Geotech Data",NA,NA
+"187","2321NWW014",NA,NA,"Borehole",NA,3.8,"Bedrock Presumed",NA,241960,225470,"to 1km","CAPPYROE",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GeoTech Data",NA,NA
+"188","2321NWW015",NA,NA,"Borehole",NA,2.8,"Bedrock Presumed",NA,242140,225530,"to 1km","CAPPYROE",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GeoTech Data",NA,NA
+"189","2321NWW016",NA,NA,"Borehole",NA,2.6,"Bedrock Presumed",NA,241890,225600,"to 1km","CAPPYROE",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"190","2321NWW017",NA,NA,"Borehole",1,NA,"Bedrock Not Met",NA,234450,223300,"to 1km","SPOLLANSTOWN",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH RECORD",NA,NA
+"191","2321NWW018",NA,NA,"Borehole",2,NA,"Bedrock Not Met",NA,234450,223350,"to 1km","SPOLLANSTOWN",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH RECORD",NA,NA
+"192","2321NWW019",NA,NA,"Borehole",3.1,NA,"Bedrock Not Met",NA,234390,223700,"to 1km","SPOLLANSTOWN",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH RECORD",NA,NA
+"193","2321NWW020",NA,NA,"Borehole",3.3,NA,"Bedrock Not Met",NA,234310,224050,"to 1km","TULLAMORE",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH RECORD",NA,NA
+"194","2321NWW021",NA,NA,"Borehole",3.2,NA,"Bedrock Not Met",NA,234290,224150,"to 1km","TULLAMORE",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH RECORD",NA,NA
+"195","2321NWW022",NA,NA,"Borehole",2,NA,"Bedrock Not Met",NA,234100,224200,"to 1km","SPOLLANSTOWN",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH RECORD",NA,NA
+"196","2321NWW023",NA,NA,"Borehole",2.9,NA,"Bedrock Not Met",NA,234480,224650,"to 1km","TULLAMORE",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH RECORD",NA,NA
+"197","2321NWW024",NA,NA,"Borehole",2.1,NA,"Bedrock Not Met",NA,234290,224530,"to 1km","TULLAMORE",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH RECORD",NA,NA
+"198","2321NWW025",NA,NA,"Borehole",3.1,NA,"Bedrock Not Met",NA,234010,224500,"to 1km","SPOLLANSTOWN",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH RECORDS",NA,NA
+"199","2321NWW026",NA,NA,"Borehole",1.9,NA,"Bedrock Not Met",NA,234240,224580,"to 1km","TULLAMORE",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH RECORD",NA,NA
+"200","2321NWW027",NA,NA,"Borehole",2,NA,"Bedrock Not Met",NA,235050,224450,"to 1km","CLONCOLLOG",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH RECORD",NA,NA
+"201","2321NWW028",NA,NA,"Borehole",4.5,NA,"Bedrock Not Met",NA,234890,224550,"to 1km","TULLAMORE",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH RECORD",NA,NA
+"202","2321NWW029",NA,NA,"Borehole",5.4,NA,"Bedrock Not Met",NA,234670,224670,"to 1km","TULLAMORE",NA,"Offaly",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GEOTECH RECORD",NA,NA
+"203","2321NWW031",NA,"UNKNOWN","Borehole",9.1,4.3,"Bedrock Met",1962-12-12,230650,225250,"to 1km","CARTRON WEST",NA,"Offaly",16,"Domestic use only","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 576",NA,NA
+"204","2321NWW032",NA,"TULLAMORE RDC","Borehole",12.2,6.6,"Bedrock Met",1923-05-15,230450,220530,"to 1km","MUCKLAGH",NA,"Offaly",16,"Domestic use only","Poor",NA,19.6,NA,NA,NA,NA,127,NA,NA,NA,NA,NA,NA,NA,NA
+"205","2321NWW033",NA,NA,"Borehole",51.8,21.3,"Bedrock Met",1964-06-14,230450,222440,"to 1km","MUCKLAGH",NA,"Offaly",16,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 381",NA,NA
+"206","2321NWW034",NA,NA,"Borehole",10.1,NA,"Bedrock Not Met",1966-06-15,230450,222640,"to 1km","MUCKLAGH",NA,"Offaly",16,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"just gravel",NA,NA
+"207","2321NWW035",NA,"ESB","Dug well",9.8,NA,"Bedrock Not Met",1959-01-01,244050,224020,"to 1km","BALLINAGAR",NA,"Offaly",18,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No yield data.
+ESB ref. 18-9-8",NA,NA
+"208","2321NWW036",NA,NA,"Dug well",5.2,3.7,"Bedrock Met",1969-02-07,244050,223880,"to 1km","BALLINAGAR",NA,"Offaly",18,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 886",NA,NA
+"209","2321NWW038","Well No. 277","OFFALY COUNTY COUNCIL","Dug well",7.6,NA,"Bedrock Not Met",1962-04-01,244200,225580,"to 1km","KNOCKBALLYBOY",NA,"Offaly",18,"Domestic use only","Poor",NA,4.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"210","2321NWW039",NA,NA,"Borehole",35.8,9.1,"Bedrock Met",1924-10-01,242000,227000,"to 1km","BALLYCOMMON",NA,"Offaly",18,"Domestic use only","Poor",NA,1.2,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,NA,NA,NA
+"211","2321NWW040",NA,"UNKNOWN","Dug well",6.1,NA,"Bedrock Not Met",1963-06-28,242000,227100,"to 1km","BALLYCOMMON",NA,"Offaly",18,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 234, 590",NA,NA
+"212","2321NWW041",NA,"ESB","Dug well",3.5,NA,"Bedrock Not Met",1959-01-01,242000,226900,"to 1km","BALLYCOMMON",NA,"Offaly",18,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 18-1-7",NA,NA
+"213","2321NWW042","Well No. 281","OFFALY COUNTY COUNCIL","Dug well",6.4,NA,"Bedrock Not Met",1962-04-01,242000,227200,"to 1km","BALLYCOMMON",NA,"Offaly",18,"Domestic use only","Poor",NA,17.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"214","2321NWW043","Well No. 289","Offaly County Council","Dug well",4.6,NA,"Bedrock Not Met",1962-04-01,243000,225000,"to 1km","CAPPANAGEERAGH",NA,"Offaly",18,"Domestic use only","Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"215","2321NWW044",NA,NA,"Borehole",18.9,9.1,"Bedrock Met",1969-10-27,234670,228260,"to 1km","BALLYNASRAH",NA,"Offaly",17,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1267",NA,NA
+"216","2321NWW045",NA,"OFFALY BOARD OF HEALTH","Borehole",25.3,13,"Bedrock Met",1905-04-23,237200,225030,"to 1km","CAPPANCUR",NA,"Offaly",17,"Domestic use only","Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"217","2321NWW046",NA,"ESB","Dug well",3.4,NA,"Bedrock Not Met",1959-01-01,237200,225140,"to 1km","CAPPANCUR",NA,"Offaly",17,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 17-7-32",NA,NA
+"218","2321NWW047",NA,NA,"Dug well",7,3.4,"Bedrock Met",1963-09-06,237200,225250,"to 1km","CAPPANCUR",NA,"Offaly",17,"Domestic use only","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 617",NA,NA
+"219","2321NWW048",NA,NA,"Dug well",5.2,NA,"Bedrock Not Met",1960-09-12,237200,225360,"to 1km","CAPPANCUR",NA,"Offaly",17,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No solid rock encountered.
+WTB/OFF 413",NA,NA
+"220","2321NWW049",NA,"ESB","Dug well",2.7,NA,"Bedrock Not Met",1959-01-01,237200,225500,"to 1km","CAPPANCUR",NA,"Offaly",17,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 17-10-6",NA,NA
+"221","2321NWW050",NA,NA,"Dug well",5.5,NA,"DTB Unknown",1972-09-18,242000,226600,"to 1km","BALLYCOMMON",NA,"Offaly",17,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"222","2321NWW051",NA,NA,"Borehole",12.8,6.1,"Bedrock Met",1973-01-26,235680,224030,"to 1km","CLONCOLLOG",NA,"Offaly",17,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1633",NA,NA
+"223","2321NWW052",NA,NA,"Borehole",19.8,6.1,"Bedrock Met",1973-11-07,234920,222720,"to 1km","CLONMINCH",NA,"Offaly",17,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 123",NA,NA
+"224","2321NWW053",NA,NA,"Borehole",21.6,4.3,"Bedrock Met",1926-04-01,233680,225430,"to 1km","PUTTAGHAN",NA,"Offaly",17,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"yield not recorded (1926).",NA,NA
+"225","2321NWW054",NA,"TULLAMORE GOLF CLUB","Borehole",18.7,5.9,"Bedrock Met",1926-06-15,233000,224000,"to 1km","SPOLLANSTOWN",NA,"Offaly",17,"Domestic use only","Poor",NA,1.6,NA,NA,NA,NA,127,NA,NA,NA,NA,NA,NA,NA,NA
+"226","2321NWW055",NA,"OFFALY BOARD OF HEALTH","Borehole",30.5,5.2,"Bedrock Met",1940-01-01,235470,226750,"to 1km","BALLYDALY",NA,"Offaly",17,"Domestic use only","Poor",NA,6.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"227","2321NWW056",NA,NA,"Borehole",24.4,7.6,"Bedrock Met",1972-03-17,233550,227280,"to 1km","ARDAN",NA,"Offaly",17,"Domestic use only","Poor",NA,37.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1623",NA,NA
+"228","2321NWW058",NA,"OFFALY BOARD OF HEALTH","Borehole",30.8,9.6,"Bedrock Met",1940-01-01,242000,228000,"to 1km","RATHDRUM",NA,"Offaly",17,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"yield positive - not recorded",NA,NA
+"229","2321NWW059","Well No. 284","OFFALY COUNTY COUNCIL","Dug well",7.9,4.3,"Bedrock Met",1962-03-01,244000,228320,"to 1km","BALLYLENNON",NA,"Offaly",10,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"230","2321NWW060",NA,NA,"Borehole",19.2,7.9,"Bedrock Met",1965-05-01,244000,228220,"to 1km","BALLYLENNON",NA,"Offaly",10,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 538",NA,NA
+"231","2321NWW061",NA,"UNKNOWN","Dug well",4.6,NA,"Bedrock Not Met",1961-12-14,244000,228420,"to 1km","BALLYLENNON",NA,"Offaly",10,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 524",NA,"Date 1/2/1966"
+"232","2321NWW062",NA,NA,"Borehole",11.6,4.8,"Bedrock Met",1922-09-01,232520,228750,"to 1km","CULLEEN",NA,"Offaly",9,"Domestic use only","Poor",NA,1.1,NA,NA,NA,NA,127,NA,NA,NA,NA,NA,NA,NA,NA
+"233","2321NWW063",NA,"OFFALY BOARD OF HEALTH","Borehole",30.5,5.6,"Bedrock Met",1940-01-01,244550,221300,"to 1km","ALDERBOROUGH",NA,"Offaly",26,"Domestic use only","Poor",NA,8.7,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"234","2321NWW064",NA,NA,"Dug well",7.6,NA,"Bedrock Not Met",1962-08-17,243740,221650,"to 1km","CURRAGH",NA,"Offaly",26,"Domestic use only","Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 212",NA,NA
+"235","2321NWW065",NA,NA,"Borehole",23.5,9.8,"Bedrock Met",1962-04-30,239550,220820,"to 1km","NEWTOWN",NA,"Offaly",25,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 283, 591",NA,NA
+"236","2321NWW066",NA,NA,"Borehole",27.7,10.1,"Bedrock Met",1962-04-30,239550,220940,"to 1km","NEWTOWN",NA,"Offaly",25,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 233, 588",NA,NA
+"237","2321NWW067",NA,NA,"Dug well",5.8,NA,"Bedrock Not Met",1959-01-01,239550,220710,"to 1km","NEWTOWN",NA,"Offaly",25,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB re no. 25-4-18",NA,NA
+"238","2321NWW068","Well No. 298","OFFALY CO CO","Borehole",24.1,9.8,"Bedrock Met",1962-04-01,237250,221330,"to 1km","KILLEENMORE",NA,"Offaly",25,"Public supply (Co Co)","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"239","2321NWW069",NA,NA,"Borehole",25.9,12.2,"Bedrock Met",1961-08-30,237230,221230,"to 1km","KILLEENMORE",NA,"Offaly",25,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 194, 548",NA,NA
+"240","2321NWW070",NA,NA,"Borehole",26.5,8.5,"Bedrock Met",1961-07-14,237220,221100,"to 1km","KILLEENMORE",NA,"Offaly",25,NA,"Poor",NA,17.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 175, 526",NA,NA
+"241","2321NWW071",NA,NA,"Dug well",3.7,NA,"Bedrock Not Met",1959-01-01,237220,220980,"to 1km","KILLEENMORE",NA,"Offaly",25,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref no. 25-3-11",NA,NA
+"242","2321NWW072",NA,NA,"Borehole",18.3,NA,"DTB Unknown",NA,241070,221100,"to 1km","BALLYCOLLIN",NA,"Offaly",25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref.",NA,NA
+"243","2321NWW073",NA,NA,"Borehole",30.8,5.5,"Bedrock Met",1962-03-02,230720,220050,"to 1km","GRAIGUE",NA,"Offaly",25,"Domestic use only","Poor",NA,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 549",NA,NA
+"244","2321NWW074",NA,NA,"Dug well",6.7,NA,"Bedrock Not Met",1965-10-18,233150,220940,"to 1km","DERRYGOLAN",NA,"Offaly",25,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no solid rock met
+WTB/OFF 641",NA,NA
+"245","2321NWW076","ILC 1838",NA,"Borehole",5.8,NA,"Bedrock Not Met",1978-07-24,241600,226750,"to 1km","BALLYCOMMON",NA,"Offaly",18,NA,"Poor","IV",13.1,NA,NA,1.1,11.91,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"246","2321NWW079","ILC 944",NA,"Borehole",15.8,8.5,"Bedrock Met",1964-06-17,242640,226350,"to 1km","BALLYCOMMON",NA,"Offaly",18,NA,"Poor","IV",21.8,NA,NA,3.9,5.59,NA,NA,NA,NA,NA,NA,"PROBLEM WITH HIGH FE.",NA,NA
+"247","2321SEW005",NA,NA,"Dug well",4.3,NA,"Bedrock Not Met",1970-12-09,251540,213430,"to 1km","SHANDERRY",NA,"Offaly",33,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1382",NA,NA
+"248","2321SEW007",NA,"OFFALY COUNTY COUNCIL","Dug well",4.3,NA,"Bedrock Not Met",1962-01-01,247810,215620,"to 1km","CLONYGOWAN",NA,"Offaly",33,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Bacteriological report unsatisfactory.",NA,NA
+"249","2321SEW008",NA,NA,"Dug well",2.7,NA,"Bedrock Not Met",1970-11-05,251510,212630,"to 1km","SHANDERRY",NA,"Offaly",34,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1314",NA,NA
+"250","2321SEW009",NA,"OFFALY BOARD OF HEALTH","Borehole",40.5,9.9,"Bedrock Met",1940-01-01,257550,213400,"to 1km","TRASCAN",NA,"Offaly",34,"Industrial use","Poor",NA,7.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"251","2321SEW010",NA,NA,"Dug well",6.1,NA,"Bedrock Not Met",1959-01-01,253050,213200,"to 1km","KILMALOGUE",NA,"Offaly",34,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No yield data.
+ESB ref. 34-5-29",NA,NA
+"252","2321SEW011",NA,NA,"Borehole",21.3,NA,"DTB Unknown",1959-01-01,253050,213100,"to 1km","KILMALOGUE",NA,"Offaly",34,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no rockhead info.
+ESB ref. 27-6",NA,NA
+"253","2321SEW012",NA,NA,"Dug well",5.5,NA,"Bedrock Not Met",NA,253050,213330,"to 1km","KILMALOGUE",NA,"Offaly",34,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 34-5-24",NA,NA
+"254","2321SEW013",NA,"OFFALY GOLF CLUB","Dug well",4.3,NA,"Bedrock Not Met",NA,250750,210720,"to 1km","GARRYHINCH",NA,"Offaly",33,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref. 33-12-14",NA,NA
+"255","2321SEW014","Well No. 270","OFFALY COUNTY COUNCIL","Dug well",3.2,NA,"Bedrock Not Met",1962-04-01,250150,211040,"to 1km","GARRYHINCH",NA,"Offaly",33,"Domestic use only","Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"256","2321SEW015","Well No. 304","OFFALY COUNTY COUNCIL","Dug well",2.1,NA,"Bedrock Not Met",1962-04-01,251360,211280,"to 1km","ANNAMOE",NA,"Offaly",33,"Domestic use only","Poor",NA,35.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"257","2321SEW016",NA,NA,"Borehole",15.2,6.1,"Bedrock Met",1972-03-21,259200,213500,"to 1km","CLONDOOLUSK",NA,"Offaly",34,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"258","2321SEW018",NA,NA,"Borehole",6.4,NA,"Bedrock Not Met",1962-12-01,257550,213200,"to 1km","TRASCAN",NA,"Offaly",34,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"259","2321SEW019",NA,NA,"Dug well",4.9,NA,"Bedrock Not Met",1968-07-01,253770,212340,"to 1km","KILMALOGUE",NA,"Offaly",34,"Domestic use only","Poor",NA,14.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"260","2321SEW020",NA,"OFFALY BOARD OF HEALTH","Borehole",44.8,1.2,"Bedrock Met",1939-01-01,251100,219600,"to 1km","GARRYMONA",NA,"Offaly",27,"Domestic use only","Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1m of soil and drift cover",NA,NA
+"261","2321SEW021",NA,NA,"Borehole",13.4,12.2,"Bedrock Met",1968-05-13,257360,217370,"to 1km","CLONSAST LOWER",NA,"Offaly",27,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1024",NA,NA
+"262","2321SEW022",NA,"OFFALY BOARD OF HEALTH","Borehole",28.6,3.2,"Bedrock Met",1940-01-01,257360,217250,"to 1km","CLONSAST LOWER",NA,"Offaly",27,"Public supply (Co Co)","Poor",NA,3.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"263","2321SEW023","Well No. 280","OFFALY CO CO","Dug well",2.4,NA,"Bedrock Not Met",1962-04-01,254450,216150,"to 1km","CUSHINA",NA,"Offaly",27,"Public supply (Co Co)","Poor",NA,7.3,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"264","2321SEW024",NA,"OFFALY BOARD OF HEALTH","Borehole",17.1,0.9,"Bedrock Met",1940-01-01,249620,216430,"to 1km","BOGTOWN",NA,"Offaly",26,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"265","2321SEW025",NA,NA,"Dug well",6.1,NA,"Bedrock Not Met",1961-09-07,248700,219630,"to 1km","BALLYKEAN",NA,"Offaly",26,"Domestic use only","Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no solid rock met
+WTB/OFF 64, 411",NA,NA
+"266","2321SEW026",NA,NA,"Dug well",5.2,NA,"Bedrock Not Met",1963-10-07,248700,219740,"to 1km","BALLYKEAN",NA,"Offaly",26,"Domestic use only","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no solid rock met
+WTB/OFF 288, 642",NA,NA
+"267","2321SEW027",NA,NA,"Borehole",15.2,0.5,"Bedrock Met",1924-05-01,251140,219160,"to 1km","GARRYMONA",NA,"Offaly",26,"Domestic use only","Poor",NA,28.3,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,NA,NA,NA
+"268","2321SEW028",NA,NA,"Borehole",7.9,NA,"Bedrock Not Met",1963-09-04,248220,217890,"to 1km","KILCOONEY",NA,"Offaly",26,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 390",NA,NA
+"269","2321SEW029",NA,NA,"Borehole",11.9,NA,"Bedrock Not Met",1962-10-16,245530,219890,"to 1km","BALLYDOWNAN",NA,"Offaly",26,"Domestic use only","Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no solid rock met
+WTB/OFF 586",NA,NA
+"270","2321SEW030",NA,NA,"Dug well",9.1,NA,"Bedrock Not Met",1964-07-12,245520,219780,"to 1km","BALLYDOWNAN",NA,"Offaly",26,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no solid rock met
+WTB/OFF 368",NA,NA
+"271","2321SWW204","Well No. 273","OFFALY CO CO","Borehole",26.5,9.1,"Bedrock Met",1962-04-01,244250,215820,"to 1km","BALLYMACROSSAN",NA,"Offaly",26,"Public supply (Co Co)","Poor",NA,33.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"9m drift 17.3m rock
+",NA,NA
+"272","2321SWW205",NA,NA,"Dug well",3.4,NA,"DTB Unknown",1959-01-01,239320,218940,"to 1km","FINTER",NA,"Offaly",25,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"ESB ref no. 25-7-3",NA,NA
+"273","2321SWW206",NA,"OFFALY COUNTY COUNCIL","Borehole",6.7,NA,"DTB Unknown",1962-01-01,236500,218050,"to 1km","KILLEIGH",NA,"Offaly",25,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"274","2323SEW001","Well No. 286","OFFALY CO. CO.","Borehole",39.9,NA,"DTB Unknown",1962-03-01,248760,231600,"to 1km","GROVESEND",NA,"Offaly",10,"Public supply (Co Co)","Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"yield 1000gph. moderate drift.",NA,NA
+"275","2323SEW004",NA,"OFFALY CO. CO.","Borehole",52.6,4.3,"Bedrock Met",1962-04-01,253050,235500,"to 1km","COOLCOR",NA,"Offaly",4,"Public supply (Co Co)","Moderate",NA,87,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"drift 4.3m  Rock 48.3m",NA,NA
+"276","2323SEW005","BH No. 1","RHODE ESB (NEW POWER STATION)","Borehole",30.8,28.3,"Bedrock Met",1956-10-01,253140,234650,"to 1km","COOLCOR",NA,"Offaly",11,"Industrial use","Moderate",NA,76.3,NA,NA,NA,NA,254,NA,NA,NA,NA,NA,"Hole abandoned. yellow clay & mixture of stones. bkn rock",NA,NA
+"277","2323SEW006",NA,NA,"Borehole",36.6,6.1,"Bedrock Met",1969-12-10,248570,232560,"to 1km","CROGHAN",NA,"Offaly",10,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1309",NA,NA
+"278","2323SEW007","ILC 1364",NA,"Borehole",24.7,18,"Bedrock Met",1966-12-02,256700,233200,"to 1km","BALLYBRITTAN",NA,"Offaly",11,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"279","2323SEW010","Well No. 295","OFFALY CO. CO.","Dug well",5.5,NA,"Bedrock Not Met",1962-04-01,255200,234340,"to 1km","FAHY",NA,"Offaly",11,"Domestic use only","Poor",NA,17.8,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"280","2323SEW011",NA,"ESB Power Station","Borehole",45.7,24.4,"Bedrock Met",1956-10-01,253370,233720,"to 1km","RHODE",NA,"Offaly",11,"Industrial use",NA,NA,NA,NA,NA,NA,NA,254,NA,NA,NA,NA,NA,"No yield data. At ESB Power Station 1956.",NA,NA
+"281","2323SEW012","ILC 537","LAND COMMISSION, Smith Estate","Borehole",16.2,NA,"Bedrock Not Met",1960-03-15,253620,234170,"to 1km","LAURENCETOWN",NA,"Offaly",11,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"282","2323SEW013",NA,"Edenderry RDC","Borehole",46.5,16,"Bedrock Met",1924-04-01,250250,231210,"to 1km","COOLE",NA,"Offaly",10,"Public supply (Co Co)","Poor",NA,21.8,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,NA,NA,NA
+"283","2323SEW014",NA,NA,"Dug well",9.1,1.8,"Bedrock Met",1963-06-11,250250,231060,"to 1km","COOLE",NA,"Offaly",10,"Domestic use only","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 657",NA,NA
+"284","2323SEW015",NA,NA,"Borehole",25,15.8,"Bedrock Met",1924-05-01,253360,233830,"to 1km","LAURENCETOWN","Rhode","Offaly",11,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,NA,NA,NA
+"285","2323SEW016",NA,NA,"Dug well",7.9,NA,"Bedrock Not Met",1961-01-01,253370,233650,"to 1km","LAURENCETOWN",NA,"Offaly",11,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no yield info.
+ESB ref. 11-2-14",NA,NA
+"286","2323SEW017",NA,NA,"Borehole",20.7,14.6,"Bedrock Met",1924-05-01,253370,233900,"to 1km","LAURENCETOWN",NA,"Offaly",11,"Domestic use only","Poor",NA,39.2,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,NA,NA,NA
+"287","2323SEW019","Well No. 276","OFFALY COUNTY COUNCIL","Dug well",3.7,NA,"Bedrock Not Met",1962-04-01,247780,234870,"to 1km","BALLYFORE",NA,"Offaly",10,"Domestic use only","Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"288","2323SEW020",NA,NA,"Dug well",2.4,2.4,"Bedrock Presumed",1970-03-12,248000,230100,"to 1km","KILLESHIL",NA,"Offaly",10,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 893",NA,NA
+"289","2323SEW021","Well No. 296","OFFALY COUNTY COUNCIL","Borehole",32.3,NA,"DTB Unknown",NA,258100,236700,"to 1km","CLONMORE",NA,"Offaly",4,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no yield data",NA,NA
+"290","2323SEW022",NA,NA,"Dug well",7.6,1.2,"Bedrock Met",1968-09-13,257100,237500,"to 1km","KILLOWEN",NA,"Offaly",4,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1030",NA,NA
+"291","2323SEW023",NA,NA,"Borehole",19.8,NA,"Bedrock Not Met",1964-12-14,248000,236800,"to 1km","DERRYARKIN",NA,"Offaly",3,"Domestic use only","Poor",NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NO SOLID ROCK MET",NA,NA
+"292","2323SEW024",NA,NA,"Dug well",4.9,4.9,"Bedrock Presumed",1968-04-09,255000,236000,"to 1km","GREENHILLS",NA,"Offaly",4,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 674",NA,NA
+"293","2323SEW026",NA,NA,"Borehole",27,2.4,"Bedrock Met",1924-07-01,257650,239140,"to 1km","BALLYFORE",NA,"Offaly",3,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,127,NA,NA,NA,NA,NA,NA,NA,NA
+"294","2323SEW027",NA,NA,"Borehole",18.3,9.1,"Bedrock Met",1973-09-07,256600,239280,"to 1km","STONEHOUSE",NA,"Offaly",4,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1776",NA,NA
+"295","2323SEW032","ILC 1271",NA,"Borehole",12.8,NA,"Bedrock Not Met",1967-12-15,256100,231850,"to 1km","LEITRIM",NA,"Offaly",11,NA,"Poor","IV",15.3,NA,NA,0.6,25.5,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"296","2323SEW033","ILC 1186A","MOORE ESTATE - MR. O' SULLIVAN","Borehole",21.9,NA,"DTB Unknown",1968-07-26,259400,231800,"to 1km","BALLYCOLGAN",NA,"Offaly",11,NA,"Poor","V",21.8,NA,NA,6.1,3.57,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"297","2323SEW034","ILC 1190A",NA,"Borehole",38.1,17.9,"Bedrock Met",1968-08-13,256400,233200,"to 1km","BALLYBRITTAN",NA,"Offaly",11,NA,"Poor","IV",32.7,NA,NA,5.8,5.64,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"298","2323SEW035","ILC 1191A",NA,"Borehole",24.9,21,"Bedrock Met",1968-09-03,256200,232980,"to 1km","BALLYBRITTAN",NA,"Offaly",11,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"299","2323SEW036","ILC 984",NA,"Borehole",15.5,NA,"Bedrock Not Met",1964-07-13,257500,232650,"to 1km","BALLYBRITTAN",NA,"Offaly",11,NA,"Good",NA,130.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No bedrock reached",NA,NA
+"300","2323SWW003",NA,NA,"Borehole",27.1,9.1,"Bedrock Met",1970-08-26,234260,230350,"to 1km","BALLEEK",NA,"Offaly",9,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1346",NA,NA
+"301","2323SWW004",NA,"OFFALY UDC","Borehole",9.5,6.4,"Bedrock Met",1986-06-27,231420,230240,"to 1km","DURROW",NA,"Offaly",9,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"waterlevel at surface.",NA,NA
+"302","2323SWW005","BH B","OFFALY UDC","Borehole",9.7,7.7,"Bedrock Met",1986-06-27,231420,230260,"to 1km","DURROW",NA,"Offaly",9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"THIS IS BOREHOLE B AT SITE",NA,NA
+"303","2323SWW006",NA,"OFFALY UDC","Borehole",9.5,5.5,"Bedrock Met",1986-06-27,231420,230280,"to 1km","DURROW",NA,"Offaly",9,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no yield data",NA,NA
+"304","2323SWW007",NA,"OFFALY BOARD OF HEALTH","Borehole",50.6,16.2,"Bedrock Met",1940-01-01,238120,230830,"to 1km","BRACKLIN",NA,"Offaly",9,"Public supply (Co Co)","Moderate",NA,58.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"305","2323SWW008",NA,NA,"Borehole",18.3,6.1,"Bedrock Met",1924-08-01,244250,230450,"to 1km","CLYDUFF",NA,"Offaly",10,"Domestic use only","Poor",NA,39.2,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,NA,NA,NA
+"306","2323SWW010",NA,NA,"Borehole",30.5,9.1,"Bedrock Met",1973-05-14,233750,230600,"to 1km","BALLEEK",NA,"Offaly",9,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1752",NA,NA
+"307","2323SWW011",NA,NA,"Borehole",29.6,6.1,"Bedrock Met",1963-01-24,233750,230700,"to 1km","BALLEEK",NA,"Offaly",9,"Domestic use only","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 379; Well bored from 11.3m to 29.6m. Record shows SWL at 29.6m.",NA,NA
+"308","2323SWW012",NA,NA,"Dug well",11.3,6.1,"Bedrock Met",NA,233750,230500,"to 1km","BALLEEK",NA,"Offaly",9,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"309","2323SWW013",NA,NA,"Borehole",27.4,9.1,"Bedrock Met",1973-08-21,232650,231750,"to 1km","BALLYBOUGHT",NA,"Offaly",8,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1885",NA,NA
+"310","2323SWW014",NA,NA,"Borehole",30.8,29.9,"Bedrock Met",1963-01-17,232650,231850,"to 1km","BALLYBOUGHT",NA,"Offaly",8,"Domestic use only","Poor",NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 658
+29.8 M DRIFT COVER",NA,NA
+"311","2323SWW015",NA,NA,"Dug well",1.5,1.5,"Bedrock Presumed",1968-09-20,230400,231600,"to 1km","CARTRON EAST",NA,"Offaly",8,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 627",NA,NA
+"312","2323SWW016",NA,NA,"Borehole",18.9,6.1,"Bedrock Met",1971-08-13,230800,230670,"to 1km","CONIKER",NA,"Offaly",8,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"313","2323SWW022",NA,NA,"Borehole",97.5,0,"Bedrock Met",1997-11-28,235280,230220,"to 1km","BALLYNAMONA","TULLAMORE","Offaly",9,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,175,12.2,73.1,NA,NA,NA,NA,NA,"the yield was estimated no test was carried out"
+"314","2621NWW002",NA,"OFFALY COUNTY COUNCIL","Dug well",2.7,NA,"Bedrock Not Met",NA,261750,228550,"to 1km","SHEAN",NA,"Offaly",20,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"315","2621NWW003",NA,"BORD NA MONA","Dug well",5.9,NA,"Bedrock Not Met",1962-01-01,265200,229630,"to 1km","DERRIES",NA,"Offaly",12,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"well abandoned-pollution fears 1962. No yield data.",NA,NA
+"316","2621NWW004",NA,"OFFALY COUNTY COUNCIL","Dug well",NA,NA,NA,1962-01-01,265200,229510,"to 1km","DERRIES",NA,"Offaly",12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No additional info (depth, yield etc. given)",NA,NA
+"317","2621NWW005",NA,"OFFALY BOARD OF HEALTH.","Borehole",30.5,8.2,"Bedrock Met",1905-04-23,265200,229410,"to 1km","DERRIES",NA,"Offaly",12,"Public supply (Co Co)","Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"318","2621NWW006",NA,"OFFALY BOARD OF HEALTH","Borehole",30.5,12.2,"Bedrock Met",1940-01-01,265200,229320,"to 1km","DERRIES",NA,"Offaly",12,"Public supply (Co Co)","Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"well turned black - well abandoned 1962",NA,"later yield reduced to 13.1"
+"319","2621NWW007",NA,NA,"Dug well",5.2,NA,"Bedrock Not Met",NA,260400,228330,"to 1km","BALLYKILLEEN",NA,"Offaly",11,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No yield info. BALLYKILLEEN HOUSE.
+ESB ref. 11-16-15",NA,NA
+"320","2621NWW008",NA,NA,"Dug well",9.1,NA,"Bedrock Not Met",NA,260400,228420,"to 1km","BALLYKILLEEN",NA,"Offaly",11,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no yield info.
+ESB ref. 11-16-15",NA,NA
+"321","2621NWW009",NA,"OFFALY BOARD OF HEALTH","Borehole",42.7,8.4,"Bedrock Met",1905-04-23,260700,221400,"to 1km","AGHAMEELICK",NA,"Offaly",27,"Public supply (Co Co)","Poor",NA,6.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"322","2621NWW010","ILC 1130","Land Commission","Borehole",33.5,6.7,"Bedrock Met",1971-12-03,262350,226100,"to 1km","CLONCANT",NA,"Offaly",20,NA,"Poor","V",29.4,NA,NA,10.4,2.83,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"323","2621NWW011","ILC 1131",NA,"Borehole",49.7,3.7,"Bedrock Met",1955-05-05,262350,226100,"to 1km","CLONCANT",NA,"Offaly",20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"GROSSLY POLLUTED. HIGH TDS.",NA,NA
+"324","2621NWW012","ILC 1680",NA,"Borehole",32.6,1.2,NA,1972-09-30,262300,226450,"to 1km","CLONCANT",NA,"Offaly",20,NA,"Poor","V",32.7,NA,NA,18.3,1.79,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"325","2621SWW001",NA,"BORD NA MONA","Borehole",54.9,8.2,"Bedrock Met",NA,260650,217150,"to 1km","BRACKNAGH",NA,"Offaly",27,"Industrial use","Good",NA,163.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Townsend",NA,NA
+"326","2621SWW002",NA,NA,"Borehole",11.9,6.1,"Bedrock Met",1969-02-10,260400,219600,"to 1km","CLONCASSON",NA,"Offaly",27,"Domestic use only","Poor",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/OFF 1015",NA,NA
+"327","2623SWW005",NA,NA,"Unknown",NA,NA,NA,NA,264600,233410,"to 1km","EDENDERRY",NA,"Offaly",12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"328","2623SWW006",NA,NA,"Dug well",4.3,NA,"Bedrock Not Met",NA,262090,231500,"to 1km","COLGANS BRIDGE",NA,"Offaly",12,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No yield data.
+ESB ref. 12-9-1",NA,NA
+"329","2623SWW007",NA,NA,"Dug well",4.3,NA,"Bedrock Not Met",NA,262910,233350,"to 1km","EDENDERRY",NA,"Offaly",12,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No yield data.",NA,NA
+"330","2623SWW008",NA,NA,"Dug well",5.2,NA,"Bedrock Not Met",NA,261050,231420,"to 1km","RATHMORE",NA,"Offaly",12,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No yield data
+ESB ref. 12-9-11",NA,NA
+"331","2623SWW009",NA,"DEPARTMENT OF AGRICULTURE WELL 43","Dug well",6.1,NA,"Bedrock Not Met",1962-03-01,262850,233350,"to 1km","EDENDERRY",NA,"Offaly",11,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Supplied family and livestock.",NA,NA
+"332","2623SWW010",NA,NA,"Borehole",11.6,3.1,"Bedrock Met",1970-12-07,261000,233000,"to 1km","MONASTERORIS",NA,"Offaly",12,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,43.6,NA,NA,NA,NA,NA,"WTB/OFF 1191",NA,NA

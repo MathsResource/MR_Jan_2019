@@ -1,0 +1,22 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","1729NEW104","WS 10","Co Co","Borehole",4.7,NA,"Bedrock Not Met",2000-02-25,195050,301220,"to 10m","CORNAMUCKLAGH",NA,"Leitrim",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","1729NEW105","WS 9","Co Co","Borehole",3,NA,"Bedrock Met",NA,194850,301160,"to 10m","BALLYNAMONY",NA,"Leitrim",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","1729NEW107","WS 6","Co Co","Borehole",4.8,NA,"DTB Unknown",NA,194850,300900,"to 10m","BALLYNAMONY",NA,"Leitrim",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Possibly BR at 4.8",NA,NA
+"4","1729NEW108","WS 2","Co Co","Borehole",3.4,NA,"DTB Unknown",NA,195030,300980,"to 10m","CORNAMUCKLAGH",NA,"Leitrim",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5","2027NWW101",NA,NA,"Borehole",48.8,9.1,"Bedrock Met",1998-01-27,209870,289750,"to 20m","CLOONCARREEN",NA,"Leitrim",35,"Domestic use only","Moderate","IV",60,NA,NA,6,10,152,24.4,NA,NA,NA,NA,"Drilled by Pat Dullea, Donegal
+Limestone",NA,"36 hr test"
+"6","2029SEW101",NA,NA,"Borehole",54.9,8.5,"Bedrock Met",NA,217630,299230,"to 20m","GORTNACAMDARRAGH",NA,"Leitrim",33,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,48.8,NA,NA,NA,NA,"Drilled by Tom Briody, Kells
+Limestone",NA,"2 hr test"
+"7","1729NEW106","WS 8","Co Co","Borehole",1.8,NA,"DTB Unknown",2000-02-24,194760,300910,"to 50m","BALLYNAMONY",NA,"Leitrim",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"possibly BR at 1.8m ?",NA,NA
+"8","1729SEW201","RC 1",NA,"Borehole",14,9.2,"Bedrock Met",1992-01-30,194840,299470,"to 50m","CARRICK ON SHANNON","CARRICK ON SHANNON","Leitrim",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"PROPOSED TESCO DEVELOPMENT",NA
+"9","1729SEW202",NA,NA,"Borehole",13,6.9,"Bedrock Met",2002-02-04,194770,299510,"to 50m","CARRICK ON SHANNON","CARRICK ON SHANNON","Leitrim",31,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"proposed tesco development","Steel Casing, Max Safe yield: 
+32.7m3/day"
+"10","1733NEW001",NA,NA,"Borehole",62.5,13.7,"Bedrock Met",2004-10-26,192950,348240,"to 50m","CONRAY",NA,"Leitrim",5,"Agri & domestic use","Poor","IV",10.9,NA,NA,1.5,7.27,152,45.7,NA,NA,NA,NA,"Drilled by Dullea, Donegal
+Limestone",NA,"1 hr test"
+"11","1733NWW001",NA,NA,"Borehole",68.6,7.9,"Bedrock Met",NA,182400,341870,"to 50m","CARRICKEENY",NA,"Leitrim",7,"Agri & domestic use","Poor","V",10.9,NA,NA,24.4,0.45,152,48.8,NA,NA,NA,NA,"Drilled by Dullea, Donegal
+Limestone",NA,"6 hr test"
+"12","1735SEW101","1085",NA,"Borehole",42.7,10.7,"Bedrock Met",1998-04-05,186550,353030,"to 50m","BUCKODE",NA,"Leitrim",2,"Domestic use only","Poor","V",10.9,NA,NA,15.2,0.72,152,15.2,33.5,NA,NA,NA,"Drilled by Dullea, Donegal
+Black limestone",NA,"72 hr test"
+"13","2029NEW207",NA,NA,"Borehole",42.7,12.2,"Bedrock Met",1998-02-27,222890,307350,"to 50m","DRUMEELA",NA,"Leitrim",30,"Domestic use only","Moderate","III",87.3,NA,NA,6.1,14.31,152,30.5,NA,NA,NA,NA,"Drilled  by Norbert Briody, Kells, Co. Meath; Limestone",NA,"6 hr test"
+"14","2029NEW209",NA,NA,"Borehole",54.9,24.4,"Bedrock Met",NA,222290,305700,"to 50m","CURRAGHABOY",NA,"Leitrim",30,"Domestic use only","Good",NA,164,NA,NA,NA,NA,152,48.8,NA,NA,NA,NA,"Drilled by Tom Briody, Kells
+Limestone",NA,"Yield estimated from 1.5 hr test"

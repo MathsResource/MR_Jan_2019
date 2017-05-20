@@ -1,0 +1,344 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","2921NEW012","MW 98-1",NA,"Borehole",5.8,NA,"Bedrock Not Met",1998-11-11,309320,228190,"to 10m","TALLAGHT",NA,"Dublin",22,NA,NA,NA,NA,NA,NA,NA,NA,NA,1.7,NA,NA,NA,NA,"Info from Shane Bennet
+Water analysis on file",NA,"1 mm slot size in wellscreen"
+"2","2921NEW013","TP 98-1",NA,"Dug well",2,NA,"Bedrock Not Met",1998-11-11,309270,228190,"to 10m","TALLAGHT",NA,"Dublin",21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Info from Shane Bennet
+Test Pit",NA,NA
+"3","2921NEW014","TP 98-2",NA,"Dug well",2.1,NA,"Bedrock Not Met",1998-11-11,309270,228170,"to 10m","TALLAGHT",NA,"Dublin",21,NA,NA,NA,NA,NA,NA,NA,NA,NA,2.05,NA,NA,NA,NA,"Info from Shane Bennet
+Test Pit",NA,NA
+"4","2923NEW046","DH 1",NA,"Borehole",20.8,6.2,"Bedrock Met",1994-03-11,306090,243260,"to 10m","KILMARTIN","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by IGSL by rotary",NA,NA
+"5","2923NEW047","DH 2",NA,"Borehole",22.5,2.3,"Bedrock Met",1994-03-16,306890,242310,"to 10m","TYRRELSTOWN","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by IGSL by rotary",NA,NA
+"6","2923NEW048","DH 3",NA,"Borehole",12,2,"Bedrock Met",1994-03-23,307210,242210,"to 10m","TYRRELSTOWN","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by IGSL by rotary",NA,NA
+"7","2923NEW049","DH 4",NA,"Borehole",22.2,2,"Bedrock Met",1994-03-25,307400,242120,"to 10m","TYRRELSTOWN","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by IGSL by rotary",NA,"Standpipe installed on completion, slotted from 2.1 to 22.2 m."
+"8","2923NEW050","DH 5",NA,"Borehole",23,2.8,"Bedrock Met",1994-03-31,307200,242610,"to 10m","TYRRELSTOWN","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by IGSL by rotary",NA,"Standpipe installed on completion, slotted from 3.0 to 23 m."
+"9","2923NEW051","DH 6",NA,"Borehole",23,2.9,"Bedrock Met",1994-04-05,307480,242720,"to 10m","TYRRELSTOWN","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by IGSL by rotary",NA,"Standpipe installed on completion, slotted from 3.1 to 23 m."
+"10","2923NEW052","DH 7",NA,"Borehole",24,4,"Bedrock Met",1994-04-11,306840,242990,"to 10m","KILMARTIN","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by IGSL by rotary",NA,"Standpipe installed on completion, slotted from 4.1 to 24 m."
+"11","2923NEW053","DH 8",NA,"Borehole",24.5,5.9,"Bedrock Met",1994-04-11,307230,242880,"to 10m","KILMARTIN","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by IGSL by rotary",NA,"Standpipe installed on completion, slotted from 6 to 24.5m"
+"12","2923NEW054","DH 9",NA,"Borehole",23,3,"Bedrock Met",1994-04-14,307680,242350,"to 10m","HOLLYWOODRATH","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by IGSL by rotary",NA,"Standpipe installed on completion, slotted from 3 to 23 m."
+"13","2923NEW055","DH 10",NA,"Borehole",23.5,3.5,"Bedrock Met",1994-04-15,307820,242700,"to 10m","HOLLYWOODRATH","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by IGSL by rotary",NA,"Standpipe installed on completion, slotted from 3.55 to 23.5 m."
+"14","2923NEW056","DH 11",NA,"Borehole",23.5,7.5,"Bedrock Met",1994-07-21,306580,242640,"to 10m","POWERSTOWN","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by IGSL by rotary",NA,"Standpipe installed on completion."
+"15","2923NEW057","DH 12",NA,"Borehole",23.6,6.2,"Bedrock Met",1994-07-28,306610,242460,"to 10m","POWERSTOWN","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by IGSL by rotary",NA,"Standpipe installed on completion"
+"16","2923NEW058","BH 1",NA,"Borehole",7.4,7.4,"Bedrock Presumed",1994-07-13,306070,243250,"to 10m","KILMARTIN","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,7.4,NA,NA,NA,NA,"Drilled by IGSL by Shell & Auger",NA,"Standpipe installed to 3.4m on completion"
+"17","2923NEW059","BH 2",NA,"Borehole",6.8,6.8,"Bedrock Presumed",1994-07-14,306830,242290,"to 10m","TYRRELSTOWN","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,6.7,NA,NA,NA,NA,"Drilled by IGSL by Shell & Auger",NA,"Standpipe installed on completion"
+"18","2923NEW060","BH 3",NA,"Borehole",3,3,"Bedrock Presumed",1994-07-12,307830,242730,"to 10m","HOLLYWOODRATH","Mulhuddart","Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,2.7,NA,NA,NA,NA,"Drilled by IGSL by Shell & Auger",NA,"Standpipe installed on completion"
+"19","2923NEW061","BH 1","ESB","Borehole",15.5,5.5,"Bedrock Met",1993-02-26,312990,240270,"to 10m","CHARLESTOWN","Finglas","Dublin",14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger to 4.1m, then cored",NA,NA
+"20","2923NEW062","BH 2","ESB","Borehole",9.5,4,"Bedrock Met",1993-02-26,313010,240320,"to 10m","CHARLESTOWN","Finglas","Dublin",14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger to 3.9m, then cored",NA,NA
+"21","2923NEW063","Sunday Well",NA,"Spring",NA,NA,NA,NA,319130,248860,"to 10m","LISSENHALL LITTLE",NA,"Dublin",12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"22","2923NEW064","BH 4","ESB","Borehole",2.8,2.6,"Bedrock Presumed",1993-02-27,313020,240250,"to 10m","CHARLESTOWN","Finglas","Dublin",14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,NA
+"23","2925NEW038","BH 28","M1 site investigation","Borehole",10,NA,"Bedrock Not Met",1995-01-01,318430,257860,"to 10m","HEDGESTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"24","2925NEW039","BH 29","M1 site investigation","Borehole",3.5,NA,"Bedrock Not Met",1995-01-01,318430,257930,"to 10m","HEDGESTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"25","2925NEW053","BH 20","M1 site investigation","Borehole",6,NA,"Bedrock Not Met",1995-01-01,318660,257340,"to 10m","HEDGESTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"26","2925NEW067","BH 84","M1 site investigation","Borehole",7.3,NA,"Bedrock Not Met",1995-01-01,318570,259810,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"27","2925NEW080","BH 58","M1 site investigation","Borehole",4.3,NA,"Bedrock Not Met",1995-01-01,318400,258590,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"28","2925NEW084","BH 69","M1 site investigation","Borehole",4.5,NA,"Bedrock Not Met",1995-01-01,318460,258930,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"29","2925NEW095","BH 99","M1 site investigation","Borehole",4,NA,"Bedrock Not Met",1995-01-01,318610,260380,"to 10m","KNOCK",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"30","2925NEW096","BH 100","M1 site investigation","Borehole",4,NA,"Bedrock Not Met",1995-01-01,318640,260450,"to 10m","KNOCK",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"31","2925NEW097","BH 101","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,318620,260530,"to 10m","KNOCK",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"32","2925NEW098","BH 102","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,318650,260610,"to 10m","KNOCK",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"33","2925NEW099","BH 103","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,318640,260680,"to 10m","KNOCK",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"34","2925NEW100","BH 104","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,318670,260750,"to 10m","BOWHILL",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"35","2925NEW101","BH 134","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,317940,262230,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"36","2925NEW102",NA,"M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,317960,262310,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"37","2925NEW103","BH 136","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,317910,262330,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"38","2925NEW104","BH 155","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,317710,262550,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"39","2925NEW105","BH 157","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,317680,262620,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"40","2925NEW106","BH 159","M1 site investigation","Borehole",2.2,NA,"Bedrock Not Met",1995-01-01,317620,262680,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"41","2925NEW107","BH 160","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,317600,262740,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"42","2925NEW108","BH 161","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,317530,262780,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"43","2925NEW108","BH 161","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,317530,262780,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"44","2925NEW109","BH 162","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,317510,262850,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"45","2925NEW110","BH 163","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,317550,262890,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"46","2925NEW111","BH 164","M1 site investigation","Borehole",3.1,NA,"Bedrock Not Met",1995-01-01,317580,262950,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"47","2925NEW112","BH 166","M1 site investigation","Borehole",3.5,NA,"Bedrock Not Met",1995-01-01,317310,263070,"to 10m","COMMONS",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"48","2925NEW113","BH 174","M1 site investigation","Borehole",7,NA,"Bedrock Not Met",1995-01-01,316930,263510,"to 10m","GRANGE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"49","2925NEW114","BH 175","M1 site investigation","Borehole",7,NA,"Bedrock Not Met",1995-01-01,316860,263560,"to 10m","GRANGE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"50","2925NEW115","BH 176","M1 site investigation","Borehole",6.5,NA,"Bedrock Not Met",1995-01-01,316830,263620,"to 10m","GRANGE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"51","2925NEW116","BH 128","M1 site investigation","Borehole",5.3,NA,"Bedrock Not Met",1995-01-01,318090,262000,"to 10m","FOLKSTOWN",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"52","2925NEW117","BH 198","M1 site investigation","Borehole",6.5,NA,"Bedrock Not Met",1995-01-01,316260,264460,"to 10m","TOBERSTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"53","2925NEW118","BH 200","M1 site investigation","Borehole",2.7,NA,"Bedrock Not Met",1995-01-01,316190,264590,"to 10m","TOBERSTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"54","2925NEW119","BH 207","M1 site investigation","Borehole",7.4,NA,"Bedrock Not Met",1995-01-01,315990,265060,"to 10m","TOBERSOOL",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"55","2925NEW120","BH 208","M1 site investigation","Borehole",9.9,NA,"Bedrock Not Met",1995-01-01,315980,265140,"to 10m","DRUMMANS",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"56","2925NEW121","BH 209","M1 site investigation","Borehole",11.7,NA,"Bedrock Not Met",1995-01-01,315970,265190,"to 10m","DRUMMANS",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"57","2925NEW122","BH 210","M1 site investigation","Borehole",9.9,NA,"Bedrock Not Met",1995-01-01,315950,265260,"to 10m","DRUMMANS",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"58","2925NEW123","BH 211","M1 site investigation","Borehole",7.8,NA,"Bedrock Not Met",1995-01-01,315910,265330,"to 10m","DRUMMANS",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"59","2925NEW124","BH 87","M1 site investigation","Borehole",7,NA,"Bedrock Not Met",1995-01-01,318560,260020,"to 10m","RING COMMONS",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"60","2925NEW125","BH 213","M1 site investigation","Borehole",6.5,NA,"Bedrock Not Met",1995-01-01,315870,265470,"to 10m","DRUMMANS",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"61","2925NEW126","TP 220","M1 site investigation","Borehole",1.5,NA,"Bedrock Not Met",1995-01-01,315830,266020,"to 10m","GORMANSTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"62","2925NEW127","BH 221","M1 site investigation","Borehole",2.8,NA,"Bedrock Not Met",1995-01-01,315760,266050,"to 10m","GORMANSTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"63","2925NEW128","BH 222","M1 site investigation","Borehole",3.5,NA,"Bedrock Not Met",1995-01-01,315810,266150,"to 10m","GORMANSTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"64","2925NEW129","TP 237","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,315700,266310,"to 10m","GORMANSTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"65","2925NEW130","BH 87","M1 site investigation","Borehole",7,NA,"Bedrock Not Met",1995-01-01,318560,260020,"to 10m","KNOCK",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"66","2925NEW131","BH 97","M1 site investigation","Borehole",5,NA,"Bedrock Not Met",1995-01-01,318580,260240,"to 10m","KNOCK",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"67","2925NEW132","BH 106","M1 site investigation","Borehole",5.5,NA,"Bedrock Not Met",1995-01-01,318550,260820,"to 10m","BOWHILL",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"68","2925NEW133","BH 107","M1 site investigation","Borehole",5.5,NA,"Bedrock Not Met",1995-01-01,318510,260880,"to 10m","BOWHILL",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"69","2925NEW134","BH 108","M1 site investigation","Borehole",5.5,NA,"Bedrock Not Met",1995-01-01,318520,260980,"to 10m","BOWHILL",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"70","2925NEW135","BH 109","M1 site investigation","Borehole",6.3,NA,"Bedrock Not Met",1995-01-01,318470,261030,"to 10m","BOWHILL",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"71","2925NEW136","BH 110","M1 site investigation","Borehole",3.2,NA,"Bedrock Not Met",1989-12-29,318480,261120,"to 10m","BOWHILL",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"72","2925NEW137","BH 111","M1 site investigation","Borehole",9.5,9,"Bedrock Presumed",1995-01-01,318400,261180,"to 10m","BOWHILL",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"73","2925NEW138","BH 112","M1 site investigation","Borehole",5.5,NA,"Bedrock Not Met",1995-01-01,318440,261250,"to 10m","BOWHILL",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"74","2925NEW139","BH 139","M1 site investigation","Borehole",1.8,1.6,"Bedrock Presumed",1995-01-01,317850,262390,"to 10m","DALLYHAYSY",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"75","2925NEW140","BH 143","M1 site investigation","Borehole",1.8,1.4,"Bedrock Presumed",1995-01-01,317860,262440,"to 10m","DALLYHAYSY",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"76","2925NEW141","BH 151","M1 site investigation","Borehole",2.2,2,"Bedrock Presumed",1995-01-01,317820,262460,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"77","2925NEW142","BH 153","M1 site investigation","Borehole",3,2.6,"Bedrock Presumed",1995-01-01,317770,262490,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"78","2925NEW143","BH 156","M1 site investigation","Borehole",2.4,2.1,"Bedrock Presumed",1995-01-01,317760,262540,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"79","2925NEW144","Bh 165","M1 site investigation","Borehole",3.5,NA,"Bedrock Not Met",1995-01-01,317350,262990,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"80","2925NEW145","BH 167","M1 site investigation","Borehole",2,1.5,"Bedrock Presumed",1995-01-01,317250,263110,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"81","2925NEW146","BH 168A","M1 site investigation","Borehole",8,4,"Bedrock Met",1995-01-01,317200,263160,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"82","2925NEW147","BH 168","M1 site investigation","Borehole",3,2.5,"Bedrock Presumed",1995-01-01,317220,263160,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83","2925NEW148","BH 169","M1 site investigation","Borehole",2,1.4,"Bedrock Presumed",1995-01-01,317160,263220,"to 10m","NEWTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"84","2925NEW149","Bh 169A","M1 site investigation","Borehole",10,4.7,"Bedrock Met",1995-01-01,317150,263240,"to 10m","COMMONS",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"85","2925NEW150","Bh 170B","M1 site investigation","Borehole",10,5,"Bedrock Met",1995-01-01,317110,263310,"to 10m","COMMONS",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"86","2925NEW151","BH 170","M1 site investigation","Borehole",3,2.5,"Bedrock Presumed",1995-01-01,317120,263280,"to 10m","COMMONS",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"87","2925NEW152","BH 171","M1 site investigation","Borehole",3,2.5,"Bedrock Presumed",1995-01-01,317130,263340,"to 10m","COMMONS",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"88","2925NEW153","BH 172A","M1 site investigation","Borehole",8,6.3,"Bedrock Presumed",1995-01-01,317020,263390,"to 10m","COMMONS",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Date 18/4/1963"
+"89","2925NEW155","BH 172","M1 site investigation","Borehole",6.5,3.8,"Bedrock Met",1995-01-01,317040,263410,"to 10m","COMMONS",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"90","2925NEW156","BH 173A","M1 site investigation","Borehole",9,8,"Bedrock Met",1995-01-01,316980,263460,"to 10m","COMMONS",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Date 1/2/1966"
+"91","2925NEW157","BH 173","M1 site investigation","Borehole",6.5,NA,"Bedrock Not Met",1995-01-01,316960,263440,"to 10m","GRANGE",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"92","2925NEW158","BH 177A","M1 site investigation","Borehole",7,4.5,"Bedrock Met",1995-01-01,316790,263670,"to 10m","GRANGE",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Date 1/10/1965"
+"93","2925NEW159","BH 177","M1 site investigation","Borehole",5.5,NA,"Bedrock Not Met",1995-01-01,316770,263660,"to 10m","GRANGE",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"94","2925NEW160","BH 178","M1 site investigation","Borehole",3.5,3.5,"Bedrock Presumed",1995-01-01,316740,263730,"to 10m","GRANGE",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Date 11/7/1962"
+"95","2925NEW161","BH 307","M1 site investigation","Borehole",7,6.5,"Bedrock Presumed",1995-01-01,318580,260060,"to 10m","KNOCK",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"96","2925NEW162","BH 88","M1 site investigation","Borehole",5,NA,"Bedrock Not Met",1995-01-01,318590,260090,"to 10m","KNOCK",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"97","2925NEW163","BH 96","M1 site investigation","Borehole",4,NA,"Bedrock Not Met",1995-01-01,318570,260170,"to 10m","KNOCK",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"98","2925NEW165","BH 214","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,315880,265540,"to 10m","DRUMMANS",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"99","2925NEW166","BH 215","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,315850,265620,"to 10m","DRUMMANS",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"100","2925NEW167","BH 216","M1 site investigation","Borehole",4.5,NA,"Bedrock Not Met",1995-01-01,315860,265690,"to 10m","DRUMMANS",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"101","2925NEW168","BH 217","M1 site investigation","Borehole",4.5,NA,"Bedrock Not Met",1995-01-01,315810,265800,"to 10m","DRUMMANS",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"102","2925NEW169","BH 218","M1 site investigation","Borehole",4,NA,"Bedrock Not Met",1995-01-01,315840,265910,"to 10m","DRUMMANS",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"103","2925NEW170","BH 219","M1 site investigation","Borehole",4,NA,"Bedrock Not Met",1995-01-01,315800,265940,"to 10m","DRUMMANS",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"104","2925NEW171","BH 233","M1 site investigation","Borehole",3.6,NA,"Bedrock Not Met",1995-01-01,315750,266150,"to 10m","GORMANSTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"105","2925NEW172","BH 234","M1 site investigation","Borehole",3.6,NA,"Bedrock Not Met",1995-01-01,315790,266220,"to 10m","GORMANSTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"106","2925NEW173","BH 235","M1 site investigation","Borehole",3.7,NA,"Bedrock Not Met",1995-01-01,315730,266240,"to 10m","GORMANSTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"107","2925NEW174","BH 236","M1 site investigation","Borehole",2.7,NA,"Bedrock Not Met",1995-01-01,315740,266300,"to 10m","GORMANSTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"108","2925NEW175","BH 179","M1 site investigation","Borehole",3.1,NA,"Bedrock Not Met",1995-01-01,316680,263770,"to 10m","GRANGE",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"109","2925NEW176","BH 180","M1 site investigation","Borehole",8,NA,"Bedrock Not Met",1995-01-01,316650,263840,"to 10m","GRANGE",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"110","2925NEW177","BH 181","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,316590,263890,"to 10m","GRANGE",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"111","2925NEW178","BH 182","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,316560,263960,"to 10m","GRANGE",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"112","2925NEW179","BH 183","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,316500,264010,"to 10m","TOBERTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"113","2925NEW180","BH 184","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,316480,264080,"to 10m","TOBERTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"114","2925NEW181","BH 185","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,316420,264130,"to 10m","TOBERTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"115","2925NEW182","BH 186","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,316390,264210,"to 10m","TOBERTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"116","2925NEW183","BH 187","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,316340,264260,"to 10m","TOBERTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"117","2925NEW184","BH 188","M1 site investigation","Borehole",5.3,NA,"Bedrock Presumed",1995-01-01,316330,264330,"to 10m","TOBERTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"118","2925NEW185","BH 189","M1 site investigation","Borehole",5.8,NA,"Bedrock Not Met",1995-01-01,316270,264380,"to 10m","TOBERTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"119","2925NEW186","BH 199","M1 site investigation","Borehole",5.5,NA,"Bedrock Not Met",1995-01-01,316210,264520,"to 10m","TOBERTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"120","2925NEW187","BH 201","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,316140,264650,"to 10m","TOBERTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"121","2925NEW188","BH 202","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,316130,264720,"to 10m","TOBERTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"122","2925NEW189","BH 203","M1 site investigation","Borehole",3.8,NA,"Bedrock Not Met",1998-01-01,316080,264810,"to 10m","TOBERTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"123","2925NEW190","BH 204","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,316060,264880,"to 10m","TOBERTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"124","2925NEW191","BH 205","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,316040,264920,"to 10m","TOBERSOOL",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"125","2925NEW192","BH 206","M1 site investigation","Borehole",4.2,NA,"Bedrock Not Met",1995-01-01,316020,264990,"to 10m","TOBERSOOL",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"126","2925NEW193","BH 212","M1 site investigation","Borehole",6,NA,"Bedrock Not Met",1995-01-01,315910,265410,"to 10m","TOBERSOOL",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"127","2925NEW194","BH 113","M1 site investigation","Borehole",5,NA,"Bedrock Not Met",1995-01-01,318390,261310,"to 10m","DERMOTSTOWN",NA,"Dublin",1,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"128","2925NEW195","BH 114","M1 site investigation","Borehole",6.5,NA,"Bedrock Not Met",1995-01-01,318380,261400,"to 10m","BOWHILL",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"129","2925NEW196","BH 115","M1 site investigation","Borehole",5.5,NA,"Bedrock Not Met",1995-01-01,318380,261470,"to 10m","TURKINSTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"130","2925SEW031","BH 3","M1 Construction","Borehole",2.5,0,"Bedrock Not Met",1995-01-01,318960,256660,"to 10m","JORDANSTOWN","Balbriggan","Dublin",8,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"from 1:1,000 paper map
+E 318962, N 256663",NA
+"131","2925SEW032","BH 21","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,318610,257400,"to 10m","HEDGESTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"132","2925SEW033","BH 22","M1 site investigation","Borehole",6,NA,"Bedrock Presumed",1995-01-01,318620,257410,"to 10m","HEDGESTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"133","2925SEW034","BH 24","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,318550,257590,"to 10m","HEDGESTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"134","2925SEW035","BH 25","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,318530,257650,"to 10m","HEDGESTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"135","2925SEW036","BH 26","M1 site investigation","Borehole",4,NA,"Bedrock Not Met",1995-01-01,318490,257720,"to 10m","HEDGESTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"136","2925SEW037","BH 27","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,318480,257860,"to 10m","HEDGESTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"137","2925SEW040","BH 31","M1 site investigation","Borehole",2.7,NA,"Bedrock Not Met",1995-01-01,318380,258800,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"138","2925SEW041","BH 32","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,318390,258060,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"139","2925SEW042","BH 33","M1 site investigation","Borehole",3.6,NA,"Bedrock Not Met",1995-01-01,318340,258070,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"140","2925SEW043","BH 35","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,318380,258220,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"141","2925SEW044","BH 37","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,318380,258220,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"142","2925SEW045","BH 38","M1 site investigation","Borehole",38,NA,"Bedrock Not Met",1995-01-01,318340,258250,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"143","2925SEW046","BH 39","M1 site investigation","Borehole",4,NA,"Bedrock Not Met",1995-01-01,318360,258290,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"144","2925SEW047","TP 1","M1 site investigation","Borehole",1.5,1.4,"Bedrock Met",1995-01-01,319020,256520,"to 10m","JORDANSTOWN",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"145","2925SEW048","BH 2","M1 site investigation","Borehole",0.8,0.7,"Bedrock Met",1995-01-01,318970,256580,"to 10m","BALLYSTRANE",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"146","2925SEW049","BH 4","M1 site investigation","Borehole",2.1,1.8,"Bedrock Met",1995-01-01,318910,256720,"to 10m","BALLYSTRANE",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"147","2925SEW050","TP 5","M1 site investigation","Borehole",3.6,NA,"Bedrock Not Met",1995-01-01,318900,256800,"to 10m","BALLYSTRANE",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"148","2925SEW051","TP 9","M1 site investigation","Borehole",4,NA,"Bedrock Not Met",1995-01-01,318790,256990,"to 10m","BALLYSTRANE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"149","2925SEW052","BH 16","M1 site investigation","Borehole",2.9,NA,"Bedrock Met",1995-01-01,318720,257200,"to 10m","HEDGESTOWN",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"150","2925SEW054","BH 71","M1 site investigation","Borehole",4.1,NA,"Bedrock Not Met",1995-01-01,318480,259110,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"151","2925SEW055","BH 72","M1 site investigation","Borehole",4.5,NA,"Bedrock Not Met",1995-01-01,318470,259150,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"152","2925SEW056","BH 73","M1 site investigation","Borehole",3.5,NA,"Bedrock Not Met",1995-01-01,318500,259220,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"153","2925SEW057","BH 74","M1 site investigation","Borehole",10.3,NA,"Bedrock Not Met",1995-01-01,318480,259300,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"154","2925SEW058","BH 75","M1 site investigation","Borehole",7,NA,"Bedrock Not Met",1995-01-01,318530,259330,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"155","2925SEW059","BH 76","M1 site investigation","Borehole",5.7,NA,"Bedrock Not Met",1995-01-01,318520,259370,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"156","2925SEW060","BH 78","M1 site investigation","Borehole",3.5,NA,"Bedrock Not Met",1995-01-01,318490,259430,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"157","2925SEW061","BH 309","M1 site investigation","Borehole",6,NA,"Bedrock Not Met",1995-01-01,318520,259480,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"158","2925SEW062","BH 301","M1 site investigation","Borehole",9,NA,"Bedrock Not Met",1995-01-01,318510,259510,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"159","2925SEW063","BH 302","M1 site investigation","Borehole",10.5,NA,"Bedrock Not Met",1995-01-01,318540,259560,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"160","2925SEW064","BH 303","M1 site investigation","Borehole",11.8,NA,"Bedrock Not Met",1995-01-01,318540,259640,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"161","2925SEW065","BH 304","M1 site investigation","Borehole",9.8,NA,"Bedrock Not Met",1995-01-01,318530,259720,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"162","2925SEW066","BH 83","M1 site investigation","Borehole",5.5,NA,"Bedrock Not Met",1995-01-01,318540,259740,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"163","2925SEW068","BH 305","M1 site investigation","Borehole",9.4,NA,"Bedrock Not Met",1995-01-01,318570,259860,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"164","2925SEW069","BH 85","M1 site investigation","Borehole",6.5,NA,"Bedrock Not Met",1995-01-01,318560,259890,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"165","2925SEW070","BH 306","M1 site investigation","Borehole",8.3,NA,"Bedrock Presumed",1995-01-01,318560,259940,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"166","2925SEW071","BH 86","M1 site investigation","Borehole",8.5,NA,"Bedrock Not Met",1995-01-01,318580,259960,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Date Dec-1968"
+"167","2925SEW072","BH 23","M1 site investigation","Borehole",3.8,3.1,"Bedrock Met",1995-01-01,318570,257530,"to 10m","HEDGESTOWN",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"168","2925SEW073","BH 14","M1 site investigation","Borehole",2.7,NA,"Bedrock Not Met",1995-01-01,318720,257130,"to 10m","HEDGESTOWN",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"169","2925SEW074","BH 19","M1 site investigation","Borehole",2.6,NA,"Bedrock Not Met",1998-01-01,318650,257290,"to 10m","HEDGESTOWN",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"170","2925SEW075","BH 81","M1 site investigation","Borehole",3.5,NA,"Bedrock Not Met",1995-01-01,318530,259590,"to 10m","ROWANS BIG",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"171","2925SEW076","BH 82","M1 site investigation","Borehole",35,NA,"Bedrock Not Met",1995-01-01,318550,259660,"to 10m","BALRICKARD",NA,"Dublin",5,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"172","2925SEW077","BH 41","M1 site investigation","Borehole",4.5,NA,"Bedrock Not Met",1995-01-01,318390,258360,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"173","2925SEW078","BH 44","M1 site investigation","Borehole",5.5,NA,"Bedrock Not Met",1995-01-01,318380,258440,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"174","2925SEW079","BH 46","M1 site investigation","Borehole",2.5,NA,"Bedrock Not Met",1995-01-01,318410,258510,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"175","2925SEW081","BH 60","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,318410,258660,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"176","2925SEW082","BH 63","M1 site investigation","Borehole",3,NA,"Bedrock Not Met",1995-01-01,318420,258720,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"177","2925SEW083","BH 68","M1 site investigation","Borehole",4.1,NA,"Bedrock Not Met",1995-01-01,318430,258860,"to 10m","ROWANS LITTLE",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"178","2925SEW085","BH 70","M1 site investigation","Borehole",2.6,NA,"Bedrock Not Met",1995-01-01,318440,259000,"to 10m","ROWANS BIG",NA,"Dublin",4,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"179","3221NWW011","BH A1",NA,"Borehole",12.2,NA,"Bedrock Not Met",1969-08-13,323360,226170,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,6.4,NA,NA,NA,NA,"Shell/auger",NA,NA
+"180","3221NWW012","BH A2",NA,"Borehole",8.8,NA,"Bedrock Not Met",1969-08-19,323400,226180,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.5,NA,NA,NA,NA,"Shell/auger",NA,NA
+"181","3221NWW013","BH A3",NA,"Borehole",11,NA,"Bedrock Not Met",1969-08-21,323410,226190,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,7.1,NA,NA,NA,NA,"Shell/auger",NA,NA
+"182","3221NWW014","BH A4",NA,"Borehole",7.3,NA,"Bedrock Not Met",1969-09-02,323450,226200,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.58,NA,NA,NA,NA,"Shell/auger",NA,NA
+"183","3221NWW015","BH A5",NA,"Borehole",4.6,NA,"Bedrock Not Met",1969-09-03,323480,226200,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water struck"
+"184","3221NWW016","BH A7",NA,"Borehole",4.6,NA,"Bedrock Not Met",1969-09-05,323550,226220,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"Steel Casing, Max Safe yield: 
+32.7m3/day"
+"185","3221NWW017","BH B1",NA,"Borehole",11.6,NA,"Bedrock Not Met",1969-08-15,323370,226150,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.35,NA,NA,NA,NA,"Shell/auger",NA,NA
+"186","3221NWW018","BH B3",NA,"Borehole",10.4,NA,"Bedrock Not Met",1969-08-26,323420,226160,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,4.6,NA,NA,NA,NA,"Shell/auger",NA,NA
+"187","3221NWW019","BH C1",NA,"Borehole",5.5,NA,"Bedrock Not Met",1969-09-02,323380,226110,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.8,NA,NA,NA,NA,"Shell/auger",NA,NA
+"188","3221NWW020","BH C2",NA,"Borehole",3.1,NA,"Bedrock Not Met",1969-09-30,323410,226120,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"189","3221NWW021","BH C3",NA,"Borehole",12.2,NA,"Bedrock Not Met",1969-09-09,323430,226130,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,5.5,NA,NA,NA,NA,"Shell/auger",NA,NA
+"190","3221NWW022","BH C5",NA,"Borehole",11.6,NA,"Bedrock Not Met",1969-09-10,323500,226150,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,5.2,NA,NA,NA,NA,"Shell/auger",NA,NA
+"191","3221NWW023","BH C6",NA,"Borehole",3,NA,"Bedrock Not Met",1969-09-09,323530,226160,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"192","3221NWW024","BH C7",NA,"Borehole",3,NA,"Bedrock Not Met",1969-09-08,323560,226160,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"193","3221NWW025","BH E1",NA,"Borehole",4.9,NA,"Bedrock Not Met",1969-09-03,323390,226050,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"194","3221NWW026","BH E2",NA,"Borehole",4.9,NA,"Bedrock Not Met",1969-09-03,323420,226060,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"195","3221NWW027","BH E3",NA,"Borehole",6.7,NA,"Bedrock Not Met",1969-09-26,323440,226070,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"196","3221NWW028","BH E5",NA,"Borehole",12.2,12,"Bedrock Presumed",1969-09-15,323510,226090,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,9.1,NA,NA,NA,NA,"Shell auger",NA,NA
+"197","3221NWW029","BH E6",NA,"Borehole",12.6,12.5,"Bedrock Presumed",1969-09-16,323540,226090,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,7.9,NA,NA,NA,NA,"Shell/auger",NA,NA
+"198","3221NWW030","BH E7",NA,"Borehole",12,11.9,"Bedrock Presumed",1969-09-18,323580,226100,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,8.1,NA,NA,NA,NA,"Shell/auger",NA,NA
+"199","3221NWW031","BH E8",NA,"Borehole",3,NA,"Bedrock Not Met",1969-09-10,323610,226110,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"200","3221NWW032","BH E9",NA,"Borehole",3,NA,"Bedrock Not Met",1969-09-11,323630,226120,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"201","3221NWW033","BH G1",NA,"Borehole",4.6,NA,"Bedrock Not Met",1969-09-04,323410,225990,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"202","3221NWW034","BH G2",NA,"Borehole",4.3,NA,"Bedrock Not Met",1969-09-05,323430,226000,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"203","3221NWW035","BH G3",NA,"Borehole",3,NA,"Bedrock Not Met",1969-09-05,323460,226010,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"204","3221NWW036","BH G4",NA,"Borehole",3,NA,"Bedrock Not Met",1969-09-08,323490,226020,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"205","3221NWW037","BH G5",NA,"Borehole",9.8,9.6,"Bedrock Presumed",1969-09-24,323530,226030,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,6.1,NA,NA,NA,NA,"Shell/auger",NA,NA
+"206","3221NWW038","BH G6",NA,"Borehole",11.6,11.6,"Bedrock Presumed",1969-09-23,323560,226040,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,7.9,NA,NA,NA,NA,"Shell/auger",NA,NA
+"207","3221NWW039","BH G7",NA,"Borehole",11.4,11.3,"Bedrock Presumed",1969-09-22,323590,226050,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,7.8,NA,NA,NA,NA,"Shell/auger",NA,NA
+"208","3221NWW040","BH G8",NA,"Borehole",11,10.8,"Bedrock Presumed",1969-09-25,323610,226070,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,10,NA,NA,NA,NA,"Shell/auger",NA,NA
+"209","3221NWW041","BH G9",NA,"Borehole",3,NA,"Bedrock Not Met",1969-09-16,323640,226070,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"210","3221NWW042","BH G10",NA,"Borehole",3,NA,"Bedrock Not Met",1969-09-15,323670,226080,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"211","3221NWW043","BH H8",NA,"Borehole",11.3,11.1,"Bedrock Presumed",1969-09-22,323620,226020,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,9.07,NA,NA,NA,NA,"Shell/auger",NA,NA
+"212","3221NWW044","BH J1",NA,"Borehole",4.7,NA,"Bedrock Not Met",1969-09-29,323430,225940,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,3.05,NA,NA,NA,NA,"Shell/auger",NA,NA
+"213","3221NWW045","BH J4",NA,"Borehole",4.3,NA,"Bedrock Not Met",1969-09-29,323520,225970,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"214","3221NWW046","BH J5",NA,"Borehole",4.3,NA,"Bedrock Not Met",1969-09-26,323540,225970,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"215","3221NWW047","BH L4",NA,"Borehole",3,NA,"Bedrock Not Met",1969-09-30,323540,225910,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"216","3221NWW048","BH N2",NA,"Borehole",1.8,NA,"Bedrock Not Met",1969-09-30,323480,225840,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,"No water"
+"217","3221NWW049","BH N3",NA,"Borehole",1.8,NA,"Bedrock Not Met",1969-09-29,323520,225850,"to 10m","KILL OF THE GRANGE",NA,"Dublin",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,1.68,NA,NA,NA,NA,"Shell/auger",NA,NA
+"218","3223NWW011","St Doolaghs Well",NA,"Spring",NA,NA,NA,NA,321150,242130,"to 10m","SAINTDOOLAGHS",NA,"Dublin",15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"219","3223NWW012","St. Catherines Well",NA,"Spring",NA,NA,NA,NA,321150,242150,"to 10m","SAINTDOOLAGHS",NA,"Dublin",15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"On boundary between WA and  ABL",NA
+"220","2921NEW008","St Collumkilles Well",NA,"Spring",NA,NA,NA,NA,311670,225410,"to 20m","OLDCOURT",NA,"Dublin",22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"221","2921NEW015",NA,"SPAWELL HOUSE","Spring",NA,NA,NA,NA,312000,228130,"to 20m","TEMPLEOGUE",NA,"Dublin",22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"222","2921NEW016","Butter Well",NA,"Spring",NA,NA,NA,NA,318480,220080,"to 20m","GLENCULLEN",NA,"Dublin",25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"223","2921NEW017","Spa Well",NA,"Spring",NA,NA,NA,NA,315600,222880,"to 20m","KILMASHOGUE",NA,"Dublin",25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"224","2921NEW018","St Anns Well",NA,"Spring",NA,NA,NA,NA,310220,221620,"to 20m","GLASSAMUCKY BRAKES",NA,"Dublin",25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"225","2921NEW019","St Patricks Well",NA,"Spring",NA,NA,NA,NA,319450,223530,"to 20m","JAMESTOWN",NA,"Dublin",26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"226","2921NEW020","St Sabhs Well",NA,"Spring",NA,NA,NA,NA,315700,225470,"to 20m","TAYLORSGRANGE",NA,"Dublin",22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"227","2921NEW022","Well No. 13, Southern Wellfield","Dun Laoghaire Rathdown Co Co","Borehole",122.2,17.3,"Bedrock Met",1996-07-17,319440,220080,"to 20m","GLENCULLEN",NA,"Dublin",25,NA,"Good",NA,110,NA,NA,NA,NA,300,NA,NA,NA,NA,NA,"Drilled by Fogarty, Gowran",NA,NA
+"228","2921NWW005","St Patricks Well",NA,"Spring",NA,NA,NA,NA,304360,226180,"to 20m","BOHERBOY",NA,"Dublin",21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Mark Cummins-6"" Map
+Named on 6"" sheet",NA
+"229","2921NWW006","Tobragh",NA,"Spring",NA,NA,NA,NA,303690,223780,"to 20m","CROOKSLING",NA,"Dublin",24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"230","2921NWW007","St Bridgets Well",NA,"Spring",NA,NA,NA,NA,301900,226790,"to 20m","RATHCOOLE",NA,"Dublin",21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"231","2921NWW008","St Catherines Well",NA,"Spring",NA,NA,NA,NA,301240,225400,"to 20m","CROCKSHANE",NA,"Dublin",21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"232","2923NEW038","Slips Well",NA,"Spring",NA,NA,NA,NA,317910,246340,"to 20m","FORRESTFIELDS",NA,"Dublin",11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"233","2923NEW039","St Werburghs Well",NA,"Spring",NA,NA,NA,NA,318490,245780,"to 20m","CROWCASTLE",NA,"Dublin",11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"234","2923NEW040","Church Well",NA,"Spring",NA,NA,NA,NA,309580,244700,"to 20m","WARD LOWER",NA,"Dublin",11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"235","2923NEW041","Ladys Well",NA,"Spring",NA,NA,NA,NA,306990,241010,"to 20m","TYRRELSTOWN",NA,"Dublin",13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"236","2923NEW042","Toberbunny",NA,"Spring",NA,NA,NA,NA,317690,242500,"to 20m","TOBERBUNNY",NA,"Dublin",14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"237","2923NEW043","Church Well",NA,"Spring",NA,NA,NA,NA,310930,242220,"to 20m","KILSHANE",NA,"Dublin",14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"238","2923NEW063","BH 3","ESB","Borehole",3.5,3.3,"Bedrock Presumed",1993-02-27,313020,240290,"to 20m","CHARLESTOWN","Finglas","Dublin",14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shell/auger",NA,NA
+"239","2923SEW041","St Bridgets Well",NA,"Spring",NA,NA,NA,NA,306990,230640,"to 20m","BRIDESWELL COMMONS",NA,"Dublin",21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Mark Cummins-6"" Map
+Named on 6"" sheet",NA
+"240","2923SEW042","St Patricks Well",NA,"Spring",NA,NA,NA,NA,312910,238970,"to 20m","CARDIFFCASTLE",NA,"Dublin",14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"241","2923SEW043","St Bridgets Well",NA,"Spring",NA,NA,NA,NA,308990,237050,"to 20m","CASTLEKNOCK",NA,"Dublin",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"242","2923SEW044","Rag Well",NA,"Spring",NA,NA,NA,NA,308030,236380,"to 20m","DISWELLSTOWN",NA,"Dublin",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"243","2923SEW045","Holy Well",NA,"Spring",NA,NA,NA,NA,310890,231010,"to 20m","WILKINSTOWN",NA,"Dublin",22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP
+site on 6"" sheet",NA
+"244","2923SEW046","Brian Boroimhes Well",NA,"Spring",NA,NA,NA,NA,319310,236110,"to 20m","CLONTARF",NA,"Dublin",19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"245","2923SEW047","MW 99-1",NA,"Borehole",3.8,NA,"Bedrock Not Met",1999-08-11,310260,239610,"to 20m","CAPPOGE",NA,"Dublin",14,NA,NA,NA,NA,NA,NA,NA,NA,25,1.9,NA,NA,NA,NA,"Info from Shane Bennet",NA,"1 mm slot size"
+"246","2923SEW048","MW 99-2",NA,"Borehole",3.2,NA,"Bedrock Not Met",1999-08-11,310280,239590,"to 20m","CAPPOGE",NA,"Dublin",14,NA,NA,NA,NA,NA,NA,NA,NA,25,1.9,NA,NA,NA,NA,"Info from Shane Bennet",NA,NA
+"247","2923SEW049","MW 99-3",NA,"Borehole",3.6,NA,"Bedrock Not Met",1999-08-11,310290,239550,"to 20m","CAPPOGE",NA,"Dublin",14,NA,NA,NA,NA,NA,NA,NA,NA,25,2.6,NA,NA,NA,NA,"Info from Shane Bennet",NA,"1mm slot size"
+"248","2923SEW050","MW 1/99",NA,"Borehole",9.1,NA,"Bedrock Not Met",1999-08-22,317500,233520,"to 20m","BARROW STREET",NA,"Dublin",18,NA,NA,NA,NA,NA,NA,NA,NA,51,5.8,NA,NA,NA,NA,"Info from Shane Bennet",NA,"slot size 0.5 mm;"
+"249","2923SEW051","MW 2/99","Iarnrod Eireann","Borehole",9.8,NA,"Bedrock Not Met",1999-08-20,317430,233600,"to 20m","BARROW STREET",NA,"Dublin",18,NA,NA,NA,NA,NA,NA,NA,NA,51,6.1,NA,NA,NA,NA,"Info from Shane Bennet",NA,"slot size 0.5 mm"
+"250","2923SEW052","MW 3/99","Iarnrod Eireann","Borehole",8.5,NA,"Bedrock Not Met",1999-08-23,317490,233570,"to 20m","BARROW STREET",NA,"Dublin",18,NA,NA,NA,NA,NA,NA,NA,NA,51,6.2,NA,NA,NA,NA,"Info from Shane Bennet",NA,"slot size 0.5 mm"
+"251","2923SEW053","MW 4/99","Iarnrod Eireann","Borehole",4.8,NA,"Bedrock Not Met",1999-08-25,317500,233600,"to 20m","BARROW STREET",NA,"Dublin",18,NA,NA,NA,NA,NA,NA,NA,NA,51,2.2,NA,NA,NA,NA,"Info from Shane Bennet",NA,"slot size 0.5 mm"
+"252","2923SEW054","MW 5/99","Iarnrod Eireann","Borehole",8.2,NA,"Bedrock Not Met",1999-08-25,317450,233560,"to 20m","BARROW STREET",NA,"Dublin",18,NA,NA,NA,NA,NA,NA,NA,NA,51,5.6,NA,NA,NA,NA,"Info from Shane Bennet",NA,"slot size 0.5 mm"
+"253","2923SWW201","Warm Spring   1013W","St Edmondsbury Spring","Spring",NA,NA,NA,NA,304780,236240,"to 20m","ST EDMONDSBURY",NA,"Dublin",17,NA,"Low Spring",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"accuracy given at 100m","temp range   15.3  - 16.9 degrees C    Out put in winter 259.2  - 345.6  m3/d"
+"254","2923SWW205","Relickan Well",NA,"Spring",NA,NA,NA,NA,300140,230930,"to 20m","LOUGHTOWN LOWER",NA,"Dublin",21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"255","2923SWW208","St Catherines Well",NA,"Spring",NA,NA,NA,NA,301690,236230,"to 20m","ST CATHERINES PARK",NA,"Dublin",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"256","2923SWW209","Sunday Well",NA,"Spring",NA,NA,NA,NA,303250,235490,"to 20m","LARAGHCON",NA,"Dublin",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"257","2925NEW088",NA,"St Marys Well","Spring",NA,NA,NA,NA,316720,264450,"to 20m","TOBERTOWN",NA,"Dublin",1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Mark Cummins-6"" Map",NA
+"258","2925NEW089","Lady Well",NA,"Spring",NA,NA,NA,NA,318250,264300,"to 20m","FLEMINGTON",NA,"Dublin",1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"259","2925SEW022","St Michaels Well",NA,"Spring",NA,NA,NA,NA,310770,256390,"to 20m","COTTRELSTOWN",NA,"Dublin",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"260","2925SEW023","ST JOHNS WELL",NA,"Spring",NA,NA,NA,NA,310720,256330,"to 20m","COTTRELSTOWN",NA,"Dublin",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"261","2925SEW024","St Bridgets Well",NA,"Spring",NA,NA,NA,NA,316150,251700,"to 20m","BALDURGAN",NA,"Dublin",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"262","2925SEW025","Lady Well",NA,"Spring",NA,NA,NA,NA,318000,252400,"to 20m","GRACEDIEU",NA,"Dublin",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"263","2925SEW026","St Bridgets Well",NA,"Spring",NA,NA,NA,NA,318220,252470,"to 20m","GRACEDIEU",NA,"Dublin",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"264","3221SWW137","St Kevins Well",NA,"Spring",NA,NA,NA,NA,323600,218590,"to 20m","BALLYMAN",NA,"Dublin",27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"265","3223NWW004","Patricks Well",NA,"Spring",NA,NA,NA,NA,324350,245050,"to 20m","ROBSWALL",NA,"Dublin",12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"266","3223NWW006","Yourells Well",NA,"Spring",NA,NA,NA,NA,321750,245400,"to 20m","MALAHIDE DEMESNE",NA,"Dublin",12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"267","3223NWW007","Lady Well",NA,"Spring",NA,NA,NA,NA,320220,244590,"to 20m","FELTRIM",NA,"Dublin",12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"268","3223NWW010","St Bennys Well",NA,"Spring",NA,NA,NA,NA,325650,249850,"to 20m","PORTRAINE DEMESNE",NA,"Dublin",12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"269","3223SWW002","Balsaggart Well",NA,"Spring",NA,NA,NA,NA,327850,236940,"to 20m","SUTTON SOUTH",NA,"Dublin",19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"270","3223SWW003","St Fintans Well",NA,"Spring",NA,NA,NA,NA,326950,237750,"to 20m","SUTTON SOUTH",NA,"Dublin",19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"271","3223SWW004","St Donaghs Well",NA,"Spring",NA,NA,NA,NA,322100,239570,"to 20m","KILBARRACK UPPER",NA,"Dublin",15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"272","3223SWW005","St Brendans Well",NA,"Spring",NA,NA,NA,NA,320240,239280,"to 20m","BROOKVILLE",NA,"Dublin",15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"273","3225NWW005","Kibe Well",NA,"Spring",NA,NA,NA,NA,325410,260000,"to 20m","TOWNPARK",NA,"Dublin",5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"274","3225NWW006","Holy Well",NA,"Spring",NA,NA,NA,NA,320190,261160,"to 20m","ROSEPARK",NA,"Dublin",5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"275","3225SWW027","St Mochudas Well",NA,"Spring",NA,NA,NA,NA,324880,251520,"to 20m","BURROW",NA,"Dublin",8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"276","3225SWW028","St Maurus Well",NA,"Spring",NA,NA,NA,NA,324410,253550,"to 20m","WHITESTOWN",NA,"Dublin",8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"277","3225SWW029","Bog Well",NA,"Spring",NA,NA,NA,NA,322490,255870,"to 20m","TYRRELSTOWN LITTLE",NA,"Dublin",8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"278","3225SWW030","Caddells Well",NA,"Spring",NA,NA,NA,NA,321990,256610,"to 20m","COLLINSTOWN",NA,"Dublin",8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"279","3225SWW031","Ravens Well",NA,"Spring",NA,NA,NA,NA,331920,250510,"to 20m","LAMBAY ISLAND",NA,"Dublin",9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"280","3225SWW032","Trinity Well",NA,"Spring",NA,NA,NA,NA,331550,250810,"to 20m","LAMBAY ISLAND",NA,"Dublin",9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"281","3225SWW038","Chink Well",NA,"Spring",NA,NA,NA,NA,326000,250070,"to 20m","PORTRAINE DEMESNE",NA,"Dublin",12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"MARK CUMMINS - 6"" MAP",NA
+"282","2921NEW006",NA,NA,"Borehole",21.3,3.1,"Bedrock Met",NA,308720,222250,"to 50m","ALLAGOUR",NA,"Dublin",24,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,12.2,18.3,NA,NA,NA,"Drilled by O'Donohoe Bros, Gorey
+Granite",NA,"Yield estimated"
+"283","2921NEW021","Well No. 12 (Compound Well, west)","Dun Laoghaire Rathdown Co Co","Borehole",91.2,14,"Bedrock Met",1996-05-15,319180,220370,"to 50m","GLENCULLEN",NA,"Dublin",25,"Public supply (Co Co)","Poor",NA,30,NA,NA,NA,NA,300,NA,NA,NA,NA,NA,"Drilled by Fogarty, Gowran",NA,NA
+"284","2921NEW023","Well No. 14","Dun Laoghaire Rathdown Co Co","Borehole",73,32,"Bedrock Met",1996-07-15,319340,220060,"to 50m","GLENCULLEN",NA,"Dublin",25,"Public supply (Co Co)","Excellent",NA,475,NA,NA,NA,NA,300,31,35,62,NA,NA,"Drilled by Fogarty, Gowran
+Originally drilled to 84.8m",NA,"Main water inflow at 33.4-36.5m depth;
+2 mm slot size in Johnson Wellscreen"
+"285","2921NEW024","Well No. 15","Dun Laoghaire Rathdown Co Co","Borehole",42.6,32.9,"Bedrock Met",1997-01-20,319350,220050,"to 50m","GLENCULLEN",NA,"Dublin",25,NA,"Good",NA,218,NA,NA,NA,NA,400,36.6,NA,NA,NA,NA,"Drilled by Glover SI Ltd",NA,NA
+"286","2921NWW003",NA,NA,"Borehole",56.1,9.1,"Bedrock Met",2000-08-23,302470,220940,"to 50m","BRITTAS LITTLE",NA,"Dublin",24,"Agri & domestic use","Poor","V",19.6,NA,NA,NA,0.35,102,48.8,NA,NA,NA,NA,"Drilled by Joe Kelly, Saggart
+Limestone",NA,"dd = 54.8m??  3 hr test"
+"287","2921NWW004",NA,NA,"Borehole",61,0.9,"Bedrock Met",1990-05-19,299300,227500,"to 50m","HIGHDOWNHILL",NA,"Dublin",20,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,".",NA
+"288","2923NEW025","TP 2",NA,"Borehole",0.6,0.6,"Bedrock Met",2002-03-01,312580,241380,"to 50m","BALSESKIN",NA,"Dublin",14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"289","2923NEW026","TP 3",NA,"Borehole",0.4,0.4,"Bedrock Met",2002-03-01,312540,241360,"to 50m","BALSESKIN",NA,"Dublin",14,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"290","2923NEW027","TP 4",NA,"Borehole",0.4,0.4,"Bedrock Met",2002-03-01,312490,241370,"to 50m","BALSESKIN",NA,"Dublin",14,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"291","2923NEW028","TP 5",NA,"Borehole",0.2,0.2,"Bedrock Met",2002-03-01,312460,241330,"to 50m","BALSESKIN",NA,"Dublin",14,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"292","2923NEW029","TP 8",NA,"Borehole",0.8,0.8,"Bedrock Met",2002-03-01,312610,241300,"to 50m","BALSESKIN",NA,"Dublin",14,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"293","2923NEW030","TP 9",NA,"Borehole",1.4,1.4,"Bedrock Met",2002-03-01,312800,241260,"to 50m","BALSESKIN",NA,"Dublin",14,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"294","2923NEW031","PW 1",NA,"Borehole",42.7,0.5,"Bedrock Presumed",NA,312600,241400,"to 50m","BALSESKIN",NA,"Dublin",14,"Other","Moderate","IV",83.8,NA,NA,NA,4.29,NA,NA,NA,NA,NA,NA,NA,NA,"dd = 19.5m     6 hr test"
+"295","2923NEW044",NA,NA,"Borehole",15.2,NA,"DTB Unknown",NA,319800,247270,"to 50m","SEATOWN EAST",NA,"Dublin",12,"Agri & domestic use","Good",NA,218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Height over sea level 9.1m approx (Poolbeg)",NA
+"296","2923NEW045",NA,NA,"Borehole",33.5,NA,"DTB Unknown",NA,319650,247150,"to 50m","SEATOWN EAST",NA,"Dublin",12,"Agri & domestic use","Good",NA,381,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"height over sea level approx 12.2m  (Poolbeg)",NA
+"297","2923SEW010",NA,NA,"Borehole",39,NA,"DTB Unknown",NA,315750,232050,"to 50m","RATHMINES",NA,"Dublin",18,"Domestic use only","Good",NA,109.1,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,NA,NA,NA
+"298","2923SEW016","BH 1",NA,"Borehole",56.2,8.5,"Bedrock Met",1989-12-22,310850,230920,"to 50m","WILKINSTOWN",NA,"Dublin",22,"Industrial use","Excellent","III",414.6,NA,NA,NA,16,NA,4.15,NA,NA,NA,NA,"Driller Tom Connell, Blackrock","
+","Drawdown less than 26m"
+"299","2923SEW018","BH 2",NA,"Borehole",61,6.3,"Bedrock Met",1994-10-19,308550,230950,"to 50m","WILKINSTOWN",NA,"Dublin",22,"Industrial use","Excellent","III",480,NA,NA,NA,21.6,200,9.1,24.4,54.9,NA,NA,"Driller Briody, Rathangan",NA,"dd = 22.22m"
+"300","2923SEW019","W 1",NA,"Borehole",155,3,"Bedrock Met",1991-05-23,309230,231610,"to 50m","FOX AND GEESE",NA,"Dublin",17,"Industrial use","Good","III",384,NA,NA,NA,9.8,203,120,140,NA,NA,NA,"Driller Briody, Crossakiel, Co. Meath",NA,"drawdown = 39m
+dd=39m"
+"301","2923SEW020","W 2",NA,"Borehole",165,3,"Bedrock Met",1991-05-28,309390,231610,"to 50m","FOX AND GEESE",NA,"Dublin",18,"Industrial use","Good","IV",109,NA,NA,NA,1.89,203,NA,NA,NA,NA,NA,"Driller Tom Briody, Crossakiel, Co. Meath",NA,"dd = 57.7 metres"
+"302","2923SWW202","BH 1","Department of Agriculture","Borehole",120,2,"Bedrock Met",2000-10-25,300300,233710,"to 50m","BACKSTOWN",NA,"Dublin",17,"Other","Poor","V",17.5,NA,NA,NA,0.49,NA,53,55,56,NA,NA,NA,NA,"dd = 35.7m        pumping test data available"
+"303","2923SWW203","BH 2","Department of Agriculture","Borehole",70,3,"Bedrock Met",2000-11-01,300170,233890,"to 50m","BACKSTOWN",NA,"Dublin",17,"Other",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"304","2923SWW204","BH 3","Department of Agriculture","Borehole",70,3,"Bedrock Met",2000-11-03,300070,233710,"to 50m","BACKSTOWN",NA,"Dublin",17,"Other","Poor","V",39.9,NA,NA,NA,2.1,NA,45,47.5,53,NA,NA,NA,NA,"dd = 18.9m   pumping test data available"
+"305","2925SEW021",NA,NA,"Borehole",76.2,14,"Bedrock Met",1997-05-02,319950,251630,"to 50m","COLDWINTERS",NA,"Dublin",8,"Agri & domestic use","Good",NA,218,NA,NA,NA,NA,203,30.5,61,68.6,NA,NA,"Drilled by Dunnes, Dundalk",NA,NA
+"306","2925SEW027",NA,NA,"Borehole",32.3,NA,"DTB Unknown",1971-08-01,319970,253270,"to 50m","CORDUFF",NA,"Dublin",8,"Agri & domestic use","Good",NA,218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"307","2925SEW028",NA,NA,"Borehole",37.5,NA,"DTB Unknown",1971-08-01,319150,256490,"to 50m","JORDANSTOWN",NA,"Dublin",8,"Agri & domestic use","Good",NA,163.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"yield never varies"
+"308","2925SEW029",NA,NA,"Borehole",24.3,NA,"DTB Unknown",1971-08-01,319550,256450,"to 50m","OBERSTOWN",NA,"Dublin",12,"Agri & domestic use","Good",NA,327.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"height above sea level  approx  39.6m  (Poolbeg)",NA
+"309","2925SEW030",NA,NA,"Borehole",18.8,NA,"DTB Unknown",NA,319540,254930,"to 50m","BALLOUGH",NA,"Dublin",8,"Agri & domestic use","Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"310","3225NWW001","Prod Well 3A",NA,"Borehole",62.5,25,"Bedrock Met",1986-05-01,320160,262880,"to 50m","STEPHENSTOWN",NA,"Dublin",5,"Industrial use","Excellent","II",812,NA,NA,NA,19.1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"311","3225NWW002","Prod Well 4",NA,"Borehole",74.6,36.5,"Bedrock Met",1996-06-01,320150,262950,"to 50m","STEPHENSTOWN",NA,"Dublin",5,"Industrial use","Excellent","III",600,NA,NA,NA,14.1,NA,57,67,NA,NA,NA,NA,NA,NA
+"312","3225NWW004",NA,NA,"Borehole",121.9,1.5,"Bedrock Met",1997-05-08,320360,262050,"to 50m","BLACKHALL",NA,"Dublin",8,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,NA,42.6,67,NA,NA,NA,NA,NA,NA
+"313","3225NWW007",NA,NA,"Borehole",25.6,NA,"DTB Unknown",1971-08-01,320080,261890,"to 50m","BALROTHERY",NA,"Dublin",5,"Agri & domestic use","Good",NA,327.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Heigh over Sea.L 35.9m (Poolbeg)",NA
+"314","3225SWW001",NA,NA,"Borehole",31.4,7,"Bedrock Met",1971-08-01,324020,257550,"to 50m","BALDONGAN",NA,"Dublin",5,"Agri & domestic use","Excellent",NA,440,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Steel Casing, Max Safe yield: 
+32.7m3/day"
+"315","3225SWW002",NA,NA,"Borehole",43.6,NA,"DTB Unknown",1971-08-01,324480,258570,"to 50m","LOUGHLANDS",NA,"Dublin",5,"Agri & domestic use","Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Height over sea level 56.4m (Poolbeg)","does not vary between summer ans winter"
+"316","3225SWW003",NA,NA,"Borehole",31.7,NA,"Bedrock Not Met",NA,322900,253750,"to 50m","ROGERSTOWN",NA,"Dublin",8,"Industrial use","Good",NA,130.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"site marked on old 6 inch sheet 8/3",NA
+"317","3225SWW004",NA,"Dublin Co. Co.","Borehole",29.9,3.7,"Bedrock Met",NA,326700,255550,"to 50m","RUSH DEMESNE",NA,"Dublin",8,"Unknown","Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"site marked on old 6 inch sheet",NA
+"318","3225SWW006",NA,NA,"Borehole",50.3,21.3,"Bedrock Met",NA,325300,254450,"to 50m","RUSH",NA,"Dublin",8,"Agri & domestic use","Good","III",218,NA,NA,NA,28.68,NA,NA,NA,NA,NA,NA,NA,"exact site marked on old 6 inch sheet 8/2","10 days test"
+"319","3225SWW007",NA,"co.co.","Borehole",41.1,NA,"Bedrock Not Met",1905-05-13,326650,254350,"to 50m","RUSH",NA,"Dublin",8,"Unknown","Good",NA,229,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"site marked on old 6 inch sheet 8/2",NA
+"320","3225SWW016",NA,NA,"Borehole",91.4,18.2,"Bedrock Met",1997-03-25,325380,258120,"to 50m","PIERCETOWN",NA,"Dublin",5,"Unknown","Excellent",NA,490,NA,NA,NA,NA,NA,76.2,91.4,NA,NA,NA,NA,NA,NA
+"321","3225SWW019",NA,NA,"Borehole",60.9,9.1,"Bedrock Met",NA,326470,256240,"to 50m","BALLUSTREE",NA,"Dublin",4,"Agri & domestic use","Excellent",NA,436.4,NA,NA,NA,NA,NA,30.5,42.7,NA,NA,NA,NA,NA,NA
+"322","3225SWW020",NA,NA,"Borehole",54.8,13.7,"Bedrock Met",1997-03-18,324840,253240,"to 50m","RUSH",NA,"Dublin",8,"Agri & domestic use","Good",NA,120,NA,NA,NA,NA,152,21.3,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Water quality good in this well, a well 50m away towards the coast has saline water"
+"323","3225SWW021",NA,NA,"Borehole",91.4,9,"Bedrock Met",1997-03-12,326810,255800,"to 50m","BALLUSTREE",NA,"Dublin",8,"Agri & domestic use","Excellent",NA,655,NA,NA,NA,NA,203,36.6,67.1,79.2,NA,NA,"Drilled by Dunnes, Dundalk",NA,NA
+"324","3225SWW022",NA,NA,"Borehole",91.4,11.3,"Bedrock Met",1997-03-20,325400,253390,"to 50m","RUSH",NA,"Dublin",8,"Agri & domestic use","Moderate",NA,98.2,NA,NA,NA,NA,203,42.7,61,85.3,91.4,NA,"Drilled by Dunnes, Dundalk",NA,NA
+"325","3225SWW023",NA,NA,"Borehole",97.5,NA,"DTB Unknown",1997-01-24,325260,254650,"to 50m","RUSH",NA,"Dublin",8,"Agri & domestic use","Good",NA,272.7,NA,NA,NA,NA,203,85.3,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,NA
+"326","3225SWW024",NA,NA,"Borehole",61,5.5,"Bedrock Met",1997-01-20,325350,254620,"to 50m","RUSH",NA,"Dublin",8,"Agri & domestic use","Good",NA,218.2,NA,NA,NA,NA,152,32.9,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,NA
+"327","3225SWW025",NA,NA,"Borehole",73.2,14.6,"Bedrock Met",1997-01-20,324840,253210,"to 50m","RUSH",NA,"Dublin",8,"Agri & domestic use","Good",NA,109,NA,NA,NA,NA,152,48.8,54.9,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Saline water in well"
+"328","3225SWW034",NA,NA,"Borehole",38.1,NA,"DTB Unknown",1971-08-01,322460,257320,"to 50m","BALCUNNIN",NA,"Dublin",5,"Agri & domestic use","Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Height over sea level -67m (Poolbeg)",NA

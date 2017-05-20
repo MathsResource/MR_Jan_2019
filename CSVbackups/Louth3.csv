@@ -1,0 +1,141 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","2629SEW302","2016",NA,"Borehole",79.2,NA,"DTB Unknown",2000-01-20,288390,296130,"to 100m","RATHGEENAN",NA,"Louth",13,"Domestic use only","Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk
+Deepened from 32m to 79.2m",NA,"Yield estimated"
+"2","2927NEW004",NA,NA,"Borehole",19.5,15,"Bedrock Met",NA,313380,289300,"to 100m","PORT",NA,"Louth",19,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","2927NEW005",NA,NA,"Borehole",16.1,7,"Bedrock Met",NA,312200,288000,"to 100m","TOGHER",NA,"Louth",19,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4","2927NEW006",NA,NA,"Borehole",26.5,NA,"DTB Unknown",NA,316400,284500,"to 100m","CLOGHER",NA,"Louth",22,"Industrial use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5","2927NEW027",NA,NA,"Borehole",53.3,15.2,"Bedrock Met",2002-09-06,305810,280510,"to 100m","NEWTOWN MONASTERBOICE",NA,"Louth",21,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Y estimated"
+"6","2927NEW031","1340",NA,"Borehole",67,10.7,"Bedrock Met",1996-09-23,309900,286390,"to 100m","GRANGEBELLEW",NA,"Louth",18,"Agri & domestic use","Poor",NA,8.7,NA,NA,NA,NA,152,54.9,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"7","2927NEW032","555",NA,"Borehole",54.9,3.1,"Bedrock Met",1998-09-23,313600,282200,"to 100m","TERMONFECKIN",NA,"Louth",22,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,36.6,48.8,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Y estimated"
+"8","2927NEW034","1341",NA,"Borehole",42.7,1.5,"Bedrock Met",1998-06-11,306650,281750,"to 100m","BROWNSTOWN",NA,"Louth",21,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,152,30.5,36.6,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"9","2927NEW074",NA,NA,"Borehole",31.4,12.2,"Bedrock Met",1999-07-05,314520,289710,"to 100m","MITCHELSTOWN",NA,"Louth",19,"Domestic use only","Good",NA,218,NA,NA,NA,NA,167,10.7,12.2,NA,NA,NA,"Drilled by Des Meehan, Blackrock",NA,"4 hr test"
+"10","2927NWW100",NA,"Philipstown School","Borehole",57.9,25.9,"Bedrock Met",1977-11-01,300830,286100,"to 100m","PHILIPSTOWN",NA,"Louth",17,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,1.8,15.2,50.3,NA,NA,NA,NA,NA
+"11","2927NWW103",NA,NA,"Borehole",109.7,5.5,"Bedrock Met",2000-10-18,298150,284790,"to 100m","FUNSHOG",NA,"Louth",17,"Agri & domestic use","Poor",NA,19.6,NA,NA,NA,NA,203,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"12","2927NWW105",NA,NA,"Borehole",152.4,45.7,"Bedrock Met",2000-02-17,299480,283880,"to 100m","COLLON",NA,"Louth",20,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dromiskin
+",NA,"Casing 1 = Steel; Casing 2 = PVC
+Yield estimated"
+"13","2927NWW110","1345",NA,"Borehole",61,3.1,"Bedrock Met",1998-06-16,297030,285920,"to 100m","ANAGLOG",NA,"Louth",17,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,45.7,54.9,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,NA
+"14","2927NWW111","1343",NA,"Borehole",85.3,6.1,"Bedrock Met",1998-06-15,298950,288270,"to 100m","ROESTOWN",NA,"Louth",17,"Agri & domestic use","Moderate",NA,65.5,NA,NA,NA,NA,152,73.1,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"15","2927NWW112","1344",NA,"Borehole",54.9,6.7,"Bedrock Met",1998-06-16,299800,289150,"to 100m","HOATHSTOWN",NA,"Louth",17,"Agri & domestic use","Poor",NA,27,NA,NA,NA,NA,152,42.7,48.8,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"16","2927NWW113","986",NA,"Borehole",73.2,45.7,"Bedrock Met",NA,300050,286990,"to 100m","PAUGHANSTOWN",NA,"Louth",17,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"17","2927NWW124","534",NA,"Borehole",24.4,18.3,"Bedrock Presumed",1996-08-13,301850,282230,"to 100m","COLLON",NA,"Louth",21,"Agri & domestic use","Good",NA,109,NA,NA,NA,NA,152,24.3,NA,NA,NA,NA,"dtb uncertain
+Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"18","2927NWW125","535",NA,"Borehole",22.8,18.3,"Bedrock Presumed",1996-08-14,301870,282130,"to 100m","COLLON",NA,"Louth",21,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"dtb uncertain
+Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"19","2927NWW153",NA,NA,"Borehole",49.7,19.8,"Bedrock Met",1998-07-30,297660,286410,"to 100m","ANAGLOG",NA,"Louth",17,"Domestic use only","Good",NA,131,NA,NA,NA,NA,167,36.6,43.3,46.9,NA,NA,"Drilled by Des Meehan, Blackrock",NA,"4 hr test"
+"20","2927SEW063","NERDO 12a1",NA,"Borehole",50,NA,"DTB Unknown",NA,310250,274550,"to 100m","DROGHEDA",NA,"Louth",24,"Industrial use","Good",NA,130,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"21","2927SEW064","NERDO 12a2",NA,"Borehole",54,NA,"DTB Unknown",NA,310240,274540,"to 100m","DROGHEDA",NA,"Louth",24,"Industrial use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"22","2927SEW065","316",NA,"Borehole",61,1.5,"Bedrock Met",1996-07-26,307960,276360,"to 100m","MONEYMORE",NA,"Louth",24,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Y estimated"
+"23","2927SEW068","Well #2","Louth County Council","Borehole",121.9,38.1,"Bedrock Met",2003-02-12,308970,278540,"to 100m","LISTOKE",NA,"Louth",24,"Public supply (Co Co)","Excellent","III",418,NA,NA,30.37,13.76,203,29.5,30.5,39.6,91,NA,"Driller Dunnes, Dromiskin (#3409)",NA,"72 hr test 17-20 June 2003"
+"24","2929NEW008","1885",NA,"Borehole",48.8,39,"Bedrock Met",NA,315810,309100,"to 100m","CASTLETOWNCOOLEY",NA,"Louth",8,"Domestic use only","Good",NA,109,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"25","2929NEW089","WELL NO. 4",NA,"Borehole",25.6,8.5,"Bedrock Met",NA,305760,304760,"to 100m","DUNDALK",NA,"Louth",7,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Not used"
+"26","2929NEW093","Well 1",NA,"Borehole",9.1,NA,"DTB Unknown",NA,305730,304790,"to 100m","DUNDALK",NA,"Louth",7,"Industrial use","Good",NA,218.2,NA,NA,NA,NA,200,NA,NA,NA,NA,NA,NA,NA,"water in fissure at 7.9 - 8.5m"
+"27","2929NEW107",NA,NA,"Borehole",79.2,NA,"DTB Unknown",2000-08-18,316710,309130,"to 100m","GLENMORE",NA,"Louth",8,"Domestic use only","Poor",NA,8.7,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"28","2929NWW126","1190",NA,"Borehole",91.4,4.6,"Bedrock Met",1997-12-09,292000,301610,"to 100m","STONETOWN UPPER",NA,"Louth",11,"Domestic use only","Poor",NA,8.7,NA,NA,NA,NA,222,85.3,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk
+",NA,NA
+"29","2929NWW145","1299",NA,"Borehole",91.4,1.5,"Bedrock Met",1998-06-09,294130,309810,"to 100m","TREAGH",NA,"Louth",6,NA,"Poor",NA,19.6,NA,NA,NA,NA,152,30.5,79.3,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"30","2929NWW251","Bore 4",NA,"Borehole",10.1,4,"Bedrock Met",NA,303910,305880,"to 100m","FAIRHILL",NA,"Louth",7,NA,"Poor",NA,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,NA
+"31","2929NWW252","Bore 3",NA,"Borehole",9.1,4.9,"Bedrock Met",NA,303920,305860,"to 100m","FAIRHILL",NA,"Louth",7,"Industrial use","Good",NA,153,NA,NA,NA,NA,NA,5.5,6.7,NA,NA,NA,NA,NA,NA
+"32","2929NWW254","TW 2",NA,"Borehole",21,NA,"Bedrock Not Met",NA,304190,307350,"to 100m","DEMESNE","DUNDALK","Louth",7,"Agri & domestic use","Good","IV",130.9,NA,NA,15.2,8.5,NA,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,NA
+"33","2929NWW255",NA,NA,"Borehole",48.8,7.6,"Bedrock Met",NA,303900,305900,"to 100m","FAIRHILL",NA,"Louth",7,NA,"Poor",NA,33,NA,NA,NA,NA,NA,7.6,24,NA,NA,NA,NA,NA,NA
+"34","2929NWW260",NA,NA,"Borehole",6,NA,"DTB Unknown",NA,304650,306570,"to 100m","DUNDALK",NA,"Louth",7,"Unknown","Good",NA,218,NA,NA,NA,NA,200,NA,NA,NA,NA,NA,NA,NA,NA
+"35","2929NWW275","1354",NA,"Borehole",85.3,3.1,"Bedrock Met",1998-06-17,301400,306850,"to 100m","DONAGHMORE",NA,"Louth",7,NA,"Poor",NA,3.8,NA,NA,NA,NA,152,48.8,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"36","2929SEW019","1330",NA,"Borehole",79.2,12.8,"Bedrock Met",1998-05-25,311640,290130,"to 100m","WYANSTOWN",NA,"Louth",19,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,152,18.3,73.2,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Date 11/7/1962"
+"37","2929SWW142",NA,NA,"Borehole",NA,5.5,"Bedrock Met",1976-11-03,302650,295120,"to 100m","MANSFIELDTOWN",NA,"Louth",15,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,18.3,19.8,NA,NA,NA,NA,NA," water in this area is very shallow and is good quailty"
+"38","2929SWW144",NA,NA,"Borehole",42.7,14,"Bedrock Met",1999-08-20,303130,297210,"to 100m","NEWRATH",NA,"Louth",15,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"39","2929SWW168",NA,NA,"Borehole",48.8,6.1,"Bedrock Met",2001-08-25,292190,292050,"to 100m","COOLE",NA,"Louth",14,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,203,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Y estimated"
+"40","2931SEW018","1338",NA,"Borehole",36.6,6.1,"Bedrock Met",1998-06-08,312860,318530,"to 100m","DRUMMULLAGH","Omeath","Louth",2,NA,"Moderate",NA,43.6,NA,NA,NA,NA,152,24.4,30.5,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated only"
+"41","2931SEW019","1336",NA,"Borehole",94.5,6.1,"Bedrock Met",1998-06-04,313030,316190,"to 100m","ARDAGHY","oMEATH","Louth",5,NA,"Poor",NA,21.8,NA,NA,NA,NA,152,54.9,61,85.3,88.4,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"42","2931SEW020","633",NA,"Borehole",42.7,4.6,"Bedrock Met",1997-02-12,309030,318380,"to 100m","EDENTOBER",NA,"Louth",1,NA,"Moderate",NA,54.5,NA,NA,NA,NA,152,4.6,36.6,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated only"
+"43","2931SEW024","1300",NA,"Borehole",67.1,18.3,"Bedrock Met",1998-06-10,309120,312250,"to 100m","DOOLARGY",NA,"Louth",4,NA,"Good",NA,164,NA,NA,NA,NA,152,33.5,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"44","2931SEW030",NA,NA,"Borehole",91.4,2.4,"Bedrock Met",1998-09-04,311780,319230,"to 100m","CORNAMUCKLAGH",NA,"Louth",2,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,152,54.9,90.8,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Date 11/7/1962"
+"45","2931SEW034","1881",NA,"Borehole",36.6,NA,"DTB Unknown",1999-10-12,310520,310770,"to 100m","BALLYMAKELLETT",NA,"Louth",4,"Domestic use only","Good",NA,109,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"46","2931SEW037",NA,NA,"Borehole",30.5,10.4,"Bedrock Met",NA,310020,310810,"to 100m","BALLYMAKELLETT",NA,"Louth",4,"Domestic use only","Moderate","III",54.5,NA,NA,3.05,17.9,152,9.1,18.3,NA,NA,NA,"Drilled by Tom Briody, Kells",NA,"2 hr test"
+"47","2931SEW041",NA,NA,"Borehole",121.9,7.6,"Bedrock Met",1998-04-23,308060,313470,"to 100m","DRUMNACARRA",NA,"Louth",4,"Domestic use only","Poor",NA,8.7,NA,NA,NA,NA,152,61,115.8,121.9,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"48","2931SEW042","1352",NA,"Borehole",42.7,4.9,"Bedrock Met",1998-06-13,306400,314000,"to 100m","CARRICKANEENA",NA,"Louth",4,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,152,30.5,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"49","2931SEW045","1891",NA,"Borehole",91.4,NA,"DTB Unknown",1999-06-15,306060,312310,"to 100m","FAUGHART UPPER",NA,"Louth",4,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"50","2931SEW047","1509",NA,"Borehole",91.4,6.1,"Bedrock Met",1998-09-12,307310,312870,"to 100m","AGHNASKEAGH",NA,"Louth",4,"Domestic use only","Poor",NA,2.7,NA,NA,NA,NA,152,54.9,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"51","2931SEW048",NA,NA,"Borehole",91.4,5.5,"Bedrock Met",1998-02-10,307240,313510,"to 100m","AGHNASKEAGH",NA,"Louth",4,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,NA
+"52","2931SEW049",NA,NA,"Borehole",91.4,12.2,"Bedrock Met",1998-02-06,307370,312640,"to 100m","AGHNASKEAGH",NA,"Louth",4,"Domestic use only","Poor",NA,4.4,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"53","2931SEW050",NA,NA,"Borehole",48.8,6.1,"Bedrock Met",1999-05-06,309640,311480,"to 100m","DOOLARGY",NA,"Louth",4,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,152,24.4,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"54","2931SEW051",NA,NA,"Borehole",76.2,20.7,"Bedrock Met",1998-02-04,309240,311770,"to 100m","DOOLARGY",NA,"Louth",4,"Domestic use only","Poor",NA,8.7,NA,NA,NA,NA,152,61,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"55","2931SEW057","1468",NA,"Borehole",54.9,7,"Bedrock Met",1998-09-24,307130,311770,"to 100m","CULFORE",NA,"Louth",4,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"56","2931SEW121",NA,NA,"Borehole",54.9,7.6,"Bedrock Met",2001-02-12,310360,311640,"to 100m","BALLYMAKELLETT","Ravensdale","Louth",4,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,203,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dromiskin",NA,"Casing 1 & 2 = Steel; Casing 3 = PVC; Yield estimated
+Rubber seal on PVC casing @ 19.8m"
+"57","2931SEW131",NA,NA,"Borehole",91.4,13.7,"Bedrock Met",2002-08-20,312400,317160,"to 100m","LISLEA",NA,"Louth",5,"Agri & domestic use","Poor",NA,15.3,NA,NA,NA,NA,203,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Y estimated"
+"58","2931SEW132",NA,NA,"Borehole",36.6,13.7,"Bedrock Met",2002-06-25,309200,312400,"to 100m","BALLYMAKELLETT",NA,"Louth",4,"Agri & domestic use","Good",NA,109,NA,NA,NA,NA,203,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Y estimated"
+"59","2931SEW145","882",NA,"Borehole",161.8,5.5,"Bedrock Met",2001-11-19,305000,312540,"to 100m","FAUGHART LOWER",NA,"Louth",4,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,162,149.4,NA,NA,NA,NA,"Drilled by Des Meehan, Blackrock, Dundalk
+Sandstone",NA,"4 hr test"
+"60","2931SEWO21","717",NA,"Borehole",30.5,6.1,"Bedrock Met",1997-05-13,312240,318890,"to 100m","CORNAMUCKLAGH","Omeath","Louth",2,NA,"Moderate",NA,43.6,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated only"
+"61","2931SWW007",NA,NA,"Borehole",73.2,22.9,"Bedrock Met",NA,303480,313340,"to 100m","RASKEAGH",NA,"Louth",4,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,64,67.1,NA,NA,NA,"Drilled By Tom Briody, Kells",NA,"2 hr test"
+"62","2931SWW042","NERDO L4/13B1",NA,"Borehole",20,11,"Bedrock Met",NA,303080,311240,"to 100m","KILCURRY",NA,"Louth",4,NA,"Poor",NA,26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"INFORMATION FROM THE NERDO REPORT 1981","LOWER LIMESTONE"
+"63","2931SWW047",NA,NA,"Borehole",38.1,3.1,"Bedrock Met",1997-11-21,300980,310400,"to 100m","STUMPA",NA,"Louth",7,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,152,24.4,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"64","2931SWW076","1351",NA,"Borehole",67,6.4,"Bedrock Met",1996-06-11,304170,311630,"to 100m","ANNIES",NA,"Louth",4,NA,"Poor",NA,32.7,NA,NA,NA,NA,152,36.6,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimate only"
+"65","2931SWW086","2040",NA,"Borehole",91.4,4.6,"Bedrock Met",2000-05-12,298420,311590,"to 100m","EDENAKILL",NA,"Louth",3,"Domestic use only","Poor",NA,9.8,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"66","2931SWW087",NA,NA,"Unknown",NA,NA,NA,NA,304600,311900,"to 100m","KILCURRY",NA,"Louth",4,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No well log",NA,"Steel Casing, Max Safe yield: 
+32.7m3/day"
+"67","2931SWW089","2621",NA,"Borehole",42.7,3.1,"Bedrock Met",2001-11-22,300580,314460,"to 100m","DUNGOOLY",NA,"Louth",3,"Domestic use only","Poor",NA,5.5,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"68","2927NEW007",NA,NA,"Borehole",20.7,14.6,"Bedrock Met",NA,315160,281700,"to 200m","CLOGHER",NA,"Louth",22,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"69","2927NEW075","1331",NA,"Borehole",30.5,16.7,"Bedrock Met",1998-05-26,312030,289070,"to 200m","TOGHER",NA,"Louth",19,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"70","2927NWW102","PW #1","Louth Co Co","Borehole",19.8,19.4,"Bedrock Met",1983-03-15,299850,281120,"to 200m","COLLON",NA,"Louth",20,"Public supply (Co Co)","Good",NA,109.1,NA,NA,NA,NA,250,NA,NA,NA,NA,NA,NA,"Collon Village",NA
+"71","2927NWW150",NA,NA,"Borehole",115.8,6.1,"Bedrock Met",1998-11-23,296910,287680,"to 200m","HUNTERSTOWN",NA,"Louth",17,"Domestic use only","Poor",NA,2.2,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"72","2929NEW088","Well 3",NA,"Borehole",36.9,7.9,"Bedrock Met",NA,305600,304700,"to 200m","DUNDALK",NA,"Louth",7,NA,"Moderate",NA,54.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,NA
+"73","2929NWW128","1478",NA,"Borehole",48.8,3.7,"Bedrock Met",1998-10-19,293410,300010,"to 200m","FERAGHS",NA,"Louth",11,"Domestic use only","Poor",NA,8.7,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"74","2929NWW193","NERDO L7/6K1",NA,"Borehole",12,10,NA,NA,303840,308060,"to 200m","DEMESNE","DUNDALK","Louth",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NERDO REPORT 1981
+COX'S DEMENSE, DUNDALK",NA
+"75","2929NWW194","NERDO L7/6K2",NA,"Borehole",9.5,9,NA,NA,303910,308060,"to 200m","DEMESNE","DUNDALK","Louth",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NERDO REPORT 1981
+COX'S DEMENSE, DUNDALK",NA
+"76","2929NWW195","NERDO L7/6K3",NA,"Borehole",5.5,4.7,"Bedrock Met",NA,303960,308050,"to 200m","DEMESNE","DUNDALK","Louth",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NERDO REPORT 1981
+COX'S DEMENSE, DUNDALK",NA
+"77","2929NWW196","NERDO L7/6K4",NA,"Borehole",7,6,"Bedrock Met",NA,304020,308040,"to 200m","DEMESNE","DUNDALK","Louth",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NERDO REPORT 1981
+COX'S DEMENSE, DUNDALK",NA
+"78","2929NWW197","NERDO L7/6K5",NA,"Borehole",12,10,"Bedrock Met",NA,304070,308040,"to 200m","DEMESNE","DUNDALK","Louth",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NERDO REPORT 1981
+COX'S DEMENSE, DUNDALK",NA
+"79","2929NWW198","NERDO L7/6K6",NA,"Borehole",9.5,7.5,"Bedrock Met",NA,304080,307970,"to 200m","DEMESNE","DUNDALK","Louth",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NERDO REPORT 1981
+COX'S DEMENSE, DUNDALK",NA
+"80","2929NWW199","NERDO L7/6K7",NA,"Borehole",10,9,"Bedrock Met",NA,304020,307970,"to 200m","DEMESNE","DUNDALK","Louth",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NERDO REPORT 1981
+COX'S DEMENSE, DUNDALK",NA
+"81","2929NWW200","NERDO L7/6K8",NA,"Borehole",9,8,"Bedrock Met",NA,303970,307970,"to 200m","DEMESNE","DUNDALK","Louth",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NERDO REPORT 1981
+COX'S DEMENSE, DUNDALK",NA
+"82","2929NWW201","NERDO L7/6K9",NA,"Borehole",8.5,6.5,"Bedrock Met",NA,303900,307970,"to 200m","DEMESNE","DUNDALK","Louth",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NERDO REPORT 1981
+COX'S DEMENSE, DUNDALK",NA
+"83","2929NWW202","NERDO L7/6K10",NA,"Borehole",7.5,5.5,"Bedrock Met",NA,303840,307970,"to 200m","DEMESNE","DUNDALK","Louth",7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"NERDO REPORT 1981
+COX'S DEMENSE, DUNDALK",NA
+"84","2929NWW250","Bore 2",NA,"Borehole",48.8,24.4,"Bedrock Met",NA,303900,305900,"to 200m","FAIRHILL","Dundalk","Louth",7,NA,"Moderate",NA,55,NA,NA,NA,NA,NA,7.6,24.4,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Not in use"
+"85","2929SEW001","L 6",NA,"Borehole",61,16.8,"Bedrock Met",1996-01-04,306220,298940,"to 200m","MOORETOWN","Dromiskin","Louth",12,"Agri & domestic use","Poor",NA,32.7,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"86","2929SEW020","1878",NA,"Borehole",61,8,"Bedrock Met",1999-09-27,309240,291510,"to 200m","ADAMSTOWN","Dunleer","Louth",15,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk
+DtB inferred from casing",NA,"Yield estimated"
+"87","2929SWW201","2967",NA,"Borehole",79.2,3.7,"Bedrock Met",2001-03-08,294270,298450,"to 200m","RATHNEESTIN","Tallanstown","Louth",11,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"88","2931SEW013","628",NA,"Borehole",36.6,6.1,"Bedrock Met",1997-02-03,313440,317760,"to 200m","DRUMMULLAGH",NA,"Louth",2,NA,"Moderate",NA,43.6,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"89","2931SEW014","626",NA,"Borehole",54.9,12,"Bedrock Met",1997-01-28,313410,317820,"to 200m","DRUMMULLAGH",NA,"Louth",2,"Domestic use only","Poor",NA,13.1,NA,NA,NA,NA,152,42.7,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"90","2931SEW015","627",NA,"Borehole",36.6,12,"Bedrock Met",1997-01-29,313380,317890,"to 200m","DRUMMULLAGH",NA,"Louth",2,"Domestic use only","Moderate",NA,55,NA,NA,NA,NA,152,24.4,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"91","2931SEW016","629",NA,"Borehole",30.5,6.1,"Bedrock Met",1997-02-04,312920,317860,"to 200m","DRUMMULLAGH",NA,"Louth",2,NA,"Moderate",NA,76.6,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Yield estimated"
+"92","2931SEW033",NA,NA,"Borehole",36.6,4.6,"Bedrock Met",1998-09-21,313460,317880,"to 200m","DRUMMULLAGH",NA,"Louth",2,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,152,18.3,30.5,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"93","2931SEW058","1696",NA,"Borehole",67.1,23.2,"Bedrock Met",1999-08-10,307040,311690,"to 200m","CULFORE",NA,"Louth",4,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,152,6.1,57.9,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"94","2931SEW076","NERDO L4/15L",NA,"Borehole",8,NA,"Bedrock Not Met",NA,306280,310930,"to 200m","FAUGHART LOWER",NA,"Louth",4,NA,"Poor",NA,25.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Nerdo Report 1981",NA
+"95","2931SEW118","TW 6","Louth County Council","Borehole",67,13.5,"Bedrock Met",1996-01-15,315500,310300,"to 200m","GLENMORE",NA,"Louth",8,"Public supply (Co Co)","Good",NA,218,NA,NA,NA,NA,150,36,54,66,NA,NA,"Driller Dunnes, Dromiskin",NA,"YIELD ESTIMATED"
+"96","2931SEW128",NA,NA,"Borehole",36.6,6.1,"Bedrock Met",NA,309930,312700,"to 200m","DOOLARGY",NA,"Louth",4,"Agri & domestic use","Poor","IV",27.3,NA,NA,NA,5.79,150,18.3,27.4,NA,NA,NA,"Driller Tom Briody, Crossakiel",NA,"dd = 4.57m    2 hr test"
+"97","2931SEW129",NA,NA,"Borehole",67,7.6,"Bedrock Met",2000-11-07,307070,311290,"to 200m","CULFORE",NA,"Louth",4,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,203,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Y estimated"
+"98","2931SEW135","2992",NA,"Borehole",54.9,27.4,"Bedrock Met",2001-09-18,313180,316030,"to 200m","BAVAN",NA,"Louth",5,"Domestic use only","Good",NA,131,NA,NA,NA,NA,203,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"99","2931SEW141","2274",NA,"Borehole",85.3,3.1,"Bedrock Met",2000-06-07,311940,318900,"to 200m","CORNAMUCKLAGH",NA,"Louth",2,"Domestic use only","Poor",NA,9.8,NA,NA,NA,NA,152,67.1,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"100","2927NWW101","PW #2","Louth Co Co","Borehole",20.9,20.8,"Bedrock Met",1983-03-15,299870,281100,"to 500m","COLLON",NA,"Louth",20,"Public supply (Co Co)","Good",NA,109.1,NA,NA,NA,NA,200,NA,NA,NA,NA,NA,NA,NA,NA
+"101","2927SEW052",NA,NA,"Borehole",42.7,16.1,"Bedrock Met",1977-03-11,306520,276750,"to 500m","MELL",NA,"Louth",24,"Industrial use","Excellent",NA,490,NA,NA,NA,NA,300,20.7,NA,NA,NA,NA,NA,"Cannot get accurate location at present",NA
+"102","2927SEW053",NA,NA,"Borehole",62,42,"Bedrock Met",1983-05-15,309270,276730,"to 500m","YELLOWBATTER",NA,"Louth",24,"Industrial use","Good","I",231,NA,NA,NA,231,150,NA,NA,NA,NA,NA,NA,NA," dd= 1m"
+"103","2929NEW063","TRIAL WELL NO.1","LOUTH COUNTY COUNCIL","Borehole",23,15,"Bedrock Met",1985-12-15,318000,307000,"to 500m","BALLAVERTY","The Bush","Louth",8,"Public supply (Co Co)",NA,NA,NA,NA,NA,NA,NA,150,15,22,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,NA
+"104","2929NEW064","TRIAL WELL NO.2","LOUTH CO. CO.","Borehole",22,10,"Bedrock Met",1986-01-15,318500,306500,"to 500m","LUGBRISCAN","The Bush","Louth",8,"Public supply (Co Co)","Poor",NA,NA,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Date Nov-1967"
+"105","2929NEW065","TRIAL WELL NO.3","LOUTH CO. CO.","Borehole",24,NA,"Bedrock Not Met",1986-01-15,314000,306500,"to 500m","RAMPARK",NA,"Louth",8,"Public supply (Co Co)","Excellent","I",1036,NA,NA,4.5,230,200,14,20,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"75 hour test"
+"106","2929NEW086",NA,NA,"Borehole",73,21.3,"Bedrock Met",1988-08-15,305000,307500,"to 500m","DUNDALK",NA,"Louth",7,"Industrial use","Good","II",390,NA,NA,9.8,39.8,200,24.4,45.7,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"51 hour test"
+"107","2929NEW102","Monitoring Well 1","Dundalk UDC","Borehole",15.2,NA,"Bedrock Not Met",1992-07-27,305500,308500,"to 500m","MARSH NORTH","Dundalk","Louth",7,NA,"Excellent",NA,545,NA,NA,NA,NA,200,1.2,NA,NA,NA,NA,"Driller Seamus Kelly",NA,NA
+"108","2929NEW103","Monitoring Well 2","Dundalk UDC","Borehole",14,NA,"Bedrock Not Met",1992-08-04,305500,308500,"to 500m","MARSH NORTH","Dundalk","Louth",7,NA,"Excellent",NA,545,NA,NA,NA,NA,200,1.2,NA,NA,NA,NA,"Driller Seamus Kelly",NA,NA
+"109","2929NEW104","Monitoring Well 3","Dundalk UDC","Borehole",14,NA,"Bedrock Not Met",1992-07-27,305500,308500,"to 500m","MARSH NORTH","Dundalk","Louth",7,NA,"Excellent",NA,545,NA,NA,NA,NA,200,1.2,NA,NA,NA,NA,"Driller Seamus Kelly",NA,NA
+"110","2929NEW105",NA,"Dundalk UDC","Borehole",15.8,NA,"Bedrock Met",1992-08-10,305500,308500,"to 500m","MARSH NORTH","Dundalk","Louth",7,NA,"Excellent",NA,545,NA,NA,NA,NA,200,1.2,NA,NA,NA,NA,"Driller Seamus Kelly",NA,NA
+"111","2929NWW129","1420",NA,"Borehole",61,3.7,"Bedrock Met",1998-08-28,298040,308300,"to 500m","BALLINURD",NA,"Louth",6,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Dilled by Dunnes, Dundalk",NA,"Yield estimated"
+"112","2931SEW055","1862",NA,"Borehole",79.2,NA,"DTB Unknown",1999-08-20,306900,312220,"to 500m","PLASTER",NA,"Louth",4,"Domestic use only","Poor",NA,8.7,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"113","2931SEW064","1859",NA,"Borehole",109.7,NA,"DTB Unknown",1999-08-14,315390,311650,"to 500m","GLENMORE",NA,"Louth",5,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Date 1/2/1966"
+"114","2931SEW115","TW 7","Louth County Council","Borehole",36.5,3,"Bedrock Met",1986-01-15,305500,310500,"to 500m","REDCOW",NA,"Louth",7,NA,"Moderate",NA,87,NA,NA,NA,NA,150,7.5,14.5,29,35,NA,"Driller Dunnes, Dromiskin",NA,NA
+"115","2931SEW116","TW 4","Louth County Council","Borehole",36.9,9,"Bedrock Met",1986-01-15,305500,310500,"to 500m","REDCOW",NA,"Louth",7,NA,"Excellent",NA,1090,NA,NA,NA,NA,200,10,11.5,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,NA
+"116","2931SEW117","TW 5","Louth County Council","Borehole",36.5,6,"Bedrock Met",1986-01-15,305500,310500,"to 500m","REDCOW",NA,"Louth",7,NA,"Excellent","I",1091,NA,NA,0.86,1269,150,8,11,14.5,NA,NA,"Driller Dunnes, Dromiskin",NA,"72 hour test"
+"117","2931SEW120",NA,NA,"Borehole",64,20.7,"Bedrock Met",2001-02-14,309690,314250,"to 500m","ANAVERNA",NA,"Louth",4,"Agri & domestic use","Poor",NA,6.5,NA,NA,NA,NA,168,27.4,48.8,54.9,NA,NA,"Driller Des Meehan",NA,"36 hr test"
+"118","2931SEW127",NA,NA,"Borehole",79.2,8.2,"Bedrock Met",2002-03-28,308570,312200,"to 500m","BROUGHATTIN",NA,"Louth",4,"Agri & domestic use","Poor",NA,5.5,NA,NA,NA,NA,203,54.9,NA,NA,NA,NA,"Driller Dunnes, Dromiskin",NA,"Y estimated"
+"119","2931SWW003","2325",NA,"Borehole",97.5,7.6,"Bedrock Met",1999-08-26,298210,311570,"to 500m","DUCAVAN",NA,"Louth",3,"Domestic use only","Poor",NA,6.5,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Date 18/4/1963"
+"120","2931SWW006","1198",NA,"Borehole",54.9,7.6,"Bedrock Met",1998-01-06,303230,311590,"to 500m","KILCURRY",NA,"Louth",4,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,152,36.6,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"

@@ -1,0 +1,41 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","1729NEW100",NA,NA,"Borehole",9.7,5.2,"Bedrock Presumed",NA,194960,308340,"to 1km","DEFFIER",NA,"Leitrim",23,"Unknown","Good",NA,109.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"test date 09 jul 1971"
+"2","1729NEW103",NA,NA,"Borehole",9.4,5.2,"Bedrock Presumed",NA,195240,308470,"to 1km","DEFFIER",NA,"Leitrim",23,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Steel Casing, Max Safe yield: 
+32.7m3/day"
+"3","1731SEW101",NA,NA,"Borehole",61,18.3,"Bedrock Met",1999-03-15,193720,317990,"to 1km","TENTS",NA,"Leitrim",20,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,42.7,54.9,NA,NA,NA,"Drilled by Patrick Briody, Rathangan;
+Black Shale/Limestone",NA,"Yield estimated"
+"4","1735SWW011",NA,NA,"Borehole",12.1,NA,"DTB Unknown",NA,179370,352980,"to 1km","PARK",NA,"Leitrim",1,"Agri & domestic use","Good","III",130.9,NA,NA,NA,15.9,NA,NA,NA,NA,NA,NA,NA,NA,"info oct 1967   pumping level 10.6"
+"5","1735SWW012",NA,NA,"Borehole",14.9,9.1,"Bedrock Presumed",1969-07-08,181980,355330,"to 1km","KINLOUGH",NA,"Leitrim",2,"Unknown","Good",NA,152.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6","1735SWW013",NA,NA,"Borehole",18.2,10.7,"Bedrock Presumed",NA,181640,355550,"to 1km","KINLOUGH",NA,"Leitrim",2,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","2027NWW100","WTB / LTM 1091",NA,"Borehole",42.7,6,"Bedrock Presumed",NA,210240,286710,"to 1km","CLOONCUMBER",NA,"Leitrim",38,"Agri & domestic use","Poor",NA,17.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"test date 1 mar 1973"
+"8","2027NWW102",NA,NA,"Borehole",24.4,12.2,"Bedrock Met",1998-01-30,209570,288960,"to 1km","CLOONCARREEN",NA,"Leitrim",35,"Domestic use only","Poor","IV",27.3,NA,NA,6.1,4.47,152,15.2,NA,NA,NA,NA,"Drilled by Watercare, Barnacoola, Co. Leitrim; 
+Limestone",NA,NA
+"9","2027NWW103","1402",NA,"Borehole",61,14.6,"Bedrock Met",NA,208340,286530,"to 1km","CLOONTUMPHER",NA,"Leitrim",37,"Domestic use only","Poor","V",21.8,NA,NA,45.7,0.48,152,48.8,54.9,NA,NA,NA,"Drilled by Patrick Briody, Rathangan;
+Limestone",NA,"4 hr test"
+"10","2027NWW104","180",NA,"Borehole",48.8,4.3,"Bedrock Met",1998-08-01,208610,285270,"to 1km","CLOONMORRIS",NA,"Leitrim",37,"Domestic use only","Moderate",NA,87.3,NA,NA,NA,NA,152,39.6,NA,NA,NA,NA,"Drilled by Eamon Connell, Naas;
+Limestone",NA,"Yield estimated"
+"11","2027NWW105",NA,NA,"Borehole",48.8,6.1,"Bedrock Met",1998-09-10,208600,285300,"to 1km","CLOONMORRIS",NA,"Leitrim",37,"Domestic use only","Moderate","IV",87.3,NA,NA,9.1,9.55,152,42.7,NA,NA,NA,NA,"Drilled by Harry Connell, Naas;
+Sandstone",NA,"24 hr test"
+"12","2029NEW200",NA,NA,"Borehole",21.6,21.6,"Bedrock Presumed",NA,217430,309350,"to 1km","ARDUNSAGHAN",NA,"Leitrim",25,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,NA,NA,"test date 11 oct 1977"
+"13","2029NEW202",NA,NA,"Borehole",16.8,6.4,"Bedrock Presumed",NA,223040,305540,"to 1km","CORGLASS","KILLIGAR","Leitrim",30,"Agri & domestic use","Good",NA,218.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"test date 08-jun-1971"
+"14","2029NEW203",NA,NA,"Borehole",30.2,NA,"DTB Unknown",NA,216290,306590,"to 1km","KEENHEEN","BALLINAMORE","Leitrim",29,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,NA,NA,"test date 30 nov 1978"
+"15","2029NEW204",NA,NA,"Borehole",30.2,NA,"DTB Unknown",NA,216560,306480,"to 1km","KEENHEEN","BALLINAMORE","Leitrim",29,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"test date 15 Dec 1978"
+"16","2029NEW206","WTB/ LTM 50",NA,"Borehole",36.6,17,"Bedrock Presumed",1960-08-16,222050,303240,"to 1km","KILLAHURK","CARRICKALLEN","Leitrim",30,"Unknown","Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"17","2029NEW211",NA,NA,"Borehole",182.9,22.9,"Bedrock Met",NA,223260,305660,"to 1km","CORGLASS",NA,"Leitrim",30,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,152,158.5,170.7,NA,NA,NA,"Drilled by Tom Briody, Kells;
+Limestone","Townland reported as 'Curraglass'","2 hr test"
+"18","2029NWW001","WTB LTM 538",NA,"Borehole",16.4,6,"Bedrock Presumed",NA,204170,307840,"to 1km","KESHCARRIGAN",NA,"Leitrim",24,"Unknown","Good",NA,130.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"test date 15 may 1969"
+"19","2029NWW003",NA,NA,"Borehole",36.6,17.4,"Bedrock Presumed",1969-03-24,208760,303580,"to 1km","CORRABEAGH","GARVAGH","Leitrim",28,"Agri & domestic use","Good",NA,130.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"20","2029NWW005",NA,NA,"Borehole",36.6,NA,"DTB Unknown",1969-03-01,209480,303500,"to 1km","GARVAGH",NA,"Leitrim",28,"Agri & domestic use","Good",NA,130.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"21","2029NWW007",NA,NA,"Borehole",42,NA,"DTB Unknown",NA,214610,305890,"to 1km","SRANADARRAGH","BALLINAMORE","Leitrim",29,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,NA,NA,"test date 9 feb 1979"
+"22","2029NWW010",NA,NA,"Borehole",10.4,10,"Bedrock Presumed",NA,206270,305210,"to 1km","GARADICE",NA,"Leitrim",28,"Agri & domestic use","Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"test date 22 dec 1971"
+"23","2029NWW011",NA,"Drumdiffer Group Scheme","Borehole",28.9,NA,"DTB Unknown",NA,214860,307170,"to 1km","DRUMDIFFER",NA,"Leitrim",25,"Group Scheme","Good",NA,109.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"test date 6 oct 1970"
+"24","2029SWW004",NA,NA,"Borehole",28.9,NA,"DTB Unknown",NA,204070,292840,"to 1km","FEARNAGHT",NA,"Leitrim",35,"Unknown","Good",NA,130.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"test date 30 sep 1974",NA
+"25","2029SWW005",NA,"Drumard Group scheme","Borehole",30.5,NA,"DTB Unknown",NA,208180,294060,"to 1km","DRUMARD JONES",NA,"Leitrim",35,"Group Scheme","Good",NA,109.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"test date 5 oct 1970"
+"26","2029SWW006",NA,NA,"Borehole",14.3,NA,"DTB Unknown",1962-09-01,208830,291840,"to 1km","DERREEN",NA,"Leitrim",35,"Agri & domestic use","Good",NA,218.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"27","2029SWW008",NA,NA,"Borehole",62.8,NA,"DTB Unknown",NA,214870,294160,"to 1km","DRUMGOWNAGH",NA,"Leitrim",36,"Agri & domestic use","Moderate",NA,42.5,NA,NA,NA,NA,NA,21.3,62.8,NA,NA,NA,NA,NA,"test date jul 1977"
+"28","2029SWW009",NA,NA,"Borehole",30.5,26.2,"Bedrock Met",NA,214380,291900,"to 1km","ANSKERT",NA,"Leitrim",36,"Domestic use only","Moderate","III",65.5,NA,NA,3.05,21.5,152,24.4,NA,NA,NA,NA,"Drilled by Tom Briody, Kells;
+Sandstone",NA,"2 hr test"
+"29","2031SEW200",NA,NA,"Borehole",56.1,NA,"DTB Unknown",1961-11-10,215400,316160,"to 1km","STROKE","BALLLINAMORE","Leitrim",22,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,109.1,NA,NA,NA,NA,NA,NA,NA,NA
+"30","2031SWW001",NA,"Agricultural Institute","Borehole",34.1,26.8,"Bedrock Presumed",NA,210650,310930,"to 1km","CREEVY","BALLINAMORE","Leitrim",25,"Agri & domestic use","Good",NA,218.2,NA,NA,NA,NA,218.2,NA,NA,NA,NA,NA,NA,NA,NA
+"31","2029NEW201",NA,NA,"Borehole",29.6,7.6,"Bedrock Presumed",NA,216150,307860,"to 2km","DRUMCOURA",NA,"Leitrim",25,"Agri & domestic use","Good",NA,109.1,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,NA,NA,"TEST DATE 17 oct 1978"
+"32","2029SEW100","WTB / LTM 419",NA,"Borehole",31.4,6,"Bedrock Met",NA,216170,293840,"to 2km","CATTAN",NA,"Leitrim",36,"Agri & domestic use","Poor",NA,36.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"test date 4 jul 1969"

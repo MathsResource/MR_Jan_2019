@@ -1,0 +1,101 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","2331NEW149","BH 2","CLONES CO-OP DAIRY SOC. LTD.","Borehole",21.3,5.6,"Bedrock Met",1930-05-01,249900,326840,"to 100m","LISEGGERTON",NA,"Monaghan",11,"Industrial use","Poor",NA,16.4,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"yield not recorded","location taken as Creamery site on 6"" map",NA
+"2","2331NEW150","BH 1","CLONES CO-OP DAIRY SOC. LTD.","Borehole",36.3,6.7,"Bedrock Met",1930-02-01,249890,326850,"to 100m","LISEGGERTON",NA,"Monaghan",11,"Industrial use","Moderate",NA,43.6,NA,NA,NA,NA,178,NA,NA,NA,NA,NA,NA,"location taken as Creamery site on 6"" map",NA
+"3","2331SEW039",NA,"Coolnacarte GWS","Borehole",91.4,30.5,"Bedrock Met",1997-06-19,247840,319140,"to 100m","DRUMAVEALE",NA,"Monaghan",16,"Group Scheme","Good",NA,218,NA,NA,NA,NA,127,30.5,58,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Plastic casing. water @30.5m  (109m3day) and 58m (218 to 327m3day)."
+"4","2629SEW121","BH-5",NA,"Borehole",15.2,8.7,"Bedrock Met",1989-04-15,289140,298120,"to 100m","DRUMGEENY",NA,"Monaghan",34,NA,"Poor",NA,11,NA,NA,NA,NA,150,13.7,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"STEEL CASING"
+"5","2629SEW148","BH-2",NA,"Borehole",15.2,6.1,"Bedrock Met",NA,289140,298120,"to 100m","DRUMGEENY",NA,"Monaghan",34,NA,"Moderate",NA,56,NA,NA,NA,NA,150,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"0-6.1m Steel casing, 0-3m & 9-15.2m plain Wavin,"
+"6","2629SEW149","BH-3",NA,"Borehole",15.2,4.3,"Bedrock Met",1989-04-15,289150,298110,"to 100m","DRUMGEENY",NA,"Monaghan",34,NA,"Moderate",NA,44,NA,NA,NA,NA,150,4.3,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"0-6.1m steel casing, 0-3.1 & 9 -15.2m plain Wavin , 3.1- 9m Slotted Wavin"
+"7","2629SEW150","BH-4",NA,"Borehole",15.2,1.6,"Bedrock Met",1989-04-15,289130,298100,"to 100m","DRUMGEENY",NA,"Monaghan",34,NA,"Poor",NA,6.5,NA,NA,NA,NA,150,12.2,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"STEEL CASING"
+"8","2629SEW506","TW 12","Kingscourt Regional Supply","Borehole",135,8.8,"Bedrock Met",1998-01-01,282450,297050,"to 100m","DESCART",NA,"Monaghan",34,"Public supply (Co Co)","Excellent",NA,500,NA,NA,NA,NA,250,16,125,NA,NA,NA,NA,NA,NA
+"9","2629SEW507","TW 13","Kingscourt Regional Water Supply","Borehole",19.2,8.8,"Bedrock Met",1998-01-01,282460,296970,"to 100m","DESCART",NA,"Monaghan",34,"Public supply (Co Co)","Excellent",NA,800,NA,NA,NA,NA,300,6,10,NA,NA,NA,NA,NA,"well designed to investigate GW supply in shallow red Sst     supported by gravels"
+"10","2631NEW103","448",NA,"Borehole",85.3,9.1,"Bedrock Met",1997-05-28,288230,324750,"to 100m","ALSMEED",NA,"Monaghan",20,NA,"Poor",NA,16.3,NA,NA,NA,NA,152,24.4,30.5,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Water entry @ 24.4 to 30.5 m; 15.1m steel, 85.3m PVC casing. Yield estimated"
+"11","2631NWW064",NA,"CORRANEWY CREAMERY, DOAPEY CO-OP","Borehole",24.4,NA,"DTB Unknown",NA,260840,322510,"to 100m","CORRANEWY",NA,"Monaghan",18,"Industrial use","Good",NA,218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"12","2631NWW065",NA,"CORRANEWY CREAMERY","Borehole",30.5,9.1,"Bedrock Met",1967-05-01,260840,322450,"to 100m","CORRANEWY",NA,"Monaghan",18,"Industrial use","Good",NA,196,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Barham Bros, Belturbet",NA,NA
+"13","2631SWW020",NA,NA,"Borehole",30.5,0.9,"Bedrock Met",NA,269760,318140,"to 100m","BOWELK",NA,"Monaghan",23,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"good quality; summer yield",NA,NA
+"14","2633SWW288",NA,NA,"Borehole",91.4,3.1,"Bedrock Met",2003-10-13,272740,331280,"to 100m","AGHNAGLOGH",NA,"Monaghan",14,"Agri & domestic use","Poor",NA,5.5,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Estimated Yield"
+"15","2629SEW179",NA,NA,"Borehole",36.6,5,"Bedrock Presumed",1971-07-02,283850,299490,"to 200m","MOKEERAN",NA,"Monaghan",34,"Industrial use","Good",NA,109,NA,NA,NA,NA,203,NA,NA,NA,NA,NA,"DtB inferred from casing depth",NA,NA
+"16","2631NEW106","4885",NA,"Borehole",103.6,18.3,"Bedrock Met",2004-08-17,284900,327680,"to 200m","DOOCHARN",NA,"Monaghan",15,"Agri & domestic use","Good",NA,109,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Dunnes, Dundalk",NA,"Yield estimated"
+"17","2929NWW003",NA,NA,"Borehole",10.7,2.7,"Bedrock Met",NA,290400,309330,"to 200m","TATTYBOY",NA,"Monaghan",29,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,0.9,4.6,NA,NA,NA,"quality ok  hard brown rock","Near Blackstaff School","No water after 4.6m"
+"18","2929NWW004",NA,NA,"Borehole",10.7,0.6,"Bedrock Met",1965-01-01,290440,309290,"to 200m","TATTYBOY",NA,"Monaghan",29,NA,"Poor",NA,3.3,NA,NA,NA,NA,NA,2.4,NA,NA,NA,NA,"hit water at 2.4m, no increase, hard rock","Near Blackstaff School",NA
+"19","2929NWW012",NA,NA,"Dug well",7,6.4,"Bedrock Met",2002-08-15,292760,305960,"to 200m","DRUMNAGRELLA",NA,"Monaghan",32,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,914,5.5,NA,NA,NA,NA,"Dug by Brian Hines, Crossmaglen",NA,NA
+"20","2331NEW164",NA,NA,"Borehole",41.1,11,"Bedrock Met",NA,255630,329240,"to 500m","DRUMCRU",NA,"Monaghan",12,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"21","2331NEW166",NA,NA,"Dug well",3.7,NA,"Bedrock Not Met",1967-03-23,254670,324780,"to 500m","LATROE",NA,"Monaghan",17,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 127",NA,NA
+"22","2331NEW167",NA,NA,"Borehole",50,NA,"DTB Unknown",1966-12-10,255080,323430,"to 500m","DRUMLOO",NA,"Monaghan",17,NA,"Good",NA,327,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1144",NA,NA
+"23","2331NEW170",NA,NA,"Dug well",1.8,NA,"DTB Unknown",1970-08-07,254980,320930,"to 500m","CORKISH",NA,"Monaghan",17,NA,"Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"24","2331NEW171",NA,NA,"Dug well",3.7,NA,"DTB Unknown",1967-02-13,254980,320880,"to 500m","CORKISH",NA,"Monaghan",17,NA,"Poor",NA,15.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1124",NA,NA
+"25","2331NEW174",NA,NA,"Dug well",1.8,NA,"DTB Unknown",1967-07-09,259680,323210,"to 500m","DRUMATE",NA,"Monaghan",17,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1241",NA,NA
+"26","2331NEW175",NA,NA,"Dug well",3.1,NA,"DTB Unknown",1970-07-10,258680,322510,"to 500m","MULLYMAGARAGHAN",NA,"Monaghan",17,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1654",NA,NA
+"27","2331NEW176",NA,NA,"Borehole",29.6,NA,"DTB Unknown",1973-12-14,258220,322480,"to 500m","CROVER",NA,"Monaghan",17,NA,"Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 2697",NA,NA
+"28","2331NEW177",NA,NA,"Borehole",29,NA,"DTB Unknown",1967-01-30,256320,320270,"to 500m","CORRACHULTER",NA,"Monaghan",17,NA,"Excellent",NA,436,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1155",NA,NA
+"29","2331NEW178",NA,NA,"Borehole",41.1,16,"Bedrock Met",1970-12-09,255580,329200,"to 500m","DRUMCRU",NA,"Monaghan",17,NA,"Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"30","2331NEW187","ILC 1459 A",NA,"Borehole",31.7,NA,"DTB Unknown",NA,251150,325580,"to 500m","LEGARHILL",NA,"Monaghan",12,"Agri & domestic use","Moderate","IV",54.5,NA,NA,NA,10.25,152,NA,NA,NA,NA,NA,NA,NA,"Bailer test 09/08/69 with drawdown of 1.52 m, also pump test done."
+"31","2331NEW188","ILC 1458",NA,"Borehole",47.2,NA,"DTB Unknown",NA,251100,326120,"to 500m","ALTARTATE GLEBE",NA,"Monaghan",12,"Agri & domestic use","Poor","IV",24.7,NA,NA,NA,5.4,152,NA,NA,NA,NA,NA,NA,NA,"Bailer test and pump test done (see tests). Steel lining."
+"32","2331SEW031",NA,NA,"Dug well",1.8,NA,"Bedrock Not Met",1971-01-08,255800,319810,"to 500m","CORNAWALL",NA,"Monaghan",17,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 2193",NA,NA
+"33","2331SEW032",NA,NA,"Dug well",3.1,NA,"DTB Unknown",1967-03-02,255400,319270,"to 500m","DRUMILKIN",NA,"Monaghan",17,NA,"Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"blue rock. WTB/MON 934",NA,NA
+"34","2331SEW033",NA,NA,"Dug well",1.8,NA,"DTB Unknown",1967-04-17,257280,319130,"to 500m","GLEN",NA,"Monaghan",17,NA,"Poor",NA,30.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"blue rock. WTB/MON 728",NA,NA
+"35","2331SEW036",NA,NA,"Dug well",2.4,NA,"DTB Unknown",1967-06-09,259030,317110,"to 500m","DRUMGARKIN",NA,"Monaghan",22,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1181. blue rock",NA,NA
+"36","2333SEW089",NA,NA,"Dug well",3.5,0,NA,NA,258270,336920,"to 500m","GOLA IRISH",NA,"Monaghan",8,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,1219,NA,NA,NA,NA,NA,NA,NA,NA
+"37","2333SEW091","PW2","MONAGHAN COUNTY COUNCIL","Borehole",14.6,NA,"Bedrock Not Met",1987-12-15,258720,330690,"to 500m","MULLADUFF",NA,"Monaghan",12,"Public supply (Co Co)","Excellent","I",1794,NA,NA,NA,381,250,12.4,NA,NA,NA,NA,"KT CULLEN.",NA,"72 hr test"
+"38","2333SEW092","PW3","MONAGHAN COUNTY COUNCIL","Borehole",14.5,NA,"Bedrock Not Met",1988-08-15,258900,330670,"to 500m","MULLADUFF",NA,"Monaghan",12,"Public supply (Co Co)","Excellent","I",410,NA,NA,NA,381,200,3,6,13,NA,NA,"K T CULLEN. Drilled by IGSL",NA,"24 hr test"
+"39","2629NEW087",NA,NA,"Dug well",3.7,NA,"Bedrock Not Met",1972-06-13,277920,306520,"to 500m","LISNAFEDDALY",NA,"Monaghan",27,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"40","2629NEW101",NA,NA,"Dug well",9.1,NA,"Bedrock Not Met",1963-09-21,285720,307680,"to 500m","TULLYNACROSS",NA,"Monaghan",28,NA,"Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 609",NA,NA
+"41","2631NEW035",NA,NA,"Dug well",2.7,NA,"DTB Unknown",1973-05-15,278530,323220,"to 500m","LACKAGH",NA,"Monaghan",19,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"grey bedrock. WTB/MON 2901",NA,NA
+"42","2631NEW038",NA,NA,"Dug well",1.8,NA,"DTB Unknown",1971-09-15,275520,321610,"to 500m","RAUSKER",NA,"Monaghan",19,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"43","2631NEW041",NA,NA,"Dug well",1.2,0.6,"Bedrock Met",1966-10-01,276210,323490,"to 500m","CORLAGAN SOUTH",NA,"Monaghan",19,NA,"Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 2049",NA,NA
+"44","2631NEW042",NA,NA,"Dug well",2.4,0.6,"Bedrock Met",1966-05-10,277390,322280,"to 500m","GARRADEVLIN",NA,"Monaghan",19,NA,"Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1172",NA,NA
+"45","2631NEW043",NA,NA,"Dug well",3.1,0.6,"Bedrock Met",1970-01-15,278570,322110,"to 500m","CORRAKEEN",NA,"Monaghan",19,NA,"Poor",NA,15.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 2010",NA,NA
+"46","2631NEW044",NA,NA,"Dug well",4.9,NA,"DTB Unknown",1970-02-23,279600,321950,"to 500m","LISLANLY",NA,"Monaghan",19,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"47","2631NEW060",NA,NA,"Dug well",4.9,1.5,"Bedrock Met",1965-07-17,285970,322910,"to 500m","FORMIL",NA,"Monaghan",20,NA,"Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 904",NA,NA
+"48","2631NEW061",NA,NA,"Dug well",2.4,NA,"DTB Unknown",NA,285970,322870,"to 500m","FORMIL",NA,"Monaghan",20,NA,"Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"49","2631NEW062",NA,NA,"Dug well",3.1,0.6,"Bedrock Met",NA,285960,322830,"to 500m","FORMIL",NA,"Monaghan",20,NA,"Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1394",NA,NA
+"50","2631NEW063",NA,NA,"Borehole",38.1,7.6,"Bedrock Met",1972-08-15,285960,322780,"to 500m","FORMIL",NA,"Monaghan",20,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 929",NA,NA
+"51","2631NEW095",NA,NA,"Dug well",4,0.9,"Bedrock Met",1967-09-15,277350,321300,"to 500m","COOLMANNAN",NA,"Monaghan",19,NA,"Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 534",NA,NA
+"52","2631NWW061",NA,NA,"Borehole",37.8,NA,"DTB Unknown",NA,261770,322630,"to 500m","AGHADRUMKEEN",NA,"Monaghan",18,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"53","2631NWW062",NA,NA,"Borehole",77.7,6.1,"Bedrock Met",NA,264680,322780,"to 500m","RAKEERAGH",NA,"Monaghan",18,NA,"Failure",NA,1.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"54","2631NWW067",NA,NA,"Borehole",30.5,0.9,"Bedrock Met",1968-07-20,266670,322030,"to 500m","DUNDRANNAN",NA,"Monaghan",18,NA,"Moderate",NA,87.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1512
+SHALE",NA,NA
+"55","2631NWW069",NA,NA,"Borehole",30.5,3,"Bedrock Met",1962-07-15,262860,321920,"to 500m","MILLTOWN",NA,"Monaghan",18,NA,"Good","III",273,NA,NA,23.2,11.76,NA,NA,NA,NA,NA,NA,"DtB inferred from casing depth",NA,"pumping water level 25.9m"
+"56","2631NWW071",NA,NA,"Dug well",4,1.5,"Bedrock Met",NA,263980,320330,"to 500m","CORRAGORE",NA,"Monaghan",18,NA,"Poor",NA,8.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1061",NA,NA
+"57","2631NWW074",NA,NA,"Dug well",3.1,0.6,"Bedrock Met",NA,269170,324780,"to 500m","LOSSET",NA,"Monaghan",18,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1508
+SHALE",NA,NA
+"58","2631NWW087",NA,NA,"Dug well",4.3,0.6,"Bedrock Met",NA,263570,323510,"to 500m","ROSSNAGLOGH EAST",NA,"Monaghan",18,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 991",NA,NA
+"59","2631NWW094",NA,NA,"Dug well",2.4,0.6,"Bedrock Met",1967-06-21,270940,324160,"to 500m","BALLYNAGARRY",NA,"Monaghan",19,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1305",NA,NA
+"60","2631SEW006",NA,NA,"Dug well",3.1,0.6,"Bedrock Met",1967-02-26,278360,319350,"to 500m","CLARE OGHILL",NA,"Monaghan",19,NA,"Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1205",NA,NA
+"61","2631SEW009",NA,NA,"Dug well",7.3,NA,"DTB Unknown",NA,281310,319780,"to 500m","KILLYCARD",NA,"Monaghan",20,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"62","2631SEW013",NA,NA,"Borehole",48.8,21,"Bedrock Met",1969-03-15,282620,319170,"to 500m","CONNABURY",NA,"Monaghan",20,NA,"Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DtB inferred from casing depth",NA,NA
+"63","2631SEW018",NA,NA,"Borehole",32.3,3.1,"Bedrock Met",1970-12-16,277470,317920,"to 500m","SHANE",NA,"Monaghan",24,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"64","2631SEW024",NA,NA,"Borehole",2.4,NA,"DTB Unknown",1968-08-30,278000,316500,"to 500m","DRUMLANE",NA,"Monaghan",24,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"65","2631SEW025",NA,NA,"Dug well",3.1,0.8,"Bedrock Met",NA,278000,316450,"to 500m","DRUMLANE",NA,"Monaghan",24,NA,"Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"66","2631SEW026",NA,NA,"Dug well",2.4,0.6,"Bedrock Met",1969-05-10,278000,316400,"to 500m","DRUMLANE",NA,"Monaghan",24,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1575",NA,NA
+"67","2631SEW034",NA,NA,"Dug well",1.5,0.3,"Bedrock Met",NA,275520,315390,"to 500m","TOSSY",NA,"Monaghan",24,NA,"Moderate",NA,87,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1725",NA,NA
+"68","2631SEW043",NA,NA,"Dug well",3.1,0.6,"Bedrock Met",1972-10-15,279900,315370,"to 500m","LAGAN",NA,"Monaghan",24,NA,"Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Grey bedrock",NA,NA
+"69","2631SEW066",NA,NA,"Dug well",4.3,1.2,"Bedrock Met",1971-06-15,283540,317640,"to 500m","DRUMCREW",NA,"Monaghan",25,NA,"Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"70","2631SEW067",NA,NA,"Dug well",6.1,1.2,"Bedrock Met",1967-08-09,282800,317850,"to 500m","TULLYVIN",NA,"Monaghan",25,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1083",NA,NA
+"71","2631SEW068",NA,NA,"Dug well",4.3,NA,"DTB Unknown",1967-01-13,282110,317710,"to 500m","CAVANAGUILLAGH",NA,"Monaghan",25,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"72","2631SEW079",NA,NA,"Dug well",6.1,1.8,"Bedrock Met",1967-01-04,284120,315930,"to 500m","MULLAGHANEE",NA,"Monaghan",25,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1173. Grey rock.",NA,NA
+"73","2631SEW080",NA,NA,"Dug well",2.7,0.6,"Bedrock Met",1971-03-15,285710,315960,"to 500m","COOLSKEAGH",NA,"Monaghan",25,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 2288",NA,NA
+"74","2631SEW081",NA,NA,"Dug well",2.4,0.6,"Bedrock Met",1971-05-15,285710,315930,"to 500m","COOLSKEAGH",NA,"Monaghan",25,NA,"Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"75","2631SEW082",NA,NA,"Dug well",4.6,NA,"DTB Unknown",1969-09-10,285710,315880,"to 500m","COOLSKEAGH",NA,"Monaghan",25,NA,"Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Grey rock.",NA,NA
+"76","2631SEW085",NA,NA,"Dug well",2.4,0.6,"Bedrock Met",1971-05-15,285530,314760,"to 500m","DRUMLANDRICK",NA,"Monaghan",25,NA,"Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"77","2631SEW086",NA,NA,"Dug well",18.3,3.1,"Bedrock Met",1970-05-15,285530,314710,"to 500m","DRUMLANDRICK",NA,"Monaghan",25,NA,"Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"78","2631SEW087",NA,NA,"Borehole",23.5,23.5,"Bedrock Presumed",1962-09-24,285520,314660,"to 500m","DRUMLANDRICK",NA,"Monaghan",25,NA,"Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/MON 412, WTB/MON 487",NA,NA
+"79","2631SEW088",NA,NA,"Dug well",1.8,NA,"DTB Unknown",1970-06-18,282610,315480,"to 500m","DRUMAVADDY",NA,"Monaghan",25,NA,"Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Grey rock",NA,NA
+"80","2631SEW091",NA,NA,"Dug well",3.7,NA,"DTB Unknown",1971-08-15,283020,313340,"to 500m","LISAGORE",NA,"Monaghan",25,NA,"Poor",NA,17.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"81","2631SEW093",NA,NA,"Borehole",34.7,NA,"DTB Unknown",1973-02-17,283920,312810,"to 500m","CROVER",NA,"Monaghan",25,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 2930. Hard grey rock",NA,NA
+"82","2631SEW094",NA,NA,"Borehole",30.5,13.4,"Bedrock Met",NA,285080,313820,"to 500m","DRUMGANUS LOWER","Broomfield","Monaghan",25,NA,"Poor",NA,4.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Barham Bros",NA,NA
+"83","2631SEW099",NA,NA,"Dug well",5.5,NA,"Bedrock Not Met",1972-04-18,278880,310260,"to 500m","BOCKS MIDDLE",NA,"Monaghan",27,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"84","2631SWW011",NA,NA,"Dug well",3.1,1.2,"Bedrock Not Met",NA,266740,319410,"to 500m","CORDEVLIS",NA,"Monaghan",18,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 331",NA,NA
+"85","2631SWW013",NA,NA,"Dug well",3.1,0.6,"Bedrock Met",1971-09-15,274520,319730,"to 500m","TONYGLASSAN",NA,"Monaghan",19,NA,"Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"86","2631SWW014",NA,NA,"Dug well",3.7,0.9,"Bedrock Met",NA,274520,319670,"to 500m","TONYGLASSAN",NA,"Monaghan",19,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"W/MON 1047, WTB/MON 512",NA,NA
+"87","2631SWW017",NA,NA,"Dug well",4.9,NA,"DTB Unknown",1973-12-14,261640,318300,"to 500m","MONAGE",NA,"Monaghan",23,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 2572",NA,NA
+"88","2631SWW019",NA,NA,"Dug well",3.7,NA,"DTB Unknown",NA,269320,318690,"to 500m","CUMRY",NA,"Monaghan",23,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 768",NA,NA
+"89","2631SWW021",NA,NA,"Dug well",3.1,0.6,"Bedrock Met",1971-03-15,268010,317470,"to 500m","MULLANARY GLEBE",NA,"Monaghan",23,NA,"Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"90","2631SWW022",NA,NA,"Dug well",2.4,1.2,"Bedrock Met",1967-10-01,268010,317440,"to 500m","MULLANARY GLEBE",NA,"Monaghan",23,NA,"Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 727",NA,NA
+"91","2631SWW028",NA,NA,"Dug well",6.1,0.8,"Bedrock Met",NA,267940,316060,"to 500m","DERRY",NA,"Monaghan",23,NA,"Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1483",NA,NA
+"92","2631SWW033",NA,NA,"Dug well",4.6,0.9,"Bedrock Met",1969-04-15,265670,314630,"to 500m","CLONACULLION",NA,"Monaghan",23,NA,"Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"93","2631SWW057",NA,NA,"Dug well",4.6,0.9,"Bedrock Met",NA,273100,317250,"to 500m","ROO",NA,"Monaghan",24,NA,"Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1645",NA,NA
+"94","2631SWW058",NA,NA,"Dug well",2.4,0.6,"Bedrock Met",1970-10-15,273100,317210,"to 500m","ROO",NA,"Monaghan",24,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"95","2631SWW059",NA,NA,"Dug well",1.8,0.5,"Bedrock Met",NA,274130,317470,"to 500m","SRA",NA,"Monaghan",24,NA,"Poor",NA,9.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 1581",NA,NA
+"96","2633NWW146",NA,NA,"Borehole",41.8,NA,"Bedrock Not Met",1972-07-03,262540,347630,"to 500m","KNOCKABEANY",NA,"Monaghan",3,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/MON 2721",NA,NA
+"97","2633NWW147",NA,NA,"Borehole",39.9,35.7,"Bedrock Met",1972-06-09,262540,347590,"to 500m","KNOCKABEANY",NA,"Monaghan",3,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Hard grey rock
+WTB/MON 2664",NA,NA

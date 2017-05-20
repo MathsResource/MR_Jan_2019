@@ -1,0 +1,844 @@
+"","GSIName","OrigName","SrcName","Type","Depth_m","Dpth.Rck_m","DTRConfid","DrillDate","Easting","Northing","Loc_Acc","Townland","Town","County","SixInShtNo","SourceUse","YldClass","ProdClass","Yield_m3d","Abstr_m3d","Ovrflw_m3d","AbstrDDm","SC_m3dm","cas1dia_mm","Wtrstrk1_m","Wtrstrk2_m","Wtrstrk3_m","Wtrstrk4_m","Wtrloss1_m","GenComms","DrillComms","CasingComs"
+"1","1709NEW001",NA,NA,"Borehole",35.1,NA,"DTB Unknown",1969-08-01,195150,105530,"to within 1km","BALLYEAFY",NA,"Waterford",11,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1655",NA,NA
+"2","1709NEW002",NA,NA,"Borehole",44.2,6.1,"Bedrock Met",1962-06-01,194390,105550,"to within 1km","BALLINALEUCRA",NA,"Waterford",11,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1037",NA,NA
+"3","1709NEW003",NA,NA,"Borehole",34.7,3.1,"Bedrock Met",NA,191310,101500,"to within 1km","TOBERNAHULLA",NA,"Waterford",19,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4","1709NEW004",NA,NA,"Borehole",17.4,NA,"DTB Unknown",NA,198980,102690,"to within 1km","REANACOOLAGH",NA,"Waterford",20,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no rockhead data; WTB/WAT 1213
+RED SANDSTONE",NA,NA
+"5","1709NEW005",NA,NA,"Dug well",1.2,NA,"DTB Unknown",NA,195950,102150,"to within 1km","TOORNAGEEHA",NA,"Waterford",20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no other data after depth",NA,NA
+"6","1709NEW006",NA,NA,"Spring",0.3,NA,"DTB Unknown",NA,195710,101420,"to within 1km","BARRYSMOUNTAIN",NA,"Waterford",20,NA,"Low Spring",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no other data after depth",NA,NA
+"7","1709NEW007",NA,NA,"Borehole",33.2,6.1,"Bedrock Met",1971-08-19,199500,99500,"to within 1km","COOLISHAL",NA,"Waterford",20,NA,"Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2055
+LIMESTONE",NA,NA
+"8","1709NEW008",NA,NA,"Borehole",21.3,3.7,"Bedrock Met",1963-05-11,199520,102760,"to within 1km","REANACOOLAGH",NA,"Waterford",20,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 616, 1301
+RED SANDSTONE",NA,NA
+"9","1709NEW009",NA,NA,"Borehole",15.2,6.1,"Bedrock Met",1972-05-26,200410,103100,"to within 1km","REANACOOLAGH",NA,"Waterford",20,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2116
+sandstone",NA,NA
+"10","1709NEW010",NA,NA,"Dug well",18.3,4.3,"Bedrock Met",NA,196800,101120,"to within 1km","KNOCKAUN",NA,"Waterford",20,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LIMESTONE",NA,NA
+"11","1709NEW018",NA,NA,"Borehole",36.6,4.6,"Bedrock Met",1999-03-13,195700,101430,"to within 1km","GORTNAPEAKY",NA,"Waterford",20,"Agri & domestic use","Moderate","IV",87.3,NA,NA,NA,9.55,159,9.1,22.9,30.8,NA,NA,NA,NA,NA
+"12","1709NEW022",NA,NA,"Borehole",21.3,3.1,"Bedrock Met",1970-06-15,196800,103300,"to within 1km","KNOCKADULLAUN",NA,"Waterford",20,NA,"Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13","1709SEW001",NA,NA,"Borehole",27.4,5.5,"Bedrock Met",1972-03-15,199440,97740,"to within 1km","GARRYCLOYNE",NA,"Waterford",20,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"RED SANDSTONE",NA,NA
+"14","1709SEW003",NA,NA,"Borehole",43.6,12.2,"Bedrock Met",1963-11-28,192650,99230,"to within 1km","BALLYNERROON",NA,"Waterford",20,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1271
+LIMESTONE",NA,NA
+"15","1709SEW004",NA,NA,"Borehole",37.5,6.1,"Bedrock Met",NA,194710,97660,"to within 1km","SHEANBEG",NA,"Waterford",20,NA,"Good",NA,196,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SANDSTONE",NA,NA
+"16","1709SEW005",NA,NA,"Borehole",27.4,3.7,"Bedrock Met",1972-06-29,197900,98430,"to within 1km","BALLYDUFF",NA,"Waterford",20,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2130
+LIMESTONE",NA,NA
+"17","1709SEW006",NA,NA,"Borehole",27.4,2.4,"Bedrock Met",1966-11-19,199690,92230,"to within 1km","KILMORE",NA,"Waterford",28,NA,"Poor","IV",10.9,NA,NA,NA,5.5,NA,NA,NA,NA,NA,NA,"WTB/WAT 109
+Red sandstone",NA,NA
+"18","1709SEW036",NA,NA,"Borehole",31.4,3.7,"Bedrock Met",1988-06-27,196100,99250,"to within 1km","BALLYDUFF",NA,"Waterford",20,"Domestic use only","Excellent",NA,436,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"FRACTURES AT 10.4m,16.5m,18.6m,25.0m AND 29.0m",NA,NA
+"19","2007NEW002",NA,NA,"Borehole",25,9.1,"Bedrock Met",1973-04-15,216560,89560,"to within 1km","MOUNTSTUART",NA,"Waterford",35,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2226
+Red sandstone",NA,"Date 11/7/1962"
+"20","2007NEW003",NA,NA,"Borehole",29.9,21.9,"Bedrock Met",1964-05-15,222930,89600,"to within 1km","BALLYGUIRY",NA,"Waterford",35,NA,"Good",NA,262,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 747
+Red sandstone",NA,NA
+"21","2007NEW004",NA,NA,"Borehole",22.9,7.6,"Bedrock Met",1970-09-05,215450,85550,"to within 1km","KNOCKANISKA",NA,"Waterford",35,NA,"Poor",NA,27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1903",NA,NA
+"22","2007NEW005",NA,"Waterford County Council","Borehole",31.7,NA,"DTB Unknown",NA,220440,81710,"to within 1km","LISSAROW",NA,"Waterford",38,"Public supply (Co Co)","Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"23","2007NEW006",NA,NA,"Borehole",23.8,3.4,"Bedrock Met",1962-10-15,222360,82230,"to within 1km","RATHLEAD",NA,"Waterford",38,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1179 & 471
+Red sandstone",NA,NA
+"24","2007NEW007",NA,NA,"Borehole",27.1,6.1,"Bedrock Met",1970-05-15,215760,82380,"to within 1km","DRUMGULLANE",NA,"Waterford",38,NA,"Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1884
+Sandstone",NA,NA
+"25","2007NEW008",NA,NA,"Borehole",30.5,15.2,"Bedrock Met",1972-10-08,221640,80870,"to within 1km","BALLYEELINAN",NA,"Waterford",38,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2192
+Sandstone",NA,NA
+"26","2007NEW009",NA,NA,"Borehole",26.2,3.1,"Bedrock Met",1962-06-02,215000,81840,"to within 1km","KILMEEDY",NA,"Waterford",38,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 903
+Hard brownstone",NA,NA
+"27","2007NEW010",NA,NA,"Borehole",32.9,3.1,"Bedrock Met",NA,215380,80860,"to within 1km","KNOCKMEELMORE",NA,"Waterford",38,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2086
+Sandstone",NA,NA
+"28","2007NEW011",NA,NA,"Borehole",41.1,4.6,"Bedrock Met",1970-03-11,215180,80500,"to within 1km","SUMMERHILL",NA,"Waterford",38,NA,"Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Red rock",NA,NA
+"29","2007NEW012",NA,NA,"Borehole",38.4,NA,"DTB Unknown",1972-03-31,220140,81340,"to within 1km","LISSAROW",NA,"Waterford",38,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"30","2007NEW013",NA,NA,"Borehole",30.8,4.6,"Bedrock Met",NA,220530,84730,"to within 1km","REANASKEHA",NA,"Waterford",38,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1289
+Red sandstone",NA,NA
+"31","2007NEW014",NA,NA,"Borehole",39.6,3.1,"Bedrock Met",1972-01-10,221270,80690,"to within 1km","BALLYEELINAN",NA,"Waterford",38,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2080
+Sandstone",NA,NA
+"32","2007NEW016",NA,NA,"Borehole",29.9,3.1,"Bedrock Met",1962-06-01,215650,81040,"to within 1km","KNOCKMEELMORE",NA,"Waterford",38,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1182
+Red rock",NA,NA
+"33","2007NEW017",NA,NA,"Borehole",29,3.4,"Bedrock Met",1964-05-15,217980,81970,"to within 1km","GRANGE",NA,"Waterford",38,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 719
+Brownstone",NA,NA
+"34","2007NEW018",NA,NA,"Borehole",25,13.7,"Bedrock Met",1962-06-02,215450,80150,"to within 1km","RODEEN",NA,"Waterford",38,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1178",NA,NA
+"35","2007NEW019",NA,NA,"Borehole",31.1,3.1,"Bedrock Met",1963-08-23,216270,80330,"to within 1km","BAWNAGARRANE",NA,"Waterford",38,NA,"Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"36","2007NEW021",NA,NA,"Borehole",19.8,6.1,"Bedrock Met",1970-04-15,224420,81490,"to within 1km","BALLYMACART",NA,"Waterford",39,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"37","2007NEW022",NA,NA,"Borehole",18.6,4.6,"Bedrock Met",1966-04-15,227220,83570,"to within 1km","BALLYNAMONA",NA,"Waterford",39,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1026
+Red sandstone",NA,NA
+"38","2007NEW023",NA,NA,"Borehole",22.9,3.7,"Bedrock Met",1970-01-15,225070,82420,"to within 1km","BALLYMACART UPPER",NA,"Waterford",39,NA,"Poor",NA,20.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1528
+Red sandstone",NA,NA
+"39","2007NEW024",NA,NA,"Dug well",1.2,NA,"DTB Unknown",1972-08-15,226390,81960,"to within 1km","BALLYNAHARDA",NA,"Waterford",39,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"40","2007NEW025",NA,NA,"Borehole",15.2,4.6,"Bedrock Met",1970-08-15,224380,81490,"to within 1km","BALLYMACART LOWER",NA,"Waterford",39,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Red Sandstone",NA,NA
+"41","2007NEW026",NA,NA,"Borehole",49.7,6.1,"Bedrock Met",NA,228350,88560,"to within 1km","RING",NA,"Waterford",39,NA,"Moderate",NA,35.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"42","2007NEW035",NA,NA,"Borehole",36.6,6.1,"Bedrock Met",2000-07-20,221300,85350,"to within 1km","MONANEENAN",NA,"Waterford",35,"Agri & domestic use","Poor","V",32.7,NA,NA,NA,3.06,152,19.8,30.1,NA,NA,NA,NA,NA,NA
+"43","2007NEW037",NA,NA,"Borehole",41.1,2.4,"Bedrock Met",2001-12-17,218450,87930,"to within 1km","TOOR NORTH",NA,"Waterford",35,"Agri & domestic use","Good","III",109.1,NA,NA,NA,17.89,159,12.2,20.7,35.1,NA,NA,NA,NA,NA
+"44","2007NWW003",NA,NA,"Borehole",18.3,NA,"DTB Unknown",1966-11-16,201160,87470,"to within 1km","GLENNAGLOGH",NA,"Waterford",33,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1309
+Red sandstone",NA,NA
+"45","2007NWW004",NA,NA,"Borehole",29.9,12.2,"Bedrock Met",1967-09-18,204450,95050,"to within 1km","BALLYNATRAY",NA,"Waterford",33,"Unknown","Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1437
+Sandstone",NA,NA
+"46","2007NWW005",NA,NA,"Borehole",27.4,NA,"DTB Unknown",1966-12-01,201250,89630,"to within 1km","KILBEG",NA,"Waterford",33,"Unknown","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1232
+Red sandstone",NA,NA
+"47","2007NWW006",NA,NA,"Borehole",25.3,6.1,"Bedrock Met",1972-04-10,203950,89610,"to within 1km","DUNMOON",NA,"Waterford",33,NA,"Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2084
+Sandstone",NA,NA
+"48","2007NWW007",NA,NA,"Borehole",24.1,2.4,"Bedrock Met",1966-05-28,204440,89710,"to within 1km","DUNMOON",NA,"Waterford",34,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1225",NA,NA
+"49","2007NWW008",NA,NA,"Borehole",18.3,6.1,"Bedrock Met",1964-06-15,211120,86590,"to within 1km","COOLBAGH",NA,"Waterford",34,NA,"Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 832",NA,NA
+"50","2007NWW009",NA,NA,"Dug well",0.9,NA,"Bedrock Not Met",NA,211590,86790,"to within 1km","COOLBAGH",NA,"Waterford",34,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"51","2007NWW010",NA,NA,"Borehole",22.3,0.9,"Bedrock Met",1962-06-01,211170,86340,"to within 1km","COOLBAGH",NA,"Waterford",34,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1165",NA,NA
+"52","2007NWW011",NA,NA,"Borehole",23.8,4.6,"Bedrock Met",1962-07-15,210730,84930,"to within 1km","BALLYNACLASH",NA,"Waterford",34,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1166",NA,NA
+"53","2007NWW012",NA,NA,"Borehole",28,6.1,"Bedrock Met",1963-02-02,210310,84830,"to within 1km","BALLYNACLASH",NA,"Waterford",34,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1114",NA,NA
+"54","2007NWW013",NA,NA,"Borehole",30.5,6.1,"Bedrock Met",1970-07-15,204330,87660,"to within 1km","COOLBEGGAN",NA,"Waterford",34,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"55","2007NWW014",NA,NA,"Borehole",30.5,10.4,"Bedrock Met",1970-07-21,205340,87910,"to within 1km","COOLBEGGAN",NA,"Waterford",34,NA,"Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"56","2007NWW015",NA,NA,"Borehole",38.4,3.1,"Bedrock Met",1971-09-10,205320,87460,"to within 1km","COOLBEGGAN",NA,"Waterford",34,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2021",NA,NA
+"57","2007NWW016",NA,NA,"Borehole",24.4,3.7,"Bedrock Met",1964-06-15,212610,88000,"to within 1km","CURRADARRA",NA,"Waterford",34,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1133",NA,NA
+"58","2007NWW017",NA,NA,"Borehole",17.1,6.4,"Bedrock Met",1968-06-15,213450,88050,"to within 1km","CURRADARRA",NA,"Waterford",34,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Date Dec-1968"
+"59","2007NWW018",NA,NA,"Borehole",24.7,6.1,"Bedrock Met",1970-04-15,206380,89620,"to within 1km","KILLEENAGH",NA,"Waterford",34,NA,"Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1825",NA,"Date Dec-1968"
+"60","2007NWW019",NA,NA,"Borehole",29.9,NA,"DTB Unknown",1966-06-02,204110,89840,"to within 1km","DUNMOON",NA,"Waterford",34,NA,"Good",NA,262,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1208",NA,NA
+"61","2007NWW020",NA,NA,"Dug well",0.9,0.9,"Bedrock Presumed",NA,210500,89950,"to within 1km","DROMORE",NA,"Waterford",34,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"62","2007NWW021",NA,NA,"Borehole",21.9,4.6,"Bedrock Met",1970-03-11,205580,84830,"to within 1km","BOOLA",NA,"Waterford",34,NA,"Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1757",NA,NA
+"63","2007NWW022",NA,NA,"Borehole",40.5,12.2,"Bedrock Met",1964-01-15,206730,85210,"to within 1km","CARRIGEEN",NA,"Waterford",34,NA,"Poor",NA,37.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Sean Flood, Clonroche",NA,NA
+"64","2007NWW023",NA,NA,"Borehole",25.6,3.1,"Bedrock Met",1967-01-26,213110,87890,"to within 1km","CURRADARRA",NA,"Waterford",34,NA,"Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1239",NA,NA
+"65","2007NWW025",NA,NA,"Borehole",50.3,1.8,"Bedrock Met",1971-08-01,213310,88300,"to within 1km","CURRADARRA",NA,"Waterford",34,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1378",NA,NA
+"66","2007NWW026",NA,NA,"Borehole",24.4,13.1,"Bedrock Met",1972-01-31,212700,84110,"to within 1km","CLASHMORE",NA,"Waterford",34,NA,"Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2198",NA,NA
+"67","2007NWW027",NA,NA,"Borehole",32.9,1.8,"Bedrock Met",1970-06-15,211850,80760,"to within 1km","SHANACOOLE",NA,"Waterford",37,NA,"Good",NA,196,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"68","2007NWW028",NA,NA,"Borehole",32.9,3.1,"Bedrock Met",1970-03-18,208990,82340,"to within 1km","ARDSALLAGH",NA,"Waterford",37,NA,"Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"69","2007NWW029",NA,NA,"Borehole",21.9,3.7,"Bedrock Met",1970-03-28,209590,82160,"to within 1km","ARDSALLAGH",NA,"Waterford",37,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Limestone",NA,NA
+"70","2007NWW030",NA,NA,"Borehole",26.8,3.7,"Bedrock Met",1970-05-15,212890,80180,"to within 1km","PILLTOWN",NA,"Waterford",37,NA,"Good",NA,142,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"71","2007NWW031",NA,NA,"Borehole",24.4,3.1,"Bedrock Met",1964-04-15,207560,82180,"to within 1km","LACKAROE",NA,"Waterford",37,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 721
+Brownstone",NA,NA
+"72","2007NWW032",NA,NA,"Borehole",10.7,10.7,"Bedrock Presumed",1963-06-15,207020,80970,"to within 1km","NEWTOWN",NA,"Waterford",37,NA,"Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 675
+Sandstone",NA,NA
+"73","2007NWW033",NA,NA,"Borehole",11.9,0.9,"Bedrock Met",1972-02-01,214030,83810,"to within 1km","KILGABRIEL",NA,"Waterford",37,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2085
+Sandstone",NA,NA
+"74","2007NWW034",NA,NA,"Borehole",15.2,2.1,"Bedrock Met",1961-07-14,208650,82390,"to within 1km","ARDSALLAGH",NA,"Waterford",37,NA,"Poor",NA,11.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1003
+Sandstone",NA,NA
+"75","2007NWW035",NA,NA,"Borehole",36.6,5.5,"Bedrock Met",1973-03-13,206560,80840,"to within 1km","NEWTOWN",NA,"Waterford",37,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2215
+Sandstone",NA,NA
+"76","2007NWW036",NA,NA,"Borehole",18.9,6.1,"Bedrock Met",1961-12-15,213730,80170,"to within 1km","PILLTOWN",NA,"Waterford",37,NA,"Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT
+Brownstone",NA,NA
+"77","2007NWW037",NA,NA,"Dug well",0.8,NA,"DTB Unknown",NA,213580,83660,"to within 1km","KILGABRIEL",NA,"Waterford",37,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"78","2007NWW038",NA,NA,"Borehole",21.3,6.1,"Bedrock Met",1971-08-15,205320,83550,"to within 1km","BALLYCONDON",NA,"Waterford",37,NA,"Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"soft rock",NA,NA
+"79","2007NWW039",NA,NA,"Borehole",14.9,3.7,"Bedrock Met",1970-05-15,213070,80160,"to within 1km","PILLTOWN",NA,"Waterford",37,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"80","2007NWW040",NA,NA,"Borehole",45.1,6.1,"Bedrock Met",1969-09-15,205540,81330,"to within 1km","CASTLEMILES",NA,"Waterford",37,NA,"Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1778",NA,NA
+"81","2007NWW041",NA,NA,"Borehole",35.1,5.5,"Bedrock Met",1970-07-21,205370,84630,"to within 1km","BOOLA",NA,"Waterford",37,NA,"Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"82","2007NWW042",NA,"Waterford County Council","Borehole",28.3,1.8,"Bedrock Met",NA,206600,80760,"to within 1km","KILLEA",NA,"Waterford",37,"Public supply (Co Co)","Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,"12 hour test on 5 consecutive days"
+"83","2007NWW043",NA,NA,"Borehole",20.4,14.3,"Bedrock Met",1970-05-15,213360,80290,"to within 1km","PILLTOWN",NA,"Waterford",37,NA,"Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shale",NA,NA
+"84","2007NWW044",NA,NA,"Borehole",21.3,2.4,"Bedrock Met",1970-05-15,215000,80220,"to within 1km","PILLTOWN",NA,"Waterford",37,NA,"Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"85","2007NWW045",NA,NA,"Borehole",30.2,4.9,"Bedrock Met",1970-05-15,213600,80230,"to within 1km","PILLTOWN",NA,"Waterford",37,NA,"Good",NA,118,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shale",NA,NA
+"86","2007NWW046",NA,NA,"Borehole",31.1,1.2,"Bedrock Met",1970-09-15,214090,83420,"to within 1km","KILGABRIEL",NA,"Waterford",38,NA,"Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"87","2007NWW047",NA,NA,"Borehole",30.2,6.4,"Bedrock Met",1970-05-15,213030,80430,"to within 1km","PILLTOWN",NA,"Waterford",37,NA,"Poor",NA,39.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shale",NA,NA
+"88","2007NWW048",NA,NA,"Borehole",37.5,7,"Bedrock Met",NA,213430,80410,"to within 1km","PILLTOWN",NA,"Waterford",37,NA,"Good",NA,196.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"89","2007NWW101",NA,NA,"Borehole",40.5,3.4,"Bedrock Met",1997-11-01,209120,84910,"to within 1km","NEWPORT EAST/WEST",NA,"Waterford",34,"Agri & domestic use","Moderate","IV",76.4,NA,NA,NA,8.35,159,12.5,23.8,33.5,NA,NA,NA,NA,NA
+"90","2007NWW102",NA,NA,"Borehole",45.7,4,"Bedrock Met",1999-06-30,211220,86470,"to within 1km","COOLBAGH",NA,"Waterford",34,"Agri & domestic use","Moderate","IV",49.1,NA,NA,NA,4.03,159,15.2,24.4,39.6,NA,NA,NA,NA,NA
+"91","2007NWW104",NA,NA,"Borehole",56.4,1.8,"Bedrock Met",1999-07-09,214480,80580,"to within 1km","SUMMERHILL",NA,"Waterford",38,"Agri & domestic use","Poor","V",38.2,NA,NA,NA,1.39,159,9.1,24.4,38.1,NA,NA,NA,NA,NA
+"92","2007SEW001",NA,NA,"Borehole",24.4,14.6,"Bedrock Met",NA,218750,78260,"to within 1km","DUFFCARRICK",NA,"Waterford",38,NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no water
+Marl",NA,"no water"
+"93","2007SEW002",NA,NA,"Dug well",1.2,1.2,"Bedrock Presumed",1972-09-01,216800,79250,"to within 1km","CROSSFORD",NA,"Waterford",38,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"94","2007SEW003",NA,NA,"Borehole",18.3,12.2,"Bedrock Met",NA,219000,78100,"to within 1km","DUFFCARRICK",NA,"Waterford",38,NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no water"
+"95","2007SEW004",NA,NA,"Borehole",21.3,12.2,"Bedrock Met",NA,218840,78040,"to within 1km","DUFFCARRICK",NA,"Waterford",38,NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Marl",NA,"No water"
+"96","2007SEW005","Bore No. 1",NA,"Borehole",24.4,3.1,"Bedrock Met",1967-03-15,218540,79850,"to within 1km","BALLYNAMERTINAGH",NA,"Waterford",38,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"soft rusty rock",NA,NA
+"97","2007SEW006","Bore No. 2",NA,"Borehole",40.2,3.1,"Bedrock Met",1967-03-15,218970,79760,"to within 1km","BALLYNAMERTINAGH",NA,"Waterford",38,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"98","2007SEW008","Bore No. 2",NA,"Borehole",13.7,0.9,"Bedrock Met",1930-10-01,219060,77410,"to within 1km","ARDMORE",NA,"Waterford",40,NA,"Moderate",NA,65.5,NA,NA,NA,NA,178,NA,NA,NA,NA,NA,"Sandstone
+Copper ore noted @ 2.4 - 3.7m",NA,NA
+"99","2007SEW009",NA,NA,"Borehole",18.3,NA,"Bedrock Not Met",NA,219550,77330,"to within 1km","ARDMORE",NA,"Waterford",40,NA,"Poor",NA,34.9,NA,NA,NA,NA,127,NA,NA,NA,NA,NA,NA,NA,NA
+"100","2007SEW011",NA,NA,"Borehole",2.3,NA,"DTB Unknown",NA,217390,76870,"to within 1km","ARDOGINNA",NA,"Waterford",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"101","2007SEW012",NA,NA,"Borehole",26.8,13.7,"Bedrock Met",1971-01-15,218720,77960,"to within 1km","DUFFCARRICK",NA,"Waterford",40,NA,"Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"102","2007SEW013",NA,NA,"Dug well",0.9,NA,"DTB Unknown",NA,217200,78010,"to within 1km","BALLYNAMONA",NA,"Waterford",40,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1834
+Sandstone",NA,NA
+"103","2007SWW001",NA,NA,"Borehole",21,11.6,"Bedrock Met",1970-09-29,213480,78040,"to within 1km","SPRINGFIELD",NA,"Waterford",37,NA,"Poor",NA,39.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1857
+Sandstone",NA,NA
+"104","2007SWW002",NA,NA,"Borehole",30.2,2.4,"Bedrock Met",1971-01-22,212260,76930,"to within 1km","MONATRAY",NA,"Waterford",40,NA,"Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Sean Flood",NA,NA
+"105","2007SWW003",NA,NA,"Borehole",22.9,2.4,"Bedrock Met",1970-05-31,212630,76800,"to within 1km","MONATRAY EAST",NA,"Waterford",40,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1866",NA,NA
+"106","2007SWW007",NA,NA,"Borehole",30.5,4.9,"Bedrock Met",1973-04-04,212660,77070,"to within 1km","MONATRAY MIDDLE",NA,"Waterford",40,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2187
+Sandstone",NA,NA
+"107","2007SWW008",NA,NA,"Borehole",27.7,3.1,"Bedrock Met",1973-04-03,212650,77250,"to within 1km","MONATRAY MIDDLE",NA,"Waterford",40,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1864
+Sandstone",NA,NA
+"108","2007SWW009",NA,NA,"Borehole",32.9,4.9,"Bedrock Met",1970-05-23,213720,77170,"to within 1km","MONATRAY EAST",NA,"Waterford",40,NA,"Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1861
+Sandstone",NA,NA
+"109","2007SWW010",NA,NA,"Borehole",36,6.1,"Bedrock Met",1973-04-09,211650,77200,"to within 1km","MONATRAY WEST",NA,"Waterford",40,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2254
+Red sandstone",NA,NA
+"110","2009NEW001",NA,NA,"Borehole",21.3,3.1,"Bedrock Met",1970-02-01,222350,106500,"to within 1km","BLEANTASOUR",NA,"Waterford",13,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1663",NA,NA
+"111","2009NEW002",NA,NA,"Borehole",21.9,11,"Bedrock Met",1971-06-15,219530,105110,"to within 1km","CLOONCOGAILE",NA,"Waterford",13,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"112","2009NEW003",NA,NA,"Borehole",29.3,4.9,"Bedrock Met",1966-10-01,222290,106390,"to within 1km","BLEANTASOUR",NA,"Waterford",13,"Domestic use only","Poor",NA,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1210
+Sandstone",NA,NA
+"113","2009NEW004",NA,NA,"Borehole",30.5,3.1,"Bedrock Met",1965-10-17,217990,108200,"to within 1km","KNOCKMEAL",NA,"Waterford",13,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1057
+Sandstone",NA,"Steel Casing, Max Safe yield: 
+32.7m3/day"
+"114","2009NEW005",NA,NA,"Borehole",21.9,1.2,"DTB Unknown",NA,218080,106920,"to within 1km","BALLYNAMULT",NA,"Waterford",13,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood",NA,NA
+"115","2009NEW006",NA,NA,"Borehole",24.4,2.4,"Bedrock Met",1965-05-24,217520,108310,"to within 1km","KNOCKMEAL",NA,"Waterford",13,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 917
+Red Rock",NA,NA
+"116","2009NEW007",NA,NA,"Borehole",14.6,3.1,"Bedrock Met",1969-09-01,218380,107920,"to within 1km","CAHERBRACK",NA,"Waterford",13,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 803",NA,NA
+"117","2009NEW008",NA,NA,"Borehole",22.9,2.4,"Bedrock Met",1970-03-01,219500,107350,"to within 1km","BOOLAVONTEEN",NA,"Waterford",13,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1835",NA,NA
+"118","2009NEW009",NA,NA,"Borehole",27.4,4.3,"Bedrock Met",1973-03-15,220490,100440,"to within 1km","GARRYDUFF",NA,"Waterford",22,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2160
+Sandstone",NA,NA
+"119","2009NEW010",NA,NA,"Borehole",26.8,3.7,"Bedrock Met",NA,220960,103550,"to within 1km","LACKANDARRA",NA,"Waterford",22,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1345
+Red sandstone",NA,NA
+"120","2009NEW011",NA,NA,"Borehole",24.4,6.1,"Bedrock Met",1966-11-15,222580,102350,"to within 1km","LACKANDARRA",NA,"Waterford",22,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1260
+Sandstone",NA,NA
+"121","2009NEW012",NA,NA,"Borehole",24.4,3.1,"Bedrock Met",1966-08-15,221790,102600,"to within 1km","LACKANDARRA",NA,"Waterford",22,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 378, 1086
+Red sandstone",NA,NA
+"122","2009NEW013",NA,NA,"Borehole",17.7,1.8,"Bedrock Met",1973-03-15,223060,103680,"to within 1km","KILBRYAN",NA,"Waterford",22,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2144
+Red sandstone",NA,NA
+"123","2009NEW014",NA,NA,"Borehole",29.9,4.6,"Bedrock Met",1973-06-15,223390,101480,"to within 1km","BOHADOON",NA,"Waterford",22,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2246
+Red sandstone",NA,NA
+"124","2009NEW015",NA,NA,"Borehole",25,2.4,"Bedrock Met",1967-04-15,215160,101570,"to within 1km","NEWTOWN",NA,"Waterford",22,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1237
+Red sandstone",NA,NA
+"125","2009NEW016",NA,NA,"Borehole",24.4,1.8,"Bedrock Met",1967-09-15,215090,101250,"to within 1km","COOLROE",NA,"Waterford",22,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1267
+Red sandstone",NA,NA
+"126","2009NEW017",NA,NA,"Borehole",22.9,1.8,"Bedrock Met",1973-06-15,216310,101260,"to within 1km","DERRY",NA,"Waterford",22,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2251",NA,NA
+"127","2009NEW018",NA,NA,"Borehole",17.4,0.9,"Bedrock Met",1971-09-15,218490,102430,"to within 1km","CARRIGAUN",NA,"Waterford",22,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2039
+Solid red rock",NA,NA
+"128","2009NEW019",NA,NA,"Borehole",24.4,7.6,"Bedrock Met",1963-05-15,217730,101950,"to within 1km","MOUNTAINCASTLE",NA,"Waterford",22,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1289
+Red sandstone",NA,NA
+"129","2009NEW020",NA,NA,"Borehole",23.8,NA,"DTB Unknown",1972-06-15,220040,102510,"to within 1km","EAGLEHILL",NA,"Waterford",22,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2002
+Red sandstone",NA,NA
+"130","2009NEW021",NA,NA,"Borehole",21.3,6.1,"Bedrock Met",1972-03-15,222050,103090,"to within 1km","LACKANDARRA LOWER",NA,"Waterford",22,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Red sandstone",NA,NA
+"131","2009NEW022",NA,NA,"Borehole",25.3,2.1,"Bedrock Met",1963-05-15,221290,103800,"to within 1km","LACKANDARRA",NA,"Waterford",22,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1302
+Red sandstone, very soft",NA,NA
+"132","2009NEW023",NA,NA,"Borehole",21.3,NA,"DTB Unknown",1970-09-15,216420,100440,"to within 1km","GRAIGUE",NA,"Waterford",22,NA,"Poor",NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no rockhead data
+Brown sandstone",NA,NA
+"133","2009NEW024",NA,NA,"Borehole",24.4,6.1,"Bedrock Met",1973-09-15,220460,100270,"to within 1km","GARRYDUFF",NA,"Waterford",22,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2014
+Red sandstone",NA,NA
+"134","2009NEW025",NA,NA,"Borehole",27.4,NA,"DTB Unknown",1973-03-15,220820,100030,"to within 1km","GARRYDUFF",NA,"Waterford",22,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2164
+Sandstone",NA,NA
+"135","2009NEW026",NA,NA,"Borehole",24.4,6.1,"Bedrock Met",1972-12-15,223550,101340,"to within 1km","BOHADOON",NA,"Waterford",23,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2137
+Sandstone",NA,NA
+"136","2009NEW027",NA,NA,"Borehole",21.9,3.7,"Bedrock Met",1967-03-15,223520,103350,"to within 1km","BALLYNAKILL",NA,"Waterford",23,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 957
+Red sandstone",NA,NA
+"137","2009NEW028",NA,NA,"Borehole",24.4,12.8,"Bedrock Met",1964-06-15,225760,100760,"to within 1km","COOLNASMEAR",NA,"Waterford",23,NA,"Good",NA,218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1304
+Red sandstone",NA,NA
+"138","2009NEW029",NA,NA,"Borehole",19.8,6.1,"Bedrock Met",1973-12-15,225760,100760,"to within 1km","BOHADOON",NA,"Waterford",23,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2054",NA,NA
+"139","2009NEW030",NA,NA,"Borehole",21.3,3.1,"Bedrock Met",NA,218120,106620,"to within 1km","BALLYNAMULT",NA,"Waterford",13,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"140","2009NEW038",NA,"Waterford County Council","Borehole",21.9,NA,"DTB Unknown",NA,219510,105960,"to within 1km","TOORANEENA",NA,"Waterford",13,"Public supply (Co Co)","Good",NA,262,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"141","2009NEW040",NA,NA,"Borehole",36.6,3,"Bedrock Met",1997-08-01,216000,103300,"to within 1km","LYRATTIN",NA,"Waterford",22,"Agri & domestic use","Moderate","IV",65.45,NA,NA,NA,4.29,159,8.2,18.3,30.5,NA,NA,NA,NA,NA
+"142","2009NEW042",NA,NA,"Borehole",50.3,3.1,"Bedrock Met",1998-05-06,216350,106750,"to within 1km","DOON",NA,"Waterford",13,"Agri & domestic use","Moderate","IV",49.1,NA,NA,NA,4.03,159,12.2,27.4,45.7,NA,NA,NA,NA,NA
+"143","2009NEW049",NA,NA,"Borehole",31.1,0.3,"Bedrock Met",1997-12-01,222270,101580,"to within 1km","KNOCKANPOWER",NA,"Waterford",22,"Agri & domestic use","Poor","IV",27.3,NA,NA,NA,4.47,NA,18.3,NA,NA,NA,NA,NA,NA,NA
+"144","2009NWW002",NA,NA,"Borehole",18.3,3.7,"Bedrock Met",1972-09-15,212020,104040,"to within 1km","KNOCKNAFREHANE",NA,"Waterford",12,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2153",NA,NA
+"145","2009NWW003",NA,NA,"Borehole",30.5,4.9,"Bedrock Met",1963-05-01,210590,105000,"to within 1km","KNOCKBOY",NA,"Waterford",13,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 947
+Red Rock",NA,NA
+"146","2009NWW004",NA,NA,"Borehole",31.7,4.3,"Bedrock Met",1971-04-26,200540,100080,"to within 1km","REANACOOLAGH",NA,"Waterford",20,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"RED ROCK",NA,NA
+"147","2009NWW005",NA,NA,"Borehole",6.7,3.1,"Bedrock Met",1971-06-27,203460,100020,"to within 1km","BALLYIN",NA,"Waterford",20,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"148","2009NWW006",NA,NA,"Borehole",32,3.7,"Bedrock Met",1963-05-04,212710,100090,"to within 1km","TURBEHA",NA,"Waterford",21,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1284, 595
+RED SANDSTONE",NA,NA
+"149","2009NWW007",NA,NA,"Dug well",1.2,1.2,"Bedrock Presumed",NA,206430,100020,"to within 1km","BALLYGALLANE",NA,"Waterford",21,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"unlimited discharge
+WTB/WAT 1192",NA,NA
+"150","2009NWW008",NA,NA,"Borehole",18.3,4.9,"Bedrock Met",1963-04-06,211630,102530,"to within 1km","LYRE EAST",NA,"Waterford",21,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"RED SANDSTONE
+WTB/WAT 1312",NA,NA
+"151","2009NWW009",NA,NA,"Borehole",25.9,9.1,"Bedrock Met",1963-08-22,205880,100080,"to within 1km","GLENTAUN",NA,"Waterford",21,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"RED SANDSTONE
+WTB/WAT 649",NA,NA
+"152","2009NWW010",NA,NA,"Borehole",17.1,4.6,"Bedrock Met",1970-12-03,212300,101540,"to within 1km","CLUTTAHINA",NA,"Waterford",21,NA,"Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"153","2009NWW011",NA,NA,"Dug well",2.1,2.1,"Bedrock Presumed",1972-06-01,205950,102440,"to within 1km","COOLADALANE",NA,"Waterford",21,NA,"Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"154","2009NWW012",NA,NA,"Borehole",18.3,18.3,"Bedrock Presumed",1964-06-05,205240,102420,"to within 1km","CARRIGNAGOWER",NA,"Waterford",21,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1291",NA,NA
+"155","2009NWW013",NA,NA,"Borehole",19.2,3.1,"Bedrock Met",1970-05-15,205820,1e+05,"to within 1km","GLENTAUN",NA,"Waterford",21,NA,"Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SANDSTONE",NA,NA
+"156","2009NWW014",NA,NA,"Borehole",18.3,6.1,"Bedrock Met",1971-10-10,211680,101350,"to within 1km","CLUTTAHINA",NA,"Waterford",21,NA,"Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SANDSTONE",NA,NA
+"157","2009NWW022",NA,NA,"Borehole",36.6,3.1,"Bedrock Met",NA,212150,106120,"to within 1km","TOORANARAHEEN",NA,"Waterford",12,"Agri & domestic use","Moderate","IV",65.4,NA,NA,NA,7.15,159,15.2,22.9,27.4,NA,NA,NA,NA,NA
+"158","2009NWW024",NA,NA,"Borehole",40.5,6.7,"Bedrock Met",1999-07-19,209000,106450,"to within 1km","KNOCKNAFALLIA",NA,"Waterford",12,"Agri & domestic use","Moderate","IV",65.5,NA,NA,NA,10.74,159,18.3,29.9,33.5,NA,NA,NA,NA,NA
+"159","2009SEW002",NA,NA,"Borehole",12.8,12.2,"Bedrock Met",1967-08-15,217230,99160,"to within 1km","MODELLIGO",NA,"Waterford",22,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"swl= overflowing: discharge = unlimited
+WTB/WAT 1406",NA,"Artesian"
+"160","2009SEW003",NA,NA,"Borehole",28.3,4.6,"Bedrock Met",NA,222280,97500,"to within 1km","BALLYCONNERY",NA,"Waterford",30,NA,"Good",NA,262,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"161","2009SEW005",NA,NA,"Borehole",24.4,9.1,"Bedrock Met",1972-11-15,219260,99590,"to within 1km","LISROE",NA,"Waterford",22,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1447
+Red sandstone",NA,NA
+"162","2009SEW006",NA,NA,"Borehole",24.4,16.5,"Bedrock Met",1970-05-15,223630,98260,"to within 1km","CURRABAHA",NA,"Waterford",22,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1112",NA,NA
+"163","2009SEW007",NA,NA,"Borehole",31.1,5.2,"Bedrock Met",1964-12-15,223850,98000,"to within 1km","CURRABAHA",NA,"Waterford",22,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 841
+Red sandstone",NA,NA
+"164","2009SEW008",NA,NA,"Borehole",22.9,6.1,"Bedrock Met",1970-07-15,221000,98230,"to within 1km","COLLIGAN",NA,"Waterford",22,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Red sandstone",NA,NA
+"165","2009SEW009",NA,NA,"Borehole",11.3,10.1,"Bedrock Met",1970-05-15,216640,99040,"to within 1km","KNOCKNAGERAGH",NA,"Waterford",22,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 682",NA,NA
+"166","2009SEW010",NA,NA,"Borehole",30.5,NA,"Bedrock Not Met",1964-09-15,216850,99510,"to within 1km","GARRAUN",NA,"Waterford",22,"Agri & domestic use","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 724",NA,NA
+"167","2009SEW011",NA,NA,"Borehole",14.9,14.6,"Bedrock Met",1967-05-15,216870,98280,"to within 1km","GARRAUN",NA,"Waterford",22,"Agri & domestic use","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 184",NA,NA
+"168","2009SEW012",NA,NA,"Borehole",18.9,9.1,"Bedrock Met",1970-05-15,216910,97460,"to within 1km","BAWNNAVINNOGE",NA,"Waterford",22,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1827",NA,NA
+"169","2009SEW013",NA,NA,"Borehole",21.3,2.4,"Bedrock Met",1959-04-11,222340,99560,"to within 1km","KNOCKROE",NA,"Waterford",22,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 423
+Red Sandstone",NA,NA
+"170","2009SEW014",NA,NA,"Borehole",13.7,6.7,"Bedrock Met",1972-06-15,222450,99360,"to within 1km","KNOCKROE",NA,"Waterford",22,"Agri & domestic use","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Red Sandstone",NA,NA
+"171","2009SEW015",NA,NA,"Borehole",21.3,3.7,"Bedrock Met",1963-08-15,223650,98250,"to within 1km","KILNAFREHAN",NA,"Waterford",23,NA,"Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1318
+Reddish stone",NA,NA
+"172","2009SEW016",NA,NA,"Borehole",30.5,2.4,"Bedrock Met",1969-04-15,225080,96910,"to within 1km","BALLYKNOCK",NA,"Waterford",23,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1243
+Red sandstone",NA,NA
+"173","2009SEW017",NA,NA,"Borehole",23.5,6.1,"Bedrock Met",1966-01-15,225380,96700,"to within 1km","BALLYKNOCK",NA,"Waterford",23,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 380, 1088
+Red sandstone",NA,NA
+"174","2009SEW018",NA,NA,"Borehole",32,27.4,"Bedrock Met",1962-06-15,216440,97360,"to within 1km","BAWNNAVINNOGE",NA,"Waterford",30,NA,"Moderate",NA,70.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 905
+Limestone",NA,NA
+"175","2009SEW019",NA,"Cappagh Convent","Borehole",45.7,0.2,"Bedrock Met",1926-03-15,217100,96930,"to within 1km","CAPPAGH",NA,"Waterford",30,NA,"Moderate",NA,98.2,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,NA,NA,NA
+"176","2009SEW020",NA,NA,"Borehole",30.8,3.7,"Bedrock Met",1962-06-13,220300,93750,"to within 1km","CARRIGROE",NA,"Waterford",30,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1073
+Limestone",NA,NA
+"177","2009SEW021",NA,NA,"Borehole",24.4,0,"Bedrock Met",1964-05-01,215000,96650,"to within 1km","KILCLOHER",NA,"Waterford",30,NA,"Good",NA,262,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1306
+Limestone",NA,NA
+"178","2009SEW022",NA,NA,"Borehole",20.7,3.7,"Bedrock Met",1968-04-15,219800,92870,"to within 1km","MOUNTODELL",NA,"Waterford",30,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1278
+Limestone",NA,NA
+"179","2009SEW023",NA,NA,"Dug well",1.5,NA,"DTB Unknown",NA,219810,91350,"to within 1km","BALLYGUIRY WEST",NA,"Waterford",30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"180","2009SEW024",NA,NA,"Borehole",21.3,3.7,"Bedrock Met",1966-10-15,218360,94190,"to within 1km","CANTY",NA,"Waterford",30,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1291
+Limestone",NA,NA
+"181","2009SEW025",NA,NA,"Borehole",17.7,7.3,"Bedrock Met",1969-02-15,218240,94470,"to within 1km","CANTY",NA,"Waterford",30,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1606
+Limestone",NA,NA
+"182","2009SEW026",NA,NA,"Borehole",21.3,4.3,"Bedrock Met",1970-07-15,216430,92750,"to within 1km","BALLYMULALLA",NA,"Waterford",30,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Brownstone",NA,NA
+"183","2009SEW027",NA,NA,"Borehole",19.8,6.1,"Bedrock Met",1971-09-15,216160,93110,"to within 1km","BALLYMULALLA",NA,"Waterford",30,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1996
+Sandstone",NA,NA
+"184","2009SEW028",NA,NA,"Borehole",31.1,3.1,"Bedrock Met",1966-11-15,220220,96980,"to within 1km","BALLYLEMON UPPER",NA,"Waterford",30,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1072
+Red sandstone",NA,NA
+"185","2009SEW029",NA,NA,"Borehole",21.3,6.1,"Bedrock Met",1967-02-15,215140,95020,"to within 1km","BALLYGAMBON LOWER",NA,"Waterford",30,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1321
+Limestone",NA,NA
+"186","2009SEW030",NA,NA,"Borehole",8.8,8.5,"Bedrock Met",1967-04-15,219310,93300,"to within 1km","KNOCKMAON",NA,"Waterford",30,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1360
+Limestone",NA,NA
+"187","2009SEW032",NA,NA,"Borehole",19.2,18.3,"Bedrock Met",NA,216110,95570,"to within 1km","BRIDGEQUARTER",NA,"Waterford",30,NA,"Good",NA,164,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shale",NA,NA
+"188","2009SEW034",NA,NA,"Borehole",23.5,NA,"Bedrock Not Met",1962-08-15,224600,91560,"to within 1km","BALLINURE",NA,"Waterford",31,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1164",NA,NA
+"189","2009SEW035",NA,NA,"Borehole",30.5,3.1,"Bedrock Met",1966-02-04,228910,97060,"to within 1km","DEELISH",NA,"Waterford",31,NA,"Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1166",NA,NA
+"190","2009SEW036",NA,NA,"Borehole",39,6.1,"Bedrock Met",1970-11-15,226500,98410,"to within 1km","KILNAFREHAN",NA,"Waterford",31,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 128
+Red sandstone",NA,NA
+"191","2009SEW037",NA,NA,"Borehole",14.6,1.8,"Bedrock Met",1973-04-15,223440,95560,"to within 1km","KILLADANGAN",NA,"Waterford",31,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1466
+Sandstone",NA,NA
+"192","2009SEW038",NA,NA,"Borehole",23.8,6.1,"Bedrock Met",1966-04-15,224930,97750,"to within 1km","BALLYKNOCK",NA,"Waterford",31,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1181
+Red sandstone",NA,NA
+"193","2009SEW041",NA,NA,"Borehole",23.8,9.8,"Bedrock Met",1970-05-15,225280,92560,"to within 1km","DUNGARVAN",NA,"Waterford",31,NA,"Excellent",NA,436,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood
+Shale",NA,NA
+"194","2009SEW042",NA,NA,"Borehole",13.1,12.5,"Bedrock Met",1970-06-15,225460,92990,"to within 1km","DUNGARVAN","Yellow Road","Waterford",31,NA,"Good",NA,218,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Drilled by Sean Flood",NA,NA
+"195","2009SEW043",NA,NA,"Borehole",18.3,7,"Bedrock Met",1971-10-15,227860,97610,"to within 1km","BALLINTOOR",NA,"Waterford",31,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"196","2009SEW044",NA,NA,"Borehole",21.6,7.3,"Bedrock Met",1966-11-15,227860,97610,"to within 1km","KNOCKNAGRANAGH",NA,"Waterford",31,NA,"Good",NA,131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"white granite (?)",NA,NA
+"197","2009SEW045",NA,NA,"Borehole",10.7,5.2,"Bedrock Met",1960-03-15,223870,93180,"to within 1km","MAPESTOWN",NA,"Waterford",31,NA,"Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"198","2009SEW046",NA,NA,"Borehole",36.6,1.8,"Bedrock Met",1971-01-15,225030,96250,"to within 1km","GLIDDANE",NA,"Waterford",31,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1148
+Gravel & sandstone",NA,"Date Nov-1967"
+"199","2009SEW047",NA,NA,"Borehole",24.4,6.1,"Bedrock Met",1971-12-23,224370,96870,"to within 1km","KILGOBNET",NA,"Waterford",31,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2036
+Red sandstone",NA,NA
+"200","2009SEW048",NA,NA,"Borehole",25.6,6.7,"Bedrock Met",1963-06-15,226310,94880,"to within 1km","KNOCKATEEMORE",NA,"Waterford",31,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 623
+Green limestone",NA,NA
+"201","2009SEW049",NA,NA,"Borehole",21.9,10.1,"Bedrock Met",NA,228250,95200,"to within 1km","KNOCKNAGRANAGH",NA,"Waterford",31,NA,"Moderate",NA,87.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shale",NA,NA
+"202","2009SEW050",NA,NA,"Borehole",20.1,6.1,"Bedrock Met",NA,227480,97160,"to within 1km","MONARUD",NA,"Waterford",31,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Hard ORS",NA,NA
+"203","2009SEW052",NA,NA,"Borehole",32,5.8,"Bedrock Met",1979-05-11,225400,93410,"to within 1km","DUNGARVAN",NA,"Waterford",31,NA,"Poor",NA,16.4,NA,NA,NA,NA,152,12.2,24.4,NA,NA,NA,"Driller Sean Flood",NA,NA
+"204","2009SEW056",NA,NA,"Borehole",26.8,2.4,"Bedrock Met",1970-06-15,225440,93070,"to within 1km","DUNGARVAN","Yellow Road","Waterford",31,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood",NA,"Date 1/10/1965"
+"205","2009SEW057",NA,NA,"Borehole",32,16.8,"Bedrock Met",1964-09-15,216000,97500,"to within 1km","BOHERAWILLIN",NA,"Waterford",30,NA,"Good",NA,262,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 800
+Limestone",NA,NA
+"206","2009SEW059",NA,NA,"Borehole",26.8,NA,"DTB Unknown",1994-05-28,222520,96520,"to within 1km","INCHINDRISLAWOOD",NA,"Waterford",30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLER SEERY",NA,NA
+"207","2009SEW085",NA,NA,"Borehole",41.1,3.7,"Bedrock Met",NA,224520,96610,"to within 1km","KILGOBNET",NA,"Waterford",23,"Agri & domestic use","Moderate","IV",87.3,NA,NA,NA,4.77,152,21.3,33.5,NA,NA,NA,NA,NA,NA
+"208","2009SEW086",NA,NA,"Borehole",44.2,3.1,"Bedrock Met",2000-09-01,221250,96900,"to within 1km","COLLIGANWOOD",NA,"Waterford",30,"Agri & domestic use","Poor","V",32.7,NA,NA,NA,2.68,152,24.4,36.6,NA,NA,NA,NA,NA,NA
+"209","2009SEW089",NA,NA,"Borehole",36.6,3,"Bedrock Met",1997-08-01,217670,99820,"to within 1km","VICARSTOWN UPPER/LOWER",NA,"Waterford",22,"Agri & domestic use","Moderate","IV",54.5,NA,NA,NA,8.94,159,8.2,15.2,24.4,30.5,NA,NA,NA,NA
+"210","2009SEW098",NA,NA,"Borehole",39.6,21.3,"Bedrock Met",2000-01-15,217500,95550,"to within 1km","BALLYNAMINTRA",NA,"Waterford",30,"Agri & domestic use","Poor","V",24,NA,NA,NA,3.94,152,18.3,30.1,NA,NA,NA,NA,NA,NA
+"211","2009SWW001",NA,NA,"Borehole",20.7,7.9,"Bedrock Met",NA,206250,96600,"to within 1km","DEERPARK EAST",NA,"Waterford",29,NA,"Poor",NA,10.9,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1297",NA,NA
+"212","2009SWW003",NA,NA,"Borehole",18.3,4.9,"Bedrock Met",NA,211630,102530,"to within 1km","LYRE EAST",NA,"Waterford",21,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"213","2009SWW004",NA,NA,"Borehole",15.8,1.8,"Bedrock Met",1963-05-10,209910,97910,"to within 1km","NORRISLAND",NA,"Waterford",21,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1283
+SOFT LIMESTONE",NA,NA
+"214","2009SWW005",NA,NA,"Dug well",0.9,0.9,"Bedrock Presumed",NA,214340,97540,"to within 1km","BALLYHANE",NA,"Waterford",21,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"215","2009SWW006",NA,NA,"Borehole",20.1,1.8,"Bedrock Met",1963-03-15,209050,98930,"to within 1km","KILBREE WEST",NA,"Waterford",21,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1280, 591
+LIMESTONE",NA,NA
+"216","2009SWW007",NA,NA,"Borehole",10.7,6.1,"Bedrock Met",NA,200020,99840,"to within 1km","BALLYSAGGART",NA,"Waterford",21,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"217","2009SWW010",NA,NA,"Borehole",25.9,12.8,"Bedrock Met",1969-09-15,204600,98270,"to within 1km","HIGH ST LISMORE",NA,"Waterford",21,NA,"Good",NA,131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"218","2009SWW011",NA,NA,"Borehole",18.6,3.1,"Bedrock Met",1973-05-09,202780,91570,"to within 1km","BALLYMOAT",NA,"Waterford",28,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2220
+Red sandstone",NA,NA
+"219","2009SWW012",NA,NA,"Borehole",26.8,2.4,"Bedrock Met",1967-09-15,204130,97340,"to within 1km","TOWNPARKS",NA,"Waterford",28,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 535, 1228
+Red sandstone",NA,NA
+"220","2009SWW013",NA,NA,"Borehole",21.3,4.9,"Bedrock Met",1972-05-08,203290,91310,"to within 1km","BALLYMOAT",NA,"Waterford",28,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2079
+Sandstone",NA,NA
+"221","2009SWW014",NA,"Ballymoat Minor WS","Borehole",18.1,NA,"DTB Unknown",1965-10-18,202360,91740,"to within 1km","BALLYMOAT LOWER",NA,"Waterford",28,NA,"Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"72 hour test"
+"222","2009SWW015",NA,NA,"Borehole",30.5,4,"Bedrock Met",1973-05-02,202700,92450,"to within 1km","TIRCULLEN LOWER",NA,"Waterford",28,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2229
+Sandstone",NA,NA
+"223","2009SWW016",NA,NA,"Borehole",22.3,21.3,"Bedrock Met",NA,202140,93480,"to within 1km","KILWINNY",NA,"Waterford",28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no discharge data",NA,NA
+"224","2009SWW017",NA,NA,"Borehole",22.6,2.1,"Bedrock Met",NA,206350,90020,"to within 1km","KILLEENAGH",NA,"Waterford",34,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"225","2009SWW018",NA,NA,"Borehole",30.5,3.7,"Bedrock Met",1962-12-20,211820,94850,"to within 1km","CURRAGHROCHE",NA,"Waterford",29,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1239",NA,NA
+"226","2009SWW021",NA,NA,"Borehole",14,NA,"Bedrock Not Met",NA,208500,93500,"to within 1km","CAMPHIREHILL",NA,"Waterford",29,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no other data; borehole abandoned",NA,NA
+"227","2009SWW022",NA,NA,"Dug well",1.2,NA,"DTB Unknown",NA,211190,93250,"to within 1km","BALLINGOWAN",NA,"Waterford",29,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 708",NA,NA
+"228","2009SWW023",NA,NA,"Borehole",26.2,7.9,"Bedrock Met",1964-08-28,210300,92240,"to within 1km","BALLINGOWAN",NA,"Waterford",29,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 778",NA,NA
+"229","2009SWW024",NA,NA,"Borehole",34.2,4.9,"Bedrock Met",1970-09-11,211160,93000,"to within 1km","BALLINGOWAN",NA,"Waterford",29,NA,"Poor",NA,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1916",NA,NA
+"230","2009SWW025",NA,NA,"Borehole",25.6,2.7,"Bedrock Met",NA,204860,92690,"to within 1km","SAPPERTON",NA,"Waterford",29,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1252",NA,NA
+"231","2009SWW026",NA,NA,"Borehole",24.4,23.2,"Bedrock Met",1972-05-14,207660,92800,"to within 1km","OKYLE",NA,"Waterford",29,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"232","2009SWW027",NA,NA,"Dug well",1.2,1.2,"Bedrock Presumed",1971-06-18,214100,95950,"to within 1km","KNOCKNALAHARA",NA,"Waterford",29,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"233","2009SWW028",NA,NA,"Borehole",31.7,13.7,"Bedrock Met",NA,206110,91800,"to within 1km","BALLYMUDDY",NA,"Waterford",29,NA,"Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1906",NA,NA
+"234","2009SWW029",NA,NA,"Borehole",28.7,11,"Bedrock Met",NA,212510,95940,"to within 1km","BEWLEY",NA,"Waterford",29,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 785",NA,NA
+"235","2009SWW030",NA,NA,"Borehole",36.6,6.1,"Bedrock Met",NA,206230,95850,"to within 1km","DEERPARKHILL",NA,"Waterford",29,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,30.5,NA,NA,NA,NA,NA,NA,NA
+"236","2009SWW031",NA,NA,"Borehole",20.7,7.9,"Bedrock Met",NA,206250,96600,"to within 1km","DEERPARK EAST",NA,"Waterford",29,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"237","2009SWW032",NA,NA,"Borehole",22.3,0,"Bedrock Met",NA,206510,93940,"to within 1km","BRIDANE",NA,"Waterford",29,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1061",NA,NA
+"238","2009SWW033",NA,NA,"Borehole",21.3,21.3,"Bedrock Presumed",1973-06-15,208500,92450,"to within 1km","CAMPHIRE",NA,"Waterford",29,NA,"Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1041",NA,NA
+"239","2009SWW034",NA,NA,"Borehole",16.8,NA,"DTB Unknown",1972-02-04,205210,92110,"to within 1km","FOUNTAIN",NA,"Waterford",29,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2063",NA,NA
+"240","2009SWW035",NA,NA,"Borehole",21.3,NA,"DTB Unknown",1972-02-15,205300,91950,"to within 1km","FOUNTAIN",NA,"Waterford",29,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2073",NA,NA
+"241","2009SWW036",NA,NA,"Borehole",21.3,12.2,"Bedrock Met",1971-08-15,212420,91400,"to within 1km","BALLYNAPARKA",NA,"Waterford",29,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1377",NA,NA
+"242","2009SWW037",NA,NA,"Borehole",28.3,NA,"DTB Unknown",1971-07-15,212070,91510,"to within 1km","BALLYNAPARKA",NA,"Waterford",29,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"243","2009SWW038",NA,NA,"Borehole",20.1,NA,"DTB Unknown",NA,214660,95900,"to within 1km","KNOCKALAHARA",NA,"Waterford",30,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 866
+Red sandstone",NA,NA
+"244","2009SWW039",NA,NA,"Borehole",36.6,1.2,"Bedrock Met",1971-07-15,213940,93050,"to within 1km","KEEREEN",NA,"Waterford",30,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"245","2009SWW040",NA,NA,"Borehole",17.1,12.2,"Bedrock Met",1963-03-15,213710,95860,"to within 1km","KNOCKALAHARA",NA,"Waterford",30,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 504, 1206
+Limestone",NA,NA
+"246","2009SWW041",NA,NA,"Borehole",24.7,3.4,"Bedrock Met",1970-03-15,202140,91120,"to within 1km","BALLYHAMLET",NA,"Waterford",33,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"247","2009SWW042",NA,NA,"Borehole",21.9,3.4,"Bedrock Met",1970-03-28,206730,91200,"to within 1km","BALLYNEETY",NA,"Waterford",34,NA,"Poor",NA,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"248","2009SWW043",NA,NA,"Borehole",29.3,2.7,"Bedrock Met",1962-10-19,201890,91060,"to within 1km","BALLYHAMLET",NA,"Waterford",33,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1227
+Red sandstone",NA,NA
+"249","2009SWW051",NA,NA,"Borehole",36.6,9.1,"Bedrock Met",1969-06-15,208250,97900,"to within 1km","DRUMROE UPPER",NA,"Waterford",21,NA,"Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LIMESTONE",NA,NA
+"250","2009SWW087","ILC 1555A",NA,"Borehole",46.3,10.4,"Bedrock Met",1971-01-27,207150,91850,"to within 1km","HEADBOROUGH",NA,"Waterford",29,"Domestic use only","Poor","V",9.16,NA,NA,25.9,0.79,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"251","2009SWW090",NA,NA,"Borehole",NA,1,"Bedrock Met",NA,204320,91610,"to within 1km","SAPPERTON SOUTH",NA,"Waterford",29,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"data from Irene Quinn PhD.",NA,NA
+"252","2009SWW091",NA,NA,"Borehole",NA,22,NA,NA,209740,99220,"to within 1km","KILBREE EAST",NA,"Waterford",21,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Data from Irene Quinn PhD.",NA,NA
+"253","2009SWW092",NA,NA,"Borehole",NA,2,"Bedrock Met",NA,204490,90820,"to within 1km","DUNMOON NORTH",NA,"Waterford",29,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Data from Irene Quinn PhD.",NA,NA
+"254","2009SWW093",NA,NA,"Borehole",NA,2,NA,NA,209050,98930,"to within 1km","KILBREE EAST",NA,"Waterford",21,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Data from Irene Quinn PhD.",NA,NA
+"255","2009SWW097",NA,NA,"Borehole",35.1,3.7,"Bedrock Met",2001-05-14,205320,97040,"to within 1km","BALLYSAGGART BEG EAST/WEST",NA,"Waterford",21,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,152,13.7,29,NA,NA,NA,NA,NA,NA
+"256","2009SWW104",NA,NA,"Borehole",33.8,4.6,"Bedrock Met",1970-09-25,211500,93000,"to within 1km","BALLINGOWAN",NA,"Waterford",29,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 778
+Sandstone",NA,NA
+"257","2011NEW003",NA,"Waterford Co. Co. (Minor Scheme)","Borehole",21,NA,"DTB Unknown",1967-01-01,221150,121000,"to within 1km","GLENNAGAD",NA,"Waterford",1,"Domestic use only","Poor","III",35,NA,NA,0.6,58.33,NA,NA,NA,NA,NA,NA,NA,NA,"pH 5.4"
+"258","2011NEW004",NA,NA,"Borehole",30.5,17.4,"Bedrock Met",NA,215410,119290,"to within 1km","KILMANAHAN",NA,"Waterford",1,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"259","2011NEW005",NA,"Waterford Co. Co.","Borehole",9.1,NA,"DTB Unknown",1965-10-04,223430,122480,"to within 1km","POULBOY",NA,"Waterford",2,"Domestic use only","Moderate","II",78.5,NA,NA,0.3,261.67,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"260","2011SEW001",NA,NA,"Borehole",33.5,1.2,"Bedrock Met",1967-05-15,215500,118550,"to within 1km","KILMANAHAN",NA,"Waterford",1,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1349",NA,NA
+"261","2011SEW002",NA,"Waterford Board of Health","Borehole",43.3,5.3,"Bedrock Met",1930-11-01,218450,117670,"to within 1km","RUSSELLSTOWN",NA,"Waterford",1,"Domestic use only","Poor",NA,11.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"262","2011SEW004",NA,NA,"Borehole",24.4,4.6,"Bedrock Met",1962-07-01,214500,117500,"to within 1km","WHITESFORT",NA,"Waterford",1,"Domestic use only","Moderate",NA,76,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"263","2011SEW005",NA,NA,"Borehole",29.9,3.1,"Bedrock Met",1965-12-19,218780,114680,"to within 1km","CLONANAV",NA,"Waterford",5,"Domestic use only","Moderate",NA,76.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1123",NA,NA
+"264","2011SEW006",NA,NA,"Borehole",26.8,12.2,"Bedrock Met",1963-05-25,217160,113480,"to within 1km","KILCREGGANE",NA,"Waterford",5,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1256",NA,NA
+"265","2011SEW007",NA,NA,"Borehole",29,3.7,"Bedrock Met",1968-08-28,218380,112550,"to within 1km","DEERPARK",NA,"Waterford",5,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1256",NA,NA
+"266","2011SEW008",NA,NA,"Borehole",30.5,6.1,"Bedrock Met",1971-11-01,218300,113200,"to within 1km","DEERPARK",NA,"Waterford",5,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2038",NA,NA
+"267","2011SEW009",NA,NA,"Borehole",30.5,3.1,"Bedrock Met",1965-09-17,218280,111230,"to within 1km","KNOCKACOOLA",NA,"Waterford",5,"Domestic use only","Moderate",NA,70.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 753",NA,NA
+"268","2011SEW010",NA,NA,"Borehole",24.4,4.6,"Bedrock Met",1965-09-18,220560,112220,"to within 1km","GRAIGNAGOWER",NA,"Waterford",5,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 934",NA,NA
+"269","2011SEW011",NA,NA,"Borehole",22.6,6.1,"Bedrock Met",1973-01-15,222750,112880,"to within 1km","SHANBALLYANNE",NA,"Waterford",5,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"270","2011SEW012",NA,NA,"Borehole",25.9,3.7,"Bedrock Met",1970-04-01,222480,112980,"to within 1km","SHANBALLYANNE",NA,"Waterford",5,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1777",NA,NA
+"271","2011SEW013",NA,NA,"Borehole",24.7,3.7,"Bedrock Met",1971-07-01,217370,112700,"to within 1km","TOORACURRAGH",NA,"Waterford",5,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"272","2011SEW014",NA,NA,"Borehole",24.4,6.1,"Bedrock Met",1966-09-15,224000,113100,"to within 1km","KNOCKAUNBRANDAUN",NA,"Waterford",6,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1007",NA,NA
+"273","2011SEW015",NA,NA,"Borehole",29,2.7,"Bedrock Met",1965-06-17,223600,111490,"to within 1km","KNOCKAVANNIA",NA,"Waterford",6,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"274","2011SEW016",NA,NA,"Borehole",18.3,4.6,"Bedrock Met",1965-10-18,219020,110200,"to within 1km","TOORREAGH",NA,"Waterford",13,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 245",NA,NA
+"275","2011SEW017",NA,NA,"Borehole",51.8,NA,"DTB Unknown",NA,215410,119290,"to within 1km","KILMANAHAN",NA,"Waterford",1,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"276","2011SEW018",NA,NA,"Borehole",39,10.6,NA,NA,214850,118880,"to within 1km","KILMANAHAN",NA,"Waterford",1,NA,"Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"277","2011SEW019",NA,NA,"Borehole",33.5,NA,"DTB Unknown",NA,214560,119430,"to within 1km","KILMANAHAN",NA,"Waterford",1,NA,"Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"278","2011SEW030",NA,NA,"Borehole",45.7,NA,"DTB Unknown",1997-10-28,225000,112000,"to within 1km","TOOREEN",NA,"Waterford",16,"Agri & domestic use","Poor",NA,21.8,NA,NA,NA,NA,152,10.3,NA,NA,NA,NA,NA,NA,NA
+"279","2011SEW031",NA,NA,"Dug well",3.1,NA,"Bedrock Not Met",NA,217000,118000,"to within 1km","RUSSELSTOWN",NA,"Waterford",1,"Agri & domestic use",NA,NA,NA,NA,NA,NA,NA,1905,3.1,NA,NA,NA,NA,"Dug by JCB",NA,"Continous Flow"
+"280","2309NEW001",NA,NA,"Borehole",11.6,0.6,"Bedrock Met",1961-01-06,245000,111000,"to within 1km","GREENAN",NA,"Waterford",16,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 321
+Shale, Greenstone Ash",NA,NA
+"281","2309NEW002",NA,NA,"Borehole",26.8,4.9,"Bedrock Met",1962-05-08,250940,109700,"to within 1km","BALLYDUFF EAST",NA,"Waterford",16,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1171
+Felstone",NA,NA
+"282","2309NEW003",NA,NA,"Borehole",20.4,2.4,"Bedrock Met",1970-05-01,249300,105940,"to within 1km","SMOOR",NA,"Waterford",16,"Domestic use only","Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"283","2309NEW004",NA,NA,"Borehole",15.8,1.5,"Bedrock Met",NA,251450,106830,"to within 1km","RAHEENS",NA,"Waterford",16,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood",NA,NA
+"284","2309NEW005",NA,NA,"Borehole",16.2,2.4,"Bedrock Met",1969-09-16,250410,106750,"to within 1km","RAHEENS",NA,"Waterford",16,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"285","2309NEW007",NA,NA,"Borehole",18.9,3.1,"Bedrock Met",1969-07-01,248090,108710,"to within 1km","CARRICKANURE",NA,"Waterford",16,NA,"Poor",NA,27.3,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1719",NA,NA
+"286","2309NEW008",NA,NA,"Borehole",18.3,8.5,"Bedrock Met",1971-09-01,250250,105530,"to within 1km","BALLYCRADDOCK",NA,"Waterford",16,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Date 1/2/1966"
+"287","2309NEW009",NA,NA,"Borehole",28,3.4,"Bedrock Met",1972-08-05,245160,104810,"to within 1km","RATHANNY",NA,"Waterford",16,"Domestic use only","Poor",NA,5.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Grey Slate",NA,NA
+"288","2309NEW010",NA,NA,"Borehole",18.3,3.7,"Bedrock Met",1972-11-21,245400,106950,"to within 1km","GREENAN",NA,"Waterford",16,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2183
+Sandstone",NA,"Date 11/7/1962"
+"289","2309NEW013",NA,NA,"Borehole",15.2,3.7,"Bedrock Met",1967-09-05,247910,105710,"to within 1km","CARRICKPHILIP",NA,"Waterford",16,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1451
+Sandstone",NA,NA
+"290","2309NEW014",NA,NA,"Borehole",29.9,3.1,"Bedrock Met",1970-09-15,246400,104550,"to within 1km","CAHERUANE",NA,"Waterford",16,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"291","2309NEW015",NA,NA,"Borehole",21.3,1.4,"Bedrock Met",1972-12-14,246630,104730,"to within 1km","CAHERUANE",NA,"Waterford",16,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2194
+Sandstone",NA,NA
+"292","2309NEW016",NA,NA,"Borehole",54.9,3.1,"Bedrock Met",1973-01-15,252730,108170,"to within 1km","POWERSKNOCK",NA,"Waterford",16,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2146
+Sandstone",NA,NA
+"293","2309NEW018",NA,NA,"Borehole",11,3.4,"Bedrock Met",1962-11-15,248210,108400,"to within 1km","CARRICKANURE",NA,"Waterford",16,NA,"Good",NA,131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1159
+Greenstone",NA,NA
+"294","2309NEW019",NA,NA,"Borehole",18.3,3.1,"Bedrock Met",1968-04-20,252060,109240,"to within 1km","ADAMSTOWN",NA,"Waterford",16,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"295","2309NEW020",NA,NA,"Borehole",26.5,3.7,"Bedrock Met",1970-06-15,245160,108880,"to within 1km","BALLYSHONOCK",NA,"Waterford",16,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"296","2309NEW021",NA,NA,"Borehole",16.2,3.1,"Bedrock Met",1968-01-15,245100,108690,"to within 1km","BALLYSHONOCK",NA,"Waterford",16,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 71
+Sandstone",NA,NA
+"297","2309NEW022",NA,NA,"Borehole",13.7,9.1,"Bedrock Met",1969-11-04,245610,110440,"to within 1km","RATHANNY",NA,"Waterford",16,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1694",NA,NA
+"298","2309NEW023",NA,NA,"Borehole",16.5,2.1,"Bedrock Met",NA,250400,105360,"to within 1km","BALLYCRADDOCK",NA,"Waterford",16,NA,"Moderate",NA,76.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"299","2309NEW024",NA,NA,"Borehole",16.8,2.7,"Bedrock Met",1970-10-09,250140,105170,"to within 1km","BALLYCRADDOCK",NA,"Waterford",16,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1909
+Sandstone",NA,NA
+"300","2309NEW025",NA,NA,"Borehole",14.3,3.1,"Bedrock Met",1968-09-10,250980,105440,"to within 1km","BALLYCRADDOCK",NA,"Waterford",16,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1583",NA,NA
+"301","2309NEW026",NA,NA,"Borehole",18.9,5.2,"Bedrock Met",1968-07-15,251000,106910,"to within 1km","RAHEENS",NA,"Waterford",16,NA,"Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1547
+Felstone",NA,NA
+"302","2309NEW027",NA,NA,"Borehole",12.2,1.8,"Bedrock Met",NA,249410,105760,"to within 1km","SMOOR",NA,"Waterford",16,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"303","2309NEW028",NA,NA,"Unknown",16.5,3.7,"Bedrock Met",1968-07-29,248880,105830,"to within 1km","SMOOR BEG",NA,"Waterford",16,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1398
+Sandstone",NA,NA
+"304","2309NEW029",NA,NA,"Borehole",24.4,6.4,"Bedrock Met",1964-05-15,259370,104920,"to within 1km","CARRIGLONG",NA,"Waterford",17,NA,"Good",NA,142,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLER SEAN FLOOD
+SLATE",NA,NA
+"305","2309NEW030",NA,NA,"Borehole",19.8,0.9,"Bedrock Met",1961-01-14,255710,105600,"to within 1km","SPORTHOUSE",NA,"Waterford",17,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 950, 213",NA,NA
+"306","2309NEW031",NA,NA,"Borehole",15.2,7.9,"Bedrock Met",1964-07-15,258760,104910,"to within 1km","CARRIGLONG",NA,"Waterford",17,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLER SEAN FLOOD
+GRANITE",NA,NA
+"307","2309NEW032",NA,NA,"Borehole",26.5,3.7,"Bedrock Met",1970-06-15,259440,103780,"to within 1km","DRUMCANNON",NA,"Waterford",26,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLER SEAN FLOOD
+BLUE SHINGLE",NA,NA
+"308","2309NEW033",NA,NA,"Borehole",36.6,6.7,"Bedrock Met",1972-10-31,259660,103910,"to within 1km","DRUMCANNON",NA,"Waterford",17,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2185
+SHALE",NA,NA
+"309","2309NEW034",NA,NA,"Borehole",25.3,3.7,"Bedrock Met",1970-04-15,257610,104870,"to within 1km","KILBRIDE NORTH",NA,"Waterford",17,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"310","2309NEW035",NA,NA,"Borehole",NA,2.1,"Bedrock Met",1963-09-01,248390,104040,"to within 1km","BALLYROBIN",NA,"Waterford",25,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"311","2309NEW036",NA,NA,"Unknown",27.4,3.1,"Bedrock Met",1971-03-09,259390,108480,"to within 1km","LACKEN",NA,"Waterford",17,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"312","2309NEW037",NA,NA,"Borehole",14,3.1,"Bedrock Met",1968-05-15,253130,105240,"to within 1km","BALLYMOAT",NA,"Waterford",17,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1343
+SANDSTONE",NA,NA
+"313","2309NEW038",NA,NA,"Borehole",21,2.4,"Bedrock Met",1966-10-15,258790,108330,"to within 1km","BALLYHOO",NA,"Waterford",17,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 148",NA,NA
+"314","2309NEW039",NA,NA,"Borehole",32.9,7.6,"Bedrock Met",1969-08-15,254140,108370,"to within 1km","WHITFIELD",NA,"Waterford",17,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1738
+SANDSTONE",NA,NA
+"315","2309NEW040",NA,NA,"Borehole",16.8,3.4,"Bedrock Met",1969-03-15,254990,106300,"to within 1km","SLIEVEROE",NA,"Waterford",17,NA,"Moderate",NA,76.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"316","2309NEW041",NA,NA,"Borehole",16.5,1.8,"Bedrock Met",1972-11-20,253080,105450,"to within 1km","BALLYMOAT",NA,"Waterford",17,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2177",NA,NA
+"317","2309NEW042",NA,NA,"Borehole",19.2,3.1,"Bedrock Met",1967-09-28,254950,109370,"to within 1km","BAWNFUNE",NA,"Waterford",17,NA,"Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1448",NA,NA
+"318","2309NEW043",NA,NA,"Borehole",22.9,3.7,"Bedrock Met",1968-03-15,255700,109560,"to within 1km","BUTLERSTOWN",NA,"Waterford",17,NA,"Poor",NA,30.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1493",NA,NA
+"319","2309NEW044",NA,NA,"Borehole",30.8,3.1,"Bedrock Met",1969-05-28,256210,109890,"to within 1km","BUTLERSTOWN",NA,"Waterford",17,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1677",NA,NA
+"320","2309NEW045",NA,NA,"Borehole",37.8,3.7,"Bedrock Met",1969-12-02,255680,107510,"to within 1km","KILRONAN",NA,"Waterford",17,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SANDSTONE",NA,NA
+"321","2309NEW046",NA,NA,"Borehole",19.8,4.3,"Bedrock Met",1970-01-15,254700,108730,"to within 1km","ORCHARDSTOWN",NA,"Waterford",17,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1821
+SANDSTONE",NA,NA
+"322","2309NEW047",NA,NA,"Borehole",17.7,3.7,"Bedrock Met",1969-07-15,254940,107480,"to within 1km","SHINGANAGH",NA,"Waterford",17,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLER SEAN FLOOD
+HARD GREY ROCK",NA,NA
+"323","2309NEW048",NA,NA,"Borehole",21.3,3.1,"Bedrock Met",1968-08-15,254130,108660,"to within 1km","WHITFIELD NORTH",NA,"Waterford",17,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1574
+SANDSTONE",NA,NA
+"324","2309NEW049",NA,NA,"Borehole",30.5,3,"Bedrock Met",NA,245690,104200,"to within 1km","CARRIGEEN",NA,"Waterford",25,NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no water",NA,"No water"
+"325","2309NEW050",NA,NA,"Borehole",30.5,3.1,"Bedrock Met",NA,246080,104300,"to within 1km","CARRIGEEN",NA,"Waterford",25,NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood
+Hard blue rock",NA,"No water"
+"326","2309NEW051",NA,NA,"Borehole",25.3,3.1,"Bedrock Met",1968-06-15,246860,101660,"to within 1km","KILBEG",NA,"Waterford",25,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1169
+Sandstone",NA,NA
+"327","2309NEW052",NA,NA,"Borehole",25.9,4.9,"Bedrock Met",1971-07-15,251220,101780,"to within 1km","ARDNAHOW",NA,"Waterford",25,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"328","2309NEW053",NA,NA,"Borehole",25.9,0.3,"Bedrock Met",1962-07-23,248040,103140,"to within 1km","BALLYLEEN",NA,"Waterford",25,NA,"Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 468
+Felstone",NA,NA
+"329","2309NEW054",NA,NA,"Borehole",19.2,3.1,"Bedrock Met",1972-01-15,248510,103140,"to within 1km","BALLYLEEN",NA,"Waterford",25,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1557
+Sandstone",NA,NA
+"330","2309NEW055",NA,NA,"Borehole",25,2.4,"Bedrock Met",NA,250970,103060,"to within 1km","BALLYPHILIP",NA,"Waterford",25,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Grey rock",NA,"Date 18/4/1963"
+"331","2309NEW056",NA,NA,"Borehole",27.4,NA,"DTB Unknown",1967-06-15,250750,100570,"to within 1km","DUNHILL",NA,"Waterford",25,NA,"Poor",NA,32.7,NA,NA,1,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"332","2309NEW057",NA,NA,"Borehole",25,3.7,"Bedrock Met",1969-07-15,252790,101280,"to within 1km","FENNOR",NA,"Waterford",26,NA,"Moderate",NA,78.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood
+Soft grey rock",NA,NA
+"333","2309NEW058",NA,NA,"Borehole",24.7,1.2,"Bedrock Met",1970-09-15,250170,101660,"to within 1km","DUNHILL",NA,"Waterford",25,NA,"Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"334","2309NEW059",NA,NA,"Borehole",27.1,0.6,"Bedrock Met",1971-10-15,250620,101120,"to within 1km","DUNHILL",NA,"Waterford",25,NA,"Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"335","2309NEW060",NA,NA,"Borehole",36.6,5.5,"Bedrock Met",1968-09-15,247370,100820,"to within 1km","KILSTEAGUE",NA,"Waterford",25,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1579
+Brown sandstone",NA,NA
+"336","2309NEW061",NA,NA,"Borehole",32.6,3.7,"Bedrock Met",1969-07-23,258930,103870,"to within 1km","PICKARDSTOWN",NA,"Waterford",26,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"337","2309NEW062","ILC","Land Commission","Borehole",24.4,NA,"Bedrock Not Met",1968-02-15,253670,101650,"to within 1km","BALLYSCANLAN",NA,"Waterford",26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"`discontinued'",NA,NA
+"338","2309NEW063","ILC","Land Commission","Borehole",76.2,NA,"DTB Unknown",1968-02-15,254970,100170,"to within 1km","ISLANDTARSNEY",NA,"Waterford",26,NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"`no water'",NA,"No water"
+"339","2309NEW064",NA,NA,"Borehole",25.3,4.9,"Bedrock Met",1967-05-15,255850,100860,"to within 1km","COOLNAGOPPOGE",NA,"Waterford",26,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1376",NA,NA
+"340","2309NEW065",NA,NA,"Borehole",55.5,9.1,"Bedrock Met",1968-04-15,258890,103020,"to within 1km","PICKARDSTOWN",NA,"Waterford",26,NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"hard blue rock
+Driller Sean Flood",NA,"no water"
+"341","2309NEW066",NA,NA,"Borehole",31.1,3.7,"Bedrock Met",1969-12-31,260000,103720,"to within 1km","DRUMCANNON",NA,"Waterford",26,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1710",NA,NA
+"342","2309NEW067",NA,NA,"Borehole",101.8,3.7,"Bedrock Met",1971-03-15,257850,101180,"to within 1km","TRAMORE WEST",NA,"Waterford",26,NA,"Poor",NA,6.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"343","2309NEW068",NA,NA,"Borehole",25,0.6,"Bedrock Met",NA,253310,100800,"to within 1km","FENNOR",NA,"Waterford",26,NA,"Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"344","2309NEW069",NA,NA,"Borehole",42.7,5.5,"Bedrock Met",1965-08-15,259570,102890,"to within 1km","BALLINATTIN",NA,"Waterford",26,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood
+Black slate",NA,NA
+"345","2309NEW070",NA,NA,"Borehole",28.3,3.1,"Bedrock Met",1969-07-15,252660,109260,"to within 1km","ADAMSTOWN",NA,"Waterford",17,NA,"Moderate",NA,76.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLER SEAN FLOOD
+HARD GREY ROCK",NA,NA
+"346","2309NEW071",NA,NA,"Borehole",18.3,2.7,"Bedrock Met",1976-05-15,253750,107310,"to within 1km","LISNAKILL",NA,"Waterford",17,"Agri & domestic use","Poor",NA,13.1,NA,NA,NA,NA,152,10.7,15.2,NA,NA,NA,"hard grey rock
+Driller Sean Flood",NA,NA
+"347","2309NEW072",NA,NA,"Borehole",31.4,4.6,"Bedrock Met",1988-06-05,258450,101730,"to within 1km","TRAMORE ROAD",NA,"Waterford",26,NA,"Moderate",NA,43.6,NA,NA,NA,NA,152,NA,NA,NA,NA,NA,"Drilled by Fogarty",NA,NA
+"348","2309NEW077",NA,NA,"Borehole",49.7,3.7,"Bedrock Met",NA,257530,103750,"to within 1km","KILBRIDE SOUTH",NA,"Waterford",26,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"349","2309NEW079",NA,NA,"Borehole",18.3,2.7,"Bedrock Met",NA,249760,105730,"to within 1km","SMOOR",NA,"Waterford",25,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"350","2309NEW080",NA,NA,"Borehole",25.9,9.1,"Bedrock Met",1979-05-15,255060,106130,"to within 1km","SLIEVEROE",NA,"Waterford",17,"Agri use only","Poor",NA,24,24,NA,NA,NA,152,18.3,23.5,NA,NA,NA,"Driller Sean Flood",NA,NA
+"351","2309NEW081",NA,NA,"Borehole",19.8,1.8,"Bedrock Met",NA,249210,100310,"to within 1km","DUNHILL",NA,"Waterford",25,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"352","2309NEW082",NA,NA,"Borehole",49.7,11.5,"Bedrock Met",NA,258500,101360,"to within 1km","TRAMORE ROAD",NA,"Waterford",26,NA,"Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"353","2309NEW122",NA,NA,"Unknown",NA,15,"Bedrock Met",NA,246000,102000,"to within 1km","KILBARRYMEADEN",NA,"Waterford",25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"354","2309NEW123",NA,NA,"Borehole",27.4,2.4,"Bedrock Met",NA,250400,108400,"to within 1km","AMBERHILL",NA,"Waterford",16,"Domestic use only","Excellent",NA,1091,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"FRACTURES AT 12.2m, 18.3m AND 25.9m",NA,NA
+"355","2309NEW124",NA,NA,"Borehole",36.6,NA,"DTB Unknown",1990-01-18,250000,102800,"to within 1km","BALLYNAGEERAGH",NA,"Waterford",25,"Domestic use only","Excellent",NA,545,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"FRACTURES AT 33.5m, 35.0m AND 36.6m",NA,NA
+"356","2309NEW125",NA,"WATERFORD CORPORATION","Borehole",76.2,NA,"DTB Unknown",1968-05-01,245200,108450,"to within 1km","BALLYSHONOCK",NA,"Waterford",16,"Public supply (Co Co)","Excellent",NA,491,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"public supply well, no. 17 at Ballyshonnock",NA,NA
+"357","2309NEW126",NA,NA,"Borehole",30.5,3,"Bedrock Met",1976-09-12,250380,103980,"to within 1km","SHANACLONE",NA,"Waterford",16,"Agri & domestic use","Poor","V",35.5,NA,NA,NA,2.91,152,NA,NA,NA,NA,NA,NA,NA,NA
+"358","2309NEW127","32985867-T",NA,"Borehole",44.2,4,"Bedrock Met",NA,248280,102810,"to within 1km","BALLYLEEN",NA,"Waterford",16,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,152,25.9,37.2,40.8,NA,NA,NA,NA,NA
+"359","2309NEW129",NA,NA,"Borehole",64,3.7,"Bedrock Met",1997-08-30,249800,101570,"to within 1km","DUNHILL",NA,"Waterford",25,"Agri & domestic use","Poor","IV",13.1,NA,NA,NA,4.3,152,48.8,NA,NA,NA,NA,NA,NA,NA
+"360","2309NEW131",NA,NA,"Borehole",45.7,2.4,"Bedrock Met",1999-09-08,252180,100900,"to within 1km","BALLYADAM",NA,"Waterford",25,"Agri & domestic use","Moderate","IV",54.5,NA,NA,NA,4.47,152,24.4,39.6,NA,NA,NA,NA,NA,NA
+"361","2309NEW132",NA,NA,"Borehole",25,9.1,"Bedrock Met",1998-03-25,251910,102180,"to within 1km","BALLYDERMODY",NA,"Waterford",25,"Agri & domestic use","Poor","IV",32.7,NA,NA,NA,3.58,152,9.1,NA,NA,NA,NA,NA,NA,NA
+"362","2309NEW145",NA,NA,"Borehole",25.6,2.4,"Bedrock Met",1972-10-05,254500,103900,"to within 1km","CARRICKAVARAHANE",NA,"Waterford",26,NA,"Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2155
+Sandstone",NA,NA
+"363","2309NWW003",NA,NA,"Borehole",39,3.7,"Bedrock Met",1973-01-15,235150,109000,"to within 1km","ASHTOWN",NA,"Waterford",15,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 195
+Red sandstone",NA,NA
+"364","2309NWW004",NA,NA,"Borehole",22.3,4,"Bedrock Met",1970-06-01,237400,107960,"to within 1km","FEWS",NA,"Waterford",15,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"365","2309NWW005",NA,NA,"Borehole",36.3,3.1,"Bedrock Met",1969-09-01,235820,109000,"to within 1km","ASHTOWN",NA,"Waterford",15,"Domestic use only","Moderate",NA,49.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Snadstone",NA,NA
+"366","2309NWW006",NA,NA,"Borehole",18.9,3.1,"Bedrock Met",1970-02-06,234240,107920,"to within 1km","GRAIGUEARUSH",NA,"Waterford",15,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"367","2309NWW007",NA,NA,"Borehole",21.3,3.1,"Bedrock Met",1968-06-15,234080,105900,"to within 1km","KILCOMERAGH",NA,"Waterford",15,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1638
+Brown Rock",NA,NA
+"368","2309NWW008",NA,NA,"Borehole",17.1,3.1,"Bedrock Met",1971-01-15,243550,109120,"to within 1km","BALLYHUSSA",NA,"Waterford",15,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1948
+Sandstone",NA,NA
+"369","2309NWW009",NA,NA,"Borehole",23.2,3.1,"Bedrock Met",1967-11-01,238620,107780,"to within 1km","KILNAGRANGE",NA,"Waterford",15,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1337
+Sandstone",NA,NA
+"370","2309NWW010",NA,NA,"Borehole",36.6,3.7,"Bedrock Met",1970-05-01,239520,109200,"to within 1km","RATHMAIDEN",NA,"Waterford",15,"Domestic use only","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"371","2309NWW011",NA,NA,"Borehole",19.8,4.3,"Bedrock Met",1972-03-06,239250,108980,"to within 1km","RATHMAIDEN",NA,"Waterford",15,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2042
+Sandstone",NA,NA
+"372","2309NWW012","ILC","Land Commission","Borehole",15.2,8.2,"Bedrock Met",1958-06-01,234420,104120,"to within 1km","GARRANMILLON",NA,"Waterford",15,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"373","2309NWW013",NA,NA,"Borehole",30.5,3.7,"Bedrock Met",1969-01-14,242130,107360,"to within 1km","PARKEENNAGLOGH",NA,"Waterford",15,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1230",NA,NA
+"374","2309NWW014",NA,NA,"Borehole",21.9,NA,"DTB Unknown",1968-09-01,241390,107340,"to within 1km","PARKEENAGLOGH",NA,"Waterford",15,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"375","2309NWW015",NA,NA,"Borehole",18.3,3.1,"Bedrock Met",1968-05-01,241690,107510,"to within 1km","PARKEENNAGLOGH",NA,"Waterford",15,"Domestic use only","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1531
+Sandstone",NA,NA
+"376","2309NWW016",NA,NA,"Borehole",29.3,3.7,"Bedrock Met",1971-04-15,241110,106510,"to within 1km","SCRAHAN",NA,"Waterford",15,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1902
+Sandstone",NA,NA
+"377","2309NWW017",NA,NA,"Borehole",22.6,3.1,"Bedrock Met",1968-08-08,241600,106540,"to within 1km","SCRAHAN",NA,"Waterford",15,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1496
+Sandstone",NA,NA
+"378","2309NWW018",NA,NA,"Borehole",30.5,3.1,"Bedrock Met",1965-08-24,242870,105550,"to within 1km","WHITESTOWN",NA,"Waterford",15,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1013
+Red sandstone",NA,NA
+"379","2309NWW021",NA,NA,"Borehole",17.1,3.1,"Bedrock Met",1968-06-06,243330,105030,"to within 1km","GEORGESTOWN",NA,"Waterford",16,"Domestic use only","Poor",NA,28,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1548
+Sandstone",NA,NA
+"380","2309NWW022",NA,NA,"Borehole",17.7,2.4,"Bedrock Met",1967-08-15,241180,105070,"to within 1km","KILMOYLIN",NA,"Waterford",15,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1262
+Sandstone",NA,NA
+"381","2309NWW023",NA,NA,"Borehole",25.3,6.4,"Bedrock Met",1972-03-15,244460,106950,"to within 1km","GREENAN",NA,"Waterford",16,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"382","2309NWW024",NA,NA,"Borehole",21.9,3.1,"Bedrock Met",1969-09-15,243360,104720,"to within 1km","GEORGESTOWN",NA,"Waterford",16,NA,"Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Hard white rock",NA,NA
+"383","2309NWW025",NA,NA,"Borehole",16.2,3.1,"Bedrock Met",1968-09-15,244950,108880,"to within 1km","BALLYSHONOCK",NA,"Waterford",16,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1597",NA,NA
+"384","2309NWW026",NA,NA,"Borehole",20.4,3.1,"Bedrock Met",1968-06-22,243520,108930,"to within 1km","BALLYHUSSA",NA,"Waterford",16,NA,"Poor",NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1353
+Sandstone",NA,NA
+"385","2309NWW027",NA,NA,"Borehole",19.2,3.1,"Bedrock Met",1966-12-15,241210,106290,"to within 1km","SCRAHAN",NA,"Waterford",15,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1203
+Sandstone",NA,NA
+"386","2309NWW028",NA,NA,"Borehole",24.7,2.4,"Bedrock Met",1971-02-15,241680,109070,"to within 1km","CARRIGEEN",NA,"Waterford",16,NA,"Poor",NA,27.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"387","2309NWW029",NA,NA,"Borehole",17.4,2.4,"Bedrock Met",1965-07-21,241240,109100,"to within 1km","CARRIGEEN",NA,"Waterford",16,NA,"Poor",NA,27.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"388","2309NWW030",NA,NA,"Borehole",13.1,3.7,"Bedrock Met",1971-02-15,243480,107030,"to within 1km","BALLYBRACK",NA,"Waterford",16,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1946
+Sandstone",NA,NA
+"389","2309NWW031",NA,NA,"Borehole",25,1.2,"Bedrock Met",1967-08-15,244660,109080,"to within 1km","BALLYSHONOCK",NA,"Waterford",16,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1426
+Sandstone",NA,NA
+"390","2309NWW032",NA,NA,"Borehole",25.6,7.6,"Bedrock Met",1971-04-15,244580,108510,"to within 1km","BALLYSHONOCK",NA,"Waterford",16,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1956
+Shale",NA,NA
+"391","2309NWW033",NA,NA,"Borehole",21.3,3.7,"Bedrock Met",NA,243040,109100,"to within 1km","BALLYHUSSA",NA,"Waterford",16,NA,"Moderate",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1847",NA,NA
+"392","2309NWW035",NA,NA,"Borehole",21.9,3.7,"Bedrock Met",1969-07-15,233110,103500,"to within 1km","GORTNALAGHT",NA,"Waterford",23,NA,"Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood
+Blue rock",NA,NA
+"393","2309NWW036",NA,NA,"Borehole",19.8,7,"Bedrock Met",1972-03-15,232870,100290,"to within 1km","ROBERTSTOWN",NA,"Waterford",23,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Red sandstone",NA,NA
+"394","2309NWW037",NA,NA,"Borehole",21.9,0.9,"Bedrock Met",1963-11-29,238920,101950,"to within 1km","GARRANTURTON",NA,"Waterford",24,NA,"Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1119",NA,NA
+"395","2309NWW038",NA,NA,"Borehole",19.2,0.9,"Bedrock Met",1962-12-08,238620,101510,"to within 1km","GARRANTURTON",NA,"Waterford",24,NA,"Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1258
+",NA,NA
+"396","2309NWW039",NA,NA,"Borehole",17.7,4.3,"Bedrock Met",1962-11-15,234700,102540,"to within 1km","BALLYLINCH",NA,"Waterford",24,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 472
+Red sandstone",NA,NA
+"397","2309NWW040",NA,NA,"Borehole",26.2,3.7,"Bedrock Met",1973-06-15,238430,102330,"to within 1km","GARRANTURTON",NA,"Waterford",24,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2255
+Sandstone",NA,NA
+"398","2309NWW041",NA,NA,"Borehole",12.2,12.2,"Bedrock Presumed",1970-03-15,236500,101930,"to within 1km","GLEN WEST",NA,"Waterford",24,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1820",NA,NA
+"399","2309NWW042",NA,NA,"Borehole",21.6,4.6,"Bedrock Met",1973-03-15,234250,102940,"to within 1km","GARRAHYLISH",NA,"Waterford",24,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 608
+Sandstone",NA,NA
+"400","2309NWW043",NA,NA,"Borehole",21.3,3.7,"Bedrock Met",1973-02-15,236550,103110,"to within 1km","FAHA",NA,"Waterford",24,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2158
+Brownstone",NA,NA
+"401","2309NWW044",NA,NA,"Borehole",12.2,1.8,NA,NA,240550,103990,"to within 1km","ASHTOWN",NA,"Waterford",14,NA,"Moderate",NA,NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"402","2309NWW046",NA,NA,"Borehole",18.9,3.1,"Bedrock Met",1971-06-15,240120,104470,"to within 1km","BALLYOGARTY",NA,"Waterford",15,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shale",NA,NA
+"403","2309NWW047",NA,NA,"Borehole",14.3,3.1,"Bedrock Met",1970-05-15,249650,104400,"to within 1km","BALLYLENANE",NA,"Waterford",16,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"404","2309NWW048",NA,NA,"Borehole",29.9,2.4,"Bedrock Met",1971-11-12,244920,106850,"to within 1km","GREENAN",NA,"Waterford",16,NA,"Poor",NA,30.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2010
+Sandstone",NA,NA
+"405","2309NWW049",NA,NA,"Borehole",19.2,3.1,"Bedrock Met",1968-09-15,243290,102270,"to within 1km","BALLYVADDEN",NA,"Waterford",25,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1578
+Sandstone",NA,NA
+"406","2309NWW058",NA,NA,"Dug well",2.8,5.8,NA,NA,234240,105930,"to within 1km","MAHONBRIDGE",NA,"Waterford",15,NA,"Moderate",NA,NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"407","2309NWW059",NA,NA,"Borehole",16.8,10.7,"Bedrock Met",NA,241950,103750,"to within 1km","SHANAKILL",NA,"Waterford",15,NA,"Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"408","2309NWW060",NA,NA,"Borehole",43.5,3.1,NA,NA,234460,106090,"to within 1km","MAHONBRIDGE",NA,"Waterford",15,NA,"Moderate",NA,NA,60,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"409","2309NWW061",NA,NA,"Borehole",43.5,1.8,"Bedrock Met",NA,237130,107790,"to within 1km","FEWS",NA,"Waterford",15,NA,"Good",NA,163.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"410","2309NWW062",NA,NA,"Borehole",23.8,1.3,"Bedrock Met",NA,231200,105950,"to within 1km","COMERAGH",NA,"Waterford",14,NA,"Good",NA,122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"411","2309NWW096",NA,NA,"Borehole",25,2.4,"Bedrock Met",NA,236000,109000,"to within 1km","ASHTOWN",NA,"Waterford",15,NA,"Excellent",NA,872,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"412","2309NWW097",NA,NA,"Borehole",55.8,NA,"DTB Unknown",NA,239500,106500,"to within 1km","KILMACTHOMAS",NA,"Waterford",15,"Domestic use only","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"413","2309NWW099",NA,NA,"Borehole",16.8,4.5,"Bedrock Met",1962-10-15,234500,102500,"to within 1km","BALLYLINCH",NA,"Waterford",24,"Domestic use only","Good",NA,164,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"414","2309NWW100",NA,NA,"Borehole",30.5,2.4,"Bedrock Met",1999-09-01,238060,103410,"to within 1km","FAHAFEELAGH",NA,"Waterford",15,"Agri & domestic use","Poor","IV",32.7,NA,NA,NA,5.37,152,18.3,24.4,NA,NA,NA,NA,NA,NA
+"415","2309NWW104",NA,NA,"Borehole",NA,15,"Bedrock Met",NA,253640,107280,"to within 1km","LISNAKILL",NA,"Waterford",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"416","2309NWW114",NA,NA,"Borehole",44.5,3.1,"Bedrock Met",1969-09-01,241000,102500,"to within 1km","BALLYLANEEN",NA,"Waterford",24,"Domestic use only","Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Hard granite (?)",NA,NA
+"417","2309SEW001",NA,NA,"Borehole",59.7,3.1,"Bedrock Met",1969-09-15,245560,99160,"to within 1km","TANKARDSTOWN",NA,"Waterford",25,NA,"Failure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Hard white rock",NA,"No water"
+"418","2309SEW002",NA,NA,"Dug well",2.7,2.7,"Bedrock Presumed",NA,252060,99000,"to within 1km","KILFARRASY",NA,"Waterford",25,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"419","2309SEW003",NA,NA,"Borehole",6.1,2.1,"Bedrock Met",1972-08-03,249220,99060,"to within 1km","ANNESTOWN",NA,"Waterford",25,NA,"Poor",NA,6.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shale",NA,NA
+"420","2309SEW004",NA,NA,"Borehole",45.7,3.7,"Bedrock Met",1971-10-15,249800,99020,"to within 1km","ANNESTOWN",NA,"Waterford",25,NA,"Poor",NA,3.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"421","2309SEW005",NA,NA,"Borehole",45.7,6.1,"Bedrock Met",1969-09-08,247520,99530,"to within 1km","KNOCKANE",NA,"Waterford",25,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1287
+Sandstone",NA,NA
+"422","2309SEW006",NA,NA,"Borehole",27.4,9.8,"Bedrock Met",1969-07-15,246910,99060,"to within 1km","DUNABRATTIN",NA,"Waterford",25,NA,"Poor",NA,13.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood
+Soft blue rock",NA,NA
+"423","2309SEW007",NA,NA,"Borehole",24.1,3.1,"Bedrock Met",1972-04-15,256190,99170,"to within 1km","WESTTOWN",NA,"Waterford",26,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shale",NA,NA
+"424","2309SEW008",NA,NA,"Borehole",10.7,3.4,"Bedrock Met",1972-04-15,256130,99380,"to within 1km","WESTTOWN",NA,"Waterford",26,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Shale",NA,NA
+"425","2309SEW009",NA,NA,"Borehole",42.7,3.4,"Bedrock Met",1966-09-15,255720,99050,"to within 1km","WESTTOWN",NA,"Waterford",26,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1039",NA,NA
+"426","2309SEW010",NA,NA,"Borehole",51.8,1.8,"Bedrock Met",1972-04-15,256630,99170,"to within 1km","WESTTOWN",NA,"Waterford",26,NA,"Poor",NA,3.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Hard green rock",NA,NA
+"427","2309SEW011",NA,NA,"Borehole",25.3,6.4,"Bedrock Met",NA,252410,99040,"to within 1km","KILFARRASY",NA,"Waterford",25,NA,"Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"428","2309SEW012",NA,NA,"Borehole",48.8,3.1,"Bedrock Met",NA,249440,99500,"to within 1km","ANNESTOWN",NA,"Waterford",25,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"429","2309SEW019",NA,NA,"Borehole",25.6,NA,"DTB Unknown",NA,249500,99500,"to within 1km","ANNESTOWN",NA,"Waterford",25,"Domestic use only","Good",NA,326,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"430","2309SEW020",NA,NA,"Borehole",51.8,0.6,"Bedrock Met",NA,249600,99500,"to within 1km","ANNESTOWN",NA,"Waterford",25,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"431","2309SEW021",NA,NA,"Borehole",37.5,NA,"DTB Unknown",NA,249500,99700,"to within 1km","ANNESTOWN",NA,"Waterford",25,"Domestic use only","Good",NA,326,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"432","2309SWW001",NA,NA,"Borehole",20.4,8.5,"Bedrock Met",1970-09-15,231410,98930,"to within 1km","BALLYNEVOGA",NA,"Waterford",23,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1910
+ORS",NA,NA
+"433","2309SWW002",NA,NA,"Borehole",22.6,4.3,"Bedrock Met",1967-06-15,230710,98000,"to within 1km","SHANBALLY",NA,"Waterford",23,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1387
+Red sandstone",NA,NA
+"434","2309SWW003",NA,NA,"Borehole",15.5,7.6,"Bedrock Met",1971-07-15,231410,98660,"to within 1km","BALLYNEVOGA",NA,"Waterford",23,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sandstone",NA,NA
+"435","2309SWW005",NA,NA,"Dug well",5.5,4.9,"Bedrock Met",NA,239510,98530,"to within 1km","KILLELTON",NA,"Waterford",24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2260
+no other data after rockhead",NA,NA
+"436","2309SWW006",NA,NA,"Borehole",11.6,4.3,"Bedrock Met",1971-08-15,233670,98020,"to within 1km","SHANACOOL",NA,"Waterford",24,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Red sandstone",NA,NA
+"437","2309SWW007",NA,NA,"Borehole",19.5,3.7,"Bedrock Met",1966-04-15,236090,97960,"to within 1km","MONAVAUD",NA,"Waterford",24,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1137
+Red sandstone",NA,NA
+"438","2309SWW008",NA,NA,"Borehole",12.8,12.8,"Bedrock Presumed",1971-06-15,233310,99050,"to within 1km","DURROW",NA,"Waterford",24,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"439","2309SWW009",NA,NA,"Dug well",4.3,NA,"DTB Unknown",1973-07-17,240680,98170,"to within 1km","BALLYDOWANE",NA,"Waterford",24,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SANDSTONE",NA,NA
+"440","2309SWW010",NA,NA,"Borehole",46.3,0.5,"Bedrock Met",1972-03-07,240490,98390,"to within 1km","BALLYDOWANE",NA,"Waterford",24,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1032 (suppl)
+Sandstone",NA,NA
+"441","2309SWW011",NA,NA,"Dug well",0.9,0.9,"Bedrock Presumed",1968-06-15,240400,99750,"to within 1km","BALLYNAHILA",NA,"Waterford",24,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"442","2309SWW012",NA,NA,"Borehole",27.4,6.1,"Bedrock Met",1967-06-15,232810,97230,"to within 1km","BALLYKEROGE",NA,"Waterford",31,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1297
+Red sandstone",NA,NA
+"443","2309SWW013",NA,NA,"Dug well",7.6,NA,"DTB Unknown",NA,232360,96460,"to within 1km","GLEN",NA,"Waterford",31,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2263",NA,NA
+"444","2309SWW014",NA,NA,"Borehole",22.3,4,"Bedrock Met",1967-07-15,234350,96670,"to within 1km","SHESKIN",NA,"Waterford",32,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1397
+Sandstone",NA,NA
+"445","2309SWW015",NA,NA,"Borehole",27.4,6.1,"Bedrock Met",1970-05-15,235650,96070,"to within 1km","ISLAND",NA,"Waterford",32,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Red sandstone",NA,NA
+"446","2309SWW016",NA,NA,"Borehole",8.2,3.1,"Bedrock Met",1967-10-15,233850,96180,"to within 1km","BALLYVOYLE",NA,"Waterford",32,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1429
+Sandstone",NA,NA
+"447","2309SWW017",NA,NA,"Borehole",61.9,2.4,"Bedrock Met",NA,243060,98730,"to within 1km","BUNMAHON",NA,"Waterford",25,NA,"Poor",NA,8.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"448","2309SWW018",NA,NA,"Borehole",37.5,3.1,"Bedrock Met",1988-06-08,231200,99230,"to within 1km","CARRIGEEN",NA,"Waterford",23,NA,"Moderate",NA,87.3,NA,NA,NA,NA,152,27.4,NA,NA,NA,NA,"Driller Fogarty",NA,NA
+"449","2309SWW024",NA,NA,"Borehole",41.1,2.4,"Bedrock Met",1997-12-11,232810,97150,"to within 1km","BALLYKEROGE BIG",NA,"Waterford",23,"Agri & domestic use","Moderate","IV",54.6,NA,NA,NA,2.75,152,18.3,35.1,NA,NA,NA,NA,NA,NA
+"450","2309SWW028",NA,NA,"Borehole",38.1,10.1,"Bedrock Met",1998-07-14,231000,99550,"to within 1km","BALLYNEVOGA",NA,"Waterford",23,"Agri & domestic use","Moderate","IV",73.36,NA,NA,NA,4.18,152,15.2,30.1,NA,NA,NA,NA,NA,NA
+"451","2311NWW001",NA,NA,"Borehole",59.7,21.3,"Bedrock Met",1972-04-15,231410,122540,"to within 1km","GLEN",NA,"Waterford",2,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2087",NA,NA
+"452","2311NWW002",NA,NA,"Borehole",28,9.8,"Bedrock Met",1966-06-09,237070,121400,"to within 1km","COOLNAMUCK",NA,"Waterford",3,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1118",NA,NA
+"453","2311NWW003",NA,NA,"Borehole",22.6,3.7,"Bedrock Met",1969-09-15,238120,120020,"to within 1km","SHESKIN",NA,"Waterford",3,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"454","2311NWW005",NA,NA,"Borehole",36.6,3.1,"Bedrock Met",1969-09-01,240950,120400,"to within 1km","CREHANAGH",NA,"Waterford",3,"Domestic use only","Moderate",NA,58.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"455","2311NWW006",NA,NA,"Borehole",18.3,3.1,"Bedrock Met",1967-10-13,241710,120350,"to within 1km","CREHANAGH",NA,"Waterford",3,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1390",NA,NA
+"456","2311NWW007",NA,NA,"Borehole",22.9,4.6,"Bedrock Met",1967-04-01,241730,120010,"to within 1km","CREHANAGH SOUTH",NA,"Waterford",3,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1517",NA,NA
+"457","2311NWW008",NA,NA,"Borehole",22.3,3.1,"Bedrock Met",1969-08-01,236080,120280,"to within 1km","BALLINDYSERT",NA,"Waterford",3,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 416",NA,NA
+"458","2311NWW009",NA,NA,"Borehole",24.4,3.7,"Bedrock Met",1970-10-01,235220,120210,"to within 1km","BALLINDYSERT",NA,"Waterford",3,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"459","2311NWW010",NA,NA,"Borehole",12.8,4,"Bedrock Met",1964-06-01,241230,120530,"to within 1km","CREHANAGH",NA,"Waterford",3,"Domestic use only","Moderate",NA,76.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood, Clonroche",NA,NA
+"460","2311NWW011",NA,NA,"Borehole",28.1,9.1,"Bedrock Met",1969-12-18,243000,120700,"to within 1km","TINHALLA",NA,"Waterford",4,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1652",NA,NA
+"461","2311NWW043",NA,NA,"Borehole",25.9,3.7,"Bedrock Met",1997-10-03,231540,122710,"to within 1km","GLEN LOWER",NA,"Waterford",2,"Agri & domestic use","Moderate","III",54.5,NA,NA,NA,17.87,159,15.2,21.3,NA,NA,NA,NA,NA,NA
+"462","2311SEW001",NA,NA,"Borehole",16.2,5.5,"Bedrock Met",1969-09-01,247110,117880,"to within 1km","KILLOWEN",NA,"Waterford",4,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"463","2311SEW002",NA,NA,"Borehole",30.2,6.1,"Bedrock Met",1970-06-16,246120,118340,"to within 1km","KILLOWEN",NA,"Waterford",4,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 820",NA,NA
+"464","2311SEW003",NA,NA,"Borehole",18.6,12.2,"Bedrock Met",1968-12-01,246760,117920,"to within 1km","KILLOWEN",NA,"Waterford",4,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1443",NA,NA
+"465","2311SEW004",NA,NA,"Borehole",23.8,3.7,"Bedrock Met",1972-06-01,246180,118330,"to within 1km","MOUNTBOLTON",NA,"Waterford",4,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2089",NA,NA
+"466","2311SEW005",NA,NA,"Dug well",0.9,NA,"DTB Unknown",NA,245320,118220,"to within 1km","MOUNTBOLTON",NA,"Waterford",4,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 662",NA,NA
+"467","2311SEW006",NA,NA,"Borehole",11,5.8,"Bedrock Met",1962-11-01,251420,110880,"to within 1km","KILMEADAN",NA,"Waterford",8,"Domestic use only","Good",NA,131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"468","2311SEW007",NA,NA,"Borehole",26.8,4.9,"Bedrock Met",1970-06-01,246610,115500,"to within 1km","PORTLAW",NA,"Waterford",8,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood, Clonroche",NA,NA
+"469","2311SEW008",NA,NA,"Borehole",36.6,2.4,"Bedrock Met",1973-03-01,245100,111510,"to within 1km","KILMOVEE",NA,"Waterford",8,"Domestic use only","Poor",NA,29.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2203",NA,NA
+"470","2311SEW009",NA,NA,"Borehole",8.2,7.6,"Bedrock Met",1970-01-01,248210,112710,"to within 1km","GLENHOUSE",NA,"Waterford",8,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 750",NA,NA
+"471","2311SEW010",NA,NA,"Borehole",31.4,3.1,"Bedrock Met",1973-09-01,246650,111650,"to within 1km","LAHARDAN",NA,"Waterford",8,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2133",NA,NA
+"472","2311SEW011",NA,NA,"Borehole",24.4,2.4,"Bedrock Met",1965-07-15,249020,112800,"to within 1km","DARRIGAL",NA,"Waterford",8,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1003",NA,NA
+"473","2311SEW012",NA,NA,"Borehole",28.3,7.6,"Bedrock Met",1962-05-12,251120,111020,"to within 1km","KILMEADAN","OLDCOURT","Waterford",8,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 463",NA,NA
+"474","2311SEW013",NA,NA,"Borehole",37.5,6.1,"Bedrock Met",1969-09-01,251020,111820,"to within 1km","STONEHOUSE",NA,"Waterford",8,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"475","2311SEW014",NA,NA,"Borehole",45.7,2.1,"Bedrock Met",1968-07-01,258140,113630,"to within 1km","GRACEDIEU EAST",NA,"Waterford",9,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood, Clonroche",NA,NA
+"476","2311SEW016",NA,NA,"Borehole",11,3.7,"Bedrock Met",1968-06-01,257590,111880,"to within 1km","KNOCKHOUSE LOWER",NA,"Waterford",9,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood, Clonroche",NA,NA
+"477","2311SEW017",NA,NA,"Borehole",64,1.5,"Bedrock Met",1968-07-01,258560,113540,"to within 1km","GRACEDIEU",NA,"Waterford",9,"Industrial use","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood, Clonroche",NA,NA
+"478","2311SEW018",NA,NA,"Borehole",31.4,15.2,"Bedrock Met",1967-08-17,258100,113180,"to within 1km","GRACEDIEU",NA,"Waterford",9,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1436",NA,NA
+"479","2311SEW019",NA,NA,"Borehole",29.6,4.3,"Bedrock Met",1966-06-01,250720,111720,"to within 1km","STONEHOUSE",NA,"Waterford",8,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1149",NA,NA
+"480","2311SEW024",NA,NA,"Borehole",30.5,0.9,"Bedrock Met",NA,256520,110120,"to within 1km","BUTLERSTOWN",NA,"Waterford",9,"Domestic use only","Poor",NA,6.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood, Clonroche",NA,NA
+"481","2311SEW029",NA,NA,"Borehole",14,13.1,"Bedrock Met",1969-10-13,258130,112100,"to within 1km","CARRICKPHIERISH",NA,"Waterford",9,NA,"Good",NA,163.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1780",NA,NA
+"482","2311SEW030",NA,NA,"Borehole",28,6.1,"Bedrock Met",1970-08-01,250980,110400,"to within 1km","NEWTOWN",NA,"Waterford",16,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"483","2311SEW031",NA,NA,"Borehole",39,6.1,"Bedrock Met",1962-06-14,249800,110420,"to within 1km","CULLENAGH",NA,"Waterford",16,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1173",NA,NA
+"484","2311SEW032",NA,NA,"Borehole",42.7,9.1,"Bedrock Met",1966-06-15,253480,110100,"to within 1km","MOUNTCONGREVE",NA,"Waterford",17,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 361
+SANDSTONE",NA,NA
+"485","2311SEW033",NA,NA,"Borehole",27.4,4.9,"Bedrock Met",1965-06-15,253700,110100,"to within 1km","MOUNTCONGREVE",NA,"Waterford",17,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1072
+SANDSTONE",NA,NA
+"486","2311SEW036",NA,NA,"Borehole",30.5,2.4,"Bedrock Met",NA,246230,115630,"to within 1km","PORTLAW",NA,"Waterford",7,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"487","2311SEW037",NA,NA,"Borehole",31.4,2.4,"Bedrock Met",NA,254550,110050,"to within 1km","KILLOTERAN",NA,"Waterford",17,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"488","2311SEW038",NA,NA,"Borehole",30.5,1.8,"Bedrock Met",NA,246550,115450,"to within 1km","PORTLAW",NA,"Waterford",8,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"489","2311SEW039",NA,NA,"Borehole",33.5,0,NA,NA,254450,110310,"to within 1km","KILLOTERAN",NA,"Waterford",9,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"490","2311SEW046",NA,NA,"Borehole",25.3,NA,"DTB Unknown",1989-08-23,258500,110200,"to within 1km","BALLYBEG",NA,"Waterford",17,"Domestic use only","Excellent",NA,654,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"FRACTURES AT 13.7m, 18.2m AND 21.3m",NA,NA
+"491","2311SEW047",NA,NA,"Borehole",25,NA,"DTB Unknown",NA,256000,110300,"to within 1km","BUTLERSTOWN",NA,"Waterford",9,"Domestic use only","Good",NA,391,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"492","2311SWW003",NA,NA,"Dug well",0.6,NA,"DTB Unknown",1971-10-29,230790,117200,"to within 1km","CLONDONNELL",NA,"Waterford",2,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"493","2311SWW004",NA,NA,"Borehole",28.3,6.1,"Bedrock Met",1972-05-01,230320,118600,"to within 1km","CURRAGHKIELY",NA,"Waterford",2,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2108",NA,NA
+"494","2311SWW005",NA,NA,"Borehole",24.4,3.1,"Bedrock Met",1971-05-13,232480,116750,"to within 1km","KILBRACK",NA,"Waterford",2,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1975",NA,NA
+"495","2311SWW007",NA,NA,"Borehole",25.6,3.1,"Bedrock Met",1971-07-01,243720,111820,"to within 1km","KILMOVEE",NA,"Waterford",8,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"496","2311SWW008",NA,NA,"Borehole",21.3,4.9,"Bedrock Met",1965-04-29,231200,119150,"to within 1km","PARK",NA,"Waterford",2,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 923",NA,NA
+"497","2311SWW009",NA,NA,"Borehole",19.8,4.6,"Bedrock Met",1967-10-01,230660,119020,"to within 1km","PARK",NA,"Waterford",2,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1462",NA,NA
+"498","2311SWW010",NA,NA,"Borehole",30.5,3.1,"Bedrock Met",1971-10-01,238050,118500,"to within 1km","BALLYKNOCK",NA,"Waterford",3,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"499","2311SWW011",NA,NA,"Borehole",30.5,6.1,"Bedrock Met",1966-06-28,238020,118210,"to within 1km","BALLYKNOCK",NA,"Waterford",3,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 813",NA,NA
+"500","2311SWW012",NA,NA,"Borehole",31.1,7,"Bedrock Met",1970-02-17,236840,118250,"to within 1km","BALLYNACURRA",NA,"Waterford",3,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"501","2311SWW013",NA,NA,"Borehole",16.5,3.1,"Bedrock Met",1968-08-01,236000,118100,"to within 1km","BALLYNACURRA",NA,"Waterford",3,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1613",NA,NA
+"502","2311SWW014",NA,NA,"Borehole",25,3.1,"Bedrock Met",1966-07-15,236450,118510,"to within 1km","BALLYNACURRA",NA,"Waterford",3,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1186",NA,NA
+"503","2311SWW015",NA,NA,"Borehole",22.9,6.1,"Bedrock Met",1971-01-01,235040,117680,"to within 1km","BALLYNAFINA",NA,"Waterford",3,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1922",NA,NA
+"504","2311SWW016",NA,NA,"Borehole",20.1,3.1,"Bedrock Met",1968-02-01,235280,119140,"to within 1km","KILBALLYQUILTY",NA,"Waterford",3,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1512",NA,NA
+"505","2311SWW017",NA,NA,"Borehole",24.4,3.7,"Bedrock Met",1968-08-01,235580,118800,"to within 1km","KILBALLYQUILTY",NA,"Waterford",3,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1581",NA,NA
+"506","2311SWW018",NA,NA,"Borehole",31.7,4.6,"Bedrock Met",1966-07-01,233450,119420,"to within 1km","KNOCKALAFALLA",NA,"Waterford",3,"Domestic use only","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 286",NA,NA
+"507","2311SWW019",NA,NA,"Borehole",41.5,3.1,"Bedrock Met",1969-09-01,231920,116210,"to within 1km","BALLYCULLANE",NA,"Waterford",6,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"508","2311SWW020",NA,NA,"Borehole",22.6,3.1,"Bedrock Met",1968-08-01,234120,117880,"to within 1km","RATHGORMUCK",NA,"Waterford",3,"Domestic use only","Poor",NA,27.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1601",NA,NA
+"509","2311SWW021",NA,NA,"Borehole",28,3.7,"Bedrock Met",1970-07-01,240430,117350,"to within 1km","BALLYNEVIN",NA,"Waterford",3,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 186",NA,NA
+"510","2311SWW022",NA,NA,"Borehole",25,3.7,"Bedrock Met",1970-08-01,240720,117520,"to within 1km","BALLYNEVIN",NA,"Waterford",3,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 185",NA,NA
+"511","2311SWW023",NA,NA,"Borehole",19.5,3.1,"Bedrock Met",1971-05-01,242320,118000,"to within 1km","BALLYQUIN",NA,"Waterford",3,"Domestic use only","Poor",NA,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1904",NA,NA
+"512","2311SWW024",NA,NA,"Borehole",24.4,3.7,"Bedrock Met",1967-09-15,242100,118300,"to within 1km","BALLYQUIN",NA,"Waterford",3,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1228",NA,NA
+"513","2311SWW025",NA,NA,"Borehole",26.2,3.1,"Bedrock Met",1972-09-01,238400,117050,"to within 1km","BISHOPSTOWN",NA,"Waterford",3,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2041",NA,NA
+"514","2311SWW026",NA,NA,"Borehole",29.3,3.1,"Bedrock Met",1970-06-15,240980,118620,"to within 1km","COOLROE",NA,"Waterford",3,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1671",NA,NA
+"515","2311SWW027",NA,NA,"Borehole",35.4,3.1,"Bedrock Met",1965-09-14,231600,115910,"to within 1km","BALLYCULLANE",NA,"Waterford",6,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1053",NA,NA
+"516","2311SWW028",NA,NA,"Borehole",23.8,3.1,"Bedrock Met",1966-07-18,231560,114610,"to within 1km","GRAIGAVALLA",NA,"Waterford",6,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1205",NA,NA
+"517","2311SWW029",NA,NA,"Borehole",26.2,3.1,"Bedrock Met",1965-07-19,234600,116250,"to within 1km","BALLYTHOMAS",NA,"Waterford",7,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 984",NA,NA
+"518","2311SWW030",NA,NA,"Borehole",23.8,3.1,"Bedrock Met",1965-05-08,234760,116100,"to within 1km","BALLYTHOMAS",NA,"Waterford",7,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 910",NA,NA
+"519","2311SWW031",NA,NA,"Borehole",26.2,10.1,"Bedrock Met",1967-04-01,234680,116470,"to within 1km","BALLYTHOMAS",NA,"Waterford",7,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1476",NA,NA
+"520","2311SWW032",NA,NA,"Borehole",27.4,3.7,"Bedrock Met",NA,234990,115050,"to within 1km","CLONMOYLE",NA,"Waterford",7,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1481",NA,NA
+"521","2311SWW033",NA,NA,"Borehole",29.9,6.1,"Bedrock Met",1965-06-16,235210,115190,"to within 1km","CLONMOYLE",NA,"Waterford",7,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1002",NA,NA
+"522","2311SWW034",NA,NA,"Borehole",36.6,3.1,"Bedrock Met",1965-09-04,237500,114820,"to within 1km","BALLYNEAL",NA,"Waterford",7,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1043",NA,NA
+"523","2311SWW035",NA,NA,"Borehole",18.9,6.1,"Bedrock Met",1967-06-01,237380,114880,"to within 1km","BALLYNEAL",NA,"Waterford",7,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1554",NA,NA
+"524","2311SWW036",NA,NA,"Borehole",19.5,6.1,"Bedrock Met",1967-10-03,236380,113440,"to within 1km","MUNSBURROW",NA,"Waterford",7,"Domestic use only","Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1427",NA,NA
+"525","2311SWW037",NA,NA,"Borehole",28,2.7,"Bedrock Met",1970-09-01,233720,115730,"to within 1km","SHANAKILL",NA,"Waterford",7,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1873",NA,NA
+"526","2311SWW038",NA,NA,"Borehole",29.3,14.6,"Bedrock Met",1966-05-24,238210,116410,"to within 1km","BISHOPSTOWN",NA,"Waterford",7,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1139",NA,NA
+"527","2311SWW039",NA,NA,"Borehole",22.6,9.1,"Bedrock Met",1966-01-21,237910,116050,"to within 1km","BISHOPSTOWN",NA,"Waterford",7,"Domestic use only","Moderate",NA,49.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1135",NA,NA
+"528","2311SWW040",NA,NA,"Borehole",19.8,4.6,"Bedrock Met",1965-09-24,238180,116220,"to within 1km","BISHOPSTOWN",NA,"Waterford",7,"Domestic use only","Moderate",NA,49.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 988",NA,NA
+"529","2311SWW042",NA,NA,"Borehole",24.4,3.1,"Bedrock Met",1970-05-01,238500,115300,"to within 1km","BRIDGETOWN",NA,"Waterford",7,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 103",NA,NA
+"530","2311SWW043",NA,NA,"Borehole",22.9,3.1,"Bedrock Met",1969-09-15,240070,115090,"to within 1km","GLENSTOWN",NA,"Waterford",7,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1802",NA,NA
+"531","2311SWW044",NA,NA,"Borehole",25.6,3.7,"Bedrock Met",1969-06-01,239520,116310,"to within 1km","MOTHEL",NA,"Waterford",7,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1763",NA,NA
+"532","2311SWW045",NA,NA,"Borehole",27.4,3.7,"Bedrock Met",1971-07-15,240080,115090,"to within 1km","OLDGRANGE",NA,"Waterford",7,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"533","2311SWW046",NA,NA,"Borehole",19.5,3.7,"Bedrock Met",1970-11-01,241080,115570,"to within 1km","OLDGRANGE",NA,"Waterford",7,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"534","2311SWW047",NA,NA,"Dug well",1.2,NA,"DTB Unknown",1970-06-01,241650,114350,"to within 1km","WHITESTOWN",NA,"Waterford",7,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"535","2311SWW048",NA,NA,"Borehole",18.9,4.3,"Bedrock Met",1972-09-01,239740,114540,"to within 1km","WHITESTOWN",NA,"Waterford",7,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2156",NA,NA
+"536","2311SWW049",NA,NA,"Borehole",33.5,3.1,"Bedrock Met",1971-11-05,242400,112350,"to within 1km","CURRAGHATAGGART",NA,"Waterford",7,"Domestic use only","Poor",NA,30.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"537","2311SWW051",NA,NA,"Borehole",22.9,17.7,"Bedrock Met",1970-09-01,240510,112950,"to within 1km","GLENNAPHUCA",NA,"Waterford",7,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1908",NA,NA
+"538","2311SWW052",NA,NA,"Dug well",3.7,3.7,"Bedrock Presumed",1973-01-01,241280,114500,"to within 1km","WHITESTOWN",NA,"Waterford",7,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2210",NA,NA
+"539","2311SWW053",NA,NA,"Dug well",1.8,NA,"DTB Unknown",1970-01-01,243850,111610,"to within 1km","KILMOVEE",NA,"Waterford",8,"Domestic use only","Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"540","2311SWW054",NA,NA,"Borehole",24.4,1.8,"Bedrock Met",1970-07-10,244260,110360,"to within 1km","BALLYVADD",NA,"Waterford",8,"Domestic use only","Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"541","2311SWW055",NA,NA,"Borehole",21.3,3.1,"Bedrock Met",1972-05-01,244590,111310,"to within 1km","KILMOVEE",NA,"Waterford",8,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2109",NA,NA
+"542","2311SWW056",NA,NA,"Borehole",20.4,3.1,"Bedrock Met",1968-06-22,243450,111360,"to within 1km","KILMOVEE",NA,"Waterford",8,"Domestic use only","Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1353",NA,NA
+"543","2311SWW057",NA,NA,"Borehole",25.6,3.1,"Bedrock Met",1971-07-01,243720,111820,"to within 1km","KILMOVEE",NA,"Waterford",8,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"544","2311SWW058",NA,NA,"Borehole",39.6,3.1,"Bedrock Met",1967-06-28,234120,110300,"to within 1km","KILCLOONEY",NA,"Waterford",15,"Domestic use only","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 291
+Sandstone",NA,NA
+"545","2311SWW059",NA,NA,"Borehole",27.7,5.8,"Bedrock Met",1966-05-16,234360,110600,"to within 1km","KILCLOONEY",NA,"Waterford",15,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 835",NA,NA
+"546","2311SWW060",NA,NA,"Borehole",36.6,6.1,"Bedrock Met",1970-07-10,244800,110360,"to within 1km","BALLYVADD",NA,"Waterford",16,NA,"Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"547","2311SWW061",NA,NA,"Borehole",22.9,19.8,"Bedrock Met",NA,239730,116630,"to within 1km","MOTHEL",NA,"Waterford",7,NA,"Moderate",NA,87.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"548","2311SWW062",NA,NA,"Borehole",27.5,1.2,"Bedrock Met",NA,238950,110400,"to within 1km","KILCANAVEE",NA,"Waterford",7,NA,"Moderate",NA,45.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"549","2311SWW063",NA,NA,"Borehole",21.9,3.1,"Bedrock Met",1969-01-01,232810,116810,"to within 1km","KILBRACK",NA,"Waterford",2,"Domestic use only","Poor",NA,24,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1636",NA,NA
+"550","2311SWW064",NA,NA,"Borehole",19.2,3.1,"Bedrock Met",1968-12-01,232910,118400,"to within 1km","MONADIHA",NA,"Waterford",2,"Domestic use only","Poor",NA,25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1595",NA,NA
+"551","2311SWW074",NA,NA,"Borehole",18.9,3.1,"Bedrock Met",1968-10-01,239700,115300,"to within 1km","GLENSTOWN",NA,"Waterford",7,"Domestic use only","Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1616",NA,NA
+"552","2311SWW076",NA,NA,"Borehole",31.4,3.7,"Bedrock Met",1989-08-26,239300,119500,"to within 1km","JOANSTOWN",NA,"Waterford",3,"Domestic use only","Excellent",NA,545,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"FRACTURES AT 10.7m AND 13.1m",NA,NA
+"553","2311SWW077",NA,NA,"Borehole",NA,NA,NA,NA,234300,117500,"to within 1km","RATHGORMUCK",NA,"Waterford",3,"Domestic use only","Excellent",NA,654,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"554","2311SWW078",NA,NA,"Borehole",19.2,NA,"DTB Unknown",NA,230150,118600,"to within 1km","CURRAGHKIELY",NA,"Waterford",2,"Domestic use only","Good",NA,305.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"555","2311SWW080",NA,NA,"Borehole",39.6,3.1,"Bedrock Met",NA,237690,118500,"to within 1km","BALLYKNOCK",NA,"Waterford",3,"Agri & domestic use","Moderate","IV",43.6,NA,NA,NA,7.15,152,27.4,NA,NA,NA,NA,NA,NA,NA
+"556","2311SWW081","WGI 126/97",NA,"Borehole",30.5,3,"Bedrock Met",1998-05-05,230360,118720,"to within 1km","CURRAGHKIELY",NA,"Waterford",2,"Agri & domestic use","Moderate",NA,43.6,NA,NA,NA,NA,152,27.4,NA,NA,NA,NA,NA,NA,NA
+"557","2311SWW082",NA,NA,"Borehole",48.8,3,"Bedrock Met",2001-09-06,235000,116300,"to within 1km","BALLYTHOMAS",NA,"Waterford",3,"Agri & domestic use","Poor","V",27.3,NA,NA,NA,1.49,152,24.4,42.7,NA,NA,NA,NA,NA,NA
+"558","2311SWW083",NA,NA,"Borehole",33.5,5.5,"Bedrock Met",1998-06-22,240000,117500,"to within 1km","BALLYNEVIN",NA,"Waterford",3,"Agri & domestic use","Moderate","IV",87.2,NA,NA,NA,9.55,152,18.3,27.4,NA,NA,NA,NA,NA,NA
+"559","2609NWW002",NA,NA,"Borehole",NA,10.7,"Bedrock Met",NA,260400,105000,"to within 1km","BALLYKINSELLA",NA,"Waterford",17,NA,"Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"560","2609NWW003",NA,NA,"Borehole",18.9,3.7,"Bedrock Met",1969-08-29,260470,106600,"to within 1km","COOLGOWER",NA,"Waterford",17,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1708
+SANDSTONE",NA,NA
+"561","2609NWW004",NA,NA,"Borehole",24.4,0,"Bedrock Met",1964-04-15,261910,105260,"to within 1km","CASTLETOWN",NA,"Waterford",17,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WHITE HARD ROCK",NA,NA
+"562","2609NWW005",NA,NA,"Unknown",25,2.4,"Bedrock Met",1967-01-15,261910,105250,"to within 1km","KILLOWEN",NA,"Waterford",17,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1027
+SANDSTONE",NA,NA
+"563","2609NWW006",NA,NA,"Spring",NA,NA,NA,NA,261320,104360,"to within 1km","KILLOWEN",NA,"Waterford",17,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no data on card
+WTB/WAT 584",NA,NA
+"564","2609NWW007",NA,NA,"Borehole",21.6,3.1,"Bedrock Met",1968-08-15,260740,108930,"to within 1km","COUSE",NA,"Waterford",17,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1592",NA,NA
+"565","2609NWW008",NA,NA,"Borehole",31.4,2.7,"Bedrock Met",1969-02-17,262100,109590,"to within 1km","WILLIAMSTOWN",NA,"Waterford",17,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1417
+SANDSTONE",NA,NA
+"566","2609NWW009",NA,NA,"Borehole",14.3,2.7,"Bedrock Met",NA,261750,109640,"to within 1km","WILLIAMSTOWN",NA,"Waterford",17,NA,"Poor",NA,19.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRLLER TOWNSEND",NA,NA
+"567","2609NWW010",NA,NA,"Dug well",4.3,2.7,"Bedrock Met",NA,261800,107850,"to within 1km","KILLURE",NA,"Waterford",17,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1449",NA,NA
+"568","2609NWW011",NA,NA,"Borehole",19.5,9.4,"Bedrock Met",1968-04-15,260830,108240,"to within 1km","BALLYCOARDRA",NA,"Waterford",17,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1506",NA,NA
+"569","2609NWW012",NA,NA,"Borehole",31.4,3.7,"Bedrock Met",1972-02-15,261760,107940,"to within 1km","KILLURE",NA,"Waterford",17,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SANDSTONE",NA,NA
+"570","2609NWW014",NA,NA,"Borehole",24.1,3.4,"Bedrock Met",1970-06-15,264550,107950,"to within 1km","BALLYGUNNERTEMPLE",NA,"Waterford",18,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLER SEAN FLOOD
+SHALE",NA,NA
+"571","2609NWW015",NA,NA,"Borehole",37.5,3.1,"Bedrock Met",NA,262370,106110,"to within 1km","MONAMINTRA",NA,"Waterford",18,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SLATE",NA,NA
+"572","2609NWW016",NA,NA,"Borehole",48.8,1.5,"Bedrock Met",1968-01-15,265430,106670,"to within 1km","CALLAGHANE",NA,"Waterford",18,NA,"Poor",NA,6.5,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,"DRILLER SEAN FLOOD
+BLACK SLATE",NA,NA
+"573","2609NWW017",NA,NA,"Dug well",4.3,1.2,"Bedrock Met",NA,264870,108590,"to within 1km","BALLYGUNNERCASTLE",NA,"Waterford",18,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SANDSTONE",NA,NA
+"574","2609NWW018",NA,"WATERFORD COUNTY COUNCIL","Borehole",42.7,0.6,"Bedrock Met",1972-07-31,264710,107230,"to within 1km","BALLYGUNNER",NA,"Waterford",18,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"CLAY",NA,NA
+"575","2609NWW019",NA,NA,"Borehole",45.7,1.8,"Bedrock Met",1972-08-01,264660,107520,"to within 1km","BALLYGUNNER",NA,"Waterford",18,NA,"Poor",NA,10.9,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,"SHALE",NA,"Steel Casing, Max Safe yield: 
+32.7m3/day"
+"576","2609NWW020",NA,NA,"Dug well",7.3,1.2,"Bedrock Met",1971-03-15,264310,104750,"to within 1km","ORCHARDSTOWN",NA,"Waterford",18,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SANDSTONE",NA,NA
+"577","2609NWW021",NA,NA,"Borehole",24.4,4.9,"Bedrock Met",1969-06-15,264410,107210,"to within 1km","BALLYGUNNERMORE",NA,"Waterford",18,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1675",NA,NA
+"578","2609NWW023",NA,NA,"Borehole",24.4,0,"Bedrock Met",NA,263160,107410,"to within 1km","KILCARAGH",NA,"Waterford",18,NA,"Moderate","V",54.5,NA,NA,27,2.02,NA,NA,NA,NA,NA,NA,"yield as above only in wet weather",NA,NA
+"579","2609NWW024",NA,NA,"Borehole",29,3.1,"Bedrock Met",1968-07-15,264210,109770,"to within 1km","KNOCKBOY",NA,"Waterford",18,NA,"Poor",NA,37.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLER SEAN FLOOD; HARD GREY ROCK",NA,NA
+"580","2609NWW025",NA,NA,"Borehole",30.5,3.7,"Bedrock Met",1968-08-15,264100,109200,"to within 1km","KNOCKBOY",NA,"Waterford",18,NA,"Poor",NA,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1565
+SANDSTONE",NA,NA
+"581","2609NWW026",NA,NA,"Borehole",20.1,4.6,"Bedrock Met",1968-05-15,264170,109420,"to within 1km","KNOCKBOY",NA,"Waterford",18,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SHALE; DRILLER SEAN FLOOD",NA,NA
+"582","2609NWW027",NA,NA,"Borehole",19.2,3.7,"Bedrock Met",1968-07-12,263260,109850,"to within 1km","KNOCKBOY",NA,"Waterford",18,NA,"Poor",NA,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 856
+SANDSTONE",NA,NA
+"583","2609NWW028",NA,NA,"Borehole",15.2,3.1,"Bedrock Met",1964-12-15,269640,109060,"to within 1km","CROOKE",NA,"Waterford",18,NA,"Poor",NA,39.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLER SEAN FLOOD
+RED SANDSTONE",NA,NA
+"584","2609NWW029",NA,NA,"Borehole",30.5,2.4,"Bedrock Met",1971-06-15,268090,109180,"to within 1km","KILL ST NICHOLAS",NA,"Waterford",18,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1403
+SANDSTONE",NA,NA
+"585","2609NWW030",NA,NA,"Borehole",18.6,0.6,"Bedrock Met",1970-09-15,262650,109950,"to within 1km","GRANTSTOWN",NA,"Waterford",18,NA,"Poor",NA,39.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"586","2609NWW031",NA,NA,"Borehole",21.3,4.6,"Bedrock Met",1966-10-15,263210,104550,"to within 1km","BALLYGARRAN",NA,"Waterford",18,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1294
+Bala Beds - Brown Sandstone",NA,NA
+"587","2609NWW032",NA,NA,"Borehole",24.4,1.8,"Bedrock Met",1964-10-15,263740,107340,"to within 1km","KILCARAGH",NA,"Waterford",18,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1249
+FELSTONE",NA,NA
+"588","2609NWW033",NA,NA,"Borehole",36.6,4.3,"Bedrock Met",1963-10-01,265970,105610,"to within 1km","KNOCKHOUSE",NA,"Waterford",18,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 705",NA,NA
+"589","2609NWW034",NA,NA,"Borehole",42.7,4.3,"Bedrock Met",1968-10-15,266880,105690,"to within 1km","ROSSDUFF",NA,"Waterford",18,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"590","2609NWW035",NA,NA,"Borehole",39.6,4.9,"Bedrock Met",1966-04-10,267060,105220,"to within 1km","ROSSDUFF",NA,"Waterford",18,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1170
+BALA BEDS, BLUE",NA,NA
+"591","2609NWW036",NA,NA,"Borehole",36.6,4.6,"Bedrock Met",1969-10-23,267810,106240,"to within 1km","KILCOP LOWER",NA,"Waterford",18,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"SANDSTONE",NA,NA
+"592","2609NWW037",NA,NA,"Borehole",31.7,4.9,"Bedrock Met",NA,261770,102970,"to within 1km","LISSELAN",NA,"Waterford",26,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"593","2609NWW038",NA,NA,"Borehole",27.4,4.3,"Bedrock Met",1971-09-15,263850,100920,"to within 1km","CORBALLY BEG",NA,"Waterford",27,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2043
+Sandstone",NA,NA
+"594","2609NWW039",NA,NA,"Borehole",56.1,15.2,"Bedrock Met",1970-06-15,261760,102960,"to within 1km","BALLINVELLA",NA,"Waterford",27,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1100
+Bala Beds",NA,NA
+"595","2609NWW040",NA,NA,"Borehole",31.7,4.3,"Bedrock Met",1966-08-15,264540,103340,"to within 1km","BALLINVELLA",NA,"Waterford",27,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1244
+Sandstone",NA,NA
+"596","2609NWW041",NA,NA,"Borehole",43.3,3.1,"Bedrock Met",1971-03-30,265230,102830,"to within 1km","BALLYNAMOYNTRAGH",NA,"Waterford",27,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Red sandstone",NA,NA
+"597","2609NWW042",NA,NA,"Borehole",42.7,15.2,"Bedrock Met",1971-03-30,265300,102640,"to within 1km","BALLYNAMOYNTRAGH",NA,"Waterford",27,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1734
+Blue rock",NA,NA
+"598","2609NWW043",NA,NA,"Borehole",36,17.1,"Bedrock Met",1970-04-15,263940,102390,"to within 1km","KILMACLEAGUE",NA,"Waterford",27,NA,"Poor",NA,31.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Soft blue rock
+Driller Sean Flood",NA,NA
+"599","2609NWW044",NA,NA,"Borehole",46.6,3.1,"Bedrock Met",1964-04-15,266320,102280,"to within 1km","LEPERSTOWN",NA,"Waterford",27,NA,"Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood
+Red sandstone",NA,NA
+"600","2609NWW045",NA,NA,"Borehole",75.6,2.4,"Bedrock Met",1971-09-01,266680,101940,"to within 1km","LEPERSTOWN",NA,"Waterford",27,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 431, 1140
+Red sandstone",NA,NA
+"601","2609NWW047",NA,NA,"Borehole",27.4,2.1,"Bedrock Met",1971-05-15,267150,102420,"to within 1km","LEPERSTOWN",NA,"Waterford",27,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"602","2609NWW048",NA,NA,"Borehole",38.1,3.1,"Bedrock Met",NA,266260,102500,"to within 1km","LEPERSTOWN",NA,"Waterford",27,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 833
+Red sandstone",NA,NA
+"603","2609NWW049",NA,NA,"Borehole",36.6,3.1,"Bedrock Met",1973-04-15,263360,102350,"to within 1km","KILMACLEAGUE",NA,"Waterford",27,NA,"Poor",NA,27.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2222
+Sandstone",NA,NA
+"604","2609NWW050",NA,NA,"Borehole",19.8,15.2,"Bedrock Met",1966-10-15,269360,103100,"to within 1km","FORNAGHT",NA,"Waterford",27,NA,"Poor",NA,26.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1151
+",NA,NA
+"605","2609NWW051",NA,NA,"Dug well",1.8,1.8,"Bedrock Presumed",1972-06-15,269210,103810,"to within 1km","KNOCKAVELISH",NA,"Waterford",27,NA,"Poor",NA,21.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 2099
+Shale",NA,NA
+"606","2609NWW052",NA,NA,"Borehole",27.4,3.1,"Bedrock Met",1967-04-15,264890,100120,"to within 1km","BALLYMACAW",NA,"Waterford",27,NA,"Moderate",NA,87.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1361
+Sandstone",NA,NA
+"607","2609NWW053",NA,NA,"Borehole",19.5,3.1,"Bedrock Met",1969-10-15,265400,100230,"to within 1km","BALLYMACAW",NA,"Waterford",27,NA,"Moderate",NA,76.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Red sandstone",NA,NA
+"608","2609NWW054",NA,NA,"Borehole",30.5,3.1,"Bedrock Met",1965-11-15,265190,1e+05,"to within 1km","BALLYMACAW",NA,"Waterford",27,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood
+Red sandstone",NA,NA
+"609","2609NWW055",NA,NA,"Borehole",21.3,4.6,"Bedrock Met",1967-01-15,265290,100470,"to within 1km","KILMAQUAGUE",NA,"Waterford",27,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1290
+ORS",NA,NA
+"610","2609NWW057",NA,NA,"Borehole",18.3,9.4,"Bedrock Met",1971-05-15,268500,101060,"to within 1km","DUNMORE",NA,"Waterford",27,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"611","2609NWW058",NA,NA,"Borehole",30.5,1.5,"Bedrock Met",1963-06-15,268460,100250,"to within 1km","DUNMORE EAST",NA,"Waterford",27,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood",NA,NA
+"612","2609NWW059",NA,NA,"Borehole",15.2,2.4,"Bedrock Met",1968-01-15,260090,108060,"to within 1km","BALLINDUD",NA,"Waterford",17,NA,"Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"WTB/WAT 1494
+SHALE",NA,NA
+"613","2609NWW060",NA,NA,"Borehole",43.5,1.8,"Bedrock Met",NA,266260,102530,"to within 1km","LEPERSTOWN",NA,"Waterford",27,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"614","2609NWW061",NA,NA,"Borehole",49.7,15.8,"Bedrock Met",NA,264730,107300,"to within 1km","BALLYGUNNER",NA,"Waterford",18,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"615","2609NWW062",NA,NA,"Borehole",37.5,18.3,"Bedrock Met",1988-06-05,268450,100830,"to within 1km","TULLADUFF",NA,"Waterford",27,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,152,27.4,NA,NA,NA,NA,"Drilled by Fogarty, Gowran
+Blue Shale",NA,NA
+"616","2609NWW063",NA,NA,"Borehole",37.5,1.2,"Bedrock Met",NA,268460,100250,"to within 1km","DUNMORE EAST",NA,"Waterford",27,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"617","2609NWW064",NA,NA,"Borehole",37.5,1.8,"Bedrock Met",NA,263950,109970,"to within 1km","GRANTSTOWN",NA,"Waterford",18,NA,"Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"618","2609NWW065",NA,NA,"Borehole",61.8,3.1,"Bedrock Met",NA,264540,108380,"to within 1km","BALLYGUNNER",NA,"Waterford",18,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"619","2609NWW067",NA,NA,"Borehole",NA,10,"Bedrock Met",NA,268130,100700,"to within 1km","DUNMORE",NA,"Waterford",27,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Data from Irene Quinn PhD.",NA,NA
+"620","2609NWW068",NA,NA,"Borehole",NA,15,"Bedrock Met",NA,264590,103900,"to within 1km","BALLYSHONEEN",NA,"Waterford",27,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Data from Irene Quinn PhD.",NA,NA
+"621","2609NWW069",NA,NA,"Borehole",61.9,2.4,"Bedrock Met",1988-07-06,265000,100800,"to within 1km","BALLYMACAW",NA,"Waterford",27,"Domestic use only","Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"TOM FOGARTYS WELL DATA",NA,NA
+"622","2609NWW070",NA,NA,"Borehole",25,2.4,"Bedrock Met",NA,268000,109000,"to within 1km","KILL",NA,"Waterford",18,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"TOM FOGARTYS WELL DATA",NA,NA
+"623","2609SWW001",NA,NA,"Borehole",54.3,0.5,"Bedrock Met",1969-10-15,262560,99660,"to within 1km","LISSELTY",NA,"Waterford",27,NA,"Poor",NA,4.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Red sandstone",NA,NA
+"624","2609SWW002",NA,NA,"Borehole",22.9,3.1,"Bedrock Met",1963-07-15,262060,98540,"to within 1km","BROWNSTOWN",NA,"Waterford",26,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Red rock
+Driller Sean Flood",NA,NA
+"625","2611SWW002",NA,NA,"Borehole",30.5,10.7,"Bedrock Met",1968-05-01,262000,111000,"to within 1km","WATERFORD CITY",NA,"Waterford",9,"Domestic use only","Moderate",NA,65.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood, Clonroche",NA,NA
+"626","2611SWW004",NA,NA,"Borehole",22.3,1.7,"Bedrock Met",1969-09-01,261620,112800,"to within 1km","FERRYBANK",NA,"Waterford",9,"Domestic use only","Moderate",NA,43.6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"627","2611SWW007",NA,"ESB","Borehole",22,NA,"Bedrock Not Met",1968-12-01,261080,112300,"to within 1km","WATERFORD CITY",NA,"Waterford",9,"Industrial use",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"7 no. Site investigation holes, depths 15.2 to 22m",NA,NA
+"628","2611SWW009",NA,NA,"Borehole",39.6,4.9,"Bedrock Met",1967-12-01,262600,111980,"to within 1km","BALLYNAKILL",NA,"Waterford",10,"Domestic use only","Poor",NA,38.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood, Clonroche",NA,NA
+"629","2611SWW011",NA,NA,"Borehole",44.8,2.4,"Bedrock Met",1970-06-15,265090,110240,"to within 1km","BALLYMACLODE",NA,"Waterford",18,NA,"Poor",NA,4.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DRILLER SEAN FLOOD
+LIMESTONE",NA,NA
+"630","2611SWW012",NA,NA,"Borehole",11.6,3.7,"Bedrock Met",1967-12-15,265560,110340,"to within 1km","BALLYMACLODE",NA,"Waterford",18,NA,"Poor",NA,32.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Sean Flood
+Loos shale",NA,NA
+"631","2611SWW013",NA,NA,"Borehole",21.3,7.3,"Bedrock Met",NA,269890,110100,"to within 1km","PASSAGE EAST",NA,"Waterford",18,"Unknown","Moderate",NA,76.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Driller Barham Bros, Belturbet
+Ordovician",NA,NA
+"632","2611SWW014",NA,NA,"Borehole",37.5,25.6,"Bedrock Met",NA,260530,110060,"to within 1km","ST. JOHNS PARK",NA,"Waterford",9,NA,"Excellent",NA,545,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"633","2611SWW015",NA,NA,"Borehole",31.4,12.2,"Bedrock Met",NA,263090,110240,"to within 1km","GRANTSTOWN",NA,"Waterford",18,NA,"Good",NA,109,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"634","2611SWW016",NA,NA,"Borehole",80.2,5.5,"Bedrock Met",NA,265300,110350,"to within 1km","BALLYMACLODE","Blenheim Heights","Waterford",18,NA,"Moderate",NA,98.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"635","2611SWW017",NA,NA,"Borehole",128,61,"Bedrock Met",NA,265290,110400,"to within 1km","BALLYMACLODE","Blenheim","Waterford",18,NA,"Poor",NA,10.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"abandoned",NA,NA
+"636","2611SWW018",NA,NA,"Borehole",74,1.8,"Bedrock Met",NA,265180,110330,"to within 1km","BALLYMACLODE","Blenheim Heights","Waterford",18,NA,"Poor",NA,16.4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"637","2611SWW027",NA,NA,"Borehole",NA,2,"Bedrock Met",NA,267270,112550,"to within 1km","FAITHLEGG",NA,"Waterford",10,"Domestic use only",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Data from Irene Quinn PhD.",NA,NA
+"638","2011SEW026",NA,NA,"Borehole",43.6,NA,"Bedrock Not Met",1999-01-07,227000,118320,"to within 2km","GLENPATRICK",NA,"Waterford",2,"Agri & domestic use","Good","III",120,NA,NA,NA,19.69,152,21.3,30.5,NA,NA,NA,NA,NA,NA
+"639","2309NEW075",NA,NA,"Borehole",25.3,11.6,"Bedrock Met",NA,258500,101360,"to within 2km","TRAMORE",NA,"Waterford",26,NA,"Moderate",NA,54.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fogarty drillers info. 6 sheet approx.""",NA,NA
+"640","2309NEW076",NA,NA,"Borehole",43.6,4.3,"Bedrock Met",NA,249790,101500,"to within 2km","DUNHILL",NA,"Waterford",25,NA,"Moderate",NA,49.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"rockhead is approx. Fogarty drillers info.6 sheet approx.""",NA,NA
+"641","2309NWW102",NA,NA,"Borehole",85.3,19.8,"Bedrock Met",1998-11-11,233000,108000,"to within 2km","COUMMAHON",NA,"Waterford",14,"Agri & domestic use","Poor","V",10.9,NA,NA,NA,0.6,152,67.1,NA,NA,NA,NA,NA,NA,NA
