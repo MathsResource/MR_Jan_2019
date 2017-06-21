@@ -1,0 +1,7 @@
+Enumber <-runif(1000,1,100000) 
+Nnumber <-runif(1000,1,100000) 
+
+
+Enumber <- sprintf("%06.0f", Enumber)
+
+paste( "E" ,sprintf(Enumber)

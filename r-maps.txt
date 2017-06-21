@@ -1,0 +1,62 @@
+install.packages("maptools")
+install.packages("rgdal")
+
+
+require("maptools")
+require("ggplot2")
+require("plyr")
+require("rgdal")
+gpclibPermit()
+
+library(rgdal)
+library(maptools)
+if (!require(gpclib)) install.packages("gpclib", type="source")
+gpclibPermit()
+
+
+##SET UP Shp file for ggplot
+COUNTY <- readOGR('C:\\GSI\\maps\\IRL_adm1.shp')
+
+COUNTY@data$id = rownames(COUNTY@data)
+COUNTY.points <- fortify(COUNTY, region='id')
+
+COUNTY.df <- join(COUNTY.points, COUNTY@data, by='id')
+
+##sample ggplot of COUNTY polygons
+ggplot(COUNTY.df) + 
+	aes(long, lat,group=group, fill=COUNTY_V2) + 
+	geom_polygon() + 
+	geom_path(color='white') + 
+	coord_equal() + 
+	theme_bw()
+
+
+
+area_data <- as.data.frame(cbind(COUNTY_id, area))
+#> area_data
+#  COUNTY_id    area
+#1      0       0
+#2      1  444000
+#3      2   23400
+#4      3  123423
+#5      4   78789
+#6      5  456677
+#7      6 3453245
+#8      7 2342354
+#9      8  345346
+
+COUNTY_merge <- merge(COUNTY, area_data, by.x='COUNTY_V2', by.y='COUNTY_id')
+COUNTY_merge@data$id = rownames(COUNTY_merge@data)
+
+COUNTY_merge.points <- fortify(COUNTY_merge, region='id')
+COUNTY_merge.df <- join(COUNTY_merge.points, COUNTY_merge@data, by='id')
+
+
+##sample ggplot of COUNTY polygons
+ggplot(COUNTY_merge.df) + 
+	aes(long, lat,group=group, fill=area) + 
+	geom_polygon() + 
+	geom_path(color='white') + 
+	coord_equal() + 
+	theme_bw() + 
+	scale_fill_gradient(low="lightgreen",high="darkgreen")

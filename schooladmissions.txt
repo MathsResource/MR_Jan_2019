@@ -1,0 +1,29 @@
+Admis <- read.csv("https://raw.githubusercontent.com/RWorkshop/workshopdatasets/master/binary.csv")	
+	
+	
+	
+Admis$rank <- factor(Admis$rank)
+mylogit <- glm(admit ~ gre + gpa + rank, data = Admis, family = "binomial")
+
+	
+Admis$rankP <- predict(mylogit, newdata = Admis, type = "response")
+
+	
+Admis2 <- cbind(Admis, predict(mylogit, newdata = Admis, type = "link",
+    se = TRUE))
+
+
+
+Admis2 <- within(Admis2, {
+    PredictedProb <- plogis(fit)
+    LL <- plogis(fit - (1.96 * se.fit))
+    UL <- plogis(fit + (1.96 * se.fit))
+})
+
+## view first few rows of final dataset
+head(Admis2)	
+	
+	
+	
+	
+
