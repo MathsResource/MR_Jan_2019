@@ -14,7 +14,7 @@ library(RColorBrewer)
 
 setwd("C://GSI//IEmapdata")
 
-# county <- readOGR("IRL_adm1.shp")
+
 
 county = readOGR(dsn=".", layer="IRL_adm1")
 
