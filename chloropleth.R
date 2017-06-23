@@ -38,17 +38,17 @@ county.df = join(county.points, county@data, by="id")
 
 ##############################################
 
-set.seed(1234);DogData <- USArrests[sample(1:50,26),]
+set.seed(1234);WaterQuality <- USArrests[sample(1:50,26),]
 
-DogData = data.frame(County=countynames,DogData)
-rownames(DogData) = 1:26
-names(DogData) = c("County","Hugs","Cuddles","Boops","Walkies")
+WaterQuality = data.frame(County=countynames,WaterQuality)
+rownames(WaterQuality) = 1:26
+names(WaterQuality) = c("County","Quality","Taste","Insects","Pollution")
 
 #############################################
 
-DogMap <- merge(county.df,DogData,by.x="NAME_1",by.y="County")
-# DogMap <- arrange(DogMap,group,id)
+WaterQualityMap <- merge(county.df,WaterQuality,by.x="NAME_1",by.y="County")
+# WaterQualityMap <- arrange(WaterQualityMap,group,id)
 
-ggplot(DogMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon()
+ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon()
 
-ggplot(DogMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon() + geom_path(color="white") + coord_equal() + scale_fill_gradient(name="Percent", limits=c(30,100), low="white", high="red")
+ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon() + geom_path(color="white") + coord_equal() + scale_fill_gradient(name="Percent", limits=c(30,100), low="white", high="red")
