@@ -230,7 +230,7 @@ rep(c("A","B","C"),c(3,6,2))
 
 # What does this do?
 
-c(nrow(Mayo2) ,c(nrow(Mayo3),c(nrow(Mayo4))
+c( nrow(Mayo2) , nrow(Mayo3), nrow(Mayo4))
 
 # Can we do this?
 # Why would this be useful? 
@@ -323,7 +323,19 @@ chisq.test(Connacht$Type,Connacht$WellType)
 # Using Pipe Operator:
 # Connacht$Type %>% chisq.test(Connacht$WellType)
 
+##################################
+# 12B : Turn "depth" into a categorical variable
+# Similar to "WellType" but more explanation of how we derive it 
 
+# Some Clever Maths - Floor and Ceiling functions are very useful.
+Connacht <- mutate(Connacht, DepthCat = 20*ceiling(Depth_m/20) )
+
+# Lets combine the very deeps (>100m) into one category
+Connacht$DepthCat[Connacht$DepthCat>100] = 100
+
+# Put new variable beside the original variable
+
+Connacht <- select(Connacht, 1:Depth_m, DepthCat,everything())
                  
 #########################################
 # 13: Year of Drilling
@@ -432,7 +444,10 @@ ggplot(ConnachtMap,aes(x=long,y=lat,group=group)) + geom_polygon(fill="white",co
 
 # Working!
 # Add in some more variations                 
-                 
+
+# for later (section 21)                 
+p <- ggplot(ConnachtMap,aes(x=long,y=lat,group=group)) + geom_polygon(fill="white",colour="Black") + north(ConnachtMap) 
+
 ##############################################
 # 19: Create Water Quality
 
@@ -466,6 +481,14 @@ ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Pollution)) + geom_poly
 # colour by category
 # inlcude scale bar and North Arrow
 # Wells by Category - points on a map of Connacht
+                 
+p + geom_point(aes(colour = factor(WellType)), size = 4) +
+  geom_point(colour = "grey90", size = 1.5)
+
+p + geom_point(colour = "black", size = 4.5) +
+  geom_point(colour = "pink", size = 4) +
+  geom_point(aes(shape = factor(WellType)))
+                 
 #######################################
 
 # 22. google map with points
