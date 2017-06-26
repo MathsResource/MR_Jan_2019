@@ -379,15 +379,37 @@ xy <- data.frame(x=715830, y=734697)
 pj <- project(xy, proj4string, inverse=TRUE)
 latlon <- data.frame(lat=pj$y, lon=pj$x)
 print(latlon)                 
-                 
+                
+# Transformed data
+
+xy <- data.frame(x = Connacht$Easting, y = Connacht$Northing)
+
+pj <- project(xy, proj4string, inverse=TRUE)
+latlon <- data.frame(lat=pj$y, lon=pj$x)
+print(latlon)  
+
+# Add GPS co-ordinates to Groundwater Data
+Connacht <- data.frame(Connacht,latlon)
+
 detach("package:proj4", unload=TRUE)
                  
 ########################################
 # 15: Geocoding
 
 # requires "ggmap"
-geocode("Dublin")
-                 
+geocode("Tuam")
+
+ConnachtTowns <- data.frame(Towns = c("Tuam","Sligo","Castlebar" ),stringsAsFactors = FALSE)
+geocode(ConnachtTowns$Towns)
+           
+
+# 22. google map with points
+
+geocode("Tuam")
+get_map("Tuam") %>% ggmap                 
+
+# Check what is happening with OSM     
+
 #######################################                 
 
 # 16: Reading in the shapefile                  
@@ -479,6 +501,12 @@ ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Pollution)) + geom_poly
 ##############################################                 
 # 21. Locations of Wells in Connacht                 
 # colour by category
+
+# Since every layer inherits the default aes mapping, you need to 
+# nullify the shape aes in geom_point when you use different dataset:
+
+p + geom_point(data=Connacht,aes(x=Connacht$lon,y = Connacht$lat),inherit.aes=FALSE)
+
 # inlcude scale bar and North Arrow
 # Wells by Category - points on a map of Connacht
                  
@@ -490,13 +518,7 @@ p + geom_point(colour = "black", size = 4.5) +
   geom_point(aes(shape = factor(WellType)))
                  
 #######################################
-
-# 22. google map with points
-
-geocode("Tuam")
-get_map("Tuam") %>% ggmap                 
-
-# Check what is happening with OSM                 
+            
 #######################################
 
 # 23.  Chloropleth with pie-charts or Histograms per county
