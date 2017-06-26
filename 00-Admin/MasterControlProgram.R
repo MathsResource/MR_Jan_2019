@@ -160,3 +160,16 @@ ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon(
 ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon() + geom_path(color="white") + coord_equal() + scale_fill_gradient(name="Percent", limits=c(30,100), low="white", high="red")
 
 ########################################
+
+## North Symbol and Scale Bar
+
+# ggsn: North Symbols and Scale Bars for Maps Created with 'ggplot2' or 'ggmap'
+# Adds north symbols (18 options) and scale bars in kilometers to maps in geographic or metric coordinates created with 'ggplot2' or 'ggmap'.
+
+
+# ggplot(map.df, aes(long, lat, group = group, fill = var)) +
+#   geom_polygon() +
+#   coord_equal() +
+#   geom_path() +
+#   north(map.df) + 
+#   scalebar(map.df, dist = 5, dd2km = TRUE, model = 'WGS84')
