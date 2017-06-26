@@ -384,9 +384,17 @@ print(latlon)
 
 xy <- data.frame(x = Connacht$Easting, y = Connacht$Northing)
 
-pj <- project(xy, proj4string, inverse=TRUE)
+# http://spatialreference.org/ref/epsg/29902/proj4js/
+proj4string2 <- "+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=1.000035 +x_0=200000 +y_0=250000 +a=6377340.189 +b=6356034.447938534 +units=m +no_defs"
+
+xy <- data.frame(x = Connacht$Easting, y = Connacht$Northing)
+pj <- project(xy, proj4string2, inverse=TRUE)
 latlon <- data.frame(lat=pj$y, lon=pj$x)
 print(latlon)  
+
+# Add GPS co-ordinates to Groundwater Data
+Connacht <- data.frame(Connacht,latlon)
+
 
 # Add GPS co-ordinates to Groundwater Data
 Connacht <- data.frame(Connacht,latlon)
