@@ -22,11 +22,27 @@ ls()
 install.packages("maptools")
 library(maptools)
 
+install.packages("proj4")
+library(proj4)
+
 # Learning Basic R commands
 
 A <- 5;
 B <- 6;
 A+B
+
+# "=" is also a valid assignment operator  
+
+# Characters
+ConnachtCounties <-c("Galway","Mayo","Sligo","Leitrim","Roscommon")  
+
+# Booleans / Logicals
+Logicals <- c(1,0,1,0,1,1,1,1)
+as.logical(Logicals)
+mean(Logicals)
+sum(Logicals)
+
+# Missing Values
 
 mean(c(12,18,NA,21,25))
 
@@ -54,6 +70,8 @@ library(rgdal)
 library(sp)
 library(plyr)
 library(maps)
+library(mapproj)
+library(maptools)
 
 # Data Viz Packages
 library(ggplot2)
@@ -126,6 +144,11 @@ Connacht <- read.csv("Connacht.csv")
 ########################################
 
 # 6: Check the data
+
+# KOB Computer Only
+ Mayo2 <- read.csv("Mayo2.csv")
+ Mayo3 <- read.csv("Mayo3.csv")
+ Mayo4 <- read.csv("Mayo4.csv")
 
 # Before we continue, lets get a look at the dimensions of each data set.
 # Important for Later
@@ -373,8 +396,17 @@ countynames=sort(unique(county$NAME_1))
                  
 # Part A:  Use Filter commands to subset to Connacht Counties only
 
-ggplot(ConnachtMap,aes(x=long,y=lat,group=group)) + geom_polygon()
+ConnachtCounties <-c("Galway","Mayo","Sligo","Leitrim","Roscommon")                 
+
+county.df %>% filter( NAME_1 %in% ConnachtCounties) -> ConnachtMap
+dim(ConnachtMap)                 
                  
+ggplot(ConnachtMap,aes(x=long,y=lat,group=group)) + geom_polygon()
+
+#Let's See The Individual Counties
+ggplot(ConnachtMap,aes(x=long,y=lat,group=group)) + geom_polygon(fill="white",colour="Black")
+ 
+
 ##############################################                 
                  
 # 18.  - North Symbol and Scale Bar
