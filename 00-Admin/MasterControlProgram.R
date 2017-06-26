@@ -1,57 +1,78 @@
-rm(list=ls())
+#######################################
 
-# Run the Setup Gist
+#  1. Some useful commands to begin with
+getwd()
+
+# what version of R?
+sessionInfo()
+
+# another useful command is "history()"
+history()
+
+# useful for debugging
+ls()
+
+# Also discus
+# - Help Files
+# - Commenting
+# - apropos()
+# - list.files()
+
+# Learning Basic R commands
+
+A <- 5;
+B <- 6;
+A+B
+
+mean(c(12,18,NA,21,25))
+
+# Data Types and Data Structures
+
+#######################################
+
+# 2. Reset the working area and run the Setup Gist
+
+rm(list=ls())
 
 source("https://gist.githubusercontent.com/DragonflyStats/9ecf8db90e1002f937c228fdabd26a0b/raw/97ee5a2bfa4f30eb61fa9a900c1abc724e7bc24a/IRLOGIsetup.R")
 
 ########################################
-sessionInfo()
 
-# another useful command is "history()"
-########################################
+# 3. Load Packages
 
-# Load Packages
-
+# Data Management Packages
 library(dplyr)
 library(tidyr)
 library(magrittr)
 
+# GIS packages
 library(rgdal)
 library(sp)
 library(plyr)
 library(maps)
 
-
+# Data Viz Packages
 library(ggplot2)
 library(ggmap)
 library(ggns)
 library(ggthemes)
 
+# Some other useful packages
 library(scales)
 library(reshape2)
 library(RColorBrewer)
 
 ###########################################
 
-# Working Directories
-setwd("C://GSI//IEmapdata")
-
-
-
-
-########################################
-
-# Help Files
-# Commenting
+# 4. Working Directories
 
 # Assume all Data is stored in "C:/GSI"
+
+# setwd("C://GSI//IEmapdata")
 
 setwd("C://GSI") 
 
 # If You are using a USB Key replace this with "E:/GSI"
-
-######################################
-
 # Lets check do we have our files
 
 list.files()
@@ -59,12 +80,16 @@ list.files()
 
 ######################################
 
-# Part 1: Read in files
-
-# Lets pick county Mayo
+# 5A: Read in files (Microsoft)
 
 install.packages("xlsx")
 library(xlsx)
+
+# 1. GSI GroundWater Data
+#     - MS Versions
+#     - CSV Versions only
+# Lets pick county Mayo
+
 
 ### WATCH OUT
 # Mayo <- read.xlsx("CoMayo.xls")
@@ -82,10 +107,21 @@ Mayo1 <- read.xlsx("CoMayo.xls",1)
 Mayo2 <- read.xlsx("CoMayo.xls",2)
 Mayo3 <- read.xlsx("CoMayo.xls",3)
 Mayo4 <- read.xlsx("CoMayo.xls",4)
+######################################
+
+# 5B: Read in files (CSV)
+
+# Exercise for now
+Mayo2 <- read.csv("CoMayo.csv")
+Mayo3 <- read.csv("CoMayo.csv")
+Mayo4 <- read.csv("CoMayo.csv")
+
+# For Later
+Connacht <- read.csv("Connacht.csv")
 
 ########################################
 
-# Part 2: Check the data
+# 6: Check the data
 
 # Before we continue, lets get a look at the dimensions of each data set.
 # Important for Later
@@ -103,7 +139,7 @@ summary(Mayo4)
 
 ########################################
 
-# Part 3: Can we combine the three files into one?
+# 7 Can we combine the three files into one?
 
 # Three different files
 # Can we combine them?
@@ -135,8 +171,7 @@ mean( names(Mayo2) == names(Mayo4) )
 
 ########################################
 
-
-# Part 4: Retaining the Well Type Information
+# 8 Retaining the Well Type Information
 
 # The data was divided into three spreadsheets for a reason.
 # We dont want to lose that information. 
@@ -177,7 +212,7 @@ length(WellType)
 
 ###########################################
 
-# Part 5: combining Data Frames
+# 9 combining Data Frames
 
 # The command we will use here is "rbind()"
 # You could verbalise that as "row-bind"
@@ -197,25 +232,20 @@ Mayo <- rbind(Mayo2,Mayo3,Mayo4)
 
 ###########################################
 
-# Part 6: Lets put in the well type data
+# 10. Lets put in the well type data
 
 Mayo <- data.frame(Mayo,WellType)
 
 # Remark: Can change the order to put "WellType" First
 
+# Remark : We will use "Connact" from now on
 
                  
                  
 ########################################
 
-getwd()
-# setwd()
 
-# Load Data
 
-# 1. GSI GroundWater Data
-#     - MS Versions
-#     - CSV Versions only
 # 2. Irish Admin Data Shapefiles
 #     - county points (vertices)
 #     - county data   (attribute table)
@@ -223,18 +253,7 @@ getwd()
 # 4. Dog Data (simple)
 # 5. Midland Townlands (simple)
 
-########################################
 
-
-# Learning Basic R commands
-
-A <- 5;
-B <- 6;
-A+B
-
-mean(c(12,18,NA,21,25))
-
-# Data Types and Data Structures
 # Tail
 
 ########################################
