@@ -136,10 +136,16 @@ class(Mayo2)
 mode(Mayo3)
 summary(Mayo4)
 
+# names(Connacht)
+# dim(Connacht)
+# class(Connacht)
+# mode(Connacht)
+# summary(Connacht)
+# str(Connacht)
 
 ########################################
 
-# 7 Can we combine the three files into one?
+# 7: Can we combine the three files into one?
 
 # Three different files
 # Can we combine them?
@@ -171,7 +177,7 @@ mean( names(Mayo2) == names(Mayo4) )
 
 ########################################
 
-# 8 Retaining the Well Type Information
+# 8: Retaining the Well Type Information
 
 # The data was divided into three spreadsheets for a reason.
 # We dont want to lose that information. 
@@ -212,7 +218,7 @@ length(WellType)
 
 ###########################################
 
-# 9 combining Data Frames
+# 9: combining Data Frames
 
 # The command we will use here is "rbind()"
 # You could verbalise that as "row-bind"
@@ -232,7 +238,7 @@ Mayo <- rbind(Mayo2,Mayo3,Mayo4)
 
 ###########################################
 
-# 10. Lets put in the well type data
+# 10: Lets put in the well type data
 
 Mayo <- data.frame(Mayo,WellType)
 
@@ -242,56 +248,17 @@ Mayo <- data.frame(Mayo,WellType)
 
                  
                  
-########################################
 
-
-
-# 2. Irish Admin Data Shapefiles
-#     - county points (vertices)
-#     - county data   (attribute table)
-# 3. Dragonfly Spotting Data
-# 4. Dog Data (simple)
-# 5. Midland Townlands (simple)
-
-
-# Tail
-
-########################################
-
-# Working with GSI Data
-
-# checking attributes
-
-# names(Connacht)
-# dim(Connacht)
-# class(Connacht)
-# mode(Connacht)
-# summary(Connacht)
-# str(Connacht)
-
-# Aggregation
-# Chi-Square
-# Cross-Tabulation
-
-########################################
-# Transformation of Projects
-
-# Converting from one projection to another
-# putting points on a map
-
-########################################
-
-# how to pick out rows and columns
-# dplyr
-# joining two tables by ID
 
 
 ###########################################
 
-# Part 7: Lets rearrange the variables
+# 11 : Lets rearrange the variables
 
 # For this exercise, we would need the "dplyr" R Package
 
+#  Demonstration of "dplyr"
+                 
 library(dplyr)
 
 # The first command that we will use is "glimpse"
@@ -306,7 +273,7 @@ Connacht <- select(Connacht, -contains("Com") )
 
 ############################################
 
-# Part 8: Cross Tabulations and Chi Square Test
+# 12:  Cross Tabulations and Chi Square Test
 
 # Simple Tabulation commands
 
@@ -330,8 +297,9 @@ chisq.test(Connacht$Type,Connacht$WellType)
 # Connacht$Type %>% chisq.test(Connacht$WellType)
 
 
+                 
 #########################################
-# Part 9: Year of Drilling
+# 13: Year of Drilling
 
 # For this exercise: we will use the lubridate package
 
@@ -356,68 +324,56 @@ DrillDecade <- (Connacht$DrillYear %/% 10) * 10
 DrillPeriod <- (Connacht$DrillYear %/% 5) * 5
 
 ########################################
+# 14:  Transformation of Projects
 
+                 
+# Converting from one projection to another putting points on a map
+# using a predfinited function
+                 
+library(proj4)
+proj4string <- "+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=0.99982 +x_0=600000 +y_0=750000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"
 
-#######################################
-### Geocoding
+# Source data
+xy <- data.frame(x=715830, y=734697)
 
+# Transformed data
+pj <- project(xy, proj4string, inverse=TRUE)
+latlon <- data.frame(lat=pj$y, lon=pj$x)
+print(latlon)                 
+                 
+########################################
+# 15: Geocoding
 
-# colour by category
-# scale bar and North Arrow
+# requires "ggmap"
+geocode("Dublin")
+                 
+#######################################                 
 
-#######################################
+# 16: Reading in the shapefile                  
 
-# google map with points
-# Chloropleth with pie-charts or Histograms per county
-
-# Wells by Category - points on a map of Connacht
-
-# Legend  
-# North Arrow
-# Scale Bar
-# 
-# OSM
+setwd("C://GSI//IEmapdata")
 
 county = readOGR(dsn=".", layer="IRL_adm1")
-
-###########################################
-
-countynames=sort(unique(county$NAME_1))
-
-###########################################
 
 county@data$id = rownames(county@data)
 county.points <- fortify(county, region='id')
 county.df = join(county.points, county@data, by="id")
 
-# county@data <- select(county@data,ID_1,NAME_1)
+# READY
 
-# names(county@data) <- c("id","County")
-# county@data$id = as.character(county@data$id)
-# county@data$County = as.character(county@data$County)
-
-# county.df <- full_join(county.points, county@data)
+# This is useful also
+countynames=sort(unique(county$NAME_1))
 
 ##############################################
+# 17: Make Simple Connacht Map
+                 
+# Part A:  Use Filter commands to subset to Connacht Counties only
 
-set.seed(1234);WaterQuality <- USArrests[sample(1:50,26),]
-
-WaterQuality = data.frame(County=countynames,WaterQuality)
-rownames(WaterQuality) = 1:26
-names(WaterQuality) = c("County","Quality","Taste","Insects","Pollution")
-
-#############################################
-
-WaterQualityMap <- merge(county.df,WaterQuality,by.x="NAME_1",by.y="County")
-# WaterQualityMap <- arrange(WaterQualityMap,group,id)
-
-ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon()
-
-ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon() + geom_path(color="white") + coord_equal() + scale_fill_gradient(name="Percent", limits=c(30,100), low="white", high="red")
-
-########################################
-
-## North Symbol and Scale Bar
+ggplot(ConnachtMap,aes(x=long,y=lat,group=group)) + geom_polygon()
+                 
+##############################################                 
+                 
+# 18.  - North Symbol and Scale Bar
 
 # ggsn: North Symbols and Scale Bars for Maps Created with 'ggplot2' or 'ggmap'
 # Adds north symbols (18 options) and scale bars in kilometers to maps in geographic or metric coordinates created with 'ggplot2' or 'ggmap'.
@@ -429,3 +385,42 @@ ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon(
 #   geom_path() +
 #   north(map.df) + 
 #   scalebar(map.df, dist = 5, dd2km = TRUE, model = 'WGS84')
+
+                 
+##############################################
+# 19: Create Water Quality
+
+set.seed(1234);WaterQuality <- USArrests[sample(1:50,26),]
+
+WaterQuality = data.frame(County=countynames,WaterQuality)
+rownames(WaterQuality) = 1:26
+names(WaterQuality) = c("County","Quality","Taste","Insects","Pollution")
+
+                 
+
+#############################################
+# 20. Chloropleth
+WaterQualityMap <- merge(county.df,WaterQuality,by.x="NAME_1",by.y="County")
+# WaterQualityMap <- arrange(WaterQualityMap,group,id)
+
+ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon()
+
+ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon() + geom_path(color="white") + coord_equal() + scale_fill_gradient(name="Percent", limits=c(30,100), low="white", high="red")
+
+##############################################                 
+# 21. Locations of Wells in Connacht                 
+# colour by category
+# inlcude scale bar and North Arrow
+# Wells by Category - points on a map of Connacht
+#######################################
+
+# 22. google map with points
+                 
+                 
+#######################################
+
+# 23.  Chloropleth with pie-charts or Histograms per county
+
+
+
+
