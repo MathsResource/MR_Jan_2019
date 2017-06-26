@@ -368,6 +368,8 @@ pj <- project(xy, proj4string, inverse=TRUE)
 latlon <- data.frame(lat=pj$y, lon=pj$x)
 print(latlon)                 
                  
+detach("package:proj4", unload=TRUE)
+                 
 ########################################
 # 15: Geocoding
 
@@ -414,7 +416,8 @@ ggplot(ConnachtMap,aes(x=long,y=lat,group=group)) + geom_polygon(fill="white",co
 # ggsn: North Symbols and Scale Bars for Maps Created with 'ggplot2' or 'ggmap'
 # Adds north symbols (18 options) and scale bars in kilometers to maps in geographic or metric coordinates created with 'ggplot2' or 'ggmap'.
 
-
+# Syntax:
+#                 
 # ggplot(map.df, aes(long, lat, group = group, fill = var)) +
 #   geom_polygon() +
 #   coord_equal() +
@@ -422,33 +425,42 @@ ggplot(ConnachtMap,aes(x=long,y=lat,group=group)) + geom_polygon(fill="white",co
 #   north(map.df) + 
 #   scalebar(map.df, dist = 5, dd2km = TRUE, model = 'WGS84')
                  
-library(ggns)                 
-                 
+library(ggsn)                 
+             
+ggplot(ConnachtMap,aes(x=long,y=lat,group=group)) + geom_polygon(fill="white",colour="Black") + north(ConnachtMap) 
+ggplot(ConnachtMap,aes(x=long,y=lat,group=group)) + geom_polygon(fill="white",colour="Black") +  scalebar(ConnachtMap, dist = 25, dd2km = TRUE, model = 'WGS84')
 
-ggplot(ConnachtMap,aes(x=long,y=lat,group=group)) 
-                 + geom_polygon() + north(map.df) 
-                 +  scalebar(ConnachtMap, dist = 5, dd2km = TRUE, model = 'WGS84')
+# Working!
+# Add in some more variations                 
                  
 ##############################################
 # 19: Create Water Quality
 
+# Artificial Data Set to use in Chloropleth
+                 
 set.seed(1234);WaterQuality <- USArrests[sample(1:50,26),]
 
 WaterQuality = data.frame(County=countynames,WaterQuality)
 rownames(WaterQuality) = 1:26
 names(WaterQuality) = c("County","Quality","Taste","Insects","Pollution")
 
+# Working!
+# Exercise: Subject to Connacht          
+# Call this data set "ConnachtWQ"
                  
-
 #############################################
 # 20. Chloropleth
+                 
+# All Ireland                  
 WaterQualityMap <- merge(county.df,WaterQuality,by.x="NAME_1",by.y="County")
 # WaterQualityMap <- arrange(WaterQualityMap,group,id)
 
-ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon()
+ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Insects)) + geom_polygon()
 
-ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon() + geom_path(color="white") + coord_equal() + scale_fill_gradient(name="Percent", limits=c(30,100), low="white", high="red")
+ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Pollution)) + geom_polygon() + geom_path(color="white") + coord_equal() + scale_fill_gradient(name="Percent", limits=c(30,100), low="white", high="red")
 
+# ggplot(ConnachtWQ,aes(x=long,y=lat,group=group,fill=Pollution)) + geom_polygon() + geom_path(color="white") + coord_equal() + scale_fill_gradient(name="Percent", limits=c(30,100), low="white", high="red")
+                 
 ##############################################                 
 # 21. Locations of Wells in Connacht                 
 # colour by category
@@ -457,12 +469,19 @@ ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Boops)) + geom_polygon(
 #######################################
 
 # 22. google map with points
-                 
-                 
+
+geocode("Tuam")
+get_map("Tuam") %>% ggmap                 
+
+# Check what is happening with OSM                 
 #######################################
 
 # 23.  Chloropleth with pie-charts or Histograms per county
 
+#######################################
+# Future Projects  
+# - geofacetting   (geofacet R package)                 
+                 
 
 
 
