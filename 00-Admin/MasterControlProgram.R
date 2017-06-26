@@ -18,6 +18,10 @@ ls()
 # - apropos()
 # - list.files()
 
+# Installing Packages
+install.packages("maptools")
+library(maptools)
+
 # Learning Basic R commands
 
 A <- 5;
@@ -385,7 +389,13 @@ ggplot(ConnachtMap,aes(x=long,y=lat,group=group)) + geom_polygon()
 #   geom_path() +
 #   north(map.df) + 
 #   scalebar(map.df, dist = 5, dd2km = TRUE, model = 'WGS84')
+                 
+library(ggns)                 
+                 
 
+ggplot(ConnachtMap,aes(x=long,y=lat,group=group)) 
+                 + geom_polygon() + north(map.df) 
+                 +  scalebar(ConnachtMap, dist = 5, dd2km = TRUE, model = 'WGS84')
                  
 ##############################################
 # 19: Create Water Quality
