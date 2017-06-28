@@ -65,13 +65,21 @@ library(dplyr)
 library(tidyr)
 library(magrittr)
 
+
 # GIS packages
+
+# Using maptools 
+# found it easiest to install rgeos, and ensure that it was attached prior to attaching maptools
+
+library(ggplot2)
+library(rgeos)
+library(maptools)
+###############
 library(rgdal)
 library(sp)
 library(plyr)
 library(maps)
 library(mapproj)
-library(maptools)
 
 # Data Viz Packages
 library(ggplot2)
