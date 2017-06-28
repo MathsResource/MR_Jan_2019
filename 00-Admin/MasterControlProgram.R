@@ -513,23 +513,43 @@ ggplot(WaterQualityMap,aes(x=long,y=lat,group=group,fill=Pollution)) + geom_poly
 # Since every layer inherits the default aes mapping, you need to 
 # nullify the shape aes in geom_point when you use different dataset:
 
-p + geom_point(data=Connacht,aes(x=Connacht$lon,y = Connacht$lat),inherit.aes=FALSE)
+
+p + geom_point(data=Connacht,aes(shape=NULL, x=Connacht$lon,y = Connacht$lat),inherit.aes=FALSE) 
+
+p + geom_point(data=Connacht,aes(shape=NULL, x=Connacht$lon,y = Connacht$lat,colour=factor(WellType)),inherit.aes=FALSE) 
+
+p + geom_point(data=Connacht,aes(shape=NULL, x=Connacht$lon,y = Connacht$lat,colour=factor(WellType)),inherit.aes=FALSE) + scale_colour_manual(values=cbPalette)
+
+
 
 # inlcude scale bar and North Arrow
 # Wells by Category - points on a map of Connacht
                  
-p + geom_point(aes(colour = factor(WellType)), size = 4) +
-  geom_point(colour = "grey90", size = 1.5)
+# p + geom_point(aes(colour = factor(WellType)), size = 4) +
+#   geom_point(colour = "grey90", size = 1.5)
 
-p + geom_point(colour = "black", size = 4.5) +
-  geom_point(colour = "pink", size = 4) +
-  geom_point(aes(shape = factor(WellType)))
+# p + geom_point(colour = "black", size = 4.5) +
+#     geom_point(colour = "pink", size = 4) +
+#     geom_point(aes(shape = factor(WellType)))
                  
 #######################################
-            
-#######################################
+# 22. Pallettes and Themese
 
-# 23.  Chloropleth with pie-charts or Histograms per county
+# - http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/
+
+# The palette with grey:
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
+# The palette with black:
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
+# To use for fills, add
+  scale_fill_manual(values=cbPalette)
+
+# To use for line and point colors, add
+  scale_colour_manual(values=cbPalette)
+
+            
 
 #######################################
 # Future Projects  
