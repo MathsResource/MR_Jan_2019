@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+%- Higher Certificate, Module 5, 2008. Question 1
+\section{Introduction}
+\begin{enumerate}[(i)]
+\item
+
+HC5 2016 - solutions
+1(i) P(X  k)  P(X  k 1)  P(X  k  2)  P(X  k  3) ... 1 (method)
+= 1 2 (1 ) (1 ) (1 ) ... k k k               1 (terms substituted)
+= 2 (1 ) (1 (1 ) (1 ) ...) k        1 (common factor)
+Final term is sum to infinity of a GP with first term 1 and common ratio 1 where
+0 1 1.
+So
+(1 )
+( ) (1 )
+(1 (1 ))
+k
+k P X k
+ 
+
+
+
+   
+ 
+as required. 1 (correct use of GP)
+(Full marks also for correct solution by induction) TOTAL 4
+%%%%%%%%%%%%%%%%%%
+\item 0 P(X 1)  (1 )  and this is observed for 24 players. 1 (correct term for 24)
+1 P(X  2)  (1 ) and this is observed for 48 players. 1 (correct term for 48)
+2 P(X  2)  (1 ) and this is observed for the other 128 players.
+1 (correct term for 128)
+
+%%%%%%%%%%%%%%%%%%
+
+So the likelihood for the data is given by
+ 
+48 128 24 2 L( )   (1 ) (1 )  1 (combining terms)
+= 72 304  (1 ) as required.
+l( )  log L( )  72log  304log(1 ). 1 (log likelihood)
+( ) 72 304
+1
+dl
+d
+
+  
+ 
+
+and setting this equal to zero we have 1 (correct derivative), 1 (set to 0)
+ˆ ˆ ˆ 72 72(1 ) 304 0.1915.
+376
+      1 (0.1915)
+To check that this gives a maximum we differentiate again:
+2
+2 2 2
+( ) 72 304
+(1 )
+d l
+d
+
+  
+  
+
+which is negative. 1 (negative 2nd deriv ) TOTAL 9
+%%%%%%%%%%%%%%%%%%
+\item The standard error of ˆ
+can be estimated by 2
+2
+1
+d l( )
+d
+
+
+
+where the denominator is
+evaluated at ˆ. This gives
+2 2
+1
+72 304
+0.1915 0.8085
+
+
+0.0004118  0.0203
+1 (method), 1 (substitute), 1(0.0203 or equiv. variance)
+[ If candidates work out the expected information, this gives a variance of
+(1 )
+n(2 )
+ 
+
+
+
+where
+200. n  Substituting ˆinto this gives a variance of 0.0004280. All 3 marks above, and
+appropriate follow-on marks below, should be awarded.]
+Then the approximate 95\% confidence interval is given by ˆ 1.96s.e(ˆ) i.e. 1 (1.96)
+1 (method)
+0.19151.960.0203 which is (0.1517, 0.2313). 1(0.1517), 1(0.2313) TOTAL 7
+\end{enumerate}
+\end{document}

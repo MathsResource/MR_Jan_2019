@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+%- Higher Certificate, Module 5, 2008. Question 1
+\section{Introduction}
+\begin{enumerate}[(i)]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  ()20011122xEXdxx\theta\theta\theta\theta\theta⎡⎤===⎢⎥⎣⎦∫.
+           ()2230011133xEXdxx\theta\theta \theta\theta\theta⎡⎤===⎢⎥⎣⎦∫.
+           ()()(){}2222111Var3212XEXEX \theta\theta\theta⎛⎞∴=−=−=⎜⎟⎝⎠.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  P(longest offcut is ≤ x) = P(all n offcuts are ≤ x).
+           The c.d.f. for each Xi is ()()00xxduuxFxPXx\theta\theta\theta⎡⎤=≤===⎢⎥⎣⎦∫, and the Xi are all independent. 
+          
+Therefore P(all n offcuts are ≤ x) = (){}nnxFx\theta⎛⎞=⎜⎟⎝⎠, and this is also P(longest offcut is ≤ x), i.e. the c.d.f. of the sample maximum . 
+
+Thus the p.d.f. of is the derivative of this, i.e. nx()nX()nXn–1/\theta n. 
+This is for the interval $(0, \theta )$.
+           ()()10011nnnnnnxnxnEXdxnn\theta\theta\theta\theta\theta+⎡⎤∴===⎢⎥++⎣⎦∫.
+           ()()1220022nnnnnnxnxnEXdxnn\theta\theta \theta\theta\theta++⎡⎤===⎢⎥++⎣⎦∫.
+           ()()()()()(){}()222222Var21nnnnnXEXEXnn\theta\theta∴=−=−++
+             ()()()()()( 22222122112nnnnnnnnn\theta\theta⎛⎞+−+==⎜⎟⎜⎟++++⎝⎠.
+
+Immediately we have ()1nnEXn\theta+⎛⎞=⎜⎟⎝⎠, so ()1nnXn+ is an unbiased estimator of \theta.
+        ()()()()()()()()2222222111VarVar212nnnnnXnXnnnnnn\theta\theta+++⎛⎞===⎜⎟+⎝⎠++ .
+        Solution continued on next page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  We have (see part (i)) that E(X) = \theta /2. Thus the method of moments estimator of \theta /2 is X, and so the method of moments estimator of \theta is 2X or 2iXnΣ as required.
+        ()()()2224VarVar24VarVar.123iXXXXnn \theta\theta⎛⎞====⎜⎟⎝⎠Σ .
+\end{enumerate}
+\end{document}

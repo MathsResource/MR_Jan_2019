@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+%- Higher Certificate, Module 5, 2008. Question 1
+\section{Introduction}
+\begin{enumerate}[(i)]    Question 3
+          ()1,0!0,elsewherekkxxexfxkλλ+−⎧>⎪=⎨⎪⎩
+          Given result: 0!muuedum∞−=∫
+          (i) Moment generating function of X is
+          ()1()0!kXkEexedxkθλ+∞−−=∫ [Use substitution ()xuλθ−=]
+          ()110!kkukuedukλλθ+∞−+=−∫ [The integral here is k! by the given result]
+          1kλλθ+⎛⎞=⎜⎟−⎝⎠ as required.
+          (Note that the condition θ < λ is required to ensure that u remains positive in the substitution.)
+          (ii) Y = X1 + X2 + … + Xn, where all the Xi are independent. So by the convolution theorem for moment generating functions, the mgf of Y is simply the mgf of X raised to the nth power, i.e. it is
+          ()()nknnknnknMλθλλλθ+ −−+⎛⎞==−⎜⎟−⎝⎠ (for θ < λ).
+          The mean of Y is given by M '(0) and the variance by {M ''(0) – (mean)2}.
+          Differentiating, ()()()()1'1nknnknMnknθλλθ−−−+=−−−−.
+          Inserting 0θ= gives mean = nknλ+.
+          Differentiating again, ()()()()()2''11nknnknMnknnknθλλθ−−−+=+−−−− .
+          Inserting 0θ= in this gives ()()()2''01/Mnknnknλ=+++ and so the variance of Y is
+          ()()()2221nknnknnknnkn λλλ+++++−= .
+          Solution continued on next page
+          (iii) The moment generating function of Y is of the same functional form as that of X with k + 1 replaced by nk + n, i.e. k replaced by nk + n – 1. Because of the uniqueness of the relationship between a distribution and its moment generating function, this must also be true of the probability density function. So the pdf of Y is
+          ()11!nknnknyyenknλλ++−−+− (for y > 0, and zero elsewhere).\end{enumerate}
+\end{document}

@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+%- Higher Certificate, Module 5, 2008. Question 2
+\section{Introduction}
+Probability generating function, ()()XtEtπ=.
+Moment generating function, ()()tXmtEe=.
+Relationship: . ()()tmteπ=
+
+\begin{enumerate}[(i)]
+\item 
+()()hhttPXh()01nnhhhhntpph −=⎛⎞=−⎜⎟⎝⎠Σ
+()()01nhnh (1nptp=+− (using the binomial theorem).
+%%%%%%%%%%%%%%%%%%%%%%%
+\item 
+()()()11.1,tnddEXnpptpEXnpdtdtππ=−==+−∴ .
+()()()1222222(1).11tnddEXXnnpptpdtdtππ=−−==−+−,
+()()2(1)1EXXnnp∴−=−.
+()()()()2211 EXnnpEXnnpn ∴=−+=−+.
+()()222222Var1Xnnpnpnpnpnpnpnp ∴=−+−=−+−= np(1 – p).
+
+Alternatively, could directly use $Var(X) = π ''(1) + E(X)(1 – E(X)).]$
+%%%%%%%%%%%%%%%%%%%%%%%
+\item ()()()()1333333(1)(2).121tnddEXXXnnnpptpdtdtππ=−−−==−−+−,
+()()()3(1)(2)12EXXXnnnp∴−−=−−.
+()()()()()323212 EXEXEXnnn ∴−+=−−,
+()()()()332123132EXnnnpnnpnpnp∴=−−+−+− ()()()321231nnnpnnpnp=−−+−+.
+%%%%%%%%%%%%%%%%%%%%%%%
+\item 
+()()()11,2,...,iinXtptpimπ=+−=
+()()11imnYitptpπ=∴=+−Π(1inptpΣ=+− , which is the pgf of B(),inpΣ.
+∴ by the 1-1 correspondence between pgfs and distributions, . ()B,iYnΣ∼
+\end{enumerate}
+\end{document}

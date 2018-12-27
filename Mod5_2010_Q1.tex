@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+%- Higher Certificate, Module 5, 2010. Question 1
+\section{Introduction}
+\begin{enumerate}[(i)]
+\item 
+
+
+Higher Certificate, Module 5, 2010. Question 1
+(i) P(X = 0, Y = 0) = P(Y = 0 | X = 0)P(X = 0) = 1 × 0.4 = 0.4
+P(X = 1, Y = 0) = P(Y = 0 | X = 1)P(X = 1) = 0.6 × 0.3 = 0.18
+P(X = 1, Y = 1) = P(Y = 1 | X = 1)P(X = 1) = 0.4 × 0.3 = 0.12
+P(X = 2, Y = 0) = P(Y = 0 | X = 2)P(X = 2) = 0.62 × 0.2 = 0.072
+P(X = 2, Y = 1) = P(Y = 1 | X = 2)P(X = 2) = 2 × 0.6 × 0.4 × 0.2 = 0.096
+P(X = 2, Y = 2) = P(Y = 2 | X = 2)P(X = 2) = 0.42 × 0.2 = 0.032
+P(X = 3, Y = 0) = P(Y = 0 | X = 3)P(X = 3) = 0.63 × 0.1 = 0.0216
+P(X = 3, Y = 1) = P(Y = 1 | X = 3)P(X = 3) = 3 × 0.62 × 0.4 × 0.1 = 0.0432
+P(X = 3, Y = 2) = P(Y = 2 | X = 3)P(X = 3) = 3 × 0.6 × 0.42 × 0.1 = 0.0288
+P(X = 3, Y = 3) = P(Y = 3 | X = 3)P(X = 3) = 0.43 × 0.1 = 0.0064
+All other entries in the two-way table are zero. Of course, it is not necessary to calculate all the above explicitly – many can be deduced by subtraction. The table is as follows.
+Values of X
+0
+1
+2
+3
+Total
+Values of Y
+0
+0.4
+0.18
+0.072
+0.0216
+0.6736
+1
+0
+0.12
+0.096
+0.0432
+0.2592
+2
+0
+0
+0.032
+0.0288
+0.0608
+3
+0
+0
+0
+0.0064
+0.0064
+Total
+0.4
+0.3
+0.2
+0.1
+(ii) The marginal distribution of Y is in the Total column in the table in part (i):
+P(Y = 0) = 0.6736 P(Y = 1) = 0.2592 P(Y = 2) = 0.0608 P(Y = 3) = 0.0064.
+∴E(Y) = (0 × 0.6736) + (1 × 0.2592) + (2 × 0.0608) + (3 × 0.0064) = 0.4.
+(iii) Cov(X, Y) = E(XY) – E(X)E(Y). From the table, we have
+E(X) = (0 × 0.4) + (1 × 0.3) + (2 × 0.2) + (3 × 0.1) = 1.0,
+E(XY) = (0 × 0 × 0.4) + ..... + (3 × 3 × 0.0064) = 0.8.
+∴Cov(X, Y) = 0.8 – (1.0 × 0.4) = 0.4.
+(iv) We need to find the probability distribution of X – Y, which we here call U.
+P(U = 0) = P(X = Y) = 0.4 + 0.12 + 0.032 + 0.0064 = 0.5584
+P(U = 1) = P(X – Y = 1) = 0.18 + 0.096 + 0.0288 = 0.3048
+P(U = 2) = P(X – Y = 2) = 0.072 + 0.0432 = 0.1152
+P(U = 3) = P(X – Y = 3) = 0.0216
+[P(U = k) = 0 for all other values of k.]
+\end{enumerate}
+
+\end{document}

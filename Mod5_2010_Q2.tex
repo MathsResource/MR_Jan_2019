@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%- Higher Certificate, Module 5, 2010. Question 2
+\section{Introduction}
+\begin{enumerate}[(i)]
+\item 
+
+()()2211441(,)exp(1)(1),,.2fxyxyxxyπ=−−−−+−∞<<∞−∞<<∞
+(i) ()()()()2211441()(,)exp(1)exp12yyfxfxydyxyxdyπ∞∞=−∞=−∞==−−−−+∫∫
+The method is to express the integral
+as the integral of a Normal pdf
+
+()()()2124141122111exp(1)exp222yyxxdyπππ∞=−∞−+=−−−××∫
+
+%%%%%%%%%%%%%%%%
+Note that the integrand is
+the pdf of11N,42x+
+()211exp2222xπ−=−×× (for –∞ < x <\infty),
+which is the pdf of $N(1, 2)$
+, so we have $X ~ N(1, 2)$ as required.
+%%%%%%%%%%%%%%%%%%
+\item The moment generating function of X is
+()()21411()4xtxtxXmtefxdxeedxπ∞∞−−−∞−∞==∫∫
+()21421414xxtxedxπ∞−−+−−∞=∫
+()()221144(12)1(12)14txteedxπ∞+−−−+−∞=∫
+()21222(12)122xttteedxπ×∞−−++−∞=×∫ = 2tte+.
+Note that the integrand is
+the pdf of()N12,2t+
+
+%%%%%%%%%%%%%%%%%%
+\item Differentiating the moment generating function,
+()2()12ttXdmttedt+=+,
+()22222()122ttttXdmtteedt++=++,
+()()()222333()12412212ttttttXdmttetetedt+++=+++++.
+()3330()1427XtdmtEXdt=∴==++=.
+
+[Note. The result may also be obtained in a straightforward way via the power series expansion of the moment generating function.]
+\end{enumerate}
+\end{document}

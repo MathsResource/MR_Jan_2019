@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+%- Higher Certificate, Module 5, 2008. Question 1
+\section{Introduction}
+\begin{enumerate}[(i)] Question 4
+(a) (i) An estimator is unbiased if the expectation (mean) of its sampling distribution is equal to the parameter being estimated. An estimator is consistent if the probability of it differing from the parameter being estimated by more than ε, a very small quantity, approaches 0 as sample size → ∞. It is however easier to use a criterion based on variance: if the variance of the sampling distribution → 0 as sample size → ∞, the estimator is consistent. [Some care is needed in using this criterion for biased estimators, in case the estimator is "homing in" on the wrong place. Provided any bias itself → 0 as the sample size → ∞, the criterion is satisfactory.]
+The estimator of μ in N(μ, σ 2) is X, and we have the standard results ()EXμ= and 2Var()/Xnσ=. So X is both unbiased and consistent.
+The estimator of σ 2 is 21(in XX−Σ. This is not unbiased: standard results give that divisor n – 1 is required for unbiasedness, whereas the expectation of this estimator (divisor n) is [(n – 1)/n]σ 2. But it is consistent.
+   (ii) {}2Var(+)()XYEXYEXY⎡⎤=+−+⎣⎦
+   = (){}(){}(){}(){}222EXEXYEYXEXYEY⎡⎤−+−+−−⎣⎦
+   =Var()Var()2Cov(,)XYX++ .
+   (iii) ()()12()/2()/2EXEXXμμμ=+=+=, so X is unbiased.
+   {}1212121144Var()Var()Var()Var()2Cov(,)XXXXXX=+=++
+     Now, 21212Cov(,)Var()Var()XXXXρρσ==. So we have
+   ()()22221142Var()21Xσσρσσρ=++=+.
+   We now require the minimum variance for each of the three possible situations (A), (B), (C), and this is clearly when ρ < 0, i.e. negative correlation (situation (C)).
+   Solution continued on next page
+   (b) (),xyfxye−−=, x > 0, y > 0.
+   The marginal distribution of X is obtained by "integrating out y", i.e. it is
+   ()[]000(1)yxyxyxXy fxeedyeee=∞∞−−−−−−=⎡⎤==−=−−⎣⎦∫ .
+   This can be recognised as the exponential distribution with mean 1, and for which the variance is also 1. Alternatively, the mean and variance are easily obtained by routine integration.
+   By symmetry, Y has the same distribution (marginally) as X. [If the symmetry is not recognised, it is straightforward to obtain this marginal distribution in the same way as above, integrating out x.]
+   X and Y are independent. The joint probability density function f (x, y) can be factorised as the product of the two marginal probability density functions.
+   
+   
+ \end{enumerate}
+\end{document}

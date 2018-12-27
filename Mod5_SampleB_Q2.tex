@@ -1,0 +1,38 @@
+ \documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+%- Higher Certificate, Module 5, 2008. Question 1
+\section{Introduction}
+\begin{enumerate}[(i)]       Question 2
+        (i) (),0;tftetλλλ−=>
+          (a) Sketch of f (t).
+        [NOTE. The curve should of course appear as a smooth decaying exponential; it might not do so, due to the limits of electronic reproduction.]
+        f (t)
+        t
+        (b) C.d.f. is ()()0011ttvv Ft .
+        (c) ()()()abPa .
+        b
+        (ii) Assume all settlements of invoices are independent.
+        P(50 in first week) = {()
+          5050, because T ≤ 1 for all these 50.
+          Likewise, 1 < T ≤ 2 for the 35 in the second week, so we have P(35 in second week) = ()(){}3521FF− = . ()352eeλλ−−−
+          The remaining 15 have T > 2, which has probability 1 – P(T ≤ 2) = e2 , and thus P(15 after week 2) = (). 152eλ−
+          The likelihood is therefore the product
+          ()()()()503515221Lkeeeeλλλλλ−−−−=−−
+          where k is a constant of proportionality.
+          Solution continued on next page
+          Taking logarithms (base e),
+          ()()(){}()2loglog50log135log115logLkeeeeλλλλ−−−=+−+−+
+            ()()()log85log13530log85log165kekeλλλλ−−=+−−+=+−−.
+          8585log656511deLdeeλλλλ−−∴=−=−−−.
+          Equating to zero, or , so that ()85651eλ=−150/65eλ=()ˆlog150/650.836λ==.
+          [It is easy to check that this is indeed a maximum; e.g. ()22285log01dLdeλλ=−<−.]
+          (iii) . Hence, out of 100 invoices, 56.66, 24.56 and 18.78 would be expected to be paid, on this model, in weeks 1, 2 and later. The actual numbers were 50, 35 and 15. The prediction for the second week is a long way from what happened, balanced by smaller discrepancies in the other two periods. This does not seem very satisfactory. 0.8360.8361.67210.5666;0.433440.187870.2456eee−−−−=−=−=
+        \end{enumerate}
+\end{document}

@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+%- Higher Certificate, Module 5, 2008. Question 1
+\section{Introduction}
+\begin{enumerate}[(i)]
+\item
+Question 1
+()()11,01,fxxxααα−=−<<> .
+(i) ()()()()100111xxFxuduuxααα−⎡⎤=−=−−=−−⎣⎦∫ (for 0 < x < 1 and α > 0).
+The median m is given by F(m) = ½, so we have 1 – (1 – m)α = ½ or (1 – m)α = ½, so that 1/12mα−−=, i.e. 1/12mα−=−.
+When α = 3, ()()231fxx=− and ()()311Fx=−− (in [0, 1]).
+f(x)x11234
+F(x)x11
+The solution to part (ii) is on the next page
+(ii) . ()()111111nnniiiiLxαααα−−==⎡⎤=−=−⎣⎦ΠΠ
+Hence ()(1loglog1log1niiLnxαα==+−−Σ.
+(1loglog1niidLn xdαα=∴=+−Σ which on setting equal to zero gives that the maximum likelihood estimate is ()1ˆlog1niinxα=−=−Σ , as required. [Consideration of 22logdLdα (see below) confirms that this is a maximum.]
+22logdLndαα=−. Hence, using the result quoted in the question, ˆα is approximately Normally distributed with mean α and variance 2nα. We estimate the variance by 2ˆnα,
+so that we have 2ˆˆ~N,nααα⎛⎞⎜⎝⎠, approximately.
+Hence an approximate 90% confidence interval is given by
+ˆ0.901.6451.645ˆ/Pnααα−⎛⎞≈−<<⎜⎟⎝⎠,
+leading to the interval ˆˆ1.6451.645ˆˆ,nnαααα⎛⎞−+⎜⎟⎝⎠.
+For the given sample, we have n = 5 and the values of 1 – xi are 0.88, 0.57, 0.93, 0.13 and 0.71. Therefore
+Σlog(1 – xi) = –0.1278 – 0.5621 – 0.0726 – 2.0402 – 0.3425 = –3.1452
+giving 5ˆ1.58973.1452α==.
+Also, ˆ1.6451.6451.58971.16955nα×==, so the confidence interval is (0.420, 2.759).
+\end{enumerate}
+\end{document}

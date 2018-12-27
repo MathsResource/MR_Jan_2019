@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+%- Higher Certificate, Module 5, 2008. Question 1
+\section{Introduction}
+\begin{enumerate}[(i)]
+\item Higher Certificate, Module 5, 2010. Question 4
+Part (a)
+The bias of an estimator ˆ
+θof a parameter θ is defined as ()ˆEθθ−.
+An unbiased estimator is one for which ()ˆEθθ− = 0 for all θ.
+If the bias of an estimator is non-zero and independent estimates are made using it based on different samples, the average of these estimates will not tend to the true value (θ ), no matter how many samples are taken. Other things being equal, therefore, unbiased estimators are preferred. However, there are situations where a biased estimator has smaller variance than the best unbiased estimator, and would therefore be preferred (at least if the bias is small). Indeed, in some situations there is no unbiased estimator at all.
+Among unbiased estimators, the most accurate is the one with the smallest variance. The relative efficiency of one unbiased estimator, 1ˆθ, compared with another, 2
+ˆθ, is
+()()21ˆVarˆVarθθ
+(sometimes multiplied by 100 to make it a percentage). A value greater than 1 (or 100%) suggests that 1ˆθis better; a
+value less than 1
+suggests that 2
+ˆθis better.
+It can be shown that, under regularity conditions, the variance of an unbiased estimator cannot be less than
+221logLEθ−∂∂ (= V, say),
+where L is the likelihood. The efficiency of an unbiased estimator ˆ
+θis ()ˆVarVθ (again sometimes multiplied by 100 to make it a percentage). A value of 1 (or 100%) states that ˆ
+θis the best unbiased estimator.
+Solution continued on next page
+Part (b)
+%%%%%%%%%%%%%%%%%%
+\item For each Yi we have ()()()()()()()()()2211222101121EYpppppp=−×−+×−+×+×−=.
+Therefore the method of moments estimator p satisfies Yp=, i.e. p is simply Y.
+An obvious unsatisfactory feature is that, although p must lie between 0 and 1, the value of p can be outside this range.
+%%%%%%%%%%%%%%%%%%
+\item ()()()()()()()()22211224101141iEYppppp=×−+×−+×+×− ()2241474pppp=−+=−+.
+()()(){}22222Var474374iiiYEYEYppppp∴=−=−+−=−+.
+()()2374VarVarpppYn−+∴==.
+%%%%%%%%%%%%%%%%%%
+\item From part (ii), ()212474niEppY=−+Σ and so ()2714421niEppY=−+Σ.
+()2714421nniiEpYY∴+−=ΣΣ.
+So 714421nniiYY+−ΣΣ is an unbiased estimator of p2.
+\end{enumerate}
+\end{document}

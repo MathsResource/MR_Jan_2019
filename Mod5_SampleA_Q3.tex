@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+%- Higher Certificate, Module 5, 2008. Question 1
+\section{Introduction}
+\begin{enumerate}[(i)]
+\itemThis solution continues on the next page
+Part (i)
+Suppose that a random variable X has a probability mass or density function which depends on a single parameter θ. An estimator T is a function of the set of sample values X1, X2, …, Xn forming a random sample from X. If several samples (of the same size n) are taken, T will take a different numerical value for each sample. This sampling distribution of T can often be found, or at least the mean and variance of it, and these generally form the basis for examining the properties of estimators.
+(A) An unbiased estimator is one whose sampling distribution has mean θ, i.e. E(T) = θ over repeated sampling. For example, a sample mean is unbiased for estimating the population mean. In principle, unbiased estimators are very useful, because when only one sample is available the value obtained for the estimator gives a good, easily understood idea of the true value of θ (though there is no guarantee that the value of the estimator will be anywhere near the true value of θ – see (B) and (C) below). In some problems it may be easier or more natural to construct an estimator that is known to be biased but can be made into an unbiased estimator by a simple transformation. An example is when estimating the variance σ 2 of a population whose mean is not known. Dividing the sample sum of squares by n gives a biased estimator, but using (n – 1) instead of n removes the bias.
+(B) Precision is important as well as bias. An estimator ought to have greater precision for larger sample size: the larger sample should provide more information. An estimator is consistent if the probability of it differing from the parameter being estimated by more than ε, a very small quantity, approaches 0 as sample size → ∞. It is however easier to use a criterion based on variance: if the variance of the sampling distribution → 0 as sample size → ∞, the estimator is consistent. [Some care is needed in using this criterion for biased estimators, in case the estimator is "homing in" on the wrong place. Provided any bias itself → 0 as the sample size → ∞, the criterion is satisfactory.] Almost all common estimators are consistent in this sense. For example, for estimating a population mean, the sample mean is unbiased and its variance is σ 2/n, so the sample mean is a consistent estimator of the population mean. One case where this does not happen is the Cauchy distribution (i.e. the t distribution with one degree of freedom). This is a useful "heavy-tailed" distribution, but its mean and variance do not exist (neither do any other moments) because of the "weight" of the tails. However, the median or the mode both indicate the "centre" of the distribution, and it is natural to suggest that this might be estimated by the mean of a sample. But, for this distribution, the pdf of the sample mean is the same as that for a single observation; therefore no advantage arises through increasing sample size, and in this case the sample mean is not a consistent estimator of the "centre".
+(C) If there is a choice of two estimators for the same purpose, and assuming they are both unbiased and consistent, the one with the smaller variance will be preferred. It gives more information per item sampled; somewhat less formally, it is "more likely" to give a value "nearer" to the true value of the parameter θ. The estimator with the smaller variance is said to be more efficient. For example the parameter μ in a Normal distribution (i.e. the population mean) may be estimated by the sample median, as an alternative to the sample mean. Both the sample mean and the sample median are unbiased and consistent. But the sample median has a larger variance for a given sample size (it can be shown to be πσ 2/(2n)) and so it is less efficient. The relative efficiency is measured by the inverse ratio of the variances of the two estimators. [In fact, the sample mean is fully efficient, as it has the least possible variance for this estimation problem, whereas the sample median is not fully efficient (these concepts are explored in detail in the Statistical Theory and Methods section of the
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Graduate Diploma examination, which also studies the extension to biased estimators using mean square error).]
+Part (ii)
+The probability density function of X, g(x), is 1,0()0, otherwise.xgx θθ⎧≤≤⎪=⎨⎪⎩
+(A) The likelihood function is (1/θ )n, i.e. θ –n. By considering the graph of this, we see that it is a decreasing function of θ. Thus it attains its maximum value at the smallest possible value of θ, which is clearly Xmax as θ cannot be less than the largest observed value.
+(B) ()()max0ˆ()EEXxfxdxθθ==∫ [f (x) is as given in the question]
+01nnnxndxnθθθ==+∫, so the maximum likelihood estimator is biased.
+It is immediate that the adjusted estimator {(n + 1)/n}Xmax is unbiased.
+(C) The values of the estimators are: moments 2.6 (note that this is an impossible value!); adjusted maximum likelihood (7/6) × 2.8 = 3.27.
+Unbiasedness
+We already have that both estimators are unbiased.
+Consistency
+The variance of the method of moments estimator is given in the question: θ 2/(3n). This tends to zero as n → ∞ and so this estimator is consistent (note that it is unbiased, so this criterion based on variance can be used directly).
+The variance of the adjusted maximum likelihood estimator is also given in the question: θ 2/{n(n + 2)}. This → 0 as n → ∞, so this also is a consistent estimator. (Note. It is also the case that the maximum likelihood estimator itself is consistent. Its bias → 0 as n → ∞ and so does its variance.)
+Efficiency
+We have ()()22Varmethod of moments estimator23Varadjusted estimator3(2)nnnnθθ+==+
+  which is > 1 for all n (> 1). Thus the adjusted estimator is more efficient than the method of moments estimator.
+\end{enumerate}
+\end{document}
