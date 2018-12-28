@@ -1,29 +1,56 @@
-THE ROYAL STATISTICAL SOCIETY
-2008 EXAMINATIONS − SOLUTIONS
-HIGHER CERTIFICATE
-(MODULAR FORMAT)
-MODULE 2
-PROBABILITY MODELS
-The Society provides these solutions to assist candidates preparing for the examinations in future years and for the information of any other persons using the examinations.
-The solutions should NOT be seen as "model answers". Rather, they have been written out in considerable detail and are intended as learning aids.
-Users of the solutions should always be aware that in many cases there are valid alternative methods. Also, in the many cases where discussion is called for, there may be other valid points that could be made.
-While every care has been taken with the preparation of these solutions, the Society will not be responsible for any errors or omissions.
-The Society will not enter into any correspondence in respect of these solutions.
-Note. In accordance with the convention used in the Society's examination papers, the notation log denotes logarithm to base e. Logarithms to any other base are explicitly identified, e.g. log10.
-© RSS 2008
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\section{Introduction}
 Higher Certificate, Module 2, 2008. Question 1
-(i) (a) The number of PINs with four different digits is 10×9×8×7 = 5040.
+\begin{enumerate}
+
+\item (a) The number of PINs with four different digits is \[10 \times 9 \times 8 \times 7 = 5040.\]
+
+%%%%%%%%%%%%%
 (b) We require exactly three different digits. We can choose the face value of the pair in 10 ways. We can then choose two other different digits in = 36 ways. The number of distinguishable linear arrangements of two like and two unlike objects is ⎟⎟⎠⎞⎜⎜⎝⎛294!2!1!1!×× = 12, so the total number of 4-digit PINs with exactly three different digits is 12×10×36 = 4320.
-(c) We require two different digits, each occurring twice. We can choose the face values of the two pairs in = 45 ways. The number of distinguishable linear arrangements of two (different) pairs of like objects is ⎟⎟⎠⎞⎜⎜⎝⎛2104!2!2!× = 6, so the total number of 4-digit PINs with two pairs of (different) like digits is 6×45 = 270.
-(d) We require exactly three digits the same. We can choose the face values of the triple and of the singleton in 10×9 ways (note that aaab and bbba are different PINs). The number of distinguishable linear arrangements is 4 (corresponding to 4 different places for the singleton), hence there are 4×904 = 360 possible PINs.
-(ii) (a) There are altogether = 210 ways of choosing the 4 digits of the second PIN, each being equally likely with probability 1/210. ⎟⎟⎠⎞⎜⎜⎝⎛410
+%%%%%%%%%%%%%%%%%%5
+\item  We require two different digits, each occurring twice. We can choose the face values of the two pairs in = 45 ways. The number of distinguishable linear arrangements of two (different) pairs of like objects is ⎟⎟⎠⎞⎜⎜⎝⎛2104!2!2!× = 6, so the total number of 4-digit PINs with two pairs of (different) like digits is 6×45 = 270.
+%%%%%%%%%%%%%%%%%%55
+\item We require exactly three digits the same. We can choose the face values of the triple and of the singleton in 10×9 ways (note that aaab and bbba are different PINs). The number of distinguishable linear arrangements is 4 (corresponding to 4 different places for the singleton), hence there are 4×904 = 360 possible PINs.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\item  (a) There are altogether = 210 ways of choosing the 4 digits of the second PIN, each being equally likely with probability 1/210. ⎟⎟⎠⎞⎜⎜⎝⎛410
 Now consider the number of ways of choosing 4 digits for the second PIN such that k of them (for k = 0, 1, 2, 3, 4) are in common with digits in an arbitrary given PIN of four different digits. There are ways of choosing the k digits that are in common and ways of choosing the 4−k digits that are not in common. So the total number of ways is . ⎟⎟⎠⎞⎜⎜⎝⎛k4⎟⎟⎠⎞⎜⎜⎝⎛−k46⎟⎟⎠⎞⎜⎜⎝⎛k4⎟⎟⎠⎞⎜⎜⎝⎛−k46
 So the required probability is 464104kk⎛⎞⎛⎞⎜⎟⎜⎟−⎝⎠⎝⎠⎛⎞⎜⎟⎝⎠.
-Solution continued on next page
-(b) P(X = 0) = 460415110210144⎛⎞⎛⎞⎜⎟⎜⎟⎝⎠⎝⎠==⎛⎞⎜⎟⎝⎠;
-P(X = 1) = ⎟⎟⎠⎞⎜⎜⎝⎛⎟⎟⎠⎞⎜⎜⎝⎛⎟⎟⎠⎞⎜⎜⎝⎛4103614= 21821080=;
-P(X = 2) =46229031021074⎛⎞⎛⎞⎜⎟⎜⎟⎝⎠⎝⎠==⎛⎞⎜⎟⎝⎠;
-P(X = 3) = 463124410210354⎛⎞⎛⎞⎜⎟⎜⎟⎝⎠⎝⎠==⎛⎞⎜⎟⎝⎠;
-P(X = 4) = 46401102104⎛⎞⎛⎞⎜⎟⎜⎟⎝⎠⎝⎠=⎛⎞⎜⎟⎝⎠.
+
+\item  
+\begin{itemize}
+\item P(X = 0) = 460415110210144⎛⎞⎛⎞⎜⎟⎜⎟⎝⎠⎝⎠==⎛⎞⎜⎟⎝⎠;
+\item P(X = 1) = ⎟⎟⎠⎞⎜⎜⎝⎛⎟⎟⎠⎞⎜⎜⎝⎛⎟⎟⎠⎞⎜⎜⎝⎛4103614= 21821080=;
+\item P(X = 2) =46229031021074⎛⎞⎛⎞⎜⎟⎜⎟⎝⎠⎝⎠==⎛⎞⎜⎟⎝⎠;
+\item P(X = 3) = 463124410210354⎛⎞⎛⎞⎜⎟⎜⎟⎝⎠⎝⎠==⎛⎞⎜⎟⎝⎠;
+\item P(X = 4) = 46401102104⎛⎞⎛⎞⎜⎟⎜⎟⎝⎠⎝⎠=⎛⎞⎜⎟⎝⎠.
+\end{itemize}
+
 E(X) = 15809024101334210210210210210⎛⎞⎛⎞⎛⎞⎛⎞⎛×+×+×+×+×⎜⎟⎜⎟⎜⎟⎜⎟⎜⎝⎠⎝⎠⎝⎠⎝⎠⎝
 = 336210 = 1.6.
+\end{enumerate}
+\end{document}
