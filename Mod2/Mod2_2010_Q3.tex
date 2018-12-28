@@ -1,33 +1,60 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{framed}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
-\title{RSS_Jan_2019_Mod2}
-\author{kobriendublin }
-\date{December 2018}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
 
 \maketitle
 
 \section{Introduction}
 Higher Certificate, Module 2, 2010. Question 3
+
+\[(),0,tTftetλλλ− =>>\]
 \begin{enumerate}
-    \item
-(),0,tTftetλλλ− =>>
-(i) The cdf is ()001ttxxT Ftedxeeλλλ−−⎡⎤==−=−⎣⎦∫ for t > 0.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item   The cdf is ()001ttxxT Ftedxeeλλλ−−⎡⎤==−=−⎣⎦∫ for t > 0.
 [Also for t ≤ 0.] ()0TFt=
 0 tF(t)1.00.80.60.40.20.0CDF of T
 [Note. The graph should of course be a smooth curve. It may not be shown as such, due to the limits of electronic reproduction.]
-(ii) ()()()()()11baaTTPaTbFbFaeeee λλλ −−−<≤=−=−−−=− .
-(iii) ()011PTeλ−<≤=−.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item   ()()()()()11baaTTPaTbFbFaeeee λλλ −−−<≤=−=−−−=− .
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  ()011PTeλ−<≤=−.
 ()()2121PTeeeeλλλλ−−−−<≤=−=−.
-So we have (){}121eeeλλ−−−−=− which gives 2eλ= so λ = log 2 = 0.693.
-Solution continued on next page
-(iv) For t > c > 0, we have
-()()()()()()andttccPTtTcPTtePTtTcePTcPTceλλλ−−−−>>>>>====>>.
+So we have (){}121eeeλλ−−−−=− which gives 2eλ= so 
+\[λ = log 2 = 0.693.\]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  For t > c > 0, we have
+\[()()()()()()andttccPTtTcPTtePTtTcePTcPTceλλλ−−−−>>>>>====>>.\]
 Hence the conditional pdf of T given that T > c is ()()()1tctcdeedtλλλ−−−−−= (for t > c).
-Arguing similarly for the random variable T – c, we first find, for t > 0,
+\begin{itemize}
+\item Arguing similarly for the random variable T – c, we first find, for t > 0,
 ()()()()()()andtctcPTctTcPTtcePTctTcePTcPTceλλλ−+−−−>>>+−>>====>>.
-Hence the conditional pdf of T – c given that T > c is teλλ−, for t > 0.
-Thus the conditional distribution of T – c given that T > c is the same as the unconditional distribution of T, for any constant c > 0.
+\item Hence the conditional pdf of $T – c$ given that T > c is teλλ−, for t > 0.
+\item Thus the conditional distribution of T – c given that T > c is the same as the unconditional distribution of T, for any constant c > 0.
+\end{itemize}
+
+\end{document}
