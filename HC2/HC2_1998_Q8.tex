@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{framed}
+\usepackage{enumerate}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+8.(a)Parametric methods require a distribution (often the normal) to be specified as a model for
+the observations. If this is not correct, inferences can be seriously affected. Non-parametric methods
+rely on such things as rank ordering of data, and require no distributional assumptions. They
+allow more general types of analysis, not based on means and variances(parameters) but are less
+powerful than parametric methods when there are available for the corresponding problem.
+(b)These data are very skew, even after differences have been taken. Even if a logarithmic transformation
+is taken, the resulting data cannot be taken as anywhere near symmetrical.
+(i)A sign test uses only +/-, and there are 3 +’s, 7 -’s in 10 pairs. If the populations are the
+same, H0 says that the proportion of + signs is 1
+2 , so the number of +’s is Binomial(10,1/2).
+P(· 3 +0 s) = P(0) + P(1) + P(2) + P(3) = 1
+210 (1 + 10 + 45 + 120) = 0:172.
+This is >0.5, so does not provide evidence of any difference.
+(ii)Wilcoxon’s signed ranks test uses magnitudes also.
+H0 is “opulations the same”, H1“different”. Ranked absolute values
+are 2 3 4 12 12 13 73 120 125 147
+rank 1 2 3 41
+2 41
+2 6 7 8 9 10
+sign + + ¡ + ¡ ¡ ¡ ¡ ¡ ¡
+The sum of the + ve ranks is 71
+2 and is below the(2-sided) critical table value 8 for n=10,
+and so the NH is rejected. Using this test, there is evidence of different location of population
+values.
+By using the values, more information is available, since the + signs are attached to values
+that are numerically quite small. The Wilcoxon test thus gains greater power to discriminate between
+the two sets of data that produced the differences given.

@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{RSS_Jan_2019_HC2}
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+5.(i)E[X] =
+1P
+x=0
+xe¡¸¸x=x!
+=
+1P
+x=0
+e¡¸¸x=(x ¡ 1)!
+= ¸
+1P
+x=0
+e¡¸¸x¡1=(x ¡ 1)! (in which the term for x = 0 is o)
+= ¸
+.
+(ii)If P(X=k)=P(X=k+1), e¡¸¸k
+k! = e¡¸¸k+1
+(k+1)! ; i:e: ¸
+k+1 = 1 so that ¸ = k + 1:
+(iii)Since the mode has maximum probability, it is unique as in (ii) if ¸ is an integer but otherwise
+satisfies P(X=m)
+P(X=m¡1) > 1 and P(X=m+1)
+P(X=m) < 1, where m is the modal value.
+If e¡¸¸m
+m! ¢ (m¡1)!
+e¡¸¸m¡1 , then ¸
+m > 1; i.e. m < ¸;
+also if e¡¸¸m+1
+(m+1)! ¢ m!
+e¡¸¸m < 1, then ¸
+m+1 < 1; i.e. ¸ < m + 1 or ¸ ¡ 1 < m ;
+hence ¸ ¡ 1 < m < ¸ .
+(iv)(a) ¸ = 1, so P(0)=e¡¸=1
+e =0.3679 .
+(b) P(0)+P(1)+P(2)=e¡1(1+1+1
+2)=0.9197 .
+(v)Number of faults in 20m2 will follow Poisson with mean 4.
+3
+(a)P(¸ 3) = 1 ¡ P(0) ¡ P(1) ¡ P(2)
+= 1 ¡ e¡4(1 + 4 + 42
+2! )
+= 1 ¡ 13e¡4
+= 1 ¡ 0:2381 = 0:7619
+.
+(b)Number of rooms with ¸ 3 faults is Binomial(50,0.7619) which can be approximated as
+N(50 £ 0:7619; 50 £ 0:7619 £ 0:2381) or N(38:095; 9:0704). The probability of being >40 is the
+value corresponding to 40.5(with continuity correction) in this distribution:
+Z = 40p:5¡38:095
+9:0704
+= 2:405
+3:0117 = 0:7986
+P(Z > 0:7986) = 0:2123
+[The answer without a continuity correction would be 0.2635.]
+\end{document}

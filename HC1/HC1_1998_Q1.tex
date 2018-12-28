@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage{framed}
+
+\begin{document}
+
+
+\section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item The probabilities of reading the three newspapers are
+P(A) = 1
+3 , P(B)=1
+2 , P(C)=1
+6 .
+Let E be the event that an early is made.
+P(EjA)=0.02, P(EjB)=0.01, P(EjC)=0.05 .
+\[P(E) = P(EjA)P(A) + P(EjB)P(B) + P(EjC)P(C)\]
+= (0:02 £ 1
+3 ) + (0:01 £ 1
+2 ) + (0:05 £ 1
+6 )
+= 1
+6 (0:04 + 0:03 + 0:05)
+= 0:12
+6 = 0:02:
+Since all entries are correct, the probability of winning is P(AjE),P(BjE),P(CjE) respectively for
+readers of A, B, C.
+P(AjE)P(E)=P(EjA)P(A) or P(AjE)=0:02£1=3
+0:02 = 1
+3 ;
+\[P(BjE)=P(EjB)P(B)/P(E)=0:01£1=2\]
+0:02 = 1
+4 ;
+P(CjE)=P(EjC)P(c)/P(E)=0:05£1=6
+0:02 = 5
+12 .
+[Check: these must sum to 1 .
+p
+]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item Since the readerships are large, we may ignore the need for a finite population correction, and
+so the required probability will be ( 1
+3 )2 = 1
+9 .
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item Similarly, for any two different newspapers, in either order for first, second, the probability
+will be: 2f( 1
+3 £ 1
+4 ) + ( 1
+3 £ 5
+12 ) + ( 1
+4 £ 5
+12 )g = 1
+6 + 5
+18 + 5
+24 = 4
+9 + 5
+24 = 47
+72 = 0:653:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+There are 6 possible orders for one each of A, B, C, so the probability is 6£1
+3£1
+4£ 5
+12 = 5
+24 = 0:208 .
+\end{enumerate}
+\end{document}
