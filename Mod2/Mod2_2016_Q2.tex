@@ -1,0 +1,128 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{framed}
+\usepackage{enumerate}
+\title{RSS_Jan_2019_Mod2}
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\begin{enumerate}
+    \item Question 2 (i) Let X = number of failures before the rst success.
+PX(x) = (1 �� p)xp [1]
+for x = 0; 1; 2; 3; 4; : : : [1]
+1X
+x=0
+(1 �� p)xp = p
+1X
+x=0
+(1 �� p)x [1]
+= p
+1
+1 �� (1 �� p)
+sum of GP [1]
+= p 
+1
+p
+= 1 [1]
+(ii)
+E(X) =
+1X
+x=0
+xPX(x)
+=
+1X
+x=0
+x(1 �� p)xp [1]
+Using the fact that:
+d
+dp
+1X
+x=0
+(1 �� p)x = ��
+1X
+x=0
+x(1 �� p)x��1
+=
+d
+dp
+1
+p
+[1]
+= ��
+1
+p2 [1]
+Hence
+E(X) = p(1 �� p)
+1X
+x=0
+x(1 �� p)x��1
+= p(1 �� p) 
+1
+p2
+=
+(1 �� p)
+[1]
+p
+NB Other correct solutions would be given credit.
+(iii) (a) When p = 0:01,
+P(X = 80) = 0:99790:01 [1]
+= 0:00452 [1]
+(b) EITHER
+P(X > 80) = 1 �� P(X  80) [1]
+= 1 ��
+X80
+x=0
+x(1 �� p)xp [1]
+= 1 �� p
+ 
+1 �� (1 �� p)80
+1 �� (1 �� p)
+!
+[1]
+= 1 �� 0:01(
+(1 �� 0:9980))
+0:01
+[1]
+= 1 �� 0:5525
+= 0:4475 [1]
+OR As it will take more than 80 attempts if and only if the rst 80
+are all failures [2]
+(Either get 2 marks or 0)
+P(X > 80) = 0:9980 [2]
+(either get 2 marks or 0)
+= 0:4475: [1]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  Let Y = total number of failures before the second success. The prob-
+ability mass function is
+PY (y) =
+ 
+y + 1
+1
+!
+(1 �� p)yp2 = (y + 1)(1 �� p)yp2 y = 0; 1; 2; : : : [1]
+The experiment to obtain Y can be considered as running the rst
+experiment until the rst success and then repeating an independent
+experiment to obtain a further success. [1]
+Hence
+\begin{eqnarray}
+E(Y ) &=& E(X1) + E(X2) [1]
+&=&
+(1 �� p)
+p
++
+(1 �� p)
+p
+&=& 2
+(1 �� p)
+p
+\end{eqnarray}
+\end{enumerate}
+\end{document}
+

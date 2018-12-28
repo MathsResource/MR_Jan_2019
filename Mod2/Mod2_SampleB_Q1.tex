@@ -1,0 +1,73 @@
+THE ROYAL STATISTICAL SOCIETY
+HIGHER CERTIFICATE EXAMINATION
+NEW MODULAR SCHEME
+introduced from the examinations in 2007
+MODULE 2
+SPECIMEN PAPER B
+AND SOLUTIONS
+The time for the examination is 1½ hours. The paper contains four questions, of which candidates are to attempt three. Each question carries 20 marks. An indicative mark scheme is shown within the questions, by giving an outline of the marks available for each part-question. The pass mark for the paper as a whole is 50%.
+The solutions should not be seen as "model answers". Rather, they have been written out in considerable detail and are intended as learning aids. For this reason, they do not carry mark schemes. Please note that in many cases there are valid alternative methods and that, in cases where discussion is called for, there may be other valid points that could be made.
+While every care has been taken with the preparation of the questions and solutions, the Society will not be responsible for any errors or omissions.
+The Society will not enter into any correspondence in respect of the questions or solutions.
+© RSS 2006
+1. (i) The random variable X follows the Poisson distribution with probability mass function ()!xfxexλλ−=, x = 0, 1, 2, … .
+(a) Show that the mean and variance of X are both equal to λ.
+(b) State the Poisson approximation to the binomial distribution, indicating the circumstances in which it is appropriate.
+(5)
+(ii) A civil servant calculates weekly social security payments for unemployed adults. These payments vary according to claimants' circumstances, and errors may occur. Over a long period of time, the probability of a wrong calculation has been found to be 0.0075. Find to 4 decimal places the exact probability that a sample of 200 contains (a) 1 wrong calculation, (b) 4 wrong calculations.
+(7)
+(iii) Repeat part (ii) using the Poisson approximation to the binomial distribution. In each case find to two significant figures the percentage error in the Poisson calculation. Comment briefly on your results.
+(8)
+2. Among the inhabitants of Altamania, height, H say, is distributed Normally with mean 160 cm and standard deviation 4 cm, i.e. N(160, 16).
+(i) Find the proportion of the population whose heights are within one standard deviation of the mean. Find also the proportion of the population who are more than 168 cm tall.
+(5)
+(ii) The Altamanian Police Force (APF) is restricted to persons who are more than 168 cm tall, and may be assumed to consist of a random sample of Altamanians satisfying this condition.
+Find
+(a) the median height of members of the APF,
+(b) the proportion of members of the APF who are more than 170 cm tall.
+(10)
+(iii) Assume that the mean and standard deviation of height among members of the APF are 169.5 cm and 1.352 cm respectively. Find an approximate value for the probability that the mean height of a random sample of 25 members of the APF is more than 170 cm.
+(5)
+3. The events A, B and C have respective probabilities 23, 12 and 14, and A, B and C are, respectively, the complements of A, B and C.
+(i) Given that A, B and C are mutually independent, find
+(a) ()PABC∩∩,
+(b) ()PACAB∩∩.
+(8)
+(ii) Now let A and B be independent, A and C be independent and B and C be independent, so that A, B and C are pairwise independent, and let = x. Find in terms of x (PABC∩∩
+(a) ()PABC∩∩,
+(b) ()PACAB∩∩,
+(c) . ()PABC∪∪
+Also find the maximum and minimum possible values of x.
+(12)
+4. The random variable X has the geometric probability mass function (pmf) given by f (x), where ()()1,0,1,2,...,01xfxppxp=−=<< .
+(i) Sketch the graph of f (x) for the case p = 1/3, for 0 ≤ x ≤ 5.
+(5)
+(ii) Obtain the mean and variance of X.
+(4)
+(iii) For any non-negative integer x, show that ()(1 xPXxp≥=−, and deduce that for any non-negative integers l and m ()()|PXlmXlPXm≥+≥=≥.
+Interpret this result.
+(5)
+(iv) The random variable Y has pmf g(y), where
+. ()()1,0,1,2,...,01ygyyθθθ=−=<<
+X and Y are independent, and the random variable Z is defined as the minimum of X and Y, i.e. Z = min(X, Y). By noting that P(Z ≥ z) = P(X ≥ z and Y ≥ z), find an expression for P(Z ≥ z), where z is any non-negative integer. By considering P(Z ≥ z) – P(Z ≥ z + 1), or otherwise, show that
+. ()()()()11,0,1,2,...zPZzpppzθθθ==−−+−=⎡⎤⎣⎦
+Identify the form of this distribution and hence write down E(Z) and Var(Z).
+(6)
+SOLUTIONS
+Question 1
+(i) (a) 1010()1!(1)!!xxxxxxeeeEXxxxxλλλλλλλλλλ−−−−∞∞∞=======×−ΣΣΣ .
+We have Var(X) = E(X2) – {E(X)}2. E(X2) can be found similarly, but it is easier to use E(X2) = E[X(X – 1)] + E(X) and thus Var(X) = E[X(X – 1)] + E(X) – {E(X)}2. 2222020[(1)](1)1!(2)!!xxxxxxeeeEXXxxxxxλλλλλλλ λλλ−−−−∞∞∞===−=−===×=−ΣΣΣ.
+Thus 22Var()X λλλλ=+−=.
+[The probability generating function or moment generating function could also be used – this work is in Module 5.]
+(i) (b) The binomial distribution with parameters n and p may be approximated by the Poisson distribution with parameter np if n is large and p is small. As a "rule of thumb", ½ ≤ np ≤ 10 gives an indication of how large n should be and how small p should be. (If np > 10, a Normal approximation to the binomial may be better.)
+(ii) Let X = number of wrong calculations. We have X ~ B(200, 0.0075).
+()()()19919920010.00750.99252000.00750.99250.3353(2)1PX⎛⎞===××=⎜⎟⎝⎠.
+()()()419620040.00750.99254PX⎛⎞==⎜⎟⎝⎠ 41962001991981970.00750.99250.0468(0)4321×××=××=×××.
+Solution continued on next page
+(iii) We approximate using X ~ Poisson(200 × 0.0075 = 1.5). With this,
+()()1.511.50.33470PXe−===
+giving a percentage error of ()1000.335320.334700.18%0.33532−=, and
+()()()41.51.540.047074!ePX−===
+giving a percentage error of ()1000.047070.046800.58%0.04680−=.
+[Note. These percentage errors might come out slightly differently if more accuracy is kept in the binomial and Poisson probabilities.]
+Both approximations are remarkably accurate, with percentage errors well below 1%. The approximation for X = 1 (one wrong calculation) is the more accurate of the two. That approximation is an underestimate; the other is an overestimate.

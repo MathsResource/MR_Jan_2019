@@ -1,0 +1,38 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{enumerate}
+\usepackage{framed}
+
+\begin{document}
+
+
+\section{Introduction}
+\begin{enumerate}
+\item (i) Y = pX1 + (1 ¡ p)X2 is N(1750p + 2000(1 ¡ p); p2 ¢ 3002 + (1 ¡ p)2 ¢ 4002)
+i.e. N(2000 ¡ 250p; 104f9p2 + 16(1 ¡ p)2g)
+or N(2000 ¡ 250p; 10000(25p2 ¡ 32p + 16)).
+\item E[Y ] = 2000 ¡ 250p and has maximum value (2000) for p1 = 0.
+\item V [Y ] is minimized when d
+dp(25p2 ¡ 32p + 16) = 0
+i.e. 50p ¡ 32 = 0 or p2 = 16=25.
+The second deviation is > 0, indicating a minimum.
+\item  E[Y jp1 = 0] = £2000. E[Y jp2 = 16=25] = 2000 ¡ 250£16
+25 = £1840.
+2
+\item  (a) On p = p1 = 0, Y » N(2000; 4002):
+P(Y < 1480) = P(Z < 1480¡2000
+400 ) = P(Z < ¡1:30) = 0:0968.
+(b) On p = p2 = 16=25, Y » N(1840; 104f162
+25 ¡ 32£16
+25 + 16g).
+i.e. N(1840; 16 £ 104f1 ¡ 16
+25g) = N(1840; 2402):
+P(Y < 1480) = P(Z < 1480¡1840
+240 ) = P(Z < ¡1:50) = 0:0668.
+%%%%%%%%%%%%%%%%%%%%%%%%
+Z stands for the standardized variate N(0; 1). Use mixed strategy (b) because
+its probability of ruin is only two-thirds of that on (a). His expectation
+is lower, but variability is also lower, on (b).
+\end{enumerate}
+\end{document}

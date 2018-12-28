@@ -1,0 +1,114 @@
+5. (i) The Central Limit Theorem says that if fxig are n independent observations,
+all taken from the same distribution with (finite) mean and variance ¹ and
+¾2, then the limiting distribution as n ! 1 of the mean ¯X is N(¹; ¾2=n).
+Therefore if ¹; ¾2 are known, the actual form of the distribution of fxig is
+not important provided n is large. However, if the X distribution is skew,
+n in practice needs to be very large, 500+, whereas if this distribution is
+symmetrical, even though not itself normal, a sample of less than 50 observations
+may be adequate for the the approximation to be used. It is the basis
+for “large sample” tests of means and differences of means; and can also be
+applied to discrete distributions, e.g. in testing proportions.
+(ii) If there are systematic differences between “blocks” or groups of items which
+have to be used in the same experiment, as well as random variation and
+systematic effects of treatments, a linear model (as in 2(a)) needs to contain
+a term for blocks: yij = ¹ + ¿i + ¯j + eij , (i = 1 to v; j = 1 to r), where
+every treatment, 1 to v, appears once in every block, 1 to r. A “two-way”
+analysis of variance, to remove blocks as well as treatments from the total
+sum of squares, is required:
+SOURCE OF VARIATION D.F.
+Blocks r ¡ 1
+Treatments v ¡ 1
+Residual (r ¡ 1)(v ¡ 1)
+TOTAL rv ¡ 1
+13
+The feijg are required to be i.i.d. N(0; ¾2), and an estimate of ¾2 is provided
+by the residual mean square in this analysis.
+(iii) Degrees of freedom is a parameter in a Â2-distribution. The square of a
+N(0; 1) variate is X2
+(1), and the sum of the squares of n independent N(0; 1)0s
+is Â2(
+n). Thus for X = N(¹; ¾2), so that X¡¹
+¾ = r is N(0; 1) the sum of n
+independent observations
+Xn
+i=1
+(xi ¡ ¹
+¾
+)2 is Â2
+(n). When ¹ is not known and
+must be replaced by an estimate ¯x from a sample,
+Xn
+i=1
+(xi ¡ ¯x
+¾
+)2 is Â2(
+n¡1)
+because the n values (xi ¡ ¯x) used in the calculation have one constraint
+placed on them, namely
+Xn
+i=1
+(xi ¡ ¯x) = 0 by definition of ¯x. In other applications
+of Â2, such as tests in contingency tables or tests of goodness of fit, the
+rule for degrees of freedom is “number of independent items of information
+minus number of constraints placed on them”. Constraints include fixing the
+marginal totals and the grand total in tables when calculating expected values,
+and having to estimate parameters from the observed data (e.g. mean
+in a Poisson distribution) before expected values can be calculated. In the
+analysis of variance, d.f. for total are N ¡ 1 when N observations are available,
+v ¡1 for v treatments etc. The t-statistic always has the same number
+of d.f. as the estimate s2 used in it, e.g. the residual d.f. in the analysis of
+variance.
+(iv) Confidence intervals often give more information than significance tests
+based on the same sample of data. When a parameter (e.g. ¹) has been
+estimated (by, e.g. ¯x) we may set up a Null Hypothesis that ¹ takes a
+certain value and then test whether ¯x is close enough to this for the NH not
+to be rejected. However, there is a whole range of values of ¹ which would
+be consistent with the observed value of ¯x, and it is this range which forms
+a confidence interval. Fox example, if fxig are taken from N(¹; ¾2), with ¾2
+known, and their mean is ¯x, then we know that if i = 1 to n then ¯x has the
+distribution N(¹; ¾2=n), so that P(¡1:96 · ¯x¡¹
+¾=
+p
+n
+· +1:96) = 0:95, which
+can be written as P(¯x ¡ 1:96¾=
+p
+n · ¹ · ¯x + 1:96¾=
+p
+n) = 0:95, giving a
+95% confidence interval for the true value of ¹, based on the sample mean
+¯x. With probability 0.95, the interval contains ¹. To alter the probability,
+or confidence level, to e.g. 90% or 99% the corresponding r-values (N(0; 1))
+must be used instead of 1.96, e.g. 1.645 and 2.576. Confidence intervals can
+be set up whenever we know the distribution of a parameter estimate, e.g.
+14
+s2 for ¾2, b for ¯ in linear regression. If an interval is wide relative to the size
+of the estimate, the lack of precision is immediately clear; this information
+is hidden in a significance test.
+6. If we assume the data follow a normal distribution with mean ¹ and variance ¾2,
+then we can use the data (16 observations) to test the Null Hypotheses that
+(i) ¹ ¸ 400, (ii) ¾2 · 64 against the Alternatives ¹ < 400 and ¾2 > 64.
+The mean of the sample is ¯x = 396:125 and variance s2 = 77:9833.
+(i) For the mean, t(15) = p396:125¡400
+77:9833=16
+= ¡3:875
+2:208 = ¡1:76, which is just on the
+borderline of significance at 5% in a 1-tail test. The evidence from these
+data is that the mean is not likely to be ¸ 400.
+(ii) For the variance, (n¡1)s2
+¾2 » Â2(
+n¡1) i.e. 15£77:9833
+64 is Â2
+(15) = 18:28, which is
+less than the 5% (upper) point of Â2
+(15), so there is no evidence to reject the
+hypothesis that ¾2 · 64, even though the observed value is above this.
+With a sample four times as large, i.e. n = 64, assuming the same estimates
+¯x and s2, t(63) would be
+p
+4, i.e. 2, times as large, providing very strong
+evidence against the Null Hypothesis for ¹. The variance would be based
+on 63 d.f., and the Â2 statistic would be 63£77:9833
+64 = 76:76, which is not
+significant and so there is still no evidence against the Null Hypothesis for
+¾2.

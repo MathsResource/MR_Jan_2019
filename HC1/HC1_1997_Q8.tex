@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{enumerate}
+\usepackage{framed}
+
+\begin{document}
+
+
+\section{Introduction}
+\begin{enumerate}
+\item 8. (a) (i) A binomial distribution with large n and very small p may be approximated
+by a Poisson with ¹ = np. It is desirable that np should be at least 5, but in
+addition n should be ¸ 20 and p · 0:1. When all these conditions are met
+the approximation will be a good one.
+\item  A Poisson with large mean can be approximated by N(¹; ¹). The
+approximation will be good for ¹ ¸ 10, but adequate down to ¹ = 5.
+(b) (i) Poisson, mean 5:
+P(4) + P(5) + P(6) = e¡5( 54
+4! + 55
+5! + 56
+6! )
+= 625e¡5( 1
+24 + 5
+120 + 25
+720 ) = 625e¡5( 1
+12 + 5
+144 ) = 0:49716:
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  N(5; 5) with a continuity correction is required: find P(31
+2 < X < 61
+2 ) in
+N(5; 5). Corresponding r-values are 3 1
+2
+¡5
+p
+5
+= ¡0:6708 and 6 1
+2
+¡5
+p
+5
+= +0:6708.
+\[P(z < ¡0:6708) = P(z > +0:6708) = 0:25117,\] and so the required probability
+is 1 ¡ 2 £ 0:25117 = 0:49766. The error is 0.0005, and % error
+0:0005
+0:49716 £ 100 = 0:1%:
+Using the continuity correction with ¹ = 5, and calculating values which we
+near to the mean, leads to a very good approximation.
+(c) P(0) = e¡¸t = P(T > t) for the first event observed = 1 ¡ F(t). Hence
+F(t) = 1 ¡ e¡¸t and g(t) = F
+0(t) = ¸e¡¸t. (t ¸ 0; ¸ > 0).
+[g(t) = 0 unless t ¸ 0; ¸ > 0 since neither time of events nor rate of events
+occurring can be negative.] Use integration by parts.
+E[T] =
+Z 1
+0
+¸te¡¸tdt =
+Z 1
+0
+td(¡e¡¸t) = [¡te¡¸t]1
+0 +
+Z 1
+0
+e¡¸tdt
+= [¡
+1
+¸
+e¡¸t]1
+0 = 1=¸:
+E[T2] =
+Z 1
+0
+¸t2e¡¸tdt =
+Z 1
+0
+t2d(¡e¡¸t) = [¡t2e¡¸t]1
+0 +
+Z 1
+0
+2te¡¸tdt
+=
+2
+¸
+E[T] = 2=¸2:
+Hence V [T] =
+2
+¸2
+¡ (
+1
+¸
+)
+2
+= 1=¸2.
+8
+(d) ¸ = 5, so that E[T] = 0:2 and V [T] = 0:04. For n = 100, a sample mean
+¯ T is approximately N(0:2; 0:04
+100 ), and the range required is from 0.18 to 0.22,
+within 10\% of 0.2. The corresponding values of r are 0p:18¡0:2
+0:0004
+= ¡0:02
+0:02 = ¡1,
+and the other = +1. P(r > 1) = 0:1587 = P(r < ¡1) and so the probability
+between these values is 1 ¡ 2 £ 0:1587 = 0:6826.
+\end{enumerate}
+\end{document}

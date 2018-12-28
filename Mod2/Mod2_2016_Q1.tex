@@ -1,0 +1,168 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{framed}
+\usepackage{enumerate}
+\title{RSS_Jan_2019_Mod2}
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\begin{enumerate}
+    \item 
+
+Question 1
+X  Poisson() x = 0; 1; 2; : : :
+PX(x) =
+xe��
+x!
+(i)
+PX(x + 1) =
+x+1e��
+(x + 1)!
+[1]
+=
+
+(x + 1)
+xe��
+x!
+[1]
+=
+
+(x + 1)
+Px(x) [1]
+(ii)
+E(X) =
+1X
+x=0
+xP(X = x)
+=
+1X
+x=0
+x
+xe��
+x!
+[1]
+= 
+1X
+x=1
+x��1e��
+(x �� 1)!
+= 
+1X
+y=0
+ye��
+y!
+y = x �� 1 [1]
+=   1 as sum of density
+=  [1]
+E(X(X �� 1)) =
+1X
+x=0
+x(x �� 1)P(X = x)
+=
+1X
+x=2
+x(x �� 1)
+xe��
+x!
+= 2
+1X
+x=2
+x��2e��
+(x �� 2)!
+[1]
+= 2
+1X
+y=0
+ye��
+y!
+y = x �� 2
+= 2  1 as sum of density
+= 2 [1]
+Var(X) = E(X(X �� 1)) + E(X) �� (E(X))2
+= 2 +  �� 2 [1]
+= 
+(iii) Y  Poisson() independent of X.
+PW(w) =
+Xw
+x=0
+P(X = x)P(Y = w �� x):
+=
+Xw
+x=0
+xe��
+x!
+w��xe��
+(w �� x)!
+[1]
+=
+Xw
+x=0
+
+
+ + 
+x e��
+x!
+
+
+ + 
+w��x
+
+e��( + )w
+(w �� x)!
+[1]
+=
+e��(+)( + )w
+w!
+Xw
+x=0
+w!
+x!(w �� x)!
+
+
+
+ + 
+x 
+
+ + 
+w��x
+[1]
+=
+( + )we��(+)
+w!
+[1]
+) W  Poisson( + ).
+(iv) (a) Two conveyor belts - type C and D.
+X =number of breakdowns per day on C.
+Y =number of breakdowns per day on D.
+X  Poisson( = 1:5)
+Y  Poisson( = 0:5)
+P(exactly one breakdown) = P(X = 1; Y = 0) + P(X = 0; Y = 1)
+= P(X = 1)  P(Y = 0) + P(X = 0)  P(Y = 1) [1]
+= 1:5e��1:5  e��0:5 + e��1:5  0:5e��0:5
+= e��2(1:5 + 0:5)
+= 2e��2 [1]
+= 0:2707
+P(1 breakdown on Cjexactly one breakdown) =
+P(X = 1; Y = 0)
+P(exactly one breakdown)
+=
+1:5e��1:5  e��0:5
+2e��2 [1]
+=
+1:5
+2
+=
+3
+4
+[1]
+(b) In 5 days, the rate of occurrence of failures is 52 = 10. Let T=
+number of failures in 5 days. Then
+T  Poisson(10)
+[1,1]
+P(T  1) = 0:0005 [1]

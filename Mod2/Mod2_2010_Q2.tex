@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{framed}
+\usepackage{enumerate}
+\title{RSS_Jan_2019_Mod2}
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+Higher Certificate, Module 2, 2010. Question 2
+
+\section{Introduction}
+
+\begin{enumerate}
+    \item 
+W ~ N(24, 1)
+(i) P(W > 25) = 1 − ⎟⎠⎞⎜⎝⎛−Φ12425 = 1 − Φ(1) = 1 − 0.8413 = 0.1587.
+(ii) (a) P(C = 0) = P(W ≤ 25) = Φ(1) = 0.8413.
+P(C = 5) = P(25 < W ≤ 26)
+= ⎟⎠⎞⎜⎝⎛−Φ12426− Φ(1) = Φ(2) − Φ(1) = 0.9772 − 0.8413 = 0.1359.
+P(C = 10) = P(26 < W ≤ 27)
+= ⎟⎠⎞⎜⎝⎛−Φ12427− Φ(2) = Φ(3) − Φ(2) = 0.9987 − 0.9772 = 0.0215.
+(b) We have the following for C.
+c
+0
+5
+10
+15
+P(C = c)
+0.8413
+0.1359
+0.0215
+0.0013
+c P(C = c)
+0
+0.6795
+0.215
+0.0195
+c2 P(C = c)
+0
+3.3975
+2.15
+0.2925
+So E(C) = row total for the "c P(C = c)" row = 0.914.
+Also, E(C2) = row total for the "c2 P(C = c)" row = 5.84,
+and therefore Var(C) = 5.84 − 0.9142 = 5.005.
+(c) E(CT) = 91400, Var(CT) = 500500.
+We use a Normal approximation to the distribution of CT.
+The upper 95% point of this is 91400 + (1.6449×√500500) = 92564.
+(d) Independence may hold for people travelling separately but is most unlikely to hold for families or other groups – they may, for example, try to equalise their loads to minimise the excess cost – and this will affect the variance of CT.
+"100 000" must be a rough figure for the total number of passengers.
+The distribution of C is clearly positively skew, so a large number of passengers is needed to validate the use of a Normal approximation for CT. The given total of 100 000 (even as a rough figure) is probably large enough.
+
+\end{enumerate}
+
+\end{document}

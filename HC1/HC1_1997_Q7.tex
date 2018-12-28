@@ -1,0 +1,152 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{enumerate}
+\usepackage{framed}
+
+\begin{document}
+
+
+\section{Introduction}
+\begin{enumerate}[(i)]
+\item 7. (i) Yi = ¯xi + ei, i = 1; 2; ¢ ¢ ¢ ; n, feig i.i.d. N(0; ¾2).
+Likelihood L =
+Yn
+i=1
+f
+1
+¾
+p
+2¼
+exp[¡
+(yi ¡ ¯xi)2
+2¾2 ]g,
+lnL = ¤ = ¡n ln(¾
+p
+2¼) ¡ 1
+2¾2
+Xn
+i=1
+(yi ¡ ¯xi)2.
+@¤
+@¯
+= 0 +
+1
+2¾2
+¢ 2
+Xn
+i=1
+(yi ¡ ¯xi)xi and is zero when
+P
+(yi ¡ ˆ ¯xi)xi = 0 i.e.
+X
+yixi = ˆ ¯
+X
+xi
+2 or ¯ˆ1 =
+P
+Pyixi
+x2
+i
+.
+@2¤
+@¯2 = ¡
+P
+x2
+i
+¾2 , confirming maximum.
+(ii) If now feig are N(0; ¾2xi),
+L =
+Yn
+i=1
+f
+1
+¾
+p
+2¼xi
+exp[¡
+(yi ¡ ¯xi)2
+2xi¾2 ]g
+and ¤ = ¡n ln(¾
+p
+2¼) ¡ n
+2
+Xn
+i=1
+ln xi ¡
+1
+2¾2
+Xn
+i=1
+(yi ¡ ¯xi)2
+xi
+.
+@¤
+@¯
+= 0 + 0 +
+1
+2¾2
+¢
+Xn
+i=1
+1
+xi
+2(yi ¡ ¯xi)xi =
+1
+¾2
+Xn
+i=1
+(yi ¡ ¯xi).
+This is zero when
+X
+(yi ¡ ˆ ¯xi) = 0 i.e.
+X
+yi = ˆ ¯
+X
+xi or ¯ˆ2 =
+P
+Pyi
+xi
+.
+6
+@2¤
+@¯2 = ¡
+P
+xi
+¾2 , confirming maximum.
+The first case (i) has L = Constant¡ 1
+2¾2
+P
+e2
+i , considered as a function of ¯;
+similarly case (ii) has L = Constant ¡ 1
+2¾2
+P e2
+i
+xi
+. Considering as a function
+of ¯. Thus L is maximized when (i)
+P
+e2
+i or (ii)
+P
+e2
+i =xi is minimized (note
+the - sign).
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\item 
+SUM
+X 4.3 4.9 6.5 5.7 7.2 8.3 8.4 9.6 10.1 65.0
+Y 123 156 183 183 204 234 270 273 324 1950
+XY 528.9 764.4 1043.1 1189.5 1468.8 1942.2 2268.0 2620.8 3272.4 15098.1
+X2 18.49 24.01 32.49 42.25 51.84 68.89 70.56 92.16 102.01 502.70
+7
+n = 9. ˆ ¯1 = 15098:1
+502:7 = 30:034. ˆ ¯2 = 1950
+65 = 30:000
+The regression lines are indistinguishable between the two models. However,
+the residuals (difference between y and the value on the line at the same x
+- value - i.e. the vertical differences) show a definite tendency to increase as
+x increases. For this reason, model (ii) is likely to be better.
+\end{enumerate}
+\end{document}

@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{framed}
+\usepackage{enumerate}
+\title{RSS_Jan_2019_Mod2}
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\begin{enumerate}
+    \item Higher Certificate, Module 2, 2009. Question 4
+(i) X ~ Poisson(2).
+(a) P(X = 0) = 0.1353 from tables (or as e–2).
+(b) P(X > 2) = 1 − P(X ≤ 2) = 1 – 0.6767 from tables, or by use of
+1−222122e−⎛⎞++⎜⎟⎝⎠
+= 0.3233.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+(ii) With obvious notation, XA ~ Poisson(0.2) and XB ~ Poisson(0.3).
+(a) P(no flaws) = P(XA = 0 and XB = 0)
+= P(XA = 0).P(XB = 0) by independence
+= e–0.2 e–0.3 = 0.8187 × 0.7408 = 0.6065.
+[Alternative method: XA + XB ~ Poisson(0.5), so P(XA + XB = 0) = e–0.5 = 0.6065.]
+(b) P(exactly one flaw) = P{(XA = 0 and XB = 1) or (XB = 0 and XA = 1)}
+= P(XA = 0 and XB = 1) + P(XB = 0 and XA = 1)
+= P(XA = 0).P(XB = 1) + P(XB = 0).P(XA = 1) by independence
+= e–0.2 × (0.3)e–0.3 + e–0.3 × (0.2)e–0.2
+= 0.3033 [Or by use of the alterative method as above.]
+%%%%%%%%%%%%%5
+(iii) (a) ()()()()7flaws7flaws7flawsPAPPAP=
+()()()()()()7flaws7flaws7flawsPAPAPAPAPBP=+
+47476740.757!460.750.257!7!eee−−−×=⎛⎞⎛×+×⎜⎟⎜⎝⎠⎝ = 0.5647.
+%%%%%%%%%%%%%%%%%%%
+(b) Repeating this calculation for 8 flaws:
+()()()()8flaws8flaws8flawsPAPPAP=
+()()()()()()8flaws8flaws8flawsPAPAPAPAPBP=+
+48486840.758!460.750.258!8!eee−−−×=⎛⎞⎛×+×⎜⎟⎜⎝⎠⎝ = 0.4638.
+
+The rigging contains more rope from company A than from B; but the rope from B is less reliable than that from A. Thus, as we find increasingly many flaws in the rope, the probability that it came from A reduces to less than ½.
+\end{enumerate}
+
+\end{document}

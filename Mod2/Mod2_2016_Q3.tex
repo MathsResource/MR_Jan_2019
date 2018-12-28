@@ -1,0 +1,111 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{framed}
+\usepackage{enumerate}
+\title{RSS_Jan_2019_Mod2}
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\begin{enumerate}
+    \item Question 3 (a) Let L be the volume of the large bottle in litres.
+Let S be the volume of the small bottle in litres.
+L  N(1:5; 0:012)
+S  N(0:5; 0:0082)
+(i) Take a random sample of 1 large bottle and 3 small bottles.
+P(L > 3S) = P(L �� 3S > 0) [1]
+Let Y = L �� 3S.
+E(L �� 3S) = E(L) �� 3E(S) = 1:5 �� 3  0:5 = 0
+[1]
+Var(L��3S) = Var(L)+9Var(S) = 0:012+90:0082 = 0:000676
+6
+sd(L �� 3S) = 0:026
+NB The variance is not needed here, but some may not realise
+that. It is not necessary to calculate, or even mention, the vari-
+ance.
+P(Y > 0) = P
+
+Z >
+0 �� 0
+0:026
+
+= P(Z > 0)
+= 1 �� 0:5
+= 0:5 [1]
+(ii) Let T = 10L + 3S.
+E(10L + 3S) = 10E(L) + 3E(S) [1]
+= 10  1:5 + 3  0:5
+= 16:5 [1]
+Var(10L + 3S) = 102 Var(L) + 32 Var(S) [1]
+= 100  0:012 + 9  0:0082
+= 0:01 + 0:000576
+= 0:010576 [1]
+T is a linear combination of normal r.v.'s so T is also normal [1]
+T  N(16:5; 0:010576) [1]
+(b) n = 50,  = 30g and  = 5g.
+(i) As n is large the distribution of the sample mean tends to nor-
+mality by the Central Limit Theorem. [1]
+E( X
+) =  = 30g
+[1]
+Var( X
+) =
+2
+n
+=
+25
+50
+=
+1
+2
+[1]
+X
+ N(30; 0:5)
+(ii)
+P( X
+< 29) = P
+
+Z <
+29 �� 30
+p
+0:5
+
+[1]
+= P(Z < ��
+p
+2)
+= P(Z < ��1:41) [1]
+= P(Z > 1:41)
+= 1 �� P(Z < 1:41)
+= 1 �� 0:9207
+= 0:0793 [1]
+(iii) Sample of size n.
+P
+0
+@Z <
+29 �� 30
+p5
+n
+1
+A = 0:05 [1]
+)
+29 �� 30
+p5
+n
+< ��1:645 [1]
+��1 < ��1:645 
+5
+p
+n
+` [1]
+��
+p
+n < ��1:634  5
+p
+n > 8:225 [1]
+The minimum value of n is 68. [1]

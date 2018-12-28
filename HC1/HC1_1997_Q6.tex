@@ -1,0 +1,113 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{enumerate}
+\usepackage{framed}
+
+\begin{document}
+
+
+\section{Introduction}
+\begin{enumerate}[(i)]
+\item (i) P(X · ») =
+Z »
+0
+dx
+$\mu$
+= »
+$\mu$
+, for 0 · » · $\mu$; = 0 for » < 0; = 1 for » > $\mu$.
+E[X] =
+Z $\mu$
+0
+xdx
+$\mu$
+=
+1
+2$\mu$
+[x2]$\mu$
+0 = $\mu$
+2
+.
+E[x2] =
+Z $\mu$
+0
+x2dx
+$\mu$
+=
+1
+3$\mu$
+[x3]$\mu$
+0 = $\mu$2
+3
+; V [X] = E[x2] ¡ (E[X])2 = $\mu$2
+3 ¡ $\mu$2
+4 = $\mu$2
+12 .
+%%%%%%%%%%%%%%%%%%
+\item Sampled items chosen at random, hence fXig are independent. P(X · x) =
+x
+$\mu$ for each item, all are required to be · x, so probability for n items is (x
+$\mu$ )n,
+when 0 · x · $\mu$. This is F(X(n)), where X(n) is the sample maximum, and
+so f(x(n)) = F
+0(x(n)) = nxn¡1
+$\mu$n , when 0 · x · $\mu$, =0 otherwise.
+E[X(n)] =
+Z $\mu$
+0
+nxn
+$\mu$n dx = [ nxn+1
+(n + 1)$\mu$n ]$\mu$
+0 = n$\mu$
+n + 1
+,
+E[X2
+(n)] =
+Z $\mu$
+0
+nxn+1
+$\mu$n dx = [ nxn+2
+(n + 2)$\mu$n ]$\mu$
+0 = n$\mu$2
+n + 2
+.
+5
+Hence
+V [X(n)] = n$\mu$2
+n+2 ¡ ( n$\mu$
+n+1)2 = $\mu$2f n
+n+2 ¡ n2
+(n+1)2 g
+= $\mu$2
+(n+1)2(n+2)fn(n + 1)2 ¡ n2(n + 2)g = n$\mu$2
+(n+1)2(n+2) :
+n+1
+n X(n) is unbiased for estimating $\mu$.
+V ar[n+1
+n X(n)] = (n+1
+n )2 n$\mu$2
+(n+1)2(n+2) = $\mu$2
+n(n+2) .
+The likelihood of a sample fx1; ¢ ¢ ¢ ; xng is 1
+$\mu$n , (0 · x · $\mu$).
+Setting ˆ$\mu$ = X(n), where is the lowest value of $\mu$ possible on the evidence of
+the sample values, gives the largest possible value of the likelihood. Hence
+X(n) is the m.l. estimator.
+%%%%%%%%%%%%%%%%%%
+\item Method of moments estimator ˜$\mu$ is found from setting ¯x = E[x], i.e., ¯x = 1
+2
+˜$\mu$
+so that ˜$\mu$ = 2¯x. V [˜$\mu$] = 4V [¯x] = 4
+nV [x] = 4
+n ¢ $\mu$2
+12 = $\mu$2=3n.
+%%%%%%%%%%%%%%%%%%
+\item n+1
+n X(n) is unbiased, and X(n) very nearly so if n is at all large; their
+variances are much smaller than that for ˜$\mu$, the estimator based on the mean.
+Hence, use X(n) if there are a reasonable number of offcuts; if only few,
+multiply by the factor n+1
+n .
+\end{enumerate}
+\end{document}

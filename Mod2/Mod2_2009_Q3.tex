@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{framed}
+\usepackage{enumerate}
+\title{RSS_Jan_2019_Mod2}
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+%- Higher Certificate, Module 2, 2009. Question 3
+\section{Introduction}
+
+\begin{enumerate}
+    \item ()()()()2011!xxeEXEXXXEXxxx\lambda\lambda−∞==−+=+−⎡⎤⎣⎦Σ
+()()2222201.2!!xyxyeexy\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda−∞∞−−===+=+=+=+−ΣΣ
+∴ Var(X) = E(X 2) − {E(X)}2 = \lambda(\lambda + 1) − \lambda2 = \lambda.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item Since X and Y are independent, we have, for w = 0, 1, 2, …,
+()()()()00.!!xwxwwxxeePWwPXxPYwxxwx\lambda\mu\lambda\mu−−======−=−ΣΣ
+()()()()0!!!wxwxwxeexwxw\lambda\mu\lambda\mu\lambda\mu\lambda\mu−−+−+=+==−Σ,
+noting that
+()( 0!!!xwxwwxwxwx\lambda\mu\lambda\mu−=+−Σ
+011xwwxwx\lambda\lambda\lambda\mu\lambda\mu−=⎛⎞⎛⎞⎛⎞ =−=⎜⎟⎜⎟⎜⎟++⎝⎠⎝⎠⎝⎠Σ
+(by consideration of the binomial distribution).
+
+\begin{itemize}
+\item Hence $W \sim$ Poisson$(\lambda + \mu)$. Thus, from the question and part (i), $E(W) = Var(W) = \lambda + \mu$.
+\item 
+Since $V$ is also the sum of independent Poison(\lambda) and Poisson($\mu$) variables, $V \sim$ Poisson$(\lambda + \mu)$ by the above argument, i.e. $V$ and $W$ have the same distribution.
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  Since W (= X + Y) and Z are independent, T = W − Z is the difference of two independent Poisson variables, i.e. Poisson(\lambda + \mu) − Poisson(\lambda). 
+
+\begin{itemize}
+\item It follows that $E(T) = \lambda + \mu − \lambda = \mu$, $Var(T) = Var(W) + Var(Z) = \lambda + \mu + \lambda = 2\lambda + \mu$.
+\item However, $U = V − Z = Y + Z − Z = Y$, so $U \sim Poisson(\mu)$ and therefore $E(U) = Var(U) = \mu$.
+\item $P(U < 0) = 0$ because a Poisson variable cannot be negative, but the difference of two independent Poisson variables can be negative; for example, X + Y = 1 and Z = 2 arises with positive probability 22ee\lambda\lambda\mu\lambda−−−×, and this gives $T = −1$.
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{enumerate}
+\end{document}

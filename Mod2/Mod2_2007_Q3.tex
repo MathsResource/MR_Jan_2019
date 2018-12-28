@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{framed}
+\usepackage{enumerate}
+\title{RSS_Jan_2019_Mod2}
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+%- Higher Certificate, Module 2, 2007. Question 3
+\section{Introduction}
+
+\begin{enumerate}
+    \item 
+
+ Suppose the coin is tossed n times and there are x heads and therefore (n – x) tails. The number of possible orders in which this can happen is ( !or!!nnxxnx⎛⎞⎜⎟−⎝⎠. The probability of each of these orders for independent tosses is ()1nxxpp−×−, so the required overall probability is ()()1nxxnPXxppx−⎛⎞==−⎜⎟⎝⎠, for x$ = 0, 1, …, n$.
+
+A Normal approximation with the same mean and variance as this binomial distribution, i.e. N(np, np(1 – p)), is satisfactory when n is fairly large and p is not near 0 or 1. As a guideline, the value of np (or of n(1 – p) if p is near 1) should be at least 5. A continuity correction should be used.
+\item For n = 20 and p = 0.2, the Normal approximation is N(4, 3.2). Using a continuity correction, P(X ≤ 3) is approximated by the area under the pdf of the Normal distribution up to 3.5. Thus the required probability is
+()3.540.279510.6100.3903.2−⎛⎞Φ=Φ−=−=⎜⎟⎝⎠.
+The Society's "Statistical tables for use in examinations" give the exact probability from B(20, 0.2) as P(X ≤ 3) = 0.411. Hence the percentage error is 100(0.390 – 0.411)/0.411 which is 5.11% (in the negative direction). This is not very satisfactory. Here, n is not large and p is fairly small; the guideline np ≥ 5 is not satisfied. The binomial distribution is not well approximated by the Normal distribution (it will be noticeably positively skew as p < ½).
+\item There must be a head at the final toss and (x – 1) heads in the other (n – 1) tosses. So the probability is
+()()()()()111111111nxnxxnnPNnpppppxx −−−−−−−⎛⎞⎛⎞==×−=−⎜⎟⎜⎟−−⎝⎠⎝⎠,
+for n = x, x + 1, x + 2, … . For p = 0.2, x = 3, n = 20, this gives
+()()()()31731719!19.180.20.80.20.80.03082!17!2.1==.
+From the tables, P(X = 3) for the B(20, 0.2) distribution is 0.4114 – 0.2061 = 0.2053. The previous probability is x/n times this.
+\end{enumerate}
+
+\end{document}

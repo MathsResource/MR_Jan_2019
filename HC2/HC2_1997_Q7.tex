@@ -1,0 +1,113 @@
+7. (i) If the process is producing individual rejects “at random”, i.e. singly and
+at unpredictable instants of time, but at a constant rate over the period
+of study, then the number of rejects during a fixed time of observation will
+follow a Poisson distribution.
+(ii) The mean must be estimated from the data:
+¯x =
+1
+160
+(0 + 49 + 86 + 51 + 44 + 10) =
+240
+160
+= 1:5
+Expected frequencies are 160e¡1:5(1:5)r=r! for r = 0; 1; ¢ ¢ ¢.
+r : 0 1 2 3 4 ¸ 5 TOTAL
+Obs: 38 49 43 17 11 2 160
+Exp: 35:70 53:55 40:16 20:08 7:53 2:98 160
+(The last two cells may be combined, but this is not really necessary.)
+Â2 has 4 d.f., since 1 parameter had to be estimated and the totals of Obs
+and Exp have to be the same.
+15
+Â2
+(4) = (38¡35:70)2
+35:70 + (49¡53:55)2
+53:55 + (43¡40:16)2
+40:16 + (17¡20:08)2
+20:08 + (11¡7:53)2
+7:53 + (2¡2:98)2
+2:98
+= 3:13; not significance.
+There is no reason to reject the hypothesis that the data follow a Poisson
+distribution. Therefore the number of rejects per unit time is likely to remain
+reasonably constant and they do not arise in any regular or predictable way.
+8. (a). The F distribution with (v1; v2) degrees of freedom is the distribution of the
+ratio of two Â2 distributions - specifically F(v1; v2) = Â(v1)
+v1
+=
+Â(v2)
+v2
+. Therefore,
+two independent estimates of variance from the same population, based respectively
+on (v1 + 1) and (v2 + 1) observations may be compared in an F
+distribution. An example of this is in (b), assuming observations normally
+distributed.
+Also, two sums of squares of normally distributed variables can be compared.
+An examples is in the analysis of designed experiments (see Question
+2), where the residual sum of squares provides an estimate of natural variation,
+¾2, and the treatment sum of squares also provides an estimate of
+this on the Null Hypothesis of no treatment differences: the actual estimates
+are the sums of squares divided by their degrees of freedom, i.e. the “mean
+squares”. Hence these mean squares can be compared in an F-test, as long
+as observations are normally distributed.
+Similarly, in linear regression, the sum of squares of deviations from the fitted
+“live” provides a test of fit: sums of squares for regression is Â2
+(p¡1) when
+p x-variables are used, and the residual sum of squares is Â2
+(n¡p). Hence two
+mean squares can be found whose ratio will be F(p ¡ 1; n ¡ p) if a linear fit
+is adequate.
+(b). For men, v1 = 12 and for women, v2 = 10. Calculate s2 = 1
+v¡1
+P
+(xi¡¯x)2 for
+each sample. For men, s21
+= 30:3333 and for women s22
+= 7:3778, F(11;9) =
+s21
+s22
+= 4:1114¤. Since this is significant at 5% on the Null Hypothesis that the
+two variances are equal, we must reject that hypothesis.. Each set of data is
+assumed to be from a normal population, there is some suggestion that this
+may not be true for the men, but rather there are two sub-populations.
+(v2¡1)s22 ¾2
+2
+¥ (v1¡1)s21
+¾2
+1
+is the ratio Â(v2¡1)2
+Â(v1¡1)2
+i.e. F(v2 ¡ 1; v1 ¡ 1). Therefore
+v2¡1
+v1¡1 ¢ s22
+s21
+¢ ¾2
+1
+¾2
+2
+» F(v2 ¡1; v1 ¡1), or ¾2
+1
+¾2
+2
+= (v1¡1)s21
+(v2¡1)s22
+F(v2 ¡1; v1 ¡1). Limits for
+¾2
+1
+¾2
+2
+are 11
+9 ¢4:1114¢F(9; 11), where the upper and lower 21
+2% points of F(9; 11)
+are to be used. The upper point is 3.59. For the lower point, use the fact
+16
+that P(F > F¤) = P( 1
+F < 1
+F¤ ), where F¤ is the critical value. But 1
+F is also
+an F-variable, with upper and lower degrees of freedom interchanged. The
+upper 21
+2% point of F(11; 9) is 3.92. Hence the required lower 21
+2% points
+1=3:92 = 0:255. The 95% confidence interval is 5:025£0:255 to 5:025£3:59
+i.e. (1.2814 to 18.04).
+17

@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{framed}
+\usepackage{enumerate}
+\title{RSS_Jan_2019_Mod2}
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+Higher Certificate, Module 2, 2010. Question 1
+
+\section{Introduction}
+
+\begin{enumerate}
+    \item
+E(X) = 2p Var(X) = 2p(1 – p) P(X = 2) = p2
+P(X = 0 | X < 2) = ()()()()202021PXXPXPXp=∩<⎡⎤=⎣⎦=<− = ()221111pppp−−=−+
+P(X = 1 | X < 2) = ()()()()212121PXXPXPXp=∩<⎡⎤=⎣⎦=<− = ()221211ppppp−=−+
+
+\smallskip
+[Alternatively, $P(X = 1 | X < 2)$ may be obtained as 1 − P(X = 0 | X < 2).]
+    \item Each X is the number of successes in two Bernoulli trials with probability p of success. So, noting that the Xs are independent and p is the same for all of them, Y is the number of successes in 200 such trials and we have $Y \sim B(200, p)$.
+    \item With p = 2/3, Y ~ N400400,39⎛⎜⎝⎠, approximately.
+()()140.5(4003)140111075203PY.⎛⎞−>≈−Φ=−Φ⎜⎟⎝⎠
+(where $\Phi$ denotes the standard Normal cdf as usual)
+\[= 1 − 0.859 = 0.141.\]
+    \item With p = 0.02, Y ~ Poisson(4), approximately.
+\[P(Y > 2) = 1 – P(Y \leq 2)\]
+= 1 – 0.2381 from tables; or by use of 1−244142e−⎛⎞++⎜⎟⎝⎠
+= 0.762 approximately.
+    \item Now $p = 0.98$.
+Consider 200 − Y ~ B(200, 0.02) ~ Poisson(4) approximately.
+P(Y ≤ 197) = P(200 − Y ≥ 3)
+≈ 1 – P(Poisson(4) ≤ 2) = 0.762 approximately (as in (c)).
+\end{enumerate}
+\end{document}
