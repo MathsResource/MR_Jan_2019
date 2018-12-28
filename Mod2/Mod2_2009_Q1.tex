@@ -1,11 +1,28 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{framed}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
-\title{RSS_Jan_2019_Mod2}
-\author{kobriendublin }
-\date{December 2018}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
 
 %- Higher Certificate, Module 2, 2009. Question 1
@@ -13,16 +30,18 @@
 \section{Introduction}
 
 \begin{enumerate}
-    \item The number of different poker hands is 5252!525150494855!47!54321⎛⎞××××==⎜⎟××××⎝⎠
+    \item The number of different poker hands is
+    \[ {52 \choose 5}  = \frac{52!}{5! \times 47!}  = \frac{52 \times 51 \times 50 \times 49 \times 48 \times 47!}{5! \times 47!} \]\
+   
 = 2598960.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item The face value of the pair can be chosen in 13 ways, and when this has been done the face value of the triple can be chosen in 12 ways. 
 \begin{itemize}
-\item Since "AABBB" and "AAABB" are different, the total number of combinations of face values yielding different full house hands is 13×12 = 156.
+\item Since "AABBB" and "AAABB" are different, the total number of combinations of face values yielding different full house hands is $13\times 12 = 156$.
 
 \item For any one of these combinations, the suits of the pair can be chosen in = 6 ways and the suits of the triple can be chosen in = 4 ways. 
 
-\item Hence there are 6×4 = 24 ways of choosing the suits for a given combination of face values. It follows that there are 24×156 = 3744 possible different full house hands.
+\item Hence there are $6\times 4 = 24$ ways of choosing the suits for a given combination of face values. It follows that there are $24 \times 156 = 3744$ possible different full house hands.
 \end{itemize}
 
 ⎟⎟⎠⎞⎜⎜⎝⎛24⎟⎟⎠⎞⎜⎜⎝⎛34
@@ -34,6 +53,6 @@ The face values of the remaining 3 cards can be chosen in = 220 ways. The suits 
 Putting these results together, we have that there are $13×6×220×64 (= 1098240)$ possible different "one pair" hands. 
 
 As all hands are equiprobable, the chance of a "one pair" hand is
-136220643522598960833×××= = 0.423 to 3 significant figures.\end{enumerate}
+\[136220643522598960833×××= = 0.423\] to 3 significant figures.\end{enumerate}
 
 \end{document}
