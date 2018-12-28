@@ -1,50 +1,67 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{framed}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
-\title{RSS_Jan_2019_Mod2}
-\author{kobriendublin }
-\date{December 2018}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
-\begin{document}
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
 
-\maketitle
+\setcounter{MaxMatrixCols}{10}
 
-\section{Introduction}
-
+\section{Higher Certificate, Module 2, 2008. Question 4 }
 \begin{enumerate}
-    \item 
-\end{enumerate}
-Higher Certificate, Module 2, 2008. Question 4
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \item  ()()()111!1!1xxXXeepxpxxxxxλλλλλλ−+−+===+++.
-This can be used recursively to find the probability mass function. Start with (0)Xpeλ−=; then (1)(0)XXpp λλλ−==, 2(2)(/2)(1)(/2)XXpp λλλ−==, and so on.
+\item  \[()()()111!1!1xxXXeepxpxxxxx\lambda\lambda\lambda\lambda\lambda\lambda−+−+===+++.\]
+This can be used recursively to find the probability mass function. Start with \[(0)Xpe\lambda−=; then (1)(0)XXpp \lambda\lambda\lambda−==, 2(2)(/2)(1)(/2)XXpp \lambda\lambda\lambda−==\], and so on.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \item  E(X) = ()()10110!1!1!!xxxyxxxyeeeexxxxyλλλλλλλλλλλ−−−−−∞∞∞∞=======−−ΣΣΣΣ ,
+\item Expected Value  \[E(X) = ()()10110!1!1!!xxxyxxxyeeeexxxxy\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda−−−−−∞∞∞∞=======−−ΣΣΣΣ ,\]
 putting y = x − 1 in the last summation and noticing that this re-creates the probability mass function. Similarly,
-E[X(X − 1)] =()()()220221!2!2!xλ − ,
+\[E[X(X − 1)] =()()()220221!2!2!x\lambda − ,\]
 putting y = x − 2 in the last summation.
-Hence Var(X) = E[X(X − 1)] + E(X) − {E(X)}2 = λ2 + λ − λ2 = λ, as required.
-(iii) P(W = w) = ()()()()00!!!wxwxwwxwxxxweeeexxwxwwλμλμλμ λμλμλμ−+−−−−+−==+⎛⎞×==⎜⎟−⎝⎠ΣΣ,
-confirming that W ~ Poisson(λ + μ). Since the general parameter λ has been shown in part (ii) to represent the mean, it follows that E(W) = λ + μ.
-(iv) (a) P(exactly one breakdown)
-= P(A fails once, B does not fail) + P(B fails once, A does not fail)
-= P(A fails once) × P(B does not fail)
-+ P(B fails once) × P(A does not fail)
-= (λe−λ×e−μ) + (μe−μ×e−λ) = (λ + μ)e−(λ + μ).
+Hence \[Var(X) = E[X(X − 1)] + E(X) − {E(X)}2 = \lambda^2 + \lambda − \lambda^2 = \lambda\], as required.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item P(W = w) = ()()()()00!!!wxwxwwxwxxxweeeexxwxww\lambdaμ\lambdaμ\lambdaμ \lambdaμ\lambdaμ\lambdaμ−+−−−−+−==+⎛⎞×==⎜⎟−⎝⎠ΣΣ,
+confirming that $W ~ Poisson(\lambda + μ)$. Since the general parameter \lambda has been shown in part (ii) to represent the mean, it follows that $E(W) = \lambda + μ$.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \item (a) 
+\begin{eqnarray} 
+P(exactly one breakdown)
+&=& P(\mbox{A fails once}, \mbox{B does not fail}}) + P(\mbox{B fails once}, \mbox{A does not fail}})\\
+&=& P(\mbox{A fails once}) × P(\mbox{B does not fail}})
++ P(\mbox{B fails once}) × P(\mbox{A does not fail}})\\
+&=& (\lambdae−\lambda×e−μ) + (μe−μ×e−\lambda) = (\lambda + μ)e−(\lambda + μ).
+\end{eqnarray}
 ∴the required conditional probability is
-()( fails once, does not fail)()PABeλμλμ−++
-()()()2eeeλμλμλλλμλμ−−−+×==++ = 0.8.
+()( fails once, does not fail}})()PABe\lambdaμ\lambdaμ−++
+()()()2eee\lambdaμ\lambdaμ\lambda\lambda\lambdaμ\lambdaμ−−−+×==++ = 0.8.
 Solution continued on next page
-(b) W = total number of breakdowns ~ Poisson(2.5).
-∴ P(W > 2) = 1 − P(W ≤ 2)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \item W = total number of breakdowns ~ Poisson(2.5).
+∴ \[P(W > 2) = 1 − P(W ≤ 2)\]
 ()2.52112.5(2.5/2)e−=−++
 2.516.625e−=− = 1 – 0.5438 = 0.456
 (alternatively, this can be obtained from the cumulative Poisson probabilities in the Society's Statistical tables for use in examinations).
-(c) T ~ Poisson(50×2.5) or Poisson(125), which we approximate by N(125, 125).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \item $T ~ Poisson(50×2.5)$ or $Poisson(125)$, which we approximate by $N(125, 125)$.
 The upper 5% point of N(125, 125) is 125 + 1.6449√125 = 143.4.
 Since T0.95 must be an integer and the question says "will be exceeded on at most 5% of days", we round up to T0.95 = 144.
 \end{enumerate}
 
-\end{document}
 \end{document}
