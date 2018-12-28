@@ -1,11 +1,28 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{framed}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
-\title{RSS_Jan_2019_Mod2}
-\author{kobriendublin }
-\date{December 2018}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
 
 Higher Certificate, Module 2, 2010. Question 1
@@ -14,24 +31,28 @@ Higher Certificate, Module 2, 2010. Question 1
 
 \begin{enumerate}
     \item
-E(X) = 2p Var(X) = 2p(1 – p) P(X = 2) = p2
+$E(X) = 2p$ $Var(X) = 2p(1 – p)$ $P(X = 2) = p2$
 P(X = 0 | X < 2) = ()()()()202021PXXPXPXp=∩<⎡⎤=⎣⎦=<− = ()221111pppp−−=−+
 P(X = 1 | X < 2) = ()()()()212121PXXPXPXp=∩<⎡⎤=⎣⎦=<− = ()221211ppppp−=−+
 
 \smallskip
 [Alternatively, $P(X = 1 | X < 2)$ may be obtained as 1 − P(X = 0 | X < 2).]
-    \item Each X is the number of successes in two Bernoulli trials with probability p of success. So, noting that the Xs are independent and p is the same for all of them, Y is the number of successes in 200 such trials and we have $Y \sim B(200, p)$.
+    \item Each X is the number of successes in two Bernoulli trials with probability p of success. 
+    \item So, noting that the Xs are independent and p is the same for all of them, Y is the number of successes in 200 such trials and we have $Y \sim B(200, p)$.
     \item With p = 2/3, Y ~ N400400,39⎛⎜⎝⎠, approximately.
 ()()140.5(4003)140111075203PY.⎛⎞−>≈−Φ=−Φ⎜⎟⎝⎠
 (where $\Phi$ denotes the standard Normal cdf as usual)
 \[= 1 − 0.859 = 0.141.\]
-    \item With p = 0.02, Y ~ Poisson(4), approximately.
-\[P(Y > 2) = 1 – P(Y \leq 2)\]
-= 1 – 0.2381 from tables; or by use of 1−244142e−⎛⎞++⎜⎟⎝⎠
-= 0.762 approximately.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item With p = 0.02, Y ~ Poisson(4), approximately.
+\begin{eqnarray}
+P(Y > 2) &=& 1 – P(Y \leq 2)\\
+&=&  1 – 0.2381 from tables; or by use of 1−244142e−⎛⎞++⎜⎟⎝⎠\\
+&=&  0.762 \mbox{approximately}.
+\end{eqnarray}
     \item Now $p = 0.98$.
 Consider 200 − Y ~ B(200, 0.02) ~ Poisson(4) approximately.
-P(Y ≤ 197) = P(200 − Y ≥ 3)
-≈ 1 – P(Poisson(4) ≤ 2) = 0.762 approximately (as in (c)).
+\[P(Y ≤ 197) = P(200 − Y ≥ 3)\]
+\[≈ 1 – P(Poisson(4) ≤ 2)\] = 0.762 approximately (as in (c)).
 \end{enumerate}
 \end{document}
