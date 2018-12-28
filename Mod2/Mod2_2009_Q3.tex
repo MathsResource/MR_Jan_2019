@@ -1,20 +1,41 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{framed}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
-\title{RSS_Jan_2019_Mod2}
-\author{kobriendublin }
-\date{December 2018}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
 
 %- Higher Certificate, Module 2, 2009. Question 3
 \section{Introduction}
 
+
+\[ {\displaystyle {\frac {\lambda ^{k}e^{-\lambda }}{k!}}} \]
+
 \begin{enumerate}
-    \item ()()()()2011!xxeEXEXXXEXxxx\lambda\lambda−∞==−+=+−⎡⎤⎣⎦Σ
-()()2222201.2!!xyxyeexy\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda−∞∞−−===+=+=+=+−ΣΣ
-∴ Var(X) = E(X 2) − {E(X)}2 = \lambda(\lambda + 1) − \lambda2 = \lambda.
+    \item Important Identity
+    \[()()()()2011!xxeEXEXXXEXxxx\lambda\lambda−∞==−+=+−⎡⎤⎣⎦Σ
+()()2222201.2!!xyxyeexy\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda\lambda−∞∞−−===+=+=+=+−ΣΣ\]
+\[\therefore Var(X) = E(X^ 2) - {E(X)}^2 = \lambda(\lambda + 1) − \lambda^2 = \lambda.\]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item Since X and Y are independent, we have, for w = 0, 1, 2, …,
@@ -31,12 +52,12 @@ noting that
 Since $V$ is also the sum of independent Poison(\lambda) and Poisson($\mu$) variables, $V \sim$ Poisson$(\lambda + \mu)$ by the above argument, i.e. $V$ and $W$ have the same distribution.
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item  Since W (= X + Y) and Z are independent, T = W − Z is the difference of two independent Poisson variables, i.e. Poisson(\lambda + \mu) − Poisson(\lambda). 
+\item  Since $W (= X + Y)$ and Z are independent, $T = W - Z$ is the difference of two independent Poisson variables, i.e. \[Poisson(\lambda + \mu) - Poisson(\lambda). \]
 
 \begin{itemize}
 \item It follows that $E(T) = \lambda + \mu − \lambda = \mu$, $Var(T) = Var(W) + Var(Z) = \lambda + \mu + \lambda = 2\lambda + \mu$.
-\item However, $U = V − Z = Y + Z − Z = Y$, so $U \sim Poisson(\mu)$ and therefore $E(U) = Var(U) = \mu$.
-\item $P(U < 0) = 0$ because a Poisson variable cannot be negative, but the difference of two independent Poisson variables can be negative; for example, X + Y = 1 and Z = 2 arises with positive probability 22ee\lambda\lambda\mu\lambda−−−×, and this gives $T = −1$.
+\item However, $U = V - Z = Y + Z - Z = Y$, so $U \sim Poisson(\mu)$ and therefore $E(U) = Var(U) = \mu$.
+\item $P(U < 0) = 0$ because a Poisson variable cannot be negative, but the difference of two independent Poisson variables can be negative; for example, $X + Y = 1$ and $Z = 2$ arises with positive probability $22ee\lambda\lambda\mu\lambda−−−×$, and this gives $T = −1$.
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{enumerate}
