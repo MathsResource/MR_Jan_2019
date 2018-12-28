@@ -1,33 +1,46 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{framed}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
-\title{RSS_Jan_2019_Mod2}
-\author{kobriendublin }
-\date{December 2018}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+%- Higher Certificate, Module 2, 2009. Question 2
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
 
-\maketitle
-
-\section{Introduction}
-
 \begin{enumerate}
-    \item Higher Certificate, Module 2, 2009. Question 2
-X ~ N(52, 1) and Y ~ N(26, 0.5625).
-So the distribution of the total contents of a bottle, X + Y, is N(78, 1.5625).
-(i) ()(7578752.41.25PXY−⎛⎞+<=Φ=Φ−⎜⎟⎝⎠ = 0.0082
-(where, as usual, Φ represents the standard Normal cdf).
-(ii) We want ()2.22.20XPPXY⎛⎞>=−>⎜⎟⎝⎠ .
-Now, X − 2.2Y ~ N(52 − (2.2×26), 1 + (2.22×0.5625)), i.e. N(−5.2, 3.7225).
+    \item $X \sim N(52, 1)$ and $Y \sim N(26, 0.5625)$.
+So the distribution of the total contents of a bottle, X + Y, is $N(78, 1.5625)$.
+\item  ()(7578752.41.25PXY−⎛⎞+<=Φ=Φ−⎜⎟⎝⎠ = 0.0082
+(where, as usual, $\Phi$ represents the standard Normal cdf).
+\item  We want ()2.22.20XPPXY⎛⎞>=−>⎜⎟⎝⎠ .
+Now, $X − 2.2Y \sim N(52 − (2.2×26)$, 1 + (2.22×0.5625)), i.e. N(−5.2, 3.7225).
 ()(0(5.2)2.20112.69523.7225PXY−−⎛⎞ ∴−>=−Φ=−Φ⎜⎟⎝⎠ = 0.00352 (approx).
 Similarly, (1.81.80XPPXYY⎛⎞<=−<⎜⎟⎝⎠ and we have
-X − 1.8Y ~ N(52 − (1.8×26), 1 + (1.82×0.5625)), i.e. N(5.2, 2.8225).
+$X − 1.8Y \sim N(52 − (1.8×26), 1 + (1.82×0.5625))$, i.e. $N(5.2, 2.8225)$.
 ()(05.21.803.09522.8225PXY−⎛⎞ ∴−<=Φ=Φ−⎜⎟⎝⎠ = 0.00098 (approximately).
-P(ratio differs from 2 to 1 by more than 10%) = P(X/Y < −1.8 or X/Y > 2.2)
+P(ratio differs from 2 to 1 by more than 10\%) = P(X/Y < −1.8 or X/Y > 2.2)
 = sum of the above two probabilities = 0.0045 approximately.
-(iii) Using the final answer of part (ii), the exact distribution of the number of bottles in 1000 with ratios different from 2 to 1 by more than 10% is the binomial distribution B(1000, 0.0045).
+\item  Using the final answer of part (ii), the exact distribution of the number of bottles in 1000 with ratios different from 2 to 1 by more than 10\% is the binomial distribution B(1000, 0.0045).
 A suitable approximation is Poisson(4.5).
+
 From the cumulative Poisson tables, the probability of 10 or more such bottles is 1 – 0.9829 = 0.017 to 3 decimal places.
 
 \end{enumerate}
