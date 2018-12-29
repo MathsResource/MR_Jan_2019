@@ -1,22 +1,47 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
 \usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
+
 
 
 \section{Introduction}
 \begin{enumerate}
-\item p(B) = p = 1
-4 . Family size n = 5. The distribution of r, the number with blue
-eyes is binomial (n = 5; p = 1=4).
-\item P(0) = ( 3
-4 )5 = 243
-1024 , so P(at least 1 with blue eyes) = 1 ¡ P(0) = 781
-1024 =
-0:7627.
+\item $p(B) = p = 1/4$. Family size $n = 5$. 
+The distribution of X, the number with blue
+eyes is binomial (n = 5; p = 1/4).
+
+\item \[P(X=0) = \left(\frac{3}{4}\right)^5 = \frac{243}{1024} \], so 
+\begin{eqnarray*}
+P(\mbox{at least 1 with blue eyes}) 
+&=& P(X\geq 1) \\
+&=& 1 - P(X=0)\\ 
+&=& \frac{781}{1024}\\
+&=& 0:7627.\\
+\end{eqnarray*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item  P(at least 3 B j at least 1 B)=P(r ¸ 3)=P(r ¸ 1) = P(r¸3)
 781=1024 .
 P(3) + P(4) + P(5) = ( 5
@@ -30,10 +55,8 @@ P(3) + P(4) + P(5) = ( 5
 = 1
 1024f10 £ 9 + 5 £ 3 + 1g = 106
 1024 :
-So required answer is 106
-1024 ¥ 781
-1024 = 106
-781 = 0:1357.
+So required answer is \[ \frac{106/1024}{781/1024} = \frac{106}{781} = 0.1357. \]
+%%%%%%%%%%%%%%%%%%%%%%%5
 \item Given that a particular one - the youngest - has blue eyes means that of the
 other four, at least two have blue eyes. This is found as P(2)+P(3)+P(4) in
 binomial (4; 1=4): ( 4
@@ -45,9 +68,15 @@ binomial (4; 1=4): ( 4
 4 )+( 1
 4 )4 = 1
 256f6£9+4£3+1g
-= 67
-256 = 0:2617.
-(iv) (a) Using binomial (5; 1=4) and excluding r = 0, the expected number is
+
+
+\begin{eqnarray*}
+ &=& 67/256 \\
+ &=& 0:2617.
+\end{eqnarray*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\item  Using binomial (5; 1=4) and excluding r = 0, the expected number is
 1
 1¡P(0)
 X5
