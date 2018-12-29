@@ -1,31 +1,60 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
 \usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
 
 
 \section{Introduction}
 \begin{enumerate}
-\item 8. (a) (i) A binomial distribution with large n and very small p may be approximated
-by a Poisson with ¹ = np. It is desirable that np should be at least 5, but in
-addition n should be ¸ 20 and p · 0:1. When all these conditions are met
+\item A binomial distribution with large n and very small p may be approximated
+by a Poisson with ¹ = np. 
+\begin{itemize}
+\item It is desirable that np should be at least 5, but in
+addition n should be ¸ 20 and p · 0:1. 
+\item When all these conditions are met
 the approximation will be a good one.
+\end{itemize}
+
 \item  A Poisson with large mean can be approximated by N(¹; ¹). The
 approximation will be good for ¹ ¸ 10, but adequate down to ¹ = 5.
+
+%%%%%%%%%%%%%%%%5
 (b) (i) Poisson, mean 5:
-P(4) + P(5) + P(6) = e¡5( 54
+\begin{eqnarray*}
+P(4) + P(5) + P(6) &=& 
+e¡5( 54
 4! + 55
 5! + 56
-6! )
-= 625e¡5( 1
+6! )\\
+&=& 625e¡5( 1
 24 + 5
 120 + 25
-720 ) = 625e¡5( 1
+720 )\\ &=& 625e¡5( 1
 12 + 5
-144 ) = 0:49716:
+144 )\\ &=& 0:49716:
+\end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \item  N(5; 5) with a continuity correction is required: find P(31
 2 < X < 61
@@ -47,60 +76,45 @@ is 1 ¡ 2 £ 0:25117 = 0:49766. The error is 0.0005, and % error
 0:49716 £ 100 = 0:1%:
 Using the continuity correction with ¹ = 5, and calculating values which we
 near to the mean, leads to a very good approximation.
-(c) P(0) = e¡¸t = P(T > t) for the first event observed = 1 ¡ F(t). Hence
+\item  P(0) = e¡¸t = P(T > t) for the first event observed = 1 ¡ F(t). Hence
 F(t) = 1 ¡ e¡¸t and g(t) = F
 0(t) = ¸e¡¸t. (t ¸ 0; ¸ > 0).
 [g(t) = 0 unless t ¸ 0; ¸ > 0 since neither time of events nor rate of events
 occurring can be negative.] Use integration by parts.
-E[T] =
-Z 1
-0
-¸te¡¸tdt =
-Z 1
-0
-td(¡e¡¸t) = [¡te¡¸t]1
-0 +
-Z 1
-0
-e¡¸tdt
-= [¡
-1
-¸
-e¡¸t]1
-0 = 1=¸:
-E[T2] =
-Z 1
-0
-¸t2e¡¸tdt =
-Z 1
-0
-t2d(¡e¡¸t) = [¡t2e¡¸t]1
-0 +
-Z 1
-0
-2te¡¸tdt
-=
-2
-¸
-E[T] = 2=¸2:
-Hence V [T] =
-2
-¸2
-¡ (
-1
-¸
-)
-2
-= 1=¸2.
-8
-(d) ¸ = 5, so that E[T] = 0:2 and V [T] = 0:04. For n = 100, a sample mean
-¯ T is approximately N(0:2; 0:04
-100 ), and the range required is from 0.18 to 0.22,
-within 10\% of 0.2. The corresponding values of r are 0p:18¡0:2
+
+
+\begin{eqnarray*}
+E(T) &=& \int^{\infty}_{0} \lambda t\;e^{-\lambda} dt \\
+    &=&\int^{\infty}_{0} \lambda t\;e^{-\lambda} dt \\
+    &=& \left[ -\frac{1}{\lambda}e^{-\lambda t} \right]^{\infty}_{0}\\
+    &=& \frac{1}{\lambda}  
+\end{eqnarray*}
+
+\begin{eqnarray*}
+E(T^2) &=& \int^{\infty}_{0} \lambda t^2\;e^{-\lambda} dt \\
+    &=&\int^{\infty}_{0} \lambda t^2\;e^{-\lambda} dt \\
+    &=& \left[ -\frac{1}{\lambda}e^{-\lambda t} \right]^{\infty}_{0}\\
+    &=& \frac{2}{\lambda}E(T)\\
+    &=& \frac{2}{\lambda^2}  
+\end{eqnarray*}
+
+\[ Var(X) = [E(X^2)] - [E(X)^2] = \frac{2}{\lambda^2} - \frac{1}{\lambda^2} 
+     = \frac{1}{\lambda^2} \]
+%%%%%%%%%%%%%%%%%%%5
+\begin{itemize}
+\item $\lambda = 5$, so that $E[T] = 0.2$ and $V[T] = 0.04$. 
+
+ For n = 100, a sample mean
+$\bar{T}$ is approximately $N(0.2; \frac{0:04}{100})$, and the range required is from 0.18 to 0.22,
+within 10\% of 0.2. 
+\item The corresponding values of r are 0p:18¡0:2
 0:0004
 = ¡0:02
 0:02 = ¡1,
-and the other = +1. P(r > 1) = 0:1587 = P(r < ¡1) and so the probability
+and the other = +1. 
+\item $P(r > 1) = 0:1587 = P(r < -1)$ and so the probability
 between these values is 1 ¡ 2 £ 0:1587 = 0:6826.
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%5
 \end{enumerate}
 \end{document}
