@@ -1,9 +1,28 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
 \usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
 
 
@@ -12,24 +31,35 @@
 \item (i) Y = pX1 + (1 ¡ p)X2 is N(1750p + 2000(1 ¡ p); p2 ¢ 3002 + (1 ¡ p)2 ¢ 4002)
 i.e. N(2000 ¡ 250p; 104f9p2 + 16(1 ¡ p)2g)
 or N(2000 ¡ 250p; 10000(25p2 ¡ 32p + 16)).
-\item E[Y ] = 2000 ¡ 250p and has maximum value (2000) for p1 = 0.
-\item V [Y ] is minimized when d
-dp(25p2 ¡ 32p + 16) = 0
-i.e. 50p ¡ 32 = 0 or p2 = 16=25.
+\item $E[Y ] = 2000$ ¡ 250p and has maximum value (2000) for p1 = 0.
+\item V [Y ] is minimized when 
+\[ \frac{d}{dp}(25p^2 - 32p + 16) =0\]
+
+\[i.e. 50p - 32 = 0\] or \[p2 = \frac{16}{25}=0.64\].
 The second deviation is > 0, indicating a minimum.
 \item  E[Y jp1 = 0] = £2000. E[Y jp2 = 16=25] = 2000 ¡ 250£16
 25 = £1840.
 2
-\item  (a) On p = p1 = 0, Y » N(2000; 4002):
-P(Y < 1480) = P(Z < 1480¡2000
-400 ) = P(Z < ¡1:30) = 0:0968.
+\item  (a) On p = p1 = 0, $Y \sim N(2000; 400^2)$:
+\begin{eqnarray*}
+P(Y < 1480) &=& P(Z < \left( \frac{1480-2000}{400}
+\right) \\
+&=& P(Z < -1.30)\\ 
+&=& 0.0968.\\
+\end{eqnarray*}
 (b) On p = p2 = 16=25, Y » N(1840; 104f162
 25 ¡ 32£16
 25 + 16g).
 i.e. N(1840; 16 £ 104f1 ¡ 16
 25g) = N(1840; 2402):
-P(Y < 1480) = P(Z < 1480¡1840
-240 ) = P(Z < ¡1:50) = 0:0668.
+
+
+\begin{eqnarray*}
+P(Y < 1480) &=& P\left(Z < \left( \frac{1480-1840}{240} \right)
+\right) \\
+&=& P(Z < -1:50)\\ 
+&=& 0:0668.\\
+\end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%
 Z stands for the standardized variate N(0; 1). Use mixed strategy (b) because
 its probability of ruin is only two-thirds of that on (a). His expectation
