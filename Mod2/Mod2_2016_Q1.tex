@@ -1,27 +1,46 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{framed}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
-\title{RSS_Jan_2019_Mod2}
-\author{kobriendublin }
-\date{December 2018}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
 
-\maketitle
-
-\section{Introduction}
 
 \begin{enumerate}
-    \item 
-
-Question 1
-X  Poisson() x = 0; 1; 2; : : :
+    \item X  Poisson() x = 0; 1; 2; : : :
 PX(x) =
+
+
+\begin{eqnarray}
+P_X(x + 1)  &=&   \frac{\lambda}{(x + 1)} \\
+  &=&   \frac{\lambda}{(x + 1)} \\
+   &=&   \frac{\lambda}{(x + 1)} Px(x) [1]\\
+ 
+\end{eqnarray}
 xe��
 x!
 (i)
-PX(x + 1) =
+
 x+1e��
 (x + 1)!
 [1]
@@ -31,11 +50,10 @@ PX(x + 1) =
 xe��
 x!
 [1]
-=
-
-(x + 1)
-Px(x) [1]
-(ii)
+
+
+
+\item 
 E(X) =
 1X
 x=0
@@ -60,6 +78,15 @@ y!
 y = x �� 1 [1]
 =   1 as sum of density
 =  [1]
+
+\begin{eqnarray*}
+E(X)  &=&  \sum^{\infty}_{n=0}  \frac{\lambda}{(x + 1)}\\
+&=&  \sum^{\infty}_{n=0}  \frac{\lambda}{(x + 1)}\\
+&=&  \sum^{\infty}_{n=1}  \frac{\lambda}{(x + 1)}\\
+&=&  \sum^{\infty}_{n=1}  \frac{\lambda}{(x + 1)}\\
+\end{eqnarray*}
+
+
 E(X(X �� 1)) =
 1X
 x=0
@@ -87,7 +114,17 @@ y = x �� 2
 Var(X) = E(X(X �� 1)) + E(X) �� (E(X))2
 = 2 +  �� 2 [1]
 = 
-(iii) Y  Poisson() independent of X.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  Y  Poisson() independent of X.
+
+\begin{eqnarray*}
+E(X)  &=&  \sum^{\infty}_{n=0}  \frac{\lambda}{(x + 1)}\\
+&=&  \sum^{\infty}_{n=0}  \frac{\lambda}{(x + 1)}\\
+&=&  \sum^{\infty}_{n=1}  \frac{\lambda}{(x + 1)}\\
+&=&  \sum^{\infty}_{n=1}  \frac{\lambda}{(x + 1)}\\
+\end{eqnarray*}
+
+
 PW(w) =
 Xw
 x=0
@@ -137,17 +174,25 @@ x!(w �� x)!
 w!
 [1]
 ) W  Poisson( + ).
-(iv) (a) Two conveyor belts - type C and D.
+\item  (a) Two conveyor belts - type C and D.
 X =number of breakdowns per day on C.
 Y =number of breakdowns per day on D.
 X  Poisson( = 1:5)
 Y  Poisson( = 0:5)
 P(exactly one breakdown) = P(X = 1; Y = 0) + P(X = 0; Y = 1)
-= P(X = 1)  P(Y = 0) + P(X = 0)  P(Y = 1) [1]
-= 1:5e��1:5  e��0:5 + e��1:5  0:5e��0:5
-= e��2(1:5 + 0:5)
-= 2e��2 [1]
-= 0:2707
+
+
+\begin{eqnarray*}
+E(X)  &=&  \sum^{\infty}_{n=0}  \frac{\lambda}{(x + 1)}\\
+&=&  [P(X = 1) \times P(Y = 0)] + [P(X = 0) \times P(Y = 1)] \\
+&=& [1:5e^{-1.5} \times e^{-0.5}] + [e^{-1.5} \times 0.5e^{-0.5}]\\
+&=& e^{-2}(1:. + 0:5)\\
+&=& 2e^{-2}\\
+&=& 0.2707\\
+
+\end{eqnarray*}
+
+
 P(1 breakdown on Cjexactly one breakdown) =
 P(X = 1; Y = 0)
 P(exactly one breakdown)
@@ -161,8 +206,11 @@ P(exactly one breakdown)
 3
 4
 [1]
-(b) In 5 days, the rate of occurrence of failures is 52 = 10. Let T=
+
+\item In 5 days, the rate of occurrence of failures is $5\times 2 = 10$. Let T=
 number of failures in 5 days. Then
-T  Poisson(10)
-[1,1]
-P(T  1) = 0:0005 [1]
+$T \sim Poisson(10)$
+
+$P(T \leq 1) = 0:0005 $
+\end{enumerate}
+\end{document}
