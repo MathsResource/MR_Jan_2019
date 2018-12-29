@@ -1,10 +1,30 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
 \usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
+
 
 
 \section{Introduction}
@@ -17,43 +37,27 @@ $\mu$
 = »
 $\mu$
 , for 0 · » · $\mu$; = 0 for » < 0; = 1 for » > $\mu$.
-E[X] =
-Z $\mu$
-0
-xdx
-$\mu$
-=
-1
-2$\mu$
-[x2]$\mu$
-0 = $\mu$
-2
-.
-E[x2] =
-Z $\mu$
-0
-x2dx
-$\mu$
-=
-1
-3$\mu$
-[x3]$\mu$
-0 = $\mu$2
-3
-; V [X] = E[x2] ¡ (E[X])2 = $\mu$2
-3 ¡ $\mu$2
-4 = $\mu$2
-12 .
+
+\[E(X) = \int^{\theta}_{0} \frac{x\;dx}{\theta} = \frac{1}{2\theta}\left[ x^2 \right]^{\theta}_{0} = \frac{\theta}{2}\]
+
+
+
+\[E(X^2) = \int^{\theta}_{0} \frac{x^2\;dx}{\theta} = \frac{1}{3\theta}\left[ x^3 \right]^{\theta}_{0} = \frac{\theta^2}{3}\]
+
+\[ Var(X) = [E(X^2)] - [E(X)^2] = \frac{\theta^2}{3} - \frac{\theta^2}{4} = \frac{\theta^2}{12}\]
 %%%%%%%%%%%%%%%%%%
-\item Sampled items chosen at random, hence fXig are independent. P(X · x) =
+\item Sampled items chosen at random, hence fXig are independent. 
+\begin{itemize}
+\item P(X · x) =
 x
 $\mu$ for each item, all are required to be · x, so probability for n items is (x
 $\mu$ )n,
-when 0 · x · $\mu$. This is F(X(n)), where X(n) is the sample maximum, and
+when 0 · x · $\mu$. 
+\item This is F(X(n)), where X(n) is the sample maximum, and
 so f(x(n)) = F
 0(x(n)) = nxn¡1
 $\mu$n , when 0 · x · $\mu$, =0 otherwise.
-E[X(n)] =
+\item E[X(n)] =
 Z $\mu$
 0
 nxn
@@ -62,7 +66,7 @@ $\mu$n dx = [ nxn+1
 0 = n$\mu$
 n + 1
 ,
-E[X2
+\item E[X2
 (n)] =
 Z $\mu$
 0
@@ -72,7 +76,8 @@ $\mu$n dx = [ nxn+2
 0 = n$\mu$2
 n + 2
 .
-5
+
+\end{itemize}
 Hence
 V [X(n)] = n$\mu$2
 n+2 ¡ ( n$\mu$
@@ -82,18 +87,20 @@ n+2 ¡ n2
 = $\mu$2
 (n+1)2(n+2)fn(n + 1)2 ¡ n2(n + 2)g = n$\mu$2
 (n+1)2(n+2) :
-n+1
+\begin{itemize}
+\item n+1
 n X(n) is unbiased for estimating $\mu$.
-V ar[n+1
+\item V ar[n+1
 n X(n)] = (n+1
 n )2 n$\mu$2
 (n+1)2(n+2) = $\mu$2
 n(n+2) .
-The likelihood of a sample fx1; ¢ ¢ ¢ ; xng is 1
+\item The likelihood of a sample fx1; ¢ ¢ ¢ ; xng is 1
 $\mu$n , (0 · x · $\mu$).
-Setting ˆ$\mu$ = X(n), where is the lowest value of $\mu$ possible on the evidence of
-the sample values, gives the largest possible value of the likelihood. Hence
-X(n) is the m.l. estimator.
+\item Setting ˆ$\mu$ = X(n), where is the lowest value of $\mu$ possible on the evidence of
+the sample values, gives the largest possible value of the likelihood.
+\item  Hence X(n) is the m.l. estimator.
+\end{itemize}
 %%%%%%%%%%%%%%%%%%
 \item Method of moments estimator ˜$\mu$ is found from setting ¯x = E[x], i.e., ¯x = 1
 2
