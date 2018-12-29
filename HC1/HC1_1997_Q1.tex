@@ -1,10 +1,28 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
 \usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
-\begin{document}
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 
 
 \section{Introduction}
@@ -17,7 +35,7 @@ other two are the opposing pair. There are 3 ways. [Alternatively
 = 3].
 Label the players M1;M2;W1;W2. Then M1 may play with W1 or W2 as
 partner; M2 then has the other woman as partner. There are 2 ways.
-
+%%‰%%%%
 \item (a ii) Suppose n = 4m. (If it is not, then 1 or 2 or 3 players cannot take part).
 Groups of 4 can be chosen in ( 4m
 4 ) ways, and each group can be matched
@@ -32,22 +50,21 @@ Two of each sex may be chosen in ( 2m1
 of matches is then 2( 2m1
 2 ) ¢ ( 2m2
 2 ).
-(b i) ( 10
-5 ) = 252, as once the first 5 are chosen the teams are chosen completely.
+(b i) $\displaymode{ {10 \choose 5}}$ = 252, as once the first 5 are chosen the teams are chosen completely.
 
 %%%%%%%%%%%%%%%%%
-\item (b ii) Teams each consist of a goalkeeper and 4 others. Team 1 can be completed
-in ( 8
-4 ) ways =70 ways, which defines the selection completely.
-\item (b iii) Label the goalkeepers G1;G2, the strikers S1; S2; S3. Then these are 5 other
+\item Teams each consist of a goalkeeper and 4 others. Team 1 can be completed
+in $\displaymode{ {8 \choose 4}}$  ways =70 ways, which defines the selection completely.
+\item  Label the goalkeepers G1;G2, the strikers S1; S2; S3. Then these are 5 other
 players.
-We may have, in one team, G1 with S1 or S2 or S3 and choose the other 3
-from 5: there are 3 £ ( 5
-3 ) = 30 ways for this. Also G1 may have two of
-the strikers and two others in the same team. There are ( 3
-2 ) = 3 ways for
-strikers and ( 5
-2 ) = 10 ways for others, making 30 ways in all. The total
-number of ways is thus 30 + 30 = 60. Choosing one team fixes the other.
+
+
+\begin{itemize}
+    \item We may have, in one team, G1 with S1 or S2 or S3 and choose the other 3 from 5: there are 3 £$\displaymode{ {5 \choose 3}}$ = 30 ways for this. 
+    \item  Also G1 may have two of the strikers and two others in the same team.
+    \item There are $\displaymode{ {3 \choose 2}}$  = 3 ways for
+strikers and$\displaymode{ {5 \choose 2}}$ = 10 ways for others, making 30 ways in all. 
+    \item The total number of ways is thus 30 + 30 = 60. Choosing one team fixes the other.
+\end{itemize}
 \end{enumerate}
 \end{document}
