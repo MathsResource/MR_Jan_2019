@@ -1,6 +1,32 @@
-9
-II. STATISTICAL METHODS
-1. (i) For 1988, ¯x1 = 53:4, s1 = 19:7; also n = 750;
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+\begin{enumerate}
+
+\item  For 1988, ¯x1 = 53:4, s1 = 19:7; also n = 750;
 for 1990, ¯x2 = 55:3, s2 = 19:5; also n = 633.
 If ¹1; ¹2 are the corresponding population means, H0 is ¹1 = ¹2 (or, strictly,
 ¹1 ¸ ¹2) and H1, to be tested, is ¹2 > ¹1.
@@ -15,16 +41,22 @@ As these are large samples of date we use a normal (r) test:
 r = 55:3¡53:4
 1:057 = 1:9
 1:057 = 1:798.
-The form of H1 requires a one-tail test, with critical value 1.645 at 5%.
-Hence we reject H0.
-A 95% confidence interval for the increase is 1:9§1:96£1:057 = 1:9§2:07,
+\begin{itemize}
+\item The form of H1 requires a one-tail test, with critical value 1.645 at 5%.
+\item Hence we reject H0.
+\item A 95\% confidence interval for the increase is 1:9§1:96£1:057 = 1:9§2:07,
 or (-0.17; 3.97).
-If we are certain that there must have been an increase we may prefer to
+\item If we are certain that there must have been an increase we may prefer to
 quote this result as (0; 3:97).
-(ii) For 1988, pM = 349
-750 = 0:4653 and pF = 0:5347; n = 750.
-For 1990, pM = 321
-633 = 0:5071 and pF = 0:4929; n = 633.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%
+\item 
+
+\begin{itemize}
+\item For 1988, pM = 349/750 = 0:4653 and pF = 0:5347; n = 750.
+\item For 1990, pM = 321/633 = 0:5071 and pF = 0:4929; n = 633.
+\end{itemize}
 The hypotheses H0: pM;1988 = pM;1990 and H1 : pM has changed can be
 examined in a 2 £ 2 table of ‘observed’ frequencies and ‘those expected on
 H0’.
@@ -53,61 +85,14 @@ FEMALE 401(386:66) 312(326:34) 713
 326:34
 g
 = 205:6356 £ 0:011664 = 2:40n:s:
-There is no evidence of change.
-[An alternative method is to use normal approximations for pM: N(p; p(1¡p)
+\begin{itemize}
+    \item There is no evidence of change.
+\item An alternative method is to use normal approximations for pM: N(p; p(1¡p)
 n )
-in each year and consider the difference. This would be needed if confidence
-intervals had been required. ]
-2. (a) yij = ¹ + ¿i + ²ij , where yij is the observation measured as the jth of the
-items receiving treatment i; ¹ is a grand (overall) mean term; ¿i is an effect
-10
-(deviation from mean) due to treatment i; ²ij are i.i.d. N(0; ¾2) residual
-terms. There are i = 1 to v treatments, ri replicates of each, and
-Xv
-i=1
-ri = N,
-the total number of items in the experiment.
-(b)
-“Treatment” ri
-P
-yij
-P
-y2
-ij ¯yi
-1 6 128:0 2792:00 21:33
-2 4 79:4 1582:06 19:85
-3 4 90:7 2064:51 22:68
-4 3 60:5 1243:25 20:17
-17 358:6 7681:82
-Although results 1 are rounded to whole numbers, analysis of variance will
-have to assume that all observations on all treatments have the same variance
-¾2. Also the material used in the trial should have been selected at
-random from what was available, and the samples examined under identical
-conditions in random order.
-(i) Total corrected S:S: = 7681:82¡G2=N = 7681:82¡7564:35 = 117:47. “Treatments”
-S:S: =
-1282
-6
-+
-79:42 + 90:72
-4
-+
-60:52
-3
-¡
-G2
-N
-= 7583:4625 ¡ 7564:35 = 19:11.
-Analysis of Variance D:F: S:S: M:S:
-Treatments(Storages) 3 19:11 6:371 F < 1
-Residual 13 98:36 7:566 = ˆ¾2
-TOTAL 16 117:47
-We are not given any specific contrasts among storages to be tested, but
-even if the whole Treatments S:S: were due to one contrast this would still
-not be significant as F(1;13) ( 19:11
-7:566 = 2:52, less than the 5% point 4.67). We
-may say confidently, that there are no significant differences among these
-“Treatments”.
-(ii) Given the result in (i), there could be no change to the inference. [In a
-borderline case, some intelligence in looking at individual differences may be
-called for, as ¾2 may be slightly overestimated.]
+in each year and consider the difference. 
+\item This would be needed if confidence
+intervals had been required. 
+\end{itemize}
+
+\end{enumerate}
+\end{document}
