@@ -1,0 +1,70 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+\begin{itemize}
+\item  Since we have a table of frequencies in various categories, an appropriate Null
+Hypothesis is that the ratio Good:Fair:Poor is the same in each area. A Â2
+(8)
+test is suitable. “Expected” frequencies are calculated from margin totals as
+usual, e.g. Ruthven / Good is 680£3689
+5842 = 429:39.
+OBS(EXP) Good Fair Poor
+Area R 459(429:39) 178(210:56) 43(40:04) : 680
+M 926(969:29) 506(475:32) 103(90:39) : 1535
+W 954(930:77) 442(456:43) 78(86:79) : 1474
+D 985(995:82) 507(488:32) 85(92:86) : 1577
+A 365(363:72) 176(178:36) 35(33:92) : 576
+3689 1809 344 5842
+23
+(Rounding expected frequencies is to the nearest 0.01).
+Â2
+(8) =
+P (0¡E)2
+\[E = 2:04185 + 1:93340 + 0:57977 + 0:11756 + 0:00450 + 5:03492
++1:98027 + 0:45620 + 0:71458 + 0:03123 + 0:21882 + 1:75918
++0:89024 + 0:66530 + 0:03439 = 16:46¤:\]
+
+This indicates that there are departures from a constant ratio in some areas.
+Comparing observed and corresponding expected frequencies shows that
+\begin{itemize}
+\item Ruthven has more ‘Good’ and less ‘Fair’ than expected; 
+\item Mossmont has less ‘Good’ and more ‘Fair’ or ‘Poor’; 
+\item Windgyle has more ‘Good’ and less ‘Fair’ or ‘Poor’; 
+\item Dundonan has more ‘Fair’ and less ‘Good’ or ‘Poor’.
+\end{itemize}
+\item  Since respondents rate their own health this is very subjective and unlikely
+to produce the same ratings for the same condition in different people or
+areas. Also we obtain relatively little information per person and so require
+a large number of observations.
+\begin{itemize}
+\item Actual measurements on a smaller number of people could provide data
+on blood pressure, cholesterol, weight and many other objective ways of
+assessing health, as well as observing the presence or absence of infections,
+and the general environmental conditions such as air quality.
+\end{itemize}
+\end{enumerate}
+\end{document}
