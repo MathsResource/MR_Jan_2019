@@ -1,100 +1,129 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{framed}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
-\title{RSS_Jan_2019_Mod2}
-\author{kobriendublin }
-\date{December 2018}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
 
-\maketitle
 
 \section{Introduction}
 
 \begin{enumerate}
-    \item Question 2 (i) Let X = number of failures before the rst success.
-PX(x) = (1 �� p)xp [1]
-for x = 0; 1; 2; 3; 4; : : : [1]
+    \item Question 2 (i) Let X = number of failures before the first success.
+PX(x) = (1-p)xp [1]
+for $x = \{0; 1; 2; 3; 4; : : :\}$ [1]
 1X
-x=0
-(1 �� p)xp = p
+
+\begin{eqnarray*}
+\sum^{\infty}_{\sum^{\infty}_{x=0}}
+(1-p)xp &=& p
 1X
-x=0
-(1 �� p)x [1]
-= p
+\sum^{\infty}_{\sum^{\infty}_{x=0}}
+(1-p)x \\
+&=& p
 1
-1 �� (1 �� p)
-sum of GP [1]
-= p 
+1 �� (1-p)
+sum of GP \\
+&=& p 
 1
-p
-= 1 [1]
-(ii)
-E(X) =
+p \\
+&=& 1 \\
+
+
+\end{eqnarray}
+
+
+\item 
+
+\begin{eqnarray}
+E(X) &=&
 1X
-x=0
-xPX(x)
-=
+\sum^{\infty}_{\sum^{\infty}_{x=0}}
+xPX(x) \\
+&=&
 1X
-x=0
-x(1 �� p)xp [1]
+\sum^{\infty}_{\sum^{\infty}_{x=0}}
+x(1-p)xp \\ 
+
+\end{eqnarray}
 Using the fact that:
 d
 dp
 1X
-x=0
-(1 �� p)x = ��
+
+\begin{eqnarray}
+\sum^{\infty}_{\sum^{\infty}_{x=0}}
+(1-p)x = ��
 1X
-x=0
-x(1 �� p)x��1
-=
+\sum^{\infty}_{\sum^{\infty}_{x=0}}
+x(1-p)x��1\\
+&=&
 d
-dp
-1
-p
-[1]
-= ��
+dp1p\\
+&=&
 1
 p2 [1]
+\end{eqnarray}
 Hence
-E(X) = p(1 �� p)
+\begin{eqnarray}
+E(X) &=& p(1-p)
 1X
-x=0
-x(1 �� p)x��1
-= p(1 �� p) 
+\sum^{\infty}_{\sum^{\infty}_{x=0}}
+x(1-p)x��1
+&=& p(1-p) 
 1
 p2
-=
-(1 �� p)
+&=&
+(1-p)
 [1]
+\end{eqnarray}
+
 p
 NB Other correct solutions would be given credit.
-(iii) (a) When p = 0:01,
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  (a) When p = 0:01,
 P(X = 80) = 0:99790:01 [1]
 = 0:00452 [1]
 (b) EITHER
-P(X > 80) = 1 �� P(X  80) [1]
-= 1 ��
+
+\begin{eqnarray}
+P(X > 80) &=& 1-p(X \leq 80) [1]\\
+&=& 1 ��
 X80
-x=0
-x(1 �� p)xp [1]
-= 1 �� p
- 
-1 �� (1 �� p)80
-1 �� (1 �� p)
-!
-[1]
-= 1 �� 0:01(
-(1 �� 0:9980))
-0:01
-[1]
-= 1 �� 0:5525
-= 0:4475 [1]
+\sum^{\infty}_{\sum^{\infty}_{x=0}}
+x(1-p)xp [1]\\
+&=& 1-p \left(\frac{1 -(1-p)^{80}}{1 -(1-p)}\right)\\
+&=& 1 -:0.01( \left(\frac{1 -(1-p)^{80}}{1 -(1-p)}\right):\\
+&=& 1 -0:5525\\
+&=& 0:4475 [1]\\
+\end{eqnarray}
+
 OR As it will take more than 80 attempts if and only if the rst 80
 are all failures [2]
 (Either get 2 marks or 0)
-P(X > 80) = 0:9980 [2]
+\[P(X > 80) = 0:9980 \]
 (either get 2 marks or 0)
 = 0:4475: [1]
 
@@ -106,21 +135,20 @@ PY (y) =
 y + 1
 1
 !
-(1 �� p)yp2 = (y + 1)(1 �� p)yp2 y = 0; 1; 2; : : : [1]
-The experiment to obtain Y can be considered as running the rst
-experiment until the rst success and then repeating an independent
+(1-p)yp2 = (y + 1)(1-p)yp2 with $y = \{0; 1; 2; : : : \}$
+The experiment to obtain Y can be considered as running the first
+experiment until the first success and then repeating an independent
 experiment to obtain a further success. [1]
 Hence
 \begin{eqnarray}
-E(Y ) &=& E(X1) + E(X2) [1]
-&=&
-(1 �� p)
+E(Y ) &=& E(X1) + E(X2) \\
+&=& (1-p)
 p
 +
-(1 �� p)
-p
+(1-p)
+p \\
 &=& 2
-(1 �� p)
+(1-p)
 p
 \end{eqnarray}
 \end{enumerate}
