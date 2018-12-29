@@ -1,39 +1,54 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{framed}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
-\title{RSS_Jan_2019_Mod2}
-\author{kobriendublin }
-\date{December 2018}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
-
-\maketitle
-
-\section{Introduction}
 
 \begin{enumerate}
     \item Question 4 (a) The continuous random variable X is distributed with
 probability density function
-f(x) = (1 �� x)��1 0 < x < 1;  > 0
-(i)
-F(x) =
+f(x) = (1-x)��1 0 < x < 1;  > 0
+\item 
+
+\begin{eqnarray}
+F(x) &=&  
 Z x
 0
-(1 �� t)��1dt [1]
-= 
-
-��
-(1 �� x)
+(1-t)��1dt [1]\\
+&=& ��(1-x)
 
 x
-0
-= ��(1 �� x) + 1
-= 1 �� (1 �� x) [1]
+0\\
+\end{eqnarray}
+
+
+= ��(1-x) + 1
+= 1 �� (1-x) [1]
 F(x) = 0 x  0 [0.5]
-= 1 �� (1 �� x)
+= 1 �� (1-x)
 = 1 x  1 [0.5]
-(ii)
+\item
 P(0:25 < X < 0:75) = F(0:75) �� F(0:25) [1]
 = 1 �� (1 �� 0:75) �� [1 �� (1 �� 0:25)] [1]
 = 0:75 �� 0:25 [1]
@@ -61,7 +76,7 @@ M = 1 �� 2�� 1
  [1]
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-(b)
+\item 
 Y  Ga(2; 3) f(y) = 9ye��3y
 (i)
 E(Y ) =
@@ -122,13 +137,15 @@ e��3y
 NB in line 3 the last integral is a multiple of the integral of the
 pdf and hence integrates to 1, hence the last term is just 2
 3  1.
-Full marks are to be given for this solution.
-(ii)
-P(X < 3) = 9
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\item 
+
+\begin{eqnarray*}
+P(X < 3) &=& 9
 Z 3
 0
-xe��3xdx [1]
-= 9
+xe��3xdx [1]\\
+&=& 9
 2
 4
 "
@@ -143,21 +160,26 @@ e��3x
 (��3)
 dx
 3
-5 [1]
-= ��9e��9 + 3
+5 
+\\
+&=& ��9e��9 + 3
 Z 3
 0
-e��3xdx
-= ��9e��9 + 3
+e��3xdx\\
+&=& ��9e��9 + 3
 "
 e��3x
 (��3)
 #3
 0
-[1]
-= 1 �� 10e��9 [1]
-= 0:9988
-NB The nal evaluation is not required for the nal mark.
+[1]\\
+&=& 1 �� 10e��9 [1]\\\
+&=& 0:9988\\
+\end{eqnarray}
+
+
+
+NB The final evaluation is not required for the final mark.
 
 \end{enumerate}
 
