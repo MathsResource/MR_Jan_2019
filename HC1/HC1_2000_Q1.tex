@@ -1,0 +1,49 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+\begin{enumerate}
+\item  For one leg, there are 4 possible colors in each of the three positions, making
+4 £ 4 £ 4 = 64 combinations.
+\begin{itemize}
+\item For the other leg there will also be 64, and of the 64
+on one leg may be combined with any of the 64 on the other to make 64 £ 64 = 4096
+combinations in all.
+\item ALTERNATIVE,there are 6 positions altogether, and four possible colors may appear
+on each,making 46 = 4096
+\end{itemize}
+\item Consider the middle position on one leg: it can hold any one of 4 colors, there
+are only 3 possibilities for each of upper and lower (they could be the same);so each leg
+has 3 £ 4 £ 3 possible patterns ,i.e.36.Any of these patterns can also appear on the leg,
+making 36 £ 36 = 1296 possible combinations in all.
+\item In this case the possible number of combinations is 4£3£2on each leg, i.e.24£
+24 = 576 altogether.
+\item In(i),since there are 64 combinations for one leg. there are only 63 for the other:
+64 £ 63 = 4032in all.
+In(ii),similarly ,there are 36 £ 35 = 1260.
+In(iii), similarly, there are 24 £ 23 = 552.
+\end{enumerate}
+\end{document}
