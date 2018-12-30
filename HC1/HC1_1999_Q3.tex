@@ -1,0 +1,83 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+\begin{enumerate}
+    \item 3 For boys’ heights, n1 = 100; X » N(160; 16); and for girls’ heights, n2 = 81; Y » N(150; 9)
+\item (a) P(X > 156) = P(X¡160
+4 > 156¡160
+4 ) = P(Z > ¡1) where Z has the distribution
+N(0,1). This is the same as P(Z¡1), which is 0.8413.
+(b) P(Y > 156) = P(Y ¡150
+3 > 156¡150
+3 ) = P(Z > 2) = 0:0228
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+(c) Probability=P(> 156jboy)P(boy) + P(> 156jgirl)P(girl) = 0:8412 £ 100=181 +
+0:0228 £ 81=181 if selection is random from the whole population. This is 0.4750.
+\item (a) Assuming that the boy’s heights are independent, the required probability is (0:8413)4
+= 0:5010.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item Mean height of boys » N(160; 16=4) » N(160; 4)
+Hence P(mean > 156) = P(mean¡160
+2 > 156¡160
+2 ) = P(Z > ¡2) = P(Z < 2) by
+symmetry=0.9772.
+The assumption is likely to be reasonable except when, for example,they come from
+the same family.
+\item Assuming independence again, X ¡ Y » N(160 ¡ 150; 16 + 9) » N(10; 25).
+P(X ¡Y > 0) = P(X¡Y ¡10
+5 > 0¡10
+5 ) = P(Z > ¡2) = 0:9772 Both X and Y are assumed
+chosen from the year group.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  Mean height is n1X+n2Y
+n1+n2
+= W, and X » N(160; 16=100); Y » N(150; 9=81). i.e.X »
+N(160; 0:16); Y » N(150; 1=9) We require P(155:5 < W < 156:5) or P(W < 156:5) ¡
+P(W < 155:5)
+V [W] = ( n1
+n1+n2
+)2V [X] + ( n1
+n1+n2
+)2V [Y ] = ( 100
+181 )2(0:16) + ( 81
+181 )2( 1
+9 ) = 0:00488386 =
+0:0222521 = 0:071091 and E[W] = 100£160+81£150
+181 = 155:52486
+Z-value corresponding to W = 155:5 is 155p:5¡155:52486
+0:071091
+i.e.¡0:02486
+0:26663 = ¡0:0932 and for156.5
+Z = 156p:5¡155:52486
+0:071091
+= 0:97514
+0:26663 = 3:657
+P(Z < ¡0:0932) = 0:4629 and P(Z < 3:657) = 0:9999 is required probability=0.9999-
+0.4629=0.5370.
+
+\end{enumerate}
+\end{document}
