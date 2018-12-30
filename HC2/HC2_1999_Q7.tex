@@ -1,0 +1,66 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+\begin{enumerate}
+    \item (a) Parametric methods require assumptions about the distribution from which a sample is
+drawn, usually that it is normal (or approximately so). When samples are small, results
+can be seriously wrong if this not true, although for large sample the Central Limit
+Theorem makes it satisfactory to examine means or totals from most distributions.
+Nonparametric methods require no distributional assumptions, and are generally based
+on rankings, medians and combinatorial results which allows tables of critical values to be constructed.
+\begin{itemize}
+    \item  Skew data can be analyzed without the need for transformations to make
+them more symmetrical (approximately normal). 
+\item But in general a nonparametric test is
+much less powerful than the corresponding parametric one-although an exception is the
+Mann Whitely test which is almost as good as the corresponding.
+\item In general, data that are (approximately) normal, either in the original units or after a
+suitable transformation, are best analyzed by parametric methods. 
+\item A dot-plot can be a
+useful guide to the shape of a set of data.
+\end{itemize}
+
+\item For Stimulus 1, the data appear skew,with a possible upper outlier. For Stimulus 2, they
+are also skew, but more spread out,and again with a possible upper outlier.
+Because of the skewness, and the possible outliers, parametric joint ranking and stimulus:
+0:5 0:5 0:7 0:8 1:0 1:1 1:3 1:3 1:6 1:8 1:8 2:3 2:4 2:6 3:0 3:5 4:0 4:4 5:3
+1 1 1 2 1 2 1 2 2 1 1 2 1 2 2 1 2 2 1 2
+Number of times a stimulus 1 time is below a stimulus 2 time U = 10+10+8+8+6+5+
+5+3+1 = 66 The number of observations are m = n = 10 for the two stimuli. The rank
+sum statistic T = U+1
+2£10£11 = 66+55 = 121 A normal approximation to this for 10 or
+more observations in each set is N(105; 175). Standardizing, Z = 12p1¡105
+175
+= 16
+13:23 = 1:21
+n.s., giving no evidence of difference in location of the two sets of times.
+
+\end{enumerate}
+\end{document}
