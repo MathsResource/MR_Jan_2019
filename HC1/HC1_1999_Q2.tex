@@ -1,0 +1,84 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+
+\begin{enumerate}
+\item 2 (i) X is binomially distributed B(n; p) and so P(X = x) = ( n
+x
+)px(1 ¡ p)n¡x ; x =
+0; 1; 2 ¢ ¢ ¢ n:
+Hence
+E[X] =
+Xn
+x=0
+xpx(1 ¡ p)n¡x n!
+x!(n ¡ x)!
+= np
+Xn
+x=0
+(n ¡ 1)!px¡1(1 ¡ p)n¡x
+(x ¡ 1)!(fn ¡ 1g ¡ fx ¡ 1g)!
+since the term in E[X] for the value x = 0 is zero. Put Y = (x ¡ 1)
+Thus
+E[X] = np
+nX¡1
+y=0
+( n ¡ 1
+y
+)py(1 ¡ p)n¡y = (p + (1 ¡ p))n¡1np = np
+The expression for variance is $V [X] = np(1 - p).$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\item  (a) Y is B(4; 1=2) so P(Y = y) = (
+4
+y
+)1=24 for y = 0; 1; 2; 3; 4
+\begin{eqnarray*}
+P(Y ¸ 3) &=& P(3) + P(4) = 4 £ 1=16 + 1 £ 1=16 = 5=16
+P(Y = 2)\\ &=& 4£3£1 
+2£1£16 \\ &=& 3=8.
+\end{eqnarray*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item E[Y ] = 2 ; V [Y ] = 1.
+\item Now Y = Z1 + z2 + Z3 + Z4, where each Zi is a Bernoulli variable with mean pi
+and variable pi(1 ¡ pi) By independence, E[Y ] =
+P4
+i=1
+E[Zi] and V [Y ] =
+P4
+i=1
+V [Zi] so
+\begin{itemize}
+    \item E[Y ] = 3=4 + 1=3 + 2=3 + 1=4 = 2 (the same as before since the new probabilities
+average to 1/2).
+\item Also V [Y ] = 3=4£1=4+1=3£2=3+2=3£1=3+1=4£3=4 = 3=16+2=9+2=9+3=16 =
+59=72 (less than before)
+\item NOTE: for probabilities which average to 1/2, the first case gives the maximum sine
+if pi 6= 1=2the product pi(1 ¡ pi) is < 1=4 for each component.
+\end{itemize}
+
+\end{enumerate}
+\end{document}
