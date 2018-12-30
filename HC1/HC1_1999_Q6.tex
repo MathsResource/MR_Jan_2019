@@ -1,0 +1,45 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+\begin{enumerate}
+    \item P(device fails) = P(both components faulty) = p2, by independence. Hence P(device works) =
+1¡p2. Again assuming independence of performance of individual devices, R is Binomial
+(n; 1 ¡ p2)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item For line A, P(device faulty) = 1=4; and for B; P(faulty) = 1=9
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  Let event F denote failure/faulty.
+$P(F=A) = 1/4$; $P(F=B) = 1/9$; from (ii)
+
+(a) IfP(A) = P(B) = 1=2; P(AjF) = P(FjA)P(A)
+P(F) = P(FjA)P(A)
+P(FjA)P(A)+P(FjB)P(B) = 9=13
+\item  IfP(A) = 1=4; P(B) = 3=4; P(AjF) = 3=7
+Although individually devices from A are more likely to fail, in case(b) more devices
+are made on line B which results in a higher probability for(b).
+\end{enumerate}
+\end{document}
