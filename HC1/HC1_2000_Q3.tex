@@ -1,0 +1,87 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+\begin{enumerate}
+    \item 
+Linear combinations of normal variables remain normal.
+y » N(
+Xn
+i=1
+ai¹i;
+Xn
+i=1
+a2
+i ¾2
+i )
+Hence x1 + x2 » N(¹1 + ¹2; ¾2
+1 + ¾2
+2); x1 ¡ x2 » N(¹1 ¡ ¹2; ¾2
+1 + ¾2
+2)
+%%%%%%%%%%%
+\item Let M,S be travelling times of manager and secretary.
+M » N(35; 16) and S » N(33; 9)
+(i)Assuming journey times are independent ,
+M ¡ S » N(2; 25) and P(M ¡ s < 0) = P(z <
+0 ¡ 2
+5
+)
+where z » N(0:; 1); this is P(z < ¡0:4) = 0:3446
+3
+%%%%%%%%%%%%%%%
+\item If secretary leaves t minutes earlier, the difference in arrival times will be N(2+t,25),assuming
+that the journey times still have the same distributions as before.
+P(secretary arrives first) = P(M ¡ S + t > 0)
+= 1 ¡ ©(¡1(2+t)
+5 ) ¸ 0:9 if
+t + 2
+5
+¸ 1:2826 fromN(0; 1) table i:e: t = 4:408min:
+\item
+P(M < 30) = Á( 30¡35
+4 ) = Á(¡1:25) = 0:01056
+P(S < 30) = Á( 30¡33
+3 ) = Á(¡1) = 0:1587
+and require probability is 0:1056 £ 0:1587 = 0:0168:
+%%%%%%%%%%%%%%%%%%%%
+\item  The number of breakdowns per week will follow a poisson distribution with mean
+20 £ 0:02 = 0:4
+\item 
+P(no breakdowns) = e¡0:4
+P(none in 4 weeks) = (e¡0:4)4 = e¡1:6 = 0:2019
+\item 
+P(1 or more in a week) = 1 ¡ e¡0:4 = 0:39297
+required probability = (0:3297)4 = 0:0118
+In 52 weeks, number of breakdowns in poisson with mean 0:4 £ 52 = 20:8 A normal
+approximation N(20.8,20.8) may be used, and using a continuity correction we
+requireP(number > 26:5)
+z = 26p:5¡20:8
+20:8 = 5:7
+4:5607 = 1:2498
+P(z > 1:2498) = P(z < ¡1:2498) = 0:1056 from tables
+\end{enumerate}
+\end{document}
