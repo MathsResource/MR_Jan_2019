@@ -1,0 +1,163 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+\begin{enumerate}
+\item P(x irregular in sample) =
+Ã
+10
+x
+! Ã
+40
+5 ¡ x
+!
+=
+Ã
+50
+5
+!
+For x=0,1,2,3,4,5
+The sampling leads to the hypergeometric distribution:
+1
+Account : Ok Irrigular Total
+Sampled 10 ¡ x x 10
+Notsampled 35 + x 5 ¡ x 40
+Total 45 5 50
+So
+P(x = 0) =
+Ã
+10
+0
+! Ã
+40
+5
+!
+Ã
+50
+5
+! =
+1 £ 40! £ 5! £ 45!
+5! £ 35! £ 50!
+=
+40 £ 39 £ 38 £ 37 £ 36
+50 £ 49 £ 48 £ 47 £ 46
+= 0:3106
+(ii)
+P(x ¸ 2) = 1 ¡ P(0) ¡ P(1):
+P(x = 1) =
+Ã
+10
+1
+! Ã
+40
+4
+!
+Ã
+50
+5
+! =
+10 £ 40! £ 5! £ 45!
+4! £ 36! £ 50!
+=
+10 £ 5 £ 40 £ 39 £ 38 £ 37
+50 £ 49 £ 48 £ 47 £ 46
+= 0:4313
+and P(x ¸ 2) = 0:2581:
+\item P(server wins from deuce)=
+P(ww) + P(wlww) + P(lwww) + p(wlwlww) + p(wllwww)
++P(lwwlww) + P(lwlwww) + P(wlwlwlww) + ¢ ¢ ¢
+where the number of possible sequence doubles each deuce.this is
+( 2
+3 )2 + 2(2
+3 )2( 1
+3 £ 2
+3 ) + 4(2
+3 )2( 1
+3 £ 2
+3 )2 + 8(2
+3 )2( 1
+3 £ 2
+3 )3 + ¢ ¢ ¢
+= ( 2
+3 )2[1 + ( 2
+3 )2 + ( 2
+3 )4 + ( 2
+3 )6 + ¢ ¢ ¢]
+= 9
+4 [1 + 9
+4 + ( 9
+4 )2 + ( 9
+4 )3 + ¢ ¢ ¢] = 4
+9 £ 1
+1¡4
+9
+= 4
+5
+P(score does not change after 2 points) = ( 2
+3 £ 1
+3 ) + ( 1
+3 £ 2
+3 ) = 4
+9 :
+2
+P(game ends after 2 points) = ( 2
+3 £ 2
+3 ) + ( 1
+3 £ 1
+3 ) = 5
+9 :
+P(N = 2k) = 5
+9 £ P(k ¡ 1 sequences of 2 points which do not change score)
+= 5
+9 £ ( 4
+9 )k¡1 for k = 1; 2; 3; ¢ ¢ ¢
+so that N=2,4,6,¢ ¢ ¢
+writing 2k=n ,P(N = n) = 5
+9 £ 9
+4 £ ( 4
+9 )n=2 = 5
+4 £ ( 2
+3 )n
+\item
+
+\begin{enumerate}
+    \item P(C) = 0:3 P(V jC) = 0:8: P(L) = 0:4 P(V jL) = 0:6
+    \item P(D) = 0:2 P(V jD) = 0:9 P(O) = 0:1 P(V jO) = 0
+    \item P(NV jC) = 0:2 P(NV jL) = 0:4 P(NV jD) = 0:1; P(NV jO) = 1
+\end{enumerate}
+
+P(LjNV ) = P(NV jL)P(L) =
+P
+x=C;L;D;OP(NV jx)P(x)
+= 0:4£0:4
+(0:4£0:4)+(0:3£0:2)+(0:1£0:2)+(1£0:1) = 0:16
+0:34 = 0:4706:
+
+\[P(both LjNV ) = 0:4706^2 = 0:2215:\]
+
+\end{enumerate}
+\end{document}
+
