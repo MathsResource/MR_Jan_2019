@@ -1,0 +1,80 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+\begin{enumerate}
+    \item The t-value is given as 2.70, and residual d.f.=7, so p-value is 2P(t7 > 2:70).
+    \begin{itemize}
+        \item From tables,P(t7 > 2:70)
+:=
+0:0153.
+    \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+    \item The (2-tail) p-value therefore is about 0.031 for intercept(
+interpolation between p=0.05 and 0.01 in a suitable table would give the same
+answer).
+\item For the slope, the t-value is 10.48,so P < 0:001, corr(x; y) =
+p
+R2 =
+p
+0:940 = 0:97
+
+%%%%%%%%%%%%%%%%%%%%
+\item From plot1A,the linear relation may be breaking down above about x=8. 
+%%%%%%%%%%%%%%%%%%%%
+\item Plot 1B supports
+the inadequacy of a linear model for the full set of data, because the residuals do not appear to be a normally distribution set with mean zero.
+\end{itemize}
+
+\item When x2 is included, x ceases to be significant. The information in x2 is clearly
+taking up that previously given by x (with which it is strongly correlated).Now the model
+explain 98.1% of the total variation among the y-values.
+Residual variance may increase with x;whereas it should be constant .There appears to
+be a non-random pattern of residual.
+
+%%%%%%%%%%%%%%%
+\item Plot 3A shows that the logarithmic trend explains data better. Plot 3B is more
+like a random scatter of residual(though still a bit suspect)The amount of total variation
+in the explain by regression 3 is 99.1\% the test of any of these models.
+The total sum of squares = (n ¡ 1) £ variance of y;the units of y in regression 3 are
+logarithmic, whereas in 1 and 2 they were natural.
+(iv)When x=10
+1 gives y = 78:33 + 540
+:=
+618
+2 gives y = 170 + 40 + 500
+:=
+710
+3 gives log10y = 2:16 + 0:689 = 2:849; i:e: y
+:=
+706
+However data do not go so far as x=10 and it is only in regression 3 that we have a
+model that seems at all safe to use for extrapolation beyond the range of available data.
+On all counts (see (iii) and(iv)) Regression 3 appears best, and also it requires only two
+parameters.
+Paper
+\end{enumerate}
+\end{document}
