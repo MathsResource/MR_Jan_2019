@@ -1,0 +1,128 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+
+\begin{enumerate}
+\item The distribution is defined in the area shown by the shaded triangle.
+
+\item  fx(x) =
+R a¡x
+0 f(x; y)dy = 2
+a2
+R a¡x
+0 dy = 2(a¡x)
+a2 for 0 · x · a; and 0 otherwise
+FX(x) =
+R x
+0 fX(u)du = 2
+a2
+R x
+0 (a ¡ u)du = 2
+a2 [au ¡ 1
+2u2]x
+0 = 2ax¡x2
+a2 for 0 · x · a.
+4
+\item E[X] =
+R a
+0 xfX(x)dx = 2
+a2
+R a
+0 x(a ¡ x)dx = 2
+a2 [ 1
+2ax2 ¡ 1
+3x3]a
+0 = a
+3 by symmetry,E[Y ] = a
+3
+also.
+\item 
+
+\begin{eqnarray*}
+E(X) &=& \int^{a}_{0} x \;f_X(x) dx \\
+    &=&\int^{a}_{0} x(a-x) dx \\
+    &=&  \frac{2}{a^2}\left[ \frac{1}{2}ax^2 - \frac{1}{3}x^3  \right]^{a}_{0}\\
+    &=& \frac{a}{3}  
+\end{eqnarray*}
+Similarly $E(Y) = \frac{a}{3} $
+
+\begin{eqnarray*}
+E(X^2) &=& \int^{a}_{0} x^2 \;f_X(x) dx \\
+    &=&\int^{a}_{0} x^2(a-x) dx \\
+    &=&  \frac{2}{a^2}\left[ \frac{1}{3}ax^3 - \frac{1}{4}x^4  \right]^{a}_{0}\\
+    &=& \frac{a^2}{6}  
+\end{eqnarray*}
+Similarly $E(Y^2) = \frac{a^2}{6} $
+
+\begin{eqnarry*}
+Var(X) &=& [E(X^2)] - [E(X)^2] \\
+      &=& \frac{a^2}{6} - \left(\frac{a}{3}\right)^2 \\
+     &=& \frac{a^2}{18} \\
+\end{eqnarray*}
+Necessarily $Var(X) = \frac{a^2}{18}$
+
+
+\item  E[XY ] =
+R a
+x=0
+R a=x
+y=0 xyf(x; y)dydx =
+R a
+0 xf
+R a¡x
+0
+2y
+a2 dygdx
+=
+R a
+0 x[ y2
+a2 ]a¡x
+0 dx = 1
+a2
+R a
+0 x(a ¡ x)2dx = 1
+a2
+R a
+0 (a2x ¡ 2ax2 + x3)dx
+= 1
+a2 [ 1
+2a2x2 ¡ 2
+3ax3 + 1
+4x4]a
+0 = 1
+12a2.
+Cov(X; Y ) = E[XY ] ¡ E[X]E[Y ] = a2
+12 ¡ fraca32 = a2( 1
+12 ¡ 1
+9 = ¡a2
+36 ,
+Hence Pxy = pcov(X;Y )
+V (X)V (Y )
+= ¡a2=36
+a2=18 = ¡1=2:
+\end{enumerate}
+\end{document}
