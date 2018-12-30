@@ -1,0 +1,161 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+\begin{enumerate}
+\item  It is assumed that fei : i = 1 to ngare independently normally distributed with constant
+variance ¾2, and mean 0.
+@S
+@¯0
+= ¡2(
+$\sum^{n}_{i=1}$
+i=1(yi ¡¯0 ¡¯1$x_{1i}$ ¡¯2$x_{2i}$) = 0 ie.
+$\sum^{n}_{i=1}$
+i=1 yi = n¯0 +¯1
+P
+i $x_{1i}$ +¯2
+P
+i $x_{2i}$, or
+$\bar{y}$ = $\hat{\beta}_0$ + $\hat{\beta}_1$¯x1 + ˆ ¯2¯x2 which gives $\hat{\beta}_0$ = $\bar{y}$ ¡ $\hat{\beta}_1$¯x1 ¡ ˆ ¯2¯x2
+@S
+@¯1
+= ¡2
+$\sum^{n}_{i}$
+=1 $x_{1i}$(yi ¡ ¯0 ¡ ¯i$x_{1i}$ ¡ ¯2$x_{2i}$) = 0 when
+$\sum^{n}_{i=1}$
+i=1 $x_{1i}$yi =
+P
+$x_{1i}$ $\hat{\beta}_0$ + $\hat{\beta}_1$
+P
+i x2
+1i + ˆ ¯2
+P
+i $x_{1i}$$x_{2i}$ =
+P
+i $x_{1i}$($\bar{y}$ ¡ $\hat{\beta}_1$¯x1 ¡ ˆ ¯2¯x2) + $\hat{\beta}_1$
+P
+i x2
+1i +
+ˆ ¯2
+P
+i $x_{1i}$$x_{2i}$:
+i.e.
+$\sum^{n}_{i=1}$
+1 $x_{1i}$(yi ¡ $\bar{y}$) = $\hat{\beta}_1$(
+P
+i $x_{1i}$
+2 ¡ ¯x1
+P
+i $x_{1i}$) + ˆ ¯2(
+P
+i $x_{1i}$$x_{2i}$ ¡ ¯x2
+P
+$x_{1i}$) = $\hat{\beta}_1$(
+P
+x2
+1i ¡
+f
+P
+$x_{1i}$g2
+n ) + ˆ ¯2(
+P
+$x_{1i}$$x_{2i}$ ¡ f
+P
+$x_{1i}$gf
+P
+$x_{2i}$g
+n ) 
+\begin{itemize}
+\item Now
+P
+i(yi ¡ $\bar{y}$)¯x1 = 0, Since ¯x1 is constant
+over the summation and
+P
+yi ¡ $\bar{y}$¯x1 = 0 by definition of $\bar{y}$.
+
+\item Also
+P
+i x2
+i ¡(
+P
+xi)2
+n =
+P
+(xi¡¯x)2; 
+\item So this may be written
+\begin{itemize}
+\item $\sum^{n}_{i}$
+($x_{1i}$¡x¯1)(yiy¯) = beˆtai
+\item $\sum^{n}_{i=1}(x_{1i}$¡
+¯x1)2 + ˆ ¯2
+\item $\sum^{n}_{i=1}(x_{1i}$ ¡ ¯x1)($x_{2i}$ ¡ ¯x2)
+\end{itemize}
+\item In exactly the same way, n
+i=1($x_{2i}$ ¡ ¯x2)(yi ¡ $\bar{y}$) = $\hat{\beta}_1$
+$\sum^{n}_{i=1}$
+i=1($x_{1i}$ ¡ ¯x1)($x_{2i}$ ¡ ¯x2) + ˆ ¯2
+$\sum^{n}_{i=1}$
+i=1($x_{2i}$ ¡ ¯xx)2:
+5
+\end{enumerate}
+\item  A simple notation for the equations is S1Y = S11 $\hat{\beta}_1$ + S12 ˆ ¯2 ; S2Y = S12 $\hat{\beta}_1$ + S22 ˆ ¯2
+
+\begin{itemize}
+\item S11 = 28028 ¡ (8 £ 59)2=8 = 180 ; 
+\item S22 = 29700 ¡ (8 £ 60)2=8 = 900 ; 
+\item S12 = 28680 ¡ 8 £
+59 £ 60 = 360 ; 
+\item S1Y = 26860 ¡ 8 £ 55 £ 59 = 900 ; 
+\item S2Y = 28560 ¡ 8 £ 55 £ 60 = 2160:
+\end{itemize}
+Therefore 900 = 180 $\hat{\beta}_1$ + 360 ˆ ¯2 2160 = 360 $\hat{\beta}_1$ + 900 ˆ ¯2:
+These reduce to 5 = $\hat{\beta}_1$ + 2 ˆ ¯2; giving $\hat{\beta}_1$ = 1; ˆ ¯2 = 2 and 12 = 2 $\hat{\beta}_1$ + 5 ˆ ¯2 $\hat{\beta}_0$ =
+55 ¡ 59 ¡ (2 £ 60) = ¡124:
+
+\begin{itemize}
+\item The multiple P regression equation is y = ¡124 + x1 + 2x2, The total sum of squares
+(yi ¡ $\bar{y}$)2 = 29600 ¡ 8 £ 552 = 5400 The residual (error) s.s. will have 8 ¡ 3 = 5d.f.;
+hence its value is 5 £ 36 = 180
+\item The regression s.s.(2df) is 5400 ¡ 180 = 520
+F(2;5) = 5220=2
+36 = 72:5(0:1% level);very highly significant and so the model is a satisfactory
+fit to the data. ˆ¯1
+SE( ˆ¯1)
+= p1
+1
+; n:s: as ts; ˆ¯2
+SE( ˆ¯2)
+= p2
+0:2
+= 4:472:
+\item Hence ¯1 is not significant in the presence of ¯2; but ¯2 is significant in the presence of
+¯1. 
+\item From all these tests we can infer that a simple linear regression of y on x2, arithmetic
+ability, is adequate as a model.
+\end{itemize}
+\end{enumerate}
+
+\end{document}
