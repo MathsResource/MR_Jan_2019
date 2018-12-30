@@ -1,23 +1,39 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
-\title{RSS_Jan_2019_HC2}
-\author{kobriendublin }
-\date{December 2018}
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
 
-\begin{document}
+\setcounter{MaxMatrixCols}{10}
 
-\maketitle
+\begin{enumerate}
+\item The total sum of probabilities must be 1. Hence k=1/900.
 
-\section{Introduction}
-
-7.(a)The total sum of probabilities must be 1. Hence k=1/900.
-(b)Summing in rows : x 1 2 3 TOTAL
+\item Summing in rows : x 1 2 3 TOTAL
 P(x) 7=90 26=90 57=90 : 1
 and in columns : y 1 2 3 4 TOTAL
 P(y) 17=450 31=225 3=10 118=225 : 1
 These are the marginal distributions of X and Y.
-(c)E[X]=(7+52+171)/90=23/9 . (=2.56).
+
+\item E[X]=(7+52+171)/90=23/9 . (=2.56).
 E[Y]= 1
 450 ((1 £ 17) + (2 £ 62) + (3 £ 135) + (4 £ 236)) = 149
 45 . (=3.31)
@@ -25,7 +41,7 @@ E[X2]=( 1
 90 )(1 £ 7 + 4 £ 26 + 9 £ 57) = 624
 90 = 104
 15
-V[X]=E[X2] ¡ (E[X])2 = 104
+\[V[X]=E[X^2] - (E[X])^2\] = 104
 15 ¡ 232
 81 = 8424¡7935
 15£81 = 163
@@ -33,7 +49,7 @@ V[X]=E[X2] ¡ (E[X])2 = 104
 E[Y 2]= 1
 450 (1 £ 17 + 62 £ 4 + 135 £ 9 + 236 £ 16) = 5256
 450
-V [Y ] = E[Y 2] ¡ (E[Y ])2 = 5256
+\[V [Y ] = E[Y 2] ¡ (E[Y ])2 \] = 5256
 450 ¡ ( 149
 45 )2 = 5256£45¡1492£4
 45£450
@@ -47,7 +63,7 @@ E[XY]= 1
 900 (3 + 40 + 126 + 288 + 936 + 1088 + 1539 + 3600) = 7620
 900 = 127
 15 .
-Cov[X,Y]=E[XY]-E[X]E[Y]=127
+\[Cov[X,Y]=E[XY]-E[X]E[Y]=127\]
 15 ¡ 23
 9 ¢ 149
 45 = 27£127¡23£149
@@ -61,10 +77,16 @@ PXY = p 2=405
 p
 p 5
 163£1451 = 0:00920 .
-(d)When Y=1, the conditional distribution of X is the first column of the table, scaled to sum to
+
+%%%%%%%%%%%%%%%%%%%%%
+\item When Y=1, the conditional distribution of X is the first column of the table, scaled to sum to
 1:
 x 1 2 3
 Probability 3=34 10=34 21=34
-(e)E[XjY=1]= 1
+
+\item E[XjY=1]= 1
 34 (3 £ 1 + 10 £ 2 + 21 £ 3) =86/34=43/17=2.529 .
+\end{enumerate}
+
+
 \end{document}
