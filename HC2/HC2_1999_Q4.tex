@@ -1,0 +1,89 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\begin{enumerate}
+    \item (i) H0: cerebral blood flow and senile dementia are independent.
+H1: they are not independent.
+Calculate expected frequencies in the 2-way table:
+OBS Blood Flow Normal Reduced EXP N R
+Dementia No 92 28 120 No 86 34
+Y ES 80 40 120 Y ES 86 34
+172 68 240 172 68
+Â2
+(1) = 62( 2
+86 + 2
+34 ) = 72£ 120
+86£34 = 2:955,n.s.,providing no statistical evidence for rejecting
+H0.
+\item  For a matched case-control study, McNemar’s test is required, which has greater power
+of discrimination because of the matching.
+CONTROL
+N R
+CASE N 74 6
+R 18 22
+Â2
+(1) = (6¡18)2
+6+18 = 144
+24 = 6:00, so H0 is rejected.
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Definition}
+The test is applied to a 2 × 2 contingency table, which tabulates the outcomes of two tests on a sample of n subjects, as follows. 
+
+Test 2 positive
+Test 2 negative
+Row total 
+Test 1 positive
+a
+b
+a + b 
+Test 1 negative
+c
+d
+c + d 
+Column total
+a + c
+b + d
+n 
+The null hypothesis of marginal homogeneity states that the two marginal probabilities for each outcome are the same, i.e. pa + pb = pa + pc and pc + pd = pb + pd. 
+Thus the null and alternative hypotheses are[1] 
+\[{\displaystyle {\begin{aligned}H_{0}&:~p_{b}=p_{c}\\H_{1}&:~p_{b}\neq p_{c}\end{aligned}}} \]
+
+Here pa, etc., denote the theoretical probability of occurrences in cells with the corresponding label. 
+The McNemar test statistic is: 
+χ 2 = ( b − c ) 2 b + c . \[{\displaystyle \chi ^{2}={(b-c)^{2} \over b+c}.} \]
+
+Under the null hypothesis, with a sufficiently large number of discordants (cells b and c), 
+${\displaystyle \chi ^{2}} $
+ has a chi-squared distribution with 1 degree of freedom. If the 
+${\displaystyle \chi ^{2}} $
+ result is significant, this provides sufficient evidence to reject the null hypothesis, in favour of the alternative hypothesis that pb ≠ pc, which would mean that the marginal proportions are significantly different from each other. 
+\end{document}
