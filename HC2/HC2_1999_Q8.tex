@@ -1,0 +1,69 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+
+\section{Introduction}
+\begin{enumerate}
+    \item If two samples are drawn from Normal distributions N(ui; ¾2
+i ) i = 1; 2 and ui; ¾2
+i not
+known, an estimate of each variance is s2
+i =
+mPi
+j=1
+(xij ¡ ¯xi)2=(mi ¡1) where mi are sample
+sizes. A test of the N.H, ”¾2
+1 = ¾2
+2” is given as F(m1¡1;m2¡1) = s21
+=s22
+, where s21
+> s22
+to
+make use of standard tables. (see the example below)
+In the Analysis of Variance (see, e.g., question 5), mean squares computed on the
+Null Hypothesis are all estimates of the same residual variation ¾2, and so the ratio
+treatments mean square
+residual mean sqare will follows an F-distribution with the appropriate degrees of freedom.
+\item Supplier 1: m = 16;
+P
+xi = 30:1;
+P
+x2
+i = 58:85; s2 = 0:14829.
+Supplier 2: m = 16;
+P
+xi = 30:3;
+P
+x2
+i = 57:97; s2 = 0:03929; F(15;15) = 0:14829
+0:03929 = 3:77;
+leads us to reject a N.H. of equal variances in favor of an A.H. ¾2
+1 > ¾2
+2. The company is
+well advised to use supplier 1.
+\end{enumerate}
+\end{document}
