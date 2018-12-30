@@ -1,0 +1,96 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+\begin{enumerate}
+    \item (a) (i) When it is reasonable to assume that a set of data come from a population that can
+be modelled normal distribution,a test for the location ”center” of the distribution
+can be based on the standard normal distribution. If a sample fxig is small, we
+require to know a value for the variance ¾2, Then a test of H0 : ”mean = u”is to
+calculate z = (¯x¡u)
+¾=
+p
+n , where n is sample size, as test z as N(0; 1). In large samples,
+¾2 need not be know exactly but can be estimated by s2 = 1
+n¡1
+Pn
+i=1(xi ¡ ¯x2).
+This is satisfactory for n¿30 in faith symmetrical distributions (even if not exactly
+normal) but sometimes a value of ¾2 from earlier similar work and be used, e.g,
+in industry for smaller n, Differences between means from N(u1; ¾2
+2) and N(u2; ¾2
+2)
+will be N(u1 ¡ u2; ¾2
+1
+n1
++ ¾2
+2
+n2
+) and then a hypothesis that they have the same mean
+(location ”center”) is tested using Z = (x¯p1¡x¯2)¡(u1¡u2)
+±2
+1=n1+±2
+2=n2
+Very large sample of data
+from normal approximations such as Binomial (n; p) » N(np; np(1 ¡ p)).
+\item For a distribution that is normal with unknown variance but n < 30; ¾2 is estimated
+by s2 and t = ¯x¡u
+s=
+p
+n follows the t-distribution with (n-1)degrees of freedom.
+Also, provided two populations have the same variance, the different between their
+locations can be tested by t = (¯x1¡¯x2)¡(u1¡u2)
+s
+p
+1=n1+1=n2
+, where sample sizes are n1; n2; the
+N.H. is ”u1 = u2” and s2 = (n1¡1)s21
++(n2¡1)s22
+n1+n2¡2 These test meet the same purposes as
+those in (i).
+\item  These data are paired, involving the same workers, and therefore a test must be based on
+the single sample of 12 differences di =(rate with supervisor present)-(rate with supervisor
+absent). We may examine the N.H ”mean of D=0”. Values fdig are ¡5; ¡3; 0; ¡3; 1; 2; 6;
+¡3; 0; ¡3; 1; ¡3:
+P
+di = ¡10 ¯ d = ¡0:833:
+P
+d2
+i = 112; s2 = 1
+11(112¡(¡10)2
+12 ) = 9:4242.
+The test is t(11) = p¡0:833¡0
+9:4242=12
+= 0:94, n.s., so there is no evidence that, on average, the
+supervisor’s presence made any difference. But the manager may be interested to note
+10
+that only one worker(7) showed a substantially higher rate with the supervisor present;
+usually there was little difference or a small decrease.
+\end{enumerate}
+\end{document}
