@@ -1,9 +1,28 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{framed}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
-\begin{document}
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 
 \maketitle
 
@@ -13,7 +32,8 @@
 likelihood. Y = y¡y0, X = k(x¡x0) transforms ˆ Y = ˆ A+ ˆBX into ˆy¡y0 = ˆ A+ ˆBk(x¡x0)
 or ˆy = ( ˆ A ¡ ˆBkx0) + y0 + ˆBkx, giving in the usual notation ˆa = y0 + ˆ A ¡ ˆB kx0 andˆb = ˆB k .
 Since the scale of Y is not changed, the estimate of ¾2 will not be changed: s2 = S2.
-(b)
+%%%%%%%%%%%%%%%%5
+\item
 P
 t=15,
 P
@@ -41,9 +61,12 @@ The fitted values and residuals are:
 Age 84 91 98 105 112 119
 Weight 528 556 584 612 640 668
 Residual ¡1 ¡1 1 3 0 ¡2
-sum of squares of residuals =16, hence residual mean square with 4 degrees of freedom is 16/4
+
+\begin{itemize}
+\item sum of squares of residuals =16, hence residual mean square with 4 degrees of freedom is 16/4
 =4.
-The residuals go rather systematically up and then down again, which suggests the need for
+\item The residuals go rather systematically up and then down again, which suggests the need for
 a curvilinear model, such as adding a (time)2 term, or plotting log(weight) against log(age).
+\end{enumerate}
 \end{enumerate}
 \end{document}
