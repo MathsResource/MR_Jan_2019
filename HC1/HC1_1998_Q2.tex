@@ -24,12 +24,29 @@
 
 \setcounter{MaxMatrixCols}{10}
 
-\section{Introduction}
+\begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 2.(i)
 \begin{enumerate}
 \item For a non-sufferer, X»N(7,9), so
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 1998 Question 2
+
+X sim N(7,9)
+
+Compute $P(X \geq 10)$
+
+%----------------%
+\begin{framed}
+
+\noindent \textbf{Z Score for $X = 10$}
+
+\[z_{10}  = \frac{10-7}{ 3}  = \frac{3}{3} = 1\]
+\end{framed}
+%------------------%
+
 P(x¸10) = P(z = x¡7
 3 ¸ 10¡7
 3 )
@@ -39,6 +56,17 @@ P(x¸10) = P(z = x¡7
 = 0:1587:
 where Z»N(0,1)
 \item For a sufferer, X»N(19,36), so
+
+
+%----------------%
+\begin{framed}
+
+\noindent \textbf{Z Score for $X = 10$}
+
+\[z_{10}  = \frac{10-19}{ 6}  = -\frac{9}{6} = -1.50\]
+\end{framed}
+%------------------%
+
 P(x<10) = P(Z = x¡19
 6 < 10¡19
 6 )
@@ -48,13 +76,18 @@ where Z»N(0,1)
 [Calculate as 1-P(Z<+3/2) if using tables.]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item If critical level is x0, P(X¸x0jx »N(7,9))=0.05 .
-In N(0,1) the upper 5% point is Z0=1.645 ; hence Z0 = x0¡7
+In N(0,1) the upper 5\% point is Z0=1.645 ; hence Z0 = x0¡7
 3 = 1:645 or x0 = 7+(3£1:645) =
 11:935.
-\item P(X¸10) = P(X ¸ x0jsufferer)P(has disease) + P(X ¸ 10jnon ¡ sufferer)P(does not have disease)
-= (1 ¡ 0:0668) £ 0:1 + 0:1587 £ 0:9
-= 0:2362:
-[use answers(i),(ii) and information that 10% if population affected.]
+\item 
+
+\begin{eqnarray*}
+P(X¸10) &=& P(X ¸ x0jsufferer)P(\mbox{has disease}) + P(X ¸ 10jnon ¡ sufferer)P(\mbox{does not have disease})\\
+&=& (1 ¡ 0:0668) £ 0:1 + 0:1587 £ 0:9\\
+&=& 0.2362.
+\end{eqnarray*}
+
+[use answers(i),(ii) and information that 10\% if population affected.]
 \item P(diseasejx ¸ 10)=(0.9332£0.1)/(0.2362)=0.3951 .
 \end{enumerate}
 \end{document}

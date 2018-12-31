@@ -1,0 +1,69 @@
+5.(a)Writing p for price, q for volume, o for January 1995 and l for January 1997, the Paosehe
+Price index for 1997 is
+(i)
+P
+Pp1q1
+p0q1
+= 2:45£167:3+6:43£777:3+2:66£165:2+15:15£3193:7
+2:98£167:3+4:40£777:3+3:85£165:2+11:41£3193:7
+= 54231:911
+40994:811 = 1:3229
+.
+The index is thus 132.29.
+(ii) 15:15
+11:41 =1.3278, i.e. 132.78%.
+The weight(q) for D is so large that the price change in D dominates the index.
+(b)(i) (ii)
+Share values and predictions by exponential smoothing
+(ii)Exponential smoothing relates forecasts F at successive times t and actual figures as:
+Ft = ®xt¡1 + (1 ¡ ®)Ft¡1
+.
+Calculations for ® = 0:4 are on the next page.
+14
+(iii)If ® = 0:9, predictions will track actual prices(x) much more closely.
+or ® = 0:4, Ft = 0:4 £ xt¡1 + 0:6Ft¡1, for t=2,¢ ¢ ¢,11.
+Day 1 2 3 4 5 6 7 8 9 10 11
+x 3:85 3:56 3:65 3:54 3:71 3:43 3:28 3:43 3:35 3:45 ¡
+F (3:85) 3:85 3:73 3:70 3:64 3:67 3:57 3:45 3:44 3:41 3:42
+6.(i)Given that ¹ = 0:52 and ¾ = 23:43, the cumulative frequencies in a normal distribution are
+given by 520 ©(Z);
+for -67.5, ©(¡67:5¡0:52
+23:43 ) = ©(¡2:903) = 0:00185; CF = 0:962;
+for -52.5, ©(¡52:5¡0:52
+23:43 ) = ©(¡2:263) = 0:01182; CF = 6:146.
+Because of the very small expected frequency in the first group we shall combine it with the
+second, to give Obs.=7, Exp.=6.146. Continuing down the table, the cumulative frequency to -7.5
+is 6.146+21.063+57.512+105.632=190.353.
+For +7.5, ©(7:5¡0:52
+23:43 ) = ©(0:298) = 0:61715; CF = 320:918.
+Now 320.918-190.353=130.565, which is the frequency in (-7.5,+7.5).
+For +37.5, ©(37:5¡0:52
+23:43 ) = ©(1:578) = 0:94272. Hence the frequency in (22.5,37.5)=490.214-
+320.918-108.573=60.723 .
+Now check that 490.214+(22.873+5.789+1.106)=519.982=: n within acceptable rounding error.
+For testing normality the last two groups are combined: O=3, E=6.895.
+There are 9 groups, two parameters were estimated, so Â2 has 6 d f.
+Â2
+(6) = (7¡6:146)2
+6:146 + (26¡21:063)2
+21:063 + (54¡57:512)2
+57:512 + (90¡105:632)2
+105:632 + (147¡130:565)2
+130:565 + (102¡108:573)2
+108:573
++(66¡60:723)2
+60:723 + (25¡22:873)2
+22:873 + (3¡6:895)2
+6:895 = 9:20 n:s:
+This provides no evidence against the fit to a normal distribution.
+(ii)Unless there are enough observations to combine into several groups, the Â2 is a very poor
+approximation, and also the pattern in the data is difficult to detect. Power against an alternative
+of non-normality is very low.
+(iii)There will be 30 residuals, which should be i.i.d. N(0; ¾2). If it is only normality that is
+tested, and not only of the other assumptions made in analysis of a randomized block, a normal
+probability plot is suitable. The residuals are ranked in order, from largest negative to largest positive.
+Normal probability paper allows these to be plotted against the order-statistics for a normal
+distribution with a sample of 30 items; the ith observed value is plotted against ©¡1(i=31). This
+should give roughly a straight line. Further information comes from identifying which blocks and
+treatments give the largest residuals, positive or negative. If, for example, one treatment seems to
+have mostly large residuals it may be indicating that variances differ from one treatment to another.

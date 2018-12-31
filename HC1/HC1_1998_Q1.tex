@@ -23,6 +23,7 @@
 \renewcommand{\baselinestretch}{1.3}
 
 \setcounter{MaxMatrixCols}{10}
+\begin{document}
 
 
 \section{Introduction}
@@ -54,8 +55,8 @@ P(AjE)P(E)=P(EjA)P(A) or P(AjE)=0:02£1=3
 \[P(BjE)=P(EjB)P(B)/P(E)=0:01£1=2\]
 0:02 = 1
 4 ;
-P(CjE)=P(EjC)P(c)/P(E)=0:05£1=6
-0:02 = 5
+\[P(CjE)=P(EjC)P(c)/P(E)=0:05£1=6
+0:02 = 5\]
 12 .
 [Check: these must sum to 1 .
 p
@@ -63,25 +64,23 @@ p
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item Since the readerships are large, we may ignore the need for a finite population correction, and
-so the required probability will be ( 1
-3 )2 = 1
-9 .
+so the required probability will be \[ \left( \frac{1}{3}\right)^2 = \frac{1}{9}\]
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item Similarly, for any two different newspapers, in either order for first, second, the probability
-will be: 2f( 1
-3 £ 1
-4 ) + ( 1
-3 £ 5
-12 ) + ( 1
-4 £ 5
-12 )g = 1
-6 + 5
-18 + 5
-24 = 4
-9 + 5
-24 = 47
-72 = 0:653:
+will be: 
+\begin{eqnarray*}
+Prob &=& 2 \left[\left( \frac{1}{3} \times \frac{1}{4} \right) + \left( \frac{1}{3} \times \frac{5}{12} \right) + \left( \frac{1}{4} \times \frac{5}{12} \right)\right]
 
+&=& \left( \frac{2}{12} + \frac{10}{36} + \frac{10}{48} \right) \\
+
+&=& \left( \frac{12}{72} + \frac{20}{72} + \frac{15}{72} \right) \\
+
+&=& \frac{47}{72} \\
+
+%=% 0.653
+
+\end{eqnarray}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 There are 6 possible orders for one each of A, B, C, so the probability is 6£1
 3£1
