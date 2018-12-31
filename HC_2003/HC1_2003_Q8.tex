@@ -1,0 +1,85 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+Higher Certificate, Paper I, 2003. Question 8
+(i)
+( )( )
+( ) ( )
+1
+2 2
+1 1
+n
+i i
+i
+n n
+i i
+i i
+x x y y
+r
+x x y y
+=
+= =
+− −
+=
+− −
+Σ
+Σ Σ
+.
+This explains the strength of linear relationship between the xi and yi, with
+r = ±1 showing linearity and r = 0 showing no linear relationship. The
+underlying X and Y are both random variables.
+(a) r near to +1, small amount of scatter about an (increasing) linear
+relationship
+(b) r near to –1, y decreases as x increases, otherwise as in (a)
+Continued on next page
+(c) Independent data (r ≈ 0)
+(d) Non-linear relationship, e.g. y = x2
+(ii) (a) Simple linear regression of y = cholesterol on x = age. y is the
+dependent variable, x the independent. Assume a linear relationship
+underlying the data, Yi = a + bxi + ε
+i, where the { ε
+i} are independent
+identically distributed N(0, σ 2) random variables with σ 2 constant for
+all i.
+(b) r = √(0.323) = 0.568 for 'chol' and 'age'.
+r = √(0.940) = 0.970 for 'newchol' and 'newage'.
+The latter consists of the 8 data points omitting the observation at
+x = 27 which seems very far from the roughly linear pattern of the rest.
+Omitting it has made a linear relationship seem much more plausible.
+Subject number 2 has very high cholesterol for his age.
+Continued on next page
+(c) Using the "constant" row in either set of output, the constant term is
+not significantly different from 0. A model omitting a could perhaps
+be used.
+This would imply cholesterol 0 at age 0, which might not be very
+sensible – but we do not actually have data in that region, so we
+cannot claim that a linear relationship still holds.
+(d) There is a tendency towards a curved relationship even when the very
+"unusual" observation at age 27 is omitted. The fit of a line without
+that observation is however much better than with it, and the
+diagnostic plots, of residuals and Normal probability, seem acceptable.
+\end{document}

@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{RSS_Jan_2019_HC_2006}
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+Higher Certificate, Paper I, 2006. Question 1
+
+\section{Introduction}
+\begin{enumerate}
+    \item The first place can be occupied by 9 different digits, 1 to 9. Each of the other three places can be occupied by 10 digits, 0 to 9.
+Hence there are $9 × 10 × 10 × 10 = 9000$ possible PINs.
+\item All of the combinations in (i) are allowed except 1111, 2222, …, 9999, so there are 9000 – 9 = 8991 possibilities.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item Only the 9 digits 1 to 9 can be used. The first place can be filled in 9 ways, the second in 8, the third in 7 and the last in 6. So there are 9 × 8 × 7 × 6 = 3024 possibilities.
+\item With all 10 digits possible in any position, there would be 104 PINs. There are 7 increasing sequences (0123, 1234, …, 6789) and 7 decreasing sequences $(9876, 8765, \ldots, 3210)$, which are not allowed. The number of possible PINs is therefore 104 – 14 = 9986.
+\item All of the 104 combinations are allowed except:
+(a) the 10 where all 4 digits are the same: 0000, 1111, …, 9999;
+(b) those where one digit occurs three times and another just once. There are $10 \times 9 = 90$ ways of choosing the two digits. But note that, for example, 2333, 3233, 3323 and 3332 are four different PINs; whichever two digits occur, the odd one out can be in any of the 4 places in the PIN. Therefore there are $4 \times 90 = 360$ PINs of this sort.
+The number of possible PINs is therefore 104 – 10 – 360 = 9630.
+\end{enumerate}
+
+\end{document}

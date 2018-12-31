@@ -1,0 +1,115 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+Higher Certificate, Paper I, 2001. Question 7
+(a) P( Xi ≤ x) = F (x) for i = 1, 2, ..., n .
+(i) ( ) ( ) ( ) max 1 2
+1
+, , ...,
+n
+X n i
+i
+F x P X x X x X x P X x
+=
+= ≤ ≤ ≤ =Π ≤
+( ) n = F x 
+(ii) For min X ≥ x , we require every i X to be ≥ x .
+Now, ( ) ( ), so ( ) 1 ( ), for all . i i P X ≤ x = F x P X ≥ x = − F x i
+( ) ( ) ( ) ( ) min min min 1 1 1 ,..., X n ∴F x = P X ≤ x = − P X ≥ x = − P X ≥ x X ≥ x
+1 1 ( ) n = −  − F x 
+(iii) Pdfs are derivatives of cdfs:
+( ) ( ) max
+n 1
+X f n F x f x − =  
+( ) ( ) ( ) ( ) min
+1 1 , since . n
+X
+F x
+f n F x f x f x
+x
+− ∂
+=  −  = ∂
+(b)
+0
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1 2 3 4 5 6 7
+x
+( )
+0 ( ) 1 ( ) ( )
+0
+1 1 1 .
+1 1 1
+x
+x F x du
+u u x α α α
+α
++
+ 
+= = −  = −
++  +  +
+∫
+Median M is such that ( ) 1
+2
+F M = . So we have
+( ) ( )
+1 1 1 or 1 1 or 2 (1 ) or 2(1/ ) 1
+1 2 1 2
+M M
+M M
+α α
+α α − = = = + = −
++ +
+.
+( ) ( ) min
+Using (a)(ii), 1 1 1 1
+1 1
+n
+X n F
+x x α α
+ 
+= −   = −
+ +  +  
+, also Pareto but with α replaced
+by nα.
+The median of Xmin is then
+1
+2nα −1, which is 21/ n −1 if α =1. We require
+21/ n −1< 0.1 or 21/ n <1.1, i.e. 1 ln 2 ln1.1
+n
+< , giving ln 2 0.6931 7.27
+ln1.1 0.0953
+n> = = .
+Hence n ≥ 8.

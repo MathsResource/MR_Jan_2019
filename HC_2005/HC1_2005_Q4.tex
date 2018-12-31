@@ -1,0 +1,116 @@
+Higher Certificate, Paper I, 2005. Question 4
+f (x) (1 x) 1 , 0 x 1, 0 α α α − = − < < > .
+(i) ( ) ( ) ( ) ( ) 1
+0 0
+1 1 1 1
+x x Fx u du u x α α α α = − − = − −  = − − ∫   (for 0 < x < 1 and α > 0).
+The median m is given by F(m) = ½, so we have 1 – (1 – m)α = ½ or (1 – m)α = ½,
+so that 1−m = 2−1/α , i.e. m =1− 2−1/α .
+When α = 3, ( ) ( )2 f x = 3 1− x and ( ) ( )3 F x =1− 1− x (in [0, 1]).
+f(x)
+x
+1
+1
+2
+3
+4
+F(x)
+x
+1
+1
+The solution to part (ii) is on the next page
+(ii) ( ) ( ) 1 1
+1 1
+1 1
+n n
+n
+i i
+i i
+L x x α α α α − −
+= =
+=  −  = − Π  Π .
+Hence ( ) ( )
+1
+log log 1 log 1
+n
+i
+i
+L n α α x
+=
+= + − Σ − .
+( )
+1
+log log 1
+n
+i
+i
+d L n x
+dα α =
+∴ = +Σ − which on setting equal to zero gives that the maximum
+likelihood estimate is
+( )
+1
+ˆ
+log 1
+n
+i
+i
+n
+x
+α
+=
+= −
+Σ −
+, as required. [Consideration of
+2
+2
+d log L
+dα
+(see below) confirms that this is a maximum.]
+2
+2 2
+d log L n
+dα α
+= − . Hence, using the result quoted in the question, αˆ is approximately
+Normally distributed with mean α and variance
+2
+n
+α . We estimate the variance by
+ˆ 2
+n
+α ,
+so that we have
+ˆ 2 ˆ ~ N ,
+n
+α α α
+ 
+ 
+ 
+, approximately.
+Hence an approximate 90% confidence interval is given by
+ˆ
+0.90 1.645 1.645
+ˆ /
+P
+n
+α α
+α
+ −  ≈ − < < 
+ 
+,
+leading to the interval
+ˆ 1.645 ˆ ˆ 1.645 ˆ ,
+n n
+α α α α    − + 
+ 
+.
+For the given sample, we have n = 5 and the values of 1 – xi are 0.88, 0.57, 0.93, 0.13
+and 0.71. Therefore
+Σlog(1 – xi) = –0.1278 – 0.5621 – 0.0726 – 2.0402 – 0.3425 = –3.1452
+giving ˆ 5 1.5897
+3.1452
+α= = .
+Also,
+1.645 ˆ 1.645 1.5897 1.1695
+n 5
+α = × = , so the confidence interval is (0.420, 2.759).

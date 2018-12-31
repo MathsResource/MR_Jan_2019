@@ -1,0 +1,79 @@
+Higher Certificate, Paper II, 2005. Question 6
+(i) The Mann-Whitney U test is preferred to the t test for comparing location in two independent samples with the same underlying dispersion if the data come from distributions that are not (approximately) Normal and if the data are ranked rather than measured exactly (i.e. the data are ordinal but not of interval type).
+(ii)
+A
+... . . . . .
+.
+.
+B
+.. . .
+: . .
+. .
+200 300 400 500 600 700
+Both distributions are skew to the right, of fairly similar shape. The ranges are about the same, suggesting that the underlying dispersions might reasonably be taken as equal. The locations are clearly different. The samples are certainly to small for the Central Limit Theorem to apply to their means.
+(iii) The Mann-Whitney U test (equivalently, a Wilcoxon rank sum test could be used) is applied as follows. The data and ranks are shown in the table, using average ranks for ties.
+231
+233
+249
+285
+301
+301
+328
+343
+400
+407
+1
+2
+3
+4
+5½
+5½
+7
+8
+9
+10
+B
+B
+B
+B
+B
+B
+B
+B
+B
+A
+410
+416
+421
+432
+456
+460
+481
+491
+532
+634
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+A
+A
+A
+A
+A
+B
+A
+A
+A
+A
+n1 = 10, n2 = 10. Total rank for component type A is TA = 149; for B is TB = 61.
+Calculating the Mann-Whitney statistic via the ranks (note: it can also be calculated directly, or the Wilcoxon rank-sum form could be used),
+()11121121AUnnnnT=++− = 100 + 55 – 149 = 6.
+()12122221BUnnnnT=++− = 100 + 55 – 61 = 94.
+So Umin = 6. From tables, the critical value for a U test with n1 = n2 = 10 at the 5% two-tailed level is 23. As 6 < 23, we reject the null hypothesis at the 5% level of significance. In fact we would also reject at the 1% level. So (in a form for the non-statistician to understand) there is extremely strong evidence that the lifetimes of the two types of components are different and we can strongly conclude that, on the whole, lifetimes of type A are longer than those of type B.

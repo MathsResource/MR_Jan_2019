@@ -1,0 +1,108 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+Higher Certificate, Paper I, 2003. Question 1
+\begin{enumerate}
+\item Any of 0, 1, …, 9 can occur in each of the six positions, so the number
+is 106 = 1000000.
+(b) $10 × 9 × 8 × 7 × 6 × 5 = 151200$, since no repetition is allowed.
+[Alternatively, ( )
+10! 10!
+10 6 ! 4!
+=
+−
+as above.]
+(c) There are
+10
+6
+ 
+ 
+ 
+choices of six different digits from ten, each of which
+can be used in only one of its possible orders. So the number is
+10 10! 210
+6 6! 4!
+ 
+  = =
+ 
+.
+(d) Here there are
+10
+3
+ 
+ 
+ 
+choices of digits, for each of which there are
+6! 90
+2!2! 2!
+= orders, so the number is
+10
+90
+3
+ 
+ ×
+ 
+= 10800.
+\item  (a) There are 3! = 6 possible orders for the first three digits, and 1 order
+(the reverse order of the first three digits) for the last three. So there
+are 6 codes.
+(b) If one digit is used 4 times in a palindromic code, another must be used
+twice. These digits may be chosen in 3 and 2 ways respectively, i.e. in
+6 ways for the pair. Once the digits have been chosen, only 3 patterns
+are possible; for example, say the digits are 1 and 2, then the possible
+patterns are 1 1 2 2 1 1, 1 2 1 1 2 1 and 2 1 1 1 1 2. So the total
+number of codes is $6 × 3 = 18$.
+(c) There are 3 choices of digit and only one possible pattern for each; so
+there are 3 codes.
+\item  Using the patterns from part (ii), there are
+10
+3
+ 
+ 
+ 
+choices of digits for (a), each
+giving 6 codes, i.e.
+10
+3
+ 
+ 
+ 
+× 6 = 720 altogether. For (b), there are
+10
+2
+ 
+ 
+ 
+choices
+of digits, i.e. 45, with 3 patterns as above, in which the two digits can be used
+in 2 ways (4 of 1 and 2 of 2 or vice versa), giving 45 × 3 × 2 = 270 ways. And
+(c) can occur in 10 ways (because any digit can be used 6 times). Thus the
+total is 720 + 270 + 10 = 1000 ways.
+ALTERNATIVELY, the first three positions may each be filled in 10 ways,
+and then the whole sequence is determined, so there are 103 = 1000 ways.
+\end{enumerate}
+\end{document}

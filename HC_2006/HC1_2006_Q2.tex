@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{RSS_Jan_2019_HC_2006}
+\author{kobriendublin }
+\date{December 2018}
+
+\begin{document}
+
+
+\section{Introduction}
+%- Higher Certificate, Paper I, 2006. Question 2
+%- HC1 2006 Question 2
+
+
+\begin{enumerate}
+\item 
+\begin{description}
+
+\item[A:]  
+\begin{itemize}
+\item[$\bullet$] No Entries
+\[ P( 0 \mbox{entries}) = \left(\frac{1}{2}\right)^2  = \left(\frac{1}{4}\right) = 0.25\]
+\item[$\bullet$] One Entry
+\[ P( 1 \mbox{entry}) = \left( 2 \times \frac{1}{2} \times \frac{1}{2}\right)  = \left(\frac{1}{2}\right) = 0.5\]
+\end{itemize}
+
+\item[B:]
+\begin{itemize}
+\item[$\bullet$] No Entries
+\[ P( 0 \mbox{entries}) = \left(\frac{3}{4}\right)^3  = \left(\frac{27}{64}\right) = 0.4219\]
+\item[$\bullet$] One Entry
+\[ P( 1 \mbox{entry}) = \left( 3 \times \frac{1}{4} \times \frac{3}{4}\right)^2\right)  = \left(\frac{27}{64}\right) = 0.4219\]
+\end{itemize}
+
+\item[C:]
+\begin{itemize}
+\item[$\bullet$] No Entries
+\[ P( 0 \mbox{ entries}) = \left(\frac{4}{5}\right)^5  = \left(\frac{1024}{3125}\right) = 0.327\]
+\item[$\bullet$] One Entry
+\[ P( 1 \mbox{ entry}) = \left( 5 \times \frac{1}{5} \times \frac{4}{5}\right)^4\right)  = \left(\frac{256}{625}\right) = 0.4096s\]
+\end{itemize}
+\end{description}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  P(1 entry in total)
+= P(1 from A, 0 from B and C) + P(1 from B, 0 from A and C)
++ P(1 from C, 0 from A and B)
+12710242711024256127459264312564431256254643125=××+××+××=.
+[If worked in decimals, this is 0.1469.]
+
+\begin{eqnarray*}
+P(1 from A | 1 in total) &=& \frac{P(\mbox{1 from A and 1 in total})}{ P(1 in total)}\\
+&=& P(\mbox{1 from A, 0 from B and C}) / P(1 in total) \\
+&=& 271024126431254593125817××=.\\
+\end{eqnarray*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\item  Denote the numbers of entries from A, B, C as (0, 0, 0) etc. Then we need P(2, 0, 0) + P(0, 2, 0) + P(0, 0, 2) + P(1, 1, 0) + P(1, 0, 1) + P(0, 1, 1). Since entries from each group are independent, we have, as an example, P(1, 1, 0) = P(1 from A).P(1 from B).P(0 from C).
+\end{enumerate}
+
+\end{document}

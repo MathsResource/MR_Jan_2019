@@ -1,0 +1,38 @@
+Higher Certificate, Paper I, 2005. Question 3
+(i) P(T > t) = P(no failure in time t) = P(X = 0) = e−λ t .
+∴ 1 – F(t) = e−λ t and so the pdf of T is d F (t ) d (e t ) e t
+dt dt
+= − −λ =λ −λ .
+(ii) P(all n systems still functioning at time t) = ( )
+1 1
+n n
+t nt
+i
+i i
+P T t e−λ e− λ
+= =
+Π > =Π = .
+∴ the pdf of Tmin is d (e n t ) n e n t
+dt
+− − λ = λ − λ (for t > 0).
+Thus Tmin is exponential with parameter nλ.
+(iii) P(all n systems have failed by time t) = ( ) ( )
+1 1
+1
+n n
+t
+i
+i i
+P T t e−λ
+= =
+Π ≤ =Π −
+(1 )= − e−λ t n , and this is P(Tmax) ≤ t.
+∴ the pdf of Tmax is {( ) } ( ) 1 1 1 d e t n n e t e t n
+dt
+λ λ λ λ − − = − − − − (for t > 0).
+(Note that this is not exponential.)
+We now have n = 10 and λ = 0.002. We require t1 and t2 such that 1− e−nλ t1 = 0.05
+and (1 2 ) 0.95. − e−λ t n =
+∴ 1− e−0.02t1 = 0.05 , giving 0.02t1 = –log(0.95) = 0.051293 so that t1 = 2.565.
+Also, 2 ( )1− e−0.002t = 0.95 1/10 = 0.994884 , giving 0.002t2 = –log(0.005116) = –5.2754
+so that t2 = 2638.

@@ -1,0 +1,434 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+Higher Certificate, Paper I, 2002. Question 4
+(i) ( )
+4 4
+!
+e r P X r
+r
+−
+= = , r = 0, 1, 2, … .
+( )
+( )
+( ) ( )
+( ) ( )
+( ) ( )
+( ) ( )
+( ) ( )
+( ) ( )
+( ) ( )
+( ) ( )
+4
+4
+0 0.0183
+1 4 0.0733
+2 2 1 0.1465
+3 4 2 0.1954
+3
+4 3 0.1954
+5 4 4 0.1563
+5
+6 2 5 0.1042
+3
+7 4 6 0.0595
+7
+8 1 7 0.0298
+2
+9 4 8 0.0132
+9
+P e
+P e
+P P
+P P
+P P
+P P
+P P
+P P
+P P
+P P
+−
+−
+= =
+= =
+= =
+= =
+= =
+= =
+= =
+= =
+= =
+= =
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0 1 2 3 4 5 6 7 8 9
+No. of accidents
+Probability
+and so on (probabilities beyond r = 9 have not been shown on the diagram).
+(a) P(at most 1 fatal accident) = P(0) + P(1) = 0.0916.
+(b) In half-year, mean = 2 giving P(0) = e−2 = 0.1353 .
+(c) In 1
+2 1 years, mean = 6 giving P(0) = e−6 = 0.00248 .
+(ii) Given that X and Y are independent Poissons, V = X +Y ~ Poisson(16).
+E[V ] = Var (V ) =16 .
+( ) ( )
+( )
+4 5 12 15
+16 20
+5, 15 4 12 20! 5 | 20 . .
+20 5! 15! 16
+P X Y e e P X V
+P V e
+− −
+−
+= =
+= = = =
+=
+=
+5 15 20 15 15
+20 20 20
+4 12 . 20! 4 3 . 20 19 18 17 16 3 .19
+16 5!15! 16 5 4 3 2 4
+= × × × × = ×17× 48
+× × ×
+= 0.2023.
+(iii) W is Poisson with mean 16 × 4 = 64. Use Normal approximation N(64, 64).
+( 70) 70.5 64
+8
+P W > = P Z > − 
+ 
+, where Z ∼ N(0,1) and a continuity correction is
+used. This is P(Z > 0.8125), which is 1−Φ(0.8125) =1− 0.7917 = 0.2083.
+Higher Certificate, Paper I, 2002. Question 5
+Let A1, …, Ak be a set of mutually exclusive and exhaustive events, and let B be any
+other event.
+Then ( ) ( ) ( )
+( )
+( ) ( )
+( ) ( )
+1
+| |
+|
+|
+i i i i
+i k
+j j
+j
+P B A P A P B A P A
+P A B
+P B P B A P A
+=
+= =
+Σ
+.
+It is useful in inference about an Ai which cannot be observed directly but is related to
+an observable event B.
+P(011100|A) = P(5 right, 1 wrong) = p(1− p)5 .
+P(011100|R) = P(3 right, 3 wrong) = ( )p3 1− p 3 .
+P(011100|S) = P(2 right, 4 wrong) = ( )p4 1− p 2 .
+This assumes all errors are independent.
+Given that P(A) = 0.1, P(R) = 0.4, P(S) = 0.5, we have P(A|011100) = ( )
+( )
+5 0.1 p 1 p
+P B
+× −
+,
+where ( ) ( ) ( ) ( ) P B = 0.1p 1− p 5 + 0.4 p3 1− p 3 + 0.5 p4 1− p 2 .
+So P(A|011100) = ( )
+( ( ) ( ) ( ) )
+5
+5 3 3 4 2
+1
+1 4 1 5 1
+p p
+p p p p p p
+−
+− + − + −
+= ( )
+( ) ( )
+3
+3 2 3
+1
+1 4 1 5
+p
+p p p p
+−
+− + − +
+.
+Similarly, P(R|011100) = ( )
+( ( ) ( ) ( ) )
+3 3
+5 3 3 4 2
+4 1
+1 4 1 5 1
+p p
+p p p p p p
+−
+− + − + −
+= ( )
+( ) ( )
+2
+3 2 3
+4 1
+1 4 1 5
+p p
+p p p p
+−
+− + − +
+.
+Also, P(S|011100) = ( )
+( ( ) ( ) ( ) )
+4 2
+5 3 3 4 2
+5 1
+1 4 1 5 1
+p p
+p p p p p p
+−
+− + − + −
+=
+( ) ( )
+3
+3 2 3
+5
+1 4 1 5
+p
+− p + p − p + p
+.
+Continued on next page
+As p → 0, P(A|011100) → 1, while the others do not.
+In general, P(A|011100) > P(R|011100) if (1− p)3 > 4 p2 (1− p) , or ( )1− p 2 > 4 p2 ,
+which requires 1− p > 2 p , i.e. 1 > 3p or 1
+3 p < .
+Likewise P(A|011100) > P(S|011100) if ( )1− p 3 > 5p3 , or (1− p) > p 3 5 , which
+requires 1 > p(1+ 51/3 ) = 2.71p , or 1
+2.71
+p < .
+When p ≤ 0.1, both these conditions are satisfied so choose A.
+[The probabilities are in the ratio A:R:S ≡ 0.729 : 0.036 : 0.005.]
+Higher Certificate, Paper I, 2002. Question 6
+f (x) =λ e−λ x x > 0, λ > 0
+(i) ( ) ( )
+0 0
+tX x tx t x
+X M t E e λ e λ dx λ e λ dx =   = ∞ − + = ∞ − −   ∫ ∫
+( ) 1
+0
+1 1
+e t x t
+t t
+λ λ
+λ λ λ
+ − − ∞ − = − = =  −   −  −      
+[| t |<λ ] .
+( )
+2
+2 1 ... x
+M t t t
+λ λ
+= + + + .
+E[Xk] = coefficient of
+!
+xk
+k
+in the expansion.
+Hence E[X ] 1
+λ
+= ; also, 2
+2
+E X 2
+λ
+  = , so ( )
+2
+2 2
+Var X 2 1 1
+λ λ λ
+= −   =  
+ 
+.
+(ii) ( ) ( ) 1
+1 1
+| , ..., i exp
+n n
+x n
+n i
+i i
+L λ x x λ e−λ λ λ x
+= =
+  = = − 
+ 
+Π Σ .
+ln ln (ln ) i L = n λ −λΣx = n λ −λ x
+(ln )
+0
+d L n nx
+dλ λ
+= − = for ˆ 1
+x
+λ = .
+2 ( )
+2 2
+d ln L n
+dλ λ
+= − which confirms maximum of L.
+(iii) The asymptotic variance of ˆλ [Cramér-Rao lower bound for variance] is
+( )
+2
+2
+2
+1
+d ln L n
+E
+d
+λ
+λ
+=
+ 
+− 
+ 
+.
+We have
+2 ˆ approx N ,
+n
+λ λ λ
+ 
+∼  
+ 
+, i.e. the estimate of SE(λˆ) is
+ˆ
+n
+λ , so that
+ˆ ˆ ˆ ˆ 1.96 1.96
+n n
+λ − λ <λ <λ + λ is an approximate 95% confidence interval for λ when
+n is large.
+This is 1 1.96 1 1.96
+x x n x x n
+− <λ < + .
+Higher Certificate, Paper I, 2002. Question 7
+Y
+0 1 2 3
+0 k 6k 9k 4k
+X 1 8k 18k 12k 2k
+2 k 6k 9k 4k
+(i) The sum of all the entries in the table is 80k. Hence 1
+80
+k = .
+(ii) Row and column totals give the marginal distributions of X and Y:
+X 0 1 2
+P(X) 1/4 1/2 1/4
+Y 0 1 2 3
+P(Y) 1/8 3/8 3/8 1/8
+(iii) For P( X = x |Y = 2) , use ( )
+( )
+and 2
+2
+P X x Y
+P Y
+= =
+=
+:
+X 0 1 2
+Probability 9 /80
+3/8
+= 9/30 = 0.3 12 / 80
+3/8
+= 0.4 9 /80
+3/8
+= 0.3
+(iv) E[X] = 1, E[Y] = 1.5, by symmetry. The distribution of XY is:
+XY 0 1 2 3 4 6
+P(XY) 29/80 18/80 18/80 2/80 9/80 4/80
+[ ] 120 1.5
+80
+E XY = = .
+So E[XY ] = E[X ]E[Y ]. Therefore Cov( X,Y ) = 0 , so correlation = 0.
+(iv) Zero correlation is not sufficient. Every individual P( X = x, Y = y) in the
+table must be the product of its two marginal probabilities.
+Consider x = y = 0 . We have (0,0) 1
+80
+P = k = . But (0) (0) 1 1 1
+4 8 32 X Y P P = × = . So
+there is not independence.
+Higher Certificate, Paper I, 2002. Question 8
+45
+50
+55
+60
+65
+70
+16 18 20 22 24 26
+Age (years)
+y
+There appears to be an outlier (25, 69), without which correlation (and the regression
+gradient) would be near 0. (Rank correlation may be more appropriate.)
+Σx =171 Σy = 477 n = 9 x =19 y = 53
+1712 3309 60
+9 XX S = − = .
+4772 25633 352
+9 YY S = − = . 9183 171 477 120
+9 XY S = − × = .
+y − y = bˆ (x − x ) , and ˆ 120 2
+60
+XY
+XX
+b S
+S
+= = = .
+So we have y −53 = 2(x −19) or y = 2x +15
+(a) For x = 18, yˆ = 51. (b) For x = 26, yˆ = 67 .
+Including the data for I, correlation
+2
+XY
+xy
+XX YY
+r S
+S SQ
+= = 0.826. (Significant at 5% level.)
+[Hence the null hypothesis "b = 0" is rejected.]
+However, without I, Σx =146 , x =18.25; Σy = 408 , y = 51.00 .
+Σx2 = 3309 − 252 = 2684 ; Σy2 = 25633− 692 = 20872 ;
+Σxy = 9183− (25×69) = 7458; ( )
+2
+ˆ 7458 146 408 / 8 12 0.615
+2684 146 /8 19.5
+b
+− ×
+= = =
+−
+.
+19.5 XX S = , 12 XY S = ,
+4082 20872 64
+8 YY S = − = .
+12
+64 19.5 XY ∴r =
+×
+= 0.340 which does not approach significance. The line still has
+positive gradient, but not significantly different from 0.

@@ -1,0 +1,27 @@
+Higher Certificate, Paper III, 2005. Question 2
+(i) (a) If we assume that the two samples of cars are drawn at random from populations having the same variance, and petrol consumption can be assumed Normally distributed, the means of A and B can be compared by a two-sample t test.
+The null hypothesis is that the two population means are the same, and the alternative is that mean A > mean B. So this is a one-sided test.
+6,6ABnn==;
+8.652,8.335;ABxx==
+, 22.2865As=21.8578.Bs=
+To test for equality of population variances, consider sA2/sB2 = 1.23. This is not significant as an observation from F5,5 so it is reasonable to take the population variances as equal.
+The pooled estimate of the common variance is s2 = 2.0722, with 10 d.f.
+Thus the test statistic for testing ABμμ= is
+1166(0)0.3170.380.831ABxxs−−==+,
+which is referred to t10. This is not significant at the 5% level (upper single-tailed 5% point is 1.812), so there is no evidence to reject the null hypothesis – it seems that the population means are the same.
+Solution continued on next page
+(b) Assuming the samples will be reasonably large, we would base the test on the Normal distribution and use test statistic 11ABnnxxzs−=+ where n is the size of each sample and s will be taken as √2.0722 = 1.439. The null hypothesis is rejected (at the 5% level) if the value of z is >1.645. We wish to have probability 0.95 that this will happen if in fact μA – μB = 0.5. Thus we require
+20.951.6450.5ABABnXXPsμμ⎛⎞−=>−⎜⎟⎜⎟⎝⎠
+= ()21.6450.5ABABnPXXsμμ−>−=.
+The underlying distribution of A XX− is taken as 22N,ABnsμμ⎛⎞⎡⎤−⎜⎟⎣⎦⎝⎠, i.e. here it is 22N0.5,ns⎛⎡⎤⎜⎣⎦⎝⎠. So we require
+2220.95N0.5,1.645nnPss⎛⎞⎛⎞⎡⎤=>⎜⎟⎜⎟⎣⎦⎝⎠⎝⎠ = ()221.6450.5N0,1)nnsPs⎛⎞−>⎜⎟⎜⎟⎝⎠.
+But 0.95 = P(N(0, 1) > –1.645).
+So 221.6451.6450.5nnss−= leading to
+20.53.29ns= i.e. 3.2920.5sn= i.e. 22(3.29)2.07222(0.5)n××=,
+i.e. n = 179.44. Thus n = 180 is required for each group, or 360 in total.
+(ii) (a) We can now eliminate any systematic differences between cars, and hope to obtain more precise results.
+In each pair, the order of using with/without should be chosen at random to avoid time differences. Perhaps the same driver could be used for all, or at least limit the number and design the experiment to balance order and drivers.
+(b) We use the paired-sample t test for the differences (6.55 – 6.15 etc); these are 0.40, 1.05, 0.46, 0.89, 0.08, 1.36. We assume that these differences are a sample from a Normal distribution.
+We have 0.707dx= and . Thus the test statistic is 20.2252ds=
+00.7073.650.194/5ddxs−==,
+which is referred to t5. This is significant at the 1% level (upper single-tailed 5% point is 3.365), so there is strong evidence to reject the null hypothesis – it seems that the population means are not the same and that the additive is beneficial.

@@ -1,0 +1,71 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+Higher Certificate, Paper I, 2002. Question 7
+Y
+0 1 2 3
+0 k 6k 9k 4k
+X 1 8k 18k 12k 2k
+2 k 6k 9k 4k
+(i) The sum of all the entries in the table is 80k. Hence 1
+80
+k = .
+(ii) Row and column totals give the marginal distributions of X and Y:
+X 0 1 2
+P(X) 1/4 1/2 1/4
+Y 0 1 2 3
+P(Y) 1/8 3/8 3/8 1/8
+(iii) For P( X = x |Y = 2) , use ( )
+( )
+and 2
+2
+P X x Y
+P Y
+= =
+=
+:
+X 0 1 2
+Probability 9 /80
+3/8
+= 9/30 = 0.3 12 / 80
+3/8
+= 0.4 9 /80
+3/8
+= 0.3
+(iv) E[X] = 1, E[Y] = 1.5, by symmetry. The distribution of XY is:
+XY 0 1 2 3 4 6
+P(XY) 29/80 18/80 18/80 2/80 9/80 4/80
+[ ] 120 1.5
+80
+E XY = = .
+So E[XY ] = E[X ]E[Y ]. Therefore Cov( X,Y ) = 0 , so correlation = 0.
+(iv) Zero correlation is not sufficient. Every individual P( X = x, Y = y) in the
+table must be the product of its two marginal probabilities.
+Consider x = y = 0 . We have (0,0) 1
+80
+P = k = . But (0) (0) 1 1 1
+4 8 32 X Y P P = × = . So
+there is not independence.

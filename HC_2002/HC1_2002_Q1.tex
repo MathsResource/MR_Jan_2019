@@ -1,0 +1,162 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+Higher Certificate, Paper I, 2002. Question 1
+\begin{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%5
+\item  P(all 13 from 39 non-spades) =
+39
+13
+52
+13
+ 
+ 
+ 
+ 
+ 
+ 
+= 39! 13! 39!
+13! 26! 52!
+= 39 38 ....... 28 27
+52 51 ....... 41 40
+× × × ×
+× × × ×
+= 0.01279.
+%%%%%%%%%%%%%%%%%%%%%%%5
+\item  There are 32 "low" cards (2 up to 9) and 20 "high" (10 to Ace). Hence all 13
+are selected from 32, so probability is
+32
+13 32!13!39! 32!39!
+52 13!19!52! 19!52!
+13
+ 
+ 
+ = =
+ 
+ 
+ 
+(which is 0.000547).
+%%%%%%%%%%%%%%%%%%%%%%%5
+\item  6 of the 13 Hearts, and 7 of the remaining 39, must be selected.
+Probability is ( ) ( )
+( )( ) ( )( )
+2 2
+2
+13 39
+6 7 13!39!13!39! 13! 39!
+52 6!7!7!32!52! 6! 7! 32! 52!
+13
+  
+  
+  = =
+ 
+ 
+ 
+(= 0.04156).
+%%%%%%%%%%%%%%%%%%%%%%%5
+\item The division of Clubs must be 3, 3, 3, 4 between players, any one of whom
+can be the person who receives 4; there are 4 ways for this. If the first player
+receives 3, this can happen in
+13
+3
+ 
+ 
+ 
+ways, then
+10
+3
+ 
+ 
+ 
+,
+7
+3
+ 
+ 
+ 
+and
+4
+4
+ 
+ 
+ 
+for the other
+players. Their other cards are then selected from the remaining ones in
+39
+10
+ 
+ 
+ 
+,
+29
+10
+ 
+ 
+ 
+,
+19
+10
+ 
+ 
+ 
+and
+9
+9
+ 
+ 
+ 
+ways respectively. Therefore the probability is
+( )4
+13 39 10 29 7 19 4 9
+. . .
+3 10 3 10 3 10 4 9
+4
+52!
+13!
+           
+           
+           
+ 
+ 
+ 
+, the divisor being the number of ways of
+splitting 52 cards into 4 hands of 13 each.
+Probability is 4 13!39! . 10!29! . 7!19! .1 13!13!13!13!
+3!10!10!29! 3!7!10!19! 3!4!10!9! 52!
+×
+= ( )( )
+( )( ) ( )( ) ( )
+( )
+( ) ( )( )
+5 5
+3 3 3 4
+39! 13! 39! 13!
+4
+52! 10! 9! 3! 4! 52! 10! 9! 3!
+= (which is 0.1054).
+\end{enumerate}
+\end{document}

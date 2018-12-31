@@ -1,0 +1,109 @@
+Higher Certificate, Paper I, 2004. Question 2
+(i) (a) The moment generating function is
+( ) ( ) ( ) ( ) ( ( ))
+0 0
+exp exp 1
+! !
+t x x
+tX tx t t
+X
+x x
+e e M t E e e e e e
+x x
+λ
+λ λ λ λ λ λ
+∞ − ∞
+−
+= =
+= =Σ =Σ = − = −
+(b) ( ) ( ) ( )1
+0
+' 0
+et t
+X
+t
+E X M eeλ
+λ λ −
+=
+= =   =  
+.
+( 2 ) ( ) ( 1)
+0
+'' 0
+et t
+X
+t
+E X M d e e
+dt
+λ λ −
+=
+= =         
+( 1) ( 1) 2
+0
+. .
+et et t t t
+t
+e e e e e λ λ λ λ λ λ λ − −
+=
+=  +  = +  
+.
+Hence ( ) ( ) ( ) Var X = E X 2 − E X 2 =λ   .
+(Alternatively, the moments could be obtained from the power series
+expansion of MX(t).)
+(Alternatively, though with comparatively lengthy algebra, the
+moments could be obtained directly by E(X) = ΣxP(X = x) and E(X2) =
+Σx2P(X = x); or, somewhat easier, use E[X(X – 1)] = Σx(x – 1)P(X = x)
+(this is λ2) and then Var(X) = E[X(X – 1)] + E(X) – {E(X)}2.)
+(c) The binomial distribution with parameters n and p may be
+approximated by the Poisson distribution with parameter np if n is
+large and p is small. As a "rule of thumb", ½ ≤ np ≤ 10 gives an
+indication of how large n should be and how small p should be. (If
+np > 10, a Normal approximation to the binomial may be better.)
+(ii) Let X = number of wrong calculations. We have X ~ B(200, 0.0075).
+( ) ( )( )199 199 200
+1 0.0075 0.9925 200 0.0075 0.9925 0.3353(2)
+1
+P X
+ 
+= =   = × × =
+ 
+.
+( ) ( )( ) 200 4 196
+4 0.0075 0.9925
+4
+P X
+ 
+= = 
+ 
+200 199 198 197 0.00754 0.9925196 0.0468(0)
+4 3 2 1
+= × × × × × =
+× × ×
+.
+Continued on next page
+(iii) We approximate using X ~ Poisson(200 × 0.0075 = 1.5). With this,
+P( X =1) =1.5e−1.5 = 0.3347(0)
+giving a percentage error of 100(0.33532 0.33470)
+0.18%
+0.33532
+−
+= , and
+( ) ( ) ( )
+1.5 1.5 4
+4 0.0470 7
+4!
+e
+P X
+−
+= = =
+giving a percentage error of 100(0.04707 0.04680)
+0.58%
+0.04680
+−
+= .
+[Note. These percentage errors might come out slightly differently if more
+accuracy is kept in the binomial and Poisson probabilities.]
+Both approximations are remarkably accurate, with percentage errors well
+below 1%. The approximation for X = 1 (one wrong calculation) is the more
+accurate of the two. That approximation is an underestimate; the other is an
+overestimate.

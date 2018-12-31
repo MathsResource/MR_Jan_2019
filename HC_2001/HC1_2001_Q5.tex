@@ -1,0 +1,164 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+Higher Certificate, Paper I, 2001. Question 5
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+\begin{framed}
+\noindent The moment-generating function of a random variable X is 
+\[{\displaystyle M_{X}(t):=\operatorname {E} \left[e^{tX}\right],\quad t\in \mathbb {R} ,} \]
+
+\noindent wherever this expectation exists. In other words, the moment-generating function is the expectation of the random variable 
+${\displaystyle e^{tX}}. $
+\end{framed}
+
+\begin{enumerate}
+\item ( )
+( ) ( )
+1 1 ! .
+1 ! 1
+x
+x
+p x e x
+p x x e x
+λ
+λ
+λ λ
+λ
+− +
+−
++
+= =
++ +
+for x = 0, 1, 2, … .
+For 1 , (0) 0.60653; so (1) 0.30327, (2) 0.07582, (3) 0.01264
+2
+λ = p = p = p = p = .
+Graph of p(x) for λ = ½.
+For λ = 2, p(0) = 0.13534;
+
+so
+\begin{itemize}
+\item p (1) = 0.27067 = p (2), 
+\item p(3) = 0.18045, 
+\item p (4) = 0.09022,
+\item p(5) = 0.03609.
+\end{itemize}
+
+Graph of p(x) for λ = 2.
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0 1 2 3
+0
+0.1
+0.2
+0.3
+0 1 2 3 4 5
+( ) ( ) ( { })
+0 0
+. exp 1
+! !
+t
+t x xt x
+Xt e t
+X
+x x
+e e e M t E e e e e e
+x x
+λ
+λ λλ λ λ λ
+∞ − ∞
+− −
+= =
+=   =Σ = Σ = = − .
+( ) [ ] 1 ; put 0 and this is , which is therefore .
+et M ete t E X
+t
+λ λ λ ∂ = − =
+∂
+2 ( ) ( )
+2 2 1 2
+2 ; put 0 and this is + ,
+et M e t et e t
+t
+λ λ λ λ λ ∂ = +  −  =  
+∂  
+but it is also E X 2  .
+\begin{itemize}
+\item Hence ( ) ( [ ]) ( ) 
+
+
+\begin{eqnarray}
+Var X &=& E[X^2]  − E X(X)^2 \\
+&=&  2 +λ − λ 2 \\
+&=& \lambda\\
+\end{eqnarray}  .
+3 ( ) ( t )
+3 3 2 2 1 3 2 3
+3 3 = 3 at 0.
+\item This is M e t e t et e e t E X
+t
+λ λ λ λ λ λ λ ∂ = + +  −  + + =       ∂  
+.
+
+\item Now, ( ) [ ] E  X −λ 3  = E X 3  − 3λ E X 2  + 3λ 2E X −λ 3      
+= λ 3 + 3λ 2 +λ − 3λ (λ 2 +λ ) + 3λ 2 .λ −λ 3 = λ .
+For Y = X1 + X2 + … + Xn we have
+( ) ( )
+1
+E i ( ) exp 1 .
+n
+Y t X t n t
+X
+i
+E e e M t λ n e
+=
+  =Π   = =  − 
+\end{itemize}
+%%%%%%
+\begin{itemize}
+\item This is the mgf of a Poisson distribution with parameter λn and so 
+\[E[Y] = Var(Y) = λn.\]
+( 40) 1 ( 39) 1 39.5 25 ,
+5
+P Y ≥ = − P Y ≤ ≈ −Φ − 
+ 
+using continuity correction, and μ = λ n = 25. 
+\item This is 1−Φ(2.9) = 0.00187 .
+With a positively skew distribution, the Normal approximation is likely to
+underestimate the probability in the right hand tail and so we expect this answer to be
+less than the true value.
+\end{itemize}
+\end{enumerate}
+\end{document}

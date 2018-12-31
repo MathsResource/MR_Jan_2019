@@ -1,0 +1,77 @@
+Higher Certificate, Paper III, 2005. Question 7
+(i) Let X denote the underlying random variable, with pdf ()/1xfxeμμ−=. So the likelihood function is ()/11,...,inxnniLxxeμμ−−==Π and 1loglog/niiLnxμμ==−−Σ.
+()2log1iLnxμμμ∂∴=−+∂Σ, which we set equal to 0 to obtain the MLE ˆμ. Hence
+[]11ˆniixxnμ===Σ.
+(We can quickly confirm that this is a maximum by considering the second derivative.)
+(ii) The value of the estimate ˆμ is 2989.8x=.
+For any specified x, ()0011xttxPXxedteeμμ μμ−−−⎡⎤≤==−=−⎢⎥⎢⎥⎣⎦∫.
+x ˆxμ ˆ1xeμ−−
+× 96
+1000
+0.33447
+0.2843
+27.29
+3000
+1.00341
+0.6334
+60.80
+8000
+2.67576
+0.9311
+89.39
+10000
+3.34471
+0.9647
+92.61
+} Expected
+} frequencies up
+} to the given
+} values of x
+In the category 500 ≤ x < 1000, the expected frequency is 27.29 – 14.78 = 12.51.
+Hence up to 2000 the expected frequency is 46.82, and so in 2000 ≤ x < 3000 it is 60.80 – 46.82 = 13.98.
+Up to 6000, the expected frequency is 83.10. So in 6000 ≤ x < 8000 the frequency is 89.39 – 83.10 = 6.29. Similarly, in 8000 ≤ x < 10000 it is 92.61 – 89.39 = 3.22.
+We should check that, with these values put in the table, the total expected frequency is 96. It is. It is usually argued that some grouping of cells is needed for chi-squared goodness-of-fit tests where there are "small" expected frequencies, "small" often being interpreted as < 5. We take the top group here as "all ≥ 8000". This gives
+Solution continued on next page
+Upper end of interval
+250
+500
+1000
+1500
+2000
+3000
+4000
+5000
+8000
+>8000
+Observed frequency
+11
+16
+16
+10
+10
+11
+7
+5
+4
+6
+Expected frequency
+7.70
+7.08
+12.51
+10.58
+8.95
+13.98
+10.01
+12.29
+6.29
+6.61
+There are 10 cells in the table and one parameter has been estimated, so there will be 8 degrees of freedom for the chi-squared test.
+The value of the test statistic is
+()()()()22222117.70167.0846.2966.61...20.547.707.086.296.61X−−−−=++++=.
+This is referred to . It is significant at slightly beyond the 1% level (critical point is 20.09). 28χ
+Hence the (strong) evidence is that the model does not fit the data. The largest contributions to X2 come from the first two intervals, especially the (250, 500) interval, and from the (4000, 6000) interval.
+(iii)
+()//20000/2000020000120000xxPXedxeeμμμμ∞∞−−−⎡⎤>==−=⎣⎦∫.
+Estimating this using ˆ2989.8xμ==, we get 0.01244.
+However, the data give that the relative frequency of claims above 20000 is 2/98 = 0.02083. The model substantially underestimates the probability of claims of this size.
+(iv) The distribution of the number of claims is very skew, with a long tail to the right. Also, the frequency in the second interval is greater than in the first (of the same width), so a model needs to have a mode above 250. The rate of decrease of frequencies is slow. Perhaps a log-normal model might be better, or a more general 2-parameter model such as a gamma.

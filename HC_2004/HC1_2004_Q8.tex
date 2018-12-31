@@ -1,0 +1,94 @@
+Higher Certificate, Paper I, 2004. Question 8
+(i)
+Trainee's time (y)
+0
+10
+20
+30
+40
+50
+60
+0 10 20 30 40 50
+Benchmark time (x)
+Simple linear regression analysis seems quite suitable.
+(ii) The model is yi = α + β xi + ei, where {ei} are uncorrelated with zero mean and
+(constant) variance σ 2 (independent identically distributed N(0, σ 2) for the purpose of
+undertaking statistical tests, as in part (iii)). Estimating by the method of least squares
+gives
+ˆ xy
+xx
+S
+S
+β = , αˆ = y −βˆ x ,
+where (standard notation)
+( )( ) i i
+xy i i i i
+x y
+S x x y y xy
+n
+= Σ − − = − Σ Σ Σ ,
+( ) ( )2
+2 2 i
+xx i i
+x
+S x x x
+n
+= − = − Σ Σ Σ .
+We have
+( )
+( 2 )
+ˆ 4440 150 220 /10 1140 1.20
+3200 150 /10 950
+xy
+xx
+S
+S
+β
+− ×
+= = = =
+−
+and αˆ = 22 − (1.20×15) = 4 ,
+so the line is
+y = 4 + 1.2x.
+Continued on next page
+The total sum of squares is ( ) ( )2
+2 2 1440
+10
+i
+yy i i
+y
+S = y − y = y − = Σ Σ Σ .
+The sum of squares for regression is ˆ
+xy β S (or 2 / xy xx S S ) = 1368.
+Therefore the residual sum of squares is 1440 – 1368 = 72.
+This has 8 degrees of freedom, so the residual mean square (σˆ 2 ) is 72/8 = 9.
+The coefficient of determination R2 = 1368/1440 = 0.95 (usually given as 95%).
+(iii) The estimated variance of ˆβ is 9/950 = 0.009474. So the test statistic for
+testing the null hypothesis β = 1 is 1.2 1
+0.009474
+− = 2.05, which we refer to t8.
+This is not significant at the 5% level, so the null hypothesis β = 1 cannot be rejected.
+(iv) The model here is yi = bxi + ei.
+Estimating b by least squares, we minimise ( )2
+1
+n
+i i
+i
+y bx
+=
+Ω =Σ − .
+Differentiating with respect to b, we have 2 ( ) i i i
+d y bx x
+db
+Ω = − Σ − .
+Setting this equal to zero gives ˆ 2
+i i i Σx y = bΣx , i.e. ˆ / 2 i i i b = Σx y Σx .
+(Note that
+2
+2
+2 2 0 i
+d x
+db
+Ω = Σ > , so this is a minimum.)
+Thus we have bˆ = 4440/3200 = 1.3875.
+\end{document}

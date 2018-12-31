@@ -1,0 +1,54 @@
+Higher Certificate, Paper I, 2004. Question 4
+(i) The binomial distribution with parameters n, p can be approximated by
+N(np, np(1 – p)) when n is large and p is not too near to 0 or 1. As a "rule of thumb",
+the approximation is likely to be good if both np and np(1 – p) are > 10.
+Let X ~ B(n, p) and let Φ denote the c.d.f. of N(0, 1). Using a continuity correction,
+( )
+( )
+1
+2
+1
+P X x x np
+np p
+ + −  ≤ ≈ Φ 
+ −   
+and ( )
+( )
+1
+2
+1
+P X x x np
+np p
+ − −  < ≈ Φ 
+ −   
+.
+The 95% confidence interval for p uses the estimated variance pˆ (1− pˆ )/ n , giving the
+approximate interval
+ˆ (1 ˆ ) ˆ (1 ˆ )
+ˆ 1.96 ˆ 1.96
+p p p p
+p p p
+n n
+− −
+− < < +
+The estimate of p is ˆ 30 0.6
+50
+p= = , so ˆ (1 ˆ ) (0.6)(0.4)
+0.0693
+50
+p p
+n
+−
+= = . Thus
+the approximate interval is
+0.6 − (1.96×0.0693) , 0.6 + (1.96×0.0693)
+i.e. (0.464, 0.736).
+(ii) P(neither hits) = (1 – p)2. Therefore P(at least 1 hit) = 1 – (1 – p)2 = p(2 – p).
+We estimate this by (0.6)(2 – 0.6) = 0.84.
+(iii) When p = 0.464 (lower limit of interval in part (i)), we have p(2 – p) = 0.713.
+Similarly, when p = 0.736, we have p(2 – p) = 0.930. Thus (0.713, 0.930) is the
+required interval.
+(iv) When n pairs are fired, P(all miss) = [(1 – p)2]n, estimated by (0.16)n. Hence
+(0.16)n < 0.0005 is required. Solving this by taking logarithms to base 10, we have
+n log10(0.16) < log10(0.0005), i.e. –0.79588n < –3.30103 which gives n > 4.148. so n
+must be at least 5.

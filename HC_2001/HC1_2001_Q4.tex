@@ -1,0 +1,119 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+Higher Certificate, Paper I, 2001. Question 4
+An easy method is to consider X as ΣXi , where Xi are a set of n Bernoulli variables
+with ( 1) , ( 0) (1 ). i i P X = = p P X = = − p Then E[ ] , so [ ] i X = p E X = np .
+Also E 2 , so Var ( ) 2 and Var ( ) ( 2 ) . i i X  = p X = p − p X = n p − p = npq
+ALTERNATIVELY: [ ] ( ) ( ) 0 1
+!
+1 ! !
+n n x n x
+x n x
+x x
+n n p q E X x p q
+x x n x
+−
+−
+= =
+ 
+=   =   − −
+Σ Σ
+= 1 ( 1) ( 1)
+1
+1
+1
+n
+x n x
+x
+n
+np p q np
+x
+− − − −
+=
+ − 
+  =  − 
+Σ .
+Similarly, ( ) ( ) [ ] ( [ ])2 Var X =E X X −1  +E X - E X , and we have
+( ) ( ) ( )
+0 2
+1 1 1
+n n
+x n x x n x
+x x
+n n
+E X X x x p q x x p q
+x x
+− −
+= =
+   
+ −  = −   = −  
+   
+Σ Σ
+( ) 2 2 ( 2) ( 2) ( ) 2
+2
+2
+1 1
+2
+n
+x n x
+x
+n
+n n p p q n n p
+x
+− − − −
+=
+ − 
+= −   = −  − 
+Σ ,
+and hence Var (X) = n(n −1) p2 + np − n2 p2 = np − np2 = npq .
+PGFs or MGFs could also be used.
+(i) (a) 0.7516 ≈ 0.0100226 = 0.0100 approx.
+(b) 1 − P(no one gets all 16 right), probability is { }1− 1− 0.7516 12
+= 1 − {0.9899774}12 = 0.1139.
+(ii) P(B − A > 0) can be studied using a Normal approximation to the difference
+B − A, i.e. N(16{0.5 − 0.75}, 16{(0.5×0.5) + (0.75×0.25)}), i.e. N(−4,7) .
+The probability is found as 1
+2
+P B − A > 
+ 
+using a continuity correction since B − A
+takes discrete values.
+Hence it is ( ) ( ) 0.5 4 1 4.5 1.7008 0.0445
+7 7
+ − −    −Φ  = Φ −  = Φ − ≈
+   
+.
+[Note: this would be 0.0653 without the continuity correction.]
+(iii) E X  = E[X ] = np =16×0.75 =12 in set A .
+Similarly, E Y  =16×0.5 = 8 in set B.
+There are 12 students in A and 25 in B, so that
+Var ( ) 16 0.75 0.25 1
+12 4
+X = × × = in set A
+Var ( ) 16 0.5 0.5 4
+25 25
+Y = × × = in set B.

@@ -1,0 +1,41 @@
+Higher Certificate, Paper III, 2005. Question 5
+(i) The number of defectives in a sample, X, has the binomial distribution with parameters 20 and p, i.e. X ~ B(20, p).
+P(accept batch ⏐ p) = P(X = 0 or 1 ⏐ p) = (1 – p)20 + 20p(1 – p)19
+= (1 – p)19(1 + 19p).
+p = 0.01 : P(accept batch) = 0.9831
+0.05 : 0.7358
+0.1 : 0.3917
+(ii) The batch is accepted in the following cases.
+Number of defectives in first sample
+0
+(Second sample not taken)
+1
+(Second sample not taken)
+2
+Second sample has 0 defectives
+So P(accept batch)
+= (1 – p)19(1 + 19p)
++ P(2 defectives in first sample and 0 defectives in second sample)
+= (1 – p)19(1 + 19p) + 21820192(1)(1) ppp×−×−.
+The values of this are as follows.
+p = 0.01 : 0.9831 + (0.01586×0.81791) = 0.9831 + 0.01297 = 0.9961
+p = 0.05 : 0.7358 + (0.18868×0.35849) = 0.7358 + 0.06764 = 0.8034
+p = 0.1 : 0.3917 + (0.28518×0.12158) = 0.3917 + 0.03467 = 0.4264.
+Solution continued on next page
+(iii)
+Scheme (i) P(reject batch) = 0.0169 for p = 0.01
+0.2642 for p = 0.05
+0.6083 for p = 0.1.
+Let S = total number inspected. E(S) = 20P(accept batch) + 1000P(reject batch).
+The values of E(S) are as follows.
+p = 0.01 : (20×0.9831) + (1000×0.0169) = 36.6
+p = 0.05 : (20×0.7358) + (1000×0.2642) = 278.9
+p = 0.1 : (20×0.3917) + (1000×0.6083) = 616.1.
+Scheme (ii)
+E(S) = 20P(accept batch based on first sample)
++ 40P(2 defectives in first sample and 0 in second).
+The values of E(S) are as follows.
+p = 0.01 : (20×0.9831) + (40×0.01297) + (1000×0.0039) = 24.1
+p = 0.05 : (20×0.7358) + (40×0.06764) + (1000×0.1966) = 214.0
+p = 0.1 : (20×0.3917) + (40×0.03467) + (1000×0.5736) = 582.8.
+Scheme (ii) will have lower inspection cost than scheme (i) for these values of p.
