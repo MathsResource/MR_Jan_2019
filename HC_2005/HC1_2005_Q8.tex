@@ -1,5 +1,39 @@
-Higher Certificate, Paper I, 2005. Question 8
-(i) The marginal distributions of X and Y are as shown, appended to the table.
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}Higher Certificate, Paper I, 2005. Question 8
+
+\begin{enumerate}
+\item The marginal distributions of X and Y are as shown, appended to the table.
 Values of Y
 0 1 2
 Marginal distribution
@@ -13,7 +47,7 @@ Hence E[X] = 0 and E[Y] = 1 (by symmetry; by noting that X and Y are both discre
 uniform; or by explicit calculation).
 Var(X) = Σ(x – 0)2P(X = x) = {(–1)2 + 02 + 12)/3 = 2/3.
 Var(Y) can be calculated similarly; or, since Y = X + 1, we have Var(Y) = Var(X).
-(ii) The conditional distributions of Y for each value of X are as follows.
+\item The conditional distributions of Y for each value of X are as follows.
 Y = 0 1 2
 X = –1 1/2 1/4 1/4
 0 1/4 1/2 1/4
@@ -21,7 +55,7 @@ X = –1 1/2 1/4 1/4
 Hence E[Y | X = –1] = (0)(½) + (1)(¼) + (2)(¼) = 3/4.
 Similarly, E[Y | X = 0] = 1 and E[Y | X = 1] = 5/4.
 Thus we have E[Y | X = x] = 1+ 4x .
-(iii) E[XY] = (–1)(0)(1/6) + (–1)(1)(1/12) + ….. + (1)(2)(1/6) = 1/6.
+\item E[XY] = (–1)(0)(1/6) + (–1)(1)(1/12) + ….. + (1)(2)(1/6) = 1/6.
 ∴ Cov(X, Y) = E[XY] – E[X]E[Y] = 1
 6 − (0)(1) = 1/6.
 ∴ Corr(X, Y) = Cov( , )
@@ -33,7 +67,7 @@ X Y
 = .
 X and Y are not independent: their correlation (or covariance) is non-zero. (In fact we
 saw in part (i) that they are linearly related: Y = X + 1.)
-(iv) ( )Z = X 3 + Y −1 3 . The values of Z and their probabilities are as shown:
+\item ( )Z = X 3 + Y −1 3 . The values of Z and their probabilities are as shown:
 Y = 0 1 2
 X = –1 Z = –2; p = 1/6 Z = –1; p = 1/12 Z = 0; p = 1/12
 0 Z = –1; p = 1/12 Z = 0; p = 1/6 Z =1; p = 1/12
@@ -41,4 +75,5 @@ X = –1 Z = –2; p = 1/6 Z = –1; p = 1/12 Z = 0; p = 1/12
 Thus we have
 Values of Z –2 –1 0 1 2
 Probabilities 1/6 1/6 1/3 1/6 1/6
+\end{enumerate}
 \end{document}
