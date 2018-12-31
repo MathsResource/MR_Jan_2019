@@ -1,21 +1,60 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
 Higher Certificate, Paper I, 2006. Question 5
-(i) E(X) = ()101!1!xxxxexeeexxλλλλλ λλλ−−∞∞−−====−ΣΣ .
+\begin{enumerate}
+\item E(X) = ()101!1!xxxxexeeexxλλλλλ λλλ−−∞∞−−====−ΣΣ .
 E(X2) = ()()[]11EXXXEXXEX−+=−+⎡⎤⎡⎤⎣⎦⎣⎦.
 ()()()2220211!2!xxxxeEXXxxeeexxλλλλλ λλλ−−∞∞−−==−=−===⎡⎤⎣⎦−ΣΣ.
 Hence 22()EXλλ=+, and {}22Var()()()XEXEXλ=−=.
-(ii) 1!ixniieLxλλ−==Π, and hence . 1loglogconstantniiLnxλλ==−++Σ
+\item  1!ixniieLxλλ−==Π, and hence . 1loglogconstantniiLnxλλ==−++Σ
 logixdLndλλΣ∴=−+ which on setting equal to zero gives that the maximum likelihood estimate is ˆixxnλΣ==. [Consideration of 22logddλ confirms that this is a maximum: 222log0ixdLdλλ−Σ=<.]
-(iii) ()()Var()ˆVarVarXXnnλλ== .
+\item  ()()Var()ˆVarVarXXnnλλ== .
 Thus the maximum likelihood estimator of Var(ˆ
 λ) is ˆnλ.
-By the central limit theorem, ˆ( Xλ= is approximately Normally distributed with mean λ and variance λ /n. We estimate the variance by ˆ
+\begin{itemize}
+    \item By the central limit theorem, ˆ( Xλ= is approximately Normally distributed with mean λ and variance λ /n. 
+    \item We estimate the variance by ˆ
 λ/n, so that we have ˆˆ~N,nλλλ⎛⎞⎜⎜⎝⎠, approximately.
-Hence an approximate 95% confidence interval is given by
+\item Hence an approximate 95\% confidence interval is given by
 ˆ0.951.961.96ˆ/Pnλλλ⎛⎞−≈−<<⎜⎟⎜⎟⎝⎠,
 leading to the interval ˆˆˆˆ1.96,1.96nnλλλλ⎛⎞⎜⎟−+⎜⎟⎝⎠.
-Solution continued on next page
-(iv) For the given sample, we have n = 12 and Σxi = 48, leading to ˆ4xλ==. The approximate confidence interval is therefore
+\end{itemize}
+
+\item  For the given sample, we have n = 12 and Σxi = 48, leading to ˆ4xλ==. The approximate confidence interval is therefore
 441.96to41.961212⎛⎞−+⎜⎟⎜⎟⎝⎠, i.e. 2.87 to 5.13.
 The sample also gives Σxi2 = 238; so the sample variance is
 s2 = 2148462384.182111211⎛⎞−==⎜⎟⎝⎠.
 This is close to the sample mean (4), supporting a Poisson hypothesis for the underlying model.
+\end{enumerate}
+\end{document}
