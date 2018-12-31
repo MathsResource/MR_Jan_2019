@@ -1,16 +1,56 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
 Higher Certificate, Paper I, 2006. Question 6
 (),2xfxexλλ−=−∞<<∞
 0.00.00xf(x)lambda/2
-By symmetry, E(X) = 0.
+
+\begin{itemize}
+    \item By symmetry, E(X) = 0.
 Hence 22Var()()02xXEXxedxλλ∞−−∞=−=∫ {}02202xxxedxxedxλλλ∞−−∞=+∫∫.
-Substituting u = –x in the first integral gives , which is the same as the second. Hence we get, integrating by parts, 20uueduλ∞−∫
+\item Substituting u = –x in the first integral gives , which is the same as the second.
+\item Hence we get, integrating by parts, 20uueduλ∞−∫
 220()xEXxeλλ∞−=∫
 200.2xxeexxdxλλλλλ∞−−∞⎧⎫⎡⎤⎪⎪=+⎨⎬⎢⎥−⎣⎦⎪⎪⎩⎭∫
 0[00]2xxedxλ∞−=−+∫
 002xxeexdxλλλλ∞−−∞⎧⎫⎡⎤⎪⎪=+⎨⎬⎢⎥−⎣⎦⎪⎪⎩⎭∫
 []0200xeλλλ∞−⎡⎤=−+⎢⎥−⎣⎦ 22λ=.
-Solution continued on next page
-If Q, q are the upper and lower quartiles, we have 0124Qxedxλλ− =∫, and q will be the same distance below 0 by symmetry.
-(01111422Qxeeλλ−−⎡⎤ ∴=−=−+⎢⎥⎣⎦, giving 112Qeλ−=−. Therefore λQ = log 2. Hence the semi-interquartile range is (log 2)/λ.
+
+\item If Q, q are the upper and lower quartiles, we have 0124Qxedxλλ− =∫, and q will be the same distance below 0 by symmetry.
+(01111422Qxeeλλ−−⎡⎤ ∴=−=−+⎢⎥⎣⎦, giving 112Qeλ−=−. \item Therefore λQ = log 2.
+\item Hence the semi-interquartile range is (log 2)/λ.
+\end{itemize}
+
 122iinnxxiLeeλλλλ−−=⎛⎞⎛⎞Σ==⎜⎟⎜⎟⎝⎠⎝⎠Π, and hence log constant logiiLnλλ=+−Σ .
 logiidLnxdλλ∴=−Σ which on setting equal to zero gives that the maximum likelihood estimate is ˆiinxλ=Σ. [Consideration of 22logddλ confirms that this is a maximum: 222log0dLndλλ−=<.]
+\end{document}
