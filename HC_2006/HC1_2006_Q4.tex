@@ -1,12 +1,50 @@
-Higher Certificate, Paper I, 2006. Question 4
-Let X represent cycling time without delays: X ~ N(15, 1).
-(i) ()()17151720.97721PX−⎛⎞≤=Φ=Φ=⎜⎟⎝⎠.
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+% Higher Certificate, Paper I, 2006. Question 4
+Let X represent cycling time without delays: $X \sim N(15, 1)$.
+\begin{enumerate}
+\item ()()17151720.97721PX−⎛⎞≤=Φ=Φ=⎜⎟⎝⎠.
 [Φ denotes the cdf of the standard Normal distribution as usual.]
-(ii) Adding in the delay times, also Normally distributed [N(0.7, 0.09)], and letting T denote the total time:
-(a) T ~ N(15.7, 1.09), so ()()1715.7171.2450.89341.09PT−⎛⎞≤=Φ=Φ=⎜⎟⎝⎠;
-(b) T ~ N(16.4, 1.18), so ()()1716.4170.5520.70961.18PT−⎛⎞≤=Φ=Φ=⎜⎟⎝⎠;
-(c) T ~ N(17.1, 1.27), so ()()1717.1170.08870.46461.27PT−⎛⎞≤=Φ=Φ−=⎜⎟⎝⎠.
-(iii) The number of delays is distributed as B(3, ½). Hence the situations in (i), (ii)(a), (ii)(b) and (ii)(c) arise with probabilities 1/8, 3/8, 3/8 and 1/8 respectively, so the (unconditional) mean of the total journey time is
-1331128.4()1515.716.417.116.0588888ET=×+×+×+×== minutes.
-(iv) Mean time 1.502516.05,10TN⎛⎞⎜⎟⎝⎠∼.
+\item  Adding in the delay times, also Normally distributed [N(0.7, 0.09)], and letting $T$ denote the total time:
+\begin{itemize}
+\item $T \sim N(15.7, 1.09)$, so ()()1715.7171.2450.89341.09PT−⎛⎞≤=Φ=Φ=⎜⎟⎝⎠;
+\item $T \sim N(16.4, 1.18)$, so ()()1716.4170.5520.70961.18PT−⎛⎞≤=Φ=Φ=⎜⎟⎝⎠;
+\item $T \sim N(17.1, 1.27)$, so ()()1717.1170.08870.46461.27PT−⎛⎞≤=Φ=Φ−=⎜⎟⎝⎠.
+\end{itemize}
+\item The number of delays is distributed as B(3, ½). Hence the situations in (i), (ii)(a), (ii)(b) and (ii)(c) arise with probabilities 1/8, 3/8, 3/8 and 1/8 respectively, so the (unconditional) mean of the total journey time is
+\[1331128.4()1515.716.417.116.0588888ET=×+×+×+×==\] minutes.
+\item Mean time 1.502516.05,10TN⎛⎞⎜⎟⎝⎠∼.
 ()()1716.05172.4510.99290.15025PT−⎛⎞≤=Φ=Φ=⎜⎟⎝⎠.
+\end{enumerate}
+\end{document}
