@@ -1,9 +1,44 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
 Higher Certificate, Paper I, 2004. Question 5
-(i) f (t ) =λ e−λ t , t > 0; λ > 0
+
+\begin{enumerate}
+\item  f (t ) =λ e−λ t , t > 0; λ > 0
 (a) Sketch of f (t).
 [NOTE. The curve should of course appear as a smooth decaying exponential;
 it might not do so, due to the limits of electronic reproduction.]
-(b) C.d.f. is ( ) ( ) 0
+\item C.d.f. is ( ) ( ) 0
 0
 1 1
 t
@@ -11,19 +46,23 @@ F t P T t tλ e λ vdv λ e λ v e λ t
 λ
 = ≤ = − = − −  = − −   ∫ .
 (c) P(a < T ≤ b) = F (b) − F (a) = e−λ a − eλ b .
-(ii) Assume all settlements of invoices are independent.
-P(50 in first week) = { ( )} ( )50 50 F 1 = 1− e−λ , because T ≤ 1 for all these 50.
-Likewise, 1 < T ≤ 2 for the 35 in the second week, so we have P(35 in second week) =
+\item Assume all settlements of invoices are independent.
+P(50 in first week) = { ( )} ( )50 50 F 1 = 1− e−λ , because $T \leq 1$ for all these 50.
+
+\begin{itemize}
+\item Likewise, 1 < T ≤ 2 for the 35 in the second week, so we have P(35 in second week) =
 { ( ) ( )}35 F 2 − F 1 = ( )e−λ − e−2λ 35 .
-The remaining 15 have T > 2, which has probability 1 – P(T ≤ 2) = e−2λ , and thus
+\item The remaining 15 have T > 2, which has probability $1 – P(T \leq 2) = e^{−2\lambda}$ , and thus
 P(15 after week 2) = ( )e−2λ 15 .
-The likelihood is therefore the product
+\item The likelihood is therefore the product
 ( ) ( ) ( ) ( ) L λ = k 1− e−λ 50 e−λ − e−2λ 35 e−2λ 15
 where k is a constant of proportionality.
-Continued on next page
+\end{itemize}
+
 f (t)
 t
 Taking logarithms (base e),
+
 log L(λ ) = log k + 50log(1− e−λ )+ 35log{e−λ (1− e−λ )}+15log (e−2λ )
 = log k +85log (1− e−λ )− (35 + 30)λ = log k + 85log (1− e−λ )− 65λ .
 log 85 65 85 65
@@ -47,8 +86,16 @@ dλ eλ
 = − <
 −
 .]
-(iii) 1− e−0.836 = 0.5666; e−0.836 − e−1.672 = 0.43344 − 0.18787 = 0.2456 . Hence, out
+\item  \[1− e−0.836 = 0.5666; e−0.836 − e−1.672 = 0.43344 − 0.18787 = 0.2456 . \]
+
+\begin{itemize}
+\item Hence, out
 of 100 invoices, 56.66, 24.56 and 18.78 would be expected to be paid, on this model,
-in weeks 1, 2 and later. The actual numbers were 50, 35 and 15. The prediction for
+in weeks 1, 2 and later. 
+\item The actual numbers were 50, 35 and 15. The prediction for
 the second week is a long way from what happened, balanced by smaller
-discrepancies in the other two periods. This does not seem very satisfactory.
+discrepancies in the other two periods. 
+\item This does not seem very satisfactory.
+\end{itemize}
+\end{enumerate}
+\end{document}
