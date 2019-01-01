@@ -29,25 +29,36 @@
 \section{Introduction}
 \begin{enumerate}
 \item A binomial distribution with large n and very small p may be approximated
-by a Poisson with ¹ = np. 
+by a Poisson with $\lambda = np$. 
 \begin{itemize}
-\item It is desirable that np should be at least 5, but in
-addition n should be ¸ 20 and p · 0:1. 
+\item It is desirable that $np$ should be at least 5, but in
+addition n should be greater than 20 and p less than 0.1.
+
 \item When all these conditions are met
 the approximation will be a good one.
 \end{itemize}
 
-\item  A Poisson with large mean can be approximated by N(¹; ¹). The
-approximation will be good for ¹ ¸ 10, but adequate down to ¹ = 5.
+\item  A Poisson with large mean can be approximated by $N(\mu, \mu)$. The
+approximation will be good for $\mu \geq 10$, but adequate down to $\mu = 5$.
 
 %%%%%%%%%%%%%%%%5
 (b) (i) Poisson, mean 5:
 \begin{eqnarray*}
 P(4) + P(5) + P(6) &=& 
-e¡5( 54
-4! + 55
-5! + 56
-6! )\\
+\left[e^{-5} \times \frac{5^4}{4!}\right] + \left[e^{-5}\times \frac{5^5}{5!}\right] +  \left[ e^{-5}\times \frac{5^6}{6!} \right] 
+\\
+&=& 
+e^{-5} \left( \frac{5^4}{4!} + \frac{5^5}{5!} +  \frac{5^6}{6!} \right)
+\\
+&=& 
+e^{-5} \times \frac{5^4}{4!} \times \left( 1 + \frac{5}{5} +  \frac{5^2}{6 \times 5} \right)
+\\
+&=& 
+e^{-5} \times \frac{625}{240} \times \left(\frac{30}{30} + \frac{30}{30} +  \frac{25}{30} \right)
+\\
+&=& 
+e^{-5} \times \frac{625}{240} \times \left(   \frac{85}{30} \right)
+\\
 &=& 625e¡5( 1
 24 + 5
 120 + 25
@@ -70,17 +81,20 @@ p
 p
 5
 = +0:6708.
-\[P(z < ¡0:6708) = P(z > +0:6708) = 0:25117,\] and so the required probability
-is 1 ¡ 2 £ 0:25117 = 0:49766. The error is 0.0005, and % error
+\[P(z < -0:6708) = P(z > +0.6708) = 0:25117,\] and so the required probability
+is \[1 - (2 \times 0.25117) = 0.49766.\] The error is 0.0005, and % error
 0:0005
 0:49716 £ 100 = 0:1%:
 Using the continuity correction with ¹ = 5, and calculating values which we
 near to the mean, leads to a very good approximation.
-\item  P(0) = e¡¸t = P(T > t) for the first event observed = 1 ¡ F(t). Hence
-F(t) = 1 ¡ e¡¸t and g(t) = F
+\item  $P(0) = e^{-\lambda t}¸ = P(T > t)$ for the first event observed = $1 - F(t)$. Hence
+$F(t) = 1 - e^{-\lambda t}$ and g(t) = F
 0(t) = ¸e¡¸t. (t ¸ 0; ¸ > 0).
 [g(t) = 0 unless t ¸ 0; ¸ > 0 since neither time of events nor rate of events
-occurring can be negative.] Use integration by parts.
+occurring can be negative.] 
+
+
+Use integration by parts.
 
 
 \begin{eqnarray*}
@@ -104,16 +118,13 @@ E(T^2) &=& \int^{\infty}_{0} \lambda t^2\;e^{-\lambda} dt \\
 \begin{itemize}
 \item $\lambda = 5$, so that $E[T] = 0.2$ and $V[T] = 0.04$. 
 
- For n = 100, a sample mean
-$\bar{T}$ is approximately $N(0.2; \frac{0:04}{100})$, and the range required is from 0.18 to 0.22,
+\item For n = 100, a sample mean
+$\bar{T}$ is approximately $N(0.2; \frac{0.04}{100})$. The range required is from 0.18 to 0.22,
 within 10\% of 0.2. 
-\item The corresponding values of r are 0p:18¡0:2
-0:0004
-= ¡0:02
-0:02 = ¡1,
+\item The corresponding values of r are $\frac{0.18- 0.20}{\sqrt{0.0004}} = -\frac{0.002}{0.002} = -1$,
 and the other = +1. 
-\item $P(r > 1) = 0:1587 = P(r < -1)$ and so the probability
-between these values is 1 ¡ 2 £ 0:1587 = 0:6826.
+\item $P(r > 1) = 0.1587 = P(r < -1)$ and so the probability
+between these values is $1 - (2 \times 0.1587) = 0.6826$.
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%5
 \end{enumerate}
