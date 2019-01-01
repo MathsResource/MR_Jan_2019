@@ -29,64 +29,65 @@
 \section{Introduction}
 
 \begin{enumerate}
-\item E[X] =
-1P
-x=0
-xe¡¸¸x=x!
-=
-1P
-x=0
-e¡¸¸x=(x ¡ 1)!
-= ¸
-1P
-x=0
-e¡¸¸x¡1=(x ¡ 1)! (in which the term for x = 0 is o)
-= ¸
-.
-\item If P(X=k)=P(X=k+1), e¡¸¸k
-k! = e¡¸¸k+1
-(k+1)! ; i:e: ¸
-k+1 = 1 so that ¸ = k + 1:
-\item Since the mode has maximum probability, it is unique as in (ii) if ¸ is an integer but otherwise
+\item 
+\begin{eqnarray}
+E[X] &=&
+\frac{\sum^{\infty}_{x=0} xe^{-\lambda}x}{x!}
+\\ &=&
+\frac{\sum^{\infty}_{x=0}
+e^{-\lambda}x}{(x - 1)!}
+\\ &=& {\lambda}
+\frac{\sum^{\infty}_{x=0}
+e^{-\lambda}x-1}{(x - 1)!} \mbox{(in which the term for x = 0 is 0)}
+\\ &=& {\lambda}
+\end{enumerate}
+
+\item If P(X=k)=P(X=k+1), \[\frac{e^{-\lambda}k}{
+k!} = \frac{e^{-\lambda}k+1}{(k+1)!}\] ; i:e: ${\lambda}
+k+1 = 1$ so that ${\lambda} = k + 1:$
+\item Since the mode has maximum probability, it is unique as in (ii) if ${\lambda}$ is an integer but otherwise
 satisfies P(X=m)
 
 \begin{itemize}
-    \item P(X=m¡1) > 1 and P(X=m+1)
-\item P(X=m) < 1, where m is the modal value.
-\item If e¡¸¸m
-m! ¢ (m¡1)!
-e¡¸¸m¡1 , then ¸
-m > 1; i.e. m < ¸;
-\item also if e¡¸¸m+1
+    \item $P(X=m-1) > 1$ and $P(X=m+1)$
+\item $P(X=m) < 1$, where m is the modal value.
+\item If \[e^{-\lambda}m
+m! ¢ (m-1)!
+e^{-\lambda}m-1 \], then {\lambda}
+m > 1; i.e. m < {\lambda};
+\item also if $e^{-\lambda}m+1$
 (m+1)! ¢ m!
-\item e¡¸¸m < 1, then ¸
-\item m+1 < 1; i.e. ¸ < m + 1 or ¸ ¡ 1 < m ;
-hence ¸ ¡ 1 < m < ¸ .
+\item $e^{-\lambda}m < 1$, then {\lambda}
+\item $m+1 < 1$; i.e. ${\lambda} < m + 1$ or ${\lambda} - 1 < m $;
+hence ${\lambda} - 1 < m < {\lambda}$ .
 \end{itemize}
 
-\item (a) ¸ = 1, so P(0)=e¡¸=1
-e =0.3679 .
+\item (a) ${\lambda} = 1$, so $P(0)=e-{\lambda}=1
+e =0.3679$ .
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item P(0)+P(1)+P(2)=e¡1(1+1+1
-2)=0.9197 .
+\item 
+\begin{eqnarray}
+P(0)+P(1)+P(2)&=&e-1(1+1+1
+2)\\ &=& 0.9197 .
+\end{eqnarray}
 \item Number of faults in 20m2 will follow Poisson with mean 4.
 3
 \item 
 
 \begin{eqnarray*}
-P(¸ 3) &=& 1 - P(0) ¡ P(1) ¡ P(2)\\
-&=& 1 - e¡4(1 + 4 + 42 2! )\\
-&=& 1 - 13e¡4\\
+P({\lambda} 3) &=& 1 - P(0) - P(1) - P(2)\\
+&=& 1 - e-4(1 + 4 + 42 2! )\\
+&=& 1 - 13e-4\\
 &=& 1 - 0:2381 \\
 &=& 0:7619
 \end{eqnarray*}
-\item Number of rooms with ¸ 3 faults is Binomial(50,0.7619) which can be approximated as
+\item Number of rooms with {\lambda} 3 faults is Binomial(50,0.7619) which can be approximated as
 N(50 £ 0:7619; 50 £ 0:7619 £ 0:2381) or N(38:095; 9:0704). 
 %%%%%%%%%%%%%%%%%%%%
 \begin{itemize}
 \item The probability of being >40 is the
 value corresponding to 40.5(with continuity correction) in this distribution:
-\item Z = 40p:5¡38:095
+\item Z = 40p:5-38:095
 9:0704
 = 2:405
 3:0117 = 0:7986
