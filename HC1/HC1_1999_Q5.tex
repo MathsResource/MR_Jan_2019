@@ -26,10 +26,11 @@
 
 \begin{document}
 \begin{enumerate}
-    \item F(x) = P(X · x) =
-R x
-0 ¸e¡¸udu = [¡e¡¸u]x
-0 = 1 ¡ e¡¸x (x ¸ 0)
+    \item 
+    
+\[
+F(X) = P(X \leq x) = \int^{x}_{0} \lambda e^{\lambda u} du
+ = [-e^{-\lambda u}]^{x}_{0}  = 1-e^{-\lambda x}\] ($x \geq  0$)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \item  L = ¦n i=1¸e¡¸xi = ¸n exp(¡¸
@@ -37,21 +38,21 @@ Pn
 i=1
 xi) = ¸ne¡n¸x ln(L) = n ln ¸ ¡ n¸x
 d
-d¸ (ln(L)) = 1=¸ ¡ nx = 0 for ˆ¸ = 1=ˆx d2
-d¸2 (ln(L)) = ¡n=¸2 < 0 for all ¸, so there is a
-maximum for ˆ¸
-3
+\[d¸ (\ln(L)) = 1=¸ ¡ nx = 0 for \lambda¸ = 1=\lambda x d2\]
+\[d¸2 (\ln(L)) = ¡n=¸2 < 0 \]for all ¸, 
+so there is a maximum for $\lambda$¸
+
 %%%%%%%%%%%%%%%%%%%%%%%%%
-\item  Using the result just found ,ˆ¸ » N(¸; ¸2=n) » N(¸; 1=n(x)2), and so approximately
-ˆ¸
+\item  Using the result just found ,$\lambda¸ \sim N(¸; ¸2=n) \sim N(¸; 1=n(x)2)$, and so approximately
+\[\lambda¸
 ¡¸
 (x
 p
-n)¡1 » N(0; 1), from which an approximate 95\% confidence interval for ¸ is given by
-ˆ¸
+n)¡1 \sim N(0; 1)\], from which an approximate 95\% confidence interval for ¸ is given by
+\[\lambda¸
 § 1:96=(x
 p
-n) or 1
+n)\] or 1
 x (1 § 1p:96
 n )
 \end{enumerate}
