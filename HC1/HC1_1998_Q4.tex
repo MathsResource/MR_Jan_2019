@@ -23,52 +23,61 @@
 \renewcommand{\baselinestretch}{1.3}
 
 \setcounter{MaxMatrixCols}{10}
+\begin{document}
 
-\maketitle
 
-\section{Introduction}
 
 \begin{enumerate}
-\item P(¸1 \mbox{replacement})=1-P(0)=1-P(T>1)=1-
+\item 
+\begin{eqnarray*}
+P(¸1 \mbox{replacement})&=&1-P(0)
+\\&=&1-P(T>1)
+\\&=&1-
 R1
 1
 1
-5 e¡t=5dt
-=1 ¡ [¡e¡t=5]1
-1 = 1 ¡ e¡1=5 = 0:1813:
-
+5 e-t=5dt
+\\&=&1 - [-e-t=5]1
+1 
+\\&=&1 - e-1=5 \\&=& 0.1813:
+\end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item
 \begin{eqnarray*}
 E[\mbox{net profit}]
-&=& \mbox{profit on sale} - replacement cost £ P(\mbox{replacement})\\
-&=& £[100-70£0.1813] \mbox{if there is only one replacement}\\
-&=& £87.31 .\\
+&=& \mbox{profit on sale} - replacement cost \times  P(\mbox{replacement})\\
+&=& \times [100-70\times 0.1813] \mbox{if there is only one replacement}\\
+&=& \times 87.31 .\\
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item 
 8><
 >:
 x 10 11 12 13 14
-P(X = x) 0:2 0:4 0:2 0:1 0:1 = P(Y = y)
+P(X = x) 0.2 0.4 0.2 0.1 0.1 = P(Y = y)
 9>=
 >;
-y +4000 +2000 0 ¡2000 ¡4000
+y +4000 +2000 0 -2000 -4000
 Distribution of Y given by second and third rows above.
 \[P(loss)=P(Y<0)=0.2 .\]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item \[E[X]=(10£0.2)+(11£0.4)+(12£0.2)+(13£0.1)+(14£0.1)=11.5 \]
+\item 
+\begin{eqnarray*}
+E[X]&=&(10\times 0.2)+(11\times 0.4)+(12\times 0.2)+(13\times 0.1)+(14\times 0.1)\\
+&=& 2 + 4.4 + 2.4 + 1.3+ 1.4\\
+&=&11.5\\
+\end{eqnarray*}
 
 \begin{eqnarray*}
 V[X] 
-&=& E[X2] ¡ (E[X])2\\
-&=& (100 £ 0:2) + (121 £ 0:4) + (144 £ 0:2) + (169 £ 0:1) + (196 £ 0:1) ¡ 11:52\\
+&=& E[X^2] - (E[X])^2\\
+&=& (100 \times  0.2) + (121 \times  0.4) + (144 \times  0.2) + (169 \times  0.1) + (196 \times  0.1) - 11:52\\
 &=& 133.7 - 132.25\\ 
-&=& 1:45\\
+&=& 1.45\\
 \end{eqnarray*}
 
-\[E[Y]=2000(12-E[X])=£1000 .\]
-\[V[Y]=4£106 . V[X]=5.8£106 .\]
+\[E[Y]=2000(12-E[X])= 1000 .\]
+\[V[Y]=4\times 10^6 . V[X]=5.8\times 10^6 .\]
 \end{enumerate}
 \end{document}
