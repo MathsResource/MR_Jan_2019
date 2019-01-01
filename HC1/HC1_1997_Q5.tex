@@ -29,38 +29,39 @@
 
 \section{Introduction}
 \begin{enumerate}[(i)]
-\item P(positive)= p. P(no positive in k)= (1 ¡ p)k,
-(i) and so the probability of a pooled-sample positive is 1 ¡ (1 ¡ p)k.
+\item \[P(\mbox{positive})= p. P(\mbox{no positive in k})= (1-p)^k,\]
+(i) and so the probability of a pooled-sample positive is $1 - (1-p)^k$.
 %%%%%%%%%%%%%%%%%%
 \item S = m(one for each group) + k individual tests if the group was positive,
-taken over each of the m groups = m+kX, where m is the number of groups
-and each group has probability 1 ¡ (1 ¡ p)k of requiring k tests.
-Therefore X is binomial (m; 1 ¡ (1 ¡ p)k).
+taken over each of the m groups = $m+kX$, where m is the number of groups
+and each group has probability $1 - (1-p)^k$ of requiring k tests.
+Therefore X is binomial $(m; 1 - (1-p)^k)$.
 
 %%%%%%%%%%%%%%%%%%
 \item $E[S] = E[m] + kE[X] = N$
 k + k ¢ N
-k ¢ f1 ¡ (1 ¡ p)kg = Nf 1
-k + 1 ¡ (1 ¡ p)kg.
-V [S] = k2V [X] = k2mf1 ¡ (1 ¡ p)kg(1 ¡ p)k = Nk(1 ¡ p)kf1 ¡ (1 ¡ p)kg.
+k ¢ f1 - (1-p)^kg = Nf 1
+k + 1 - (1-p)^kg.
+\[V [S] = k2V [X] = k2mf1 - (1-p)^kg(1-p)^k = Nk(1-p)^kf1 - (1-p)^kg.\]
 %%%%%%%%%%%%%%%%%%
 \item 
-\[ \frac{dE}{dk}\]
- = ¡N
-k2 ¡ N d
-dk (1 ¡ p)k = ¡N
-k2 ¡ N(1 ¡ p)k ln(1 ¡ p).
-(using the result that d
-dx (ax) = ax ln a).
+\[ \frac{dE}{dk}
+ = -N
+k2 - N d
+dk (1-p)^k \]= -N
+k2 - N(1-p)^k ln(1-p).
+(using the result that
+
+\[ \frac{d(ax}{dx} = ax ln a)\].
 \begin{itemize}
-\item For minimum, set dE/dk = 0, giving 1 + k2(1 ¡ p)k ln(1 ¡ p) = 0.
+\item For minimum, set dE/dk = 0, giving 1 + k2(1-p)^k ln(1-p) = 0.
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item 1 + k2(0:99)k ln(0:99) = 0, so that k2 = ¡1
+\item 1 + k2(0:99)k ln(0:99) = 0, so that k2 = -1
 (0:99)k ln(0:99) .
 Find E[S] for k = 10 and 11 (since it must be an integer).
-\[E[Sjk = 10] = 9900(0:1 + 1 ¡ 0:9910) = 1936:62.\]
-\[E[Sjk = 11] = 9900( 1/11 + 1 ¡ 0:9911) = 1936:15.\]
+\[E[S|k = 10] = 9900(0:1 + 1 - (0:99)^{10}) = 1936.62.\]
+\[E[S|k = 11] = 9900( 1/11 + 1 - (0:99)^{11}) = 1936.15.\]
 Take k = 11.
 \end{enumerate}
 \end{document}
