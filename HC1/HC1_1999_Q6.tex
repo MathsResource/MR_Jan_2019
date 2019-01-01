@@ -26,19 +26,35 @@
 
 \begin{document}
 \begin{enumerate}
-    \item P(device fails) = P(both components faulty) = p2, by independence. Hence P(device works) =
-1¡p2. Again assuming independence of performance of individual devices, R is Binomial
-(n; 1 ¡ p2)
+    \item P(device fails) = P(both components faulty) = p2, by independence.
+    
+\begin{itemize}
+    \item Hence P(device works) =
+1-p2. 
+\item Again assuming independence of performance of individual devices, R is Binomial
+(n; 1 - p2)
+\end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item For line A, P(device faulty) = 1=4; and for B; P(faulty) = 1=9
+\item For line A, $P(\mbox{device faulty}) = 1/4$; and for B; $P(\mbox{faulty}) = 1/9$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item  Let event F denote failure/faulty.
-$P(F=A) = 1/4$; $P(F=B) = 1/9$; from (ii)
+$P(F|A) = 1/4$; $P(F|B) = 1/9$; from (ii)
 
-(a) IfP(A) = P(B) = 1=2; P(AjF) = P(FjA)P(A)
-P(F) = P(FjA)P(A)
-P(FjA)P(A)+P(FjB)P(B) = 9=13
-\item  IfP(A) = 1=4; P(B) = 3=4; P(AjF) = 3=7
+(a) If $P(A) = P(B) = 1=2$; 
+\[P(A|F) = \frac{P(F|A)P(A)}{P(F)}\] 
+\begin{eqnarray*}
+P(F) &=&  P(F|A)P(A)+P(F|B)P(B) \\ 
+&=& \left[\frac{1}{4} \times \frac{1}{2} \right] + \left[\frac{1}{9} \times \frac{1}{2} \right] 
+&=& 9/13
+\end{eqnarray*}
+
+\begin{eqnarray*}
+P(A|F) = \frac{P(F|A)P(A)}{P(F)} \\ 
+&=& \frac{\frac{1}{4} \times \frac{1}{2}}{P(F)}
+&=& 9/13
+\end{eqnarray*}
+
+\item  If $P(A) = 1/4$; $P(B) = 3/4$; $P(A|F) = 3/7$
 Although individually devices from A are more likely to fail, in case(b) more devices
 are made on line B which results in a higher probability for(b).
 \end{enumerate}
