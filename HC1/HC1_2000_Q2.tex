@@ -25,6 +25,28 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
 
+
+\begin{framed}
+A random variable 
+$ {\displaystyle X} $
+ follows the hypergeometric distribution if its probability mass function (pmf) is given by
+\[ {\displaystyle p_{X}(k)=\Pr(X=k)={\frac {{\binom {K}{k}}{\binom {N-K}{n-k}}}{\binom {N}{n}}},} \]
+
+where 
+\begin{itemize}
+\item ${\displaystyle N}$ 
+ is the population size,
+\item ${\displaystyle K}$ 
+ is the number of success states in the population,
+\item ${\displaystyle n}$ 
+ is the number of draws (i.e. quantity drawn in each trial),
+\item ${\displaystyle k}$ 
+ is the number of observed successes,
+\item ${\textstyle \textstyle {a \choose b}}$ 
+ is a binomial coefficient.
+\end{itemize}
+
+\end{framed}
 \begin{enumerate}
 \item P(x irregular in sample) =
 Ã
@@ -47,44 +69,22 @@ Sampled 10 ¡ x x 10
 Notsampled 35 + x 5 ¡ x 40
 Total 45 5 50
 So
-P(x = 0) =
-Ã
-10
-0
-! Ã
-40
-5
-!
-Ã
-50
-5
-! =
-1 £ 40! £ 5! £ 45!
-5! £ 35! £ 50!
-=
-40 £ 39 £ 38 £ 37 £ 36
-50 £ 49 £ 48 £ 47 £ 46
-= 0:3106
+\begin{eqnarray*}
+P(X=0) &=& \frac{ {10 \choose 0} \times {40 \choose 5} }{ {50 \choose 5}}\\
+&=& \frac{1 \times 40! \times 5!  \times 45!}{5! \times 35! \times 50|}\\
+&=& \frac{ 40 \times 39 \times 38 \times 37 \times 36}{50 \times 49 \times 48 \times 47 \times 46}\\
+&=& 0.3106
+\end{eqnarray*}
 (ii)
 P(x ¸ 2) = 1 ¡ P(0) ¡ P(1):
-P(x = 1) =
-Ã
-10
-1
-! Ã
-40
-4
-!
-Ã
-50
-5
-! =
-10 £ 40! £ 5! £ 45!
-4! £ 36! £ 50!
-=
-10 £ 5 £ 40 £ 39 £ 38 £ 37
-50 £ 49 £ 48 £ 47 £ 46
-= 0:4313
+\begin{eqnarray*}
+P(X=1) &=& \frac{ {10 \choose 1} \times {40 \choose 4} }{ {50 \choose 5}}\\
+&=& \frac{10 \times 40! \times 5!  \times 45!}{4! \times 36! \times 50|}\\
+&=& \frac{10 \times 5 \times 40 \times 39 \times 38 \times 37}{50 \times 49 \times 48 \times 47 \times 46}\\
+&=& 0.4313
+\end{eqnarray*}
+
+
 and P(x ¸ 2) = 0:2581:
 \item P(server wins from deuce)=
 P(ww) + P(wlww) + P(lwww) + p(wlwlww) + p(wllwww)
