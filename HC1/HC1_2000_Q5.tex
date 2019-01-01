@@ -25,60 +25,64 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
 \item 
-P(group test + ve) = 1 ¡ P(grouptest ¡ ve)
-= 1 ¡ P(all k individuals ¡ ve)
-= 1 ¡ (1 ¡ P)k
+P(group test + ve) = 1 - P(grouptest - ve)
+= 1 - P(all k individuals - ve)
+= 1 - (1 - P)k
 \item The N persons form m independent groups ,each group having a group test: also
 if the group test is positive there are k individual tests, so this happens with probability
-(1 ¡ (1 ¡ p)k)
+(1 - (1 - p)k)
 Hence the number of test is sk = m + k £ x,where x is the number out of the m
-groups where individual tests have to be made; so x is Binomial(m; 1 ¡ (1 ¡ p)k).
+groups where individual tests have to be made; so x is Binomial(m; 1 - (1 - p)k).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item The mean and variance of Binomial(n; ¼) are n¼, n¼(1 ¡ ¼). hence
-E[x] = m(1 ¡ (1 ¡ p)k); V [x] = m(1 ¡ p)k(1 ¡ (1 ¡ p)k)
+\item The mean and variance of Binomial(n; ¼) are n¼, n¼(1 - ¼). hence
+$E[x] = m(1 - (1 - p)^{k})$; 
+$V [x] = m(1 - p)^{k}(1 - (1 - p)^{k})
+$
 since N=mk
-E[sk] = m + kE[x] = N
-k + N(1 ¡ (1 ¡ p)k) = N[ 1
-k + 1 ¡ (1 ¡ p)k]
-V [sk] = k2V [x] = Nk(1 ¡ p)k[1 ¡ (1 ¡ p)k]
+
+\begin{eqnarray*}
+E[sk] &=& m + kE[x] \\&=& N
+k + N(1 - (1 - p)^{k}) 
+\\&=& N[ \frac{1}{
+k} + 1 - (1 - p)^{k}]
+\end{eqnarray*}
+
+\begin{eqnarray*}
+V [sk] &=& k^2V [x] \\&=& Nk(1 - p)^{k}[1 - (1 - p)^{k}]
+\end{eqnarray*}
+
 
 %%%%%%%%%%%%%%%%%%%%%%
 \item When P=0.01
-E(s10) ¡ E(s11) = N( 1
-10 ¡ 1
-11 ¡ 0:9910 + 0:9911)
-= N( 1
-10 ¡ 1
-11 ¡ 0:01 £ 0:9910) = 4:7089 £ 10¡5N
-E(s12) ¡ E(s11) = N( 1
-12 ¡ 1
-11 ¡ 0:9912 + 0:9911)
-= N( 1
-12 ¡ 1
-11 + 0:01 £ 0:9911) = 1:3776 £ 10¡3N
+\begin{eqnarray*}
+E(s10) - E(s11) &=& N( \frac{1}{10} -  \frac{1}{11} - (0.99^{10}) + (0.99^{11}))
+\\&=& N( \frac{1}{10} - \frac{1}{11} - 0:01 \times (0.99^{10})) \\&=& 4.7089 \times 10^{-5}N
+\end{eqnarray*}
+\begin{eqnarray*}
+E(s12) - E(s11) &=& N( \frac{1}{12} - \frac{1}{11} - (0.99^{12}) + (0.99^{11}))\\&=& N( \frac{1}{12} - \frac{1}{11} + 0:01 \times 0.9911) \\&=&
+ 1.3776 \times 10^{-3} N\\
+\end{eqnarray*}
 Both of these are positive, so E(s11) is less than E(s10)andE(s12).
 ALTERNATIVELY by directly calculation as below.
 6
 \item When p=0.05,
 \begin{itemize}
-\item E[s4] = N[1:25 ¡ 0:954] = 0:435494N
-\item E[s5] = N[1:2 ¡ 0:955] = 0:426219N
-\item E[s6] = N[ 7
-6 ¡ 0:956] = 0:431575N
-\item E[s7] = N[ 8
-7 ¡ 0:957] = 0:444520N
+\item E[s4] = N[\frac{5}{4} - 0.95^4] = 0.435494N
+\item E[s5] = N[\frac{6}{5} - 0.95^5] = 0.426219N
+\item E[s6] = N[\frac{7}{6} - 0.95^6] = 0.431575N
+\item E[s7] = N[\frac{8}{7} - 0.95^7] = 0.444520N
 \end{itemize}
 
 k=5 minimizes E[sk] in this range.
 %%%%%%%%%%%%%%%%%%%%%%%%
 \item When k=1
-E[s] = N(2 ¡ (1 ¡ p)) = 1:01N for P = 0:01
+\[E[s] = N(2 - (1 - p)) = 1:01N for P = 0:01\]
 = 1:05N for P = 0:05
 \begin{itemize}
     \item this suggests that when P is very small the total number of tests skcan be very substantially
 reduced. 
-\ite mEven for P=0.05 it is (more than) halved. 
+\item Even for P=0.05 it is (more than) halved. 
 \item Also the group size may
 be larger the smaller P is: the above results suggest optima of k=11 or 5 for p=0.01 or
 0.05. 
