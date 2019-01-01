@@ -24,48 +24,34 @@
 
 \setcounter{MaxMatrixCols}{10}
 
+%- Higher Certif icate in Statistics
+%- May 1999
+%- SOLUTIONS Paper I :
+%- Statistical Theory
 \begin{document}
+1 Outcome probabilities are:
 \begin{enumerate}[(a)]
-\item (a i) Label the 4 men A;B;C;D. Then A may have B or C or D as partner; the
-other two are the opposing pair. There are 3 ways. [Alternatively
-( 4
-2 )
-2
-= 3].
-Label the players M1;M2;W1;W2. Then M1 may play with W1 or W2 as
-partner; M2 then has the other woman as partner. There are 2 ways.
-%%‰%%%%
-\item (a ii) Suppose n = 4m. (If it is not, then 1 or 2 or 3 players cannot take part).
+    \item  $P(H|B) = 1/2$ and so $P(T|A)$ = $P(T|B) = 1/2$ .
 \begin{itemize}
-\item Groups of 4 can be chosen in ( 4m
-4 ) ways, and each group can be matched
-in 3 ways (as above) giving a total of 3( 4m
-4 ), where 4m is the multiple of 4
-that is as near to n (below) as possible.
-\item Suppose n1 = 2m1 (otherwise leave out one man) and n2 = 2m2 (otherwise
-leave out one woman).
-\item Two of each sex may be chosen in ( 2m1
-2 ) ¢ ( 2m2
-2 ) ways and the total number
-of matches is then 2( 2m1
-2 ) ¢ ( 2m2
-2 ).
+\item Hence every entry in the body of the table is the product of marginal probabilities (by
+independence),$1/2 \times 1/2 = 1/4$.
+\item Writing GA = Gain for A;GB = Gain for B ,
+\item $E[G_A] = (3 \times 1/4) - (2 \times 1/4) - (2 \times 1/4) + (1 \times 1/4) = 0 = E[G_B]$
+since this is a two person game.
 \end{itemize}
-\item $\displaymode{ {10 \choose 5}}$ = 252, as once the first 5 are chosen the teams are chosen completely.
 
-%%%%%%%%%%%%%%%%%
-\item Teams each consist of a goalkeeper and 4 others. Team 1 can be completed
-in $\displaymode{ {8 \choose 4}}$  ways =70 ways, which defines the selection completely.
-\item  Label the goalkeepers G1;G2, the strikers S1; S2; S3. Then these are 5 other
-players.
-
-
+\item $E[G_A] = (3 \times 2/9) - (2 \times 4/9) - (2 \times 1/9) + (1 \times 2/9) = -2/9$
+\item giving 
+\begin{eqnarray*}
+E[G_A] &=& 3p_Ap_B - 2p_A(1  p_B) - 2(1 - p_A)p_B + (1 - p_A)(1 - p_B)\\ &=& 1 - 3p_A -
+3p_B + 8p_Ap_B\\
+\end{eqnarray*}
+%%%%%%%%%%%%%%%%%%%%
 \begin{itemize}
-    \item We may have, in one team, G1 with S1 or S2 or S3 and choose the other 3 from 5: there are 3 £$\displaymode{ {5 \choose 3}}$ = 30 ways for this. 
-    \item  Also G1 may have two of the strikers and two others in the same team.
-    \item There are $\displaymode{ {3 \choose 2}}$  = 3 ways for
-strikers and$\displaymode{ {5 \choose 2}}$ = 10 ways for others, making 30 ways in all. 
-    \item The total number of ways is thus 30 + 30 = 60. Choosing one team fixes the other.
+\item If $p_B = 3/8$ ;$E[GA] = 1 - 3p_B$ from the first alternative form; in this case \[E[G_A] =
+1 - \frac{9}{8}  = - \frac{1}{8}\]
+\item Hence choose to play as B, with $p_B = 3/8$ ,which in the long run will guarantee a win of $1/8$
+(since $E[G_B] = -E[G_A]$)
 \end{itemize}
 \end{enumerate}
 \end{document}
