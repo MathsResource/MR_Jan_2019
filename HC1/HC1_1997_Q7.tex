@@ -27,6 +27,21 @@
 
 
 \section{Introduction}
+\begin{framed}
+In the case of simple regression, the formulas for the least squares estimates are 
+\[{\displaystyle {\widehat {\beta }}_{1}={\frac {\sum (x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}{\sum (x_{i}-{\bar {x}})^{2}}}{\text{ and }}{\widehat {\beta }}_{0}={\bar {y}}-{\widehat {\beta }}_{1}{\bar {x}}} \]
+
+where 
+$ {\displaystyle {\bar {x}}} $
+ is the mean (average) of the 
+$ {\displaystyle x} $
+ values and 
+${\displaystyle {\bar {y}}}$ 
+ is the mean of the 
+$ {\displaystyle y} $
+ values.
+
+\end{framed}
 \begin{enumerate}[(i)]
 \item 7. (i) Yi = ¯xi + ei, i = 1; 2; ¢ ¢ ¢ ; n, feig i.i.d. N(0; ¾2).
 Likelihood L =
@@ -40,25 +55,28 @@ p
 exp[¡
 (yi ¡ ¯xi)2
 2¾2 ]g,
-lnL = ¤ = ¡n ln(¾
+\[lnL = ¤ = ¡n ln(¾
 p
 2¼) ¡ 1
 2¾2
 Xn
 i=1
-(yi ¡ ¯xi)2.
-@¤
-@¯
+(yi ¡ ¯xi)2.\]
+
+\[
+\frac{\partial \Lambda}{\partial \beta}
+
 = 0 +
 1
 2¾2
 ¢ 2
 Xn
 i=1
-(yi ¡ ¯xi)xi and is zero when
+(yi ¡ ¯xi)xi\] and is zero when
 P
 (yi ¡ ˆ ¯xi)xi = 0 i.e.
-X
+
+\[X
 yixi = ˆ ¯
 X
 xi
@@ -67,13 +85,13 @@ P
 Pyixi
 x2
 i
-.
-@2¤
+.\]
+\[@2¤
 @¯2 = ¡
 P
 x2
 i
-¾2 , confirming maximum.
+¾2 , confirming maximum.\]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item  If now feig are N(0; ¾2xi),
