@@ -23,46 +23,67 @@
 \renewcommand{\baselinestretch}{1.3}
 
 \setcounter{MaxMatrixCols}{10}
+
 \begin{document}
 
-
-\section{Introduction}
 \begin{enumerate}
-\item (i) Y = pX1 + (1 ¡ p)X2 is N(1750p + 2000(1 ¡ p); p2 ¢ 3002 + (1 ¡ p)2 ¢ 4002)
-i.e. N(2000 ¡ 250p; 104f9p2 + 16(1 ¡ p)2g)
-or N(2000 ¡ 250p; 10000(25p2 ¡ 32p + 16)).
-\item $E[Y ] = 2000$ ¡ 250p and has maximum value (2000) for p1 = 0.
-\item V [Y ] is minimized when 
-\[ \frac{d}{dp}(25p^2 - 32p + 16) =0\]
-
-\[i.e. 50p - 32 = 0\] or \[p2 = \frac{16}{25}=0.64\].
-The second deviation is > 0, indicating a minimum.
-\item  E[Y jp1 = 0] = £2000. E[Y jp2 = 16=25] = 2000 ¡ 250£16
-25 = £1840.
-2
-\item  (a) On p = p1 = 0, $Y \sim N(2000; 400^2)$:
+\item 2 (i) X is binomially distributed B(n; p) and so P(X = x) = ( n
+x
+)px(1 ¡ p)n¡x ; x =
+0; 1; 2 ¢ ¢ ¢ n:
+Hence
 \begin{eqnarray*}
-P(Y < 1480) &=& P(Z < \left( \frac{1480-2000}{400}
-\right) \\
-&=& P(Z < -1.30)\\ 
-&=& 0.0968.\\
+E[X] 
+&=&  \sum^{n}_{x=0}xp^{x} (1-p)^{n-x} \frac{n!}{x!(n-x)!}\\
+&=&  np \sum^{n}_{x=0} \frac{(n-1)! p^{x-1}(1-p)^{n-x}}{(x-1)!([n-1]=[x-1])!}\\
 \end{eqnarray*}
-(b) On p = p2 = 16=25, Y » N(1840; 104f162
-25 ¡ 32£16
-25 + 16g).
-i.e. N(1840; 16 £ 104f1 ¡ 16
-25g) = N(1840; 2402):
 
+since the term in $E[X]$ for the value x = 0 is zero. Put $Y = (x - 1)$
+Thus
+\begin{eqnarray*}
+E[X] 
+&=&  np \sum^{n-1}_{y=0} {{n-1}\choose y} (n-1)! p^{y}(1-p)^{n-y}\\
+&=& (p+(1-p))^n \times np\\
+&=& np \\
+\end{eqnarray*}
+
+The expression for variance is $V [X] = np(1 - p).$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\item  (a) Y is B(4; 1=2) so P(Y = y) = (
+4
+y
+)1=24 for y = 0; 1; 2; 3; 4
+\begin{eqnarray*}
+P(Y ¸ 3) &=& P(3) + P(4) = 4 £ 1=16 + 1 £ 1=16 = 5=16
+P(Y = 2)\\ &=& 4£3£1 
+2£1£16 \\ &=& 3=8.
+\end{eqnarray*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item E[Y ] = 2 ; V [Y ] = 1.
+\item Now Y = Z1 + z2 + Z3 + Z4, where each Zi is a Bernoulli variable with mean pi
+and variable pi(1 ¡ pi) By independence, E[Y ] =
+P4
+i=1
+E[Zi] and V [Y ] =
+P4
+i=1
+V [Zi] so
+\begin{itemize}
+    \item $E[Y ] = 3/4 + 1/3 + 2/3 + 1/4 = 2$ (the same as before since the new probabilities
+average to 1/2).
+\item Also 
 
 \begin{eqnarray*}
-P(Y < 1480) &=& P\left(Z < \left( \frac{1480-1840}{240} \right)
-\right) \\
-&=& P(Z < -1:50)\\ 
-&=& 0:0668.\\
+V(Y) &=& \left(\frac{3}{4} \times \frac{1}{4}\right)
++  \left(\frac{1}{3} \times \frac{2}{3}\right)
++  \left(\frac{2}{3} \times \frac{1}{3}\right)
++  \left(\frac{1}{4} \times \frac{3}{4}\right) \\
+ &=& \frac{12}{72} +  \frac{16}{72} + \frac{6}{72}
 \end{eqnarray*}
-%%%%%%%%%%%%%%%%%%%%%%%%
-Z stands for the standardized variate N(0; 1). Use mixed strategy (b) because
-its probability of ruin is only two-thirds of that on (a). His expectation
-is lower, but variability is also lower, on (b).
+59=72 (less than before)
+\item NOTE: for probabilities which average to 1/2, the first case gives the maximum sine
+if $ pi \neq 1/2$ the product pi(1 ¡ pi) is < 1=4 for each component.
+\end{itemize}
+
 \end{enumerate}
 \end{document}
