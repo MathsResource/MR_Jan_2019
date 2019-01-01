@@ -23,7 +23,29 @@
 \renewcommand{\baselinestretch}{1.3}
 
 \setcounter{MaxMatrixCols}{10}
-\begin{document}7(i)E[x] =
+\begin{document}
+
+\begin{framed}
+The random variable X follows the discrete uniform distribution on the integers 1, 2, ..., k so that the probability mass function of X is given by 
+ 
+ 
+1
+1,2,...,
+()
+0 otherwise
+xk
+kpx  = =   
+ 
+\end{framed}
+
+\begin{framed}
+(i) Show that for a general positive integer k 
+ 
+ () 1 2 k EX + = . 
+(
+\end{framed}
+\begin{enumerate}
+    \item E[x] =
 Pk
 i=1
 i
@@ -32,16 +54,40 @@ k
 1
 2k(k + 1) = k+1
 2
-(ii)(a)The moment estimator ˆ k1 is found from setting E[x] = ¯x i.e. ¯x = 1
-2 ( ˆ k1 +
-1) or ˆ k1 = 2¯x ¡ 1
-(b)Likelihood =
+
+
+\begin{framed}
+A random sample of size four, X1, X2, X3, X4, is taken from this distribution, yielding values x1, x2, x3, x4, from which it is intended to estimate the parameter k. 
+ 
+(a) Show that the method of moments estimator of k is given by 
+1 ˆ 21 kX =−, where X denotes the sample mean. 
+\end{framed}
+%%%%%%%%%%%%
+\item The moment estimator $\hat{k}_1$ is found from setting $E[x] = \bar{x}$ i.e. $\bar{x}$ = 1
+2 ( $\hat{k}_1$ +
+1) or \[\hat{k}_1 = 2\bar{x} - 1\]
+%%%%%%%%%%%%
+\begin{framed}
+
+Explain clearly why the maximum likelihood estimator of k is given by 2 (4) ˆ kX = , the sample maximum. 
+
+
+\end{framed}
+\item Likelihood =
 Q4
 i=1
 f(xi) = 1
 k4 provided all xi lie between 1 and k inclusive.
-The maximum of this occurs when ˆ k2 is chosen to be as small as possible given the data
-values; i.e. ˆ k2 = x(4), the sample maximum.
-(c)Forfxig = f1; 10; 3; 2g; ˆ k1 = 2(16
-4 ) ¡ 1 = 7 ˆ k2 = x(4) = 10
-ˆ k1 is impossible, since there is a data value above 7. ˆ k2 is consistent with the data.
+The maximum of this occurs when $\hat{k}_2$ is chosen to be as small as possible given the data
+values; i.e. $\hat{k}_2 = x(4)$, the sample maximum.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{framed}
+Calculate 1 ˆ k and 2 ˆ k for the sample (1, 10, 3, 2) and comment on your results. (
+\begin{framed}
+\item Forfxig = f1; 10; 3; 2g; $\hat{k}_1 = 2(16
+4 )$ ¡ 1 = 7 $\hat{k}_2 = x(4) = 10$
+$\hat{k}_1$ is impossible, since there is a data value above 7. $\hat{k}_2$ is consistent with the data.
+\end{enumerate}
+
+\end{document}
