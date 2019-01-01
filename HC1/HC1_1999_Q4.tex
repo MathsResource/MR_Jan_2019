@@ -26,53 +26,64 @@
 
 \begin{document}
 \begin{enumerate}
-    \item  For u = 1=2; P(0) = e¡1=2 = 0:60653; P(1) = 0:30327; P(2) = 0:07582and P(3) =
-0:01264 with P(¸ 4)very small.
-For u = 2; p(0) = 0:13534; p(1) = 0:27067 = p(2); p(3) = 0:18045; p(5) = 0:03609; p(6) =
-0:01203
-2
+    \item  For u = 1/2; 
+    
+\begin{itemize}   
+\item P(0) = e-1=2 = 0:60653; 
+\item P(1) = 0:30327; 
+\item P(2) = 0:07582
+\item P(3) =
+0:01264
+\item P(¸ 4)very small.
+\end{itemize}
+
+For u = 2; 
+\begin{itemize}   
+\item p(0) = 0:13534; 
+\item p(1) = 0:27067 
+\item p(2); 
+\item p(3) = 0:18045; 
+\item p(5) = 0:03609; 
+\item p(6) = 0:01203
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item  (a) The sampling method does not collect any data for which y=0. Hence in this distribution
 1P
 y=1
 P(y) = 1
 %------------------%
 \begin{itemize}
-\item But since we have a Poisson distribution originally we know that P(y = 0) =
-e¡u;andP(y ¸ 1) = 1 ¡ e¡u:
-\item This the total probability for the data that have been collected is 1¡e¡u, and each
+\item But since we have a Poisson distribution originally we know that $P(y = 0) =
+e^{-u}$;and $P(y ¸ 1) = 1 - e^{-u}$:
+\item This the total probability for the data that have been collected is $1-e^{-u}$, and each
 individual probability must be expressed as a proportion of this in order to make
 them add to 1.
 \item 
-Therefore P(Y = y) = e¡uuy
+Therefore \[P(Y = y) = e^{-u}uy\]
 \end{itemize}
 %------------------%
 
-(1¡e¡u)y! for y = 1; 2; 3; ¢ ¢ ¢
-E[Y ] =
-1P
-y=1
-uyye¡y
-(1¡e¡u)y! = ue¡u
-1¡e¡u
-1P
-y=1
-uy¡1
-(y¡1)! = ue¡u
-1¡e¡u
-1P
-s=0
-us
-s! = u
-1¡e¡u since the
+$(1-e^{-u})y! for y = 1; 2; 3; \ldots$
+
+
+\begin{eqnarray*}
+E[Y] &=& 
+\sum^{\infty}_{y=1} \frac{u^{y} \times y \times e^{-y} }{1-e^{-u}y!}\\
+&=& \frac{u\times e^{-u}}{1-e^{-u}} \sum^{\infty}_{y=1} \frac{u^{y-1} }{(y-1)!}\\
+&=& \frac{u \times e^{-u}}{1-e^{-u}} \sum^{\infty}_{y=1} \frac{u^{s} }{s!}\\
+&=& \frac{u}{1-e^{-u}}
+\end{eqnarray*}
+
+ since the
 P
 s factor
 equals eu.
 \begin{itemize}
-\item E[Y ] ¡ P(Y = 1) = u
-1¡e¡u ¡ ue¡u
-1¡e¡u = u
+\item $E[Y ] - P(Y = 1) = u$
+$1-e^{-u} - ue^{-u}$
+$1-e^{-u} = u$
 \item Hence the sample fraction of leaves with just one insect, subtract from the sample
-mean (which is an unbiased estimate of E[Y]) gives an unbiased estimate of u.
+mean (which is an unbiased estimate of $E[Y]$) gives an unbiased estimate of $u$.
 \end{itemize}
 \end{enumerate}
 \end{document}
