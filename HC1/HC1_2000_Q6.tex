@@ -27,68 +27,72 @@
 \begin{enumerate}
 \item  Note that Z 1
 0
-¸2xe¡¸xdx = 1
-(i)(a)
-E[x] = ¸2 R1
-0 x2e¡¸xdx = ¸2[¡1
-¸x2e¡¸x]1
-0 + ¸2 R1
+\[\lambda^2 xe^{-\lambda}xdx = 1\]
+\item 
+\[E[x] = \lambda^2  \int^{\infty}_{0}
+0 x2e^{-\lambda}xdx = \lambda^2 [-1
+\lambda \;x2e^{-\lambda}x]1
+0 + \lambda^2  \int^{\infty}_{0}
 0
 1
-¸e¡¸x £ 2xdx
-= 0 + 2
-¸
-R1
-0 ¸2xe¡¸xdx = 2
-¸
+\lambda e^{-\lambda}x \times 2xdx\]
+\[= 0 + 2
+\lambda
+\int^{\infty}_{0}
+ \lambda^2 xe^{-\lambda}xdx = 2
+\lambda\]
 (b)
-E[x2] = ¸2 R1
-0 x3e¡¸xdx = ¸2[¡1
-¸x3e¡¸x]1
-0 + ¸2 R1
+\[E[x2] = \lambda^2  \int^{\infty}_{0}
+0 x3e^{-\lambda}xdx = \lambda^2 [-1
+\lambda \;x3e^{-\lambda}x]1
+0 + \lambda^2  \int^{\infty}_{0}
 0
-1
-¸e¡¸x £ 3x2dx
-= 0 + 3
+1\]
+\[\lambda e^{-\lambda}x \times 3x2dx
+= 0 + 3\]
 \[E[x] = 6
-¸2\]
+\lambda^2 \]
 Therefore
 \[v[x] =
 6
-¸2
-¡ (
+\lambda^2 
+- (
 2
-¸
+\lambda
 )2 =
 2
-¸2
+\lambda^2 
 7\]
-\item P(X > x) =
-R1
-x ¸2ue¡¸udu = [¡¸ue¸u]1x
-+
-R1
-x ¸e¡¸udu
-= ¸xe¡¸x + [¡e¡¸u]1x
-= e¡¸x(1 + ¸x):
-\item  ¸ = 0:01; x = 500 in(c) ; so P(x > 500) = e¡5(1 + 5) = 0:04043
-\item Assume X » N( 2
-¸; 2
-¸2 ) i:e: N(200; 20000)
-Now
+\item 
 \begin{eqnarray*}
-P(x > 500) &=& 1 ¡ Á( 500¡200
+P(X > x) &=&
+\int^{\infty}_{0}
+x \lambda^2 ue^{-\lambda}udu \\ &=& [-\lambda u e\lambda u]1x
++
+\int^{\infty}_{0}
+x \lambda e^{-\lambda}udu
+\\ &=& \lambda \;xe^{-\lambda}x + [-e^{-\lambda}u]1x
+\\ &=& e^{-\lambda}x(1 + \lambda \;x):
+\end{eqnarray*}
+\item  \lambda = 0:01; x = 500 in(c) ; so \[P(x > 500) = e-5(1 + 5) = 0:04043\]
+\item Assume X » N( 2
+\lambda; 2
+\lambda^2  ) i:e: N(200; 20000)
+Now
+
+\begin{eqnarray*}
+P(x > 500) &=& 1 - Á( 500-200
 100
 p2 ) \\
-&=& 1 ¡ Á(p3 2 )\\
-&=& 1 ¡ Á(2:1213) \\
-&=& 1 ¡ 0:9835 = 0:0165
+&=& 1 - Á(p3 2 )\\
+&=& 1 - Á(2:1213) \\
+&=& 1 - 0:9835 \\ &=& 0:0165
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%
-\item Using the correct distribution (which is positive skewed),with ¸ = 0:01 and x = 450;
+\item Using the correct distribution (which is positive skewed),with \lambda = 0:01 and x = 450;
 
 \begin{itemize}
-    \item P(twin) = e¡4:5(1 + 4:5) = 0:0611: 
+    \item P(twin) = e-4:5(1 + 4:5) = 0:0611: 
     \item The skewness raises the right-hand tail probability
 considerably
 \end{itemize}
