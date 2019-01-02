@@ -1,0 +1,64 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}Higher Certificate, Paper II, 2002.  Question 1 
+ 
+ 
+(i) If two independent sets of data are available from Normally distributed populations of measurements, with possibly different means µ 1, µ 2 but the same variance σ
+ 2, a two-sample t test is used.  It compares the sample means, 1 x and 2 x , based on 1 n and 2 n observations, against the null hypothesis µ 1 = µ 2. 
+ 
+The test statistic is 
+ () 12
+2
+12 11 xx
+s
+nn
+−  +   ,  to be referred to the 12 2nnt +− distribution, and where 
+ ()() 12 22 1 1 2 2 112
+12 2
+nn
+ij ij x x x x
+s
+nn == − + −
+=
++− ∑∑  is a "pooled" estimate of σ
+ 2. 
+ This is not valid when the data sets have been collected from the same units (and so are not independent).  In this case there will be pairs of data (x1i, x2i);  for example in a medical trial these could be blood pressures before and after a standard exercise programme, or levels of a chemical before and after treatment with a drug.  Each patient is now acting as his or her own "control" and systematic patient-to-patient variation is removed.  The measurement for analysis is di = x2i − x1i for each pair (i = 1, 2, … , n).  A one-sample test of " µ d = 0" is now appropriate, using tn−1.  This procedure is called a paired test. 
+ 
+ 
+(ii) A two-sample test is required, and since the chickens were all of similar age a common value of σ 2 may be assumed. 
+ 
+12 12nn ==. 
+ 1 160x =∑ ,   2 1 2196x =∑ ,   1 13.33 x = ,   2 1 5.6970s = . 
+ 2 184x =∑ ,   2 2 2870x =∑ ,   2 15.33 x = ,   2 2 4.4242s = . 
+ () 2 2 2 12 1 11 11 5.0606 22 s s s = + = . 
+ 
+The test statistic is 
+() 11 12 12 13.33 15.33 2.00 2.178 0.9185.0606 − =− =− +
+. 
+ 
+This is significant at the 5% level (the two-tailed 5% point of t22 is 2.074). 
+ 
+The null hypothesis µ 1 = µ 2 is rejected at the 5% level, and so there is evidence that the two food regimes differ in effect. 
