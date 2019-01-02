@@ -10,6 +10,7 @@
 \usepackage{subfigure}
 \usepackage{fancyhdr}
 \usepackage{listings}
+\usepackage{multicol}
 \usepackage{framed}
 \usepackage{graphicx}
 \usepackage{amsmath}
@@ -25,22 +26,34 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
 \begin{enumerate}
-\item  ( 2300) 1 ( 2300) 1 2300 2000
-300
-P S ≥ = − P S < = −\Phi − 
- 
-= 1− \Phi(1) = 1− 0.8413 = 0.1587 .
-( 2300) 1 2300 2500 1 ( 1.6)
-125
-P H ≥ = −\Phi −  = − \Phi −
- 
-= 1− 0.0548 = 0.9452 .
-\item  
+\item    
+\begin{multicols}{2}
+\begin{eqnarray*}
+P( S \geq 2300) &=& 1- P (S \leq 2300)\\
+&=& 1-\Phi(1)\\
+&=& 1- 0.8413 \\
+&=& 0.1587 \\
+\end{eqnarray*}
+\begin{framed}
+\noindent \textbf{Z Score for $S = 2300$}
+\[z_{2300}  = \frac{2300 - 2000}{ 300}  = \frac{300}{300} = 1\]
+\end{framed}
+\begin{eqnarray*}
+P( H \geq 2300) &=& 1- P (H \leq 2300)\\
+&=& 1-\Phi(-1.6)\\
+&=& \Phi(1.6) \\
+&=& 0.9452 \\
+\end{eqnarray*}
+\begin{framed}
+\noindent \textbf{Z Score for $H = 2300$}
+\[z_{2300}  = \frac{2300 - 2500}{125}  = -\frac{200}{125} = -1.6\]
+\end{framed}
+\end{multicols}
 
 
-X \sim N(2000,300^2)
+\item  $X \sim N(2000,300^2)$
 
-P(S \geq 2300) = 1- P(S \leq 2300)
+$P(S \geq 2300) = 1- P(S \leq 2300)$
 
 \begin{framed}
 \noindent \textbf{Z Score for $S = 2300$}
@@ -49,7 +62,7 @@ P(S \geq 2300) = 1- P(S \leq 2300)
 \end{framed}
 
 %-----------%
-$P(S >H) = P(S-H>0)$ where (S-H)  is N(-500, (300^2) + (125^2)
+$P(S >H) = P(S-H>0)$ where (S-H)  is $N(-500, (300^2) + (125^2)$
 
 \[P(S >H) = \Phi\left( \frac{-500}{325} \right) = \phi (-1.5385) = 0.0620\]
 
@@ -61,31 +74,36 @@ Hence \[E[X ] = 0.6×2000 + 0.4× 2500 = 2200 \mbox{hrs} .\]
 P( X > 2600) &=& P(X > 2600 | S)P(S ) + P( X > 2600 | H )P(H )\\
  &=& 600 0.6 100 0.4
 300 125\\
-&=& \Phi − × + \Phi − ×    \\
-&=& 0.6 \Phi(−2) + 0.4 \Phi(−0.8) = 0.6×0.02275 + 0.4×0.2119\\
-&=& 0.01365 + 0.08476 \\ 
-&=& 0.09841.
-\end{eqnaray*}
-   
+\end{eqnarray*}
+
+
+\begin{framed}
+\noindent \textbf{Z Score for $H = 2300$}
+\[z_{2300}  = \frac{2300 - 2500}{125}  = -\frac{200}{125} = -1.6\]
+\end{framed}
+
+\begin{eqnarray*} 
+P(X \geq 2600) &=& \left(0.6 \times \Phi(-2)\right) + \left(0.4 \times \Phi(-0.8)\right)\\
+&=& \left(0.6 \times 0.02275) + \left(0.4 \times 0.2119\right)\\
+ &=& 0.01365 + 0.08476 \\ 
+ &=& 0.09841.
+\end{eqnarray*}
+
 (using the appropriate tail areas from Normal tables)
 
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% HC3 2001 Q3
-% Normal
 
 
 
 \begin{eqnarray*}
 P(X > 2600) &=& P(X \geq 2600|S)P(S) + P(X > 2600|H)P(H) \\
- &=& \Phi \left( - frac{600}{300}\right) + \Phi \left( - frac{600}{300}\right) \\
+ &=& \Phi \left( - \frac{600}{300}\right) + \Phi \left( - \frac{600}{300}\right) \\
  &=& 0.01363 + 0.08476 \\
  &=& 0.09841 \\
 \end{eqnarray*}
 
+   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 (ii) ( ) ( ) ( )
 ( )
@@ -98,13 +116,27 @@ P X
 > = = =
 >
 .
+
 \item X will have mean 2200. It is not Normally distributed but we way
 apply the Central Limit Theorem if we know its variance. In large samples we
-may take X as approximately N(2200, 346.82), so that
-( 2300) 1 2300 2200 1 100
-346.8/ 100 34.68
-P X > = −\Phi −  = −\Phi     
-= \Phi(−2.8835) = 0.002 .
+may take X as approximately N(2200, 346.82), so that $P(\bar{X}\geq 2300)$ = 
+  
+\[\bar{X} \sim n(\mu = 2200, \sigma^2 = (346.8)^2\]
+               
+ \[Z_{2300}  =   \frac{2300-2200}{       \left(\frac{346.8}{\sqrt{100}} \right)} = 2.8835\]
+
+
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{eqnarray*} 
+P(\bar{X}\geq 2300) &=& 1- \Phi(2.8835)\\  &=& 1- 0.9980 \\&=& 0.02
+\end{eqnarray*}
+
 \end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+
+                                              
 
 \end{document}
