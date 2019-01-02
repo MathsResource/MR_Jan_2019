@@ -25,10 +25,15 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
 Higher Certificate, Paper I, 2001. Question 4
-An easy method is to consider X as ΣXi , where Xi are a set of n Bernoulli variables
-with ( 1) , ( 0) (1 ). i i P X = = p P X = = − p Then E[ ] , so [ ] i X = p E X = np .
-Also E 2 , so Var ( ) 2 and Var ( ) ( 2 ) . i i X  = p X = p − p X = n p − p = npq
-ALTERNATIVELY: [ ] ( ) ( ) 0 1
+\begin{enumerate}
+\item An easy method is to consider X as ΣXi , where Xi are a set of n Bernoulli variables
+with ( 1) , ( 0) (1 ). i i P X = = p P X = = − p
+\begin{itemize}
+\item Then E[ ] , so [ ] i X = p E X = np .
+\item Also E 2 , so Var ( ) 2 and Var ( ) ( 2 ) . i i X  = p X = p − p X = n p − p = npq
+\item ALTERNATIVELY: [ ] ( ) ( ) 0 1
+
+\end{itemize}
 !
 1 ! !
 n n x n x
@@ -89,31 +94,57 @@ x
  − 
 = −   = −  − 
 Σ ,
-and hence Var (X) = n(n −1) p2 + np − n2 p2 = np − np2 = npq .
+and hence 
+\begin{eqnarray*}
+Var (X) &=& n(n −1) p2 + np − n2 p2 \\
+&=& np − np2\\ 
+&=& np(1-p) \\
+&=& npq \\
+\end{eqnarray*}
 PGFs or MGFs could also be used.
-(i) (a) 0.7516 ≈ 0.0100226 = 0.0100 approx.
-(b) 1 − P(no one gets all 16 right), probability is { }1− 1− 0.7516 12
+\item  $0.75^{16} \approx 0.0100226 = 0.0100$ approx.
+\item 1 − P(no one gets all 16 right), probability is { }1− 1− 0.7516 12
 = 1 − {0.9899774}12 = 0.1139.
-(ii) P(B − A > 0) can be studied using a Normal approximation to the difference
+\item $P(B − A > 0)$ can be studied using a Normal approximation to the difference
 B − A, i.e. N(16{0.5 − 0.75}, 16{(0.5×0.5) + (0.75×0.25)}), i.e. N(−4,7) .
-The probability is found as 1
+\begin{itemize}
+    \item The probability is found as 1
 2
 P B − A > 
  
 using a continuity correction since B − A
 takes discrete values.
-Hence it is ( ) ( ) 0.5 4 1 4.5 1.7008 0.0445
+\item Hence it is ( ) ( ) 0.5 4 1 4.5 1.7008 0.0445
 7 7
  − −    −Φ  = Φ −  = Φ − ≈
    
 .
-[Note: this would be 0.0653 without the continuity correction.]
-(iii) E X  = E[X ] = np =16×0.75 =12 in set A .
-Similarly, E Y  =16×0.5 = 8 in set B.
-There are 12 students in A and 25 in B, so that
-Var ( ) 16 0.75 0.25 1
+\item Note: this would be 0.0653 without the continuity correction.
+\end{itemize}
+
+\item 
+\begin{eqnarray*}
+E X  &=& E[X ] \\
+&=& np \\
+&=& 16\times 0.75 \\
+&=& 12 
+\end{eqnarray*}
+
+in set A .
+
+\begin{itemize}
+\item Similarly, E Y  =16×0.5 = 8 i$n$set B.
+\item There are 12 students in A and 25 in B, so that
+\item $Var (X)  = 16 \times 0.75 \times 0.25 = 3$
+\end{itemize}
+
+ 1
 12 4
 X = × × = in set A
+
 Var ( ) 16 0.5 0.5 4
 25 25
 Y = × × = in set B.
+
+\end{enumerate}
+\end{document}
