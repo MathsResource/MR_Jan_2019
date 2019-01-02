@@ -7,25 +7,15 @@
 \usepackage{vmargin}
 
 \usepackage{amsmath}
-
 \usepackage{graphics}
-
 \usepackage{epsfig}
-
 \usepackage{enumerate}
-
 \usepackage{multicol}
-
 \usepackage{subfigure}
-
 \usepackage{fancyhdr}
-
 \usepackage{listings}
-
 \usepackage{framed}
-
 \usepackage{graphicx}
-
 \usepackage{amsmath}
 
 \usepackage{chngpage}
@@ -53,13 +43,28 @@
 %-Higher Certificate, Paper I, 2004. Question 1
 \begin{enumerate}
 
-\item (a) P(all four favour the complex) = (0.6)4.
-\[P(all four oppose the complex) = (0.3)^4.\]
-\[P(all four are indifferent) = (0.1)4.\]
-So P(all four think alike) = (0.6)4 + (0.3)4 + (0.1)4 = 0.1378.
-(b) P(an individual is not opposed) = 0.6 + 0.1 = 0.7.
-So $P(\mbox{none of the four is opposed}) = (0.7)^4 = 0.2401$.
-(c) Possible favourable results are FFOI, FOOI, FOII, in any order.
+\item (a)
+\[P(\mbox{all four favour the complex}) = (0.6)^4.\]
+\[P(\mbox{all four oppose the complex}) = (0.3)^4.\]
+\[P(\mbox{all four are indifferent}) = (0.1)4.\]
+So 
+
+\begin{eqnarray*}
+P(\mbox{all four think alike}) 
+&=& (0.6)^4 + (0.3)^4 + (0.1)^4 \\ &=& 0.1378.
+\end{eqnarray*}
+
+
+\item  P(an individual is not opposed) = 0.6 + 0.1 = 0.7.
+So 
+
+\begin{eqnarray*}
+P(\mbox{none of the four is opposed}) &=& (0.7)^4\\ &=& 0.2401
+\end{eqnarray*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\item  Possible favourable results are FFOI, FOOI, FOII, in any order.
 \begin{itemize}
 \item $P(FFOI) = (0.6)^2(0.3)(0.1) = 0.0108$
 \item $P(FOOI) = (0.6)(0.3)^2(0.1) = 0.0054$
@@ -72,7 +77,7 @@ Each result can be arranged in 4!
 
 So overall probability is 12(0.0108 + 0.0054 + 0.0018) = 0.216.
 \item \begin{itemize}
-    \item From (a), P(all four in favour) = (0.6)4 = 0.1296.
+    \item From (a), P(all four in favour) = (0.6)^4 = 0.1296.
     \item From (b), P(none
 opposed) = 0.2401. 
 \item So the required conditional probability is
@@ -81,16 +86,19 @@ opposed) = 0.2401.
 \item The number in favour is binomially distributed with n = 4 and p = 0.6. 
 \begin{itemize}
     \item So the
-expectation (mean) is 4 × 0.6 = 2.4 
-\item the variance is 4 × 0.6 × 0.4 = 0.96.
+expectation (mean) is $4 \times 0.6 = 2.4$ 
+\item the variance is $4 \times 0.6 \times 0.4 = 0.96$.
 \end{itemize}
 \item P(opposed) = P(opposedyoung)P(young) + P(opposedolder)P(older)
 = (0.12 × 0.25) + (p × 0.75)
 where p = P(opposedolder). But we are given that P(opposed) = 0.3. Hence
 p = 0.36.
 \item In samples of one "young" and three "olders",
-P(exactly one opposes) = P("young" opposes, "olders" do not)
-+ P("young" does not oppose, one "older" opposes)
-\[= {(0.12)(0.64)3} + {3(0.88)(0.36)(0.64)2}\] \[= 0.03146 + 0.38928\] \[= 0.4207.\]
+\begin{eqnarray*}
+P(exactly one opposes) &=& P("young" opposes, "olders" do not)
+ + P("young" does not oppose, one "older" opposes)\\
+&=& {(0.12)(0.64)3} + {3(0.88)(0.36)(0.64)2}\\ &=& 0.03146 + 0.38928\\
+&=& 0.4207.
+\end{eqnarray*}
 \end{enumerate}
 \end{document}
