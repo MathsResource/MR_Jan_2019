@@ -34,7 +34,7 @@
 Higher Certificate, Paper I, 2004. Question 5
 
 \begin{enumerate}
-\item  f (t ) =λ e−λ t , t > 0; λ > 0
+\item  \[f (t ) =\lambda e^{-\lambda t}  , t > 0; \lambda > 0\]
 (a) Sketch of f (t).
 [NOTE. The curve should of course appear as a smooth decaying exponential;
 it might not do so, due to the limits of electronic reproduction.]
@@ -42,20 +42,35 @@ it might not do so, due to the limits of electronic reproduction.]
 0
 1 1
 t
+
+The cumulative distribution function is given by 
+\[ {\displaystyle F(x;\lambda )={\begin{cases}1-e^{-\lambda x}&x\geq 0,\\0&x<0.\end{cases}}} \]
+
+
 F t P T t tλ e λ vdv λ e λ v e λ t
 λ
-= ≤ = − = − −  = − −   ∫ .
-(c) P(a < T ≤ b) = F (b) − F (a) = e−λ a − eλ b .
+= ≤ = - = - -  = - -   ∫ .
+
+\item 
+\begin{eqnarray*}
+P(a < T \leq b) &=& F (b) - F (a) \\ 
+&=& e^{-\lambda a}  - e^{-\lambda b} 
+\end{eqnarray*}
+%%%%%%%%%%%%%%%%%%%%%%%%5
 \item Assume all settlements of invoices are independent.
-P(50 in first week) = { ( )} ( )50 50 F 1 = 1− e−λ , because $T \leq 1$ for all these 50.
+\begin{eqnarray*}
+[P(50 in first week) &=& F{ (1)}^{50}  \\
+&=& \left(1- e^{-\lambda}\right)^{50}  ,
+\end{eqnarray*} 
+because $T \leq 1$ for all these 50.
 
 \begin{itemize}
-\item Likewise, 1 < T ≤ 2 for the 35 in the second week, so we have P(35 in second week) =
-{ ( ) ( )}35 F 2 − F 1 = ( )e−λ − e−2λ 35 .
-\item The remaining 15 have T > 2, which has probability $1 – P(T \leq 2) = e^{−2\lambda}$ , and thus
-P(15 after week 2) = ( )e−2λ 15 .
+\item Likewise, $1 < T \leq 2$ for the 35 in the second week, so we have P(35 in second week) =
+\[{ ( ) ( )}35 F 2 - F 1 = ( )e^{-\lambda} - e^{-2\lambda} 35 .\]
+\item The remaining 15 have T > 2, which has probability $1 – P(T \leq 2) = e^{-2\lambda}$ , and thus
+\[P(\mbox{15 after week 2}) = ( e^{-2\lambda})^{15}\] .
 \item The likelihood is therefore the product
-( ) ( ) ( ) ( ) L λ = k 1− e−λ 50 e−λ − e−2λ 35 e−2λ 15
+\[ L(\lambda) = k (1- e^{-\lambda} )^{50} (e^{-\lambda} - (e^{-2\lambda})^{35} (e^{-2\lambda})^{15}\]
 where k is a constant of proportionality.
 \end{itemize}
 
@@ -63,19 +78,19 @@ f (t)
 t
 Taking logarithms (base e),
 
-log L(λ ) = log k + 50log(1− e−λ )+ 35log{e−λ (1− e−λ )}+15log (e−2λ )
-= log k +85log (1− e−λ )− (35 + 30)λ = log k + 85log (1− e−λ )− 65λ .
+log L(λ ) = log k + 50log(1- e^{-\lambda} )+ 35log{e^{-\lambda} (1- e^{-\lambda} )}+15log (e^{-2\lambda} )
+= log k +85log (1- e^{-\lambda} )- (35 + 30)λ = log k + 85log (1- e^{-\lambda} )- 65λ .
 log 85 65 85 65
 1 1
 d L e
 d e e
 λ
 λ λ λ
-−
-− ∴ = − = −
-− −
+-
+- ∴ = - = -
+- -
 .
-Equating to zero, 85 = 65(eλ −1) or eλ =150 / 65, so that λˆ = log (150 / 65) = 0.836 .
+Equating to zero, 85 = 65(eλ -1) or eλ =150 / 65, so that λˆ = log (150 / 65) = 0.836 .
 [It is easy to check that this is indeed a maximum; e.g. ( )
 2
 2 2
@@ -83,10 +98,10 @@ log 85 0
 1
 d L
 dλ eλ
-= − <
-−
+= - <
+-
 .]
-\item  \[1− e−0.836 = 0.5666; e−0.836 − e−1.672 = 0.43344 − 0.18787 = 0.2456 . \]
+\item  \[1- e-0.836 = 0.5666; e-0.836 - e-1.672 = 0.43344 - 0.18787 = 0.2456 . \]
 
 \begin{itemize}
 \item Hence, out
