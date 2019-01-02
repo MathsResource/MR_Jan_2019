@@ -26,53 +26,67 @@
 \begin{document}
 
 % Higher Certificate, Paper I, 2001. Question 1
-\begin{enumerate}
-\item A and B are independent. So P(A\cap B) = P(A)P(B) .
+
+
+
+\begin{itemize}
+\item[(a)] A and B are independent. So $P(A\cap B) = P(A)P(B)$ .
 ( ) 1 ( ) 1 ; ( ) 1 ; so ( ) 1
 3 2 6
-P A = − P A = P B = P A\cap B = .
-\item  \[A\cap B = [(A\cap B)\cap C]\cup[(A\cap B)\cap C],\]
-with the two events [(A\cap B)\cap C] and [(A\cap B)\cap C] being disjoint .
+\begin{itemize}
+    \item $P A = − P A = $
+    \item $P B = $
+    \item $P A\cap B = .$
+\end{itemize}
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{itemize}
+\item[(b)] \[A\cap B = [(A\cap B)\cap C]\cup[(A\cap B)\cap C],\]
+with the two events $[(A\cap B)\cap C]$ and $[(A\cap B)\cap C]$ being disjoint .
 Hence ( ) ( ) ( ) 1 1 1
 6 10 15
 \[P A\cap B \cap C = P A\cap B − P A\cap B \cap C = − = .\]
 \item  \[B\cap C = (A\cap B\cap C)\cup(A\cap B\cap C) \], these being disjoint.
 \begin{itemize}
     \item Further, \[(A\cap B \cap C)\cup(A\cap B \cap C) = (A\cap B) .\]
-\item Hence \[P(B \cap C) = P(A\cap B \cap C) + P(A\cap B) − P(A\cap B \cap C)\]
-1 1 1 ( ) ( )
-4 3 2
-\[= +  ×  − P A\cap C − P A\cap B \cap C   \]
+\item Hence \[P(B \cap C) = P(A\cap B \cap C) + P(\bar{A} \cap B) − P(\bar{A} \cap \bar{B} \cap \bar{C})\]
+\[P(B \cap C) =  \frac{1}{4}+ \left( \frac{1}{3} \times \frac{1}{2} \right) ×
+ − P A\cap C − P A\cap B \cap C   \]
 since A,B are independent.
+\end{itemize}
+
+
+
+
+
 \item But A, C are also independent and so are A,C .
 \end{itemize}
 
 Therefore ( ) 1 1 1 2 1 5 1 63
 4 6 3 5 15 12 15 12 15
-\[P B\cap C = + −  ×  + = − =   ×\]
-7
-20
-= .
-\item ( | ) ( ) 7 / 20 7
-( ) 3/5 12
-P B C P B C
-P C
-= \cap = = .
-\item  ( | ) ( ) 1/ 4 5
-( ) 7 / 20 7
-P A B C P A B C
-P B C
-\cap = \cap \cap = =
-\cap
-.
-\item 
-1
-( | ) ( ) 4 5 ( ) 2 3 8
-3 5
-P A B A C P A B C
-P A C
-\cap \cap = \cap \cap = =
-\cap ×
+\begin{eqnarray*}
+P P( B \cap C)  &=& \frac{1}{4} +\frac{1}{6} -\left( \frac{1}{3} \times \frac{2}{5} \right) + \frac{1}{15} \\
+ &=& \frac{3}{12} +\frac{2}{12} -\left(  \frac{2}{15} \right) + \frac{1}{15}
+ \\
+ &=& \frac{5}{12} -\frac{1}{15}\\
+ &=& \frac{25}{60} -\frac{4}{60}\\
+  &=& \frac{21}{60} = \frac{7}{20}\\
+\end{eqnarray*}
+
+\item Compute $P (B | C)$
+
+\[
+P (B | C) = \frac{P( B \cap C)}{P (C)} = \frac{7/20}{3/5} = \frac{7/20}{12/20} = \frac{7}{12}\]
+
+\item Compute $P (A | B  \cap C)$ 
+\[
+P (A | B  \cap C) = \frac{P( A \cap B \cap C)}{P (B \cap C)} = \frac{1/4}{7/20} = \frac{20}{28} = \frac{5}{7}\]
+
+\item Compute $P (A \cap B | A \cap C)$ 
+\[
+P (A \cap B | A \cap C) = \frac{P( A \cap B \cap C)}{P (A \cap C)} = \frac{1/4}{2/3 \times 3/5} = \frac{1/4}{6/15} = \frac{15}{24} = \frac{5}{8}\]
 (A, C are independent).
 \end{enumerate}
 \end{document}
