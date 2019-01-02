@@ -1,33 +1,20 @@
 \documentclass[a4paper,12pt]{article}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage{eurosym}
-
 \usepackage{vmargin}
-
 \usepackage{amsmath}
-
 \usepackage{graphics}
-
 \usepackage{epsfig}
-
 \usepackage{enumerate}
-
 \usepackage{multicol}
-
 \usepackage{subfigure}
-
 \usepackage{fancyhdr}
-
 \usepackage{listings}
-
 \usepackage{framed}
-
 \usepackage{graphicx}
-
 \usepackage{amsmath}
-
 \usepackage{chngpage}
 
 %\usepackage{bigints}
@@ -44,11 +31,11 @@
 
 \renewcommand{\baselinestretch}{1.3}
 
-
-
 \setcounter{MaxMatrixCols}{10}
 
-\begin{document}Higher Certificate, Paper I, 2004. Question 2
+\begin{document}
+
+Higher Certificate, Paper I, 2004. Question 2
 
 
 The moment-generating function of a random variable X is 
@@ -124,32 +111,26 @@ $np > 10$, a Normal approximation to the binomial may be better.)
 
 %%%%%%%%%%%%%%%%%%%%%%
 \item  Let X = number of wrong calculations. We have $X \sim B(200, 0.0075)$.
-( ) ( )( )199 199 200
-1 0.0075 0.9925 200 0.0075 0.9925 0.3353(2)
-1
-P X
- 
-= =   = × × =
- 
-.
-( ) ( )( ) 200 4 196
-4 0.0075 0.9925
-4
-P X
- 
-= = 
- 
-200 199 198 197 0.00754 0.9925196 0.0468(0)
-4 3 2 1
-= × × × × × =
-× × ×
-.
+
+\begin{eqnarray*}
+P(X=1) &=& { 200 \choose 1}(0.0075)^1(0.9925)^{199} \\
+&=&  200 \times  0.0075^4 0.9925^{196}\\
+&=& 0.3353\\
+\end{eqnarray*}
+
+\begin{eqnarray*}
+P(X=4) &=& { 200 \choose 4}(0.0075)^4(0.9925)^{196} \\
+&=&  
+\frac{200 199 198 197}{4 3 2 1} 0.00754 0.9925196\\
+&=& 0.0468\\
+\end{eqnarray*}
 %%%%%%%%%
 \item  We approximate using $X \sim Poisson(200 × 0.0075 = 1.5)$. With this,
 \[P( X =1) =1.5e^{−1.5} = 0.3347(0)\]
-giving a percentage error of 100(0.33532 0.33470)
-0.18%
-0.33532
+giving a percentage error of 
+
+\[\frac{100(0.33532 - 0.33470)}{0.33532} = 0.18\%\]
+
 −
 = , and
 ( ) ( ) ( )
@@ -160,11 +141,9 @@ e
 P X
 −
 = = =
-giving a percentage error of 100(0.04707 0.04680)
-0.58%
-0.04680
-−
-= .
+giving a percentage error of 
+\[\frac{100(0.04707  - 0.04680)}{0.04680} = 0.58\%\]
+
 [Note. These percentage errors might come out slightly differently if more
 accuracy is kept in the binomial and Poisson probabilities.]
 \begin{itemize}
