@@ -51,18 +51,21 @@ P B P B A P A
 .
 \item It is useful in inference about an Ai which cannot be observed directly but is related to
 an observable event B.
-\[P(011100|A) = P(5 right, 1 wrong) = p(1− p)5 .\]
-\[P(011100|R) = P(3 right, 3 wrong) = ( )p3 1− p 3 .\]
-\[P(011100|S) = P(2 right, 4 wrong) = ( )p4 1− p 2 .\]
+\[P(011100|A) = P(\mbox{5 right, 1 wrong}) = p(1− p)5 .\]
+\[P(011100|R) = P(\mbox{3 right, 3 wrong}) = ( )p3 1− p 3 .\]
+\[P(011100|S) = P(\mbox{2 right, 4 wrong}) = ( )p4 1− p 2 .\]
 This assumes all errors are independent.
-\item Given that P(A) = 0.1, P(R) = 0.4, P(S) = 0.5, we have P(A|011100) = ( )
+\item Given that P(A) = 0.1, P(R) = 0.4, P(S) = 0.5, we have 
+\[P(A|011100) = ( )
 ( )
 5 0.1 p 1 p
 P B
 × −
-,
+,\]
 where ( ) ( ) ( ) ( ) P B = 0.1p 1− p 5 + 0.4 p3 1− p 3 + 0.5 p4 1− p 2 .
-So P(A|011100) = ( )
+So
+\begin{eqnarray*}
+P(A|011100) &=& ( )
 ( ( ) ( ) ( ) )
 5
 5 3 3 4 2
@@ -72,7 +75,7 @@ p p
 p p p p p p
 −
 − + − + −
-= ( )
+\\ &=&  ( )
 ( ) ( )
 3
 3 2 3
@@ -82,8 +85,11 @@ p
 p p p p
 −
 − + − +
-.
-\item Similarly, P(R|011100) = ( )
+\end{eqnarray*}
+\item Similarly, 
+
+\begin{eqnarray*}
+P(R|011100) &=& ( )
 ( ( ) ( ) ( ) )
 3 3
 5 3 3 4 2
@@ -93,7 +99,7 @@ p p
 p p p p p p
 −
 − + − + −
-= ( )
+\\ &=& ( )
 ( ) ( )
 2
 3 2 3
@@ -103,8 +109,12 @@ p p
 p p p p
 −
 − + − +
-.
-\item Also, P(S|011100) = ( )
+.\\
+\end{eqnarray*}
+\item Also, 
+
+\begin{eqnarray*}
+P(S|011100) &=& ( )
 ( ( ) ( ) ( ) )
 4 2
 5 3 3 4 2
@@ -114,7 +124,7 @@ p p
 p p p p p p
 −
 − + − + −
-=
+\\&=&
 ( ) ( )
 3
 3 2 3
@@ -122,17 +132,18 @@ p p p p p p
 1 4 1 5
 p
 − p + p − p + p
-.
+\end{eqnarray*}
 Continued on next page
 As p → 0, P(A|011100) → 1, while the others do not.
-\item In general, P(A|011100) > P(R|011100) if (1− p)3 > 4 p2 (1− p) , or ( )1− p 2 > 4 p2 ,
+\item In general, P(A|011100) > P(R|011100) if \[(1− p)3 > 4 p2 (1− p) \], or 
+\[( )1− p 2 > 4 p2\] ,
 which requires 1− p > 2 p , i.e. 1 > 3p or 1
 3 p < .
-\item Likewise P(A|011100) > P(S|011100) if ( )1− p 3 > 5p3 , or (1− p) > p 3 5 , which
+\item Likewise $P(A|011100) > P(S|011100)$ if ( )1− p 3 > 5p3 , or (1− p) > p 3 5 , which
 requires 1 > p(1+ 51/3 ) = 2.71p , or 1
 2.71
 p < .
 \item When $p \leq 0.1$, both these conditions are satisfied so choose A.
-\item The probabilities are in the ratio A:R:S ≡ 0.729 : 0.036 : 0.005.
+\item The probabilities are in the ratio $A:R:S \equiv≡ 0.729 : 0.036 : 0.005.$
 \end{itemize}
 \end{document}
