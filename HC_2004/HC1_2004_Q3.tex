@@ -1,35 +1,21 @@
 \documentclass[a4paper,12pt]{article}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage{eurosym}
-
 \usepackage{vmargin}
-
 \usepackage{amsmath}
-
 \usepackage{graphics}
-
 \usepackage{epsfig}
-
 \usepackage{enumerate}
-
 \usepackage{multicol}
-
 \usepackage{subfigure}
-
 \usepackage{fancyhdr}
-
 \usepackage{listings}
-
 \usepackage{framed}
-
 \usepackage{graphicx}
-
 \usepackage{amsmath}
-
 \usepackage{chngpage}
-
 %\usepackage{bigints}
 
 
@@ -49,21 +35,32 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}Higher Certificate, Paper I, 2004. Question 3
-Actual volume X ~ N(1010, 82). Let Z ~ N(0,1).
+Actual volume $X \sim N(1010, 82)$. Let $Z \sim N(0,1)$.
 \begin{enumerate}
-\item  ( 1000) 1000 1010 ( 1.25) 0.1056
-8
-P X < = P Z < −  = P Z < − =
- 
-.
+\item 
+
+\begin{eqnarray*}
+P(X <  1000) &=& P(Z \leq -1.25) \\
+&=& 0.1056\\
+\end{eqnarray*}
+\begin{framed}
+\noindent \textbf{Z-score}\\
+z_{1000} = \frac{1000-1010}{8} = -1.25
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item  Let Y be the total volume in a 6-pack.
-We have Y ~ N(6 × 1010, 64 + 64 + 64 + 64 + 64 + 64), i.e. Y ~ N(6060, 384).
-( 6000) 6000 6060 ( 3.06) 0.0011
-384
-P Y P Z −  P Z < =  <  = < − =
- 
-.
-(Alternatively, could use X ~ N(1010, 64/6) and calculate P(X <1000).)
+We have $Y \sim N(6 × 1010, 64 + 64 + 64 + 64 + 64 + 64)$, i.e. $Y \sim N(6060, 384)$.
+
+\begin{eqnarray*}
+P(Y <  6000) &=& P(Z \leq -3.06) \\
+&=& 0.0011\\
+\end{eqnarray*}
+\begin{framed}
+\noindent \textbf{Z-score}\\
+z_{6000} = \frac{6000-6060}{\sqrt{264} } = -3.06
+\end{framed} 
+
+(Alternatively, could use $X \sim N(1010, 64/6)$ and calculate P(X <1000).)
 \begin{itemize}
     \item This probability is considerably smaller than that in part (i).
     \item In practical terms, this is
@@ -74,12 +71,12 @@ X has the same mean as X but only one-sixth of the variance, so less of the lowe
 of the distribution of X is below the nominal volume of 1000.
 \end{itemize}
 
-\item The new volume W ~ N(μ, 42), where μ is the new mean. So we have that
+\item The new volume $W \sim N(\mu, 42)$, where $\mu$ is the new mean. So we have that
 ( 1000) 1000
 4
 P W < = P Z < −μ 
  
-. 
+\[P(W <  1000) &=& P(Z \leq \frac{1000-\mu}{4} ) \] 
 
 \begin{itemize}
 \item 
@@ -94,9 +91,9 @@ than 0.1056.
 5
 1000
 × £1. 
-\item To recover the £200, the number of cartons required is 200
-5/1000
-= 40000.
+\item To recover the £200, the number of cartons required is 
+\[ \frac{200}{5/1000} = 
+= 40000.\]
 \end{itemize}
 
 \end{enumerate}
