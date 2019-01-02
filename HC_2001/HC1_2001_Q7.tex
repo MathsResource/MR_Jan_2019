@@ -24,8 +24,9 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
-Higher Certificate, Paper I, 2001. Question 7
-(a) P( Xi ≤ x) = F (x) for i = 1, 2, ..., n .
+%- Higher Certificate, Paper I, 2001. Question 7
+\begin{enumerate}
+\item P( Xi \leq  x) = F (x) for i = 1, 2, ..., n .
 (i) ( ) ( ) ( ) max 1 2
 1
 , , ...,
@@ -34,24 +35,35 @@ X n i
 i
 F x P X x X x X x P X x
 =
-= ≤ ≤ ≤ =Π ≤
+  = \leq  \leq  \leq  =Π \leq 
 ( ) n = F x 
-(ii) For min X ≥ x , we require every i X to be ≥ x .
-Now, ( ) ( ), so ( ) 1 ( ), for all . i i P X ≤ x = F x P X ≥ x = − F x i
-( ) ( ) ( ) ( ) min min min 1 1 1 ,..., X n ∴F x = P X ≤ x = − P X ≥ x = − P X ≥ x X ≥ x
-1 1 ( ) n = −  − F x 
-(iii) Pdfs are derivatives of cdfs:
-( ) ( ) max
-n 1
-X f n F x f x − =  
-( ) ( ) ( ) ( ) min
-1 1 , since . n
-X
-F x
-f n F x f x f x
-x
-− ∂
-=  −  = ∂
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  For $X_{min} X \geq  x$ , we require every $X_i$ to be $\geq  x$ for all $i$.
+Now, ( ) ( ), so ( ) 1 ( ),  i P X \leq  x = F x P X \geq  x = - F x i
+( ) ( ) ( ) ( ) X_{min}  X_{min} 1 1 1 ,..., X n 
+
+
+\begin{eqnarray*}
+[F_{X_{min}} &=& P X( \leq  x ) \\
+  &=&  1 - P( X \geq  x ) \\
+  &=&  1- P(X_1 \geq  x,X_1 \geq  x,\ldots  X_n \geq  x)\\
+  &=&  1- \left[ 1- F(X) \right]^{n}x 
+\end{eqnarray*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item Pdfs are derivatives of cdfs:
+
+\begin{equation*}
+f_{X_{min}}= n \left[ F(X) \right]^{n-1}f(x)
+\end{equation}
+\begin{equation*}
+f_{X_{min}}= n \left[ 1- F(X) \right]^{n-1}f(x)
+\end{equation}
+
+since $\frac{\partial F(X)}{\partial x } = f(x)\]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 (b)
 0
 0
@@ -74,42 +86,46 @@ x
 1 1 1
 x
 x F x du
-u u x α α α
-α
+u u x \alpha \alpha \alpha
+\alpha
 +
- 
-= = −  = −
+   
+= = -  = -
 +  +  +
-∫
+  ∫
 Median M is such that ( ) 1
 2
 F M = . So we have
-( ) ( )
-1 1 1 or 1 1 or 2 (1 ) or 2(1/ ) 1
-1 2 1 2
-M M
-M M
-α α
-α α − = = = + = −
-+ +
-.
-( ) ( ) min
+%( ) ( )
+%1 1 1 or 1 1 or 2 (1 ) or 2(1/ ) 1
+%1 2 1 2
+%M M
+%M M
+%\alpha \alpha
+%\alpha \alpha - = = = + = -
+%+ +
+  .
+( ) ( ) X_{min}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Using (a)(ii), 1 1 1 1
 1 1
 n
 X n F
-x x α α
+x x \alpha \alpha
  
-= −   = −
+= -   = -
  +  +  
-, also Pareto but with α replaced
-by nα.
-The median of Xmin is then
+, also Pareto but with \alpha replaced
+by $n\alpha$.
+The median of $X_{min}$ is then
 1
-2nα −1, which is 21/ n −1 if α =1. We require
-21/ n −1< 0.1 or 21/ n <1.1, i.e. 1 ln 2 ln1.1
+2n\alpha -1, which is 21/ n -1 if \alpha =1. We require
+21/ n -1< 0.1 or 21/ n <1.1, i.e. 1 ln 2 ln1.1
 n
 < , giving ln 2 0.6931 7.27
 ln1.1 0.0953
 n> = = .
-Hence n ≥ 8.
+Hence $n \geq  8$.
+
+\end{enumerate}
+\end{document}
