@@ -32,11 +32,14 @@
 
 \begin{document}
 Higher Certificate, Paper I, 2004. Question 6
-\begin{enumerate}
+
 ( ) 1, 1; 0 k
 f x k x k
 x + = ≥ >
-(i) Sketch of f (x).
+
+\begin{enumerate}
+
+\item  Sketch of f (x).
 [NOTE. The curve should of course appear as a smooth curve; it might not do so,
 due to the limits of electronic reproduction.]
 C.d.f. is ( ) ( ) 1 1
@@ -68,42 +71,24 @@ k      −   
 .
 \end{itemize}
 
+\begin{eqnarray*}
+E(X) &=& \int^{\infty}_{1} x f(x) dx\\
+% &=& \int^{\infty}_{1} x \frac{k}{x^2}f(x) dx\\
+&=& \int^{\infty}_{1} x \frac{k}{x^{k+1}}f(x) dx\\
+&=& \int^{\infty}_{1}  \frac{k}{x^{k}}f(x) dx\\
+&=& \left[ \frac{-k}{(k-1)x^{k-1}} \right]^{\infty}_{1}\\
+&=& \frac{k}{k-1}
+\end{eqnarray*}
 
-f (x)
-1 x
-(iii) ( ) 1 ( ) 1 ( ) 1
-1 k 1 k 1
-E X x f x dx k dx k k
-x k x k
-∞
-∞ ∞
-−
- −  = = =   =  −  −
-∫ ∫ .
-( ) ( ) ( )
-2 2
-1 1 1 2
-1 k 2 k 2
-E X x f x dx k dx k k
-x k x k
-∞
-∞ ∞
-− −
- −  = = =   =  −  −
-∫ ∫ .
-( ) ( ) { ( )} ( )
-2
-2 2
-2 Var
-2 1
-X E X E X k k
-k k
-∴ = − = −
-− −
-( )( )
-{( ) ( )} ( )( )
-2
-2 2 1 2
+\begin{eqnarray*}
+E(X^2) 
+&=& \int^{\infty}_{1} x^2 f(x) dx\\
+&=& \int^{\infty}_{1} x^2 \frac{k}{x^{k+1}}f(x) dx\\
+&=& \int^{\infty}_{1}  \frac{k}{x^{k-1}}f(x) dx\\
+&=& \left[ \frac{-k}{(k-2)x^{k-2} } \right]^{\infty}_{1}\\
+&=& \frac{k}{k-2}
+\end{eqnarray*}
+\[
 2 1 1 2
 k k k k k
 k k k k
@@ -121,7 +106,8 @@ x x k
 ∞
 − +
 −
-> = = −  =  −          ∫ , or this can be written down
+> = = −  =  −     
+     ∫ , or this can be written down
 directly from the c.d.f. found in part (i).
 \item  For the case k = 3,
 \begin{itemize}
