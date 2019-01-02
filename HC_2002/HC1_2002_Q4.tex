@@ -106,9 +106,9 @@ P P
 No. of accidents
 Probability
 and so on (probabilities beyond r = 9 have not been shown on the diagram).
-(a) P(at most 1 fatal accident) = P(0) + P(1) = 0.0916.
-(b) In half-year, mean = 2 giving P(0) = e−2 = 0.1353 .
-(c) In 1
+\item P(at most 1 fatal accident) = P(0) + P(1) = 0.0916.
+\item In half-year, mean = 2 giving P(0) = e−2 = 0.1353 .
+\item In 1
 2 1 years, mean = 6 giving P(0) = e−6 = 0.00248 .
 \item  Given that X and Y are independent Poissons, V = X +Y ~ Poisson(16).
 E[V ] = Var (V ) =16 .
@@ -136,17 +136,14 @@ P V e
 
 \begin{eqnarray*}
 P(X=5|V=20) &=& \frac{P(X=5,Y=15)}{P(V=20)}\\
-&=& \frac{4^5}{5!} \times \frac{12^{15}}{15!} \times \frac{20!}{16^{20}}
-&=&
+&=& \frac{4^5}{5!} \times \frac{12^{15}}{15!} \times \frac{20!}{16^{20}}\\
 &=& 0.2023
 \end{eqnarray*}
 
 \item  W is Poisson with mean $16 \times 4 = 64$. Use Normal approximation $N(64, 64)$.
-( 70) 70.5 64
-8
-P W > = P Z > − 
- 
-, where Z ∼ N(0,1) and a continuity correction is
-used. This is $P(Z > 0.8125)$, which is \[1−\Phi(0.8125) =1− 0.7917 = 0.2083.\]
+
+\[P( W > 50) = P\left( Z \geq \frac{70.5-64}{8}\right)\] 
+here $Z \sim N(0,1)$ and a continuity correction is
+used. This is $P(Z > 0.8125)$, which is \[1-\Phi(0.8125) =1− 0.7917 = 0.2083.\]
 \end{enumerate}
 \end{document}
