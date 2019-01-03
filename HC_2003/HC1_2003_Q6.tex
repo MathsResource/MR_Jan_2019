@@ -26,37 +26,55 @@
 \begin{document}
 Higher Certificate, Paper I, 2003. Question 6
 
-\[E(Y) = np Var(Y) = np(1 – p)\]
+\[E(Y) = np Var(Y) = np(1 - p)\]
 \begin{enumerate}
-\item Binomial with n = 48, p = ¼.
-\item Score is distributed 36 + B(12, ¼).
+\item Binomial with n = 48, p = 0.25.
+\item Score is distributed 36 + B(12, 0.25).
 
-(a) Hence mean correct is 36 + (12/4) = 39 and variance is 12 × ¼ × ¾ = 9/4.
-(b) Number wrong is distributed B(12, ¾).
-(c) The required probability is $1 – P(0) – P(1) – P(2)$ based on the B(12, ¼)
-distribution. This is
-12 11 2 10 1 3 12 1 3 12 11 1 3
-4 4 4 2 4 4
-−   −    − ×             
-        
-= 1− 0.031676 − 0.126705 − 0.232293 = 0.6093 .
-\item Number of correct answers for A is distributed as 27 + B(21, ¼).
-Number of correct answers for B is distributed as 28 + B(20, ¼).
-Number of correct answers for C is distributed as 30 + B(18, ¼).
+\begin{description}
+\item[(a)] Hence mean correct is 36 + (12/4) = 39 and variance is $12 \times 0.25 \times 0.75 = 9/4$.
+\item[(b)] Number wrong is distributed $B(12, 0.75)$.
+\item[(c)] The required probability is $1 - P(0) - P(1) - P(2)$ based on the B(12, 0.25)
+distribution. 
+\end{description}
 
+This is
+\begin{eqnarray*}
+1 - P(0) - P(1) - P(2) &=& 1- \left[\left(\frac{3}{4}\right)^{12}\right] - \left[12\left(\frac{1}{4}\right) \left(\frac{3}{4}\right)^{11} \right] - \left[\frac{12 \times 11}{2} \left(\frac{1}{4}\right)^{2} \left(\frac{3}{4}\right)^{10}\right]\\ \\ \bigskip
+&=& 1- 0.031676 - 0.126705 - 0.232293 \\ \\ \smallskip
+&=& 0.6093 .
+\end{eqnarray*}
+\item 
 \begin{itemize}
-\item Means are 27 + (21/4) = 32¼, 28 + (20/4) = 33, 30 + (18/4) = 34½
+\item Number of correct answers for A is distributed as 27 + B(21, 0.25).
+\item Number of correct answers for B is distributed as 28 + B(20, 0.25).
+\item Number of correct answers for C is distributed as 30 + B(18, 0.25).
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item Means are 
+\begin{itemize}
+\item 27 + (21/4) = 32.25, 
+\item 28 + (20/4) = 33, 
+\item 30 + (18/4) = 34.5
+\end{itemize}  
 respectively.
-\item  Variances are (21)(¼)(¾) = 63/16, (20)(¼)(¾) = 60/16 = 15/4, (18)(¼)(¾) =
-  54/16 = 27/8 respectively.
-\item So overall mean is 1 (32.25 33 34.5)
-3
-+ + = 33.25,
-and variance of overall mean is 1 63 15 27
-9 16 4 8
- + +   
- 
-= 1.2292.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  Variances are 
+\begin{itemize}
+\item (21)(0.25)(0.75) = 63/16, 
+\item (20)(0.25)(0.75) = 60/16 = 15/4, 
+\item (18)(0.25)(0.75) = 54/16 = 27/8 
+\end{itemize}  
+  respectively.
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item So overall mean is 
+\[ \frac{1}{3}  (32.25 + 33  + 34.5) = 33.25,\]
+and variance of overall mean is 
+\[ \frac{1}{9}  (\frac{63}{16} + \frac{14}{4}  + \frac{27}{8}) = 1.2292\] 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ( ) ( ) ( )
 ( ) ( ) ( )
@@ -75,7 +93,7 @@ P iPi
 4
 29 B 21, 2 21 20 3 1
 2 4 4
-P A = P  =  = ×        
+P A = P  =  = \times        
 ( ) ( )
 19
 1
@@ -84,7 +102,7 @@ P A = P  =  = ×        
 4 4
 P B = P  =  =        
 ( ) ( 1 )
-4 P 29 C = P B 18, = −1 = 0
+4 P 29 C = P B 18, = -1 = 0
 \item  Note. C must get at least the 30 he knows, so it must follow that
   P(C 29) = 0 , which is true if P(29 C) = 0 .
 So ( )

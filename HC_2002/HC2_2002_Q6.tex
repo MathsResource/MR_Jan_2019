@@ -1,23 +1,28 @@
-Higher Certificate, Paper II, 2002.  Question 7 
+Higher Certificate, Paper II, 2002.  Question 6 
  
  
-(i) When there is doubt about what distribution may be used to explain a set of data, especially when it is not possible to assume Normality (even after a transformation), methods that do not depend on distributional assumptions are useful.  There are several methods for analysing sets of data using distribution-free ("nonparametric") tests, although they are less powerful than those using distribution theory when the underlying distributions are (at least approximately) Normal, so sample sizes need to be larger for non-parametric tests. 
+(i) We might reasonably suppose that each trial (i.e. a rat trying a door) has the same probability p of success, independently of all other trials.  These trials continue until there is success, on the xth trial;  there is only one order in which this can occur, namely x − 1 failures followed by one success, so we have ( ) ( ) 11 xP X x p p −= = − . 
  
-(ii) (a) If there has been no effect, the number of patients who lose weight should be binomially distributed, n = 14, p = ½.  A sign test allocates (say) + sign to those who have lost weight and – sign to those who have not, and does not use any whose weights remain exactly the same.  There are 11 + signs, out of 14. 
+The possible values of x are 1, 2, 3, … . 
  
-If B(14, ½) explains the situation, we have () 14 14 14 14 14111,12,13 or 14plus (+) signs 11 12 13 142 P          = + + +                   
+In this case, if the rat is "guessing" there will be probability 1/3 of choosing the food door on any trial;  i.e. p is 1/3.  The weakness in this argument may be that the rat does not "guess" because it can detect food, e.g. by smell.  If that occurs, P(food door) is >1/3, and unknown. 
  
-  
-14 1 14.13.12 14.13 14 1 2 3.2.1 2.1     = + + +        
  
-()
-14
-14 1 470 364 91 15 0.0287 22  = + + = =   . 
+(ii) Expected frequencies are 
+11250 33 x−         
+ for x = 1, 2, … on the null hypothesis 
+of a geometric distribution with p =1/3. 
  
-A two-tail test using null hypothesis "no effect" and alternative hypothesis "some effect" (unspecified) therefore has p-value 0.0574, and does not provide evidence on which to reject the null hypothesis. 
+x 1 2 3 4 5 6 7 ≥ 8 TOTAL Obs 15 11 7 6 5 4 2 0 50 Exp 16.67 11.11 7.41 4.94 3.29 2.19 1.46 2.93       5.48 4.39  
  
-(b) A Wilcoxon signed-rank test uses the sizes as well as the signs of the differences, and so carries more power to reject the null hypothesis when it is false. 
+Because the geometric distribution tails off very slowly, it is not easy to combine expected values, but the above grouping is better than combining the whole tail from (say) 5 upwards because the pattern is better preserved (and degrees of freedom are saved). 
  
-Patient 1 2 3 4 5 6 7 8 9 10 11 12 13 14 Difference 60 44 10 -1 -3 5 52 -8 14 10 15 31 14 3 Rank 14 12 6.5 1 2.5 4 13 5 8.5 6.5 10 11 8.5 2.5 
+No parameters were estimated, so there will be 5 degrees of freedom for the usual chisquared test using x = 1; 2; 3; 4; (5, 6); ≥ 7. 
  
-The ranks are those of the absolute differences.  The sums of the ranks for the positive and negative differences are 1 296T + = and 1 28T − = .  The test statistic is () min , 8.5 T T T −+ ==.  The tables, with n = 14 and α = 0.05 (two-sided), give T = 21.  Since 8.5 is (much) lower than this, there is evidence to reject the null hypothesis.  Inspection of the data shows that the negatives (i.e. weight gains) are generally small in size compared with the positives (weight losses). 
+The test statistic is ()()()()()() 2 2 2 2 2 2 15 16.67 11 11.11 7 7.41 6 4.94 9 5.48 2 4.39 16.67 11.11 7.41 4.94 5.48 4.39 − − − − − − + + + + +
+ 
+ 
+= 3.98. 
+ 
+This value is not significant when compared with 2 5χ .  The geometric hypothesis is not rejected.  Therefore we may assume the model is satisfactory, and the animals do appear to be "guessing". 
+ 

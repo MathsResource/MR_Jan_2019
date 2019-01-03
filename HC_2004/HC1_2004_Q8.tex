@@ -31,7 +31,7 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}Higher Certificate, Paper I, 2004. Question 8
-\begin{enumerate}
+\begin{enumerate}[(a)]
 \item Trainee's time (y)
 0
 10
@@ -44,8 +44,9 @@
 Benchmark time (x)
 Simple linear regression analysis seems quite suitable.
 \item  The model is yi = α + β xi + ei, where {ei} are uncorrelated with zero mean and
-(constant) variance σ 2 (independent identically distributed N(0, σ 2) for the purpose of
-undertaking statistical tests, as in part (iii)). Estimating by the method of least squares
+(constant) variance σ 2 (independent identically distributed $N(0, \sigma^2)$ for the purpose of
+undertaking statistical tests, as in part (iii)). \begin{itemize}
+\item Estimating by the method of least squares
 gives
 ˆ xy
 xx
@@ -66,7 +67,7 @@ x
 S x x x
 n
 = − = − Σ Σ Σ .
-We have
+\item We have
 ( )
 ( 2 )
 ˆ 4440 150 220 /10 1140 1.20
@@ -80,9 +81,9 @@ S
 = = = =
 −
 and αˆ = 22 − (1.20×15) = 4 ,
-so the line is
+\item so the line is
 y = 4 + 1.2x.
-Continued on next page
+\item 
 The total sum of squares is ( ) ( )2
 2 2 1440
 10
@@ -90,12 +91,12 @@ i
 yy i i
 y
 S = y − y = y − = Σ Σ Σ .
-\begin{itemize}
+
 \item The sum of squares for regression is ˆ
 xy β S (or 2 / xy xx S S ) = 1368.
 \item Therefore the residual sum of squares is 1440 – 1368 = 72.
-\item This has 8 degrees of freedom, so the residual mean square (σˆ 2 ) is 72/8 = 9.
-\item The coefficient of determination R2 = 1368/1440 = 0.95 (usually given as 95%).
+\item This has 8 degrees of freedom, so the residual mean square ($\hat{\sigma}^2$ ) is 72/8 = 9.
+\item The coefficient of determination $R^2 = 1368/1440 = 0.95$ (usually given as 95\%).
 \end{itemize}
 
 \item  The estimated variance of ˆβ is 9/950 = 0.009474. 

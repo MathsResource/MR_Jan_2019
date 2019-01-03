@@ -26,8 +26,8 @@
 \begin{document}
 Higher Certificate, Paper I, 2003. Question 5
 \begin{enumerate}
-\item Poisson distribution: ( ) !
-\[f(x) = \frac{e^{-lambda} \lambda^{x}{x!}\]
+\item Poisson distribution: 
+  \[f(x) = \frac{e^{-lambda} \lambda^{x}}{x!}\]
 
 Expectation = variance = $\lambda$.
 (i) 
@@ -39,21 +39,20 @@ Sketches are as shown.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item Likelihood 
 
-\[ L = \product^n_{i=1} \frac{e^{-\lambda} \lambda^{x_i}}{(x_i)!} = \frac{}{\product^n_{i=1}(x_i)!} \]
+\[ L = \prod^n_{i=1} \frac{e^{-\lambda} \lambda^{x_i}}{(x_i)!} = \frac{}{\prod^n_{i=1}(x_i)!} \]
 
 \begin{framed}
-\[\product^n_{i=1} \frac{a_i \times b_i }{(c_i)}  = \frac{(\product^n_{i=1}a_i) \times (\product^n_{i=1}b_i) }{\product^n_{i=1}(c_i)}\]
+\[\prod^n_{i=1} \frac{a_i \times b_i }{(c_i)}  = \frac{(\prod^n_{i=1}a_i) \times (\prod^n_{i=1}b_i) }{\prod^n_{i=1}(c_i)}\]
 \end{framed}
-
 
 \begin{itemize}
 \item Taking logarithms to base e,
-log ( )log log( !) i i L = − n\lambda + Σx \lambda − Π x .
+\[log L = - n\lambda + \sum (x_i) log (\lambda ) - log( \prod x_i !)  \]   
 
 \item Differentiating, log i d L n x
-d\lambda \lambda
-= − + Σ ; setting this equal to 0 gives the solution
-1
+\[d\lambda \lambda
+= - + Σ ; \] setting this equal to 0 gives the solution
+\[1
 ˆ 1 n
 ML i
 i
@@ -61,65 +60,46 @@ x x
 n
 \lambda
 =
-  = Σ = . We have
+  = Σ = . \]We have
 2
 2
 log i 0 d L x
 d\lambda \lambda 2
-= − Σ < , confirming that this is
+= - Σ < , confirming that this is
 a maximum.
 \item The central limit theorem gives $X \sim N(\lambda , \lambda /n )$, so we have
 (approximately)
-P 1.96 X 1.96 0.95
-n n
-\lambda \lambda \lambda \lambda
- 
- − ≤ ≤ +  =
-\end{itemize}   
+\[P (\lambda - 1.96 \sqrt{ \frac{\lambda}{n}} \leq \; \bar{X} \; \leq \;\lambda + 1.96 \sqrt{ \frac{\lambda}{n}})  =  0.95\]
+
+\item 
+\[P (\bar{X} - 1.96 \sqrt{ \frac{\lambda}{n}} \leq \; \lambda \; \leq \; \bar{X} + 1.96 \sqrt{ \frac{\lambda}{n}})  =  0.95\]
+
+\end{itemize} 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-f (x) f (x)
-0 x 0 x 2 … 2 4 …
-or
-P X 1.96 X 1.96 0.95
-n n
-\lambda \lambda \lambda
- 
- − ≤ ≤ +  =
-   
-.
-Hence, inserting the observed value x and, further, using ˆ
-ML \lambda = x as an
-estimate for the underlying variance, an approximate 95% confidence interval
-for \lambda is
-x 1.96 x , x 1.96 x
-n n
-− + .
+Hence, inserting the observed value $\bar{x}$ and, further, using $\hat{\lambda}_{ML} = \bar{x}$ as an
+estimate for the underlying variance, an approximate 95\% confidence interval
+for $\lambda$ is
+
+\[  \bar{x} \pm 1.96 \sqrt{ \frac{\bar{x} }{n}}\]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item 400, 2500; 6.25 i n = Σx = x = .
+\item $n=400$, \sum^{n}_{i=1}(x_i)=2500$ 2500; $\sum^{n}_{i=1}(x_i)^2=25600$.
 
 \begin{itemize}
 \item So the approximate 95% confidence interval is
-6.25 1.96 6.25 , 6.25 1.96 6.25
-400 400
-− +
-  i.e. 6.005 , 6.495 .
-\item Now using Σxi
-2 = 25600, we have that the sample variance s2 is
-( )2
-2 1 2500 9975 25600 25.00
-399 400 399
-s
- 
-=  −  = =
-   
- 
-.
-\item Using s2 in the confidence interval gives the interval as
-6.25 1.96 25.00 , 6.25 1.96 25.00
-400 400
-− +
-  i.e. 5.76 , 6.74 .
-\item This interval is twice as wide – because s2 is four times the size of x – which
+
+
+\[  \6.25\pm 1.96 \sqrt{ \frac{6.25}{400} } = \left(6.005, 6.495\right)\]
+
+\item Now using $\sum^{n}_{i=1}(x_i)^2=25600$, we have that the sample variance s2 is
+
+\[  s^2 = \frac{1}{399} \left( 25600 - \frac{(2500)^2}{400} \right)  = \frac{9975}{399} = 25.00 \]
+
+\item Using $s^2$ in the confidence interval gives the interval as
+
+\[  \6.25\pm 1.96 \sqrt{ \frac{25.00}{400} }\]
+
+\item This interval is twice as wide – because $s^2$ is four times the size of x – which
 suggests that a Poisson assumption is not valid.
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

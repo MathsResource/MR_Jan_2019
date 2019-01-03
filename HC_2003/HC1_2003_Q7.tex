@@ -57,30 +57,38 @@ the differentiation is with respect to s.
 '
 1 1
 p p
-G s
-p s
-−
-=
- − −
+\begin{eqnarray*} 
+G^{\prime}(S) 
+&=& \frac{p(1-p)}{[1-(1-p)^s]^2} \\
+&=& \frac{1-p}{p}
+\end{eqnarray*}
+
+
 , so mean ( ) ( )
 2
-1 1  1
-p p p G
-p p
-− − = = = .
-( ) ( )
-{ ( ) }
-2
+
+
+\begin{eqnarray*} 
+G^{\prime}(1) 
+&=& \frac{p(1-p)}{p^2} \\
+&=& \frac{1-p}{p}
+\end{eqnarray*}
+
 3
 2 1
 ''
-1 1
-p p
-G s
-p s
-−
-=
-− −
+\begin{eqnarray*} 
+G^{\prime\prime}(S) 
+&=& \frac{2p(1-p)^2}{[1-(1-p)^s]^3} \\
+\end{eqnarray*}
+
+
+\begin{eqnarray*} 
+G^{\prime\prime}(1) 
+&=& \frac{2p(1-p)^2}{p^3} \\
+&=& \frac{1-p}{p^2}\\
+\end{eqnarray*}
+
 , so ( ) ( ) ( ) 2 2
 3 2
 2 1 2 1
@@ -90,12 +98,20 @@ G
 p p
 − −
 = = .
-Hence the variance is ( ) ( ) ( ) 2 2 2
+Hence the variance is 
+
+\begin{eqnarray*} 
+\frac{1-p}{p} + \frac{1-p}{p} - \frac{1-p}{p} 
+&=& \frac{1-p}{p} + \frac{1-p}{p} - \frac{1-p}{p}\\
+&=& \frac{1-p}{p}
+\end{eqnarray*}
+
+
 2 2 2 2
 2 1 p 1 p 1 p 1 p 1 p 1 p
 p p p p p p
 − − − − − − + − = − = .
-Continued on next page
+
 0.4
 0 1 2 3 4 5 6
 P(x)
