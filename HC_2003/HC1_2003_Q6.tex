@@ -1,6 +1,6 @@
 \documentclass[a4paper,12pt]{article}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{eurosym}
+  \usepackage{eurosym}
 \usepackage{vmargin}
 \usepackage{amsmath}
 \usepackage{graphics}
@@ -25,26 +25,31 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
 Higher Certificate, Paper I, 2003. Question 6
-E(Y) = np Var(Y) = np(1 – p)
-(i) Binomial with n = 48, p = ¼.
-(ii) Score is distributed 36 + B(12, ¼).
+
+\[E(Y) = np Var(Y) = np(1 – p)\]
+\begin{enumerate}
+\item Binomial with n = 48, p = ¼.
+\item Score is distributed 36 + B(12, ¼).
+
 (a) Hence mean correct is 36 + (12/4) = 39 and variance is 12 × ¼ × ¾ = 9/4.
 (b) Number wrong is distributed B(12, ¾).
-(c) The required probability is 1 – P(0) – P(1) – P(2) based on the B(12, ¼)
+(c) The required probability is $1 – P(0) – P(1) – P(2)$ based on the B(12, ¼)
 distribution. This is
 12 11 2 10 1 3 12 1 3 12 11 1 3
 4 4 4 2 4 4
 −   −    − ×             
         
 = 1− 0.031676 − 0.126705 − 0.232293 = 0.6093 .
-(iii) Number of correct answers for A is distributed as 27 + B(21, ¼).
+\item Number of correct answers for A is distributed as 27 + B(21, ¼).
 Number of correct answers for B is distributed as 28 + B(20, ¼).
 Number of correct answers for C is distributed as 30 + B(18, ¼).
-Means are 27 + (21/4) = 32¼, 28 + (20/4) = 33, 30 + (18/4) = 34½
+
+\begin{itemize}
+\item Means are 27 + (21/4) = 32¼, 28 + (20/4) = 33, 30 + (18/4) = 34½
 respectively.
-Variances are (21)(¼)(¾) = 63/16, (20)(¼)(¾) = 60/16 = 15/4, (18)(¼)(¾) =
-54/16 = 27/8 respectively.
-So overall mean is 1 (32.25 33 34.5)
+\item  Variances are (21)(¼)(¾) = 63/16, (20)(¼)(¾) = 60/16 = 15/4, (18)(¼)(¾) =
+  54/16 = 27/8 respectively.
+\item So overall mean is 1 (32.25 33 34.5)
 3
 + + = 33.25,
 and variance of overall mean is 1 63 15 27
@@ -52,7 +57,7 @@ and variance of overall mean is 1 63 15 27
  + +   
  
 = 1.2292.
-Continued on next page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ( ) ( ) ( )
 ( ) ( ) ( )
 , ,
@@ -63,7 +68,7 @@ P APA
 PA Pi i A B C
 P iPi
 =
-= = = Σ .
+  = = = Σ .
 ( ) ( )
 19 2
 1
@@ -80,8 +85,8 @@ P A = P  =  = ×        
 P B = P  =  =        
 ( ) ( 1 )
 4 P 29 C = P B 18, = −1 = 0
-[Note. C must get at least the 30 he knows, so it must follow that
-P(C 29) = 0 , which is true if P(29 C) = 0 .]
+\item  Note. C must get at least the 30 he knows, so it must follow that
+  P(C 29) = 0 , which is true if P(29 C) = 0 .
 So ( )
 19 2
 19 2 19
@@ -99,12 +104,17 @@ P A
 32 21 0.7241 21 1 29
 32 4
 = = =
-+
-and similarly
+  +
+  and similarly
 ( )
 1
 29 4 8 0.2759 21 1 29
 32 4
 P B = = =
-+
-(and P(C 29) = 0 , see above).
+  +
+  (and P(C 29) = 0 , see above).
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%
+\end{enumerate}
+\end{document}
