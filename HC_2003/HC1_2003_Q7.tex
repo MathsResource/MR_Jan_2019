@@ -1,6 +1,6 @@
 \documentclass[a4paper,12pt]{article}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{eurosym}
+  \usepackage{eurosym}
 \usepackage{vmargin}
 \usepackage{amsmath}
 \usepackage{graphics}
@@ -26,12 +26,13 @@
 \begin{document}
 
 Higher Certificate, Paper I, 2003. Question 7
-(i) P(X = x) = (1 – p)(1 – p)…(1 – p)p , for x = 0, 1, 2, … .
+\begin{enumerate}
+\item P(X = x) = (1 – p)(1 – p)…(1 – p)p , for x = 0, 1, 2, … .
 F F F S
 ----- x times -----
-When p = 0.4, P(0) = 0.4, P(1) = 0.24, P(2) = 0.144, P(3) = 0.0864,
+  When p = 0.4, P(0) = 0.4, P(1) = 0.24, P(2) = 0.144, P(3) = 0.0864,
 P(4) = 0.0518, P(5) = 0.0311, P(6) = 0.0187, … .
-(ii) The probability generating function of X is
+\item The probability generating function of X is
 ( ) ( ) ( )
 1 1 1
 i i 1 i i X x x x x
@@ -40,15 +41,15 @@ i i i
 G s E s s p s p p p t
 ∞ ∞ ∞
 = = =
-= =Σ =Σ − = Σ where t = (1 – p)s
+  = =Σ =Σ − = Σ where t = (1 – p)s
 ( ) ( )p 1 t t2 t3 ... p 1 t 1 − = + + + + = −
 1 (1 )
 p
 p s
 =
-− −
+  − −
 .
-The mean is given by G'(1) and the variance by G''(1) + G'(1) – [G'(1)]2, where
+The mean is given by $G'(1)$ and the variance by $G''(1) + G'(1) – [G'(1)]2$, where
 the differentiation is with respect to s.
 ( ) ( )
 { ( ) }2
@@ -60,10 +61,10 @@ G s
 p s
 −
 =
-− −
+ − −
 , so mean ( ) ( )
 2
-1 1 ' 1
+1 1  1
 p p p G
 p p
 − − = = = .
@@ -100,16 +101,23 @@ Continued on next page
 P(x)
 …
 x
-(iii) We have Y = X + 1.
+\item We have Y = X + 1.
 So ( ) ( ) 1 1 , for 1,2,3,... y P Y y p p y − = = − = .
+
 The probability generating function of Y can be obtained by a similar method
 to that used for X above, or it can be written down using the "linear
 transformation" result for probability generating functions:
+\begin{itemize}
+\item 
 Pgf of Y is sbG(as) with a =1 and b =1, i.e. 1 (1 )
 ps
 − − p s
 .
-Mean of Y = (mean of X) + 1 = 1 1 p 1
+\item Mean of Y = (mean of X) + 1 = 1 1 p 1
 p p
 + − = .
-Variance of Y = variance of X.
+\item Variance of Y = variance of X.
+\end{itemize}
+%%%%%%%%%%%%%%
+\end{enumerate}
+\end{document}
