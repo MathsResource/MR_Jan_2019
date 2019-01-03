@@ -42,13 +42,18 @@ x + = ≥ >
 \item  Sketch of f (x).
 [NOTE. The curve should of course appear as a smooth curve; it might not do so,
 due to the limits of electronic reproduction.]
+
+\begin{eqnarray*}
+F_X(x) &=& P(X \leq x)\\
+&=& \int^{x}_{y}  f(u) du\\
+% &=& \int^{\infty}_{1} x \frac{k}{x^2}f(x) dx\\
+&=& \int^{\infty}_{1} x \frac{k}{x^{k+1}}f(x) dx\\
+\end{eqnarray}
+
 C.d.f. is ( ) ( ) 1 1
 1
 1 1 1
-x
-x
-k k k
-F x P X x k du
+
 u + u x
 = ≤ = = −  = −   ∫ (for x ≥ 1).
 \item  Median M has ½ = F(m) = 1 – M –k, so ½ = M –k and hence M = 21/k.
@@ -89,34 +94,17 @@ E(X^2)
 &=& \frac{k}{k-2}
 \end{eqnarray*}
 \[
-2 1 1 2
-k k k k k
-k k k k
-= − − − =
-− − − −
-.
-( ( )) /( 1) 1
-/( 1)
-1 1k
-k k k k
-k k
-P X E X k dx k
-x x k
-∞
-∞
-− +
-−
-> = = −  =  −     
-     ∫ , or this can be written down
+
+This can be written down
 directly from the c.d.f. found in part (i).
 \item  For the case k = 3,
 \begin{itemize}
 \item (a) M = 21/3 in the units given, or £12599,
 \item (b) mean = 3/2 in the units given, or £15000,
-\item (c) inserting X = 10, P(X ≤ 10) = 3
+\item (c) inserting X = 10, $P(X \leq 10) = 3$
 1 1
 10
-− , so P(X > 10) = 3
+− , so $P(X > 10)$ = 3
 1
 10
 , i.e. 0.1%.
