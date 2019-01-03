@@ -64,24 +64,31 @@ Higher Certificate, Paper I, 2004. Question 7
 ∴ X = E X − E X = θ −  θ  = θ
  
 \end{itemize}
-\item  P(longest offcut is ≤ x) = P(all n offcuts are ≤ x).
+\item  P(longest offcut is \leq x) = P(all n offcuts are \leq x).
 \begin{itemize}
     \item The c.d.f. for each Xi is ( ) ( ) 0
 0
 x
-\item F x P X x x du u x
-θ θ θ
-= ≤ = =   =   ∫ , and the Xi are all
+\item 
+
+\begin{eqnarray*}
+F_X(x) &=& P(X \leq x)\\
+&=& \int^{x}_{y}  f(u) du\\
+% &=& \int^{\infty}_{1} x \frac{k}{x^2}f(x) dx\\
+&=& \int^{\infty}_{1} x \frac{k}{x^{k+1}}f(x) dx\\
+\end{eqnarray}
+ Xi are all
 independent. 
-\item Therefore P(all n offcuts are ≤ x) = { ( )}
+\item Therefore P(all n offcuts are \leq x) = { ( )}
 n
 F x n x
 θ
 =    
  
 , and this is also
-\item P(longest offcut is ≤ x), i.e. the c.d.f. of the sample maximum (n) X . Thus the p.d.f. of
-(n) X is the derivative of this, i.e. nxn–1/θ n. This is for the interval (0, θ ).
+\item P(longest offcut is \leq x), i.e. the c.d.f. of the sample maximum (n) X .
+\item Thus the p.d.f. of
+(n) X is the derivative of this, i.e. nxn–1/θ n. \item This is for the interval (0, θ ).
 ( ) ( ) 1
 0
 0 1 1
@@ -100,7 +107,8 @@ n n
 0 2 2
 n n
 n n n
-\item E X nx dx n x n
+\item 
+E X nx dx n x n
 n n
 θ
 θ θ
@@ -132,20 +140,25 @@ n n n n
 =   =
  + +  + +  
 .
-Immediately we have ( )
+\begin{itemize}
+\item Immediately we have ( )
 1
 n
 E n X
 n
  +  =θ
  
-, so ( )
+, 
+
+\item so ( )
 1
 n
 n X
 n
 + is an unbiased estimator of θ.
-( ) ( )
+
+
+\item ( ) ( )
 ( ) ( ) ( )
 ( )( ) ( )
 2 2 2 2
@@ -156,6 +169,7 @@ n n n n X n X
 n n n n n n n
  +  = + = + θ = θ   +   + +
 .
+\end{itemize}
 \item We have (see part (i)) that E(X) = θ /2. 
 \item Thus the method of moments estimator
 of θ /2 is X , and so the method of moments estimator of θ is 2X or 2
