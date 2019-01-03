@@ -25,8 +25,8 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}Higher Certificate, Paper II, 2002.  Question 1 
  
- 
-(i) If two independent sets of data are available from Normally distributed populations of measurements, with possibly different means µ 1, µ 2 but the same variance σ
+\begin{enumerate} 
+\item If two independent sets of data are available from Normally distributed populations of measurements, with possibly different means µ 1, µ 2 but the same variance σ
  2, a two-sample t test is used.  It compares the sample means, 1 x and 2 x , based on 1 n and 2 n observations, against the null hypothesis µ 1 = µ 2. 
  
 The test statistic is 
@@ -45,10 +45,17 @@ nn == − + −
 =
 +− ∑∑  is a "pooled" estimate of σ
  2. 
- This is not valid when the data sets have been collected from the same units (and so are not independent).  In this case there will be pairs of data (x1i, x2i);  for example in a medical trial these could be blood pressures before and after a standard exercise programme, or levels of a chemical before and after treatment with a drug.  Each patient is now acting as his or her own "control" and systematic patient-to-patient variation is removed.  The measurement for analysis is di = x2i − x1i for each pair (i = 1, 2, … , n).  A one-sample test of " µ d = 0" is now appropriate, using tn−1.  This procedure is called a paired test. 
+ \begin{itemize}
+     \item  This is not valid when the data sets have been collected from the same units (and so are not independent). 
+     \item In this case there will be pairs of data (x1i, x2i);  for example in a medical trial these could be blood pressures before and after a standard exercise programme, or levels of a chemical before and after treatment with a drug. 
+     \item Each patient is now acting as his or her own "control" and systematic patient-to-patient variation is removed. 
+     \item The measurement for analysis is $di = x2i − x1i$ for each pair (i = 1, 2, … , n).  \item A one-sample test of " µ d = 0" is now appropriate, using tn−1.  
+     
+     \item This procedure is called a paired test. 
+ \end{itemize}
+
  
- 
-(ii) A two-sample test is required, and since the chickens were all of similar age a common value of σ 2 may be assumed. 
+\item  A two-sample test is required, and since the chickens were all of similar age a common value of σ 2 may be assumed. 
  
 12 12nn ==. 
  1 160x =∑ ,   2 1 2196x =∑ ,   1 13.33 x = ,   2 1 5.6970s = . 
@@ -62,3 +69,6 @@ The test statistic is
 This is significant at the 5% level (the two-tailed 5% point of t22 is 2.074). 
  
 The null hypothesis µ 1 = µ 2 is rejected at the 5% level, and so there is evidence that the two food regimes differ in effect. 
+
+\end{enumerate}
+\end{document}
