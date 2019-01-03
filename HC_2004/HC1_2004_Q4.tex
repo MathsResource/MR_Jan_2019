@@ -33,14 +33,24 @@
 \begin{document}
 
 Higher Certificate, Paper I, 2004. Question 4
+\begin{framed}
+ (i) State the Normal approximation to the binomial distribution, indicating the conditions under which it is valid.  In 50 firings, a surface-to-air missile (SAM) is successful in hitting its target in 30 cases.  Obtain an approximate 95% confidence interval for the probability, p say, that a given missile hits its target. (8) 
+ 
+ 
+ (ii) SAMs are routinely fired at a target independently in pairs;  if at least one missile hits the target, the target is destroyed.  (It can be assumed that the two SAMs are successful in hitting the target independently of one another.)  Find in terms of p the probability that a target is destroyed when a pair of missiles is fired at it, and provide a point estimate of this probability. (3) 
+ 
+ 
 
+ 
+ 
+\end{framed}
 \begin{enumerate}
 \item  The binomial distribution with parameters n, p can be approximated by
-$N(np, np(1 – p))$ when n is large and p is not too near to 0 or 1. 
+$N(np, np(1 - p))$ when n is large and p is not too near to 0 or 1. 
 \begin{itemize}
     \item As a "rule of thumb",
-the approximation is likely to be good if both np and np(1 – p) are > 10.
-\item Let $X ~ B(n, p)$ and let Φ denote the c.d.f. of N(0, 1). 
+the approximation is likely to be good if both $np$ and $np(1 - p)$ are $> 10$.
+\item Let $X ~ B(n, p)$ and let $\Phi$ denote the c.d.f. of N(0, 1). 
 
 \item Using a continuity correction,
 ( )
@@ -83,29 +93,38 @@ n
 −
 = = . Thus
 the approximate interval is
-\[0.6 − (1.96×0.0693) , 0.6 + (1.96×0.0693)\]
-i.e. (0.464, 0.736).
-\item  \[P(\mbox{neither hits}) = (1 – p)^2.\] Therefore 
+\[0.6 \pm (1.96 \times ×0.0693)  = (0.464, 0.736).
+\item  \[P(\mbox{neither hits}) = (1 - p)^2.\] Therefore 
 \begin{eqnarray*}
-P(at least 1 hit) &=& 1 – (1 – p)2 \\&=& p(2 – p).
+P(at least 1 hit) &=& 1 - (1 - p)^2 \\&=& p(2 - p).
 \end{eqnarray*}
-We estimate this by $(0.6)(2 – 0.6) = 0.84$.
-\item  When p = 0.464 (lower limit of interval in part (i)), we have $p(2 – p) = 0.713$.
+We estimate this by $(0.6)(2 - 0.6) = 0.84$.
+\begin{framed}
+(iii) By suitably transforming the confidence interval for p in part (i), obtain a 95\% confidence interval for the probability that the target is destroyed when a pair of missiles is fired. (4) 
+\end{framed} 
+
+\item  When p = 0.464 (lower limit of interval in part (i)), we have $p(2 - p) = 0.713$.
 
 %=================%
 \begin{itemize}
-\item Similarly, when p = 0.736, we have p(2 – p) = 0.930. 
+\item Similarly, when p = 0.736, we have $p(2 - p) = 0.930$. 
 \item Thus (0.713, 0.930) is the
 required interval.
 \end{itemize}
 %=================%
+
+
+
+\begin{framed} 
+(iv) Defence experts say that an airborne enemy target can be detected just before entering national airspace.  The defence ministry has a policy that several pairs of SAMs (n pairs, say) should be fired whenever such a target is detected.  Assuming that your estimate in part (ii) is accurate, find the smallest value of n which will reduce the probability of failing to destroy the target to below 0.0005. (5) 
+\end{framed}
 \item  When n pairs are fired, 
-\[P(all miss) = [(1 – p)2]^n,\] estimated by (0.16)n. 
+\[P(all miss) = [(1 - p)2]^n,\] estimated by $(0.16)^n$. 
 \begin{itemize}
     \item Hence
-(0.16)n < 0.0005 is required. 
+$(0.16)^n < 0.0005$ is required. 
 \item Solving this by taking logarithms to base 10, we have
-n log10(0.16) < log10(0.0005), i.e. –0.79588n < –3.30103 which gives n > 4.148. 
+$n log10(0.16) < log10(0.0005)$, i.e. $-0.79588n < -3.30103$ which gives $n > 4.148$. 
 \item so n
 must be at least 5.
 \end{itemize}
