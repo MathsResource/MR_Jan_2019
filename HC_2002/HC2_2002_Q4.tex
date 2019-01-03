@@ -1,9 +1,39 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
 Higher Certificate, Paper II, 2002.  Question 4 
  
- 
-(a) [Note.  The discussion presented here includes aspects that are further explored in Higher Certificate Paper III and/or in the Graduate Diploma Applied Statistics papers.] 
- In two-way analysis of variance, there are two "factors" (A and B) that are sources of systematic variation that might affect the outcome.  Factor A has a "levels" and factor B has b "levels".  The observation when A is at level i and B is at level j is denoted by yij (for the time being we suppose there is only one observation at each such combination).  The usual linear model is that an observation yij can be explained in terms of an overall mean µ , an effect ( α i, deviation from µ ) due to having the ith level of A, similarly an effect ( β j, deviation from µ ) due to having the jth level of B, and a "residual" term ε ij which explains the random natural variation and is assumed N(0, σ 2) where σ 2 is constant for all observations.  Thus the model is 
+\begin{enumerate} 
+\item  
+%Note.  The discussion presented here includes aspects that are further explored in Higher Certificate Paper III and/or in the Graduate Diploma Applied Statistics papers. 
+
+
+In two-way analysis of variance, there are two "factors" (A and B) that are sources of systematic variation that might affect the outcome.  Factor A has a "levels" and factor B has b "levels".  The observation when A is at level i and B is at level j is denoted by yij (for the time being we suppose there is only one observation at each such combination).  The usual linear model is that an observation yij can be explained in terms of an overall mean µ , an effect ( α i, deviation from µ ) due to having the ith level of A, similarly an effect ( β j, deviation from µ ) due to having the jth level of B, and a "residual" term ε ij which explains the random natural variation and is assumed N(0, σ 2) where σ 2 is constant for all observations.  Thus the model is 
   1,2,..., 1,2,..., ij i j ij y i a j b µ α β ε = + + + = = . This is often applied for designed experiments where one of the factors is a "blocking factor" and the other represents the "treatments" that are actually being compared.  The factors are often then called "blocks" and "treatments", with appropriate Greek letters ( β and τ ) being used. 
+ 
  Sometimes there is more than one observation ("replication") for each combination of a level from factor A and a level from factor B  −  usually the same number of observations, say n, for every combination  −  and in such cases an observation is denoted by yijk where the third subscript k (k = 1, 2, …, n) indicates the replicate.  The residual term correspondingly needs to be denoted by ε ijk.  The model then becomes 
   1,2,..., 1,2,..., 1,2,..., ijk i j ijk y i a j b k n µ α β ε = + + + = = = and can be further extended to include also an "interaction" term, usually denoted by ( αβ )ij.  This represents the situation where some levels of A give a 'better' result in combination with some levels of B whereas other levels of A give a 'better' result with other levels of B.  It is often assumed that there is no such interaction, especially in the blocks-and-treatments designed experiments situation. 
  
@@ -45,3 +75,6 @@ t
   , 
  
 showing that C > all others at 5% or more, otherwise the only evidence of real difference is between B and D [in fact it might be reasonable to assume that A, B and D are all the same but C distinctly better].  A similar analysis for significant differences between pairs of means for the gravels would also be included. 
+
+\end{enumerate}
+\end{document}
