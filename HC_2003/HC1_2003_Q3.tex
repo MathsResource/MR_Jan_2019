@@ -1,6 +1,6 @@
 \documentclass[a4paper,12pt]{article}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{eurosym}
+  \usepackage{eurosym}
 \usepackage{vmargin}
 \usepackage{amsmath}
 \usepackage{graphics}
@@ -25,42 +25,55 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
 Higher Certificate, Paper I, 2003. Question 3
-(i) (a) X + YA is N(10 + 15 , 12 + 16) i.e. N(25, 28).
-(b) X + YB is N(10 + 12 , 12 + 9) i.e. N(22, 21).
-(ii) If X is the same for both, we require P(YA < YB), i.e. P(YA – YB < 0).
-YA – YB is N(15 – 12 , 16 + 9) i.e. N(3, 25).
-( 0) 0 3
-5 A B P Y −Y < = Φ − 
+\begin{enumerate}
+\item \[X + Y_A is N(10 + 15 , 12 + 16) i.e. N(25, 28).\]
+(b)\[ X + Y_B is N(10 + 12 , 12 + 9) i.e. N(22, 21).\]
+\item If X is the same for both, we require $P(Y_A < Y_B)$, i.e. $P(Y_A – Y_B < 0)$.
+\[Y_A – Y_B is N(15 – 12 , 16 + 9)\] i.e. N(3, 25).
+\begin{eqnarray*}
+P(Y_A −Y_B \leq 0)   &=& P(Z \leq -0.60) \\
+&=& \Phi(-0.60) \\
+&=& 0.2743
+\end{eqnarray*}
+
  
-where (as usual) Φ denotes the cdf of the N(0, 1)
-distribution. From tables Φ(–0.6) = 1 – Φ(0.6) = 0.2743.
-(iii) Writing WA = X + YA and WB = X + YB, we require P(WA < WB), i.e.
-P(WA – WB < 0).
-WA – WB is N(25 – 22 , 28 + 21) i.e. N(3, 49).
-( 0) 0 3
-7 A B P W −W < = Φ − 
- 
-= 3
-7
-Φ −   
- 
-= 0.3341.
-(iv) is N 25, 28 and is N 22, 21
-16 16 A B W   W  
-   
-   
-.
-Let A B U =W −W ; then U is N 3, 49
-16
- 
- 
- 
-, and we require
-( ) ( ) 7
-4
-0 0 3 12 1.7143
-7
-P U
- −    < = Φ  = Φ−  = Φ −
-   
-= 0.0432.
+where (as usual) $\Phi$ denotes the cdf of the N(0, 1)
+distribution. From tables $\Phi(–0.6) = 1 – \Phi(0.6) = 0.2743$.
+\item  Writing $W_A = X + Y_A$ and $W_B = X + Y_B$, we require P(W_A < W_B), i.e.
+P(W_A – W_B < 0).
+\[W_A – W_B is N(25 – 22 , 28 + 21)\] i.e. N(3, 49).
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \begin{eqnarray*}
+P(W_A −W_B \leq 0)   &=& P(Z \leq -0.4285) \\
+&=& \Phi(-0.4285) \\
+&=& 0.3341
+\end{eqnarray*}
+
+\begin{framed}
+\noindent \textbf{Z-score}
+
+\mbox{ with } W_A −W_B \sim N(3, (7)^2)   \qquad z_{0} = \frac{0-3}{(7)}  = -\frac{3}{7} = -0.4285
+
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  $\bar{W}_A$ is $N(25, \frac{28}{16})$ and is $\bar{W}_B$ = $N(22, \frac{21}{16})$. 
+
+Let $U =\bar{W}_A −\bar{W}_B$ ; then U is N $(3,\frac{49}{16})$, and we require $P(U \leq 0)$
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{eqnarray*}
+P(U \leq 0)   &=& P(Z \leq - 1.7143) \\
+&=& \Phi(- 1.7143) \\
+&=& 0.0432
+\end{eqnarray*}
+
+\begin{framed}
+\noindent \textbf{Z-score}
+
+\mbox{ with } U \sim N(3, (7/4)^2)   \qquad z_{0} = \frac{0-3}{(7/4)}  = -\frac{12}{7} = -1.7143
+
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
