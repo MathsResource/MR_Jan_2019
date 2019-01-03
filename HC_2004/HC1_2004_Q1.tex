@@ -35,6 +35,25 @@
 
 \begin{document}
 
+
+Of the adult population in a large city, 60\% favour a new leisure complex, 30\% oppose it and 10\% are indifferent.  A random sample of 4 adults is taken from the population and their opinions on the new complex are noted. 
+ 
+\begin{framed} 
+Find the probability that 
+
+\begin{enumerate}[(i)]
+\item all four think alike, 
+\item  none of the four is opposed to the complex, 
+\item all three opinions (in favour, oppose, indifferent) are represented in the sample, 
+\item  all four are in favour of the complex, if it is given that none of the four is opposed. (10) 
+\end{enumerate} 
+\end{framed} 
+
+ 
+ 
+
+
+
 %-Higher Certificate, Paper I, 2004. Question 1
 \begin{enumerate}
 
@@ -78,16 +97,31 @@ opposed) = 0.2401.
 \item So the required conditional probability is
 0.1296/0.2401 = 0.5398.
 \end{itemize} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+(ii) State the expectation and variance of the number in the sample who are in favour of the complex. (3) 
+\end{framed}
 \item The number in favour is binomially distributed with n = 4 and p = 0.6. 
 \begin{itemize}
     \item So the
 expectation (mean) is $4 \times 0.6 = 2.4$ 
 \item the variance is $4 \times 0.6 \times 0.4 = 0.96$.
 \end{itemize}
+
+\begin{framed} In this city, one quarter of adults are classified as "young" (age < 30) and three-quarters are "older" (aged at least 30).  You are told that 12\% of young adults oppose the complex;  deduce the proportion of older adults who are opposed.  
+\end{framed}
+
 \item P(opposed) = P(opposedyoung)P(young) + P(opposedolder)P(older)
 = (0.12 × 0.25) + (p × 0.75)
 where p = P(opposedolder). But we are given that P(opposed) = 0.3. Hence
 p = 0.36.
+
+
+ 
+ 
+\begin{framed} Given that the sample consists of one young adult and three older adults, find the probability that exactly one member of the sample opposes the complex. 
+\end{framed}
 \item In samples of one "young" and three "olders",
 \begin{eqnarray*}
 P(exactly one opposes) &=& P("young" opposes, "olders" do not)
