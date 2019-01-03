@@ -47,7 +47,7 @@ The cumulative distribution function is given by
 \[ {\displaystyle F(x;\lambda )={\begin{cases}1-e^{-\lambda x}&x\geq 0,\\0&x<0.\end{cases}}} \]
 
 
-F t P T t tλ e λ vdv λ e λ v e λ t
+F t P T t t\lambdae \lambdavdv \lambdae \lambdav e \lambdat
 λ
 = ≤ = - = - -  = - -   ∫ .
 
@@ -77,30 +77,35 @@ where k is a constant of proportionality.
 f (t)
 t
 Taking logarithms (base e),
-
-log L(λ ) = log k + 50log(1- e^{-\lambda} )+ 35log{e^{-\lambda} (1- e^{-\lambda} )}+15log (e^{-2\lambda} )
-= log k +85log (1- e^{-\lambda} )- (35 + 30)λ = log k + 85log (1- e^{-\lambda} )- 65λ .
+\begin{eqnarray*}
+log L(\lambda) &=& log k + 50log(1- e^{-\lambda} )+ 35log{e^{-\lambda} (1- e^{-\lambda} )}+15log (e^{-2\lambda} )\\
+&=& log k +85log (1- e^{-\lambda} )- (35 + 30)\lambda\\
+&=& log k + 85log (1- e^{-\lambda} )- 65\lambda.
 log 85 65 85 65
-1 1
+\end{eqnarray*}
+\[ 1 1
 d L e
 d e e
 λ
-λ λ λ
+\lambda\lambdaλ
 -
 - ∴ = - = -
 - -
-.
-Equating to zero, 85 = 65(eλ -1) or eλ =150 / 65, so that λˆ = log (150 / 65) = 0.836 .
-[It is easy to check that this is indeed a maximum; e.g. ( )
-2
+.\]
+Equating to zero, $85 = 65(e\lambda-1)$ or $e^\lambda=150 / 65$, so that $\hat{\lambda} = log (150 / 65) = 0.836 $$.
+
+
+It is easy to check that this is indeed a maximum; e.g. ( )
+
+\[2
 2 2
 log 85 0
 1
 d L
-dλ eλ
+d\lambdaeλ
 = - <
 -
-.]
+.\]
 \item  \[1- e-0.836 = 0.5666; e-0.836 - e-1.672 = 0.43344 - 0.18787 = 0.2456 . \]
 
 \begin{itemize}
