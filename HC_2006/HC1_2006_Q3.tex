@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,30pt]{article}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -54,34 +54,60 @@ so k = 30.
 f(x) = 0 at x = 0 and at x = 1. f(x) is symmetrical about x = ½. The sketch is as follows. 1.00.90.80.70.60.50.40.30.20.10.0210xf(x)
 \item 1()2EX= by symmetry [or by direct integration: 10()xfxdx∫].
 
+\begin{eqnarray*}
+E(X) &=& \int^{1}_{0} x \;f(x) dx \\
+&=& \int^{1}_{0} x[30(x^2\;-\;x^3)] dx \\
+&=& 30 \int^{1}_{0} x  \times \left[(x^2)(1-x)^2\right] dx\\
+&=& 30 \int^{1}_{0} (x^3)(1-x)^2 dx\\
+&=& 30 \int^{1}_{0} (x^3)(1-2x + x^2) dx\\
+&=& 30 \int^{1}_{0} (x^3 -2x^4 + x^5) dx\\
+&=& 30 \left[ \frac{x^4}{4}  \;-\;  \frac{1}{4} \; + \; \frac{x^6}{6}  \right]\\
+&=& 30 \left[ \left( \frac{1}{4}- 0 \right) \;-\; \left( \frac{1}{4}- 0 \right)  \right]\\
+&=& 30 \left[  \frac{5}{20} \;-\; \frac{4}{20} \right]\\
+&=&  \frac{30}{20} \\
+&=&  \frac{3}{5}\\
+\end{eqnarray*}
 
 %----------%
 \begin{eqnarray*}
 E(X^2) 
-&=& 30 \int^{1}{0} x^2  \times \left[(x^2)(1-x)^2\right] dx\\
-&=& 30 \int^{1}{0} (x^4)(1-x)^2 dx\\
-&=& 30 \int^{1}{0} (x^4)(1-2x + x^2) dx\\
-&=& 30 \int^{1}{0} (x^4 -2x^5 + x^6) dx\\
+&=& 30 \int^{1}_{0} x^2  \times \left[(x^2)(1-x)^2\right] dx\\
+&=& 30 \int^{1}_{0} (x^4)(1-x)^2 dx\\
+&=& 30 \int^{1}_{0} (x^4)(1-2x + x^2) dx\\
+&=& 30 \int^{1}_{0} (x^4 -2x^5 + x^6) dx\\
+&=& 30 \left[  \left(\frac{1}{3} - \frac{1}{2} + \frac{1}{5}\right]\\
+&=& 30 \left[  \left(\frac{1}{5} - 0\right)  -  \left(\frac{1}{3} - 0\right) +  \left(\frac{1}{7} - 0\right) \right]\\
+&=& 30 \left[  \left(\frac{21}{105} - \frac{35}{105} + \frac{15}{105}\right]\\
+&=& 30 \times \frac{1}{105} \\
+&=&  \frac{2}{7} \\
+\end{eqnarray*}
 
-&=& k \left[  \left(\frac{1}{3} - \frac{1}{2} + \frac{1}{5}\right]
-
-
-&=& 30 \left[  \left(\frac{1}{5} - 0\right)  -  \left(\frac{1}{3} - 0\right) +  \left(\frac{1}{7} - 0\right) \right]
-&=& 30 \left[  \left(\frac{21}{105} - \frac{35}{105} + \frac{15}{105}\right]
-&=& 30 \times frac{1}{105} \\
-&=&  frac{2}{7} \\
-
-
-()()1122445600()301302EXxxdxxxx=−=−+∫∫
+()()1302445600()301302EXxxdxxxx=−=−+∫∫
 1566011111113030305375371057xxx⎡⎤⎛⎞=−+=−+=×⎜⎟⎢⎥⎣⎦⎝⎠ .
 {}222211Var()()()722XEXEX⎛⎞ ∴=−=−=⎜⎟⎝⎠.
 ()1/31/323434500113023033PXxxxdxxxx⎛⎞⎡⎤≤=−+=−+⎜⎟ ⎢⎥⎝⎠⎣⎦∫
-44511111301130130..132353812158130⎛⎞⎛⎞=−+=−+=×⎜⎟⎜⎟⎝⎠⎝⎠ = 1781 (= 0.2099).
+44511111301130130..132353830158130⎛⎞⎛⎞=−+=−+=×⎜⎟⎜⎟⎝⎠⎝⎠ = 1781 (= 0.2099).
 
 
+
+
+\begin{eqnarray*}
+Var(X) &=& E(X^2) – [E(X)]^2 \\
+ &=& \frac{2}{7} - \left(\frac{1}{2}\right)^2 \\
+ &=& \frac{8}{28} - \frac{7}{28} \\
+ &=& \frac{1}{28} \\
+\end{eqnarray*}
 
 \[ E(X) = \frac{1}{2}\]
 
+The cumulative distribution function is
+\begin{eqnarray*}
+F(X) &=& \int^{x}_{0} f(u) du \\
+&=& \int^{x}_{0} 30(u^2\;-\;u^3)] du \\
+&=& 30 \left[ \frac{u^3}{3} - \frac{u^4}{4}\right]^1_0\\
+&=& 30 \left[ \left( \frac{x^3}{3}- 0 \right) - \left( \frac{x^4}{4}- 0 \right)  \right]\\
+&=& 30 \int^{1}{0} (x^4 -2x^5 + x^6) dx\\
+&=& k \left[  \left(\frac{1}{3} - \frac{1}{2} + \frac{1}{5}\right]
 
 \item The required probability is 55176418181⎛⎞⎛−=⎜⎟⎜⎝⎠⎝ = 0.3079.
 \item The variance of X for a sample of size 5 is Var()1/28155140X== = 0.00714.
