@@ -37,12 +37,10 @@
 Higher Certificate, Paper I, 2005. Question 1
 \begin{enumerate}
 \item (i)
-49 49! 49.48.47.46.45.44 13983816
-6 6! 43! 6.5.4.3.2.1
- 
-  = = =
- 
-.
+
+
+\[  { 49 \choose 6}  = \frac{49!}{6! 43!} = \frac{49.48.47.46.45.44 }{6.5.4.3.2.1} = 13983816 \]
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % 2005 HC1 Q1
@@ -56,41 +54,26 @@ Higher Certificate, Paper I, 2005. Question 1
 
 
 \item 
-31 31! 31.30.29.28.27.26 736281
-6 6! 25! 6.5.4.3.2.1
- 
-  = = =
- 
-.
-
-
-
-\[ P(\mbox{Winning set} \in \{1,2,\ldots 31\} = \frac{}{} = 0.56265\]
-
-
-
 
 Hence (using also the result of part (i)) we have
-(winning set contains no number > 31) 736281 0.05265
-13983816
-P = = .
+
+\[ P(\mbox{Winning set} \in \{1,2,\ldots 31\} = \frac{ 736281}{13983816} =  0.05265\]
+
 \item  Let U be the number out of the 3,000,000 players choosing from $(1, 2, \ldots, 31)$
 who match all 6 winning numbers, and let V be the number out of the 7,000,000
 players choosing from all the numbers $(1, 2,\ldots, 49)$ who match all 6 winning
 numbers.
 
 %%%%%%%%%%%%%%%%%%%%%%%
-Then Y = U + V, where (given the winning numbers) U and V are independent.
+Then $Y = U + V$, where (given the winning numbers) U and V are independent.
 (a) If all six winning numbers are in the list $(1, 2, \ldots, 31)$, then U is
 binomial with n = 3,000,000 and p = 1/736281, which is approximated by
 Poisson(np) i.e. $\mbox{Poisson} (\lambda = 4.07453)$.
 \begin{itemize}
 \item Similarly, V is binomial with n = 7,000,000 and p = 1/13983816, which is
 approximated by Poisson(0.50058).
-\item Thus, using the result that Poisson( λ
-1) + Poisson( λ
-2) = Poisson( λ
-1 + λ
+\item Thus, using the result that 
+\[Poisson( \lambda_1) + Poisson( \lambda_22) = Poisson( \lambda_1 + \lambda_2)\]
 2)
 [where the two Poisson distributions are independent], we have that the
 approximate distribution of Y is Poisson(4.57511).
