@@ -1,0 +1,61 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}Higher Certificate, Paper II, 2006.  Question 1 
+ 
+ \begin{enumerate}
+\item The variance of this sample is 
+ 
+2 2 1 15568 15106.93 4054484 256.05 59 60 59
+s
+⎛⎞ = − = = ⎜⎟ ⎝⎠ . 
+ 
+The null hypothesis to be tested is "σ 2 = 256".  It seems obvious that this null hypothesis is not likely to be rejected (even if the sample had been of considerably smaller size), but continuing with a formal test we use test statistic 
+ 
+2
+2 ( 1) 59 256.05 59.01 256 ns σ −× ==
+ 
+ 
+which is referred to .  The upper 5% point is about 78.  Clearly we cannot reject the null hypothesis as the data give no evidence for doing so. 2 59χ
+ 
+ 
+\item We have  15568 259.46 60 x ==  and we wish the test the null hypothesis μ = 266.  Taking the value of σ as 16, which seems highly plausible from part (i), we use test statistic 
+ 266 3.1616 60 x − =− 
+ 
+and refer to N(0, 1). 
+ [Alternatively, we could continue to use the sample variance s2 (= 256.05) and refer 266 60 x s − to t59;  this makes hardly any difference in practice in this case.] 
+ 
+This is well beyond the double-tailed 1\% point of N(0, 1);  there is strong evidence against this null hypothesis.  It is reasonable to conclude that this population has a mean different from the "normal" one;  it appears to be less. 
+ 
+Using N(0, 1), we have , giving a p-value of 0.0016. 
+\end{enumerate}
+\end{document}
