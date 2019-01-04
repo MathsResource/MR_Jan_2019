@@ -1,0 +1,54 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+Higher Certificate, Paper II, 2006.  Question 5 
+\begin{enumerate} 
+\item  Ordered diagram: (stem unit 10000) 
+          STEM    0  1 1 2 3 3 4 4 6 7 8 8 9 9    1  4 4 7    2  1 4 4 7 8    3  3 6 6 7 8 9    4  2 6 9    5  0 0 2 7 7    6  1    7  0 1 3 8 9    8  2 7 8    9  3 6 9  10  9  11  5  …   16  0 
+ There is considerable skewness, with a large number in stem 0 and a long tail to the right.  There are also gaps. 
+\item  The median is between the 25th and 26th in order:  37 38 37.5 2 M + == . 
+ The quartiles are at the 13th and 38th in order:  lower quartile q = 9, upper quartile Q = 71.  [Other conventions are also acceptable for the quartiles.] 
+ These are in thousands;  so we have q = 9000, M = 37500, Q = 71000.  The inter-quartile range is then 62000. 
+  2217 44.34 (thousand) 50 x == . 
+ 
+ 
+2 2 1 2217 66139.22 164441 1349.78; so 36.74 (thousand) 49 50 49 ss ⎛⎞ = − = = = ⎜⎟ ⎝⎠ . 
+ 
+ 
+\item  For reasons given above, the mean and standard deviation will not be good measures of location and dispersion.  The median, 37500, and inter-quartile range, 62000 (or the semi-iqr 31000) would be preferred. 
+ The middle 50% of the observations have range 62000.  The lower 50% are 37500 or less. 
+ 
+ 
+\item  A correlation measure is appropriate.  The strength of a linear relationship can be assessed by Pearson's product-moment coefficient.  But the farm number distribution is skew, and the state area distribution is also likely to be skew, so Spearman's rank-based coefficient is better.  (Spearman's coefficient uses the ranked data in each set instead of actual measurements.) 
+\end{enumerate}
+\end{document}
