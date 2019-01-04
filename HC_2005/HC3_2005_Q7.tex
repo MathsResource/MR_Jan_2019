@@ -1,9 +1,42 @@
-Higher Certificate, Paper III, 2005. Question 7
-(i) Let X denote the underlying random variable, with pdf ()/1xfxeμμ−=. So the likelihood function is ()/11,...,inxnniLxxeμμ−−==Π and 1loglog/niiLnxμμ==−−Σ.
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}Higher Certificate, Paper III, 2005. Question 7
+\begin{enumerate
+\item Let X denote the underlying random variable, with pdf ()/1xfxeμμ−=. So the likelihood function is ()/11,...,inxnniLxxeμμ−−==Π and 1loglog/niiLnxμμ==−−Σ.
 ()2log1iLnxμμμ∂∴=−+∂Σ, which we set equal to 0 to obtain the MLE ˆμ. Hence
 []11ˆniixxnμ===Σ.
 (We can quickly confirm that this is a maximum by considering the second derivative.)
-(ii) The value of the estimate ˆμ is 2989.8x=.
+\item  The value of the estimate ˆμ is 2989.8x=.
 For any specified x, ()0011xttxPXxedteeμμ μμ−−−⎡⎤≤==−=−⎢⎥⎢⎥⎣⎦∫.
 x ˆxμ ˆ1xeμ−−
 × 96
@@ -70,8 +103,10 @@ The value of the test statistic is
 ()()()()22222117.70167.0846.2966.61...20.547.707.086.296.61X−−−−=++++=.
 This is referred to . It is significant at slightly beyond the 1% level (critical point is 20.09). 28χ
 Hence the (strong) evidence is that the model does not fit the data. The largest contributions to X2 come from the first two intervals, especially the (250, 500) interval, and from the (4000, 6000) interval.
-(iii)
+\item 
 ()//20000/2000020000120000xxPXedxeeμμμμ∞∞−−−⎡⎤>==−=⎣⎦∫.
 Estimating this using ˆ2989.8xμ==, we get 0.01244.
 However, the data give that the relative frequency of claims above 20000 is 2/98 = 0.02083. The model substantially underestimates the probability of claims of this size.
-(iv) The distribution of the number of claims is very skew, with a long tail to the right. Also, the frequency in the second interval is greater than in the first (of the same width), so a model needs to have a mode above 250. The rate of decrease of frequencies is slow. Perhaps a log-normal model might be better, or a more general 2-parameter model such as a gamma.
+\item  The distribution of the number of claims is very skew, with a long tail to the right. Also, the frequency in the second interval is greater than in the first (of the same width), so a model needs to have a mode above 250. The rate of decrease of frequencies is slow. Perhaps a log-normal model might be better, or a more general 2-parameter model such as a gamma.
+\end{enumerate}
+\end{document}
