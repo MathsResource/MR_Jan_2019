@@ -1,6 +1,40 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
 Higher Certificate, Paper II, 2005. Question 6
-(i) The Mann-Whitney U test is preferred to the t test for comparing location in two independent samples with the same underlying dispersion if the data come from distributions that are not (approximately) Normal and if the data are ranked rather than measured exactly (i.e. the data are ordinal but not of interval type).
-(ii)
+\begin{enumerate}
+\item The Mann-Whitney U test is preferred to the t test for comparing location in two independent samples with the same underlying dispersion if the data come from distributions that are not (approximately) Normal and if the data are ranked rather than measured exactly (i.e. the data are ordinal but not of interval type).
+\item
 A
 ... . . . . .
 .
@@ -11,7 +45,7 @@ B
 . .
 200 300 400 500 600 700
 Both distributions are skew to the right, of fairly similar shape. The ranges are about the same, suggesting that the underlying dispersions might reasonably be taken as equal. The locations are clearly different. The samples are certainly to small for the Central Limit Theorem to apply to their means.
-(iii) The Mann-Whitney U test (equivalently, a Wilcoxon rank sum test could be used) is applied as follows. The data and ranks are shown in the table, using average ranks for ties.
+\item The Mann-Whitney U test (equivalently, a Wilcoxon rank sum test could be used) is applied as follows. The data and ranks are shown in the table, using average ranks for ties.
 231
 233
 249
@@ -76,4 +110,20 @@ n1 = 10, n2 = 10. Total rank for component type A is TA = 149; for B is TB = 61.
 Calculating the Mann-Whitney statistic via the ranks (note: it can also be calculated directly, or the Wilcoxon rank-sum form could be used),
 ()11121121AUnnnnT=++− = 100 + 55 – 149 = 6.
 ()12122221BUnnnnT=++− = 100 + 55 – 61 = 94.
-So Umin = 6. From tables, the critical value for a U test with n1 = n2 = 10 at the 5% two-tailed level is 23. As 6 < 23, we reject the null hypothesis at the 5% level of significance. In fact we would also reject at the 1% level. So (in a form for the non-statistician to understand) there is extremely strong evidence that the lifetimes of the two types of components are different and we can strongly conclude that, on the whole, lifetimes of type A are longer than those of type B.
+\begin{itemize}
+\item So Umin = 6. From tables, the critical value for a U test with n1 = n2 = 10 at the 5\% two-tailed level is 23. As 6 < 23, we reject the null hypothesis at the 5\% level of significance.
+\item In fact we would also reject at the 1\% level. So (in a form for the non-statistician to understand) there is extremely strong evidence that the lifetimes of the two types of components are different. 
+\item Therefore we can strongly conclude that, on the whole, lifetimes of type A are longer than those of type B.
+\end{itemize}
+
+\begin{framed}
+
+U is then given by:[4]
+$ {\displaystyle U_{1}=R_{1}-{n_{1}(n_{1}+1) \over 2}\,\!}  $ 
+where n1 is the sample size for sample 1, and R1 is the sum of the ranks in sample 1.Note that it doesn't matter which of the two samples is considered sample 1. An equally valid formula for U is
+${\displaystyle U_{2}=R_{2}-{n_{2}(n_{2}+1) \over 2}\,\!} $
+The smaller value of U1 and U2 is the one used when consulting significance tables. The sum of the two values is given by \[ {\displaystyle U_{1}+U_{2}=R_{1}-{n_{1}(n_{1}+1) \over 2}+R_{2}-{n_{2}(n_{2}+1) \over 2}.\,\!}\] 
+Knowing that R1 + R2 = N(N + 1)/2 and N = n1 + n2, and doing some algebra, we find that the sum is U1 + U2 = n1n2.
+\end{framed}
+\end{enumerate}
+\end{document}
