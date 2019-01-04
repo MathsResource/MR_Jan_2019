@@ -31,15 +31,22 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}Higher Certificate, Paper I, 2005. Question 5
-(i) We have Y ~ B(n, p), so ( ) ( ) ! (1 )
+
+\begin{enumerate}
+\item We have Y ~ B(n, p), so ( ) ( ) ! (1 )
 ! !
 P Y y n py p n y
 y n y
 − = = −
 −
 (for y = 0, 1, 2, …, n
-and 0 < p < 1). The likelihood L is simply P(Y = y).
+and 0 < p < 1). 
+\begin{itemize}
+\item
+The likelihood L is simply P(Y = y).
+\item
 Hence log L = constant + y log p + (n − y)log(1− p).
+\item 
 log
 1
 d L y n y
@@ -48,13 +55,17 @@ dp p p
 which on setting equal to zero gives that the maximum
 likelihood estimate is pˆ y
 n
-= . [Consideration of
+= . 
+
+\item Consideration of
 2
 2
 d log L
 dp
 confirms that this is a
-maximum.]
+maximum.
+
+\item 
 ( ) ( ) ( ) ( )
 2 2
 1 1 1 Var ˆ Var 1
@@ -62,7 +73,8 @@ p p
 p Y np p
 n n n
 −
-= = − = . We may estimate p by ˆp in this and
+= = − = . 
+\item We may estimate p by ˆp in this and
 thus obtain an estimate of the standard error of pˆ as ( ) ( ) ˆ 1 ˆ
 SE ˆ
 p p
@@ -70,10 +82,12 @@ p
 n
 −
 = .
+\item 
 For n = 100 and y = 20, we have pˆ = 0.2 and SE( ˆ ) 0.2 0.8 0.04
 100
 p = × = .
-(ii) P("yes") is given by P(takes drugs and coin shows "takes drugs") + P(does not
+\end{itemize}
+\item P("yes") is given by P(takes drugs and coin shows "takes drugs") + P(does not
 take drugs and coin shows "does not take drugs").
 Hence θ = P("yes") = 0.75p + 0.25(1 – p) = 0.25 + 0.5p.
 Z ~ B(n, θ ), so from part (i) we have θˆ = z/n and SE(θˆ) = θˆ (1−θˆ)/ n .
@@ -82,10 +96,18 @@ We have p = 2θ – ½, so the MLE of p is 1
 p�� = 2θˆ − .
 Thus SE( p�� ) = 2 SE(θˆ) = 2 θˆ (1−θˆ)/ n .
 For n = 100 and z = 45, we have θˆ = 0.45 and so p�� = 0.4 and SE( p�� ) = 0.0995 .
-(iii) Both p and the standard error are estimated to be larger by the second survey.
-The larger p is plausible, as some people are likely not to admit to taking drugs when
-asked directly as in the first survey. There is a much better expectation of truthful
-answers in the second survey. We should not claim that the first is better just because
-the SE is smaller; the first survey is likely to be biased. (Is it clear what the journalist
-means by "reliable"?)
+\item Both p and the standard error are estimated to be larger by the second survey.
+\begin{itemize}
+    \item The larger p is plausible, as some people are likely not to admit to taking drugs when
+asked directly as in the first survey.
+    \item There is a much better expectation of truthful
+answers in the second survey.
+    \item We should not claim that the first is better just because
+the SE is smaller; the first survey is likely to be biased. 
+    \item Is it clear what the journalist
+means by "reliable"?
+\end{itemize}
+
+\end{enumerate}
+
 \end{document}
