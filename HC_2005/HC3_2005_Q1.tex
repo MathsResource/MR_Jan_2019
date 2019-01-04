@@ -1,17 +1,39 @@
-THE ROYAL STATISTICAL SOCIETY
-2005 EXAMINATIONS − SOLUTIONS
-HIGHER CERTIFICATE
-PAPER III
-STATISTICAL APPLICATIONS AND PRACTICE
-The Society provides these solutions to assist candidates preparing for the examinations in future years and for the information of any other persons using the examinations.
-The solutions should NOT be seen as "model answers". Rather, they have been written out in considerable detail and are intended as learning aids.
-Users of the solutions should always be aware that in many cases there are valid alternative methods. Also, in the many cases where discussion is called for, there may be other valid points that could be made.
-While every care has been taken with the preparation of these solutions, the Society will not be responsible for any errors or omissions.
-The Society will not enter into any correspondence in respect of these solutions.
-Note. In accordance with the convention used in the Society's examination papers, the notation log denotes logarithm to base e. Logarithms to any other base are explicitly identified, e.g. log10.
-© RSS 2005
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
 Higher Certificate, Paper III, 2005. Question 1
-(i) Means are: I low 76.25; I high 57.50; II low 73.75; II high 54.25.
+\begin{enumerate}
+\item Means are: I low 76.25; I high 57.50; II low 73.75; II high 54.25.
 Blood
 sugar
 Insulin 1
@@ -25,7 +47,7 @@ dose levels
 low
 high
 As the two lines are virtually parallel, there is no evidence of any interaction between insulin type and dose level.
-(ii) Totals for insulins are I: 535, II: 512. Grand total = 1047
+\item Totals for insulins are I: 535, II: 512. Grand total = 1047
 Hence SS for insulin = 222535512104733.06258816+−=.
 Level totals are 600, 447. So SS for levels = 22260044710471463.06258816+−=.
 So analysis of variance table is
@@ -66,6 +88,7 @@ TOTAL
 15
 2463.94
 The standard error of a treatment mean is 74.454.314=
-Solution continued on next page
-(iii) The only influential effect on blood sugar is the dose given; there is no evidence of any differences due to types of insulin and certainly not of any interaction of dose level with type of insulin. The higher dose level reduces blood sugar. Results are rather variable, as shown by the size of the standard error. Rabbits do not show any real difference in response.
-(iv) Using the same four rabbits for all treatments eliminates any possible differences between animals (which did not show up in this experiment but may do in others). Treatment effects and differences will be estimated more precisely because of this. But we need to assume that using the same animals for all four treatments does not affect the responses, all of which are still independent of one another. If there were to be reactions or carry-over effects, it would be better to use 16 animals. The results would be obtained more quickly but they would very likely be more variable.
+\item The only influential effect on blood sugar is the dose given; there is no evidence of any differences due to types of insulin and certainly not of any interaction of dose level with type of insulin. The higher dose level reduces blood sugar. Results are rather variable, as shown by the size of the standard error. Rabbits do not show any real difference in response.
+\item Using the same four rabbits for all treatments eliminates any possible differences between animals (which did not show up in this experiment but may do in others). Treatment effects and differences will be estimated more precisely because of this. But we need to assume that using the same animals for all four treatments does not affect the responses, all of which are still independent of one another. If there were to be reactions or carry-over effects, it would be better to use 16 animals. The results would be obtained more quickly but they would very likely be more variable.
+\end{enumerate}
+\end{document}
