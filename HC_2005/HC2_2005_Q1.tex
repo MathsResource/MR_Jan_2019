@@ -1,19 +1,42 @@
-THE ROYAL STATISTICAL SOCIETY
-2005 EXAMINATIONS − SOLUTIONS
-HIGHER CERTIFICATE
-PAPER II − STATISTICAL METHODS
-The Society provides these solutions to assist candidates preparing for the examinations in future years and for the information of any other persons using the examinations.
-The solutions should NOT be seen as "model answers". Rather, they have been written out in considerable detail and are intended as learning aids.
-Users of the solutions should always be aware that in many cases there are valid alternative methods. Also, in the many cases where discussion is called for, there may be other valid points that could be made.
-While every care has been taken with the preparation of these solutions, the Society will not be responsible for any errors or omissions.
-The Society will not enter into any correspondence in respect of these solutions.
-Note. In accordance with the convention used in the Society's examination papers, the notation log denotes logarithm to base e. Logarithms to any other base are explicitly identified, e.g. log10.
-© RSS 2005
-Higher Certificate, Paper II, 2005. Question 1
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+\begin{enumerate}
+    \item 
 (i) The Poisson distribution to explain numbers of goals might be a reasonable assumption if home team scores can be regarded as random events occurring at a constant average rate throughout the season. If so, the number of home team goals in a match is Poisson with parameter (mean) equal to this constant average rate, μ say.
-(ii) 634/3801.6684r==.
+    \item  (ii) 634/3801.6684r==.
 22221()163417781.90031379380frsfrff⎧⎫⎛⎞Σ=Σ−=−=⎨⎬⎜⎟Σ−Σ⎩⎭⎝⎠.
-(iii) We take μ as 1.6684. So ()1.668400.1885PRe−===, and the expected frequency for r = 0 is 380 × 0.1885 = 71.65.
+    \item  (iii) We take μ as 1.6684. So ()1.668400.1885PRe−===, and the expected frequency for r = 0 is 380 × 0.1885 = 71.65.
 Similarly, , and the expected frequency for r = 1 is 119.51. ()1.668411.66840.3145PRe−===
 Hence we have (taking the remaining expected frequencies from the question paper)
 r
@@ -43,6 +66,8 @@ Expected
 [Note. There is a very small rounding error in the calculations of expected frequencies.]
 The test statistic is
 ()22222(8171.65)(112119.51)(1410.51)...6.26171.65119.5110.51OEXE−−−−==+++=Σ,
-which is referred to (note 4 degrees of freedom because the table has 6 cells and there is one estimated parameter). This is not significant (the 5% point is 9.49); we cannot reject the null hypothesis, i.e. there is no evidence against the Poisson model with these data. 24χ
+which is referred to (note 4 degrees of freedom because the table has 6 cells and there is one estimated parameter). This is not significant (the 5\% point is 9.49); we cannot reject the null hypothesis, i.e. there is no evidence against the Poisson model with these data. 24χ
 For the test, the expected frequencies need to be not too small (≥5 is often used as a criterion). This would not be the case if frequencies for large r were not combined.
-(iv) The negative binomial is commonly used where there is "over-dispersion". [It assumes that the rate (μ) is not always constant but varies (from match to match) according to a gamma distribution.]
+    \item (iv) The negative binomial is commonly used where there is "over-dispersion". [It assumes that the rate (μ) is not always constant but varies (from match to match) according to a gamma distribution.]
+\end{enumerate}
+\end{document}
