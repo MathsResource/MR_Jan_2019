@@ -43,17 +43,17 @@
 \item[A:]  
 \begin{itemize}
 \item[$\bullet$] No Entries
-\[ P( 0 \mbox{entries}) = \left(\frac{1}{2}\right)^2  = \left(\frac{1}{4}\right) = 0.25\]
+\[ P( 0 \mbox{ entries}) = \left(\frac{1}{2}\right)^2  = \left(\frac{1}{4}\right) = 0.25\]
 \item[$\bullet$] One Entry
-\[ P( 1 \mbox{entry}) = \left( 2 \times \frac{1}{2} \times \frac{1}{2}\right)  = \left(\frac{1}{2}\right) = 0.5\]
+\[ P( 1 \mbox{ entry}) = \left( 2 \times \frac{1}{2} \times \frac{1}{2}\right)  = \left(\frac{1}{2}\right) = 0.5\]
 \end{itemize}
 
 \item[B:]
 \begin{itemize}
 \item[$\bullet$] No Entries
-\[ P( 0 \mbox{entries}) = \left(\frac{3}{4}\right)^3  = \left(\frac{27}{64}\right) = 0.4219\]
+\[ P( 0 \mbox{ entries}) = \left(\frac{3}{4}\right)^3  = \left(\frac{27}{64}\right) = 0.4219\]
 \item[$\bullet$] One Entry
-\[ P( 1 \mbox{entry}) = \left( 3 \times \frac{1}{4} \times \frac{3}{4}\right)^2\right)  = \left(\frac{27}{64}\right) = 0.4219\]
+\[ P( 1 \mbox{ entry}) =  3 \times \left( \frac{1}{4}\right) \times \left( \frac{3}{4}\right)^2  = \left(\frac{27}{64}\right) = 0.4219\]
 \end{itemize}
 
 \item[C:]
@@ -61,20 +61,33 @@
 \item[$\bullet$] No Entries
 \[ P( 0 \mbox{ entries}) = \left(\frac{4}{5}\right)^5  = \left(\frac{1024}{3125}\right) = 0.327\]
 \item[$\bullet$] One Entry
-\[ P( 1 \mbox{ entry}) = \left( 5 \times \frac{1}{5} \times \frac{4}{5}\right)^4\right)  = \left(\frac{256}{625}\right) = 0.4096s\]
+\[ P( 1 \mbox{ entry}) =  5 \times \left( \frac{1}{5} \right) \times \left( \frac{4}{5}\right)^4\right)  = \left(\frac{256}{625}\right) = 0.4096\]
 \end{itemize}
 \end{description}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item  P(1 entry in total)
-= P(1 from A, 0 from B and C) + P(1 from B, 0 from A and C)
-+ P(1 from C, 0 from A and B)
-12710242711024256127459264312564431256254643125=××+××+××=.
+\item 
+\begin{framed}
+\begin{itemize}
+    \item $P(1\mbox{ from }A, 0\mbox{ from }B, 0\mbox{ from }C)$ denoted as  $P([1,0,0])$ 
+    \item $P(0\mbox{ from }A, 1\mbox{ from }B, 0\mbox{ from }C)$ denoted as $P([0,1,0])$ 
+\item $P(0\mbox{ from }A, 0\mbox{ from }B, 1\mbox{ from }C)$ denoted as $P([0,0,1])$
+\end{itemize}
+\end{framed}
+
+
+\begin{eqnarray*}
+P(1\mbox{ entry in total}) &=& P([1,0,0]) + P([0,1,0]) + P([0,0,1])\\
+&=& \left[ 0.5 \times 0.4219 \times 0.327  \right] + 
+\left[ 0.5 \times 0.4219 \times 0.327   \right] + 
+\left[ 0.5 \times 0.4219 \times 0.4096   \right] 
+\end{eqnarray*}
+
 [If worked in decimals, this is 0.1469.]
 
 \begin{eqnarray*}
-P(1 from A | 1 in total) &=& \frac{P(\mbox{1 from A and 1 in total})}{ P(1 in total)}\\
-&=& P(\mbox{1 from A, 0 from B and C}) / P(1 in total) \\
+P(1 \mbox{ from } A | 1 in total) &=& \frac{P(\mbox{1 \mbox{ from } A and 1 in total})}{ P(1 in total)}\\
+&=& \frac{P(\mbox{1 \mbox{ from } A, 0 from B and C}) }{P(1 in total)} \\
 &=& 271024126431254593125817××=.\\
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
