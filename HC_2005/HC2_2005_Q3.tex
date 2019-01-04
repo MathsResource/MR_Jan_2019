@@ -1,5 +1,39 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
 Higher Certificate, Paper II, 2005. Question 3
-(i) The expected frequencies on the null hypothesis of no difference between the sexes in the response are found in the usual way from the marginal totals (e.g. that for "Female, No" is 29×35/50 = 20.3). Thus the observed and expected frequencies are
+\begin{enumerate}
+\item (i) The expected frequencies on the null hypothesis of no difference between the sexes in the response are found in the usual way from the marginal totals (e.g. that for "Female, No" is 29×35/50 = 20.3). Thus the observed and expected frequencies are
 Observed frequencies
 Expected frequencies
 Female
@@ -26,8 +60,10 @@ Total
 All the differences between observed and expected frequencies are ±2.3, becoming ±1.8 if Yates' correction is used. Thus the usual test statistic can be calculated as (using Yates' correction)
 ()211111.81.26720.38.714.76.3⎧⎫+++=⎨⎬⎩⎭
 (or 2.07 if Yates' correction is not used). This is referred to ; the upper 5% point is 3.84, so we have no evidence of a real sex difference. 21χ
-(ii) fmpp− is estimated by 1142921ˆˆ0.37930.19050.1888fmpp−=−=−=. The estimated variance of ˆˆfmpp− is given by
+\item  fmpp− is estimated by 1142921ˆˆ0.37930.19050.1888fmpp−=−=−=. The estimated variance of ˆˆfmpp− is given by
 ()()ˆˆ1ˆˆ10.00811840.00734260.015461ffmmfmppppnn−−+=+=.
 Thus the approximate 95% confidence interval is given by 0.1888 ± (1.96×√0.015461) i.e. it is (–0.0548, 0.4324) or, in percentage terms, (–5.48%, 43.24%).
 The Normal approximation is unlikely to be very good with these small samples, especially as the values of ˆfp and ˆmp suggest that fp and mp are some way from 0.5.
 (We might note also that the confidence interval is very wide; it does not give much information, due to lack of sufficient data.)
+\end{enumerate}
+\end{document}
