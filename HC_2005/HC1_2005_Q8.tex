@@ -45,26 +45,30 @@ Values of X
 Marginal distribution of Y 1/3 1/3 1/3
 Hence E[X] = 0 and E[Y] = 1 (by symmetry; by noting that X and Y are both discrete
 uniform; or by explicit calculation).
-Var(X) = Σ(x – 0)2P(X = x) = {(–1)2 + 02 + 12)/3 = 2/3.
+\[Var(X) = \sum(x – 0)2P(X = x) = {(–1)2 + 02 + 12)/3 = 2/3.\]
 Var(Y) can be calculated similarly; or, since Y = X + 1, we have Var(Y) = Var(X).
 \item The conditional distributions of Y for each value of X are as follows.
 Y = 0 1 2
 X = –1 1/2 1/4 1/4
 0 1/4 1/2 1/4
 1 1/4 1/4 1/2
-Hence E[Y | X = –1] = (0)(½) + (1)(¼) + (2)(¼) = 3/4.
-Similarly, E[Y | X = 0] = 1 and E[Y | X = 1] = 5/4.
-Thus we have E[Y | X = x] = 1+ 4x .
-\item E[XY] = (–1)(0)(1/6) + (–1)(1)(1/12) + ….. + (1)(2)(1/6) = 1/6.
-∴ Cov(X, Y) = E[XY] – E[X]E[Y] = 1
-6 − (0)(1) = 1/6.
-∴ Corr(X, Y) = Cov( , )
-Var( ) Var( )
-X Y
-X Y
-= 1/6 1
-2/3 4
-= .
+Hence $E[Y | X = –1] = (0)(0.5) + (1)(0.25) + (2)(0.25) = 3/4$.
+Similarly, $E[Y | X = 0] = 1 and E[Y | X = 1] = 5/4$.
+Thus we have $E[Y | X = x] = 1+ 4x$ .
+\item 
+\begin{eqnarray*} 
+E[XY] = (–1)(0)(1/6) + (–1)(1)(1/12) + \ldots + (1)(2)(1/6) \\ &=&  1/6.
+\end{eqnarray*}
+
+\begin{eqnarray*}
+Cov(X, Y) &=& E[XY] – E[X]E[Y] \\ 
+&=& 1
+6 − (0)(1) \\ &=& 1/6\\
+\end{eqnarray*}
+
+\begin{eqnarray*}Corr(X, Y) \\ &=& \frac{Cov(X, Y)}{Var(X ) Var(Y  )}
+\\ &=& \frac{1/6}{2/3} \\ &=& \frac{1/6}{2/3}
+\end{eqnarray*}
 X and Y are not independent: their correlation (or covariance) is non-zero. (In fact we
 saw in part (i) that they are linearly related: Y = X + 1.)
 \item ( )Z = X 3 + Y −1 3 . The values of Z and their probabilities are as shown:
