@@ -26,45 +26,87 @@
 
 \begin{document}
 
-\begin{enumerate}
-\item 2 (i) X is binomially distributed B(n; p) and so P(X = x) = ( n
-x
-)px(1 ¡ p)n¡x ; x =
-0; 1; 2 ¢ ¢ ¢ n:
+  \begin{table}[ht!]
+  \centering
+  \begin{tabular}{|p{15cm}|}
+  \hline
+Part (a) \\  
+Suppose that a random variable X is the number of successes in n independent trials, each of which has a probability of success p.  Derive the expected value of X, and write down the variance of X.\\
+  \hline
+   \end{tabular}
+ \end{table}
+
+
+
+\begin{enumerate}[(a)]
+\item  $X$ is binomially distributed $B(n, p)$ and so 
+\[P(X = x) = { n \choose x} p^x(1 - p)^{n-x}  \qquad \mbox{ where }; x =
+0, 1, 2, \ldots n.\]
 Hence
-E[X] =
-Xn
-x=0
-xpx(1 ¡ p)n¡x n!
-x!(n ¡ x)!
-= np
-Xn
-x=0
-(n ¡ 1)!px¡1(1 ¡ p)n¡x
-(x ¡ 1)!(fn ¡ 1g ¡ fx ¡ 1g)!
-since the term in E[X] for the value x = 0 is zero. Put Y = (x ¡ 1)
+\begin{eqnarray*}
+E[X] 
+&=&  \sum^{n}_{x=0}xp^{x} (1-p)^{n-x} \frac{n!}{x!(n-x)!}\\
+&=&  np \sum^{n}_{x=0} \frac{(n-1)! p^{x-1}(1-p)^{n-x}}{(x-1)!([n-1]=[x-1])!}\\
+\end{eqnarray*}
+
+since the term in $E[X]$ for the value x = 0 is zero. Put $Y = (x - 1)$
 Thus
-E[X] = np
-nX¡1
-y=0
-( n ¡ 1
-y
-)py(1 ¡ p)n¡y = (p + (1 ¡ p))n¡1np = np
+\begin{eqnarray*}
+E[X] 
+&=&  np \sum^{n-1}_{y=0} {{n-1}\choose y} (n-1)! p^{y}(1-p)^{n-y}\\
+&=& (p+(1-p))^n \times np\\
+&=& np \\
+\end{eqnarray*}
+
 The expression for variance is $V [X] = np(1 - p).$
+
+%%%%%%%%%%%%%%%%
+\newpage
+  \begin{table}[ht!]
+  \centering
+  \begin{tabular}{|p{15cm}|}
+  \hline
+Part (b) \\  
+On a journey to work, a cyclist has to pass through four sets of traffic lights.  Assume that the lights operate independently and that at each light there is a probability of 1/2 that the cyclist has to stop.  Let Y be the number of lights at which the cyclist has to stop.  Find  P(Y ≥ 3) and P(Y = 2). (5) 
+\\ 
+(b) Use the results of part (i) above to obtain the mean and variance of Y. (2) \\    \hline
+   \end{tabular}
+ \end{table}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
 \item  (a) Y is B(4; 1=2) so P(Y = y) = (
 4
 y
 )1=24 for y = 0; 1; 2; 3; 4
 \begin{eqnarray*}
-P(Y ¸ 3) &=& P(3) + P(4) = 4 £ 1=16 + 1 £ 1=16 = 5=16
-P(Y = 2)\\ &=& 4£3£1 
-2£1£16 \\ &=& 3=8.
+P(Y ¸ 3) &=& P(3) + P(4) = 4 \times \frac{1}{16} + 1 £ \frac{1}{16}\\
+ &=&  5/16
 \end{eqnarray*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{eqnarray*}
+P(Y = 2) &=& 4£3£1 
+2£1£16 \\ &=& 3/8.
+\end{eqnarray*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+\newpage
+  \begin{table}[ht!]
+  \centering
+  \begin{tabular}{|p{15cm}|}
+  \hline
+Part (c) \\  
+Assume now that the probabilities of stopping at the four lights are 3/4, 1/3, 2/3, 1/4, but that the lights still operate independently.  Find the mean and variance of the number of lights at which the cyclist has to stop, and compare your results with those of part (b)(ii)(b) above.  \\    \hline
+   \end{tabular}
+ \end{table}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item E[Y ] = 2 ; V [Y ] = 1.
-\item Now Y = Z1 + z2 + Z3 + Z4, where each Zi is a Bernoulli variable with mean pi
-and variable pi(1 ¡ pi) By independence, E[Y ] =
+\item Now $Y = Z_1 + Z_2 + Z_3 + Z_4$, where each $Z_i$ is a Bernoulli variable with mean $p_i$
+and variable $p_i(1 - p_i)$ By independence, E[Y ] =
 P4
 i=1
 E[Zi] and V [Y ] =
@@ -72,12 +114,20 @@ P4
 i=1
 V [Zi] so
 \begin{itemize}
-    \item E[Y ] = 3=4 + 1=3 + 2=3 + 1=4 = 2 (the same as before since the new probabilities
+ \item $E[Y ] = 3/4 + 1/3 + 2/3 + 1/4 = 2$ (the same as before since the new probabilities
 average to 1/2).
-\item Also V [Y ] = 3=4£1=4+1=3£2=3+2=3£1=3+1=4£3=4 = 3=16+2=9+2=9+3=16 =
+\item Also 
+
+\begin{eqnarray*}
+V(Y) &=& \left(\frac{3}{4} \times \frac{1}{4}\right)
++  \left(\frac{1}{3} \times \frac{2}{3}\right)
++  \left(\frac{2}{3} \times \frac{1}{3}\right)
++  \left(\frac{1}{4} \times \frac{3}{4}\right) \\
+ &=& \frac{12}{72} +  \frac{16}{72} + \frac{6}{72}
+\end{eqnarray*}
 59=72 (less than before)
 \item NOTE: for probabilities which average to 1/2, the first case gives the maximum sine
-if pi 6= 1=2the product pi(1 ¡ pi) is < 1=4 for each component.
+if $ pi \neq 1/2$ the product $pi(1 - pi)$ is < 1=4 for each component.
 \end{itemize}
 
 \end{enumerate}
