@@ -24,13 +24,37 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+If a Ruritanian peasant farmer grows cereals, his profit X1 in Ruritanian pounds (£R),  is Normally distributed with mean
+ 1750 and standard deviation 300.  If he grows beans his profit X2 is Normally distributed with mean 2000 and standard deviation 400.  If he grows a proportion p of cereals and a proportion 1−p of beans, the profit, Y, is pX p X 12 1 +− ()where 0 1 ≤≤ p .
+\\
+\noindent \textbf{Part (a)}\\
+State the distribution of Y, assuming that X1 and X2 are independent.\\
+
+ \hline
+      \end{tabular}
+    \end{table}
+    
 
 
-\section{Introduction}
-\begin{enumerate}
-\item (i) $Y = pX1 + (1 ¡ p)X2$ is $N(1750p + 2000(1 ¡ p); p2 ¢ 300^2 + (1 ¡ p)2 ¢ 400^2)$
+\begin{enumerate}[(a)]
+\item $Y = pX1 + (1 ¡ p)X2$ is $N(1750p + 2000(1 ¡ p); p2 ¢ 300^2 + (1 ¡ p)2 ¢ 400^2)$
 i.e. \[N(2000 ¡ 250p; 104f9p^2 + 16(1 ¡ p)2g)\]
 or \[N(2000 ¡ 250p; 10000(25p^2 ¡ 32p + 16))\].
+
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+(ii) State the value of p, p1 say, which maximises the farmer’s expected profit,EY ( ). 
+\\ \hline 
+      \end{tabular}
+    \end{table}
+    
+    
 \item $E[Y ] = 2000 - 250p$ and has maximum value (2000) for $p1 = 0$.
 \item $V[Y]$ is minimized when 
 \[ \frac{d}{dp}(25p^2 - 32p + 16) =0\]
@@ -42,6 +66,15 @@ The second deviation is > 0, indicating a minimum.
 E[Y jp2 = 16=25] &=& 2000 ¡ 250£16
 25\\ &=& £1840.
 \end{eqnarray*}
+
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+
+(iii) Find the value of  p, p2  say, which minimises the variance of the farmer’s profit, that is, minimises V(Y). \\ \hline 
+      \end{tabular}
+    \end{table}
 \item  (a) On p = p1 = 0, $Y \sim N(2000; 400^2)$:
 \begin{eqnarray*}
 P(Y < 1480) &=& P(Z < \left( \frac{1480-2000}{400}
@@ -49,6 +82,15 @@ P(Y < 1480) &=& P(Z < \left( \frac{1480-2000}{400}
 &=& P(Z < -1.30)\\ 
 &=& 0.0968.\\
 \end{eqnarray*}
+
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+(iv) Calculate the expected profit when pp = 1and when pp = 2 .
+(v) The farmer reckons that he will be ruined if his profit is less than £R 1480. Calculate the probability that the farmer will be ruined (a) if he adopts pp = 1, (b) if he adopts pp = 2 .Which course of action do you think is better for the farmer, and why?\\\\ \hline
+      \end{tabular}
+    \end{table}
 (b) On p = p2 = 16=25, 
 \[Y \sim N(1840; 104f162
 25 ¡ 32£16
