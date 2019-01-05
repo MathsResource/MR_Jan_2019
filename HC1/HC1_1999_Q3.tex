@@ -25,39 +25,91 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}
+  \begin{table}[ht!]
+  \centering
+  \begin{tabular}{|p{15cm}|}
+  \hline
+3. A year-group at the local secondary school consists of 100 boys and 81 girls.  The heights of the boys may be assumed to be distributed Normally with mean 160 cm and variance 16 cm2, and the heights of the girls to be distributed Normally with mean 150 cm and variance 9 cm2. 
+ 
+(i) Find the probability 
+ 
+  (a) that a randomly chosen boy is more than 156.0 cm tall,  (2)   (b) that a randomly chosen girl is more than 156.0 cm tall,  (2) (c) that a randomly chosen student from the year-group is more than 156.0 cm tall.     
+  \hline
+   \end{tabular}
+ \end{table}
+ 
 \begin{enumerate}
-    \item 3 For boys’ heights, n1 = 100; X » N(160; 16); and for girls’ heights, n2 = 81; Y » N(150; 9)
+ \item 3 For boys’ heights, n1 = 100; $X \sim N(160; 16)$; and for girls’ heights, n2 = 81; $Y \sim N(150; 9)$
 \item (a) P(X > 156) = P(X¡160
 4 > 156¡160
-4 ) = P(Z > ¡1) where Z has the distribution
+4 ) = P(Z > - 1) where Z has the distribution
 N(0,1). This is the same as P(Z¡1), which is 0.8413.
-(b) P(Y > 156) = P(Y ¡150
+(b) 
+\begin{eqnarray*}
+  P(Y > 156) &=& P(Y - 150
 3 > 156¡150
-3 ) = P(Z > 2) = 0:0228
+3 ) \\ &=& P(Z > 2)\\ &=& 0:0228  \\
+\end{eqnarray*}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-(c) Probability=P(> 156jboy)P(boy) + P(> 156jgirl)P(girl) = 0:8412 £ 100=181 +
-0:0228 £ 81=181 if selection is random from the whole population. This is 0.4750.
+(c)
+
+\begin{eqnarray*}
+Probability&=&P(> 156|boy)P(boy) + P(> 156|girl)P(girl)\\ &=& 0:8412 \times 100=181 +
+0:0228 \times 81 \\&=&181
+\end{eqnarray*} if selection is random from the whole population. This is 0.4750.
 \item (a) Assuming that the boy’s heights are independent, the required probability is (0:8413)4
 = 0:5010.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \begin{table}[ht!]
+  \centering
+  \begin{tabular}{|p{15cm}|}
+  \hline
+ (ii) Four boys go to watch a football match.  Making a suitable assumption (which should be stated), find the probability 
+ 
+  (a) that all four boys are more than 156.0 cm tall,   (2)   (b) that their mean height exceeds 156.0 cm.    (
+  \hline
+    \end{tabular}
+ \end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item Mean height of boys » N(160; 16=4) » N(160; 4)
-Hence P(mean > 156) = P(mean¡160
+Hence 
+\begin{eqnarray*}
+P(mean > 156) &=& P(mean¡160
 2 > 156¡160
-2 ) = P(Z > ¡2) = P(Z < 2) by
-symmetry=0.9772.
+2 ) \\ &=& P(Z > - 2) \\ &=& P(Z < 2) by
+symmetry\\ &=& 0.9772.
+\end{eqnarray*}
 The assumption is likely to be reasonable except when, for example,they come from
 the same family.
-\item Assuming independence again, X ¡ Y » N(160 ¡ 150; 16 + 9) » N(10; 25).
-P(X ¡Y > 0) = P(X¡Y ¡10
+\item Assuming independence again, X -  Y » N(160 -  150; 16 + 9) » N(10; 25).
+
+\begin{eqnarray*}
+P(X - Y > 0) &=& P(X¡Y - 10
 5 > 0¡10
-5 ) = P(Z > ¡2) = 0:9772 Both X and Y are assumed
+5 ) \\ &=& P(Z > - 2) &=& 0:9772 
+\end{eqnarray*}
+Both X and Y are assumed
 chosen from the year group.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+   \begin{table}[ht!]
+  \centering
+  \begin{tabular}{|p{15cm}|}
+  \hline
+(iii) A boy and a girl go to a disco.  Making a suitable assumption (which should be stated), find the probability that the boy is taller than the girl. (4) 
+ 
+(iv) Find the probability that the mean height of the year-group is 156 cm to the nearest cm. (6)   \\    \hline
+   \end{tabular}
+ \end{table}
 \item  Mean height is n1X+n2Y
 n1+n2
-= W, and X » N(160; 16=100); Y » N(150; 9=81). i.e.X »
-N(160; 0:16); Y » N(150; 1=9) We require P(155:5 < W < 156:5) or P(W < 156:5) ¡
+= W, and $X \sim N(160; 16=100)$; $Y \sim N(150; 9=81)$. i.e.X »
+N(160; 0:16); Y » N(150; 1=9) We require P(155:5 < W < 156:5) or P(W < 156:5) - 
 P(W < 155:5)
+\[
 V [W] = ( n1
 n1+n2
 )2V [X] + ( n1
@@ -66,18 +118,22 @@ n1+n2
 181 )2(0:16) + ( 81
 181 )2( 1
 9 ) = 0:00488386 =
-0:0222521 = 0:071091 and E[W] = 100£160+81£150
+0:0222521 = 0:071091
+\]and E[W] = 100£160+81£150
 181 = 155:52486
 Z-value corresponding to W = 155:5 is 155p:5¡155:52486
 0:071091
 i.e.¡0:02486
-0:26663 = ¡0:0932 and for156.5
-Z = 156p:5¡155:52486
-0:071091
-= 0:97514
-0:26663 = 3:657
-P(Z < ¡0:0932) = 0:4629 and P(Z < 3:657) = 0:9999 is required probability=0.9999-
-0.4629=0.5370.
+0:26663 = - 0:0932 and for156.5
+
+\begin{eqnarray*}
+Z &=& 156p:5¡155:52486
+0:071091 \\ 
+&=& 0:97514 /  0:26663 \\ 
+&=& 3:657
+\end{eqnarray*}
+$P(Z < - 0:0932) = 0:4629$ and $P(Z < 3:657) = 0:9999$ is required probability=$0.9999-
+0.4629=0.5370$.
 
 \end{enumerate}
 \end{document}
