@@ -24,15 +24,34 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ The probability that any given child in a certain family has blue eyes is 1/4, and this feature is independent of the eye colours of the other children in the family.  There are 5 children in the family.\\\medskip
+\noindent \textbf{Part (a)}\\ 
+State the distribution of the number of children with blue eyes and find the probability that at least one child has blue eyes.
 
 
+\\ \hline
+      \end{tabular}
+    \end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Introduction}
-\begin{enumerate}
+
+\begin{enumerate}[(a)]
 \item $p(B) = p = 1/4$. Family size $n = 5$. 
 The distribution of X, the number with blue
 eyes is binomial (n = 5; p = 1/4).
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+\noindent \textbf{Part (b)}\\ Find the probability that at least three children have blue eyes, given that at least one child has blue eyes. \\ \hline 
+      \end{tabular}
+    \end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
 \item \[P(X=0) = \left(\frac{3}{4}\right)^5 = \frac{243}{1024} \], so 
 \begin{eqnarray*}
 P(\mbox{at least 1 with blue eyes}) 
@@ -42,6 +61,14 @@ P(\mbox{at least 1 with blue eyes})
 &=& 0:7627.\\
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+\noindent \textbf{Part (c)}\\Find the probability that at least three of the children have blue eyes, given that the youngest child has blue eyes.
+\\ \hline
+      \end{tabular}
+    \end{table}
 \item  
 \begin{eqnarray*}
 P(at least 3 B j | at least 1 B)&=&P(r ¸ 3)\\
@@ -59,6 +86,19 @@ P(X \in \{3,4,5\} &=&  P(X=3) + P(X=4) + P(X=5)\\
 \end{eqnarray*}
 
 So required answer is \[ \frac{106/1024}{781/1024} = \frac{106}{781} = 0.1357. \]
+
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+(iv) Calculate the expected number of children with blue eyes,
+\begin{enumerate}[(i)]
+\item given that at least one child has blue eyes;
+\item given that the youngest child has blue eyes.
+\end{enumerate}
+\\ \hline
+      \end{tabular}
+    \end{table}
 %%%%%%%%%%%%%%%%%%%%%%%5
 \item Given that a particular one - the youngest - has blue eyes means that of the
 other four, at least two have blue eyes. This is found as P(2)+P(3)+P(4) in
@@ -137,8 +177,19 @@ g =
 781
 = 1:64.
 
+
+
+
 \item In binomial (4; 1=4), E[r] = np = 1.
 So expected number is 1(youngest) + 1(others) = 2.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline     
+(v) Explain why the answers to (ii) and (iii) are not the same.\\ \hline
+      \end{tabular}
+    \end{table}
 \item Specific information about one child reduces the “subspace” in which we
 have to search for the values of r concerning the others.
 \end{enumerate}
