@@ -25,15 +25,53 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}
-\begin{enumerate}
-    \item 
-    
+  \begin{table}[ht!]
+  \centering
+  \begin{tabular}{|p{15cm}|}
+  \hline
+(i) The random variable X is exponentially distributed with probability density function 
+ 
+   
+  
+< ∞<≤
+=
+−
+,0,0 ,0,
+)(
+x xe
+xf
+x
+λλ
+ 
+ 
+  where λ > 0. 
+ 
+  Obtain the distribution function of X, F(x) say, and sketch the graphs of f(x) and F(x). (7) 
+ \\ \hline 
+   \end{tabular}
+ \end{table}
+ 
+
+
+
+\begin{enumerate}[(a)]
+ \item 
+ 
 \[
 F(X) = P(X \leq x) = \int^{x}_{0} \lambda e^{\lambda u} du
  = [-e^{-\lambda u}]^{x}_{0}  = 1-e^{-\lambda x}\] ($x \geq  0$)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%5
-\item  L = ¦n i=1¸e¡¸xi = ¸n exp(¡¸
+  \begin{table}[ht!]
+  \centering
+  \begin{tabular}{|p{15cm}|}
+  \hline 
+ (ii) Given a random sample x1,...,xn from this distribution, write down the likelihood function and show that the maximum likelihood estimate of λ , ˆ λ  say, is the reciprocal of the sample mean. (6) 
+\\ \hline 
+   \end{tabular}
+ \end{table}
+%%%%%%%%%%%%%%%%%%%%%%%% 
+ \item  L = ¦n i=1¸e¡¸xi = ¸n exp(¡¸
 Pn
 i=1
 xi) = ¸ne¡n¸x ln(L) = n ln ¸ ¡ n¸x
@@ -43,6 +81,28 @@ d
 so there is a maximum for $\lambda$¸
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
+
+ 
+  \begin{table}[ht!]
+  \centering
+  \begin{tabular}{|p{15cm}|}
+  \hline 
+\noindent \textbf{Part (c)} \\Show that the second derivative of the log-likelihood with respect to 
+λ
+ is 
+given by 
+ 
+   2 2 2 ln λλ n d Ld −= . 
+ 
+  You are given that, if n is large, 
+ 
+   ) ln ,(~ˆ 1 2 2 −       − λ λλ d Ld N approximately. 
+ 
+  By replacing λ by ˆ λ  in the variance of this distribution, obtain an approximate 95\% confidence interval for λ . (7) 
+  
+\\ \hline 
+   \end{tabular}
+ \end{table}
 \item  Using the result just found ,$\lambda¸ \sim N(¸; ¸2=n) \sim N(¸; 1=n(x)2)$, and so approximately
 \[\lambda¸
 ¡¸
