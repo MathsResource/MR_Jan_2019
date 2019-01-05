@@ -27,7 +27,39 @@
 
 
 
-\section{Introduction}
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+It is required to carry out a blood test on a large number () N of persons, to check for the presence or absence of a rare characteristic.  It is assumed that the probability p of a positive result is the same for all persons, and is independent of the results of tests on other persons.
+To reduce the work of testing, the blood samples of N persons are pooled into groups of size k, k  being a factor of N,  and tested together.  If the group test is negative no further test is necessary for the k persons.  If the group test is positive each person must be tested individually and so in all (k + 1) tests are required for the group of k persons.
+(i) Find the probability that the test for a pooled sample of k persons is positive.
+
+\\ \hline
+      \end{tabular}
+    \end{table}
+    
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+(ii) Let m be the number of groups, so that m
+N k = and let S denote the total number of
+tests required for these people.  Show that S can be written  in terms of a Binomially
+distributed random variable X as
+S = m+kX¸  where X  ~ B (m, 1−(1−p)
+k
+).
+(iii) Hence show that
+                                 E(S)           =  N
+k
+p k1 11 + − −
+  
+   ( ) ;                                 V(S)           =    [] Nk p p kk ( ) ( ) . 1 1 1 − − −
+ \\ \hline 
+      \end{tabular}
+    \end{table}
+
 \begin{enumerate}[(i)]
 \item \[P(\mbox{positive})= p. P(\mbox{no positive in k})= (1-p)^k,\]
 (i) and so the probability of a pooled-sample positive is $1 - (1-p)^k$.
@@ -44,6 +76,26 @@ k ¢ f1 - (1-p)^kg = Nf 1
 k + 1 - (1-p)^kg.
 \[V [S] = k2V [X] = k2mf1 - (1-p)^kg(1-p)^k = Nk(1-p)^kf1 - (1-p)^kg.\]
 %%%%%%%%%%%%%%%%%%
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+(iv) Treating k as if it were continuous, show by differentiation that the value of k which gives the minimum expected number of tests for the N persons satisfies the equation
+1 1 1 0 2 + − − = k p p k e ( ) log ( ) . (A)
+(You may assume that this equation has a unique solution and that it gives a minimum.)
+\\ \hline
+      \end{tabular}
+    \end{table}
+
+%%%%%%%%%%%%%%%%%%
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+(v) Given that p = 0.01 and an approximate solution of (A) is k = 10.5, find the value of k which minimises E(S) when N = 9900.
+Turn over\\ \hline
+      \end{tabular}
+    \end{table}
 \item 
 \[ \frac{dE}{dk}
  = -N
