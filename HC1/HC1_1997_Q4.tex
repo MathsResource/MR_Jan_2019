@@ -24,75 +24,119 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+\large
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+Matching nuts and bolts are manufactured in a production process.  Bolt diameters X are N(10.0mm, 0.0009mm2) distributed and nut diameters Y are independently $N(10.1mm, 0.0016mm^2)$ distributed. In order to fit  satisfactorily the nut must be at least
+0.02 mm wider than the bolt (so that it is not too tight) and at most 0.2 mm wider than
+the bolt (so that it is not too loose).
+\\
+\noindent \textbf{Part (a)}\\
+Find the probability that a randomly chosen nut will fit a bolt of diameter 9.98 mm.
+\\ \hline
+      \end{tabular}
+    \end{table}
+    
 
 
-\section{Introduction}
-\begin{enumerate}
+\begin{enumerate}[(a)]
 \item To fit a bolt with X = 9:98, we must have Y between 10.00 and 10.18.
-$Y \sim N(10.10; 0.0016)$. z = Y ¡10:1
-0:04 » N(0; 1).
+$Y \sim N(10.10; 0.0016)$. z = Y -10.1
+0.04 » N(0; 1).
 \begin{itemize}
-    \item For Y = 10:0, z = ¡0:1
-0:04 = ¡2:5,
-\item For Y = 10:18, z = +0:08
-0:04 = +2:0.
+    \item For Y = 10.0, z = -0.1
+0.04 = -2.5,
+\item For Y = 10.18, z = +0.08
+0.04 = +2:0.
 3
-\item $P(z < 2:0) = 0:97725$. $P(z < ¡2:5) = 0:00621$.
+\item $P(z < 2:0) = 0.97725$. $P(z < -2.5) = 0.00621$.
 We require the difference of these, which is 0.97104.
 \end{itemize}
 
-\item  $Y - X \sim N(10:1 - 10:0; 0:0016 + 0:0009) \sim N(0.1; 0.0025).$
-P(fit satisfactorily) = P(0:02 · Y ¡ X · 0:2). Corresponding z values for
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+\noindent \textbf{Part (b)}\\Write down the distribution of the difference of the diameters Y - X and hence find the probability that a nut and a bolt chosen at random from the production process fit satisfactorily.
+\\ \hline
+      \end{tabular}
+    \end{table}
+    
+\item  $Y - X \sim N(10.1 - 10.0; 0.0016 + 0.0009) \sim N(0.1; 0.0025).$
+P(fit satisfactorily) = P(0.02 · Y - X · 0.2). Corresponding z values for
 0.02, 0.2 are 
 \begin{itemize}
-\item $z = 0:02¡0:1
-0:05 = \frac{0:08}{0:05} = -1:60$ 
+\item $z = 0.02-0.1
+0.05 = \frac{0.08}{0.05} = -1:60$ 
 
-\item $z = 0:2¡0:1
-0:05 = +2:00.$$
+\item $z = 0.2-0.1
+0.05 = +2:00.$$
 \end{itemize}
 From Statistical Tables
 
 \begin{itemize}
-\item $P(z < -1:60) = 0:05480,$
-\item $P(z < +2:00) = 0:97725,$
+\item $P(z < -1:60) = 0.05480,$
+\item $P(z < +2:00) = 0.97725,$
 \end{itemize}
 difference is 0.92245.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item  $Z \sim N(10:3; 0:0144)$. P(Z > 10:06) = P(z > 10:06¡10:3
-0:12 ), where z » N(0; 1),
+\newpage
+ \begin{table}[ht!]
+\centering
+\begin{tabular}{|p{15cm}|}
+\hline  
+\noindent \textbf{Part (c)}\\ Holes of diameter Z1 and Z2 are drilled in each of two metal plates which
+are to be bolted together, the two values Z1 and Z2 being independently N(10.3mm, 0.0144mm2) distributed.
+(a) Find the probability that a bolt of diameter 10.06 mm will pass through the holes drilled in the two plates.
+(b) Find the probability that a bolt of diameter 10.06 mm will pass through the holes drilled in the two plates and be fitted satisfactorily by a randomly chosen nut. \\ \hline 
+\end{tabular}
+\end{table}
+\item  $Z \sim N(10.3; 0.0144)$. P(Z > 10.06) = P(z > 10.06-10.3
+0.12 ), where z » N(0; 1),
 
 \begin{eqnarray}
-i.e. &=& P(z > \frac{-0:24}{0:12} ) \\
-&=& P(z > ¡2:0) \\ 
-&=& 0:97725.
+i.e. &=& P(z > \frac{-0.24}{0.12} ) \\
+&=& P(z > -2:0) \\ 
+&=& 0.97725.
 \end{eqnarray}
-(a) Plates are independent, so required probability is (0:97725)2 = 0:95502.
+(a) Plates are independent, so required probability is (0.97725)2 = 0.95502.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item We require 10:08 · Y · 10:26 for nut and bolt to fit. Corresponding z values
-are 10:08¡10:10
-0:04 = ¡0:02
-0:04 = ¡0:5 and 10:26¡10:10
-0:04 = 0:16
-0:04 = +4:0, above which we
+\item We require 10.08 · Y · 10.26 for nut and bolt to fit. Corresponding z values
+are 10.08-10.10
+0.04 = -0.02
+0.04 = -0.5 and 10.26-10.10
+0.04 = 0.16
+0.04 = +4:0, above which we
 may ignore the probability (strictly it is 0.00003). 
 \begin{itemize}
-\item $P(z < -0:5) = 0:30854$,
-and the required probability is $1 - 0:30854 = 0:69146.$ (strictly 0.69143).
+\item $P(z < -0.5) = 0.30854$,
+and the required probability is $1 - 0.30854 = 0.69146.$ (strictly 0.69143).
 \item Nut and bolt must fit and bolt go through the holes.
 \item Given random choice,
-and hence independence, this has probability \[0:69146 \times 0:95502 = 0:66036\]
+and hence independence, this has probability \[0.69146 \times 0.95502 = 0.66036\]
 (or 0.66033).
 \end{itemize}
+
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+ As part of a quality control procedure, a random sample of 25 bolts is taken from the output, and the production process is stopped if the mean diameter of the bolts in the sample differs by more than 0.01 mm from 10 mm.  Find the probability of this event.
+2\\ \hline
+      \end{tabular}
+    \end{table}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item n = 25, $\bar{X} \sim N(10:0; 0:0009
-25 ) \sim N(10.0, (0:006)^2)$.
+\item n = 25, $\bar{X} \sim N(10.0; 0.0009
+25 ) \sim N(10.0, (0.006)^2)$.
 \begin{itemize}
 \item The permitted deviation of $\bar{X}$ from 10.0 is only 0.01, corresponding to
-z = § 0:01
-0:006 = §1:667.
-\item P(z \geq 1:667) = 0:04779 = P(z \leq -1:667).
-\item Hence the probability is $2 \times 0:04779 = 0:09558$ of stopping.
+z = § 0.01
+0.006 = §1:667.
+\item P(z \geq 1:667) = 0.04779 = P(z \leq -1:667).
+\item Hence the probability is $2 \times 0.04779 = 0.09558$ of stopping.
 \end{itemize}
 \end{enumerate}
 \end{document}
