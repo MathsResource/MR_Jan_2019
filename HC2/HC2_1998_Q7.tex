@@ -1,16 +1,35 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{framed}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
 
-\maketitle
-
-\section{Introduction}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-7.Given ¹ = 1:81; ¾2 = (0:025)2. n=10.
+\begin{enumerate}[(a)]
+\item
+.Given ¹ = 1:81; ¾2 = (0:025)2. n=10.
 (i)For A, ¯x=1.80 and s2=0.001977.
 For B, ¯x=1.85 and s2=0.000689.
 (n¡1)s2
@@ -25,7 +44,7 @@ B
 0:0252 = 9:92; n:s: as Â2
 (9), so there is no statistical evidence that B’s variability
 is unacceptable.
-(ii)For A,p x¯¡1:81
+\item For A,p x¯¡1:81
 0:001977=10
 = ¡0:01
 0:014 = ¡0:71 n:s: as t(9).
@@ -34,5 +53,10 @@ For B,p x¯¡1:81
 0:000689=10
 = 0:04
 0:0083 = 4:82¤¤¤ as t(9).
-B’s results do seem to be biased, because this value of t(9) leads us to reject the N.H. “mean=1.81”
-Hence worker A produces results which are unbiased but very variable, while B is biased but precise.
+\begin{itemize}
+    \item B’s results do seem to be biased, because this value of t(9) leads us to reject the N.H. “mean=1.81”
+\item Hence worker A produces results which are unbiased but very variable, while B is biased but precise.
+\end{itemize}
+
+\end{enumerate}
+\end{document}
