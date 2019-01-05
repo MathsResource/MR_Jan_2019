@@ -1,31 +1,54 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{framed}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
 \usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
 
-\maketitle
-
-\section{Introduction}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-6.(a)When a large sample of data is available from any population, not necessarily normal, and
+\begin{enumerate}
+    \item When a large sample of data is available from any population, not necessarily normal, and
 including discrete data as well as continuous, the sample mean or total follows a distribution that
 is approximately normal. Therefore with large samples of data significance tests of, and confidence
 intervals for, a population mean may be found, at least approximately, without knowing what
 distribution the population has. This extends, for example to proportions in a binomial.
-In practice, when distributions are reasonably symmetrical, even when not normal, samples
+\begin{itemize}
+    \item In practice, when distributions are reasonably symmetrical, even when not normal, samples
 may be as small as about 30, while if data are very skew then very large samples-several hundredmay
-be required to give acceptable results. An examination of data, possibly by graphical methods,
+be required to give acceptable results. 
+\item An examination of data, possibly by graphical methods,
 is a useful guide when applying the approximation.
-We may treat ¯x as N(¹; ¾2=n) when n is sample size and ¹; ¾2 are the (known or estimated)
-mean and variance of the population distribution. The only theoretical restriction is that ¹ and
+\item We may treat ¯x as N(¹; ¾2=n) when n is sample size and ¹; ¾2 are the (known or estimated)
+mean and variance of the population distribution. 
+\item The only theoretical restriction is that ¹ and
 ¾2 must be finite.
-Many estimates of practically important items are the sum of several independent components,
+\item Many estimates of practically important items are the sum of several independent components,
 e.g. crop yields of many plants forming a plot, and so their total tends to be normally distributed,
 N(n¹; n¾2).
-(b)(i)For difference in means, a 95% confidence interval is approximately
+\end{itemize}
+
+\item For difference in means, a 95\% confidence interval is approximately
 (x¯1 ¡ x¯2) § 1:96
 p
 s21
@@ -40,7 +63,7 @@ q
 giving 1:65 § 0:55 or (1.10 to 2.20).
 Since this interval does not contain zero, it is likely that there will be more calls each shift in
 district 1 than in 2, the mean difference being between 1.1 and 2.2(with probability 0.95).
-(ii)For difference in proportions,q pˆ1¡pˆ2
+\item For difference in proportions,q pˆ1¡pˆ2
 p1(1¡p1)
 n1
 +p2(1¡p2)
