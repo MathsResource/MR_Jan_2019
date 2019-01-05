@@ -26,7 +26,37 @@
 \begin{document}
 
 
-\section{Introduction}
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+8. (a) State the conditions under which
+(i) the Poisson distribution may be used to approximate a Binomial distribution,
+(ii) the Normal distribution may be used to approximate a Poisson distribution.
+\\ \hline
+      \end{tabular}
+    \end{table}
+    
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+(b) The random variable X has probability mass function
+f (x)= e
+x
+x
+x
+−
+=
+5 5
+012
+!
+, , , ,...,
+= 0  otherwise.
+Find PX () 46 ≤≤ (i) exactly, (ii) using a Normal approximation.  Calculate the percentage error of this approximation, and comment briefly.
+\\ \hline 
+      \end{tabular}
+    \end{table}
 \begin{enumerate}
 \item A binomial distribution with large n and very small p may be approximated
 by a Poisson with $\lambda = np$. 
@@ -87,6 +117,28 @@ is \[1 - (2 \times 0.25117) = 0.49766.\] The error is 0.0005, and % error
 0:49716 £ 100 = 0:1%:
 Using the continuity correction with ¹ = 5, and calculating values which we
 near to the mean, leads to a very good approximation.
+
+%%%%%%%%%%%%%%%%%%%5
+\newpage
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+(c) Events happen in a Poisson process at rate  
+λ
+ per unit time so that the number of
+events in the interval ( , ) 0 t is a Poisson random variable with mean 
+λ t .  Write down
+the probability that there are no events in the interval ( , ) 0 t .  By interpreting this probability as the chance that the time T to the next event in the process is greater than t, show that the probability density function (pdf) of T is given by
+g(t) = 
+λλ λ et t− ≥> , , . 00
+    = 0  otherwise.
+Find the mean and variance of T.
+\\ \hline
+      \end{tabular}
+    \end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+    
 \item  $P(0) = e^{-\lambda t}¸ = P(T > t)$ for the first event observed = $1 - F(t)$. Hence
 $F(t) = 1 - e^{-\lambda t}$ and g(t) = F
 0(t) = ¸e¡¸t. (t ¸ 0; ¸ > 0).
@@ -114,7 +166,18 @@ E(T^2) &=& \int^{\infty}_{0} \lambda t^2\;e^{-\lambda} dt \\
 
 \[ Var(X) = [E(X^2)] - [E(X)^2] = \frac{2}{\lambda^2} - \frac{1}{\lambda^2} 
      = \frac{1}{\lambda^2} \]
+
 %%%%%%%%%%%%%%%%%%%5
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+(d) In the case 
+λ
+=5 a random sample of size 100 is taken from the pdf gt( ) .  Use the central limit theorem to approximate the probability that the sample mean is within 10% of the true mean of T. 
+\\ \hline
+      \end{tabular}
+    \end{table}
 \begin{itemize}
 \item $\lambda = 5$, so that $E[T] = 0.2$ and $V[T] = 0.04$. 
 
