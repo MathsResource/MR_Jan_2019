@@ -1,18 +1,33 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
 
-\title{RSS_Jan_2019_HC2}
-\author{kobriendublin }
-\date{December 2018}
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
 
+\setcounter{MaxMatrixCols}{10}
 \begin{document}
 
-\maketitle
-
-\section{Introduction}
 PAPER II : Statistical Methods
-5
-1.(a) Yij
+\begin{enumerate}
+\item 1.(a) Yij
 "
 observation
 = ¹
@@ -48,197 +63,18 @@ Treatments 2 22:167 11:084 F(2; 6) = 8:49¤
 Locations 3 53:667 17:889 F(3; 6) = 13:70¤¤
 Residuals 6 7:883 1:306
 TOTAL 11 83:667
-The locations differed significantly, and therefore it was useful to use the randomized block scheme
+
+\begin{itemize}
+    \item The locations differed significantly, and therefore it was useful to use the randomized block scheme
 with locations as blocks. We assume there is no blocks £ treatments interaction.
-For treatments, means are: A 11:75
+\item  For treatments, means are: A 11:75
 C 12:00
 B 14:75
 . We are not told which comparisons(contrasts) among
 treatments are important, but it is clear that the significance of F(2,6) must be due to the difference
 between B and the other two.
-2.(i)Histogram of time taken to complete a standard task.
-6
-Mid-point of
-time interval Frequency Cumulative
-(mins:)(t) (f) ft ft2 frequency
-10:5 3 31:5 330:75 3
-11:5 7 80:5 925:75 10
-13:5 33 445:5 6014:25 43
-16:5 18 297:0 4900:50 61
-19:0 9 171:0 3249:00 70
-70 1025:5 15420:25
-Mean=1025:5
-70 = 14:65.
-Median=11:95 + 25
-33 £ 3 = 14:22.
-(assuming records to nearest 0.05min).
-Variance=(15420:25 ¡ 1025:52=70) ¥ 69 = 5:7489. SD=2.40 .
-With few intervals, the histogram alone is not very informative, but the mean and median are
-roughly the same, and near to the middle of the range of the data. Therefore we may treat the
-data as approximately normal, and certainly as sufficiently symmetrical to use large-sample tests.
-(ii)An approximate 95% confidence interval is 14:65 § 1:96
-q
-5:7489
-70 i.e. 14:65 § 0:56, which is
-(14.09 to 15.21).
-3.(a)If we can assume that the lifetime distribution for the bulbs is normal with variance ¾2,
-and all observations are independent of one another, then (n ¡ 1)s2=¾2 will be distributed Â2
-n¡1.
-Here n=10, and on H0 we take ¾2 = 1502. Then effectively we test H0 : ¾2 · 1502 against
-H1 : ¾2 > 1502.
-For the data,(n ¡ 1)s2 = 9 £ 35410:99. Hence Â2
-(9) = 14:16, which is not significant at the 5%
-level. Therefore we do not have enough evidence to reject H0 which says ¾ · 150.
-(b)Since twelve randomly selected batches were used from each process we have independent estimates
-of variances ¾2
-1, ¾2
-2. The Null Hypothesis will be ¾2
-1 = ¾2
-2, and AH ¾2
-1 > ¾2
-2.
-From the data, s21
-= 0:012536 and s22
-= 0:003590.
-Assuming that the distributions of impurity levels are normal, s21
-=s22
-is distributed as F(11,11).
-s21
-s22
-= 3:49¤, significant at the 5% level so that H0 is rejected in favor of H1: there is evidence of a
-reduction in process variability.
-4.(a)Because the measurements are taken on the same volunteers, the paired t-test is appropriate.
-Differences (B-A) are: -5, -2, -8, 1, -3, 0, -6, 2, -1, -5, 0, -4.
-Assuming that these are normally distributed, the N.H. that the mean difference is 0
-uses t(11) = ¯ d¡0
-s=
-p
-12
-.
-The observed mean difference is ¯ d = ¡31
-12 = ¡2:583. s2 = (3:088)2.
-Hence t(11) = ¡ 2:583
-3:088=3:464 = ¡2:898¤.
-Reject the N.H. There is evidence of a change in blood pressure.
-The estimated mean increase is 2.583 units. A 95% confidence interval for this is 2:583§2:201£
-3:088=3:464 = 2:583 § 1:962 or (0.62 to 4.55) units.
-(b)On the Null Hypothesis of no difference in improvement under the two treatments, expected
-numbers are calculated:
-7
-OBS(EXP) Improved Not Improved TOTAL
-A 45(54) 55(46) : 100
-B 63(54) 37(46) : 100
-108 92 200
-Â2
-(1) =
-P (O¡E)2
-E = 92( 2
-54 + 2
-46 ) = 162( 1
-54 + 1
-46 ) = 6:52¤.
-(Â2
-(1) = 5:80 if Yates’ correction is used: not essential).
-We have evidence to reject the Null Hypothesis at the 5% significance level. This is an indication
-of treatment difference.
-5.(a)If p is the probability of success at any attempt, and the rat does not ’learn’ which routes are
-failures, so that each result is independent of others, then the geometric distribution explains the
-number of trials needed to gain one success.
-(b)The value of p must be estimated from the data.
-ˆp = 1
-¯x , ¯x = [(1 £ 56) + (2 £ 27) + (3 £ 13) + (4 £ 3) + (6 £ 1)]=100 = 1:67.
-Hence ˆ ¯ = 0:5988. Calculate P(1) etc. on geometric distribution.
-P(1)=0.5988 . P(2)=0.5988£0.4012=0.2402 .
-P(3)=0:5988 £ (0:4012)2=0.0964 . P(4)=0.0387 etc.
-x : 1 2 3 ¸ 4 TOTAL
-OBS : 56 27 13 4 100
-EXP: ON GEOMETRIC : 59:88 24:02 9:64 6:46 100
-Combine ”¸ 4” into one class to avoid very small expected frequencies. One parameter was
-estimated, so Â2 has 2 d.f. for testing fit to the geometric.
-Â2
-(2) =
-(56 ¡ 59:88)2
-59:88
-+
-(27 ¡ 24:02)2
-24:02
-+
-(13 ¡ 9:64)2
-9:64
-+
-(4 ¡ 6:46)2
-6:46
-= 2:73 n:s:
-There is no evidence against the hypothesis of fit to a geometric distribution, nor therefore against
-the conditions stated in (a).
-6.(a)When a large sample of data is available from any population, not necessarily normal, and
-including discrete data as well as continuous, the sample mean or total follows a distribution that
-is approximately normal. Therefore with large samples of data significance tests of, and confidence
-intervals for, a population mean may be found, at least approximately, without knowing what
-distribution the population has. This extends, for example to proportions in a binomial.
-In practice, when distributions are reasonably symmetrical, even when not normal, samples
-may be as small as about 30, while if data are very skew then very large samples-several hundredmay
-be required to give acceptable results. An examination of data, possibly by graphical methods,
-is a useful guide when applying the approximation.
-We may treat ¯x as N(¹; ¾2=n) when n is sample size and ¹; ¾2 are the (known or estimated)
-mean and variance of the population distribution. The only theoretical restriction is that ¹ and
-¾2 must be finite.
-Many estimates of practically important items are the sum of several independent components,
-e.g. crop yields of many plants forming a plot, and so their total tends to be normally distributed,
-N(n¹; n¾2).
-(b)(i)For difference in means, a 95% confidence interval is approximately
-(x¯1 ¡ x¯2) § 1:96
-p
-s21
-=n1 + s22
-=n2.
-For the given data, this is (3:75 ¡ 2:10) § 1:96
-q
-2:742
-125 + 1:402
-108 , i.e. 1:65 § 1:96 £ 0:2797
-8
-giving 1:65 § 0:55 or (1.10 to 2.20).
-Since this interval does not contain zero, it is likely that there will be more calls each shift in
-district 1 than in 2, the mean difference being between 1.1 and 2.2(with probability 0.95).
-(ii)For difference in proportions,q pˆ1¡pˆ2
-p1(1¡p1)
-n1
-+p2(1¡p2)
-n2
-» N(0; 1).
-The NH is ”p1 = p2”.
-Hence 26
-125 ¡ 15
-108 = 0:208 ¡ 0:139 = 0:069 is the estimated difference.
-Its variance is 0:208£0:792
-125 + 0:139£0:861
-108 = 2:426 £ 10¡3; S.E.=0.049.
-Hence 0:069
-0:049 = 1:40 n.s. as N(0,1)and there is no significant evidence of a difference in proportions.
-7.Given ¹ = 1:81; ¾2 = (0:025)2. n=10.
-(i)For A, ¯x=1.80 and s2=0.001977.
-For B, ¯x=1.85 and s2=0.000689.
-(n¡1)s2
-A
-¾2 = 9£0:001977
-0:0252 = 28:47¤¤¤ » Â2
-(9), giving very strong evidence to reject an NH that A’s
-variability is the same as the laboratory standard, and to accept an AH that it is greater.
-(n¡1)s2
-B
-¾2 = 9£0:000689
-0:0252 = 9:92; n:s: as Â2
-(9), so there is no statistical evidence that B’s variability
-is unacceptable.
-(ii)For A,p x¯¡1:81
-0:001977=10
-= ¡0:01
-0:014 = ¡0:71 n:s: as t(9).
-No evidence that A’s results are biased.
-For B,p x¯¡1:81
-0:000689=10
-= 0:04
-0:0083 = 4:82¤¤¤ as t(9).
-B’s results do seem to be biased, because this value of t(9) leads us to reject the N.H. “mean=1.81”
-Hence worker A produces results which are unbiased but very variable, while B is biased but precise.
+\end{itemize}
+
+
+\end{enumerate}
+\end{document}
