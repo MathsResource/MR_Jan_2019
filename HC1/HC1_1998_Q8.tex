@@ -25,18 +25,54 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}
+
+%%%%%%%%%%%%%%%%
+ \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (a)}\\
+\noindent
+The random variable X follows the Geometric distribution such that
+\[{\displaystyle p(X = x) ={\begin{cases}q^{x-1}p,&x = 1,2,3, ...,\\0&\mbox{otherwise.}\end{cases}}} 
+\]
+
+where $0 < p <1$ and $q = 1 - p$.  Sketch the probability function of this distribution and, by using the result 
+\[1+2q + 3q^2 + 4q^3 + ... =  \frac{1}{1-q^2} ,\] or otherwise, find E(X).
+
+\\ \hline
+ \end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%
+
 \begin{enumerate}
     \item Expected Value
+
+
 \begin{eqnarray*}
 E[X] &=&
-1P
-x=1
-xP(X = x) \\&=&
-1P
-x=1
-xqx- 1p \\&=& p(1 + 2q + 3q2 + ¢ ¢ ¢)
-\\&=& \frac{p}{(1 -  q)^2} = \frac{p}{p2} = \frac{1}{p} 
+\sum_{x=1}^{\infty } x \cdot f(x)   
+\\&=&
+\sum_{x=1}^{\infty } x \cdot(q)^{k-1}p\cdot   
+\\&=&
+p \times \sum_{x=1}^{\infty } x \cdot(q)^{k-1}\cdot   
+\\&=&
+\sum_{x=1}^{\infty }(q)^{k-1}p\cdot k \\&=& p(1 + 2q + 3q^2 + \ldots)
+\\&=& \frac{p}{(1 -  q)^2} \\&=& \frac{p}{p^2} \\&=& \frac{1}{p} 
 \end{eqnarray*}
+ \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+\noindent Obtain the cumulative distribution function of X and deduce that the median of X is the
+smallest integer not less than − 
+qn l 2ln
+ .
+
+\\ \hline
+ \end{tabular}
+\end{table}
 
 \begin{eqnarray*}
 F(x)&=&P(X \leq x)\\&=&
@@ -52,6 +88,7 @@ pqn- 1 \\&=&  p1- qx
 \item ([x] is the integral part of x. )
 \item For the median M, F(M)=1
 2 .
+
 \item Hence 1-qx = 1
 2 or qx = 1
 2 so that x ln q = - ln 2 or x = - ln 2= ln q. 
@@ -59,18 +96,33 @@ pqn- 1 \\&=&  p1- qx
 less than this.
 \end{itemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%5
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (c)}\\
+\noindent The random variable Y has the same distribution as X and is independent of X. Show that
+\[P(Y = X) =  \frac{p}{1+q}\]
+
+
+\\ \hline
+ \end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%5
+
 \begin{eqnarray*}
 P(Y=X)  
 &=&
-1P
-x=1
-p2q2(x- 1) \\&=& p2
-1P
-x=1
-q2(x- 1) \\&=& p2=(1 -  q2) = p2
-(1- q)(1+q) \\ &=& p
-1+q
+\sum_{x=1}^{\infty }
+p2q2^{(x- 1)} \\&=& p2
+1 \sum_{x=1}^{\infty }
+q2^{(x- 1)} \\
+\\ &=& \frac{p^2}{1 -  q^2} 
+\\ &=& \frac{p^2}{(1- q)(1+q)} \\ &=& \frac{p}{1+q}
 \end{eqnarray*}
-
+\newpage
+\[{\displaystyle {\begin{aligned}\mathrm {E} (Y)&{}=\sum _{k=0}^{\infty }(1-p)^{k}p\cdot k\\&{}=p\sum _{k=0}^{\infty }(1-p)^{k}k\\&{}=p(1-p)\sum _{k=0}^{\infty }(1-p)^{k-1}\cdot k\\&{}=p(1-p)\left[{\frac {d}{dp}}\left(-\sum _{k=0}^{\infty }(1-p)^{k}\right)\right]\\&{}=p(1-p){\frac {d}{dp}}\left(-{\frac {1}{p}}\right)={\frac {1-p}{p}}.\end{aligned}}} 
+\]
 \end{enumerate}
 \end{document}
