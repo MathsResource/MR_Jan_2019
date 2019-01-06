@@ -25,13 +25,36 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}
+\begin{table}[ht!]
+\centering
+\begin{tabular}{|p{15cm}|}
+\hline        
 
-\section{Introduction}
+The random variable X has a Poisson distribution with parameter λ , so that
+\[P(X=x) =  \left{
+\begin{cases}  \frac{e −λ }{x!}  &  x = 0,1,2,...,\\
+      0  & \mbox{otherwise.} \\
+\end{cases}    \]  
+      \\ \hline
+ \end{tabular}
+\end{table} \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (a)}\\
+\noindent
+Find the expected values of $X$, i.e. $E(X)$.
 
-\begin{enumerate}
+      \\ \hline
+ \end{tabular}
+\end{table} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{enumerate}[(a)]
 \item 
 \begin{eqnarray}
-E[X] &=&
+E[X] &=& \frac{\sum^{\infty}_{x=0} x \cdot f(x)
+\\ &=&
 \frac{\sum^{\infty}_{x=0} xe^{-\lambda}x}{x!}
 \\ &=&
 \frac{\sum^{\infty}_{x=0}
@@ -40,7 +63,51 @@ e^{-\lambda}x}{(x - 1)!}
 \frac{\sum^{\infty}_{x=0}
 e^{-\lambda}x-1}{(x - 1)!} \mbox{(in which the term for x = 0 is 0)}
 \\ &=& {\lambda}
-\end{enumerate}
+\end{eqnarray}
+
+
+
+
+
+
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+\noindent
+
+(ii) If p(X = k) = p(X = k + l), where k is some integer, show that λ must be the integer k + 1.
+\\ \hline
+ \end{tabular}
+\end{table} \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+\noindent
+(iii) If 
+λ is not an integer, show that the mode, m, of the distribution satisfies the inequality λ−1< m < λ .
+\\ \hline
+ \end{tabular}
+\end{table} 
+
+
+
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+\noindent (v) A new hotel requires curtains for 50 rooms.  All the curtains will be made from the material described above, and each room's curtains will use 20m2 of material.
+(a) Find the probability that the curtains in any given room will contain 3 or more faults.
+
+
+\\ \hline
+ \end{tabular}
+\end{table}
+
+
 
 \item If P(X=k)=P(X=k+1), \[\frac{e^{-\lambda}k}{
 k!} = \frac{e^{-\lambda}k+1}{(k+1)!}\] ; i:e: ${\lambda}
@@ -53,19 +120,28 @@ satisfies P(X=m)
 \item $P(X=m) < 1$, where m is the modal value.
 \item If \[e^{-\lambda}m
 m! ¢ (m-1)!
-e^{-\lambda}m-1 \], then {\lambda}
-m > 1; i.e. m < {\lambda};
+e^{-\lambda}m-1 \], then \[{\lambda}
+m > 1; i.e. m < {\lambda};\]
 \item also if $e^{-\lambda}m+1$
 (m+1)! ¢ m!
-\item $e^{-\lambda}m < 1$, then {\lambda}
+\item $e^{-\lambda}m < 1$, then ${\lambda}$
 \item $m+1 < 1$; i.e. ${\lambda} < m + 1$ or ${\lambda} - 1 < m $;
 hence ${\lambda} - 1 < m < {\lambda}$ .
 \end{itemize}
 
-\item (a) ${\lambda} = 1$, so $P(0)=e-{\lambda}=1
+\item (a) ${\lambda} = 1$, so $P(0)=e^-{\lambda}=1
 e =0.3679$ .
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item 
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+\noindent (b) Use a suitable approximation to find the probability that more than 40 of the rooms will have curtains containing 3 or more faults.
+ 
+\\ \hline
+ \end{tabular}
+\end{table}\item 
 \begin{eqnarray}
 P(0)+P(1)+P(2)&=&e-1(1+1+1
 2)\\ &=& 0.9197 .
@@ -76,23 +152,46 @@ P(0)+P(1)+P(2)&=&e-1(1+1+1
 
 \begin{eqnarray*}
 P({\lambda} 3) &=& 1 - P(0) - P(1) - P(2)\\
-&=& 1 - e-4(1 + 4 + 42 2! )\\
-&=& 1 - 13e-4\\
-&=& 1 - 0:2381 \\
-&=& 0:7619
+&=& 1 - e^{-4}(1 + 4 + 42 2! )\\
+&=& 1 - 13e^{-4}\\
+&=& 1 - 0.2381 \\
+&=& 0.7619
 \end{eqnarray*}
-\item Number of rooms with {\lambda} 3 faults is Binomial(50,0.7619) which can be approximated as
-N(50 £ 0:7619; 50 £ 0:7619 £ 0:2381) or N(38:095; 9:0704). 
+\item Number of rooms with ${\lambda} = 3$ faults is Binomial(50,0.7619) which can be approximated as
+\[N(50 \times  0.7619; 50 \times  0.7619 \times  0.2381)\] or $N(38.095; 9.0704$). 
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+\noindent(iv) In the manufacture of curtain material, small flaws occur at random in the material at a mean rate of 1 per 5m2.  Find the probability that in a randomly selected 5m2 area of this material
+(a) there are no faults,
+(b) there are at most 2 faults.
+\\ \hline
+ \end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+\noindent Question Text
+
+\\ \hline
+ \end{tabular}
+\end{table} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 \begin{itemize}
 \item The probability of being >40 is the
 value corresponding to 40.5(with continuity correction) in this distribution:
-\item Z = 40p:5-38:095
-9:0704
+\item Z = 40p:5-38.095
+9.0704
 = 2:405
-3:0117 = 0:7986
-\item P(Z > 0:7986) = 0:2123
-\item [The answer without a continuity correction would be 0.2635.]
+3.0117 = 0.7986
+\item P(Z > 0.7986) = 0.2123
+\item The answer without a continuity correction would be 0.2635.
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%
 \end{enumerate}
