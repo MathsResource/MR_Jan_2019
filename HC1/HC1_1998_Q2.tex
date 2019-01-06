@@ -26,6 +26,31 @@
 
 \begin{document}
 
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+\noindent 
+Paget's disease is estimated to affect 10\% of persons over 65 years old.  It is known that, among persons over 65 without the disease, a blood measure X in suitable units is distributed N(7,9) (i.e. Normally, with mean 7 and variance 9) but for persons over 65 suffering from the disease, X is distributed N(19,36).  A value of X ≥ 10 is taken as a cause for further investigation.
+\\ \hline
+ \end{tabular}
+\end{table}
+
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+\noindent
+(i) What proportion of non-sufferers over 65 will be investigated because of their value of X?
+(ii) What proportion of sufferers over 65 will go undiagnosed?
+
+\\ \hline
+ \end{tabular}
+\end{table}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}
 \item For a non-sufferer, $X\sim N(7,9)$, so
@@ -45,17 +70,14 @@ Compute $P(X \geq 10)$
 \[z_{10}  = \frac{10-7}{ 3}  = \frac{3}{3} = 1\]
 \end{framed}
 %------------------%
-\begin{eqbarray*}
-P(x¸10) = P(z = x-7
-3 ¸ 10-7
-3 )
-\\ &=&  1 - P(Z · 10-7
-3 = 1)
+\begin{eqnarray*}
+P(x \geq 10 ) &=&  1- P(X \leq 10) \\
+\\ &=&  1 - P(Z \leq 1)
 \\ &=& 1 - 0.8413
 \\ &=& 0.1587
 \end{eqnarray*}
-where Z\sim N(0,1)
-\item For a sufferer, X\sim N(19,36), so
+where $Z\sim N(0,1)$
+\item For a sufferer, $X\sim N(19,36)$, so
 
 
 %----------------%
@@ -67,18 +89,38 @@ where Z\sim N(0,1)
 \end{framed}
 %------------------%
 
-P(x<10) = P(Z = x-19
-6 < 10-19
-6 )
-= P(Z < -3
-2 ) = 0.0668:
-where Z\sim N(0,1)
+\begin{eqnarray*}
+P(x<10) 
+&=& P(Z < -1.502 )\\ &=& 0.0668:
+\end{eqnarray*}
+where $Z\sim N(0,1)$
 [Calculate as 1-P(Z<+3/2) if using tables.]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item If critical level is x0, P(X¸x0jx \sim N(7,9))=0.05 .
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+\noindent (ii) What proportion of sufferers over 65 will go undiagnosed?
+\\ \hline
+ \end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+(iii) At what critical level of X (instead of 10) would the false positive rate be 5\% (i.e. 5\% of non-sufferers would have X above this level)?
+
+\\ \hline
+ \end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item If critical level is x0, $P(X¸x0jx \sim N(7,9))=0.05$ .
 In N(0,1) the upper 5\% point is Z0=1.645 ; hence Z0 = x0-7
-3 = 1:645 or x0 = 7+(3\times1:645) =
-11:935.
+3 = 1:645 or $x0 = 7+(3\times1:645) =
+11.935$.
 \item 
 
 \begin{eqnarray*}
@@ -89,6 +131,20 @@ P(X \geq x0|\mbox{sufferer})P(\mbox{has disease}) + P(X \geq 10|\mbox{non - suff
 \end{eqnarray*}
 
 [use answers(i),(ii) and information that 10\% if population affected.]
+
+
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+\noindent (iv) If all people over 65 are screened using X ≥ 10 as the criterion for further investigation, what proportion will be investigated?
+(v) Of those investigated further, what is the proportion of individuals that will actually have the disease?
+
+\\ \hline
+ \end{tabular}
+\end{table}
+
 \item \[P(\mbox{disease}|x \geq 10)=\frac{(0.9332\times0.1)}{0.2362}=0.3951 .\]
 \end{enumerate}
 \end{document}
