@@ -23,7 +23,21 @@
 \renewcommand{\baselinestretch}{1.3}
 
 \setcounter{MaxMatrixCols}{10}
-\begin{document}
+\begin{document}\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+The accompanying edited Minitab output shows some regression analysis of the progress in sales in 100s (y) of hi-tec widgets over time in months (x).  Use the output to answer the following questions. 
+ 
+(i) In the output for Regression 1, the p-values for the t tests for the slope and intercept parameters are missing.  Use available information to test the fitted parameters for statistical significance.  Also use the output to calculate corr(x, y).  Comment critically on the adequacy of this regression as a model for the data, having regard to Plots 1A and 1B. (5) 
+
+ 
+ \\ \hline
+      \end{tabular}
+    \end{table}
+    
+
+
 \begin{enumerate}
     \item The t-value is given as 2.70, and residual d.f.=7, so p-value is 2P(t7 > 2:70).
     \begin{itemize}
@@ -49,6 +63,16 @@ p
 the inadequacy of a linear model for the full set of data, because the residuals do not appear to be a normally distribution set with mean zero.
 \end{itemize}
 
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+ 
+(ii) Contrast the significance of the x term in Regression 2 with the result of your test for the x term in Regression 1.  Interpret the statement ‘R-Sq = 98.1\%’ in terms of the Analysis of Variance output for Regression 2.  What standard assumption(s) about the distribution of the error term may be called into question by Plot 2?  What other reason is there for not accepting Regression 2 as an adequate model for the data? (5) 
+  \\ \hline
+      \end{tabular}
+    \end{table}
+    
 \item When x2 is included, x ceases to be significant.
 \begin{itemize}
     \item The information in x2 is clearly
@@ -68,6 +92,24 @@ in the explain by regression 3 is 99.1\% the test of any of these models.
 logarithmic, whereas in 1 and 2 they were natural.
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+ 
+Critically compare Regressions 1 and 3 for their success in fitting the data.  Interpret the statement ‘R-Sq = 99.1\%’ in Regression 3 in terms of the Analysis of Variance output, and explain why the total sum of squares in Regression 3 (0.28760) differs from the total sum of squares in Regressions 1 and 2 (186120). (5) 
+  \\ \hline
+      \end{tabular}
+    \end{table}
+    
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+ Use each of the three regressions to give point estimates of sales at 10 months after launching the product.  State with reasons which of the three estimates you think is the best. (5)   
+ \\ \hline 
+      \end{tabular}
+    \end{table}
 \item When x=10
 1 gives y = 78:33 + 540
 :=
