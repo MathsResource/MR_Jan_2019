@@ -1,4 +1,31 @@
-5(i) The 1-way analysis compares the N.H.“all ¹i are the same ”, where f¹ig denote
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+\begin{enumerate}
+    \item The 1-way analysis compares the N.H.“all ¹i are the same ”, where f¹ig denote
 the means of the sores using the 4 points i=1,2,3,4; The A.H. is that there are differences
 among the means
 Paint total are 315,335,350,370,grand total=1370, N=16 observations. Sum of squares
@@ -13,20 +40,30 @@ Paints 3 406:25 135:42
 Residual 12 577:50 48:125
 Total 15 983:75
 F(3; 12) = 2:81 n:s:
+\item 
 Assuming the scores can be modelled by a normal distribution, the linear model underlining
-this analysis is y = ¹i +"ij ; f"ijg all N(0; ¾2). we do not reject the N.H. that all
+this analysis is y = ¹i +"ij ; f"ijg all N(0; ¾2). 
+\item we do not reject the N.H. that all
 ¹iare the same.
-If the columns repeat geographical differences, we should remove these in a 2-way analysis.
-The area total are 343,321,336,370 and give a sum of square 1
+\item If the columns repeat geographical differences, we should remove these in a 2-way analysis.
+\item The area total are 343,321,336,370 and give a sum of square 
+\[1
 4(3432 +3212 +3362 +
-3702) ¡ 13702=16 = 315:25.
-12
+3702) ¡ 13702=16 = 315:25.\]
+
+\end{itemize}
 ANALYSIS OF VARIANCE
 Source DF SS MS
 Paint 3 406:25 136:42 F(3; 9) = 4:65
 Areas 3 315:25 105:08 F(3; 9) = 3:61n:s:
 Residual 9 262:25 29:139 = ¾ˆ2
 Total 15 983:75
-Making allowance for area differences reduce the residual variation to that which is
-purely random natural variation, so make the paints comparison more precise. Now the
+\begin{itemize}
+    \item Making allowance for area differences reduce the residual variation to that which is
+purely random natural variation, so make the paints comparison more precise. 
+\item Now the
 N.H.should be rejected. there is evidence of a different among the paints.
+\end{itemize}
+
+\end{enumerate}
+\end{document}
