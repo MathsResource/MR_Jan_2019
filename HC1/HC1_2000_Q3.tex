@@ -24,6 +24,23 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+For i = 1, 2, …, n, let Xi be Normally distributed with mean µ i and variance σ i 2, and let X1, X2, …, Xn be independent.  If a1, a2, …, an are any 
+non-zero constants, state the distribution of 
+1
+n
+ii
+i Y a X = =∑ .  Deduce the 
+distribution of X1 + X2 and X1 - X2 . 
+ \\ \hline
+      \end{tabular}
+    \end{table}
+    
+
+    
 
 \begin{enumerate}
     \item 
@@ -44,18 +61,35 @@ Hence $x1 + x2 \sim N(¹1 + ¹2; \sigma^2
 1 + \sigma^2
 2)$
 %%%%%%%%%%%
+\newpage
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+ 
+(b) An office manager takes, on average, 35 minutes to get to work;  his travelling time is Normally distributed with standard deviation 4 minutes.  His secretary takes, on average, 33 minutes to get to work;  her travelling time is Normally distributed with standard deviation 3 minutes.  Stating any further assumptions you make, find 
+ 
+(i) the probability that the manager reaches work before his secretary, supposing that they leave their homes at the same time, 
+ 
+(ii) how much earlier the secretary must leave her home to be 90\% certain of getting to work before her manager, (3) 
+ 
+(iii) the probability that both get to work within 30 minutes of the times at which they set out. (3) 
+ 
+ \\ \hline
+      \end{tabular}
+    \end{table}
 \item Let M,S be travelling times of manager and secretary.
 $M \sim N(35; 16)$ and $S \sim N(33; 9)$
 (i)Assuming journey times are independent ,
 $M - S \sim N(2; 25)$ and $P(M - s < 0) = P(z <
 \frac{0 - 2}{5}$
-where $z \sim N(0:; 1)$; this is $P(z < -0:4) = 0:3446$
+where $z \sim N(0.; 1)$; this is $P(z < -0.4) = 0.3446$
 %%%%%%%%%%%%%%%
 \item If secretary leaves t minutes earlier, the difference in arrival times will be $N(2+t,25)$,assuming
 that the journey times still have the same distributions as before.
 \begin{eqnarray*}
 P(secretary arrives first) &=& P(M - S + t > 0)\\
-&=& 1 - \Phi (\frac{1(2+t)}{5}) \geq¸ 0:9 if
+&=& 1 - \Phi (\frac{1(2+t)}{5}) \geq¸ 0.9 if
 t + 2
 5
 \end{eqnarray*}
@@ -69,26 +103,47 @@ P(M < 30) &=& \Phi( 30-35
 P(S < 30)  &=&  \Phi( 30-33
 3 ) \\ &=&  \Phi(-1) \\ &=&  0.1587
 \end{eqnarray*}
-and require probability is $0:1056 \times 0:1587 = 0:0168$
+and require probability is $0.1056 \times 0.1587 = 0.0168$
+
 %%%%%%%%%%%%%%%%%%%%
+\newpage
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+(c) In an office there are 20 computers, each of which has, independently of the rest, a Poisson incidence of breakdowns at the rate of 0.02 per week.  Breakdowns are invariably repaired with negligible delay.  Find the probabilities that 
+ 
+(i) a period of 4 weeks passes with no breakdowns, 
+(2) 
+ 
+(ii) in a period of 4 weeks there is at least one breakdown each week. (2) 
+ 
+Use a suitable approximation to calculate the probability of more than 26 breakdowns over a 52 week period.   
+ \\ \hline 
+      \end{tabular}
+    \end{table}
 \item  The number of breakdowns per week will follow a poisson distribution with mean
-$20 \times 0:02 = 0:4$
+$20 \times 0.02 = 0.4$
 \item 
-P(no breakdowns) = e-0:4
-P(none in 4 weeks) = (e-0:4)4 = e-1:6 = 0:2019
+\[P(no breakdowns) = e^{-0.4}\]
+\[P(none in 4 weeks) = (e^{-0.4})4 = e-1:6 = 0.2019\]
 \item 
-P(1 or more in a week) = 1 - e-0:4 = 0:39297
-required probability = (0:3297)4 = 0:0118
+\[P(1 or more in a week) = 1 - e^{-0.4} = 0.39297\]
+required probability = (0.3297)4 = 0.0118
 \begin{itemize}
-    \item In 52 weeks, number of breakdowns in poisson with mean 0:4 \times 52 = 20:8 
+    \item In 52 weeks, number of breakdowns in poisson with mean 0.4 \times 52 = 20.8 
     \item A normal
-approximation N(20.8,20.8) may be used, and using a continuity correction we
-require $P(number > 26:5)$
+approximation $N(20.8,20.8)$ may be used, and using a continuity correction we
+require $P(number > 26.5)$
 \end{itemize}
 
-z = 26p:5-20:8
-20:8 = 5:7
+z = 26p:5-20.8
+20.8 = 5:7
 4:5607 = 1:2498
-P(z > 1:2498) = P(z < -1:2498) = 0:1056 from tables
+\begin{eqnarray*}
+P(z > 1.2498) 
+&=& P(z < -1.2498) \\
+&=& 0.1056\\
+\end{eqnarray*} from tables
 \end{enumerate}
 \end{document}
