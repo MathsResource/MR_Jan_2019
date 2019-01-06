@@ -21,8 +21,36 @@
 % headsep footheight footskip
 \setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
 \renewcommand{\baselinestretch}{1.3}
-
+\begin{document}
 \setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+\noindent 
+The joint distribution of the random variables X and Y is specified in the table below, the values tabulated being the probabilities p(X=x, Y=y),
+x     y: 1234 1  3 k 10k  21k  36k 2 10 k 36k  78k 136k 3 21 k 78k 171k 300k
+where k is a constant.
+
+
+\\ \hline
+ \end{tabular}
+\end{table}
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (b)}\\
+(a) Find k.
+
+\\ \hline
+ \end{tabular}
+\end{table}
+
+
 
 \begin{enumerate}
 \item The total sum of probabilities must be 1. Hence k=1/900.
@@ -62,6 +90,17 @@ V[X]&=&E[X^2] - (E[X])^2
 15\times 81 
 \\ &=& \frac{163}{405} \\ &=& 0:4025
 \end{eqnarray*}
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (c)}\\
+ (b) Obtain the marginal distributions of X and Y.
+
+\\ \hline
+ \end{tabular}
+\end{table}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
 \begin{eqnarray*}
@@ -97,7 +136,7 @@ E[XY] &=& 1
 Cov[X,Y] &=&E[XY]-E[X]E[Y]\\ &=&127
 15-  23
 9 ¢ 149
-45 \\ &=& 27\times 127¡23\times 149
+45 \\ &=& 27\times 127-23\times 149
 9\times 45 \\ &=& 2
 405 .
 \end{eqnarray*}
@@ -110,14 +149,50 @@ Cov[X,Y] &=&E[XY]-E[X]E[Y]\\ &=&127
 p
 p 5
 163\times 1451 = 0:00920 .\]
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (d)}\\
+ (c) Find E(X), V(X), E(Y), V(Y) and the correlation between X and Y.
 
+\\ \hline
+ \end{tabular}
+\end{table}
 %%%%%%%%%%%%%%%%%%%%%
-\item When Y=1, the conditional distribution of X is the first column of the table, scaled to sum to
-1:
-x 1 2 3
-Probability 3=34 10=34 21=34
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (d)}\\
+Find the conditional distribution of X given Y = 1.
 
-\item \[E[XjY=1]= 1
+\\ \hline
+ \end{tabular}
+\end{table}
+
+
+\item When Y=1, the conditional distribution of X is the first column of the table, scaled to sum to
+1.
+\begin{tabular}{|c|c|c|c|}
+\hline
+x & 1 & 2 & 3 \\ \hline 
+Probability & 3=34 & 10=34 & 21=34\\ \hline 
+\end{tabular}
+
+
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (e)}\\
+Find $E(X|Y = l).$
+
+\\ \hline
+ \end{tabular}
+\end{table}
+
+\item \[E[X|Y=1]= 1\]
 34 (3 \times  1 + 10 \times  2 + 21 \times  3)\] \[=86/34=43/17=2.529 .\]
 \end{enumerate}
 
