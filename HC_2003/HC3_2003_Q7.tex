@@ -1,0 +1,110 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+Higher Certificate, Paper III, 2003. Question 7
+\begin{enumerate}[(a)]
+\item  (a) Non-respondents tend not to be a random part of the whole population,
+but instead particular types of person are more likely to fail, or refuse,
+to reply. Their responses, if known, would quite likely be different
+from other parts of the population. Unless they are represented, the
+results of the survey will not validly apply to the whole population.
+Besides introducing this bias, intended sample size is reduced by nonresponse
+and so precision suffers.
+(b) Some possible procedures are as follows.
+• Send the questionnaire again, once or twice more
+• Send reminder letters (without the questionnaire)
+• Telephone people who have not responded
+• Visit those who have not responded, perhaps only a sample of them
+These all require identification of non-responders, usually by means of
+a number on the questionnaire which is kept separate from the answers
+to preserve anonymity.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item (a) Strategy A will lead to a sample consisting of those who are easiest to
+locate, so even if the list is constructed in a properly random way the
+actual members used will not have been selected at random from the
+list. Any who refuse at first request will be ignored rather than any
+attempt being made to persuade them. Since there is a team of
+interviewers, the more efficient of these may carry out a higher
+proportion of the 600 (more quickly). Or, alternatively, quickly
+completed interviews may not have been done so thoroughly. Why
+stop at 600 instead of attempting to get as many as possible of the
+originally selected list?
+Strategy B will also lead to willing and easily available heads of
+household being selected, so that the first sample of (600 – m) could
+suffer considerable bias. The second sample of m ought to be more
+representative, but the quality of the final data will be affected by how
+large m is (the larger the better to avoid bias). Office work is also
+increased by this method.
+Continued on next page
+(b) The number R of respondents will be Binomial(n, ¾). Since n is bound
+to be a large number, we may use a Normal approximation:
+N 3 , 3
+4 16
+R  n n 
+ 
+ 
+∼ .
+Thus, approximately,
+( )
+3
+4
+3
+16
+0,1
+n
+n
+R
+Z N
+−
+= ∼ ,
+and the upper 99% point of Z is 2.326.
+Hence
+3
+4
+1
+4
+600 2400 3 2.326 , i.e. 2.326
+3 3
+n n
+n n
+≤
+− − ≤ .
+Solve this for equality, using only the upper value for n:-
+2.326 3n = 2400 − 3n , or 3n + 2.326 3n − 2400 = 0 .
+Write 3n = x , so we have x2 + 2.326x − 2400 = 0 , and the roots are
+( ) ( )
+2 2.326 2.326 9600 1 2.326 98.0072
+2 2
+x
+− ± +
+= =− ±
+= –50.1666 or +47.8406,
+giving
+1 2 ( )
+3 n = x = 838.9 or 762.9 . Take n = 839.
+\end{enumerate}
+\end{document}
