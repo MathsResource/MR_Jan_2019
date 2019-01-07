@@ -1,0 +1,60 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+Higher Certificate, Paper III, 2003. Question 5
+\begin{enumerate}[(a)]
+\item 
+The relation is not linear. It began by showing an exponential-type fall over
+the first 100 or so and then levelled off, with a suggestion of a further curved
+downward trend after about 200.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item HRS versus logNBR gives the largest percentage of variation explained
+(R2 = 96%). (HRS versus 1/NBR is also fairly good, but some way behind this
+one.)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item HRS = 1306 – 181 logNBR. The constant is a baseline or average cost
+estimated from these data. The coefficient of logNBR ("log" here implies to
+base e) gives the reduction (in this case) in HRS (thousands of man-hours) for
+every increase of 1 in logNBR, i.e. every 2.71828 along the number scale.
+This is an average reduction.
+If the residuals were available, we would look at them to see if they were
+"random" or if they showed some pattern (for example, all the middle ones
+were of one sign and the first and last were of the other sign). If so, this would
+suggest that the model could still be improved, even given the high value of
+R2.
+(iv) Perhaps logHRS against logNBR might show improvement.
+0
+200
+400
+600
+800
+1000
+1200
+0 50 100 150 200 250 300
+NBR
+HRS
+\end{enumerate}
+\end{document}
