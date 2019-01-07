@@ -1,0 +1,69 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+
+
+
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+
+Higher Certificate, Paper II, 2004.  Question 5 
+ 
+ 
+Part (i) 
+ 
+(a) A type I error is to reject the null hypothesis, in favour of the alternative hypothesis, when in fact the null hypothesis is true. 
+ 
+(b) A type II error is to fail to reject the null hypothesis when in fact the alternative hypothesis is true. 
+ 
+(c) The level of significance of a test is the probability of rejecting the null hypothesis when in fact it is true, i.e. it is the probability of making a type I error.  It is conventionally denoted by α . 
+ 
+(d) The power of a test is the probability of rejecting the null hypothesis, expressed as a function of the parameter (or equivalently, if it is not a test for a single parameter) being investigated.  So it is given by 1 – β , where β is the probability of making a type II error similarly expressed as a function. 
+ 
+ 
+Part (ii) 
+ 
+Let X represent the amount of coffee in a jar.  We have X ~ N( µ , 152).  The sample size is n = 9, so X ~ N( µ , 152/9).  Let Z ~ N(0, 1). 
+ 
+ 
+(a) We have µ = 200. 
+ () 190 200 190 2.0 15/3 P X P Z − < = < =−   = 0.02275. 
+ () 210 200 210 2.0 15/3 P X P Z − > = > =   = 0.02275. 
+ So the probability of committing a type I error is 0.02275 + 0.02275 = 0.0455. 
+ 
+ 
+(b) Here µ = 216. 
+ () 190 216 190 5.2 15/3 P X P Z − < = < =− =   ZERO to several decimal places. 
+ () 210 216 210 1.2 0.1151 15/3 P X P Z − < = < =− =   . 
+ So the total probability of accepting the output is 0.1151.  (This is the probability of a Type II error for this procedure, i.e. the value of β , for µ = 216.  Thus the power of the procedure when in fact µ = 216 is 1 – 0.1151 = 0.8849.)
+
+\end{enumerate}
+\end{document}
