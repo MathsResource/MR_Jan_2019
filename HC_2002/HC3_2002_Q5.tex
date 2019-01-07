@@ -1,0 +1,90 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+Higher Certificate, Paper III, 2002. Question 5
+\begin{enumerate} 
+\item  Boxplots require median, quartiles, minimum and maximum values. As each
+set of data has been arranged in increasing order of size, it is easy to check whether
+any outliers have been included when making these calculations.
+For Banks, the listing shows no outliers. Since N = 36, the median M is between the
+18th and 19th observations, both of which are 3.0. Q1 is between the 9th and 10th,
+which are 2.4 and 2.5. The program calculates 2.425; 2.45 is also acceptable. Q3 is
+found in a similar way.
+For E&EEq there are three obvious outliers. N = 46, so M is between the 23rd and
+24th observations, at 3.25. Clearly the full set of data have been used in the program's
+calculation (not the N = 43 when outliers are omitted). Q1, Q3 are 0.3, 5.325, or near
+to these depending on the method of calculation.
+The * points are outliers, and the upper whisker does not include them. [Since we use
+median and quartiles, not mean and standard deviation, the difference between values
+with and without outliers would not be great.]
+For SS, there may be one outlier at 11.9 (although there is also considerable skewness
+at the upper end). M = 2.2, Q1 = 0.325, Q3 = 4.775.
+[Note. The plots drawn above might not appear exactly correct, due to screen and/or printer
+resolution.]
+Continued on next page
+0 1 2 3 4 5
+x
+6
+x
+0 3 6 9 12 15 18
+* **
+x
+0 3 6 9 12
+*
+\item  The column of numbers 001122… is the "stem", which is the number before
+the decimal point. To the right of this, listed in increasing order, are the "leaves",
+which are the decimal parts; those with decimal parts 0 – 4 are listed on one row, and
+5 – 9 on the next row below; for example,
+0 0
+0 789
+shows that the first four data in
+'Banks' were 0.0 0.7 0.8 0.9.
+Frequencies are cumulated, row by row, from each end, so that they meet in the
+middle, where the bracketed number, e.g. (7) for Banks, shows the actual frequency in
+the interval containing the median.
+The dotplots show where each observation is located on the scale of measurement,
+with one dot for each item. (On the scales used here, spacing forces some adjacent
+numbers to come together.)
+\item  Banks: There are 4 very low figures, 1% or less; apart from these, there is a
+reasonably symmetrical pattern with 3% as its approximate centre. The spread of this
+set of data is not great; there are no upper outliers and the range of the 32 items
+excluding the 4 low ones is from 2.1 to 5.1.
+E&EEq: The DESCRIBE program results are rather distorted by the three very large
+observations, which are clearly outliers, and the general skewness of the whole
+pattern. There is a substantial number of zeros. An "exponential decay" pattern (an
+exponential distribution) might explain all but the last three.
+SS: This is rather similar to E&EEq, having several zeros and an exponential pattern.
+However, this pattern gradually tails off and does not have outliers far above their
+neighbours – it is probably wise to treat 11.9 as an outlier, although it would fit an
+exponential distribution.
+General: Stem and leaf diagrams seem to give the interpretation more easily than
+dotplots (at least with the program used) but the numerical descriptive summaries
+seem less satisfactory than either of these graphical methods. The question of a subgroup
+of zeros arises in two of the data sets.
+\end{enumerate}
+
+\end{document}
