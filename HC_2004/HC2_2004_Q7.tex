@@ -1,0 +1,85 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+
+
+
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}Higher Certificate, Paper II, 2004. Question 6
+Part (i)
+(a) If a set of data can be assumed to be a sample from a Normal distribution
+(with mean μ and variance σ 2), the sample mean ( x ) from a sample of size n itself
+has an underlying Normal distribution (with mean μ and variance σ 2/n). Thus the null
+hypothesis μ = μ 0, where μ 0 is a specified value, is tested using the test statistic
+0
+/
+z x
+n
+μ
+σ
+= −
+and referring this to the N(0, 1) distribution.
+In practice it is unusual to know σ
+2. It might be known from past experience
+("historical data"), and this can for example arise in some industrial statistical work, in
+which case this method can be used.
+In large samples from any distribution that is reasonably symmetrical, the method
+works to a very good level of approximation using the estimated variance s2 instead of
+σ 2. As an example, economic data (sales etc) are often so treated. How large the
+sample needs to be depends on the symmetry of the underlying distribution.
+Many "Normal approximations" of other measurements exist. An example is the
+observed proportion in a binomial situation, such as the proportion of households
+owning more than one car; the size of sample required for the approximation to be
+good depends on the value of the proportion.
+(b) If data are sampled from a Normal distribution where σ 2 is not known (so that
+s2 is used in its place) and where the sample size is small – typically smaller than 30
+– the t distribution must be used instead of N(0, 1) as above. Most sets of biological
+and agricultural data are like this; the samples are not large, and the underlying
+variability needs to be estimated from the data in each new experiment or study.
+Part (ii)
+2 2 10; 2159, 22360.44. 10; 2830, 19310.22. S S S N N N n = x = s = n = x = s =
+The "pooled estimate" of variance is s2 = 20835.33.
+The test statistic for testing the null hypothesis 600 N S μ −μ = is
+1 1
+10 10
+600 71 1.10
+64.55
+N S x x
+s
+− − = =
++
+,
+which is referred to t18. This is not significant, so the null hypothesis cannot be
+rejected. (The alternative hypothesis would be "difference > 600". Presumably the
+result of the test would lead to the change not being made, on economic grounds.)
+The time to recharging in each case is assumed to be Normally distributed, and the
+variances of these Normal distributions are assumed to be equal.\end{enumerate}
+\end{document}
