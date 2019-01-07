@@ -1,0 +1,79 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+Higher Certificate, Paper II, 2003. Question 1
+\begin{enumerate}[(a)]
+\item The chi-squared test will examine the null hypothesis that there is no relation
+between "Commercial" and "Purchase", against the alternative hypothesis that
+there is a relation.
+Observed frequencies and (in brackets) expected frequencies on the null
+hypothesis:
+Commercial
+A B Total
+Purchase No 70 (75) 80 (75) 150 Yes 30 (25) 20 (25) 50
+Total 100 100 200
+Test statistic = ( ) ( ) ( ) ( ) 2 2 2 2 70 75 80 75 30 25 20 25
+75 75 25 25
+− − − −
++ + + = 2.667
+[or 2.16 if calculated with Yates' correction so that "(O – E)2" becomes (4.5)2].
+Refer to 2
+1 χ : not significant. There is no evidence of a relation between
+"Commercial" and "Purchase".
+Hence a decision could be made on non-statistical grounds, such as cost of the
+commercial or the potential size of the audience.
+\item  McNemar's test for paired data tests similar hypotheses on association or
+otherwise of the two classifications, in this case which advertising medium
+each manufacturer uses. It does not use either "No–No" or "Yes–Yes"
+manufacturers.
+Test statistic = ( )2 5 15 100 5.00
+5 15 20
+−
+= =
++
+, refer to 2
+1 χ , significant at 5%.
+There is evidence against a null hypothesis of no preference of advertising
+medium.
+\item In part (i), two different random samples of responses are obtained, and the
+problem is that of comparing the proportions giving a particular response in
+the two samples. This is often the case in a chi-squared test, for example in
+opinion surveys where the two samples are drawn from males and females, or
+"young" and "old" age-groups, in otherwise similar populations. It also
+applies in medical trials where different groups of patients (e.g. smokers and
+non-smokers) are classified as having or not having a particular disease.
+However, in part (ii) there are not two independent samples, and this may
+occur more often in medical trials; for instance, suppose two drugs are used to
+treat a chronic illness, each for a short period of time, on the same patients (or
+at the least on patients who have been closely paired for age, sex and general
+medical condition). No information is gained from patients (or pairs) where
+both drugs worked, or both failed. The McNemar test examines whether, in
+cases where only one worked, drug A was more successful than drug B or not.
+It compares the proportions of preferences in this part of the data only. The
+example in part (ii) uses the same manufacturers, so a McNemar test is valid.
+\end{enumerate}
+\end{document}
