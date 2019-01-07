@@ -1,0 +1,65 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+Higher Certificate, Paper III, 2003. Question 2
+\begin{enumerate}[(a)]
+\item  If two (or more) "factors", qualitative or quantitative, are included in the same
+experiment at various levels, it is often the case that the response to one factor
+depends on the level at which the other factor is applied. For example, in this
+experiment, the response to a given % antimony may be different according to which
+cooling method has been used for a particular experimental unit. When this happens,
+such factors are said to interact.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item The row in the analysis of variance which refers to the possible interaction
+contains the p-value 0.152, which means that there is no real evidence of interaction
+(since p > 0.05). A graph of the means for the different cooling methods can help to
+illustrate this (the overall mean is also shown):-
+mean shear strengths
+15
+20
+25
+0 5 10
+AB
+FC
+OQ
+WQ
+Overall Mean
+antimony (% weight)
+(NB: For clarity in the diagram, and to avoid taking up excessive space, the vertical axis is shown with a
+"false origin" at 15.)
+The graph shows some departure from "parallelism" in the patterns for the cooling
+methods, but this is not great when compared with (residual) natural variation.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item Since there is no interaction, the main effects of percentage antimony and cooling
+method can be studied directly. Both are significant. The main characteristic for %
+antimony is the drop at 10\% compared with all the others. This is very large and is
+the reason why "p = 0.000". For cooling, AB and OQ give higher strengths than FC
+and WQ. Cooling has p = 0.004, still clearly highly significant though the difference
+is not so big as that given by the drop for 10% antimony.
+As usual, the variances underlying all sets of data are assumed to be the same, and the
+residual term in the appropriate linear model is assumed to be Normally distributed.
+\end{enumerate}
+\end{document}
