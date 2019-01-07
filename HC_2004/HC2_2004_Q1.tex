@@ -1,0 +1,110 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+
+
+
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+
+Higher Certificate, Paper II, 2004. Question 1
+\begin{enumerate}
+\item , 1, 2, ..., , 1, 2, ..., , { } ~ ind N(0, 2 ) ij i j ij ij y = μ +τ +β +ε i = ν j = b ε σ .
+There are ν treatments and b blocks. yij is the observation (response) on the unit (plot)
+in block j which receives treatment i. 0, 0 i i j j Στ = Σ β = (i.e. fixed effects model).
+μ is the overall population general mean, τ
+i the population mean effect due to
+treatment i, β
+j the population mean effect due to block j. The Normally distributed
+residual (error) terms εij all have variance σ 2 and are uncorrelated (independent). All
+non-random variation is covered by the τ
+i and β
+j terms.
+\item The "blocks" here are subjects 1 to 6. The "treatments" are compounds A to
+D. In the notation of part (i), ν = 4 and b = 6.
+Totals are: Block 1 Block 2 Block 3 Block 4 Block 5 Block 6
+13 24 7 23 8 21
+Treatment A Treatment B Treatment C Treatment D
+25 23 18 30
+The grand total is 96. ΣΣyij
+2 = 486.
+"Correction factor" is
+962 384
+24
+= .
+Therefore total SS = 486 – 384 = 102.
+SS for blocks =
+132 242 72 232 82 212 384 457 384 73
+4 4 4 4 4 4
++ + + + + − = − = .
+SS for treatments =
+252 232 182 302 384 396.33 384 12.33
+6 6 6 6
++ + + − = − = .
+The residual SS is obtained by subtraction.
+SOURCE DF SS MS F value
+Blocks 5 73.00 14.600 13.14 Compare F5,15
+Treatments 3 12.33 4.111 3.70 Compare F3,15
+Residual 15 16.67 1.111 = σˆ 2
+TOTAL 23 102.00
+The upper 0.1% point of F5,15 is 7.57; the blocks effect is very highly significant.
+The upper 5% point of F3,15 is 3.29; the treatments effect is significant.
+Continued on next page
+Clearly there are block (subject) differences. Even after removing these, the results
+are quite variable.
+To investigate treatment differences, first calculate the treatment means, which are (in
+ascending order, for clarity)
+C : 3.00 B : 3.8333 A : 4.1667 D : 5.00
+The least significant difference between any pair of these means is
+15 15
+2 1.111 0.6086
+6
+t × = t where 15
+2.131 at 5%
+2.947 at 1%
+4.073 at 0.1%
+t
+
+=
+
+
+so the least significant differences are 1.30 for 5%, 1.79 for 1% and 2.48 for 0.1%.
+Thus the only apparent difference is between C and D, significant at the 1% level.
+The results must be interpreted with caution.
+The data are on a 10-point scale of integers, so obviously cannot have an underlying
+Normal distribution. However, when the means of 6 replicates are being compared,
+the (necessarily approximate) results should give a good guide to likely treatment (i.e.
+compound) differences.
+Some of the subjects are considerably more prone to irritation than others. Because of
+this, the underlying variances might be different in some blocks from others. This
+would be contrary to an assumption in the modelling, and would thus be a further
+feature making the results only approximate.\end{enumerate}
+\end{document}
