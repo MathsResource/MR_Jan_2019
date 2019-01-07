@@ -1,0 +1,103 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+Higher Certificate, Paper II, 2003. Question 5
+\begin{enumerate}[(a)]
+\item (i) When a large sample {xi} of data is available from any distribution
+(continuous or discrete) whose mean is μ and (finite) variance is σ 2, the total
+ΣXi and the mean of the sample, X , are both approximately Normally
+distributed with parameters (nμ, nσ 2) for the total and (μ, σ 2/n) for the mean.
+The sample size n is required to be "large", but the implication of this for data
+collection depends on the shape of the distribution; if it is not too
+unsymmetrical n can be quite small, but for a highly skew distribution n needs
+to be very large.
+For example, data from agricultural plots, consisting of a large number of
+individual plants, can usually be treated as approximately Normal, and so can
+data from large-scale surveys. This allows statistical inference based on the
+theory for the Normal distribution to be used. It also allows maximum
+likelihood estimators based on large samples to be treated as Normal, for
+example in constructing confidence intervals.
+\item  2
+For the new drug, n1 =144, x1 = 50.6, s1 =10.3 ;
+2
+2 2 2 For the placebo, n =144, x = 35.4, s =14.7 .
+The variance of ( ) 1 2 X − X is ( 2 ) ( 2 )
+1 1 2 2 σ / n + σ / n , and with large samples (as
+these are for this type of measurement) we simply use 2
+1 s and 2
+2 s for 2
+1 σ and
+2
+2 σ , and use the Normal approximation to obtain the interval
+( )
+2 2
+1 2
+1 2
+1 2
+x x 1.96 s s
+n n
+− ± + .
+Thus we get
+(50.6 35.4) 1.96 10.3 14.7
+144
+− ± + ,
+i.e. 15.2 1.96 25
+144
+± , i.e. 15.2 1.96 5
+12
+± ×   
+ 
+,
+which is 15.2 ± 0.82 or (14.38, 16.02).
+The new drug appears to give (with 95% confidence) between 14.38 and 16.02
+extra hours of sleep in the week. This is a substantial improvement, of at least
+2 hours per day, and significant at a high level since the interval does not
+contain the value 0 (or go anywhere near it).
+Continued on next page
+\item  Treatment A: nA = 250, proportion improving ˆ A p = 205/250 = 0.82.
+Treatment B: nB = 250, proportion improving ˆB p = 180/250 = 0.72.
+These samples are large enough to use a Normal approximation to the
+distributions of pˆ A and pˆB , and Var ( ˆ ˆ ) A B p − p can be estimated as
+ˆ (1 ˆ ) ˆ (1 ˆ ) 0.82 0.18 0.72 0.28 0.1476 0.2016
+250 250 250
+A A B B
+A B
+p p p p
+n n
+− − × × + + = + =
+= 0.0013968, so we have SE( ˆ ˆ ) A B p − p = 0.0374.
+Also, we have ˆ ˆ A B p − p = 0.10, and therefore 95% limits for pA – pB are
+(approximately)
+0.10 ± (1.96×0.0374) , i.e. 0.10 ± 0.073 or (0.027, 0.173).
+Treatment A gives better results than B, by an amount between 2.7% and
+17.3% improvement (with 95% confidence). This is a significant
+improvement since the interval does not contain 0.
+
+\end{enumerate}
+\end{document}
+
+
+
