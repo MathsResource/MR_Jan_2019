@@ -1,0 +1,87 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+Higher Certificate, Paper II, 2003. Question 8
+\begin{enumerate}[(a)]
+\item (i) The F distribution with m and n degrees of freedom is the ratio of two
+independent chi-squared distributions divided by their numbers of degrees of
+freedom:
+2
+, 2
+χ
+χ
+m
+m n
+n
+F m
+n
+= .
+Thus if estimates of variance s1
+2 and s2
+2 are obtained from each of two
+independent samples of Normally distributed data, (m+1) and (n+1) items in
+the samples respectively, the null hypothesis that the underlying population
+variances σ 1
+2 and σ 2
+2 are equal can be tested by referring s1
+2/s2
+2 to Fm,n. A
+confidence interval for σ 1
+2/σ 2
+2 can also be found.
+In analysis of variance, sums of squares will have χ2 distributions if Normality
+is assumed. A suitable null hypothesis is set up, such as that a regression
+coefficient is zero. The appropriate sum of squares is then compared with the
+residual sum of squares, using the "mean squares" so as to deal with the
+numbers of degrees of freedom, using an F distribution. If the null hypothesis
+is true, both the mean squares will merely estimate experimental error so their
+ratio has expected value 1, but if it is false the mean square corresponding to
+the regression coefficient is expected to be larger. One-way and two-way (and
+higher-way) analysis of variance for experimental designs uses the same
+background theory.
+\item  The null hypothesis is "σA
+2 = σB
+2", the same variability for both machines, and
+the alternative hypothesis is "σA
+2 ≠ σB
+2".
+Summary statistics for the two machines are:
+2
+1 1 1 A: n =16, x =1000.125, s =10.9167 (s = 3.304) ;
+2
+2 2 2 B : n = 20, x =1000.050, s = 2.9974 (s =1.731) .
+s1
+2/s2
+2 = 3.64, refer to F15,19. This is significant at the 5% level so the null
+hypothesis can be rejected and we can decide to use B because the evidence is
+that it is less variable than A.
+A report should mention that both machines dispense, on average, just over
+1000 ml. However, the data from the trial period show that A was
+significantly more variable than B (in fact, inspection of the data shows two
+rather outlying values in A, at 993 and 1007), so B is the one to buy.
+\end{enumerate}
+\end{document}
