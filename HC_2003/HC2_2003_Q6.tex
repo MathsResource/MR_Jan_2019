@@ -1,0 +1,93 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+Higher Certificate, Paper II, 2003. Question 6
+\begin{enumerate}[(a)]
+\item (i) yij = m + ti + eij ,
+where yij is the measurement made on the jth unit receiving the ith treatment,
+m is the underlying population mean of all observations and {eij} are
+independent, Normally distributed, residual (natural) variation terms with
+mean 0 and common variance σ 2.
+This model separates the total variation among the {yij} into a systematic
+component due to "treatments" ti and a random component represented by eij.
+The number of replicates of treatment i is ri [i.e. we have j = 1, 2, …, ri for
+each i], and Σri = N, the total number of experimental units.
+(For the usual form of analysis, {eij} are assumed to be Normal, although
+randomisation theory validates the inferences usually made from a one-way
+analysis.)
+(ii) (a) ri = 5 for i = A, B, C, D. N = 20. ΣΣyij
+2 = 13666.
+Treatment (fertiliser) totals are A 112, B 161, C 119, D 124.
+Grand total G = 516.
+Corrected total SS = ΣΣyij
+2 – (G2/N) = 13666 – {(516)2/20}
+= 13666 – 13312.8 = 353.2.
+SS for fertilisers
+2 2 1122 1612 1192 1242 2
+5
+i
+i
+T G G
+r N N
+= Σ − = + + + −
+=
+68002 2
+5
+G
+N
+− = 13600.4 – 13312.8 = 287.6.
+Analysis of variance
+ITEM df Sum of Squares Mean Square F ratio
+Fertilisers 3 287.6 95.87 23.38
+Residual 16 65.6 4.10
+Total 19 353.2
+The F ratio is referred to F3,16 and is very highly significant, leading us
+to reject a null hypothesis that there are no differences between
+fertiliser mean yields.
+Continued on next page
+Fertiliser means are A 22.4, B 32.2, C 23.8, D 24.8 (kg).
+σ 2 ("residual variation" or "experimental error") is estimated as 4.10.
+Significant differences can be claimed between any pair of means
+differing by at least
+2
+(16) (16) (16)
+2 ˆ 1.64 or 1.281
+5
+t σ = t t where (16) t
+is the two-tailed 5% point of t16, i.e. 2.120. Thus (16) 1.281t = 2.71.
+Clearly B is different from all the others and there are no differences
+between A, C, D. Assuming that all the four fertilisers were applied in
+the same way, at the same time, it is reasonable to claim that B is best.
+The farmer simply needs to be told that statistical analysis very
+strongly suggests that the four fertilisers did not all give similar results,
+and that after allowing for the natural variations among the crop we
+can say that B is clearly better than A, C, D.
+(b) Five randomised blocks, the columns in the diagram on the question
+paper, should be used. This will remove an "east–west" trend. In each
+column, one replicate of each treatment (fertiliser) should be set out in
+random order (different randomisations being used for each block).
+\end{enumerate}
+\end{document}
