@@ -1,0 +1,71 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+Higher Certificate, Paper III, 2003. Question 4
+\begin{enumerate}[(a)]
+\item  Exponential smoothing forecasts xˆt as xˆt 1 α (xt 1 xˆt 1 ) − − − + − , i.e.
+( ) 1 1 ˆ 1 ˆ t t t x α x α x − − = + − .
+α is a value between 0 and 1, combining the previous forecast 1 ˆt x − and the actual
+observed xt–1 as a weighted average.
+For 2000, we use 1999 ˆx and 1999 x :
+( )( ) ( )( ) 2000 xˆ = 0.8 19863 + 0.2 19236 =19737.6 ≈19738 .
+Of course all earlier data are represented to some extent in this forecast.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item A high value of α, such as 0.8, is appropriate if there is little previous
+experience or if there appears to have been some change in pattern of the data which
+makes older data less relevant.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item Mean absolute deviation is a possible method. This is
+1
+1 ˆ
+n
+t t
+t
+MAD x x
+n =
+= Σ − .
+It is a general method, not restricted to exponential smoothing, where various possible
+models are being compared. The model with minimum MAD is usually preferred.
+Minimum MSE (mean square error), and some others, have also been suggested; the
+differences between t x and ˆt x for past data form the basic criterion.
+(iv) ( )( ) ( )( ) 2001 2000 2000 xˆ = 0.8x + 0.2xˆ = 0.8 19959 + 0.2 19738 =19915.
+(v) Plot of error (= expenditure – forecast) against time.
+-800
+-600
+-400
+-200
+0
+200
+400
+600
+800
+1988 1990 1992 1994 1996 1998 2000 2002
+Initially, forecasts have proved to be too high; later, they are almost all too low.
+From 1992 onwards, this method has shown an upward trend in the error. Also there
+seems to be some tendency to a "cycling" pattern: … . A slightly
+more complex model may be needed.
+\end{enumerate}
+\end{document}
