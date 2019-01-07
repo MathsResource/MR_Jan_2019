@@ -1,0 +1,83 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+Higher Certificate, Paper III, 2003. Question 6
+\begin{enumerate}[(a)]
+\item  84 126
+ˆ 150 , 150. ˆ 200 , 200. A A B B p = n = p = n =
+95% limits for the true value of (pA – pB) are estimated as
+( ) ˆ (1 ˆ ) ˆ (1 ˆ )
+ˆ ˆ 1.96 A A B B
+A B
+A B
+p p p p
+p p
+n n
+− −
+− ± + ,
+i.e. (0.56 0.63) 1.96 0.56 0.44 0.63 0.37
+150 200
+− ± × + ×
+= −0.07 ±1.96 0.002808 = −0.07 ± 0.104 ,
+i.e. (–0.174, 0.034).
+The interval contains zero, so we should not claim that one journal is
+significantly better than the other. However, with 95% confidence, we may
+claim that the difference between them ranges from 3.4% in favour of A to
+17.4% in favour of B.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item The two statements are alternatives, which together with (I) make up the
+responses of the whole sample. Hence they are not independent, and the test
+in part (i) assumes that they are.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item Although the statements relate to two different issues of the journal, they are
+answered by (at least some of) the same people, and so once again the
+responses do not come from independent samples. The two proportions will
+most likely be correlated.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item Suppose n is the required sample size. Using ˆp = 0.63, as in part (i), Var( ˆp )
+is estimated as (0.63)(0.37)/n. An approximate value for n is found by making
+0.05 =1.96×SE( pˆ ) . This gives
+( ) ( )( ) 0.05 2 0.63 0.37 Var ˆ
+1.96
+p
+n
+  = =  
+ 
+,
+( )( )
+2 i.e. 0.63 0.37 1.96 358.2
+0.05
+n =   =
+ 
+,
+so at least 359 responses are needed.
+Because this is a large sample, and p is not too far from ½, this approximation
+will be satisfactory. Also we are told that there are a very large number of
+subscribers, so that a "finite population correction" is unnecessary (even if we
+knew N).
+\end{enumerate}
+\end{document}
