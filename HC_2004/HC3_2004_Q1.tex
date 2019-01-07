@@ -1,0 +1,83 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+
+
+
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}Higher Certificate, Paper III, 2004.  Question 1 
+ 
+ 
+Part (i) 
+ 
+All four tests are for comparing two samples of data. 
+ 
+(a) If two samples from Normal distributions are available, and it can be assumed that their population variances are the same but this value is not known, we can compare means using a t test.  The null hypothesis under test is µ 1 = µ 2, where these are the population means. 
+ Examples are commonly of two independent samples from the same basic population but which have been "treated" in different ways  –  such as plants in an agricultural experiment with different fertilisers, or people of similar IQ in an educational trial with different teaching methods. 
+ 
+(b) This introduces "blocking" of the experimental units in pairs to remove some possible systematic variation in experimental material. 
+ For example, an experiment to compare two "treatments" for plants in a glasshouse might have adjacent pairs of plants, the two in each pair thus encountering ambient conditions as nearly alike as possible, one being "treated" in one way and the other in the other way.  Differences within the pairs can then reasonably be ascribed to differences between the treatments;  possible variations in ambient conditions in different parts of the glasshouse would not affect the within-pairs comparisons.  (Of course, the two plants within each pair should be as nearly alike as possible in the first place.)  The population of differences between responses within the pairs has to be Normally distributed and the null hypothesis is that the mean of this population is zero (which is equivalent to the means of the two separate populations of responses being equal). 
+ 
+(c) This test also compares two "treatments" but using rankings. 
+ As an example, suppose each member of a group of people, chosen to be as similar as possible, is asked to carry out a computer task under one of two different sets of background conditions, and their accuracies are ranked 1, 2, 3, … as a single ordering.  The null hypothesis is that the two underlying populations are the same, the alternative being that they differ in location.  The null hypothesis is equivalent to the single ordering of ranks being in random order as far as the "treatments" (conditions) are concerned.  [In contrast, if "treatment" A was better than "treatment" B, we would anticipate that A would tend to have high ranks (if "high" means "better") so that, with respect to the "treatments", the single ordering would have mainly Bs at the start and As at the end.]  The test is based on the sum of the ranks for each "treatment".  No background distributional assumptions are required. 
+ 
+(d) This, like (b) above, is a paired test.  It is carried out for the same general reason of removing possible systematic variation in experimental material. 
+ As an example, suppose that the concentration of a chemical substance in the blood is measured on the same people before and after receiving a drug treatment.  There may be wide variations from person to person, but each before-and-after comparison for the same person should give a good indication of the effect, if any, of the drug.  A suitable null hypothesis here is that there is no change in concentration, and as in (c) no background distributional assumptions are required.  The test is based on ranking the before-and-after differences (absolute values) and calculating the rank sums for positive and negative differences. 
+ 
+ 
+Continued on next page 
+
+ 
+ 
+Part (ii) 
+ 
+With such small sets of data, it is not clear whether we should assume Normality.  A dot-plot (or Normal probability plot if available) might shed some light.  The choice is between (i)(a) above if Normality is assumed and (i)(c) above if not.  It turns out in this case (see below) that both tests give similar inferences. 
+ 
+Under (i)(a) 
+ We must first compare variances, to check the assumption of equal population variances.  We have that for A, 259.00, 40.3333 AA xs ==;  and for B, 2 67.57, 27.9524 BB xs == .  22/ 1.44 AB ss ∴=,  refer to F6,6  –  not significant, so it is reasonable to assume that the population variances are the same. 
+ Thus we may calculate the pooled s2 which is 34.1429. 
+ 
+Test statistic for testing AB µµ = against AB µµ ≠ is 
+ 
+11 77 ( 0) 8.57 2.74 3.12 AB xx s −−=− =− +
+, 
+ 
+which is referred to t12.  This is significant at the 5% level (double-tailed 5% point is 2.179, double-tailed 1% point is 3.055), so there is evidence to reject the null hypothesis  –  it seems that the population means are not the same (and that the mean for A is lower than that for B). 
+ 
+Under (i)(c) 
+ The joint ranking is as follows. 
+ Score 50 52 58 59 60 61 62 64 67 68 69 71 72 73 Rank 1 2 3 4 5 6 7 8 9 10 11 12 13 14 Test A A A B A A B A B A B B B B 
+ n1 = 7, n2 = 7.    Total of ranks for A = 35;  total of ranks for B = 70. 
+ We test the null hypothesis that the two underlying populations are the same against the alternative that they differ in location. 
+ Calculating the Mann-Whitney statistic via the ranks (note:  it can also be calculated directly, or the Wilcoxon rank-sum form could be used), 
+  () 1 1 1 2 1 1 2 1 A U nn n n R = + + − = 49 + 28 – 35 = 42.   () 1 2 1 2 2 2 2 1 B U nn n n R = + + − = 49 + 28 – 70 = 7. 
+ [Equivalently, these can be calculated as 35 – () 1 112 1 nn + = 35 – 28 = 7 and 70 – () 1 222 1 nn + = 70 – 28 = 42.] 
+ So Umin = 7.  From tables, the critical value for a U test with n1 = n2 = 7 at the 5% two-tailed level is 9.  As 7 < 9, there is evidence to reject the null hypothesis.  Noting that it is A that has the lower ranks, it seems that the location for the A population is lower than that for the B population. 
