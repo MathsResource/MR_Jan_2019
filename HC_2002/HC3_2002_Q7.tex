@@ -1,0 +1,129 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+Higher Certificate, Paper III, 2002. Question 7
+f (x) =λ 2xe−λ x , x ≥ 0 . Mean is 2/λ. Cdf is F (x) =1− (1+λ x)e−λ x , x ≥ 0 .
+\begin{enumerate}
+\item  ( ) 2 { x x} df x
+e xe
+dx
+=λ −λ −λ −λ which is 0 for (1−λ x) = 0 , i.e. x 1
+λ
+= . This is the
+mode. Check that 2 ( )
+2
+d f x
+dx
+is negative here, so that we do indeed have a maximum:
+We have ( ) 2 x (1 ) df x
+e x
+dx
+=λ −λ −λ , so ( ) ( ) ( )( ) 2
+2 2
+2 x 1 x d f x
+e x e
+dx
+=λ −λ −λ +λ −λ −λ −λ
+and at x 1
+λ
+= the second term is 0 and the first is < 0, so
+2
+2 d f 0
+dx
+< .
+\item  When λ =1, f (x) = xe−x and the mode is at x = 1. f (1) = 0.3679 .
+[Note. The diagram is not drawn to scale.]
+\item  In general, the mode is at 1/λ and the mean is 2/λ. The distribution is strongly
+skew to the right. It is not very likely that this distribution would work well in a
+supermarket that channels customers with only few ("less than 10", say) purchases
+through special cash outlets. But if there are none of these and everyone must go
+through the same channels, then there will be some very small values of x to combine
+with the higher ones, and with a few very high service times. This distribution could
+work if applied to pooled data from all the outlets together.
+Continued on next page
+f(x)
+x
+0 1 2
+\item  ( ) 2 2 ( )
+1 2
+1
+, , ..., i i
+n
+x n x
+n i i
+i
+L x x x xe e x λ λ λ λ − −
+=
+= Π = Σ Π
+and ln ( ) 2 ln ln ( ) i i l = L = n λ −λΣx + Πx .
+So we have 2
+i
+dl n x
+dλ λ
+= −Σ ; dl 0
+dλ
+= gives 2
+ˆ i
+n x
+λ
+=Σ or ˆ 2
+x
+λ = .
+2
+2 2
+d l 2n 0
+dλ λ
+= − < , so this is a maximum.
+Setting x equal to E[X ] 2
+λ
+= , we find that the moments estimator of λ is 2
+x
+. In this
+case, both estimators are the same.
+\item  F (x) =1− (1+ x)e−x , and n = 200 service times are sampled.
+F (1.0) =1− 2e−1 = 0.2642 ; and F (1.5) =1− 2.5e−1.5 = 0.4422 .
+So P(1.0 < X ≤1.5) = 0.4422 − 0.2642 = 0.1780 , and the corresponding expected
+frequency is 35.59.
+Using the fact that 200 observations were made, the final value for x > 5.0 is 8.09.
+The usual chi-squared test here will have 10 degrees of freedom; no parameters had
+to be estimated, and all 11 intervals can be used since only one has an expected value
+that is just below 5. The test statistic is
+( ) ( ) ( ) ( ) ( ) 2 2 2 2 2 21 18.04 30 34.81 36 35.59 29 30.36 27 23.74
+18.04 34.81 35.59 30.36 23.74
+− − − − −
++ + + +
+( ) ( ) ( ) ( ) ( ) ( ) 2 2 2 2 2 2 19 17.63 17 12.65 4 8.86 8 6.10 2 4.13 7 8.09
+17.63 12.65 8.86 6.10 4.13 8.09
+− − − − − −
++ + + + + +
+= 7.769.
+This value is nowhere near to being significant when compared with 2
+10 χ , so there is
+no evidence to reject the given null hypothesis.
+\end{enumerate}
+
+\end{document}
