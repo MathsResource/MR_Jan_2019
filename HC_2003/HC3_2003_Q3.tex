@@ -1,0 +1,95 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+Higher Certificate, Paper III, 2003. Question 3
+\begin{enumerate}[(a)]
+\item  The likelihood of the sample of data is L =
+1 !
+n xi
+i i
+e
+x
+−λλ
+= Π
+= n xi / !
+i e− λλ Σ Π x
+log ( )log log ( !) i i ∴ L = −nλ + Σx λ − Σ x .
+(log ) i d L n x
+dλ λ
+= − + Σ . Solving d (log L) 0
+dλ
+= gives λˆ = x .
+( )
+2
+2 2 log i d L x
+dλ λ
+= − Σ which is < 0 since all xi > 0 (and so λˆ > 0 ). Hence this
+gives a maximum.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item (a) If a Poisson distribution gives a good fit, its mean is estimated by the
+sample mean x , since we have no more specific information about λ.
+(0 18) (1 25) (2 13) (3 10) (4 6) (5 3) 120 1.6
+75 75
+x fx
+f
+Σ × + × + × + × + × + × = = = =
+Σ
+.
+Probabilities expected with λ ≡ λˆ = x are 1.6 (1.6) / ! x e− x for x = 0, 1, 2, … .
+Expected frequencies are 75 times these.
+P(0) = e−1.6 = 0.2019 P(1) =1.6e−1.6 = 0.3230 P(2) = 0.2584
+P(3) = 0.1378 P(≥ 4) = 0.0788 .
+(Each quoted probability is accurate to 4 decimal places.)
+Hence we have
+x 0 1 2 3 ≥ 4 Total
+Observed frequency 18 25 13 10 9 75
+Expected frequency 15.14 24.23 19.38 10.34 5.91
+A chi-squared goodness of fit test has 3 degrees of freedom, since there are 5
+categories of data and 1 parameter estimated.
+Test statistic = ( ) ( ) ( ) ( ) ( ) 2 2 2 2 2 2.86 0.77 6.38 0.34 3.09
+15.14 24.23 19.38 10.34 5.92
++ + + + = 4.29, which
+is not significant (the 5% point of 2
+1 χ is 7.81). Hence a Poisson distribution is
+an acceptable model for these data.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item This is a reasonably large sample of data, although the mean value of
+1.6 is somewhat low for using a Normal-approximation confidence interval.
+An approximate 95% confidence interval for λ is
+λˆ ±1.96 λˆ / 75 , i.e. 1.6 ± 0.286 or (1.31, 1.89).
+[If the Poisson distribution is NOT assumed, use Σfx2 = 338, giving
+( )2
+2 1 120 338 1.9730
+74 75
+s
+ 
+=  −  =
+ 
+ 
+, so s = 1.4046. Thus the interval is
+1.6 ± (1.96×1.4046 / 75) = 1.6 ± 0.318 , i.e. (1.28, 1.92).]
+\end{enumerate}
+\end{document}
