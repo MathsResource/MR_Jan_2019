@@ -1,0 +1,118 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+
+Higher Certificate, Paper III, 2002. Question 2
+\begin{enumerate} 
+\item  On the null hypothesis that males and females have equal mean
+expenditures (μ M = μ F ) , against the alternative hypothesis that they do not,
+and with large enough sample sizes to assume that the difference ( ) M F X − X
+between the observed means is approximately Normally distributed, an
+appropriate test uses ( ) M F
+M F
+Z X X
+SE X X
+= −
+−
+. The estimated variances of the two
+means are
+2M
+M
+s
+n
+and
+2F
+F
+s
+n
+, and so ( ) 2 2
+M F
+M F
+M F
+SE X X s s
+n n
+− = + .
+2
+2 1 32234.71 1098.60 18362.044 213.512
+86 87 86 M s
+ 
+=  −  = =
+ 
+.
+2
+2 1 25810.04 887.75 13300.515 214.524
+62 63 62 F s
+ 
+=  −  = =
+ 
+.
+1098.60 12.6276
+87 M x= = ; 887.75 14.0913
+63 F x= = ; 1.464 M F x − x = − .
+( ) 213.512 214.524 2.4542 3.4051 2.421
+87 63 M F SE X − X = + = + = .
+Hence the value of Z is 1.464
+2.421
+− = −0.605, which (compare with N(0,1)) is not
+significant.
+There is no evidence of a difference between M μ and F μ .
+\item  The assumptions stated in (i) are all that are theoretically necessary.
+The underlying populations do not need to be Normally distributed nor to have
+equal variances. The samples are assumed random. The main practical doubt
+about validity is the existence of zeros in the data. It would be best to base the
+test on the non-zero items, and additionally compare the proportions of zeros
+in the two samples.
+Continued on next page
+(b) \item  The null hypothesis will be 0 X μ = , and we assume X follows a
+Normal distribution. n =15, 32.6 2.173
+15
+x= = .
+2
+2 1 84.18 32.6 0.9521
+14 15
+s
+ 
+=  −  =
+ 
+.
+Test statistic is 0
+0.9521
+15
+x − = 8.63, which we refer to t14 − very highly
+significant.
+This is very strong evidence against the null hypothesis, which we shall reject.
+\item  The commentator's result is not significant and the null hypothesis
+1 2 "μ = μ " cannot be rejected ( i
+μ is the mean in year i).
+\item  There is substantial systematic variation from company to company: if
+x1 is below average, so is x2 in most cases. If this between-company variation
+is removed, by using the differences x = x1 − x2, the values x should (on the
+null hypothesis) represent only random variation and give a valid basis for
+comparison. Clearly in this case the between-company variation was very
+large, and removing it gave a much more precise comparison of the two years.
+\end{enumerate}
+
+\end{document}
