@@ -1,0 +1,64 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}Higher Certificate, Paper II, 2006.  Question 2 
+ 
+\begin{enumerate} 
+\item Parametric tests need assumptions about the distribution underlying the data  –  often that it is Normal (if the situation is continuous).  
+\begin{itemize}
+    \item Data in the form of subjective scores are unlikely to follow any of the common distributions, and two sets of independent data may not even be of the same shape, location, scatter or skewness. 
+    \item Non-parametric tests allow simple characteristics of distributions to be compared with few or no theoretical assumptions.  
+    \item However, they have less power than corresponding parametric tests in cases where the parametric test is in fact valid.  
+    \item They therefore need larger sample sizes. 
+\end{itemize}
+ 
+ 
+\item  The Wilcoxon rank sum test (or, equivalently, the Mann Whitney U form of this test) is suitable for this comparison.  First rank all 20 data items, as follows. 
+ 
+Data 0 3 8 9 10 14 15 16 17 22 28 31 33 37 Ranks 1 2 3 4 5 6 7 8 9 10 11 12 13 14 E or A E E A E E E E A E E A A A A 
+ 
+38 39 47 50 55 80 15 16 17 18 19 20 A A E A A E 
+ 
+ 
+The rank sum for Entonox (E) is 1 + 2 + 4 + 5 + 6 + 7 + 9 + 10 + 17 + 20 = 81.  That for A is 129. 
+ 
+\begin{itemize} 
+\item  The required test is two-sided.  
+\item For a 5\% test, we refer the smaller of these (81) to the lower 2½\% point for the W10,10 distribution as shown in the Society's statistical tables for use in examinations. 
+\item This is 78 so, at the 5\% level of significance, we cannot reject the null hypothesis that pain scores do not differ.  However, we note that the result is (just) significant at the 10\% level (the lower 5\% point is 82), and the sample sizes are quite small.
+\item So, overall, we do not really have sufficient evidence to say whether or not there is an advantage for Entonox. 
+\item A more powerful test should be conducted using larger samples before coming to a firm decision. 
+\end{itemize}
+The data do appear to need a non-parametric testing procedure. 
+ \end{enumerate}
+ \end{document}
+ 
