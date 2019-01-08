@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+Higher Certificate, Paper III, 2006. Question 5
+(i) The survivor function is P(T > t) = 2tedλθλθθ∞−∫
+211ttttteeedteteλθ λθλθλλλθθλλλλλλ∞∞−∞−−−−⎧⎫⎡⎤⎡⎤⎪⎪⎛⎞=−+=+=+⎨⎬⎜⎟⎢⎥⎢⎥−⎝⎠⎣⎦⎣⎦⎪⎪⎩⎭∫ ,
+as required.
+[Alternatively, as we are only asked to show that the given function S(t) is the survivor function, , and f(t) is therefore –S'(t) as required.]
+(ii) 21intiiLteλλ−==Π, and hence 11log2loglognniiiiLntλλ===+− ΣΣ.
+log2idLntdλλ∴=−Σ which on setting equal to zero gives that the maximum likelihood estimate is 2ˆintλ=Σ. [Consideration of 22logddλ confirms that this is a maximum: 222log20dLndλλ−=<.]
+So for the given sample, the value of ˆλ is 20/707 = 0.0283.
+(iii) The estimated value of S(240) is (1 + (0.0283 × 240))e–0.0283 × 240 = 7.792e–6.792 = 0.00875.
+(iv) F*(x) is sometimes referred to as the "empirical cdf". Its values for this set of data are 1/20, 3/20, …, 17/20, 19/20 at x = 16, 23, …, 127, 192. Strictly speaking it is a step function, "jumping" (from 0) to value 1/20 at x = 16, retaining that value up to a further "jump" to 3/20 at x = 23, and so on. On the graph below, for convenience its values at x = 16, 23, …, 192 are shown, with these being joined by line segments.
+ˆ()Fx is given by ˆˆˆ1()1(1)xSxxeλλ−−=−+ calculated at x = 16, 23, …, 192 using ˆλ = 0.0283 as found in part (ii). The values of ˆ()Fx are given in the table. These also are plotted on the graph, joined by line segments for convenience.
+x
+16
+23
+35
+44
+51
+55
+67
+97
+127
+192
+ˆ()Fx
+0.076
+0.139
+0.261
+0.354
+0.423
+0.461
+0.565
+0.759
+0.874
+0.972
+Solution continued on next page
+Key:
+F*
+(NB shown as just F on the graph) ˆF
+F* and are close except between survival times of about 50 and 100, where (the fitted model) somewhat underestimates the cumulative probability of dying – in that interval, patients are more likely to die than the fitted model predicts. In addition, the fitted model is slightly pessimistic towards the end of the range of survival times, so the result in part (iii) may be an underestimate of this probability of survival. ˆFˆF
+ \end{enumerate}
+ \end{document}
+ 
