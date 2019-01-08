@@ -1,0 +1,94 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}Higher Certificate, Paper II, 2006.  Question 4 
+ 
+ 
+(i) The key assumption is that the experimental errors are independent N(0, σ 2) variables (note constant σ 2). 
+ 
+Totals are 
+ 
+Method 1 Method 2 Method 3 78.6 79.3 86.9 
+ 
+Subj. 1 Subj. 2 Subj. 3 Subj. 4 Subj. 5 Subj. 6 Subj. 7 Subj. 8 23.2 30.8 26.8 26.5 32.9 39.5 27.2 37.9 
+ The grand total is 244.8.     ΣΣyij2 = 2585.22. 
+ 
+"Correction factor" is 
+2244.8 2496.96 24 = . 
+ Therefore total SS = 2585.22 – 2496.96 = 88.26. 
+ 
+SS for methods = 
+222 78.6 79.3 86.9 2496.96 5.30 888 + + − =. 
+ 
+SS for subjects = 
+2 2 2 23.2 30.8 37.9... 2496.96 78.47 3 3 3 + + + − = . 
+ 
+ 
+The residual SS is obtained by subtraction. 
+ Hence the analysis of variance table is as follows. 
+ SOURCE DF SS MS F value Methods   2   5.30   2.65        8.26   Compare F2,14 Subjects   7 78.47 11.21      34.95   Compare F7,14 Residual 14   4.49 0.3207 = 2 ˆ σ
+ TOTAL 23 88.26   
+ 
+ 
+Upper critical points of F2,14 and F7,14 are as follows. 
+ 
+ 5% 1% 0.1% F2,14 3.74 6.51 11.78 F7,14 2.76 4.28   7.08 
+ 
+ 
+ 
+ 
+ 
+Solution continued on next page 
+ 
+The F value for methods is highly significant;  we have strong evidence that not all the methods are the same in terms of mean clotting time.  The F value for subjects is very highly significant.  We have very strong evidence that not all the subjects are the same in this regard;  the analysis has detected and removed a large systematic source of variation. 
+ 
+ 
+ 
+To investigate method differences, we need the method means, which are 
+ 
+Method 1 :   9.825         Method 2 :   9.9125         Method 3 :   10.8625. 
+ 
+The least significant difference between any pair of these means is 
+ 
+14 14 2 0.3207 0.283 8 tt × =     where   14 2.145 at5% 2.977 at1% 4.140 at0.1% t ⎧ ⎪= ⎨ ⎪ ⎩
+ 
+so the least significant differences are 0.607 for 5%, 0.842 for 1% and 1.172 for 0.1%.  Clearly methods 1 and 2 do not appear to differ in mean clotting time but there is strong evidence that method 3 has a higher mean clotting time than either of the others. 
+ 
+ 
+ 
+ 
+(ii) In the analysis of variance now, there will be no "subjects" term, only "methods" and "residual".  The new residual will include both the amount previously classified as residual and the amount previously classified as the subjects term.  Thus the new analysis of variance table is as follows. 
+ SOURCE DF SS MS F value Methods   2   5.30 2.65        0.67   Compare F2,21 Residual 21 82.96 3.95 = 2 ˆ σ
+ TOTAL 23 88.26   
+ The F value for methods is now not significant  –  we have no evidence to reject the null hypothesis that the methods are the same in terms of mean clotting time.  This is because the apparent underlying variability in the data is now very high, due to the consistent but unidentified between-subject variation.  Blocking therefore greatly increased the power to detect differences between the methods. 
+ 
+ \end{document}
