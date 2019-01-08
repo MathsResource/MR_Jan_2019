@@ -25,9 +25,13 @@
 %- Higher Certificate, Paper I, 2001. Question 3
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
-\begin{framed}
-%==========================================================================================%
-3. A manufacturer produces components of two quality grades:
+
+
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline
+\noindent 3. A manufacturer produces components of two quality grades:
 Standard quality, with lifetimes distributed as N(2000, 90000), i.e.
 Normally with mean 2000 hours and standard deviation √(90000) = 300
 hours.
@@ -35,27 +39,15 @@ High quality, with lifetimes distributed as N(2500, 15625).
 (a) (i) Find the probability that a randomly chosen standard component
 lasts at least 2300 hours, and find the corresponding probability for
 a high quality component.
+\\ \hline
+  \end{tabular}
+\end{table}
 
-(ii) Find the probability that a randomly chosen standard component
-lasts longer than a randomly chosen high quality component.
 
-(b) Due to a machine malfunction, a large batch of components is produced, of
-which 60% are standard and 40% high quality; however, these
-components are unlabelled and indistinguishable in appearance. A single
-component is chosen at random from this batch.
-(i) Find the expectation of its lifetime and the probability that it lasts
-at least 2600 hours.
 
-(ii) Given that a component from this batch lasts at least 2600 hours,
-what is the probability that it is of the high quality type?
 
-(iii) Given that the standard deviation of the lifetime of a component
-taken at random from this batch is 346.8 hours, find the
-approximate probability that the mean lifetime of 100 such
-components exceeds 2300 hours.
-\end{framed}
 \begin{enumerate}[(a)]
-\item    
+\item
 \begin{multicols}{2}
 \begin{eqnarray*}
 P( S \geq 2300) &=& 1- P (S \leq 2300)\\
@@ -81,21 +73,37 @@ P( H \geq 2300) &=& 1- P (H \leq 2300)\\
 
 
 \item  $X \sim N(2000,300^2)$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 
-$P(S \geq 2300) = 1- P(S \leq 2300)$
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline
+\noindent  Find the probability that a randomly chosen standard component
+lasts longer than a randomly chosen high quality component.
+\\ \hline
+  \end{tabular}
+\end{table}
 
-\begin{framed}
-\noindent \textbf{Z Score for $S = 2300$}
-
-\[z_{2300}  = \frac{2300 - 2000}{ 300}  = \frac{300}{300} = 1\]
-\end{framed}
-
-%-----------%
 $P(S >H) = P(S-H>0)$ where (S-H)  is $N(-500, (300^2) + (125^2)$
 
 \[P(S >H) = \Phi\left( \frac{-500}{325} \right) = \phi (-1.5385) = 0.0620\]
 
-%-----------%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline
+\noindent  Due to a machine malfunction, a large batch of components is produced, of
+which 60\% are standard and 40\% high quality; however, these
+components are unlabelled and indistinguishable in appearance. A single
+component is chosen at random from this batch.
+(i) Find the expectation of its lifetime and the probability that it lasts
+at least 2600 hours.
+\\ \hline
+  \end{tabular}
+\end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \item The lifetime X is S with probability 0.6 and H with probability 0.4.
 Hence \[E[X ] = 0.6×2000 + 0.4× 2500 = 2200 \mbox{hrs} .\]
@@ -134,24 +142,46 @@ P(X > 2600) &=& P(X \geq 2600|S)P(S) + P(X > 2600|H)P(H) \\
 
    
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline
+\noindent (ii) Given that a component from this batch lasts at least 2600 hours,
+what is the probability that it is of the high quality type?
+\\ \hline
+  \end{tabular}
+\end{table}
 \item  ( ) ( ) ( )
 ( )
 2600 |  | 2600 
 2600 
 \begin{eqnarray*}
-P (X H) &=& \frac{P(H>2600)}{P(X>2600)}\\
-
+P (X  H) &=& \frac{P(H>2600)}{P(X>2600)}\\
 &=& \frac{0.08476}{0.8613}\\
 &=& 0.09841
 \end{eqnarray*}.
 
+
+\newpage
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline
+\noindent (iii) Given that the standard deviation of the lifetime of a component
+taken at random from this batch is 346.8 hours, find the
+approximate probability that the mean lifetime of 100 such
+components exceeds 2300 hours.
+\\ \hline
+  \end{tabular}
+\end{table}
 \item X will have mean 2200. It is not Normally distributed but we way
 apply the Central Limit Theorem if we know its variance. In large samples we
 may take X as approximately N(2200, 346.82), so that $P(\bar{X}\geq 2300)$ = 
   
 \[\bar{X} \sim n(\mu = 2200, \sigma^2 = (346.8)^2\]
-               
- \[Z_{2300}  =   \frac{2300-2200}{       \left(\frac{346.8}{\sqrt{100}} \right)} = 2.8835\]
+   
+ \[Z_{2300}  =   \frac{2300-2200}{   \left(\frac{346.8}{\sqrt{100}} \right)} = 2.8835\]
 
 
 
@@ -165,6 +195,6 @@ P(\bar{X}\geq 2300) &=& 1- \Phi(2.8835)\\  &=& 1- 0.9980 \\&=& 0.02
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   
 
-                                              
+  
 
 \end{document}
