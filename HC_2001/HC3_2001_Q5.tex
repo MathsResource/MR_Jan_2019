@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Higher Certificate, Paper III, 2001. Question 5
+\begin{enumerate}[(a)]
+\item  Mean = np; variance = np(1 − p) .
+(ii) Mean (0 75) (1 44) (2 36) (3 7) (4 4) (5 3) 168
+169 169
+× + × + × + × + × + ×
+= =
+= 0.9941 = npˆ .
+Hence ˆ 0.9941 0.1988, ˆ (1 ˆ ) 0.7965
+5
+p = = np − p = .
+(iii) ( ) ( ) () ( ) 5 4 p 0 = 1− p = 0.33014; p 1 = 5 p 1− p = 0.40959
+( ) ( ) ( ) p 2 =10 p2 1− p 3 = 0.20326; p ≥ 3 = 0.05701.
+Multiplying these by 169 gives the expected frequencies.
+0
+25
+50
+75
+0 1 2 >=3
+Number of deaths
+Number of Litters
+Observed
+Expected
+Frequencies 0 1 2 ≥3 TOTAL
+Observed 75 44 36 14 169
+Expected 55.79 69.22 34.35 9.63 168.99
+( )2
+2 6.615 9.189 0.079 1.983 17.87
+OBS EXP
+X
+EXP
+−
+=\sigma = + + + = which is highly
+significant as an observation from 22
+χ (2 degrees of freedom since an estimated value
+of p is used).
+The null hypothesis of a binomial model is rejected.
+(iv) The value of p is assumed the same for each individual in each litter, all
+independently of one another. The calculated variance s2 = 1.3273 is larger than
+npˆ (1− pˆ ) = 0.7965 . The data observed have more 0s than expected on this model,
+and fewer 1s; also more of the higher number 3, 4, 5. There is evidence of
+"overdispersion", the independence and constancy assumptions breaking down.
+(v) Mean would be 4.006, new p = old(1 − p), variance the same, histograms the
+mirror images of old ones. χ2 same, so inferences same.
+
+\end{enumerate}
+\end{document}

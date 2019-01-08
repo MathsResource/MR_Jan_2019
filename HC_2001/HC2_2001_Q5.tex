@@ -1,0 +1,70 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+Higher Certificate, Paper II, 2001. Question 5
+\begin{enumerate}[(a)]
+\item  A suitable null hypothesis is that each judge is equally likely to choose either;
+hence N, the number preferred, is binomial with parameters 12 and p = ½. We have
+nA = 4 and nB = 8.
+( ) ( ) { }
+4 12
+12
+0
+4 in 12, 1 12 1 1 1 12 66 220 495
+2 r ! 12 ! 2 2
+P N B
+= r r
+≤   =   = + + + +   −       \sigma
+794 0.194
+4096
+= = .
+This result is not "unlikely", and the null hypothesis cannot be rejected. We have no
+conclusive evidence to say which may be more popular.
+(b) (i) McNemar's test deals with paired data, as these are.
+H0: there is no association between stress and success,
+H1: there is such an association.
+The test uses the two terms in the right-to-left diagonal, giving test statistic
+( )2 9 20
+4.172
+9 20
+−
+=
++
+Comparing with 2
+1 χ , this is significant at the 5% level. So there is evidence
+against the null hypothesis, in favour of the existence of some association.
+(ii) The standard 2×2 test has given a non-significant result ( 2 )
+1 χ < 3.84 . It
+does not use the matched nature of the data, so it has less power than
+McNemar's test to look for association. In this example, McNemar's result is
+based on the proportions of successful individuals in the two samples "stress"
+and "no stress".
+
+\end{enumerate}
+\end{document}

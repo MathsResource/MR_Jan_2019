@@ -30,32 +30,35 @@
 
 \setcounter{MaxMatrixCols}{10}
 
-\begin{document}Higher Certificate, Paper II, 2006.  Question 1 
+\begin{document}Higher Certificate, Paper II, 2006.  Question 2 
  
- \begin{enumerate}
-\item The variance of this sample is 
- 
-2 2 1 15568 15106.93 4054484 256.05 59 60 59
-s
-⎛⎞ = − = = ⎜⎟ ⎝⎠ . 
- 
-The null hypothesis to be tested is "σ 2 = 256".  It seems obvious that this null hypothesis is not likely to be rejected (even if the sample had been of considerably smaller size), but continuing with a formal test we use test statistic 
- 
-2
-2 ( 1) 59 256.05 59.01 256 ns σ −× ==
+\begin{enumerate} 
+\item Parametric tests need assumptions about the distribution underlying the data  –  often that it is Normal (if the situation is continuous).  
+\begin{itemize}
+    \item Data in the form of subjective scores are unlikely to follow any of the common distributions, and two sets of independent data may not even be of the same shape, location, scatter or skewness. 
+    \item Non-parametric tests allow simple characteristics of distributions to be compared with few or no theoretical assumptions.  
+    \item However, they have less power than corresponding parametric tests in cases where the parametric test is in fact valid.  
+    \item They therefore need larger sample sizes. 
+\end{itemize}
  
  
-which is referred to .  The upper 5% point is about 78.  Clearly we cannot reject the null hypothesis as the data give no evidence for doing so. 2 59χ
+\item  The Wilcoxon rank sum test (or, equivalently, the Mann Whitney U form of this test) is suitable for this comparison.  First rank all 20 data items, as follows. 
+ 
+Data 0 3 8 9 10 14 15 16 17 22 28 31 33 37 Ranks 1 2 3 4 5 6 7 8 9 10 11 12 13 14 E or A E E A E E E E A E E A A A A 
+ 
+38 39 47 50 55 80 15 16 17 18 19 20 A A E A A E 
  
  
-\item We have  15568 259.46 60 x ==  and we wish the test the null hypothesis μ = 266.  Taking the value of σ as 16, which seems highly plausible from part (i), we use test statistic 
- 266 3.1616 60 x − =− 
+The rank sum for Entonox (E) is 1 + 2 + 4 + 5 + 6 + 7 + 9 + 10 + 17 + 20 = 81.  That for A is 129. 
  
-and refer to N(0, 1). 
- [Alternatively, we could continue to use the sample variance s2 (= 256.05) and refer 266 60 x s − to t59;  this makes hardly any difference in practice in this case.] 
+\begin{itemize} 
+\item  The required test is two-sided.  
+\item For a 5\% test, we refer the smaller of these (81) to the lower 2½\% point for the W10,10 distribution as shown in the Society's statistical tables for use in examinations. 
+\item This is 78 so, at the 5\% level of significance, we cannot reject the null hypothesis that pain scores do not differ.  However, we note that the result is (just) significant at the 10\% level (the lower 5\% point is 82), and the sample sizes are quite small.
+\item So, overall, we do not really have sufficient evidence to say whether or not there is an advantage for Entonox. 
+\item A more powerful test should be conducted using larger samples before coming to a firm decision. 
+\end{itemize}
+The data do appear to need a non-parametric testing procedure. 
+ \end{enumerate}
+ \end{document}
  
-This is well beyond the double-tailed 1\% point of N(0, 1);  there is strong evidence against this null hypothesis.  It is reasonable to conclude that this population has a mean different from the "normal" one;  it appears to be less. 
- 
-Using N(0, 1), we have , giving a p-value of 0.0016. 
-\end{enumerate}
-\end{document}

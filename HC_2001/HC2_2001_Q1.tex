@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Higher Certificate, Paper II, 2001. Question 1
+\begin{enumerate}[(a)]
+\item If random samples are taken from a non-Normal population, whose mean and
+standard deviation are known to be $\mu$ and $\sigma$ , then when the sample size n is large the
+sample mean ( X , say) will be approximately Normal with mean $\mu$  and standard
+deviation
+n
+$\sigma$ . The approximation improves as n increases, and is adequate for
+moderate size n if the X distribution is not very skew. The total of n observations has
+a similar distribution (scaled up by a factor n). Thus estimators that are averages or
+totals can often be taken as approximately Normal.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item Let N, S be the new and standard sprays respectively; then the mean XN − XS
+can be taken as N(249 − 237, 490 410
+100 100
++ ) approximately (inserting the sample
+estimates for the mean and variance), i.e. N(12,9).
+A 95% confidence interval then is 12 \pm  (1.96) 9 = 12 \pm  5.88
+or 6.12 to 17.88 kg for N S \mu −\mu .
+The unbiased estimate of ( ) N S \mu −\mu is 12 kg, and the interval (6.12, 17.88) contains
+the true value of ( ) N S \mu −\mu with probability 0.95. There is strong evidence to say
+that N is better than S.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  ˆ 40 0.8
+50 N p = = , the proportion of healthy plants on N; and ˆ 70 0.7
+100 S p = = on
+S. Also 50 N n = and 100 S n = . Using a Normal approximation to the binomial
+distribution, the true difference ˆ (1 ˆ ) ˆ (1 ˆ )
+~ N ˆ ˆ ,
+50 100
+N N S S
+N S N S
+p p p p
+p p p p
+ − − 
+−  − + 
+ 
+A 95% confidence interval for N S p − p is (0.8 0.7) 1.96 0.8 0.2 0.7 0.3
+50 100
+− \pm  × + ×
+i.e. 0.1\pm 1.96×0.0728 or 0.1\pm  0.143 , i.e. (−0.04, 0.24).
+It is possible that S may be better by 4%, but the upper limit is for N to be better by
+24%.
+\end{enumerate}
+\end{document}
+

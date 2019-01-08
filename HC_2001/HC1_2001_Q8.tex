@@ -25,6 +25,204 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
 Higher Certificate, Paper I, 2001. Question 8
+
+\begin{framed}
+
+%==========================================================================================%
+8. State the model for simple linear regression analysis on one explanatory variable.
+What are the assumptions usually made regarding the stochastic term?
+
+Data relating to percentage operating capacity and profits (£) per unit of output are
+collected for 12 factories producing similar domestic refrigerators in the previous
+year, as follows.
+% operating
+capacity
+50 57 61 68 77 80 82 85 89 91 95 99
+profit per unit
+of output
+2.5 4.0 3.1 4.6 7.3 6.2 6.1 11.6 10.0 14.2 16.1 19.5
+These data are entered into Minitab, with profit in column 1 (i.e. c1) and
+% operating capacity in column 2 (i.e. c2), and analysed as shown in the edited
+output. Use the output to answer the following questions, noting the explanations
+incorporated in it. c1 is named 'Profits' and c2 is named 'OpCapcty'.
+(i) Consider the plot of profits against capacity and the subsequent regression
+analysis.
+(a) Comment on this plot.
+(1)
+(b) Explain what is meant by the statement R-Sq = 80.3%. How might
+this have been calculated from the Analysis of Variance
+immediately following?
+
+(c) What is the practical meaning of the slope parameter estimate
+0.31562 ? Construct a 95% confidence interval (CI) for the slope
+parameter.
+
+(d) The subcommand SUBC> predict … on page 13 produces the
+lines starting 'Predicted Values' and ending 'very extreme X values'.
+Noting that, for example, −15.799 + (0.31562)(25) = −7.909 and
+that the 95% CI is obtained as −7.909 ± 2.714 t10, 0.025 , explain the
+meaning of this section of the output.
+
+Question 8 continued on next page.
+Minitab output follows on pages 13 and 14.
+12
+(ii) In the analysis of Model 2, column 3 (i.e. c3) is constructed as
+log10(profits).
+(a) Compare the plot of log10(profits) against % operating capacity
+with that of profits against % operating capacity.
+
+(b) Use the regression of log10(profits) on % operating capacity to
+express profits as a function of % operating capacity.
+
+(c) Convert the predicted value of log10(profits) for 25% operating
+capacity, and its CI, to a corresponding prediction and CI for
+profits. Compare your answers with the corresponding values
+indicated in the output referred to in part (i)(d) above.
+
+(iii) Discuss with reasons which of the two regressions you consider provides
+the better summary of the data. Indicate any limitations which should be
+borne in mind when using your preferred model.
+
+Two pages of Minitab output follow
+13 Turn over
+MTB > set c1 # profit in £1000s, for 12 factories
+DATA> 2.5 4.0 3.1 4.6 7.3 6.2 6.1 11.6 10.0 14.2 16.1 19.5 DATA> end
+MTB > set c2 # corresponding % operating capacity for 12 factories as above
+DATA> 50 57 61 68 77 80 82 85 89 91 95 99 DATA> end
+MTB > name c1 'Profits' c2 'OpCapcty'
+(i) Analysis of Model 1
+MTB > plot c1 c2
+-
+- *
+18.0+
+-
+Profits - *
+- *
+-
+12.0+ *
+-
+- *
+-
+- *
+6.0+ * *
+- *
+- * *
+- *
+----+---------+---------+---------+---------+---------+--OpCapcty
+50 60 70 80 90 100
+MTB > regress c1 1 c2;
+SUBC> residual c3;
+SUBC> predict c1 for c2 = 25; SUBC> predict c1 for c2 = 50; SUBC> predict c1 for c2 = 75.
+The regression equation is Profits = - 15.8 + 0.316 OpCapcty
+Predictor Coef StDev T P
+Constant -15.799 3.918 -4.03 0.002
+OpCapcty 0.31562 0.04942 6.39 0.000
+S = 2.570 R-Sq = 80.3% R-Sq(adj) = 78.3%
+Analysis of Variance
+Source DF SS MS F P
+Regression 1 269.33 269.33 40.78 0.000
+Residual Error 10 66.04 6.60
+Total 11 335.37
+Predicted Values
+Fit StDev Fit 95.0% CI
+-7.909 2.714 ( -13.957, -1.860) XX
+Fit StDev Fit 95.0% CI
+-0.018 1.563 ( -3.500, 3.464)
+Fit StDev Fit 95.0% CI
+7.872 0.755 ( 6.190, 9.554)
+X denotes use of X values away from the centre
+XX denotes use of very extreme X values
+MTB > let c4=c1-c3 # c4 is the fit
+MTB > gstd
+* NOTE * Standard Graphics are enabled. Professional Graphics are disabled.
+MTB > plot c3 c4 # c3 contains the residuals from regression, c4 is the fit
+-
+c3 - *
+-
+3.0+
+- *
+- * *
+- *
+- *
+0.0+
+- *
+- * *
+-
+- *
+-3.0+ *
+-
+- *
+--+---------+---------+---------+---------+---------+----c4
+0.0 3.0 6.0 9.0 12.0 15.0
+14
+(ii) Analysis of Model 2
+MTB > let c3=logten(c1)
+MTB > name c3 ‘log Prof’
+MTB > plot c3 c2
+- *
+-
+1.20+ *
+- *
+log Prof- *
+- *
+-
+0.90+
+- *
+- **
+-
+- *
+0.60+ *
+-
+- *
+- *
+-
+----+---------+---------+---------+---------+---------+--OpCapcty
+50 60 70 80 90 100
+MTB > regress c3 1 c2;
+SUBC> residual c4;
+SUBC> predict c3 for c2 = 25; SUBC> predict c3 for c2 = 50; SUBC> predict c3 for c2 = 75.
+The regression equation is log Prof = - 0.519 + 0.0177 OpCapcty
+Predictor Coef StDev T P
+Constant -0.5185 0.1276 -4.06 0.002
+OpCapcty 0.017699 0.001610 10.99 0.000
+S = 0.08372 R-Sq = 92.4% R-Sq(adj) = 91.6%
+Analysis of Variance
+Source DF SS MS F P
+Regression 1 0.84694 0.84694 120.83 0.000
+Residual Error 10 0.07009 0.00701
+Total 11 0.91703
+Predicted Values
+Fit StDev Fit 95.0% CI
+-0.0760 0.0884 ( -0.2731, 0.1210) XX
+Fit StDev Fit 95.0% CI
+0.3664 0.0509 ( 0.2530, 0.4799)
+Fit StDev Fit 95.0% CI
+0.8089 0.0246 ( 0.7541, 0.8637)
+X denotes a row with X values away from the centre
+XX denotes a row with very extreme X values
+MTB > let c5=c3-c4 # c4 contains the residuals from regression, c5 is the fit
+MTB > plot c4 c5
+-
+- *
+0.10+
+- *
+c4 - * *
+- * *
+- *
+0.00+
+- *
+-
+- * *
+-
+-0.10+ *
+-
+- *
+--------+---------+---------+---------+---------+--------c5
+0.48 0.64 0.80 0.96 1.12
+
+
+
+\end{framed}
 \begin{enumerate}
 \item  yi =α + β xi +ε i
 where y is the response (observation) and x the value of the explanatory variable on

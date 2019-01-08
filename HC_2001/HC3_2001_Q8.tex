@@ -1,0 +1,61 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Higher Certificate, Paper III, 2001. Question 8
+\begin{enumerate}[(a)]
+\item The data should be Normally distributed about the respective treatment means;
+and the variances of all the observations should be the same. The constant variance
+condition is more important. For these data, the variances within the different
+treatments are so different that this condition cannot be assumed. There is an obvious
+relation between mean and variance, which a transformation may be able to correct
+for.
+\item  x : rate 3, variance = 13.49.
+ln x : rate 2, mean = 4.827, variance = 0.1212.
+1/ x : rate 1, variance = 0.0004721;
+rate 4, mean = 0.00147.
+The logarithmic transformation should be used, since it achieves approximately the
+same variance for each rate and there is no evidence of a mean–variance relation.
+\item 
+SOURCE DF SS MS
+Rates 3 21.153 7.051 F3,8 = 45.6
+Residual 8 1.236 0.1545 = s2
+TOTAL 11 22.389
+Comparing 45.6 with F3,8, there is strong evidence of a difference among the means
+for the various rates.
+\item Rate 3: mean x = 5.716 , pooled variance from ANOVA = 0.1545 (8df).
+Two-tailed 5% point of t8 is 2.571. r = 3. Limits are
+2
+x t s
+r
+\pm  .
+This gives 5.716 2.571 0.1545 5.716 0.583
+3
+\pm  = \pm  i.e. 5.133 to 6.299 .
+e5.133 =169.5; e6.299 = 544.0 [Note : e5.716 = 303.7 ]
+
+\end{enumerate}
+\end{document}

@@ -1,0 +1,69 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Higher Certificate, Paper III, 2001. Question 1
+\begin{enumerate}[(a)]
+\item  Using the differences, test the null hypothesis "mean difference = 0", assuming
+Normality of the distribution of differences.
+12.3, 2 (24.3176)2 ; so test statistic is 12.3 0 1.60
+24.3176 / 10 d d = − s = − − = − , which is not
+significant as an observation from t9.
+(ii) Correction term = 48312 / 20 =1166928.05 .
+SS for weeks 1 (24772 23542 ) correction 1167684.50 1166928.05
+10
+= + − = −
+= 756.45
+SS for patients 1 (2582 ... 6132 ) correction = 1238009.50 1166928.05
+2
+= ++ − −
+=71081.45
+Analysis of Variance
+ITEM DF SS MS
+Patients 9 71081.45 7897.94 F9,9 = 26.71 sig at 0.1%
+Weeks 1 756.45 756.45 F1,9 = 2.56 not significant
+Residual 9 2661.05 295.67
+TOTAL 19 74498.95
+(iii)
+Ranking of |diff| 4 5 6 8 9 24 25 26 40 56
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10)
+Sign + + + − − − + − − −
+Sum of + ranks is S+ = 13; S− = 42. Tables show that for n = 10 and at the 5% level
+in a two-tail test, the smaller of S+ and S− should be 8 or less for significance.
+(iv) The null hypothesis for (i) and (ii) is as stated in (i). The alternative
+hypothesis is "mean difference ≠ 0". Normality of the data would be required in (ii),
+not just of the differences. A dot-plot would in either case cast serious doubt on this
+assumption. The Wilcoxon test does not require any distributional assumption, only
+that the + and − rankings are randomly placed in the set. In each case we must not
+reject the null hypothesis because we do not have any statistically significant test
+results.
+(v) 2
+9 1,9 t = F .
+
+
+\end{enumerate}
+\end{document}

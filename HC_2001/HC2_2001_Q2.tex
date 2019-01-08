@@ -1,0 +1,76 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Higher Certificate, Paper II, 2001. Question 2
+\begin{enumerate}[(a)]
+\item  If all dice are thrown "fairly" (and all are "fair" in construction), and throws
+are independent, then the conditions for a binomial distribution are satisfied; p = 1/6
+since there are six equally possible results, and n = 5, the "sample size" (number
+thrown) each time. The number of "success" (sixes) is counted (R).
+\item ( )
+5 1 5 5
+6 6
+r r
+P R r
+r
+−      = =    
+    
+for r = 0, 1, 2, 3, 4, 5.
+Expected frequencies are these probabilities × 200.
+( ) ( ) ( )
+5 4 2 3 0 5 0.40188, 1 5 1 5 0.40188, 2 10 1 5 0.16075
+6 66 6 6
+P =   = P =    = P =     =
+        
+( ) ( ) ( )
+3 2 4 5 3 10 1 5 0.03215, 4 5 1 5 0.00322, 5 1 0.00013
+6 6 6 6 6
+P =     = P =     = P =   =
+\begin{itemize}         
+\item Compare these expected values with those observed, in the form of frequencies, using
+a χ2 test. \item Group 3, 4, 5 together to prevent very small expected frequencies.
+r 0 1 2 3 4 5 Total
+Observed 90 78 26 4 1 1 200
+combine these to give
+6
+Expected 80.38 80.38 32.15 7.10 (200.01)
+( ) ( ) ( ) ( ) 2 2 2 2
+2 90 80.38 78 80.38 26 32.15 6 7.10
+2.569
+80.38 80.38 32.15 7.10
+X
+− − − −
+= + + + = which is
+not significant as an observation from 2
+3 χ (3 degrees of freedom since we are given
+the value of p).
+The null hypothesis is that R is binomial with n = 5, p = 1/6, and there is no evidence
+that the observed frequencies depart seriously from those expected on this hypothesis.
+We may assume the binomial model explains the data, and therefore the conditions
+for a binomial do apply.
+\end{enumerate}
+\end{document}

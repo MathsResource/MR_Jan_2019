@@ -1,0 +1,83 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Higher Certificate, Paper II, 2001. Question 7
+\begin{enumerate}[(a)]
+\item  yij = \mu +\alpha i +ε ij , where ij y is the observation on the jth unit receiving
+treatment i (or lying in group i), \mu is a grand mean, i
+\alpha  is an 'effect' (departure from
+\mu ) due to treatment (or group) i and ij ε is a random, Normally distributed, residual
+'error' term, all { } ij ε independent and all having variance \sigma 2 .
+The model is "additive", constructed by adding quantities rather than (for example)
+multiplying them; this and the properties of { } ij ε are necessary assumptions for the
+analysis.
+\item
+Woodland n \sigmax \sigmax2 x (\sigmax)2/n
+A 10 664 45780 66.400 44089.600
+B 8 313 13453 39.125 12246.125
+C 6 402 27938 67.000 26934.000
+N=24 1379=G 87171 83269.725
+2
+G 79235.042
+N
+=
+Total corrected SS
+2
+87171 G 7935.958
+N
+= − =
+Woodlands SS
+2
+83269.725 G 4034.683
+N
+= − =
+Analysis of Variance
+ITEM DF SUM OF SQUARES MEAN SQUARE
+Woodlands 2 4034.683 2017.342 F2,21 = 10.86
+Residual 21 3901.275 185.775=s2
+TOTAL 23 7935.958
+Comparing 10.86 with F2,21, the null hypothesis "all i
+\alpha  are zero" can be rejected at
+the 0.1% significance level.
+From the values of x , we can immediately see that the reason for this is that B is
+different from the other two.
+Compare B and C:
+xC − xB = 27.875 , SE of difference 2 1 1
+8 6
+= s  + 
+ 
+.
+Hence the 21 t test statistic is 27.875 3.79
+7.361
+= which is significant at the 0.1% level.
+Alternatively, a 95% confidence interval for ( C B \mu −\mu ) is
+27.875 \pm  2.080×7.361 i.e. (12.56 to 43.19) .
+The precision of the results is poor, as shown by the wide interval.
+There is a similar result for B versus A.
+\end{enumerate}
+\end{document}
