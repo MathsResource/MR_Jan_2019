@@ -29,53 +29,55 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}
+
 Higher Certificate, Paper I, 2005. Question 3
 \begin{enumerate}
-\item P(T > t) = P(no failure in time t) = P(X = 0) = e−λ t .
-\[\therefore 1 – F(t) = e−λ t \] and so the pdf of T is 
+\item \[P(T > t) = P(no failure in time t) = P(X = 0) = e^{-\lambda} t .\]
+\[\therefore 1 - F(t) = e^{-\lambda} t \] and so the pdf of T is 
 
-\[ \frac{dF (t )}{dt}d  d (e t ) e t
-dt dt
-= \frac{dF (t )}{dt} = − −λ =λ −λ .\]
+\[ \frac{dF (t )}{dt}  =  \frac{dF (e^{-\lambda\,t} )}{dt}  = \lambda\,e^{-\lambda\,t}\]
 
-\item P(all n systems still functioning at time t) = ( )
-1 1
-n n
-t nt
-i
-i i
-P T t e−λ e− λ
-= =
-Π > =Π = .
-$\therefore$ the pdf of Tmin is
-\[ \frac{dF (t )}{dt}d  d (e t ) e t
-dt dt\] (for t > 0).
-Thus Tmin is exponential with parameter nλ.
+\item 
+\begin{eqnarray*}
+P(\mbox{all n systems still functioning at time t}) &=& \prod^{n}_{i=1} P(T_i > t )\\
+ &=& \prod^{n}_{i=1}  e^{-\lambda\,t}\\  
+ &=& e^{-n\lambda\,t\} 
+\end{eqnarray*} 
+ 
+
+
+\therefore the pdf of Tmin is
+\[ \frac{dF (e^{-\lambda\,t} )}{dt}  = \lambda\,e^{-\lambda\,t}\] (for t > 0).
+Thus Tmin is exponential with parameter $n\,\lambda$.
 \item  P(all n systems have failed by time t) = ( ) ( )
-1 1
-1
-n n
-t
-i
-i i
-P T t e−λ
-= =
-Π ≤ =Π −
-(1 )= − e−λ t n , and this is P(Tmax) ≤ t.
-\therefore the pdf of Tmax is {( ) } ( ) 1 1 1 d e t n n e t e t n
-dt
-λ λ λ λ − − = − − − − (for t > 0).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{eqnarray*}
+\prod^{n}_{i=1} P(T_i > t )
+ &=& \prod^{n}_{i=1}  e^{-\lambda\,t}\\  
+ &=& e^{-n\lambda\,t\} 
+\\ &=& - e^{-\lambda} t n , 
+\end{eqnarray*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+and this is $P(Tmax) \leq t$.
+\therefore the pdf of Tmax is 
+
+\[ \frac{d}{dt}\left\{ \left(1-e^{-\lambda\,t} \right)^n  \right\}  =  n \lambda\,e^{-\lambda\,t} (1-e^{-\lambda\,t})^{n-1}\]
+
+
+(for t > 0).
 (Note that this is not exponential.)
 
 
 \begin{itemize}
-\item We now have n = 10 and λ = 0.002. 
-\item We require t1 and t2 such that 1− e−nλ t1 = 0.05
-and (1 2 ) 0.95. − e−λ t n =
-\item \therefore 1− e−0.02t1 = 0.05 , giving 0.02t1 = –log(0.95) = 0.051293 
-\item so that t1 = 2.565.
-\item Also, 2 ( )1− e−0.002t = 0.95 1/10 = 0.994884 , giving 0.002t2 = –log(0.005116) = –5.2754
-\item so that t2 = 2638.
+\item We now have $n = 10$ and $\lambda = 0.002$. 
+\item We require $t_1$ and $t_2$ such that $1- e^{-n\lambda t_1} = 0.05$
+and $(1- e^{-\lambda t_2})^n = 0.95$
+  \item \therefore $1- e^{-n\lambda t_1} = 0.05$ , giving $0.02t_1 = –log(0.95) = 0.051293$ 
+\item so that $t_1 = 2.565$.
+\item Also, $(1- e^{-\lambda t_2}) = 0.95^{1/10} = 0.994884$ , giving $0.002t_2 = –log(0.005116) = –5.2754$
+\item so that $t_2 = 2638$.
 \end{itemize}
 
 \end{enumerate}
