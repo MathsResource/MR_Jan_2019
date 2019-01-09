@@ -32,9 +32,13 @@
 
 \begin{document}
 Higher Certificate, Paper I, 2005. Question 2
-Cycle ~ N(27, 6.25)
-Bus ~ N(13, 20) Walk1 ~ N(7, 4) Walk2 ~ N(5, 1)
-Car ~ N(23, 36)
+\begin{description}
+\item[A] Car $\sim N(23, 36)$
+\item[B] Bus $\sim$ N(13, 20), Walk1 $\sim$ N(7, 4), Walk2 $\sim$ N(5, 1)
+\item[C] Cycle $\sim$ N(27, 6.25)
+\end{description}
+
+
 The sum of independent N( μ
 i, σ
 i 2) distributions is N(Σ μ
@@ -49,27 +53,32 @@ i 2).
 \item
 
 \begin{description}
-\item[Cycle: ]
-\[P (N(27,6.25) < 30)  = \Phi \left( \frac{30 27}{\sqrt{6.25}} \right)  = \Phi(1.2) = 0.8849\]
-
-\item[Bus:]
-\[P (N(25,25) < 30)  = \Phi \left( \frac{30- 25}{\sqrt{25}} \right)  = \Phi(1) = 0.8413\]
 \item[Car:]
 \[P (N(23,26) < 30)  = \Phi \left( \frac{30- 26}{\sqrt{26}} \right)  = \Phi(1.1667) = 0.8783\]
 
+
+
+\item[Bus:]
+\[P (N(25,25) < 30)  = \Phi \left( \frac{30- 25}{\sqrt{25}} \right)  = \Phi(1) = 0.8413\]
+
+\item[Cycle: ]
+\[P (N(27,6.25) < 30)  = \Phi \left( \frac{30 27}{\sqrt{6.25}} \right)  = \Phi(1.2) = 0.8849\]
+
 \end{description}
-.
+
 Cycling is best, with a probability of 0.8849.
 
 \item 
 \begin{description}
-\item[Cycle: ]
-\[P (N(27,6.25) >35)  = 1- \Phi \left( \frac{35- 27}{\sqrt{6.25}} \right)  = 1- \Phi(3.2) = 0.0007\]
+\item[Car:]
+\[P (N(23,26) >35)  = 1- \Phi \left( \frac{35- 26}{\sqrt{26}} \right)  = 1- \Phi(2) = 0.0228\]
 
 \item[Bus:]
 \[P (N(25,25) >35)  = 1- \Phi \left( \frac{35- 25}{\sqrt{25}} \right)  = 1- \Phi(2) = 0.0228\]
-\item[Car:]
-\[P (N(23,26) >35)  = 1- \Phi \left( \frac{35- 26}{\sqrt{26}} \right)  = 1- \Phi(2) = 0.0228\]
+
+\item[Cycle: ]
+\[P (N(27,6.25) >35)  = 1- \Phi \left( \frac{35- 27}{\sqrt{6.25}} \right)  = 1- \Phi(3.2) = 0.0007\]
+
 
 \end{description}
 Again cycling is best, with a probability of 0.0007.
@@ -87,9 +96,10 @@ P
 <
 , and similarly for the other modes of travel.
 \begin{eqnarray*}
-P(< 30) &=& P(< 30 cycle)P(cycle) + P(< 30 bus)P(bus) + P(< 30 car)P(car)\\
+P(< 30) &=& P(< 30| cycle)P(cycle) + P(< 30| bus)P(bus) + P(< 30| car)P(car)\\
 &=& (0.8849\times 0.3) + (0.8413\times 0.3) + (0.8783\times 0.4)\\
-&=& 0.26547 + 0.25239 + 0.35132 = 0.86918.\\
+&=& 0.26547 + 0.25239 + 0.35132 \\ 
+&=& 0.86918.\\
 \end{eqnarray*}
 
 Hence 
