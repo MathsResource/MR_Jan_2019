@@ -31,55 +31,32 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}Higher Certificate, Paper I, 2005. Question 4
-f (x) (1 x) 1 , 0 x 1, 0 \alpha \alpha \alpha − = − < < > .
+\[f(x) =  \alpha (1-x)^{\alpha-1}, \qquad \mbox{ where }0 < x < 1, 0 \alpha  > 0 .
 
-\begin{enumerate}
-\item (i) ( ) ( ) ( ) ( ) 1
-0 0
-1 1 1 1
-x x Fx u du u x \alpha \alpha \alpha \alpha = − − = − −  = − − ∫   (for 0 < x < 1 and \alpha > 0).
+\begin{enumerate}[(a)]
+\item 
+\begin{eqnarray*}
+F(x) &=&  \int^{x}_{0}  \alpha (1-u)^{\alpha-1}  du \\
+
+ &=& \left[ -(1-u)^\alpha  \right]^{x}_{0} 
+ &=& 1- (1-x)^\alpha
+\end{eqnarray*}
+
+ (for $0 < x < 1$ and $\alpha > 0$).
 
 \begin{itemize}
 \item The median m is given by F(m) = 0.5, so we have $1 – (1 – m)^\alpha = 0.5$ or $(1 – m)^\alpha = 0.5$,
-so that 1−m = 2−1/\alpha , i.e. m =1− 2−1/\alpha .
-\item When \alpha = 3, ( ) ( )2 f x = 3 1− x and ( ) ( )3 F x =1− 1− x (in [0, 1]).
-\[ f(x)
-x
-1
-1
-2
-3
-4\]
-\[ F(x)
-x
-1
-1\]
+so that $1−m = 2^{−1/\alpha}$ , i.e. $m =1− 2^{−1/\alpha}$ .
+\item When $\alpha = 3$, $f(x) = 3(1− x)^2$ and $F x =1−(1− x)^3$ (in [0, 1]).
+\[ \mbox{Image HERE} \]
+\[ \mbox{Image HERE} \]
 \end{itemize}
-\item ( ) ( ) 1 1
-1 1
-1 1
-n n
-n
-i i
-i i
-L x x \alpha \alpha \alpha \alpha − −
-= =
-=  −  = − Π  Π .
-Hence ( ) ( )
-1
-log log 1 log 1
-n
-i
-i
-\[L n \alpha \alpha x
-=
-= + − Σ − .
-( )
-1
-log log 1
-n
-i
-i\]
+\item \[
+L = \prod^{n}_{i=1} \left[ \alpha(1-x_i)^{n-1} \right]  = \alpha^n\prod^{n}_{i=1}
+(1-x_i)^{n-1}\]
+Hence 
+\[
+\log L = n \log \alpha + (\alpha-1) \sum^{n}_{i=1} \left[ \log (1-x_i) \right]  \]
 \[d L n x
 d\alpha \alpha =
 ∴ = +Σ −\] which on setting equal to zero gives that the maximum
