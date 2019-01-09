@@ -34,24 +34,31 @@
 
 \begin{enumerate}
 \item The marginal distributions of X and Y are as shown, appended to the table.
-Values of Y
-0 1 2
-Marginal distribution
-of X
-–1 1/6 1/12 1/12 1/3
-0 1/12 1/6 1/12 1/3
-Values of X
-1 1/12 1/12 1/6 1/3
-Marginal distribution of Y 1/3 1/3 1/3
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+   & Y= 0    & Y= 1    & Y= 2    &    \\ \hline \hline 
+X= –1 & 1/6  & 1/12 & 1/12 & 1/3 \\ \hline 
+X=  0 & 1/12 & 1/6  & 1/12 & 1/3 \\ \hline 
+X=  1 & 1/12 & 1/12 & 1/6  & 1/3 \\ \hline \hline 
+   & 1/3 & 1/3 & 1/3 & \\
+\end{tabular}
+\end{center}
+Marginal distribution of Y 
 Hence E[X] = 0 and E[Y] = 1 (by symmetry; by noting that X and Y are both discrete
 uniform; or by explicit calculation).
-\[Var(X) = \sum(x – 0)2P(X = x) = {(–1)2 + 02 + 12)/3 = 2/3.\]
+\[Var(X) = \sum(x – 0)^2P(X = x) = {(–1)^2 + 0^2 + 1^2)/3 = 2/3.\]
 Var(Y) can be calculated similarly; or, since Y = X + 1, we have Var(Y) = Var(X).
 \item The conditional distributions of Y for each value of X are as follows.
-Y = 0 1 2
-X = –1 1/2 1/4 1/4
-0 1/4 1/2 1/4
-1 1/4 1/4 1/2
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+   & Y= 0    & Y= 1    & Y= 2    &    \\ \hline \hline 
+X= -1 & 1/2 &  1/4 & 1/4 \\ \hline 
+X = 0 & 1/4 & 1/2 & 1/4 \\ \hline 
+X = 1 & 1/4 & 1/4 & 1/2 \\ \hline 
+\end{tabular}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 Hence $E[Y | X = –1] = (0)(0.5) + (1)(0.25) + (2)(0.25) = 3/4$.
 Similarly, $E[Y | X = 0] = 1 and E[Y | X = 1] = 5/4$.
 Thus we have $E[Y | X = x] = 1+ 4x$ .
