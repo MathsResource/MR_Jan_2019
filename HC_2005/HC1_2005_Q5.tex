@@ -45,7 +45,7 @@ and 0 < p < 1).
 \item
 The likelihood L is simply P(Y = y).
 \item
-Hence log L = constant + y log p + (n − y)log(1− p).
+Hence \[\log L = constant + y \log p + (n − y)\log(1− p).\]
 \item 
 log
 1
@@ -74,7 +74,7 @@ p Y np p
 n n n
 −
 = = − = . 
-\item We may estimate p by ˆp in this and
+\item We may estimate p by \hat{p} in this and
 thus obtain an estimate of the standard error of pˆ as ( ) ( ) ˆ 1 ˆ
 SE ˆ
 p p
@@ -83,19 +83,21 @@ n
 −
 = .
 \item 
-For n = 100 and y = 20, we have pˆ = 0.2 and SE( ˆ ) 0.2 0.8 0.04
-100
-p = × = .
+For n = 100 and y = 20, we have $\hat{p} = 0.2$ and 
+\[SE( \hat{p} )  =  \sqrt{ \frac{0.2 \times 0.8}{100} } = 0.04\]
 \end{itemize}
 \item P("yes") is given by P(takes drugs and coin shows "takes drugs") + P(does not
 take drugs and coin shows "does not take drugs").
-Hence θ = P("yes") = 0.75p + 0.25(1 – p) = 0.25 + 0.5p.
-Z ~ B(n, θ ), so from part (i) we have θˆ = z/n and SE(θˆ) = θˆ (1−θˆ)/ n .
-We have p = 2θ – ½, so the MLE of p is 1
+\begin{itemize}
+    \item Hence θ = P("yes") = 0.75p + 0.25(1 – p) = 0.25 + 0.5p.
+    \item Z ~ B(n, θ ), so from part (i) we have \hat{theta} = z/n and SE(\hat{theta}) = \hat{theta} (1−\hat{theta})/ n .
+    \item We have p = 2θ – ½, so the MLE of p is 1
 2
-p�� = 2θˆ − .
-Thus SE( p�� ) = 2 SE(θˆ) = 2 θˆ (1−θˆ)/ n .
-For n = 100 and z = 45, we have θˆ = 0.45 and so p�� = 0.4 and SE( p�� ) = 0.0995 .
+p�� = 2\hat{theta} − .
+    \item Thus SE( p�� ) = 2 SE(\hat{theta}) = 2 \hat{theta} (1−\hat{theta})/ n .
+    \item For n = 100 and z = 45, we have \hat{theta} = 0.45 and so p�� = 0.4 and SE( p�� ) = 0.0995 .
+\end{itemize}
+
 \item Both p and the standard error are estimated to be larger by the second survey.
 \begin{itemize}
     \item The larger p is plausible, as some people are likely not to admit to taking drugs when
