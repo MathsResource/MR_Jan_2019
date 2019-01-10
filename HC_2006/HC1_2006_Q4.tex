@@ -32,16 +32,73 @@
 
 \begin{document}
 % Higher Certificate, Paper I, 2006. Question 4
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent 4. My cycle journey to work is 3 km, and my cycling time (in minutes) if there are no delays is distributed N(15, 1), i.e. Normally with mean 15 and variance 1.
+(i) Find the probability that, if there are no delays, I get to work in at most 17 minutes.
+
+\\ \hline
+      \end{tabular}
+    \end{table}
+
+
+
+
+
+
 Let X represent cycling time without delays: $X \sim N(15, 1)$.
 \begin{enumerate}
 \item ()()17151720.97721PX−⎛⎞≤=Φ=Φ=⎜⎟⎝⎠.
-[Φ denotes the cdf of the standard Normal distribution as usual.]
+[$\Phi$ denotes the cdf of the standard Normal distribution as usual.]
+
+\newpage
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent (ii) On my route there are three sets of traffic lights. Each time I meet a red traffic light, I am delayed by a random time that is distributed N(0.7, 0.09). These lights operate independently. Find the probability of my getting to work in at most 17 minutes
+(a) if just one light is set at red when I reach it,
+(b) if just two lights are set at red when I reach them,
+(c) if all three lights are set at red when I reach them.
+
+\\ \hline
+      \end{tabular}
+    \end{table}
+    
+
+
+
 \item  Adding in the delay times, also Normally distributed [N(0.7, 0.09)], and letting $T$ denote the total time:
 \begin{itemize}
 \item $T \sim N(15.7, 1.09)$, so ()()1715.7171.2450.89341.09PT−⎛⎞≤=Φ=Φ=⎜⎟⎝⎠;
 \item $T \sim N(16.4, 1.18)$, so ()()1716.4170.5520.70961.18PT−⎛⎞≤=Φ=Φ=⎜⎟⎝⎠;
 \item $T \sim N(17.1, 1.27)$, so ()()1717.1170.08870.46461.27PT−⎛⎞≤=Φ=Φ−=⎜⎟⎝⎠.
 \end{itemize}
+
+\newpage
+
+
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent (iii) Suppose that, for each set of lights, the chance of delay is 0.5. Deduce that the mean value of T, my total journey time, is 16.05 minutes.
+
+
+\\ \hline
+      \end{tabular}
+    \end{table}
+    
+    \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent (iv) Given that Var(T ) = 1.5025, use a suitable approximation to calculate the probability that, over 10 journeys, my average journey time to work is at most 17 minutes.
+\\ \hline
+      \end{tabular}
+    \end{table}
 \item The number of delays is distributed as B(3, ½). Hence the situations in (i), (ii)(a), (ii)(b) and (ii)(c) arise with probabilities 1/8, 3/8, 3/8 and 1/8 respectively, so the (unconditional) mean of the total journey time is
 \[1331128.4()1515.716.417.116.0588888ET=×+×+×+×==\] minutes.
 \item Mean time 1.502516.05,10TN⎛⎞⎜⎟⎝⎠∼.
