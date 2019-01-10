@@ -32,25 +32,114 @@
 
 \begin{document}
 Higher Certificate, Paper I, 2006. Question 6
-(),2xfxexλλ−=−∞<<∞
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------------%
+
+\begin{table}[ht!]
+     
+\centering
+     
+\begin{tabular}{|p{15cm}|}
+     
+\hline        
+
+\noindent
+6. The random variable X has the distribution with probability density function
+xexfλλ−=2)(, –∞ < x < ∞.
+Sketch a graph of this density function.
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
+
+
+%-------------------------------------------------%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+(),2xfxex$\lambda$$\lambda$−=−∞<<∞
 0.00.00xf(x)lambda/2
 
 \begin{itemize}
     \item By symmetry, E(X) = 0.
-Hence 22Var()()02xXEXxedxλλ∞−−∞=−=∫ {}02202xxxedxxedxλλλ∞−−∞=+∫∫.
+Hence 22Var()()02xXEXxedx$\lambda$$\lambda$∞−−∞=−=∫ {}02202xxxedxxedx$\lambda$$\lambda$$\lambda$∞−−∞=+∫∫.
 \item Substituting u = –x in the first integral gives , which is the same as the second.
-\item Hence we get, integrating by parts, 20uueduλ∞−∫
-220()xEXxeλλ∞−=∫
-200.2xxeexxdxλλλλλ∞−−∞⎧⎫⎡⎤⎪⎪=+⎨⎬⎢⎥−⎣⎦⎪⎪⎩⎭∫
-0[00]2xxedxλ∞−=−+∫
-002xxeexdxλλλλ∞−−∞⎧⎫⎡⎤⎪⎪=+⎨⎬⎢⎥−⎣⎦⎪⎪⎩⎭∫
-[]0200xeλλλ∞−⎡⎤=−+⎢⎥−⎣⎦ 22λ=.
+\item Hence we get, integrating by parts, 
 
-\item If Q, q are the upper and lower quartiles, we have 0124Qxedxλλ− =∫, and q will be the same distance below 0 by symmetry.
-(01111422Qxeeλλ−−⎡⎤ ∴=−=−+⎢⎥⎣⎦, giving 112Qeλ−=−. \item Therefore λQ = log 2.
-\item Hence the semi-interquartile range is (log 2)/λ.
+\begin{eqnarray*}
+\int^{\infty}_0 e^{\lambda} dx  &=&  \int^{\infty} e^{\lambda} dx        \\
+  &=&  \lambda {e^{\lambda}      \\
+  &=&  \int^{\infty}  dx        \\
+\end{eqnarray*}
+
+\[
+200.2xxeexxdx$\lambda$$\lambda$$\lambda$$\lambda$$\lambda$∞−−∞⎧⎫⎡⎤⎪⎪=+⎨⎬⎢⎥−⎣⎦⎪⎪⎩⎭\]
+\[0[00]2xxedx$\lambda$∞−=−+∫
+002xxeexdx$\lambda$$\lambda
+
+\begin{eqnarray*}
+\int^{\infty}_0 e^{\lambda} dx  &=&  \int^{\infty} e^{\lambda} dx        \\
+  &=&  \lambda {e^{\lambda}      \\
+  &=&  \int^{\infty}  dx        \\
+\end{eqnarray*}
+ 
+%\lambda\lambda$∞−−∞⎧⎫⎡⎤⎪⎪=+⎨⎬⎢⎥−⎣⎦⎪⎪⎩⎭∫
+% []0200xe$\lambda$$\lambda$$$∞−⎡⎤=−+⎢⎥−⎣⎦ 22$\lambda$=.\]
+
+\item If Q, q are the upper and lower quartiles, we have 0124Qxedx$\lambda$$\lambda$− =∫, and q will be the same distance below 0 by symmetry.
+\[(01111422Qxee$\lambda\lambda$−−⎡⎤ ∴=−=−+⎢⎥⎣⎦, giving 112Qe$\lambda$−=\]
+
+−. 
+
+
+%-------------------------------------------------%
+
+\begin{table}[ht!]
+     
+\centering
+     
+\begin{tabular}{|p{15cm}|}
+     
+\hline        
+
+\noindent
+
+Write down E(X) and show that Var(X) = 22λ. Find also the semi-interquartile range of X.
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
+
+
+%-------------------------------------------------%
+%-------------------------------------------------%
+
+\begin{table}[ht!]
+     
+\centering
+     
+\begin{tabular}{|p{15cm}|}
+     
+\hline        
+
+\noindent
+
+A random sample x1, x2, …, xn is taken from this distribution. Show that the maximum likelihood estimate of λ is given by
+Σ==niixn1ˆλ.
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
+
+
+%-------------------------------------------------%
+
+\item Therefore $\lambda$Q = log 2.
+\item Hence the semi-interquartile range is (log 2)/$\lambda$.
 \end{itemize}
 
-122iinnxxiLeeλλλλ−−=⎛⎞⎛⎞Σ==⎜⎟⎜⎟⎝⎠⎝⎠Π, and hence log constant logiiLnλλ=+−Σ .
-logiidLnxdλλ∴=−Σ which on setting equal to zero gives that the maximum likelihood estimate is ˆiinxλ=Σ. [Consideration of 22logddλ confirms that this is a maximum: 222log0dLndλλ−=<.]
+122iinnxxiLee$\lambda$$\lambda$$\lambda$$\lambda$−−=⎛⎞⎛⎞Σ==⎜⎟⎜⎟⎝⎠⎝⎠Π, and hence log constant logiiLn$\lambda$$\lambda$=+−Σ .
+logiidLnxd$\lambda$$\lambda$∴=−Σ which on setting equal to zero gives that the maximum likelihood estimate is ˆiinx$\lambda$=Σ. [Consideration of 22logdd$\lambda$ confirms that this is a maximum: 222log0dLnd$\lambda$$\lambda$−=<.]
 \end{document}
