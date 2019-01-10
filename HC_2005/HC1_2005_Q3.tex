@@ -31,12 +31,47 @@
 \begin{document}
 
 Higher Certificate, Paper I, 2005. Question 3
-\begin{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+3. The failures of a communications system occur in a Poisson process with rate
+parameter λ, so that the random variable X giving the number of failures in time t
+satisfies
+( ) ( )( ) exp , 0,1, 2, ...
+!
+x t
+P X x t x
+x
+λ
+= = −λ = .
+(i) By considering the probability that there is no failure in time t, or otherwise,
+show that the probability distribution of the time T to the next failure is given
+by
+P(T > t ) = exp(−λt ), t > 0 ,
+and deduce the probability density function (pdf) of T.
+\end{framed}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}[(a)]
 \item \[P(T > t) = P(no failure in time t) = P(X = 0) = e^{-\lambda} t .\]
 \[\therefore 1 - F(t) = e^{-\lambda} t \] and so the pdf of T is 
 
 \[ \frac{dF (t )}{dt}  =  \frac{dF (e^{-\lambda\,t} )}{dt}  = \lambda\,e^{-\lambda\,t}\]
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+(ii) A bank of n identical but independent communications systems of the above
+type is set in operation at time 0, and Ti denotes the time to failure of the ith
+system, i = 1, 2, …, n. Obtain an expression for the probability that all n
+systems continue to function without failure for at least a time t. Deduce that
+the pdf of Tmin = min(T1, …, Tn), the time to the first failure in the bank of n
+systems, is of exponential form, with a rate parameter given by a function of n
+and λ which should be stated.
+\end{framed}
+%----------------------------------------------------------------%
 \item 
 \begin{eqnarray*}
 P(\mbox{all n systems still functioning at time t}) &=& \prod^{n}_{i=1} P(T_i > t )\\
@@ -49,8 +84,19 @@ P(\mbox{all n systems still functioning at time t}) &=& \prod^{n}_{i=1} P(T_i > 
 \therefore the pdf of Tmin is
 \[ \frac{dF (e^{-\lambda\,t} )}{dt}  = \lambda\,e^{-\lambda\,t}\] (for t > 0).
 Thus Tmin is exponential with parameter $n\,\lambda$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+(iii) Show that the probability that all n systems in the bank have failed by time t is
+given by (1− e−λt )n , and deduce the pdf of Tmax = max(T1, …, Tn), the time to
+the last failure in the bank of n systems.
+Given that n = 10 and λ = 0.002, find the times 1 t and 2 t such that
+( ) ( ) min 1 max 2 P T < t = P T > t = 0.05 .
+(11)
+\end{framed}
+%----------------------------------------------------------------%
 \item  P(all n systems have failed by time t) = ( ) ( )
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{eqnarray*}
 \prod^{n}_{i=1} P(T_i > t )
  &=& \prod^{n}_{i=1}  e^{-\lambda\,t}\\  
