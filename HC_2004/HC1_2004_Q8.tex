@@ -31,6 +31,31 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}Higher Certificate, Paper I, 2004. Question 8
+\begin{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+8. In a study of office efficiency, a firm has established benchmark times, x1, x2, …, x10,
+for the completion of 10 different routine office tasks. A newly recruited trainee is
+timed for his performance on each of these tasks, giving times y1, y2, …, y10. The
+times in minutes, (xi, yi), i = 1, 2, …, 10, are tabulated below.
+Task A B C D E F G H I J
+Benchmark time x 5 5 10 10 10 15 15 20 20 40
+Trainee's time y 8 12 16 16 21 18 20 25 31 53
+Note:Σ = 150, Σ 2 = 3200, Σ = 220, Σ 2 = 6280, Σ = 4440 i i i i i i x x y y x y .
+(i) Plot a scatter diagram of these data and briefly comment on the suitability of
+simple linear regression analysis in this case.
+\end{framed}
+
+\begin{framed}
+(ii) Stating clearly your assumptions, use the method of least squares to fit a
+simple linear regression model to the data, and calculate (a) the residual mean
+square (the unbiased estimate of the variance σ 2 of the stochastic term in the
+regression model) and (b) the coefficient of determination, R2.
+\end{framed}
+
+
 \begin{enumerate}[(a)]
 \item Trainee's time (y)
 0
@@ -43,7 +68,7 @@
 0 10 20 30 40 50
 Benchmark time (x)
 Simple linear regression analysis seems quite suitable.
-\item  The model is yi = α + β xi + ei, where {ei} are uncorrelated with zero mean and
+\item  The model is $y_i = \alpha_i + \beta xi + e_i$, where {ei} are uncorrelated with zero mean and
 (constant) variance σ 2 (independent identically distributed $N(0, \sigma^2)$ for the purpose of
 undertaking statistical tests, as in part (iii)). \begin{itemize}
 \item Estimating by the method of least squares
@@ -54,19 +79,25 @@ S
 S
 β = , αˆ = y −βˆ x ,
 where (standard notation)
-( )( ) i i
-xy i i i i
-x y
-S x x y y xy
-n
-= Σ − − = − Σ Σ Σ ,
-( ) ( )2
-2 2 i
-xx i i
-x
-S x x x
-n
-= − = − Σ Σ Σ .
+\begin{eqnarray*}
+S_{XY} &=&
+\sum x_iy_i - \frac{\sum x_i\sum y_i}{n}\\
+S_{XX} &=&
+\sum x_i^2 - \frac{(\sum x_i)^2}{n}\\
+S_{YY} &=&
+\sum y_i^2 - \frac{(\sum y_i)^2}{n}\\
+\end{eqnarray*}
+\begin{itemize}
+\item \textbf{ Slope Estimate}
+\begin{eqnarray*}
+b_1 = \frac{S_{XY}}{S_{XX}}
+\end{eqnarray*}
+\item \textbf{ Intercept Estimate}
+\begin{eqnarray*}
+ b_0 = \bar{y} -b_1\bar{x}
+\end{eqnarray*}
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item We have
 ( )
 ( 2 )
@@ -98,16 +129,36 @@ xy β S (or 2 / xy xx S S ) = 1368.
 \item This has 8 degrees of freedom, so the residual mean square ($\hat{\sigma}^2$ ) is 72/8 = 9.
 \item The coefficient of determination $R^2 = 1368/1440 = 0.95$ (usually given as 95\%).
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
 
-\item  The estimated variance of ˆβ is 9/950 = 0.009474. 
+(iii) Given that the variance of the slope estimate is Σ( − )2
+2
+x x i
+σ , where x denotes
+the sample mean benchmark time, test at the 5% level of significance the null
+hypothesis that the slope of this regression is 1.
+(4)
+
+\end{framed}
+\item  The estimated variance of $\hat{\beta}$ is 9/950 = 0.009474. 
 \begin{itemize}
     \item So the test statistic for
-testing the null hypothesis β = 1 is 1.2 1
+testing the null hypothesis $\beta = 1$ is 1.2 1
 0.009474
 − = 2.05, which we refer to t8.
-\item This is not significant at the 5\% level, so the null hypothesis β = 1 cannot be rejected.
+\item This is not significant at the 5\% level, so the null hypothesis $\beta = 1$ cannot be rejected.
 \end{itemize}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+(iv) The office manager is dissatisfied with the regression relationship which you
+obtain. He believes that when x = 0 it should also be the case that y = 0. State
+the appropriate form of the linear regression model embodying this restriction,
+derive a formula for the estimate of its slope parameter, and estimate this
+parameter for the above data.
+\end{framed}
 \item  The model here is yi = bxi + ei.
 Estimating b by least squares, we minimise ( )2
 1
@@ -133,6 +184,6 @@ i i i Σx y = bΣx , i.e. ˆ / 2 i i i b = Σx y Σx .
 d x
 db
 Ω = Σ > , so this is a minimum.)
-Thus we have bˆ = 4440/3200 = 1.3875.
+Thus we have $\hat{b} = 4440/3200 = 1.3875$.
 \end{enumerate}
 \end{document}
