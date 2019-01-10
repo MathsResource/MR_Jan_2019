@@ -32,22 +32,105 @@
 
 \begin{document}
 
-Higher Certificate, Paper I, 2006. Question 1
+%- Higher Certificate, Paper I, 2006. Question 1
+\begin{table}[ht!]
 
-\section{Introduction}
-\begin{enumerate}
-    \item The first place can be occupied by 9 different digits, 1 to 9. Each of the other three places can be occupied by 10 digits, 0 to 9.
+ \centering
+
+ \begin{tabular}{|p{15cm}|}
+
+ \hline
+\noindent Credit card holders with a certain bank are each assigned a 4-digit PIN (personal identity number). How many different possible PINs are there under each of the following conditions?
+\\ \hline
+
+  \end{tabular}
+
+\end{table}
+
+
+
+
+\begin{table}[ht!]
+
+ \centering
+
+ \begin{tabular}{|p{15cm}|}
+
+ \hline
+
+\noindent \textbf{Part (a)}
+
+Condition: The first digit may not be zero.
+\\ \hline
+
+  \end{tabular}
+
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{enumerate}[(a)]
+\item The first place can be occupied by 9 different digits, 1 to 9. Each of the other three places can be occupied by 10 digits, 0 to 9.
 Hence there are $9 × 10 × 10 × 10 = 9000$ possible PINs.
-\item All of the combinations in (i) are allowed except 1111, 2222, …, 9999, so there are 9000 - 9 = 8991 possibilities.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline
+\noindent \textbf{Part (b)}\\
+Condition: The first digit may not be zero, and the four digits may not all be the same.
+\\ \hline
+  \end{tabular}
+\end{table}
+\item All of the combinations in (i) are allowed except $\{1111, 2222, \ldots, 9999\}$, so there are $9000 - 9 = 8991$ possibilities.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline
+\noindent \textbf{Part (c)}\\
+Condition: No zeros are allowed in any position and all four digits must be different.
+\\ \hline
+  \end{tabular}
+\end{table}
 \item Only the 9 digits 1 to 9 can be used. The first place can be filled in 9 ways, the second in 8, the third in 7 and the last in 6. So there are 9 × 8 × 7 × 6 = 3024 possibilities.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline
+\noindent \textbf{Part (d)}\\
+Condition: Zeros are allowed in all positions but sequences of four consecutive digits up (e.g. 2 3 4 5) or down (e.g. 3 2 1 0) are not allowed.
+\\ \hline
+  \end{tabular}
+\end{table}
+
+
+
 \item With all 10 digits possible in any position, there would be 104 PINs. There are 7 increasing sequences (0123, 1234, …, 6789) and 7 decreasing sequences $(9876, 8765, \ldots, 3210)$, which are not allowed. The number of possible PINs is therefore $10^4 - 14 = 9986$.
-\item All of the 104 combinations are allowed except:
-(a) the 10 where all 4 digits are the same: 0000, 1111, …, 9999;
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline
+\noindent \textbf{Part (e)}\\
+Condition: Zeros are allowed in all positions but no digit may occur more than twice.
+\\ \hline
+
+  \end{tabular}
+
+\end{table}
+\item All of the $10^4$ combinations are allowed except:
+(a) the 10 where all 4 digits are the same: $\{0000, 1111, \ldots, 9999\}$;
 (b) those where one digit occurs three times and another just once.  \begin{itemize}
-    \item There are $10 \times 9 = 90$ ways of choosing the two digits. 
-    \item But note that, for example, 2333, 3233, 3323 and 3332 are four different PINs; whichever two digits occur, the odd one out can be in any of the 4 places in the PIN. \item Therefore there are $4 \times 90 = 360$ PINs of this sort.
+\item There are $10 \times 9 = 90$ ways of choosing the two digits. 
+\item But note that, for example, 2333, 3233, 3323 and 3332 are four different PINs; whichever two digits occur, the odd one out can be in any of the 4 places in the PIN. \item Therefore there are $4 \times 90 = 360$ PINs of this sort.
 \item The number of possible PINs is therefore $10^4 - 10 - 360 = 9630$.
 \end{itemize}
 
