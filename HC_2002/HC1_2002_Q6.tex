@@ -25,6 +25,29 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
 Higher Certificate, Paper I, 2002. Question 6
+\begin{framed}
+The random variable X follows the exponential distribution with rate
+parameter λ, so that the probability density function (pdf) of X is given by
+\[f(x;\lambda) = \begin{cases} \lambda e^{-\lambda x} & x \ge 0, \\ 0 & x < 0. \end{cases}\]
+with $\lambda >0$
+
+
+Show that the moment generating function of X, MX(t) say, is given by
+( )
+1
+1 , , X
+M t t t λ
+λ
+− =  −  <  
+\[ {\displaystyle {\frac {\lambda }{\lambda -t}},{\text{ for }}t<\lambda }  \frac{\lambda}{\lambda-t}, \text{ for } t < \lambda \]
+and hence show that the mean and variance of X are given by $1/\lambda$
+λ
+and $1/\lambda^2$
+respectively.
+\end{framed}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 f (x) =λ e−λ x x > 0, λ > 0
 \begin{enumerate}
 \item ( ) ( )
@@ -56,18 +79,31 @@ in the expansion.
 λ
 = ; also, 2
 2
-
-\end{itemize}
-E X 2
+\item E X 2
 λ
   = , so ( )
 2
 2 2
-Var X 2 1 1
+\item Var X 2 1 1
 λ λ λ
 = −   =  
  
 .
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+(ii) A random sample x1, …, xn is taken from this distribution. Obtain the
+likelihood, L(λ), as a function of λ, and show that the maximum likelihood
+estimate (MLE) of λ is given by
+ˆ 1 ,
+x
+λ =
+where x denotes the mean of the sample x1, …, xn.
+\end{framed}
+
 \item ( ) ( ) 1
 1 1
 | , ..., i exp
@@ -93,6 +129,28 @@ x
 d ln L n
 dλ λ
 = − which confirms maximum of L.
+
+%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+(iii) By applying the central limit theorem to the distribution of X , or
+otherwise, explain why
+1 1.96 1 1.96
+x x n x x n
+− < λ < +
+is an approximate 95% confidence interval for λ if n is large.
+
+\end{framed}
+
+\begin{framed}
+
+A simple approximation to the exact interval endpoints can be derived using a normal approximation to the χ2
+p,v distribution. This approximation gives the following values for a 95\% confidence interval: 
+\[ {\displaystyle \lambda _{\text{lower}}={\widehat {\lambda }}\left(1-{\frac {1.96}{\sqrt {n}}}\right)\]
+\[ {\displaystyle \lambda _{\text{upper}}={\widehat {\lambda }}\left(1+{\frac {1.96}{\sqrt {n}}}\right)}\]
+This approximation may be acceptable for samples containing at least 15 to 20 elements.
+
+\end{framed}
 \item  The asymptotic variance of $\hat{\lambda}$ [Cramér-Rao lower bound for variance] is
 ( )
 2
