@@ -32,29 +32,104 @@
 
 \begin{document}
 Higher Certificate, Paper I, 2006. Question 5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------------%
+
+\begin{table}[ht!]
+     
+\centering
+     
+\begin{tabular}{|p{15cm}|}
+     
+\hline        
+
+\noindent
+5. The random variable X follows a Poisson distribution with probability mass function
+(),0,1,2,...!xPXxexxλλ−=== .
+(i) Show that E(X) = Var(X) = λ.
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
+
+
+%-------------------------------------------------%
+%-------------------------------------------------%
+
+\begin{table}[ht!]
+     
+\centering
+     
+\begin{tabular}{|p{15cm}|}
+     
+\hline        
+
+\noindent
+
+(ii) Given a random sample of values x1, x2, …, xn from this distribution, obtain the maximum likelihood estimator (MLE) of λ, say. λˆ
+
+(iii) Write down Var() as a function of λ, and hence find the MLE of Var(). Show that a large-sample approximate
+95% confidence interval (CI) for λ is given by λˆλˆˆˆˆˆ 1.961.96nnλλλλλ−≤≤+.
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
+
+
+%-------------------------------------------------%
+%-------------------------------------------------%
+
+\begin{table}[ht!]
+     
+\centering
+     
+\begin{tabular}{|p{15cm}|}
+     
+\hline        
+
+\noindent
+
+(iv) Assume that the numbers of books, x1, x2, x3, …, that go missing each month from the local library follow a Poisson 
+distribution with unknown mean λ. The monthly numbers of missing books in 2005 were
+3 7 2 5 8 2 4 5 4 4 1 3.
+Use these data to calculate and an approximate 95% CI for λ. Also compute the sample variance of the data; discuss 
+briefly whether this computation supports, or throws doubt on, the Poisson model suggested (no formal test is required). λˆ
+
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
+
+
+%-------------------------------------------------%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{enumerate}
-\item E(X) = ()101!1!xxxxexeeexxλλλλλ λλλ−−∞∞−−====−ΣΣ .
+\item E(X) = ()101!1!xxxxexeeexx$\lambda$$\lambda$$\lambda$$\lambda$$\lambda$ $\lambda$$\lambda$$\lambda$−−∞∞−−====−ΣΣ .
 E(X2) = ()()[]11EXXXEXXEX−+=−+⎡⎤⎡⎤⎣⎦⎣⎦.
-()()()2220211!2!xxxxeEXXxxeeexxλλλλλ λλλ−−∞∞−−==−=−===⎡⎤⎣⎦−ΣΣ.
-Hence 22()EXλλ=+, and {}22Var()()()XEXEXλ=−=.
-\item  1!ixniieLxλλ−==Π, and hence . 1loglogconstantniiLnxλλ==−++Σ
-logixdLndλλΣ∴=−+ which on setting equal to zero gives that the maximum likelihood estimate is ˆixxnλΣ==. [Consideration of 22logddλ confirms that this is a maximum: 222log0ixdLdλλ−Σ=<.]
-\item  ()()Var()ˆVarVarXXnnλλ== .
+()()()2220211!2!xxxxeEXXxxeeexx$\lambda$$\lambda$$\lambda$$\lambda$$\lambda$ $\lambda$$\lambda$$\lambda$−−∞∞−−==−=−===⎡⎤⎣⎦−ΣΣ.
+Hence 22()EX$\lambda$$\lambda$=+, and {}22Var()()()XEXEX$\lambda$=−=.
+\item  \[1!ixniieLx$\lambda$$\lambda$−==Π, \]and hence . 1loglogconstantniiLnx$\lambda$$\lambda$==−++Σ
+logixdLnd$\lambda$$\lambda$Σ∴=−+ which on setting equal to zero gives that the maximum likelihood estimate is ˆixxn$\lambda$Σ==. [Consideration of 22logdd$\lambda$ confirms that this is a maximum: 222log0ixdLd$\lambda$$\lambda$−Σ=<.]
+\item  ()()Var()ˆVarVarXXnn$\lambda$$\lambda$== .
 Thus the maximum likelihood estimator of Var(ˆ
-λ) is ˆnλ.
+$\lambda$) is ˆn$\lambda$.
 \begin{itemize}
-    \item By the central limit theorem, ˆ( Xλ= is approximately Normally distributed with mean λ and variance λ /n. 
+    \item By the central limit theorem, ˆ( X$\lambda$= is approximately Normally distributed with mean $\lambda$ and variance $\lambda$ /n. 
     \item We estimate the variance by ˆ
-λ/n, so that we have ˆˆ~N,nλλλ⎛⎞⎜⎜⎝⎠, approximately.
+$\lambda$/n, so that we have ˆˆ~N,n$\lambda$$\lambda$$\lambda$⎛⎞⎜⎜⎝⎠, approximately.
 \item Hence an approximate 95\% confidence interval is given by
-ˆ0.951.961.96ˆ/Pnλλλ⎛⎞−≈−<<⎜⎟⎜⎟⎝⎠,
-leading to the interval ˆˆˆˆ1.96,1.96nnλλλλ⎛⎞⎜⎟−+⎜⎟⎝⎠.
+\[ˆ0.951.961.96ˆ/Pn$\lambda$$\lambda$$\lambda$⎛⎞−≈−<<⎜⎟⎜⎟⎝⎠,\]
+leading to the interval \[ˆˆˆˆ1.96,1.96nn$\lambda$$\lambda$$\lambda$$\lambda$⎛⎞⎜⎟−+⎜⎟⎝⎠.\]
 \end{itemize}
 
-\item  For the given sample, we have n = 12 and Σxi = 48, leading to ˆ4xλ==. The approximate confidence interval is therefore
+\item  For the given sample, we have n = 12 and Σxi = 48, leading to ˆ4x$\lambda$==. The approximate confidence interval is therefore
 441.96to41.961212⎛⎞−+⎜⎟⎜⎟⎝⎠, i.e. 2.87 to 5.13.
 The sample also gives Σxi2 = 238; so the sample variance is
-s2 = 2148462384.182111211⎛⎞−==⎜⎟⎝⎠.
+\[s2 = 2148462384.182111211⎛⎞−==⎜⎟⎝⎠.\]
 This is close to the sample mean (4), supporting a Poisson hypothesis for the underlying model.
 \end{enumerate}
 \end{document}
