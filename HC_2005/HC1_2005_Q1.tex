@@ -32,16 +32,36 @@
 
 \begin{document}
 
-\section{Introduction}
-
 Higher Certificate, Paper I, 2005. Question 1
-\begin{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+\noindent In the UK National Lottery, players seek to guess six numbers, selected at random
+(without replacement) from the list 1, 2, 3, …, 49.
+(i) Show that the total number of ways of choosing six numbers from 49 is
+13,983,816.
+\end{framed}
+\begin{enumerate}[(a)]
 \item (i)
 
 
 \[  { 49 \choose 6}  = \frac{49!}{6! 43!} = \frac{49.48.47.46.45.44 }{6.5.4.3.2.1} = 13983816 \]
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+(Just short of 14 million)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+(ii) Suppose that 10,000,000 people play the lottery, and assume that each player
+independently chooses, at random and without replacement, six numbers from
+the list 1, 2, 3, …, 49. Let X denote the total number of players who match the
+six winning numbers. Write down the exact distribution of X, and a Poisson
+approximation to this distribution. Hence find, approximately, the probability
+(a) that X = 0,
+(b) that X = 1.
+
+\end{framed}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 % 2005 HC1 Q1
 
@@ -50,21 +70,43 @@ Higher Certificate, Paper I, 2005. Question 1
 \item $P(X=1) = \lambda e^{\lambda} = \lambda \times  e^{} = 0.3497 $ 
 \end{itemize}
 
-\[ { 31 \choose 6} = \frac{31!}{6! \times 35!}  = \frac{31!}{6!} = 736281\]
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%----------------------------------------------------------------%
+\begin{framed}
+(iii) It is believed that many lottery players guess six numbers at random without
+replacement from the list 1, 2, 3, …, 31. Calculate the total number of possible
+choices without replacement of six numbers from the list 1, 2, 3, …, 31, and
+deduce the probability that the winning set of six numbers contains no number
+greater than 31.
+\end{framed}
 \item 
-
+\[ { 31 \choose 6} = \frac{31!}{6! \times 35!}  = \frac{31!}{6!} = 736281\]
 Hence (using also the result of part (i)) we have
 
 \[ P(\mbox{Winning set} \in \{1,2,\ldots 31\} = \frac{ 736281}{13983816} =  0.05265\]
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+(iv) Suppose now that 3,000,000 lottery players choose their six numbers, at
+random and without replacement, from the list 1, 2, 3, …, 31, whilst 7,000,000
+players choose their six numbers, at random and without replacement, from the
+list 1, 2, 3, …, 49. Let Y denote the total number of players who match the six
+winning numbers. Write down the (approximate) distribution of Y
+(a) when all six winning numbers are in the list 1, 2, 3, …, 31,
+(b) when at least one winning number is not in this list.
+
+\end{framed}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item  Let U be the number out of the 3,000,000 players choosing from $(1, 2, \ldots, 31)$
 who match all 6 winning numbers, and let V be the number out of the 7,000,000
 players choosing from all the numbers $(1, 2,\ldots, 49)$ who match all 6 winning
 numbers.
 
-%%%%%%%%%%%%%%%%%%%%%%%
+
 Then $Y = U + V$, where (given the winning numbers) U and V are independent.
 (a) If all six winning numbers are in the list $(1, 2, \ldots, 31)$, then U is
 binomial with n = 3,000,000 and p = 1/736281, which is approximated by
@@ -72,6 +114,9 @@ Poisson(np) i.e. $\mbox{Poisson} (\lambda = 4.07453)$.
 \begin{itemize}
 \item Similarly, V is binomial with n = 7,000,000 and p = 1/13983816, which is
 approximated by Poisson(0.50058).
+
+
+
 \item Thus, using the result that 
 \[Poisson( \lambda_1) + Poisson( \lambda_22) = Poisson( \lambda_1 + \lambda_2)\]
 2)
