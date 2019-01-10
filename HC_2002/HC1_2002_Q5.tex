@@ -27,6 +27,12 @@
 
 
 Higher Certificate, Paper I, 2002. Question 5
+\begin{framed}
+5. State Bayes' Theorem and explain its use in practice.
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}[(a)]
+    \item 
 \begin{itemize}
 \item Let A1, …, Ak be a set of mutually exclusive and exhaustive events, and let B be any
 other event.
@@ -51,6 +57,30 @@ P B P B A P A
 .
 \item It is useful in inference about an Ai which cannot be observed directly but is related to
 an observable event B.
+\end{itemize}
+
+
+\begin{framed}
+A signal corps has to use an information channel, which is faulty. All messages
+are sent as a sequence of six binary digits. The receiver knows that the message is
+one of the following: 'Advance' (A), or 'Retreat' (R), or 'Stay where you are' (S).
+From past experience he expects these messages in the respective ratios 1:4:5.
+The three messages are sent as
+A: 0 1 0 1 0 0; R: 0 1 1 0 1 1; S: 1 0 1 0 0 1.
+Independently for each character in the message, the fault causes '0' to be sent in
+place of '1' with probability p, and '1' to be sent in place of '0' with equal
+probability p, the probability that any given character is transmitted correctly
+being 1 – p. The message is received as 0 1 1 1 0 0. Show that
+P(011100 is received | A: 010100 is sent) = p(1− p)5
+and obtain similar expressions for
+P(011100 is received | R: 011011 is sent)
+and
+P(011100 is received | S: 101001 is sent).
+\end{framed}
+
+
+
+\item 
 \[P(011100|A) = P(\mbox{5 right, 1 wrong}) = p(1− p)5 .\]
 \[P(011100|R) = P(\mbox{3 right, 3 wrong}) = ( )p3 1− p 3 .\]
 \[P(011100|S) = P(\mbox{2 right, 4 wrong}) = ( )p4 1− p 2 .\]
@@ -133,7 +163,30 @@ p p p p p p
 p
 − p + p − p + p
 \end{eqnarray*}
-Continued on next page
+\begin{framed}
+Deduce that
+P(A: 010100 is sent | 011100 is received) = ( )
+( ) ( )
+3
+3 2 3
+1
+,
+1 4 1 5
+p
+p p p p
+−
+− + − +
+and write down similar expressions for
+P(R: 011011 is sent | 011100 is received)
+and
+P(S: 101001 is sent | 011100 is received).
+
+If it is assumed that p is at most 0.1, which interpretation of the message is most
+likely to be correct?
+
+\end{framed}
+
+\begin{itemize}
 As p → 0, P(A|011100) → 1, while the others do not.
 \item In general, P(A|011100) > P(R|011100) if \[(1− p)3 > 4 p2 (1− p) \], or 
 \[( )1− p 2 > 4 p2\] ,
@@ -146,4 +199,6 @@ p < .
 \item When $p \leq 0.1$, both these conditions are satisfied so choose A.
 \item The probabilities are in the ratio $A:R:S \equiv≡ 0.729 : 0.036 : 0.005.$
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{enumerate}
 \end{document}
