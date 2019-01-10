@@ -25,6 +25,18 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
 Higher Certificate, Paper I, 2002. Question 4
+\begin{framed}
+
+\noindent Fatal accidents occur at random at a known 'black spot', following a
+Poisson process with mean 4 per year. Draw a diagram of the probability
+mass function of X, the actual annual number of fatal accidents, and
+calculate the probabilities of the following events.
+(a) In a given year there is at most one fatal accident.
+(b) In a given 6-month period there are no fatal accidents.
+(c) In a given 18-month period there are no fatal accidents.
+\end{framed}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}
 \item ( )
 4 4
@@ -110,6 +122,16 @@ and so on (probabilities beyond r = 9 have not been shown on the diagram).
 \item In half-year, mean = 2 giving P(0) = e−2 = 0.1353 .
 \item In 1
 2 1 years, mean = 6 giving P(0) = e−6 = 0.00248 .
+
+\newpage
+\begin{framed}
+(ii) The annual number, Y say, of non-fatal accidents at the same place may be
+assumed to be a Poisson random variable with mean 12, and X and Y are
+independent. State the distribution of V = X + Y and write down the mean
+and variance of V. Given that there were in total 20 accidents one year,
+find the probability that 5 of these were fatal.
+\end{framed}
+
 \item  Given that X and Y are independent Poissons, V = X +Y ~ Poisson(16).
 E[V ] = Var (V ) =16 .
 ( ) ( )
@@ -140,10 +162,20 @@ P(X=5|V=20) &=& \frac{P(X=5,Y=15)}{P(V=20)}\\
 &=& 0.2023
 \end{eqnarray*}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Normal Approximation of the Poisson Distribution
+\newpage
+\begin{framed}
+(iii) State the distribution of W, the total number of accidents in a given 4-year
+period. Use a suitable approximation to calculate the probability that there
+will be more than 70 accidents in the next 4 years.
+
+
+\end{framed}
 \item  W is Poisson with mean $16 \times 4 = 64$. Use Normal approximation $N(64, 64)$.
 
 \[P( W > 50) = P\left( Z \geq \frac{70.5-64}{8}\right)\] 
 here $Z \sim N(0,1)$ and a continuity correction is
-used. This is $P(Z > 0.8125)$, which is \[1-\Phi(0.8125) =1− 0.7917 = 0.2083.\]
+used. This is $P(Z > 0.8125)$, which is \[1-\Phi(0.8125) =1- 0.7917 = 0.2083.\]
 \end{enumerate}
 \end{document}
