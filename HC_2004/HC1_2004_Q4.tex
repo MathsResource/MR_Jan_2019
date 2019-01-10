@@ -34,21 +34,15 @@
 
 Higher Certificate, Paper I, 2004. Question 4
 \begin{framed}
- (i) State the Normal approximation to the binomial distribution, indicating the conditions under which it is valid.  In 50 firings, a surface-to-air missile (SAM) is successful in hitting its target in 30 cases.  Obtain an approximate 95% confidence interval for the probability, p say, that a given missile hits its target. (8) 
- 
- 
- (ii) SAMs are routinely fired at a target independently in pairs;  if at least one missile hits the target, the target is destroyed.  (It can be assumed that the two SAMs are successful in hitting the target independently of one another.)  Find in terms of p the probability that a target is destroyed when a pair of missiles is fired at it, and provide a point estimate of this probability. (3) 
- 
- 
-
- 
- 
+ (i) State the Normal approximation to the binomial distribution, indicating the conditions under which it is valid.  In 50 firings, a surface-to-air missile (SAM) is successful in hitting its target in 30 cases.  Obtain an approximate 95\% confidence interval for the probability, p say, that a given missile hits its target. (8) 
 \end{framed}
-\begin{enumerate}
+\begin{enumerate}[(a)]
 \item  The binomial distribution with parameters n, p can be approximated by
 $N(np, np(1 - p))$ when n is large and p is not too near to 0 or 1. 
+
+%----------------------------%
 \begin{itemize}
-    \item As a "rule of thumb",
+\item As a "rule of thumb",
 the approximation is likely to be good if both $np$ and $np(1 - p)$ are $> 10$.
 \item Let $X ~ B(n, p)$ and let $\Phi$ denote the c.d.f. of N(0, 1). 
 
@@ -73,9 +67,14 @@ np p
  −   
 .
 \end{itemize}
+%----------------------------%
 
-The 95\% confidence interval for p uses the estimated variance $$\frac{\hat{p} (1− \hat{p} )}{n}$$ , giving the
+The 95\% confidence interval for p uses the estimated variance $$\frac{\hat{p} (1- \hat{p} )}{n}$$ , giving the
 approximate interval
+
+\[ {\displaystyle {\hat {p}} \pm z{\sqrt {\frac {{\hat {p}}(1-{\hat {p}})}{n}}}.}  \]
+\[ {\displaystyle {\hat {p}} \pm 1.96 \times {\sqrt {\frac {{\hat {p}}(1-{\hat {p}})}{n}}}.}  \]
+
 ˆ (1 ˆ ) ˆ (1 ˆ )
 ˆ 1.96 ˆ 1.96
 p p p p
@@ -83,6 +82,12 @@ p p p
 n n
 − −
 − < < +
+
+\[  {\hat {0.6}} \pm 1.96 \times {\sqrt {\frac {0.6 \times 0.4})}{50}}}   = \left[ {\hat {0.6}} \pm 1.96 \times {\sqrt {\frac {0.6 \times 0.4})}{50}}}   \right] \]
+
+
+
+
 The estimate of p is ˆ 30 0.6
 50
 p= = , so ˆ (1 ˆ ) (0.6)(0.4)
@@ -99,6 +104,15 @@ the approximate interval is
 P(at least 1 hit) &=& 1 - (1 - p)^2 \\&=& p(2 - p).
 \end{eqnarray*}
 We estimate this by $(0.6)(2 - 0.6) = 0.84$.
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+SAMs are routinely fired at a target independently in pairs;  if at least one missile hits the target, the target is destroyed.  (It can be assumed that the two SAMs are successful in hitting the target independently of one another.)  Find in terms of p the probability that a target is destroyed when a pair of missiles is fired at it, and provide a point estimate of this probability. (3) 
+\end{framed}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \begin{framed}
 (iii) By suitably transforming the confidence interval for p in part (i), obtain a 95\% confidence interval for the probability that the target is destroyed when a pair of missiles is fired. (4) 
 \end{framed} 
