@@ -24,13 +24,19 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
-Higher Certificate, Paper I, 2003. Question 4
+%- Higher Certificate, Paper I, 2003. Question 4
+\begin{framed}
+The random variable X has probability density function f(x) given by
+\[f(x) = kx^2 (1- x) , 0 \leq x \leq 1 \]
+Show that k = 12.
+
+\end{framed}
 
 \[f(x) = kx^2 (1− x) , 0 \leq x \leq 1 \]
-\begin{enumerate}
+\begin{enumerate}[(a)]
 \item 
 \begin{eqnarray*}
-Area Under Curve &=& \int^{1}_{0} f(x) dx \\
+\mbox{ Area Under Curve } &=& \int^{1}_{0} f(x) dx \\
 &=& \int^{1}_{0} k(x^2\;-\;x^3)] dx \\
 &=& \int^{1}_{0} kx^2\;-\;kx^3 dx \\
 &=& k \left[ \frac{x^3}{3} - \frac{x^4}{4}\right]^1_0\\
@@ -41,6 +47,13 @@ Area Under Curve &=& \int^{1}_{0} f(x) dx \\
 \end{eqnarray*}
 
 which must be equal to 1. So k = 12.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+ Show that the mode of X is at x = 23
+and draw a graph of f(x).
+\end{framed}
+
 \item  
 \begin{eqnarray*}
 \frac{d\;f(x)}{dx} &=& \frac{d}{dx}\left( 12x^2-12x^3 \right)\\
@@ -62,6 +75,12 @@ Hence the mode is at x = 2/3, and the graph of f (x) is as shown.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+(iii) Find the mean and variance of X.
+
+\end{framed}
 \item  
 \begin{eqnarray*}
 E(X) &=& \int^{1}_{0} x \;f(x) dx \\
@@ -93,7 +112,13 @@ Var(X) &=& E(X^2) – [E(X)]^2 \\
  &=& \frac{10}{25} - \frac{9}{25} \\
  &=& \frac{1}{25} \\
 \end{eqnarray*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+ Find the cumulative distribution function of X and obtain the probability that X
+lies within one standard deviation of its mean.
 
+\end{framed}
 \item  The cumulative distribution function is
 \begin{eqnarray*}
 F(X) &=& \int^{x}_{0} f(u) du \\
