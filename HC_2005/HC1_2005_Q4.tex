@@ -31,6 +31,17 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}Higher Certificate, Paper I, 2005. Question 4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+4. (i) The continuous random variable X is distributed with probability density
+function f (x) given by
+f (x) (1 x) 1 , 0 x 1, 0 α α α − = − < < > .
+Find the cumulative distribution function of X, F(x) say, and hence obtain the
+median of X. Also sketch the graphs of f (x) and F(x) for the case α = 3.
+\end{framed}
+%----------------------------------------------------------------%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \[f(x) =  \alpha (1-x)^{\alpha-1}, \qquad \mbox{ where }0 < x < 1, 0 \alpha  > 0 .
 
 \begin{enumerate}[(a)]
@@ -54,6 +65,53 @@ so that $1−m = 2^{−1/\alpha}$ , i.e. $m =1− 2^{−1/\alpha}$ .
 \item \[
 L = \prod^{n}_{i=1} \left[ \alpha(1-x_i)^{n-1} \right]  = \alpha^n\prod^{n}_{i=1}
 (1-x_i)^{n-1}\]
+
+%----------------------------------------------------------------%
+\newpage
+\begin{framed}
+(ii) A random sample x1, x2, …, xn is taken from this distribution with a view to
+estimating the unknown parameter α. Write down the likelihood function of
+these data, L(x1, x2, ..., xn  α) say, and show that the maximum likelihood
+estimate (MLE) of α is given by
+( )
+1
+ˆ
+log 1
+n
+i
+i
+n
+x
+α
+=
+= −
+Σ −
+.
+
+Also obtain 2 ( )
+1 2
+2
+log , , ..., | n d Lx x x
+d
+α
+α
+as a function of α and n. Assuming that
+αˆ is approximately Normally distributed with mean α and variance
+2 ( )
+1 2
+2
+log , , ..., |
+1 n d Lx x x
+d
+α
+α
+ 
+−  
+ 
+, deduce an approximate 90% confidence
+interval for α. Evaluate this interval for the sample 0.12, 0.43, 0.07, 0.87, 0.29.
+
+\end{framed}
 Hence 
 \[
 \log L = n \log \alpha + (\alpha-1) \sum^{n}_{i=1} \left[ \log (1-x_i) \right]  \]
