@@ -34,33 +34,34 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+Higher Certificate, Paper I, 2004. Question 3
 \begin{framed}
 \noindent Apple juice is dispensed by a machine into cartons.  The nominal volume of apple juice in a carton is 1 litre (1000 ml).  The actual volumes of juice put into the cartons can be regarded as being independently Normally distributed, with mean set at 1010 ml and standard deviation 8 ml. 
- 
- 
-(i) Find the proportion, in a long run of production, of cartons containing less than the nominal volume. (4) 
- 
- 
-(ii) Cartons of apple juice are often sold in packs of 6.  Write down the distribution of the total volume of juice in a pack of 6 cartons.  Find the probability that the total volume of juice in a pack of 6 cartons is less than 6 litres.  Explain why this probability is less than your answer to part (i). (6) 
- 
 
  
  
-\end{framed}
-Higher Certificate, Paper I, 2004. Question 3
+Find the proportion, in a long run of production, of cartons containing less than the nominal volume. 
+\end{framed} 
+
+
 Actual volume $X \sim N(1010, 82)$. Let $Z \sim N(0,1)$.
-\begin{enumerate}
+\begin{enumerate}[(a)]
 \item 
 
 \begin{eqnarray*}
 P(X <  1000) &=& P(Z \leq -1.25) \\
 &=& 0.1056\\
 \end{eqnarray*}
+
 \begin{framed}
 \noindent \textbf{Z-score}\\
-z_{1000} = \frac{1000-1010}{8} = -1.25
+\[z_{1000} = \frac{1000-1010}{8} = -1.25\]
 \end{framed}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+Cartons of apple juice are often sold in packs of 6.  Write down the distribution of the total volume of juice in a pack of 6 cartons.  Find the probability that the total volume of juice in a pack of 6 cartons is less than 6 litres.  Explain why this probability is less than your answer to part (i)
+\end{framed}
 \item  Let Y be the total volume in a 6-pack.
 We have $Y \sim N(6 × 1010, 64 + 64 + 64 + 64 + 64 + 64)$, i.e. $Y \sim N(6060, 384)$.
 
@@ -70,7 +71,7 @@ P(Y <  6000) &=& P(Z \leq -3.06) \\
 \end{eqnarray*}
 \begin{framed}
 \noindent \textbf{Z-score}\\
-z_{6000} = \frac{6000-6060}{\sqrt{264} } = -3.06
+\[z_{6000} = \frac{6000-6060}{\sqrt{264} } = -3.06\]
 \end{framed} 
 
 (Alternatively, could use $X \sim N(1010, 64/6)$ and calculate P(X <1000).)
@@ -79,21 +80,20 @@ z_{6000} = \frac{6000-6060}{\sqrt{264} } = -3.06
     \item In practical terms, this is
 because there will be a tendency for heavier and lighter cartons in a 6-pack to balance
 each other out. 
-\item Alternatively, in terms of probability distributions, consider X and X :
-X has the same mean as X but only one-sixth of the variance, so less of the lower tail
+\item Alternatively, in terms of probability distributions, consider X and X : X has the same mean as X but only one-sixth of the variance, so less of the lower tail
 of the distribution of X is below the nominal volume of 1000.
 \end{itemize}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \begin{framed}
- 
-(iii) A new and more accurate machine is available, for which the volume of juice dispensed is Normally distributed but with smaller standard deviation 4 ml.  By how much could the existing mean volume of juice dispensed into each carton be reduced without increasing the existing proportion of cartons with less than the nominal volume?  Supposing that the additional cost of the more accurate machine is £200, and the cost of the apple juice is £1 per litre, how many cartons of juice would have to be filled by the more accurate machine in order to justify its greater cost? (10) 
+\noindent A new and more accurate machine is available, for which the volume of juice dispensed is Normally distributed but with smaller standard deviation 4 ml.  By how much could the existing mean volume of juice dispensed into each carton be reduced without increasing the existing proportion of cartons with less than the nominal volume?  Supposing that the additional cost of the more accurate machine is £200, and the cost of the apple juice is £1 per litre, how many cartons of juice would have to be filled by the more accurate machine in order to justify its greater cost? (10) 
 \end{framed}
 \item The new volume $W \sim N(\mu, 42)$, where $\mu$ is the new mean. So we have that
 ( 1000) 1000
 4
 P W < = P Z < −μ 
  
-\[P(W <  1000) &=& P(Z \leq \frac{1000-\mu}{4} ) \] 
+\[P(W <  1000) = P(Z \leq \frac{1000-\mu}{4} ) \] 
 
 \begin{itemize}
 \item 
