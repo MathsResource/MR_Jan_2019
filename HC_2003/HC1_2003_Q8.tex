@@ -26,6 +26,24 @@
 \begin{document}
 
 Higher Certificate, Paper I, 2003. Question 8
+\begin{framed}
+
+
+
+
+
+
+
+
+
+8. (i) Given a random sample of paired data (x1, y1), (x2, y2), …, (xn, yn), write down
+the formula for the sample product-moment correlation coefficient, r say, and
+explain the meaning of this quantity. Also draw scatter diagrams to illustrate
+(a) strong positive correlation,
+(b) strong negative correlation,
+(c) independent data,
+(d) data that are uncorrelated but not independent.
+\end{framed}
 
 \begin{enumerate}
 \item
@@ -57,6 +75,26 @@ Continued on next page
 \item  Independent data ($r \approx 0$)
 \item Non-linear relationship, e.g. y = x2
 \end{enumerate}
+
+\newpage
+
+\begin{framed}
+(ii) (a) The following two pages (pages 9 and 10) show edited Minitab
+analysis of the relationship between cholesterol level and age for a
+sample of 9 males. Name the statistical model which is being fitted,
+identify the independent and dependent variables and state the usual
+assumptions made about the data.
+(b) Use the output to calculate the correlation between "chol" and "age",
+and the correlation between "newchol" and "newage", and give a
+reason for the difference between these two correlations.
+(c) Use the output to assess whether the constant term in the model is
+statistically significant. What would omission of the constant term
+imply for a new-born infant?
+(d) Which of the ("chol", "age") and ("newchol", "newage") analyses do
+you prefer as a summary of the data, and why?
+(12)
+
+\end{framed}
 \item  (a) Simple linear regression of y = cholesterol on x = age. y is the
 dependent variable, x the independent. Assume a linear relationship
 underlying the data, $Yi = a + bxi + \epsilon$
@@ -93,4 +131,142 @@ diagnostic plots, of residuals and Normal probability, seem acceptable.
 \end{enumerate}
 
 \end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{framed}
+\begin{verbatim}
+Cholesterol (mg/ml)(c1) 2.20 3.55 2.40 2.55 2.85 2.95 3.05 3.10 3.45
+Age (years) (c2) 26 27 28 29 31 33 35 38 41
+MTB > gstd
+MTB > name c1 'chol' c2 'age'
+MTB > plot c1 c2
+- *
+3.50+ *
+-
+chol -
+-
+- * *
+3.00+ *
+- *
+-
+-
+- *
+2.50+
+- *
+-
+- *
+-
+------+---------+---------+---------+---------+---------+age
+27.0 30.0 33.0 36.0 39.0 42.0
+\end{verbatim}
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{framed}
+\begin{verbatim}
+
+MTB > regress c1 1 c2
+The regression equation is chol = 1.30 + 0.0500 age
+Predictor Coef StDev T P
+Constant 1.3000 0.8851 1.47 0.185
+age 0.05000 0.02734 1.83 0.110
+S = 0.4000 R-Sq = 32.3% R-Sq(adj) = 22.7%
+Analysis of Variance
+Source DF SS MS F P
+Regression 1 0.5350 0.5350 3.34 0.110
+Error 7 1.1200 0.1600
+Total 8 1.6550
+Unusual Observations
+Obs age chol Fit StDev Fit Residual St Resid
+2 27.0 3.550 2.650 0.191 0.900 2.56R
+MTB > copy c1 c2 c3 c4; SUBC> omit row 2.
+MTB > name c3 'newchol' c4 'newage'
+MTB > plot c3 c4
+3.50+ *
+-
+newchol -
+-
+- * *
+3.00+ *
+- *
+-
+-
+- *
+2.50+
+- *
+-
+- *
+-
+2.00+
+------+---------+---------+---------+---------+---------+newage
+27.0 30.0 33.0 36.0 39.0 42.0
+\end{verbatim}
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+\begin{verbatim}
+MTB > regress c3 1 c4; SUBC> resi c5.
+The regression equation is newchol = 0.299 + 0.0772 newage
+Predictor Coef StDev T P
+Constant 0.2989 0.2629 1.14 0.299
+newage 0.077236 0.007971 9.69 0.000
+S = 0.1087 R-Sq = 94.0% R-Sq(adj) = 93.0%
+Analysis of Variance
+Source DF SS MS F P
+Regression 1 1.1088 1.1088 93.88 0.000
+Error 6 0.0709 0.0118
+Total 7 1.1797
+MTB > name c5 'resnew'
+MTB > plot c5 c4
+resnew - *
+-
+-
+0.10+ *
+-
+-
+- *
+- *
+0.00+
+- *
+-
+- *
+-
+-0.10+ *
+-
+- *
+-
+------+---------+---------+---------+---------+---------+newage
+27.0 30.0 33.0 36.0 39.0 42.0
+\end{verbatim}
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+\begin{verbatim}
+MTB > nsco c5 c6
+MTB > plot c5 c6; SUBC> title 'Normal probability plot'.
+Normal probability plot
+resnew - *
+-
+-
+0.10+ *
+-
+-
+- *
+- *
+0.00+
+- *
+-
+- *
+-
+-0.10+ *
+-
+- *
+-
+--------+---------+---------+---------+---------+--------C6
+-1.20 -0.60 0.00 0.60 1.20
+\end{verbatim}
+\end{framed}
 \end{document}
+
