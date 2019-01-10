@@ -32,7 +32,23 @@
 
 \begin{document}Higher Certificate, Paper I, 2005. Question 5
 
-\begin{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+5. (i) A social scientist is conducting a survey of drug-taking among students. Her
+survey is based on face-to-face interviews with a random sample of n students
+from Wackford Squeers University, y of whom tell her that they take drugs.
+Assume that the true proportion of drug-takers in the population being sampled
+is p, that the responses are truthful, and that the number in the sample who take
+drugs follows the binomial distribution B(n, p). Write down the likelihood
+function for these data and find the maximum likelihood estimator (MLE) of p,
+pˆ say. Also write down Var( pˆ ) and hence obtain an estimate of the standard
+error of pˆ , SE( pˆ ) say. Calculate the values of pˆ and SE( pˆ ), given that
+n = 100 and y = 20.
+\end{framed}
+%----------------------------------------------------------------%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}[(a)]
 \item We have Y ~ B(n, p), so ( ) ( ) ! (1 )
 ! !
 P Y y n py p n y
@@ -86,6 +102,29 @@ n
 For n = 100 and y = 20, we have $\hat{p} = 0.2$ and 
 \[SE( \hat{p} )  =  \sqrt{ \frac{0.2 \times 0.8}{100} } = 0.04\]
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+(ii) A statistician now advises her that, because of the sensitivity of the question of
+drug-taking, some students may not answer truthfully, so causing bias. He
+suggests using an anonymising device to encourage truthful answers. He
+provides a biased coin with faces labelled "takes drugs" and "does not take
+drugs", which show with respective probabilities 0.75 and 0.25 when the coin
+is tossed.
+A second random sample, also of size n, is selected independently of the first.
+Each of the n students is asked to toss the coin, unseen by the interviewer, and
+to answer "yes" if he/she is in the group indicated by the coin and "no"
+otherwise.
+Assuming truthful responses, show that the probability of a "yes", θ say, is
+given by
+θ = 0.25 + 0.5p .
+Assuming further that the number of students answering "yes", Z say, is
+distributed B(n, θ ) with observed value z, write down the MLE of θ, θˆ say,
+and an estimate of its standard error. Use the relationship between θ and p to
+deduce the MLE of p, p ~ say, and SE(p ~ ). Calculate the values of p ~ and
+SE(p ~ ), given that n = 100 and z = 45.
+\end{framed}
+%----------------------------------------------------------------%
+
 \item P("yes") is given by P(takes drugs and coin shows "takes drugs") + P(does not
 take drugs and coin shows "does not take drugs").
 \begin{itemize}
@@ -97,7 +136,15 @@ p�� = 2\hat{theta} − .
     \item Thus SE( p�� ) = 2 SE(\hat{theta}) = 2 \hat{theta} (1−\hat{theta})/ n .
     \item For n = 100 and z = 45, we have \hat{theta} = 0.45 and so p�� = 0.4 and SE( p�� ) = 0.0995 .
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 
+\begin{framed}
+(iii) A journalist comparing the results of the two surveys says that the first survey
+is more reliable. Do you agree? Why, or why not?
+
+\end{framed}
+%----------------------------------------------------------------%
 \item Both p and the standard error are estimated to be larger by the second survey.
 \begin{itemize}
     \item The larger p is plausible, as some people are likely not to admit to taking drugs when
