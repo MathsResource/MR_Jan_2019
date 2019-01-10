@@ -31,13 +31,117 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------------%
 
+\begin{table}[ht!]
+     
+\centering
+     
+\begin{tabular}{|p{15cm}|}
+     
+\hline        
+
+\noindent
+8. (i) Write down the model for, and standard assumptions of, simple linear regression analysis. 
+State a condition under which the method of least squares is equivalent to the method of maximum likelihood for estimating the regression coefficients.
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
+
+
+%-------------------------------------------------%
+%-------------------------------------------------%
+
+\begin{table}[ht!]
+     
+\centering
+     
+\begin{tabular}{|p{15cm}|}
+     
+\hline        
+
+\noindent
+
+(ii) (a) Suppose now that the intercept parameter in the regression model is known to be zero, so that the model becomes
+iiyxi e β=+,
+where the usual assumptions apply to ei. Show that the least squares estimator of β is 2iiixyxΣΣ.
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
+
+
+%-------------------------------------------------%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Higher Certificate, Paper I, 2006. Question 8
-(i) Yi = a + bxi + ei, i = 1, 2, …, n.
+
+\begin{enumerate}[(a)]
+\item Yi = a + bxi + ei, i = 1, 2, …, n.
 The {ei} are uncorrelated random variables with mean 0 and constant variance σ 2.
 The method of least squares is equivalent to the method of maximum likelihood for estimating the regression coefficients (a and b) if the {ei} are Normally distributed.
 [If the analysis is to proceed to inference for the regression coefficients, Normality of the {ei} is required.]
-(ii)(a) For Yii , we minimise S = 2ieΣ = ()2iiyxβ−Σ.
+
+\newpage
+
+%-------------------------------------------------%
+
+\begin{table}[ht!]
+     
+\centering
+     
+\begin{tabular}{|p{15cm}|}
+     
+\hline        
+
+\noindent
+
+(b) Over a period of one month, a survey was made on each of ten main roads in a large city. 
+Each road was observed for a one-hour period randomly chosen during the working day. 
+For each road, the mean traffic flow, xi (in vehicles per minute), and the number of speed limit violations, yi, i = 1, 2, …, 10, were recorded. 
+Plot the data shown below on a suitable graph and comment on the suitability of the above model. 
+Fit the model to the data and hence estimate the expected number of violations on a road 
+with an average traffic flow of 20 vehicles per minute. Without any further calculation, comment 
+on the suggestion that an intercept should be included in the model.
+Flow, x
+5
+5
+5
+10
+10
+15
+25
+25
+30
+50
+Violations, y
+2
+1
+1
+4
+2
+5
+8
+2
+5
+10
+
+6
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
+
+
+%-------------------------------------------------%
+\item (a) For Yii , we minimise S = 2ieΣ = ()2iiyxβ−Σ.
 We have (2iiidS xyxdββ=−−Σ which on setting equal to zero gives 2iiixy β, so the least squares estimate is 2ˆiiixyxβ=ΣΣ.
 [Consideration of 22dSdβ confirms that this is a minimum: 22220idSxdβ=>Σ.]
 (b) See scatter plot at foot of page. It shows an increasing trend, roughly linear; but there seems to be some increase in variability as x increases. There are not enough data points to be sure.
@@ -54,4 +158,7 @@ n = 10, Σxi = 180, Σyi = 40, Σxi2 = 5150, Σyi2 = 244, Σxiyi = 1055.
 \item Logically, zero traffic flow should imply zero speed violations, so that y should be 0 when x is 0, i.e. the zero intercept model seems reasonable.
 \end{itemize} The scatter plot does not contradict this.
 504030201001050Traffic Flow per minuteViolations
+
+\end{enumerate}
+
 \end{document}
