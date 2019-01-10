@@ -33,8 +33,32 @@
 \begin{document}
 
 Higher Certificate, Paper I, 2006. Question 3
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent  The continuous random variable X has probability density function given by
+\[ f(x) = \begin{cases}  kx^2(1\;-\;x)^3  & 0 \leq x \leq 1\\
+0 &  elsewhere
+\end{cases}
+\]
+\\ \hline
+      \end{tabular}
+    \end{table}
 
-\section{Introduction}
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent (i) Find k and sketch the graph of f (x).
+
+
+\\ \hline
+      \end{tabular}
+    \end{table}
+    
+
+
 \begin{enumerate}
 \item We have , so 
 
@@ -42,8 +66,8 @@ Higher Certificate, Paper I, 2006. Question 3
 
 \begin{eqnarray*}
 \mbox{Area} 
-&=& k \left[ \frac{1}{3}x^3 - \frac{1}{2}x^4 + \frac{1}{5}x^5]^{1}_{0}\\
-&=& k \left[  \left(\frac{1}{3} - 0\right)  -  \left(\frac{1}{2} - 0\right) +  \left(\frac{1}{5} - 0\right) \right]\\
+&=& k \left[ \frac{1}{3}x^3 - \frac{1}{2}x^4 + \frac{1}{5}x^5 \right]^{1}_{0}\\
+&=& k \left[  \left( \frac{1}{3} - 0 \right)  -  \left(\frac{1}{2} - 0 \right) +  \left( \frac{1}{5} - 0 \right) \right]\\
 &=& k \left[  \frac{1}{3} - \frac{1}{2} + \frac{1}{5} \right]\\
 &=& k \left[  \left(\frac{10}{30} - \frac{15}{30} + \frac{6}{30}\right)\right]\\
 &=& k \times \frac{1}{30} \\
@@ -52,6 +76,19 @@ Higher Certificate, Paper I, 2006. Question 3
 
 so k = 30.
 f(x) = 0 at x = 0 and at x = 1. f(x) is symmetrical about x = ½. The sketch is as follows. 1.00.90.80.70.60.50.40.30.20.10.0210xf(x)
+
+    \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent (ii) Find E(X) and Var(X), and show that 1138PX≤=
+7
+1
+.
+\\ \hline
+      \end{tabular}
+    \end{table}
+
 \item 1()2EX= by symmetry [or by direct integration: 10()xfxdx∫].
 
 \begin{eqnarray*}
@@ -71,25 +108,51 @@ E(X) &=& \int^{1}_{0} x \;f(x) dx \\
 %----------%
 \begin{eqnarray*}
 E(X^2) 
-&=& 30 \int^{1}_{0} x^2  \times \left[(x^2)(1-x)^2\right] dx\\
+&=& 30 \int^{1}_{0} x^2  \times \left[(x^2)(1-x)^2 \right] dx\\
 &=& 30 \int^{1}_{0} (x^4)(1-x)^2 dx\\
 &=& 30 \int^{1}_{0} (x^4)(1-2x + x^2) dx\\
 &=& 30 \int^{1}_{0} (x^4 -2x^5 + x^6) dx\\
-&=& 30 \left[  \left(\frac{1}{3} - \frac{1}{2} + \frac{1}{5}\right]\\
+&=& 30 \left[  \frac{1}{3} - \frac{1}{2} + \frac{1}{5}\right]\\
 &=& 30 \left[  \left(\frac{1}{5} - 0\right)  -  \left(\frac{1}{3} - 0\right) +  \left(\frac{1}{7} - 0\right) \right]\\
-&=& 30 \left[  \left(\frac{21}{105} - \frac{35}{105} + \frac{15}{105}\right]\\
+&=& 30 \left[  \frac{21}{105} - \frac{35}{105} + \frac{15}{105}\right]\\
 &=& 30 \times \frac{1}{105} \\
 &=&  \frac{2}{7} \\
 \end{eqnarray*}
 
-()()1302445600()301302EXxxdxxxx=−=−+∫∫
-1566011111113030305375371057xxx⎡⎤⎛⎞=−+=−+=×⎜⎟⎢⎥⎣⎦⎝⎠ .
-{}222211Var()()()722XEXEX⎛⎞ ∴=−=−=⎜⎟⎝⎠.
-()1/31/323434500113023033PXxxxdxxxx⎛⎞⎡⎤≤=−+=−+⎜⎟ ⎢⎥⎝⎠⎣⎦∫
-44511111301130130..132353830158130⎛⎞⎛⎞=−+=−+=×⎜⎟⎜⎟⎝⎠⎝⎠ = 1781 (= 0.2099).
+
+\begin{eqnarray*}
+P(X \leq 1/3 ) &=& \int^{1/3}_{0} [30(x^2\;-\;x^3)] dx \\
+&=& 30 \int^{1}_{0} x  \times \left[(x^2)(1-x)^2\right] dx\\
+&=& 30 \int^{1/3}_{0} (x^2 -2x^3 + x^4) dx\\
+&=& 30 \left[ \frac{x^3}{3}  \;-\;  \frac{2x^2}{4} \; + \; \frac{x^5}{5}  \right]^{1/3}_{0}\\
+&=& 30 \left[ \left( \frac{(1/3)^3}{3}- 0 \right) \;-\; \left( \frac{(1/3)^4}{2}- 0 \right) +  \left( \frac{(1/3)^5}{5}- 0 \right) \right]\\
+&=& 30 \left[ \left( \frac{1}{3^4} \right) \;-\; \left( \frac{15}{30}\frac{1}{3^4} \right) +  \left( \frac{6}{30} \frac{1}{3}\frac{1}{3^4}- 0 \right) \right]\\
+&=& 30 \left[  \frac{5}{20} \;-\; \frac{4}{20} \right]\\
+&=&  \frac{30}{81} \times \frac{17}{30} \\
+&=&  \frac{17}{81}\\
+\end{eqnarray*}
+).
 
 
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent 
+(iii) A random sample of size 5 is taken from this distribution. Find, correct to 4 decimal places, the probability that all 5 observations exceed 1/3.
 
+
+\\ \hline
+      \end{tabular}
+    \end{table}
+    
+    \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent (iv) Find, correct to 4 decimal places, the variance of the mean of a random sample of size 5.
+\\ \hline
+      \end{tabular}
 
 \begin{eqnarray*}
 Var(X) &=& E(X^2) – [E(X)]^2 \\
@@ -107,7 +170,8 @@ F(X) &=& \int^{x}_{0} f(u) du \\
 &=& 30 \left[ \frac{u^3}{3} - \frac{u^4}{4}\right]^1_0\\
 &=& 30 \left[ \left( \frac{x^3}{3}- 0 \right) - \left( \frac{x^4}{4}- 0 \right)  \right]\\
 &=& 30 \int^{1}{0} (x^4 -2x^5 + x^6) dx\\
-&=& k \left[  \left(\frac{1}{3} - \frac{1}{2} + \frac{1}{5}\right]
+&=& k \left[  \frac{1}{3} - \frac{1}{2} + \frac{1}{5}\right]
+\end{eqnarray*}
 
 \item The required probability is 55176418181⎛⎞⎛−=⎜⎟⎜⎝⎠⎝ = 0.3079.
 \item The variance of X for a sample of size 5 is Var()1/28155140X== = 0.00714.
