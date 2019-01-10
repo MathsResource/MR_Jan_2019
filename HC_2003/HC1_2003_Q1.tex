@@ -26,7 +26,20 @@
 \begin{document}
 
 Higher Certificate, Paper I, 2003. Question 1
-\begin{enumerate}
+\begin{framed}
+A bank sort code consists of six digits.
+(i) How many different sort codes may be formed from
+(a) six digits chosen from \{0, 1, 2, \ldots,9\} allowing repetition,
+(b) six different digits chosen from \{0, 1, 2, \ldots,9\},
+(c) six different digits chosen from \{0, 1, 2, \ldots,9\}, restricted to be in
+ascending order,
+(d) three different digits chosen from \{0, 1, 2, \ldots,9\}, each digit being used
+twice?
+\end{framed}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}[(a)]
 \item Any of the digits $\{0, 1, \ldots, 9\}$ can occur in each of the six positions, so the number
 is $10^6 = 1000000$.
 \item $10 \times 9 \times 8 \times 7 \times 6 \times 5 = 151,200$, since no repetition is allowed.
@@ -54,6 +67,21 @@ $ \displaymode{{10 \choose 3}} \times 90 = \mbox{10800}$
 \[ {10 \choose 3} = \frac{10!}{3! \times (10-3)!} = \frac{10!}{3! \times 7!}
 = \frac{10 \times 9 \times 8 \times 7! }{3! \times 7!}\]
 
+\newpage
+\begin{framed}
+A sort code is palindromic if reversing it gives the same code. (For example,
+both 123321 and 946649 are palindromic sort codes, but 123312 is not.) It
+follows that a palindromic sort code can involve at most three different digits.
+How many palindromic sort codes can be formed using some or all of the
+digits 0, 1, 2
+(a) if each digit is used twice,
+(b) if one digit is used four times,
+(c) if one digit is used six times?
+
+(iii) How many palindromic sort codes can be formed altogether, using digits
+chosen from \{0, 1, 2, \ldots,9\}?
+
+\end{framed}
 \item  
 
 \begin{enumerate}[(i)]
