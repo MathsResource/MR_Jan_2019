@@ -32,8 +32,22 @@
 
 \begin{document}
 Higher Certificate, Paper I, 2004. Question 5
+\begin{framed}
+5. (i) The continuous random variable T has probability density function (pdf) f (t)
+given by
+\[f (t ) =\lambda e^{-\lambda t}  , t > 0; \lambda > 0\]
+(a) Sketch the graph of f (t).
+(b) Show that the cumulative distribution function is given by
+F (t ) =1− e−λ t , t > 0; λ > 0 .
+(c) Deduce that
+P(a < T ≤ b) = e−λ a − e−λ b , 0 < a < b.
+(7)
 
-\begin{enumerate}
+\end{framed}
+
+
+
+\begin{enumerate}[(a)]
 \item  \[f (t ) =\lambda e^{-\lambda t}  , t > 0; \lambda > 0\]
 (a) Sketch of f (t).
 [NOTE. The curve should of course appear as a smooth decaying exponential;
@@ -56,7 +70,24 @@ F t P T t t\lambdae \lambdavdv \lambdae \lambdav e \lambdat
 P(a < T \leq b) &=& F (b) - F (a) \\ 
 &=& e^{-\lambda a}  - e^{-\lambda b} 
 \end{eqnarray*}
-%%%%%%%%%%%%%%%%%%%%%%%%5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+\noindent \textbf{Part (b)}\\ 
+The accounts manager for a building firm assumes that the time T taken to
+settle an invoice is a random variable with the above pdf f (t) for some
+unknown value of $\lambda$. 
+
+For a random sample of 100 invoices, he finds that 50 are
+settled within one week, 35 are settled during the second week and 15 are
+settled after 2 weeks. Explain clearly why the likelihood of these data may be
+written as
+\[( ) ( )50 ( 2 )35 ( 2 )15 L λ = k 1− e−λ e−λ − e− λ e− λ ,\]
+where k is a constant.
+Hence show that
+\[log L(\lambda ) = log(k ) + 85log (1− e−\lambda )− 65\lambda .\]
+Deduce that the maximum likelihood estimate of $\lambda$ is approximately 0.836.
+\end{framed}
 \item Assume all settlements of invoices are independent.
 \begin{eqnarray*}
 [P(50 in first week) &=& F{ (1)}^{50}  \\
@@ -78,10 +109,10 @@ f (t)
 t
 Taking logarithms (base e),
 \begin{eqnarray*}
-log L(\lambda) &=& log k + 50log(1- e^{-\lambda} )+ 35log{e^{-\lambda} (1- e^{-\lambda} )}+15log (e^{-2\lambda} )\\
-&=& log k +85log (1- e^{-\lambda} )- (35 + 30)\lambda\\
-&=& log k + 85log (1- e^{-\lambda} )- 65\lambda.
-log 85 65 85 65
+\log L(\lambda) &=& \log k + 50log(1- e^{-\lambda} )+ 35\log{e^{-\lambda} (1- e^{-\lambda} )}+15\log (e^{-2\lambda} )\\
+&=& \log k +85log (1- e^{-\lambda} )- (35 + 30)\lambda\\
+&=& \log k + 85\log (1- e^{-\lambda} )- 65\lambda.
+
 \end{eqnarray*}
 \[ 1 1
 d L e
@@ -106,6 +137,17 @@ d\lambdaeλ
 = - <
 -
 .\]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\begin{framed}
+
+(iii) Assuming that λ = 0.836, calculate each of the expected numbers of invoices
+settled within the first week, settled during the second week, and settled after 2
+weeks. Hence comment briefly on how well the model pdf f (t) fits the data.
+(5)
+\end{framed}
 \item  \[1- e-0.836 = 0.5666; e-0.836 - e-1.672 = 0.43344 - 0.18787 = 0.2456 . \]
 
 \begin{itemize}
