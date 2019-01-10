@@ -25,7 +25,21 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
 Higher Certificate, Paper I, 2002. Question 2
+\begin{framed}
+
+2. Among the inhabitants of Altamania, height, H say, is distributed Normally with
+mean 160 cm and standard deviation 4 cm, i.e. N(160, 16).
+(i) Find the proportion of the population whose heights are within one
+standard deviation of the mean. Find also the proportion of the population
+who are more than 168 cm tall.
+
+
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 $H \sim N(160,16)$
+
+
 \begin{enumerate}[(a)]
 \item  $P(156 < H \leq 164)$ = 156 160 164 160
 4 4
@@ -47,6 +61,25 @@ portion has 1 ( )
 1 − 0.0114 = 0.9886,\] corresponding to Z = 2.277. \item The corresponding value of
 H is $μ +\sigma Z$ which is $160 + (4 \times 2.277) = 169.1 \mbox{cm}$.
 \end{itemize}
+
+\newpage
+
+\begin{framed}
+
+(ii) The Altamanian Police Force (APF) is restricted to persons who are more
+than 168 cm tall, and may be assumed to consist of a random sample of
+Altamanians satisfying this condition.
+Find
+(a) the median height of members of the APF,
+(b) the proportion of members of the APF who are more than 170 cm
+tall.
+
+(iii) Assume that the mean and standard deviation of height among members of
+the APF are 169.5 cm and 1.352 cm respectively. Find an approximate
+value for the probability that the mean height of a random sample of 25
+members of the APF is more than 170 cm.
+\end{framed}
+
 \item H = 170 corresponds to 10 2.5 ; we have (2.5) 0.9938
 4
 Z= = Φ = , so
@@ -58,24 +91,20 @@ P H
 P H
 >
 >
-= 0.0062
-0.0228
+= 0.0062/0.0228
 = 0.272.
 \item Mean height of 25 members
-1.3522 N 169.5,
-25
- 
-∼  
- 
-.
+$  \sim N (169.5,\frac{1.3522}{25})
+
+
 \begin{eqnarray*}
-P(mean > 170) &=& ( ) ( ) 170 169.5 1 0.5 5 1 1.849
+P(mean > 170) &=& ( ) ( ) 170 169.5 1 0.5 5 1 
 1.352 / 5 1.352
 P Z
  −   ×   >  = −Φ
-&=& \Phi() - \Phi()\\
+&=& \Phi() - \Phi(1.849)\\
   
-&=& 1− 0.9677 \\
+&=& 1- 0.9677 \\
 &=& 0.0323.\\
 \end{enumerate}
 \end{document}
