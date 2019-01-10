@@ -25,10 +25,50 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
 Higher Certificate, Paper I, 2003. Question 6
+\begin{framed}
+6. The random variable Y follows a binomial distribution with probability mass function
+given by
+( ) (1 ) , 0,1, ..., ; 0 1 y n y n
+fy p p y n p
+y
+  −
+=   − = < <
+ 
+.
+Write down the mean and variance of Y.
+\end{framed}
 
+\begin{enumerate}[(a)]
+\item 
 \[E(Y) = np Var(Y) = np(1 - p)\]
-\begin{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+(i) An intelligence test consists of 48 multiple-choice questions. For each
+question, four possible answers are presented but only one is correct. If a
+student answers all the questions independently by random guesswork, what
+will be the distribution of the number of questions they get right?
+\end{framed}
+
+
+
+
 \item Binomial with n = 48, p = 0.25.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\begin{framed}
+(ii) Assume that, for any question, if a student knows the answer he writes it down
+correctly, and otherwise he guesses at random. If he knows the answer to 36
+questions, find
+(a) the mean and variance of the number of questions he gets right,
+(b) the distribution of the number of questions he gets wrong,
+(c) the probability that he gets more than two questions right by chance.
+\end{framed}
+
+
 \item Score is distributed 36 + B(12, 0.25).
 
 \begin{description}
@@ -44,6 +84,20 @@ This is
 &=& 1- 0.031676 - 0.126705 - 0.232293 \\ \\ \smallskip
 &=& 0.6093 .
 \end{eqnarray*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\begin{framed}
+The test is given separately to students A, B and C in a tutor-group who know
+the answers to 27, 28 and 30 questions respectively. Find the mean and
+variance of the average number of questions they get right. Given that an
+unnamed test paper (which is a priori equally likely to be from any one of
+these students) has 29 questions right, find the respective probabilities that this
+paper was written by A, B or C.
+
+\end{framed}
+
 \item 
 \begin{itemize}
 \item Number of correct answers for A is distributed as 27 + B(21, 0.25).
@@ -75,36 +129,24 @@ respectively.
 and variance of overall mean is 
 \[ \frac{1}{9}  (\frac{63}{16} + \frac{14}{4}  + \frac{27}{8}) = 1.2292\] 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-( ) ( ) ( )
-( ) ( ) ( )
-, ,
-29 29 ; 1 for , ,
-29 3
-i A B C
-P APA
-PA Pi i A B C
-P iPi
-=
-  = = = Σ .
-( ) ( )
-19 2
-1
-4
-29 B 21, 2 21 20 3 1
-2 4 4
-P A = P  =  = \times        
-( ) ( )
-19
-1
-4
-29 B 20, 1 20 3 1
-4 4
-P B = P  =  =        
-( ) ( 1 )
-4 P 29 C = P B 18, = -1 = 0
-\item  Note. C must get at least the 30 he knows, so it must follow that
-  P(C 29) = 0 , which is true if P(29 C) = 0 .
+
+
+\[ P(A|29) = \frac{P(29|A) \times P(A)}{ \sum_{i=A,B,C} P(29|i) \times P(i)}\]
+with $P(i) = 1/3$ for $i = A,B,C$.
+
+
+\[ P(29|A) =  P \left[ B(21,1/4)] = 2  \right]  = \frac{21 \times 20}{2} \left(  \frac{3}{4}\right)^{19} \times \left(  \frac{1}{4}\right)^2\] 
+
+\[ P(29|B) =  P \left[ B(20,1/4)] = 1  \right]  = 20 \left(  \frac{3}{4}\right)^{19} \times \left(  \frac{1}{4}\right)^2\]      
+
+\[ P(29|C) =  P \left[ B(18,1/4)] = -1  \right]  = 0 \]   
+
+Note. C must get at least the 30 he knows, so it must follow that
+  $P(C| 29) = 0$ , which is true if $P(29|C) = 0$ .
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\item  
 So ( )
 19 2
 19 2 19
