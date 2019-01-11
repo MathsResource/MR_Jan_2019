@@ -29,13 +29,7 @@ Higher Certificate, Paper I, 2001. Question 8
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline        
-\noindent Text
-\\ \hline
-      \end{tabular}
-    \end{table}
-
-
-%==========================================================================================%
+\noindent %==========================================================================================%
 8. State the model for simple linear regression analysis on one explanatory variable.
 What are the assumptions usually made regarding the stochastic term?
 
@@ -56,21 +50,69 @@ incorporated in it. c1 is named 'Profits' and c2 is named 'OpCapcty'.
 analysis.
 (a) Comment on this plot.
 (1)
-(b) Explain what is meant by the statement R-Sq = 80.3%. How might
+(b) Explain what is meant by the statement R-Sq = 80.3\%. How might
 this have been calculated from the Analysis of Variance
 immediately following?
+\\ \hline
+      \end{tabular}
+    \end{table}
 
+
+
+
+\begin{enumerate}
+\item  yi =α + β xi +ε i
+where y is the response (observation) and x the value of the explanatory variable on
+that unit; { } i
+ε is a set of independent, identically distributed random variables with
+mean 0 and the same varianceσ 2 . Usually they are assumed Normal as a basis for
+inference. i x is assumed "fixed", not "random".
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent
 (c) What is the practical meaning of the slope parameter estimate
-0.31562 ? Construct a 95% confidence interval (CI) for the slope
+0.31562 ? Construct a 95\% confidence interval (CI) for the slope
 parameter.
 
 (d) The subcommand SUBC> predict … on page 13 produces the
 lines starting 'Predicted Values' and ending 'very extreme X values'.
 Noting that, for example, −15.799 + (0.31562)(25) = −7.909 and
-that the 95% CI is obtained as −7.909 ± 2.714 t10, 0.025 , explain the
+that the 95\% CI is obtained as −7.909 ± 2.714 t10, 0.025 , explain the
 meaning of this section of the output.
 
-Question 8 continued on next page.
+\\ \hline
+      \end{tabular}
+    \end{table}
+
+\item  (a) There is an increasing trend, and the relationship between y and x
+appears curvilinear.
+\begin{itemize}
+\item In simple regression $R^2$ is the square of the correlation, r, between x
+and y. In general it is the proportion of the variance of y which can be
+explained by the dependence of y on all explanatory variables { } i x in the
+model; hence it is the square of the correlation between ˆy and y.
+\item In the ANOVA , regression SS 269.33 0.803, or 80.3\%
+total SS 335.37
+= = .
+\item As x (\% operating capacity) increases by 1 unit so y (profit) increases
+by 0.31562 units.
+A 95\% confidence interval is 10 0.31562 ± t ×0.04942 , which is
+0.31562 ± 0.11011or (0.2055, 0.4257) .
+\item Values of profit have been predicted for capacity 25\%, 50\% and 75%.
+The confidence intervals for these predictions are those given; but note that
+25\% is far outside the range of available data (hence the remark about extreme
+x values). A 95\% confidence interval is an interval which should cover the
+true y at a given x with probability 0.95, based on the fitted linear regression.
+\end{itemize}
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent Question 8 continued on next page.
 Minitab output follows on pages 13 and 14.
 12
 (ii) In the analysis of Model 2, column 3 (i.e. c3) is constructed as
@@ -80,6 +122,15 @@ with that of profits against % operating capacity.
 
 (b) Use the regression of log10(profits) on % operating capacity to
 express profits as a function of % operating capacity.
+\\ \hline
+      \end{tabular}
+    \end{table}
+    
+    \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent 
 
 (c) Convert the predicted value of log10(profits) for 25% operating
 capacity, and its CI, to a corresponding prediction and CI for
@@ -89,7 +140,45 @@ indicated in the output referred to in part (i)(d) above.
 (iii) Discuss with reasons which of the two regressions you consider provides
 the better summary of the data. Indicate any limitations which should be
 borne in mind when using your preferred model.
+\\ \hline
+      \end{tabular}
+    \end{table}
+\begin{framed}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item  (a) The logarithmic plot shows that a linear regression in these units is a much better fit. There is still an increasing trend.
+%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item log10(profits) = −0.519 + 0.0177(capacity)
+i.e. profits =10−0.519+0.0177(capacity) .
+\item For capacity = 25, the 95\% limits are –0.2731 and +0.1210, and the
+actual prediction is –0.0760, in log10 units. Anti-logging these (i.e. raising 10
+to these powers) we find the 95\% limits are 0.5332 and 1.3213.
+The 'prediction' is 0.8395.
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%
+These limits do not overlap the limits on the previous model.
+The prediction now is for a small profit, compared with a loss on the previous
+model.
+\item  The scatter plots indicate that the logarithmic model is preferred, and so do the
+plots of residuals which show a random pattern (as compared with a
+systematic, curved one for the previous model).
+\begin{itemize}
+\item R2 also higher (92.4\%) on the
+log model.
+\item But a log model cannot predict negative profits – i.e. losses – which are quite
+possible in general though not for these data if used within the range of x
+values given.
+\item Extrapolation down to 25\% is well outside the data and so is not reliable on
+any model.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
 Two pages of Minitab output follow
 13 Turn over
 MTB > set c1 # profit in £1000s, for 12 factories
@@ -230,82 +319,5 @@ c4 - * *
 
 
 \end{framed}
-\begin{enumerate}
-\item  yi =α + β xi +ε i
-where y is the response (observation) and x the value of the explanatory variable on
-that unit; { } i
-ε is a set of independent, identically distributed random variables with
-mean 0 and the same varianceσ 2 . Usually they are assumed Normal as a basis for
-inference. i x is assumed "fixed", not "random".
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item  (a) There is an increasing trend, and the relationship between y and x
-appears curvilinear.
-\begin{itemize}
-\item In simple regression $R^2$ is the square of the correlation, r, between x
-and y. In general it is the proportion of the variance of y which can be
-explained by the dependence of y on all explanatory variables { } i x in the
-model; hence it is the square of the correlation between ˆy and y.
-\item In the ANOVA , regression SS 269.33 0.803, or 80.3\%
-total SS 335.37
-= = .
-\item As x (\% operating capacity) increases by 1 unit so y (profit) increases
-by 0.31562 units.
-A 95\% confidence interval is 10 0.31562 ± t ×0.04942 , which is
-0.31562 ± 0.11011or (0.2055, 0.4257) .
-\item Values of profit have been predicted for capacity 25\%, 50\% and 75%.
-The confidence intervals for these predictions are those given; but note that
-25\% is far outside the range of available data (hence the remark about extreme
-x values). A 95\% confidence interval is an interval which should cover the
-true y at a given x with probability 0.95, based on the fitted linear regression.
-\end{itemize}
-\begin{table}[ht!]
-     \centering
-     \begin{tabular}{|p{15cm}|}
-     \hline        
-\noindent Text
-\\ \hline
-      \end{tabular}
-    \end{table}
-    
-    \begin{table}[ht!]
-     \centering
-     \begin{tabular}{|p{15cm}|}
-     \hline        
-\noindent Text
-\\ \hline
-      \end{tabular}
-    \end{table}
-\begin{framed}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item  (a) The logarithmic plot shows that a linear regression in these units is a much better fit. There is still an increasing trend.
-%%%%%%%%%%%%%%%%%%%%
-\begin{itemize}
-\item log10(profits) = −0.519 + 0.0177(capacity)
-i.e. profits =10−0.519+0.0177(capacity) .
-\item For capacity = 25, the 95\% limits are –0.2731 and +0.1210, and the
-actual prediction is –0.0760, in log10 units. Anti-logging these (i.e. raising 10
-to these powers) we find the 95\% limits are 0.5332 and 1.3213.
-The 'prediction' is 0.8395.
-\end{itemize}
-%%%%%%%%%%%%%%%%%%%%
-These limits do not overlap the limits on the previous model.
-The prediction now is for a small profit, compared with a loss on the previous
-model.
-\item  The scatter plots indicate that the logarithmic model is preferred, and so do the
-plots of residuals which show a random pattern (as compared with a
-systematic, curved one for the previous model).
-\begin{itemize}
-\item R2 also higher (92.4\%) on the
-log model.
-\item But a log model cannot predict negative profits – i.e. losses – which are quite
-possible in general though not for these data if used within the range of x
-values given.
-\item Extrapolation down to 25\% is well outside the data and so is not reliable on
-any model.
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\end{enumerate}
 \end{document}
