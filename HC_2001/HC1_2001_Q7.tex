@@ -54,18 +54,7 @@ X F x = −  − F x  .
 (iii) Deduce formulae for the probability density functions of Xmax and
 Xmin in terms of F(x) and f(x).
 
-(b) Suppose that the random variable X has the Pareto density given by
-( ) ( ) ( )1 f x 1 x α α − + = + , x > 0 , α > 0.
-Draw a graph of this density and show that the cdf is given by
-F (x) 1 (1 x) −α = − + .
-Deduce that the median of X is 21/α −1 .
 
-Use result (a)(ii) above to obtain the cdf of the minimum of a random
-sample of n observations distributed as is X, and verify that this cdf is also
-of Pareto form but with a different parameter.
-
-Taking α = 1, find the smallest value of n such that the median value of the
-sample minimum is less than 0.1.
 \end{framed}
 \end{framed}
 \begin{enumerate}
@@ -163,10 +152,32 @@ F M = . So we have
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline        
-\noindent Text
+\noindent (b) Suppose that the random variable X has the Pareto density given by
+( ) ( ) ( )1 f x 1 x α α − + = + , x > 0 , α > 0.
+Draw a graph of this density and show that the cdf is given by
+F (x) 1 (1 x) −α = − + .
+Deduce that the median of X is 21/α −1 .
+
+Use result (a)(ii) above to obtain the cdf of the minimum of a random
+sample of n observations distributed as is X, and verify that this cdf is also
+of Pareto form but with a different parameter.
+
+Taking α = 1, find the smallest value of n such that the median value of the
+sample minimum is less than 0.1.
 \\ \hline
       \end{tabular}
-    \end{table}Using (a)(ii), 1 1 1 1
+    \end{table}
+\begin{framed}
+Cumulative distribution function[edit]
+From the definition, the cumulative distribution function of a Pareto random variable with parameters α and xm is 
+\[ {\displaystyle F_{X}(x)={\begin{cases}1-\left({\frac {x_{\mathrm {m} }}{x}}\right)^{\alpha }&x\geq x_{\mathrm {m} },\\0&x<x_{\mathrm {m} }.\end{cases}}} 
+\]
+Probability density function[edit]
+It follows (by differentiation) that the probability density function is \[ {\displaystyle f_{X}(x)={\begin{cases}{\frac {\alpha x_{\mathrm {m} }^{\alpha }}{x^{\alpha +1}}}&x\geq x_{\mathrm {m} },\\0&x<x_{\mathrm {m} }.\end{cases}}} 
+\]
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    Using (a)(ii), 1 1 1 1
 1 1
 n
 X n F
