@@ -31,12 +31,16 @@
  \centering
  \begin{tabular}{|p{15cm}|}
  \hline
-\noindent 3. A manufacturer produces components of two quality grades:
-Standard quality, with lifetimes distributed as N(2000, 90000), i.e.
-Normally with mean 2000 hours and standard deviation √(90000) = 300
+\noindent A manufacturer produces components of two quality grades:
+\begin{itemize}
+    \item Standard quality, with lifetimes distributed as N(2000, 90000), i.e.
+ Normally with mean 2000 hours and standard deviation $\sqrt{90000}$ = 300
 hours.
-High quality, with lifetimes distributed as N(2500, 15625).
-(a) (i) Find the probability that a randomly chosen standard component
+\item High quality, with lifetimes distributed as $N(2500, 15625)$.
+\end{itemize}
+\\
+\noindent \textbf{Part (a)}\\
+Find the probability that a randomly chosen standard component
 lasts at least 2300 hours, and find the corresponding probability for
 a high quality component.
 \\ \hline
@@ -121,7 +125,7 @@ P( X > 2600) &=& P(X > 2600 | S)P(S ) + P( X > 2600 | H )P(H )\\
 
 \begin{eqnarray*} 
 P(X \geq 2600) &=& \left(0.6 \times \Phi(-2)\right) + \left(0.4 \times \Phi(-0.8)\right)\\
-&=& \left(0.6 \times 0.02275) + \left(0.4 \times 0.2119\right)\\
+&=& \left(0.6 \times 0.02275 \right) + \left(0.4 \times 0.2119\right)\\
  &=& 0.01365 + 0.08476 \\ 
  &=& 0.09841.
 \end{eqnarray*}
@@ -147,7 +151,7 @@ P(X > 2600) &=& P(X \geq 2600|S)P(S) + P(X > 2600|H)P(H) \\
  \centering
  \begin{tabular}{|p{15cm}|}
  \hline
-\noindent (ii) Given that a component from this batch lasts at least 2600 hours,
+\noindent Given that a component from this batch lasts at least 2600 hours,
 what is the probability that it is of the high quality type?
 \\ \hline
   \end{tabular}
@@ -162,7 +166,7 @@ P (X  H) &=& \frac{P(H>2600)}{P(X>2600)}\\
 &=& 0.09841
 \end{eqnarray*}.
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \begin{table}[ht!]
  \centering
@@ -185,7 +189,6 @@ may take X as approximately N(2200, 346.82), so that $P(\bar{X}\geq 2300)$ =
 
 
 
- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{eqnarray*} 
 P(\bar{X}\geq 2300) &=& 1- \Phi(2.8835)\\  &=& 1- 0.9980 \\&=& 0.02
 \end{eqnarray*}
