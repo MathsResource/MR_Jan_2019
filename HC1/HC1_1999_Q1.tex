@@ -30,34 +30,31 @@
 %- SOLUTIONS Paper I :
 %- Statistical Theory
 \begin{document}
+
+The game of Snip is played for marbles.  In this game two players, A and B say, each have a coin which, unseen by the other player, they independently choose to display as Heads (H) or Tails (T).  When A and B have made their choices, the coins are disclosed and the outcome of the game is decided in accordance with the table below.
+
+\begin{center}
+\begin{tabular}{|ll|l|l|}\hline
+\multicolumn{2}{|l}{}   & \multicolumn{2}{l|}{B displays} \\ \hline
+\multicolumn{2}{|l|}{}   & H      & T      \\ 
+\multirow{2}{*}{A displays} & H & A wins 3 from B & B wins 2 from A \\ 
+       & T & B wins 2 from A & A wins 1 from B \\ \hline
+\end{tabular}
+\end{center}
+
+
   \begin{table}[ht!]
   \centering
   \begin{tabular}{|p{15cm}|}
   \hline  
-1. The game of Snip is played for marbles.  In this game two players, A and B say, each have a coin which, unseen by the other player, they independently choose to display as Heads (H) or Tails (T).  When A and B have made their choices, the coins are disclosed and the outcome of the game is decided in accordance with the table below.
-
- 
-(i) Suppose that A and B independently both randomly display H and T with probability 1/2.  Show that all four outcome combinations in the table above have the same probability, and deduce that the expected gain to A (or B) is zero. (6) 
+  \noindent \textbf{Part (a)} \\Suppose that A and B independently both randomly display H and T with probability 1/2.  Show that all four outcome combinations in the table above have the same probability, and deduce that the expected gain to A (or B) is zero. (6) 
 \\ \hline
    \end{tabular}
  \end{table}
-
-  
-\begin{framed}
- 
- 
-  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Please add the following required packages to your document preamble:
 
-\begin{table}
-\centering
-\begin{tabular}{llll}
-\multicolumn{2}{l}{}   & \multicolumn{2}{l}{B displays} \\
-\multicolumn{2}{l}{}   & H      & T      \\
-\multirow{2}{*}{A displays} & H & A wins 3 from B & B wins 2 from A \\
-       & T & B wins 2 from A & A wins 1 from B
-\end{tabular}
-\end{table}
+
 
 
 1 Outcome probabilities are:
@@ -70,17 +67,21 @@ independence),$1/2 \times 1/2 = 1/4$.
 \item $E[G_A] = (3 \times 1/4) - (2 \times 1/4) - (2 \times 1/4) + (1 \times 1/4) = 0 = E[G_B]$
 since this is a two person game.
 \end{itemize}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
  
   \begin{table}[ht!]
   \centering
   \begin{tabular}{|p{15cm}|}
   \hline  
   \noindent \textbf{Part (c)} \\
- (ii) Suppose now that A and B independently both randomly display H and T, but A displays H and T with respective probabilities 2/3 and 1/3 while B displays H and T with respective probabilities 1/3 and 2/3.  Calculate the four outcome probabilities under these conditions and find the expected gain to A. (6) 
+Suppose now that A and B independently both randomly display H and T, but A displays H and T with respective probabilities 2/3 and 1/3 while B displays H and T with respective probabilities 1/3 and 2/3. \\ \smallskip
+
+Calculate the four outcome probabilities under these conditions and find the expected gain to A. 
  \\ \hline 
    \end{tabular}
  \end{table}
+ 
 
 \item $E[G_A] = (3 \times 2/9) - (2 \times 4/9) - (2 \times 1/9) + (1 \times 2/9) = -2/9$
 \item giving 
@@ -89,21 +90,20 @@ E[G_A] &=& 3p_Ap_B - 2p_A(1  p_B) - 2(1 - p_A)p_B + (1 - p_A)(1 - p_B)\\ &=& 1 -
 3p_B + 8p_Ap_B\\
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%
-  \begin{table}[ht!]
-  \centering
+\newpage
+\begin{table}[ht!]
+ \centering
   \begin{tabular}{|p{15cm}|}
   \hline  
   \noindent \textbf{Part (c)} \\
-) Finally, suppose that A and B independently and randomly display H and T with respective probabilities A p and 1− pA;  pB and 1− pB.  Calculate the four outcome probabilities and show that the expected gain to A may be written: 
+Finally, suppose that A and B independently and randomly display H and T with respective probabilities A p and 1− pA;  pB and 1− pB.  Calculate the four outcome probabilities and show that the expected gain to A may be written: 
  
    B ABA p ppp 8331 +−− . 
  
  Noting that this may be written as 1− pA(3−8pB)− 3pB or as 1− pB(3 −8pA)− 3pA, discuss whether you would prefer to play as A or B and how you would play. \\ \hline
    \end{tabular}
  \end{table}
- \begin{framed}
-
-\end{framed}
+%-------------------------------------%
 \begin{itemize}
 \item If $p_B = 3/8$ ;$E[GA] = 1 - 3p_B$ from the first alternative form; in this case \[E[G_A] =
 1 - \frac{9}{8}  = - \frac{1}{8}\]
