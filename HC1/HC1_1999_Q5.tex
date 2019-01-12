@@ -29,24 +29,15 @@
   \centering
   \begin{tabular}{|p{15cm}|}
   \hline
-(i) The random variable X is exponentially distributed with probability density function 
+The random variable X is exponentially distributed with probability density function 
  
-   
-  
-< ∞<≤
-=
-−
-,0,0 ,0,
-)(
-x xe
-xf
-x
-λλ
+ \[{\displaystyle f(x;\lambda )={\begin{cases}\lambda e^{-\lambda x}&x\geq 0,\\0&x<0.\end{cases}}} 
+\]
+
  
+  where $\lambda > 0$. 
  
-  where λ > 0. 
- 
-  Obtain the distribution function of X, F(x) say, and sketch the graphs of f(x) and F(x). (7) 
+  Obtain the distribution function of X, F(x) say, and sketch the graphs of f(x) and F(x). 
  \\ \hline 
    \end{tabular}
  \end{table}
@@ -61,12 +52,39 @@ x
 F(X) = P(X \leq x) = \int^{x}_{0} \lambda e^{\lambda u} du
  = [-e^{-\lambda u}]^{x}_{0}  = 1-e^{-\lambda x}\] ($x \geq  0$)
 
+The cumulative distribution function is given by 
+\[ {\displaystyle F(x;\lambda )={\begin{cases}1-e^{-\lambda x}&x\geq 0,\\0&x<0.\end{cases}}} \]
+
+
+\newpage
+Maximum likelihood[edit]
+The likelihood function for λ, given an independent and identically distributed sample x = (x1, ..., xn) drawn from the variable, is: 
+\[ {\displaystyle L(\lambda )=\prod _{i=1}^{n}\lambda \exp(-\lambda x_{i})=\lambda ^{n}\exp \left(-\lambda \sum _{i=1}^{n}x_{i}\right)=\lambda ^{n}\exp \left(-\lambda n{\overline {x}}\right),} \]
+
+where: 
+\[ {\displaystyle {\overline {x}}={1 \over n}\sum _{i=1}^{n}x_{i}} \]
+
+is the sample mean. 
+The derivative of the likelihood function's logarithm is: 
+\[ {\displaystyle {\frac {\mathrm {d} }{\mathrm {d} \lambda }}\ln(L(\lambda ))={\frac {\mathrm {d} }{\mathrm {d} \lambda }}\left(n\ln(\lambda )-\lambda n{\overline {x}}\right)={\frac {n}{\lambda }}-n{\overline {x}}\ {\begin{cases}>0,&0<\lambda <{\frac {1}{\overline {x}}},\\[8pt]=0,&\lambda ={\frac {1}{\overline {x}}},\\[8pt]<0,&\lambda >{\frac {1}{\overline {x}}}.\end{cases}}} 
+\]
+Consequently, the maximum likelihood estimate for the rate parameter is: 
+\[ {\displaystyle {\widehat {\lambda }}={\frac {1}{\overline {x}}}={\frac {n}{\sum _{i}x_{i}}}} \]
+
+Although this is not an unbiased estimator of 
+${\displaystyle \lambda } $
+, ${\displaystyle {\overline {x}}}$ 
+ is an unbiased[4] MLE[5] estimator of 
+${\displaystyle 1/\lambda =\beta ,} $
+ where 
+${\displaystyle \beta } $
+ is the scale parameter defined in the 'Alternative parameterization' section above and the distribution mean. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%5
   \begin{table}[ht!]
   \centering
   \begin{tabular}{|p{15cm}|}
   \hline 
- (ii) Given a random sample x1,...,xn from this distribution, write down the likelihood function and show that the maximum likelihood estimate of λ , ˆ λ  say, is the reciprocal of the sample mean. (6) 
+ (ii) Given a random sample $x_1,\ldots,x_n$ from this distribution, write down the likelihood function and show that the maximum likelihood estimate of $\lambda$ , $\hat{\lambda}$  say, is the reciprocal of the sample mean. 
 \\ \hline 
    \end{tabular}
  \end{table}
@@ -87,12 +105,10 @@ so there is a maximum for $\lambda$¸
   \centering
   \begin{tabular}{|p{15cm}|}
   \hline 
-\noindent \textbf{Part (c)} \\Show that the second derivative of the log-likelihood with respect to 
-λ
- is 
+\noindent \textbf{Part (c)} \\Show that the second derivative of the log-likelihood with respect to $\lambda$ is 
 given by 
  
-   2 2 2 ln λλ n d Ld −= . 
+\[   2 2 2 ln λλ n d Ld −= . \]
  
   You are given that, if n is large, 
  
