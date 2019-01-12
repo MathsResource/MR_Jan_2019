@@ -23,34 +23,40 @@
 \renewcommand{\baselinestretch}{1.3}
 
 \setcounter{MaxMatrixCols}{10}
-\begin{document}PAPER III : Statistical Applications & Practice
-1.(i)
-The variance ¾2 appears to be proportional to the mean ¹, whereas for Analysis of Variance
+\begin{document}
+% PAPER III : Statistical Applications & Practice
+
+\begin{enumerate}[(a)]
+\item The variance ¾2 appears to be proportional to the mean ¹, whereas for Analysis of Variance
 we must assume that all observations have the same variance. The square root transformation will
 stabilize the variance when ¾2 / ¹, and has often been found suitable for counts.
-(ii)After the square root transformation the variance is quite similar for all batches, and so can
+\item After the square root transformation the variance is quite similar for all batches, and so can
 reasonably be pooled in an analysis of variance.
-(iii)The total sum of squares of p
-yij is the sum of all the yij , most easily calculated as 6 £ the
+\item The total sum of squares of p
+$y_{ij}$ is the sum of all the $y_{ij}$ , most easily calculated as 6 £ the
 sum of those means,it is 5955.
 The sum of all p
 yij is 6£ the sum of those means, 361.73 .
 N=24, so G2=N = 361:732=24 = 5452:0247.
-Corrected total SS=5955-5452.0247=502.975 .
+\[\mbox{Corrected total }SS=5955-5452.0247=502.975 .\]
 Transformed batch totals are A, 129.63; B,84.65; C,52.94; D,94.51 .
 Batch SS= 1
 6 (129:632 + ¢ ¢ ¢ + 94:672) ¡ G2=N = 498:699.
 Analysis of variance:
-10
+
 SOURCE D:F: SUM OF MEAN
 SQUARES SQUARE
 Batches 3 498:699 166:233
 Residual 20 4:276 0:2138
 TOTAL 23 502:975
 F(3; 20)¤¤¤¢¢¢ Extremely highly significant.
-Clearly there are large differences between batches. This can be explored using least significant
+\begin{itemize}
+    \item Clearly there are large differences between batches. 
+    \item This can be explored using least significant
 differences, since no further information is available to set up definite comparisons(contrasts) between
 batches for testing.
+\end{itemize}
+
 The l.s.d. between two mean=t(20)
 q
 2£0:2138
