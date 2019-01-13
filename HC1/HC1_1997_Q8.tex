@@ -30,34 +30,17 @@
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline        
-8. (a) State the conditions under which
-(i) the Poisson distribution may be used to approximate a Binomial distribution,
-(ii) the Normal distribution may be used to approximate a Poisson distribution.
+\noindent Part (a) \\ State the conditions under which
+\\ (i) the Poisson distribution may be used to approximate a Binomial distribution,
+\\ (ii) the Normal distribution may be used to approximate a Poisson distribution.
 \\ \hline
       \end{tabular}
     \end{table}
     
-  \begin{table}[ht!]
-     \centering
-     \begin{tabular}{|p{15cm}|}
-     \hline  
-(b) The random variable X has probability mass function
-f (x)= e
-x
-x
-x
-−
-=
-5 5
-012
-!
-, , , ,...,
-= 0  otherwise.
-Find PX () 46 ≤≤ (i) exactly, (ii) using a Normal approximation.  Calculate the percentage error of this approximation, and comment briefly.
-\\ \hline 
-      \end{tabular}
-    \end{table}
-\begin{enumerate}
+\begin{enumerate}[(a)]
+    \item 
+
+\begin{enumerate}[(i)]
 \item A binomial distribution with large n and very small p may be approximated
 by a Poisson with $\lambda = np$. 
 \begin{itemize}
@@ -72,10 +55,30 @@ the approximation will be a good one.
 approximation will be good for $\mu \geq 10$, but adequate down to $\mu = 5$.
 
 %%%%%%%%%%%%%%%%5
+
+\newpage
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  
+\noindent Part (b) \\ The random variable X has probability mass function
+
+\[
+f (x, \lambda=5)= \left{ \begin{cases}  
+{\displaystyle {\frac { e^{-5 } 5 ^{x}}{x!}}} , &  x=\{0,1,2,3,\ldots\}  \\
+0, x < 0
+\end{cases}
+\]
+
+Find $P(4 \leq X \leq 6)$  \\ (i) using the probability mass function, \\ (ii) using a Normal approximation. \\ Calculate the percentage error of this approximation, and comment briefly.
+\\ \hline 
+      \end{tabular}
+    \end{table}
 (b) (i) Poisson, mean 5:
 \begin{eqnarray*}
-P(4) + P(5) + P(6) &=& 
-\left[e^{-5} \times \frac{5^4}{4!}\right] + \left[e^{-5}\times \frac{5^5}{5!}\right] +  \left[ e^{-5}\times \frac{5^6}{6!} \right] 
+P(4 \leq X \leq 6) &=& 
+P(X = 4) + P(X = 5) + P(X = 6) \\
+&=& \left[e^{-5} \times \frac{5^4}{4!}\right] + \left[e^{-5}\times \frac{5^5}{5!}\right] +  \left[ e^{-5}\times \frac{5^6}{6!} \right] 
 \\
 &=& 
 e^{-5} \left( \frac{5^4}{4!} + \frac{5^5}{5!} +  \frac{5^6}{6!} \right)
@@ -89,12 +92,8 @@ e^{-5} \times \frac{625}{240} \times \left(\frac{30}{30} + \frac{30}{30} +  \fra
 &=& 
 e^{-5} \times \frac{625}{240} \times \left(   \frac{85}{30} \right)
 \\
-&=& 625e¡5( 1
-24 + 5
-120 + 25
-720 )\\ &=& 625e¡5( 1
-12 + 5
-144 )\\ &=& 0:49716:
+&=& (0.006737) \times 2.604167 \times  2.833333
+\\ &=& 0.4971 (approx).
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \item  N(5; 5) with a continuity correction is required: find P(31
@@ -124,15 +123,20 @@ near to the mean, leads to a very good approximation.
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline  
-(c) Events happen in a Poisson process at rate  
-λ
- per unit time so that the number of
-events in the interval ( , ) 0 t is a Poisson random variable with mean 
-λ t .  Write down
-the probability that there are no events in the interval ( , ) 0 t .  By interpreting this probability as the chance that the time T to the next event in the process is greater than t, show that the probability density function (pdf) of T is given by
-g(t) = 
-λλ λ et t− ≥> , , . 00
-    = 0  otherwise.
+\noindent Part (c) \\ 
+Events happen in a Poisson process at rate $\lambda$ per unit time so that the number of events in the interval $(0 ,t )$ is a Poisson random variable with mean $\lambda t$ . \\  Write down
+the probability that there are no events in the interval $(0 ,t )$. 
+
+By interpreting this probability as the chance that the time $T$ to the next event in the process is greater than $t$, show that the probability density function (pdf) of T is given by
+
+\[
+g (x, \lambda)= \left{ \begin{cases}  
+{\displaystyle {\frac { e^{-\lambda } \lambda ^{x}}{x!}}} , &  x=\{0,1,2,3,\ldots\}  \\
+0, x < 0
+\end{cases}
+\]
+
+    
 Find the mean and variance of T.
 \\ \hline
       \end{tabular}
@@ -142,6 +146,8 @@ Find the mean and variance of T.
 \item  $P(0) = e^{-\lambda t}¸ = P(T > t)$ for the first event observed = $1 - F(t)$. Hence
 $F(t) = 1 - e^{-\lambda t}$ and g(t) = F
 0(t) = ¸e¡¸t. (t ¸ 0; ¸ > 0).
+
+
 [g(t) = 0 unless t ¸ 0; ¸ > 0 since neither time of events nor rate of events
 occurring can be negative.] 
 
@@ -172,9 +178,8 @@ E(T^2) &=& \int^{\infty}_{0} \lambda t^2\;e^{-\lambda} dt \\
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline  
-(d) In the case 
-λ
-=5 a random sample of size 100 is taken from the pdf gt( ) .  Use the central limit theorem to approximate the probability that the sample mean is within 10% of the true mean of T. 
+\noindent Part (d)\\     
+In the case $\lambda=5$ a random sample of size 100 is taken from the pdf $g(t)$. Use the central limit theorem to approximate the probability that the sample mean is within 10\% of the true mean of T. 
 \\ \hline
       \end{tabular}
     \end{table}
