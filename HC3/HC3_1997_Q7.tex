@@ -24,42 +24,54 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+\begin{framed}
+7. A factory manager wishes to know whether or not the number of rejects produced by an industrial process within a set period follows a Poisson distribution.  The previous month’s data, given below, are thought to be typical:
+Number of rejects 0 1 2 3 4 5 6  or more Frequency 38 49 43 17 11 2 0
+(i) For what reasons might the rejects follow a Poisson distribution?
+(ii) Test the hypothesis that the distribution of rejects is Poisson, and explain your result to the factory manager.
+
+
+\end{framed}
+
+
+The value of the test-statistic is 
+\[ {\displaystyle \chi ^{2}=\sum _{i=1}^{n}{\frac {(O_{i}-E_{i})^{2}}{E_{i}}} \]
 
 \begin{enumerate}
-\item For type A, min = 171; lower quartile, q = 396:5; median, M = 1
-2(568+795) =
-681:5; upper quartile, Q = 1158; max = 2415.
-For B, min = 212; q = 298:5; M = 447:5; Q = 823:5; max = 1678.
-
-\begin{itemize}
-\item The two distributions are distinctly skew, since the medians are not in the
-middle of the boxes made by the quartiles, and also the upper whiskers are
-very long. 
-\item The variability in the distributions appears not to be the same
-either.
-\end{itemize}
-
-\item The t-test requires symmetry (strictly normality) of sets of data and, at least
-approximately, the same variance. Since neither of these seems very likely
-in the populations from which the samples were drawn, a Mann - Whitney
-test is preferred. This requires data to be of similar shape, but that is more
-24
-reasonable. The Null Hypothesis will be that the populations have the same
-median values. The ranks of Type A are: \[\{1, 4, 8, 9, 13, 14, 16, 17, 20, 21,
-25, 28, 30, 32, 33, 34, 35, 37, 38, 40\}\]; and of type B: \[\{2, 3, 5, 6, 7, 10, 11, 12,
-15, 18, 19, 22, 23, 24, 26, 27, 29, 31, 36, 39.\}\]
-
-\begin{itemize}
-\item Rank sums are: A, 455; B, 365. [check: sum = 820 = 1
-2 ¢ 40 ¢ 41]. 
-\item The mean
-of all ranks is 410, and the normal approximation to rank sum has variance
+\item If the process is producing individual rejects “at random”, i.e. singly and
+at unpredictable instants of time, but at a constant rate over the period
+of study, then the number of rejects during a fixed time of observation will
+follow a Poisson distribution.
+\item The mean must be estimated from the data:
+¯x =
 1
-12 ¢ 20 ¢ 20 ¢ 41, i.e. s.d.= 36:97.
-(This form of the test is usually called Wilcoxan’s Rank Sum test.)
-\item Hence r = 455¡410
-36:97 = 1:22 is approximately N(0; 1); the value is not significant,
-so there is no evidence that medians differ.
+160
+(0 + 49 + 86 + 51 + 44 + 10) =
+240
+160
+= 1.5
+Expected frequencies are 160e-1.5(1.5)r=r! for r = 0; 1; ¢ ¢ ¢.
+r : 0 1 2 3 4 ¸ 5 TOTAL
+Obs: 38 49 43 17 11 2 160
+Exp: 35.70 53.55 40.16 20.08 7.53 2:98 160
+(The last two cells may be combined, but this is not really necessary.)
+Â2 has 4 d.f., since 1 parameter had to be estimated and the totals of Obs
+and Exp have to be the same.
+15
+Â2
+(4) 
+
+\begin{eqnarray*}
+\chi^2 &=& \frac{(38-35.70)^2}{35.70} + \frac{(49-53.55)^2}{53.55} + \frac{(43-40.16)^2}{40.16} + \frac{(17-20.08)^2}{20.08} + \frac{(11-7.53)^2}{7.53} + \frac{(2-2.98)^2}{2.98}\\
+&=& \frac{(38-35.70)^2}{35.70} + \frac{(49-53.55)^2}{53.55} + \frac{(43-40.16)^2}{40.16} + \frac{(17-20.08)^2}{20.08} + \frac{(11-7.53)^2}{7.53} + \frac{(2-2.98)^2}{2.98}\\
+&=& 3:13;
+\end{eqnarray*}
+not significance.
+\begin{itemize}
+\item There is no reason to reject the hypothesis that the data follow a Poisson
+distribution. 
+\item Therefore the number of rejects per unit time is likely to remain
+reasonably constant and they do not arise in any regular or predictable way.
 \end{itemize}
 \end{enumerate}
 \end{document}
