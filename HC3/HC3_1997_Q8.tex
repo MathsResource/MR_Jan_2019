@@ -24,45 +24,115 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+\begin{framed}
+8. (a) Using examples to illustrate your answer, discuss the uses made of the F distribution in statistical methods.
+(b) New working practices have been introduced into a factory and its manager is concerned that, as a consequence, the variation in the time taken to complete a standard task (in minutes) might now differ between men and women.  Times taken in random samples of their work are given below.
+Men 21 23 12 18 20 27 23 25 26 10 14 19 Women 18 24 17 21 18 22 18 19 23 24
+Is there any statistical evidence that male times are more variable than female?  Explain your conclusion, giving a confidence interval for the ratio of the variances, stating any assumptions which you made.
+3
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\begin{enumerate}
+\item The F distribution with (v1; v2) degrees of freedom is the distribution of the
+ratio of two Â2 distributions - specifically F(v1; v2) = Â(v1)
+v1
+=
+Â(v2)
+v2
+. 
 \begin{itemize}
-\item  A dot - plot for each set of data, on the same scale, is useful.
-\item 923 for C seems highly unlikely. This level may be physically impossible, to
-judge from all the other observations. Or it may be a recording error for 293
-(or even 329).
-\item  Residual S.S. = 19 £ 19797 = 376143; hence treatment S.S. = 70262 and
-M.S. = 35131. The variance ratio is then 35131
-19797 = 1:77.
-The analysis, by itself, suggests that there are no significant treatment differences,
-and also that the standard deviation of an observation is very large
-(
-p
-19797 = 140:7).
-\item Revised sums and S.S. are:
-A B C TOTAL
-Sum 2533 2308 1097 5938
-n 8 9 4 21
-Sum of squares 826145 602898 305129 1734172
-Treatments SS = 25332
-8 + 23082
-9 + 10972
-4 ¡ 59382
-21 = 1694737¡1679040 = 15697.
-25
-and Total SS = 1734172 ¡ 59382=21 = 55132.
-Source of variation DF Sum of Squares M:S:
-Treatments 2 15697 7849 F(2;18) = 3:58¤
-Residual 18 39435 2191
-TOTAL 20 55132
-F is just significant at 5%. The estimated variance of an observation is 2191,
-S.D. = 46.8. Means are: A, 316.6; B, 256.4; C, 274.3. Var[¯xA ¡ ¯xB] =
-s2( 1
-8 + 1
-9 ) = 517:32, S.D. = 22.7, t(18) = 60:2
-22:7 = 2:65¤, so A and B appear
-to differ. Var[¯xA ¡ ¯xC] = s2( 1
-8 + 1
-4 ) = 821:63, S.D. = 28.7, t(18) = 42:3
-28:7 , not
-significant. A and C do not differ; nor will B and C.
-\item The one doubtful observation greatly increased the variance estimate.
+\item Therefore,
+two independent estimates of variance from the same population, based respectively
+on (v1 + 1) and (v2 + 1) observations may be compared in an F
+distribution. An example of this is in (b), assuming observations normally
+distributed.
+\item Also, two sums of squares of normally distributed variables can be compared.
+An examples is in the analysis of designed experiments (see Question
+2), where the residual sum of squares provides an estimate of natural variation,
+¾2, and the treatment sum of squares also provides an estimate of
+this on the Null Hypothesis of no treatment differences: the actual estimates
+are the sums of squares divided by their degrees of freedom, i.e. the “mean
+squares”.
+\item Hence these mean squares can be compared in an F-test, as long
+as observations are normally distributed.
+\item Similarly, in linear regression, the sum of squares of deviations from the fitted
+“live” provides a test of fit: sums of squares for regression is Â2
+(p¡1) when
+p x-variables are used, and the residual sum of squares is Â2
+(n¡p). 
+\item Hence two
+mean squares can be found whose ratio will be F(p ¡ 1; n ¡ p) if a linear fit
+is adequate.
+\end{itemize}
+\item  For men, v1 = 12 and for women, v2 = 10. Calculate s2 = 1
+v¡1
+P
+(xi¡¯x)2 for
+each sample. For men, s21
+= 30:3333 and for women s22
+= 7:3778, 
+
+\[ F(11;9) = \frac{s21}{s22}  = \frac{30:3333}{7:3778} 
+= 4:1114\]. 
+
+\begin{itemize}
+    \item Since this is significant at 5\% on the Null Hypothesis that the
+two variances are equal, we must reject that hypothesis.
+\item Each set of data is
+assumed to be from a normal population, there is some suggestion that this
+may not be true for the men, but rather there are two sub-populations.
+\end{itemize}
+
+(v2¡1)s22 ¾2
+2
+¥ (v1¡1)s21
+¾2
+1
+is the ratio Â(v2¡1)2
+Â(v1¡1)2
+i.e. F(v2 ¡ 1; v1 ¡ 1). Therefore
+v2¡1
+v1¡1 ¢ s22
+s21
+¢ ¾2
+1
+¾2
+2
+» F(v2 ¡1; v1 ¡1), or ¾2
+1
+¾2
+2
+= (v1¡1)s21
+(v2¡1)s22
+F(v2 ¡1; v1 ¡1). 
+\begin{itemize}
+    \item Limits for
+¾2
+1
+¾2
+2
+are 11
+9 ¢4:1114¢F(9; 11), where the upper and lower 21
+2\% points of F(9; 11)
+are to be used. 
+\item The upper point is 3.59. 
+\item For the lower point, use the fact
+16
+that P(F > F¤) = P( 1
+F < 1
+F¤ ), where F¤ is the critical value.
+\item But 1
+F is also
+an F-variable, with upper and lower degrees of freedom interchanged. \item The
+upper 21
+2\% point of F(11; 9) is 3.92.
+\item Hence the required lower 21
+2\% points
+1=3:92 = 0:255. 
+\item The 95\% confidence interval is 5:025£0:255 to 5:025£3:59
+
+i.e. (1.2814 to 18.04).
+\end{itemize}
+
+\end{enumerate}
 \end{document}
