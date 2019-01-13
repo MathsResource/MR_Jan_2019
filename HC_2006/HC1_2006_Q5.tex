@@ -43,32 +43,81 @@ Higher Certificate, Paper I, 2006. Question 5
      
 \hline        
 
-\noindent
-5. The random variable X follows a Poisson distribution with probability mass function
-(),0,1,2,...!xPXxexxλλ−=== .
-(i) Show that E(X) = Var(X) = λ.
+\noindent The random variable X follows a Poisson distribution with probability mass function
+\[\frac{e^{-\lambda}\lambda^{x}}{x!}\]where $x=\{0,1,2,\ldots$ and $\lambda >0$.\\ \bigskip
+
+
+
+(i) Show that $E(X) = Var(X) = \lambda$.
 \\ \hline
       
 \end{tabular}
     
 \end{table}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%-------------------------------------------------%
-%-------------------------------------------------%
+\begin{enumerate}[(a)]
+\item 
 
+\begin{multicols}{2}
+\begin{eqnarray*}
+E(X) &=&  \sum^{\infty}_{x=0} x \frac{e^{-\lambda}\lambda^{x}}{x!}  \\
+&=&  \lambda e^{-\lambda}\sum^{\infty}_{x=0} \frac{\lambda^{x-1}}{(x-1)!}  \\
+&=& \lambda e^{-\lambda} e^{\lambda}\\
+&=& \lambda
+\end{eqnarray*}
+
+\begin{eqnarray*} E(X^2) &=& E[X(X-1) + X] \\ &=& E[X(X-1)] + E[X] 
+\end{eqnarray*}
+\end{multicols}
+
+\begin{multicols}{2}
+\begin{eqnarray*}
+E(X-1) &=&  \sum^{\infty}_{x=0} x(x-1)\frac{e^{-\lambda}\lambda^{x}}{x!}  \\
+&=&  \lambda^2 e^{-\lambda}\sum^{\infty}_{x=0} \frac{\lambda^{x-2}}{(x-2)!}  \\
+&=& \lambda^2 e^{-\lambda} e^{\lambda}\\
+&=& \lambda^2
+\end{eqnarray*}
+
+\begin{eqnarray*} E(X^2) &=& E[X(X-1)] + E[X] \\ &=& \lambda^2 + \lambda \end{eqnarray*}
+
+\begin{eqnarray*}Var(X) &=& E[X^2] - (E[X])^2 \\ &=& (\lambda^2 + \lambda)- (\lambda^2) \end{eqnarray*}
+\end{multicols}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \begin{table}[ht!]
-     
 \centering
-     
+
 \begin{tabular}{|p{15cm}|}
-     
 \hline        
 
 \noindent
 
 (ii) Given a random sample of values x1, x2, …, xn from this distribution, obtain the maximum likelihood estimator (MLE) of λ, say. λˆ
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
 
+\item  \[1!ixniieLx$\lambda$$\lambda$−==Π, \]and hence . 1loglogconstantniiLnx$\lambda$$\lambda$==−++Σ
+logixdLnd$\lambda\]
+\[\lambda$Σ∴=−+\] which on setting equal to zero gives that the maximum likelihood estimate is ˆixxn$\lambda$Σ==. [Consideration of 22logdd$\lambda$ confirms that this is a maximum: 222log0ixdLd$\lambda$$\lambda$−Σ=<.]
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht!]
+\centering
+
+\begin{tabular}{|p{15cm}|}
+\hline        
+
+\noindent
 (iii) Write down Var() as a function of λ, and hence find the MLE of Var(). Show that a large-sample approximate
 95% confidence interval (CI) for λ is given by λˆλˆˆˆˆˆ 1.961.96nnλλλλλ−≤≤+.
 \\ \hline
@@ -77,43 +126,6 @@ Higher Certificate, Paper I, 2006. Question 5
     
 \end{table}
 
-
-%-------------------------------------------------%
-%-------------------------------------------------%
-
-\begin{table}[ht!]
-     
-\centering
-     
-\begin{tabular}{|p{15cm}|}
-     
-\hline        
-
-\noindent
-
-(iv) Assume that the numbers of books, x1, x2, x3, …, that go missing each month from the local library follow a Poisson 
-distribution with unknown mean λ. The monthly numbers of missing books in 2005 were
-3 7 2 5 8 2 4 5 4 4 1 3.
-Use these data to calculate and an approximate 95% CI for λ. Also compute the sample variance of the data; discuss 
-briefly whether this computation supports, or throws doubt on, the Poisson model suggested (no formal test is required). λˆ
-
-\\ \hline
-      
-\end{tabular}
-    
-\end{table}
-
-
-%-------------------------------------------------%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{enumerate}
-\item E(X) = ()101!1!xxxxexeeexx$\lambda$$\lambda$$\lambda$$\lambda$$\lambda$ $\lambda$$\lambda$$\lambda$−−∞∞−−====−ΣΣ .
-E(X2) = ()()[]11EXXXEXXEX−+=−+⎡⎤⎡⎤⎣⎦⎣⎦.
-()()()2220211!2!xxxxeEXXxxeeexx$\lambda$$\lambda$$\lambda$$\lambda$$\lambda$ $\lambda$$\lambda$$\lambda$−−∞∞−−==−=−===⎡⎤⎣⎦−ΣΣ.
-Hence 22()EX$\lambda$$\lambda$=+, and {}22Var()()()XEXEX$\lambda$=−=.
-\item  \[1!ixniieLx$\lambda$$\lambda$−==Π, \]and hence . 1loglogconstantniiLnx$\lambda$$\lambda$==−++Σ
-logixdLnd$\lambda$$\lambda$Σ∴=−+ which on setting equal to zero gives that the maximum likelihood estimate is ˆixxn$\lambda$Σ==. [Consideration of 22logdd$\lambda$ confirms that this is a maximum: 222log0ixdLd$\lambda$$\lambda$−Σ=<.]
 \item  ()()Var()ˆVarVarXXnn$\lambda$$\lambda$== .
 Thus the maximum likelihood estimator of Var(ˆ
 $\lambda$) is ˆn$\lambda$.
@@ -126,6 +138,25 @@ $\lambda$/n, so that we have ˆˆ~N,n$\lambda$$\lambda$$\lambda$⎛⎞⎜⎜⎝�
 leading to the interval \[ˆˆˆˆ1.96,1.96nn$\lambda$$\lambda$$\lambda$$\lambda$⎛⎞⎜⎟−+⎜⎟⎝⎠.\]
 \end{itemize}
 
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\begin{table}[ht!]
+\centering
+
+\begin{tabular}{|p{15cm}|}
+\hline        
+\noindent
+
+(iv) Assume that the numbers of books, x1, x2, x3, …, that go missing each month from the local library follow a Poisson 
+distribution with unknown mean λ. The monthly numbers of missing books in 2005 were
+3 7 2 5 8 2 4 5 4 4 1 3.
+Use these data to calculate and an approximate 95\% CI for $\lambda$. Also compute the sample variance of the data; discuss 
+briefly whether this computation supports, or throws doubt on, the Poisson model suggested (no formal test is required). $\hat{\lambda}$
+\\ \hline
+ 
+\end{tabular}
+\end{table}
 \item  For the given sample, we have n = 12 and Σxi = 48, leading to ˆ4x$\lambda$==. The approximate confidence interval is therefore
 441.96to41.961212⎛⎞−+⎜⎟⎜⎟⎝⎠, i.e. 2.87 to 5.13.
 The sample also gives Σxi2 = 238; so the sample variance is
