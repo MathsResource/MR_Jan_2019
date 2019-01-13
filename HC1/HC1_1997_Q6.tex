@@ -29,15 +29,44 @@
  \begin{tabular}{|p{15cm}|}
  \hline
 6. The lengths X of offcuts of timber in a carpenter’s workshop follow the continuous uniform distribution with probability density function (pdf)
-f x x ( ) , ; ; = ≤ ≤ > 1 00 θ θθ  = 0  elsewhere.
+f x x ( ) , ; ; = ≤ ≤ > 1 00 θ θθ  = 0  
+
+\[f(x) = \int^{\theta}_{0} \frac{1\;dx}{\theta} \]
+
+
+elsewhere.
 (i) Obtain the cumulative distribution function (cdf), F(x) say, and sketch the graphs of
-f(x) and F(x).Also find E(X) and V(X).
+f(x) and F(x).Also find $E(X)$ and $V(X)$.
 
 \\ \hline
   \end{tabular}
 \end{table}
 
-  \begin{table}[ht!]
+ 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\begin{enumerate}[(i)]
+\item (i) P(X · ») =
+Z »
+0
+dx
+$\mu$
+= »
+$\mu$
+, for 0 · » · $\mu$; = 0 for » < 0; = 1 for » > $\mu$.
+
+\[E(X) = \int^{\theta}_{0} \frac{x\;dx}{\theta} = \frac{1}{2\theta}\left[ x^2 \right]^{\theta}_{0} = \frac{\theta}{2}\]
+
+
+
+\[E(X^2) = \int^{\theta}_{0} \frac{x^2\;dx}{\theta} = \frac{1}{3\theta}\left[ x^3 \right]^{\theta}_{0} = \frac{\theta^2}{3}\]
+
+\[ Var(X) = [E(X^2)] - [E(X)^2] = \frac{\theta^2}{3} - \frac{\theta^2}{4} = \frac{\theta^2}{12}\]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+ \begin{table}[ht!]
  \centering
  \begin{tabular}{|p{15cm}|}
  \hline  
@@ -62,28 +91,6 @@ variance.
 Is  X n() the maximum likelihood estimate? \\ \hline 
   \end{tabular}
 \end{table}
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
-\begin{enumerate}[(i)]
-\item (i) P(X · ») =
-Z »
-0
-dx
-$\mu$
-= »
-$\mu$
-, for 0 · » · $\mu$; = 0 for » < 0; = 1 for » > $\mu$.
-
-\[E(X) = \int^{\theta}_{0} \frac{x\;dx}{\theta} = \frac{1}{2\theta}\left[ x^2 \right]^{\theta}_{0} = \frac{\theta}{2}\]
-
-
-
-\[E(X^2) = \int^{\theta}_{0} \frac{x^2\;dx}{\theta} = \frac{1}{3\theta}\left[ x^3 \right]^{\theta}_{0} = \frac{\theta^2}{3}\]
-
-\[ Var(X) = [E(X^2)] - [E(X)^2] = \frac{\theta^2}{3} - \frac{\theta^2}{4} = \frac{\theta^2}{12}\]
-%%%%%%%%%%%%%%%%%%
 \item Sampled items chosen at random, hence fXig are independent. 
 \begin{itemize}
 \item P(X · x) =
@@ -118,7 +125,7 @@ n + 2
 \end{itemize}
 Hence
 \begin{eqnarray*}
-V [X(n)] &=& n\mu2
+V [X(n)] &=& n\mu^2
 n+2 ¡ ( n\mu
 n+1)2\\ &=& \mu2f n
 n+2 ¡ n2
