@@ -42,14 +42,17 @@ State the distribution of Y, assuming that X1 and X2 are independent.\\
 
 \begin{enumerate}[(a)]
 \item $Y = pX1 + (1 ¡ p)X2$ is $N(1750p + 2000(1 ¡ p); p2 ¢ 300^2 + (1 ¡ p)2 ¢ 400^2)$
-i.e. \[N(2000 ¡ 250p; 104f9p^2 + 16(1 ¡ p)2g)\]
-or \[N(2000 ¡ 250p; 10000(25p^2 ¡ 32p + 16))\].
+i.e. \[N(2000 - 250p; 10^4(9p^2 + 16(1 - p)^2)\]
+or \[N(2000 - 250p; 10000(25p^2 - 32p + 16))\].
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline  
-(ii) State the value of p, p1 say, which maximises the farmer’s expected profit,EY ( ). 
+(ii) State the value of p, $p_1$ say, which maximises the farmer’s expected profit,$E(Y)$. 
 \\ \hline 
       \end{tabular}
     \end{table}
@@ -63,16 +66,19 @@ or \[N(2000 ¡ 250p; 10000(25p^2 ¡ 32p + 16))\].
 The second deviation is > 0, indicating a minimum.
 \item  E[Y jp1 = 0] = £2000. 
 \begin{eqnarray*}
-E[Y jp2 = 16=25] &=& 2000 ¡ 250£16
-25\\ &=& £1840.
+E\left[Y | p^2 = \frac{16}{25}\right] &=& 2000 - 250 \frac{16}{25}\\ 
+&=& \$1840.
 \end{eqnarray*}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline  
 
-(iii) Find the value of  p, p2  say, which minimises the variance of the farmer’s profit, that is, minimises V(Y). \\ \hline 
+(iii) Find the value of $p$, $p_2$  say, which minimises the variance of the farmer’s profit, that is, minimises $V(Y)$. \\ \hline 
       \end{tabular}
     \end{table}
 \item  (a) On p = p1 = 0, $Y \sim N(2000; 400^2)$:
@@ -102,8 +108,8 @@ i.e. \[N(1840, 16 £ 104f1 ¡ 16
 \begin{eqnarray*}
 P(Y < 1480) &=& P\left(Z < \left( \frac{1480-1840}{240} \right)
 \right) \\
-&=& P(Z < -1:50)\\ 
-&=& 0:0668.\\
+&=& P(Z < -1.50)\\ 
+&=& 0.0668.\\
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%
 
