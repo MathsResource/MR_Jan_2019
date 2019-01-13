@@ -24,13 +24,21 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+\begin{framed}
+\noindent Explain the following statistical terms:\\
+(i) The Central Limit Theorem; \\
+(ii) Two-way analysis of variance; \\
+(iii) Degrees of freedom; \\ 
+(iv) Confidence intervals.\\
+\end{framed}
+
 \begin{enumerate}
-\item  The Central Limit Theorem says that if fxig are n independent observations,
+\item  The Central Limit Theorem says that if $\{x_i\}$ are n independent observations,
 all taken from the same distribution with (finite) mean and variance ¹ and
 ¾2, then the limiting distribution as n ! 1 of the mean $\bar{x}$ is N(¹; ¾2=n).
 
 \begin{itemize}
-\item Therefore if ¹; ¾2 are known, the actual form of the distribution of fxig is
+\item Therefore if ¹; ¾2 are known, the actual form of the distribution of $\{x_i\}$ is
 not important provided n is large. 
 \item However, if the X distribution is skew,
 n in practice needs to be very large, 500+, whereas if this distribution is
@@ -48,11 +56,14 @@ a term for blocks: yij = ¹ + ¿i + ¯j + eij , (i = 1 to v; j = 1 to r), where
 every treatment, 1 to v, appears once in every block, 1 to r. A “two-way”
 analysis of variance, to remove blocks as well as treatments from the total
 sum of squares, is required:
-SOURCE OF VARIATION D.F.
+\begin{verbatim}
+    SOURCE OF VARIATION D.F.
 Blocks r ¡ 1
 Treatments v ¡ 1
 Residual (r ¡ 1)(v ¡ 1)
 TOTAL rv ¡ 1
+\end{verbatim}
+
 13
 The feijg are required to be i.i.d. N(0; ¾2), and an estimate of ¾2 is provided
 by the residual mean square in this analysis.
@@ -111,7 +122,7 @@ p
 n · ¹ · $\bar{x}$ + 1:96¾=
 p
 n) = 0:95, giving a
-95% confidence interval for the true value of ¹, based on the sample mean
+95\% confidence interval for the true value of ¹, based on the sample mean
 $\bar{x}$. With probability 0.95, the interval contains ¹. To alter the probability,
 or confidence level, to e.g. 90% or 99% the corresponding r-values (N(0; 1))
 must be used instead of 1.96, e.g. 1.645 and 2.576. Confidence intervals can
