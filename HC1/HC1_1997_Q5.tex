@@ -32,50 +32,74 @@
      \begin{tabular}{|p{15cm}|}
      \hline        
 It is required to carry out a blood test on a large number () N of persons, to check for the presence or absence of a rare characteristic.  It is assumed that the probability p of a positive result is the same for all persons, and is independent of the results of tests on other persons.
-To reduce the work of testing, the blood samples of N persons are pooled into groups of size k, k  being a factor of N,  and tested together.  If the group test is negative no further test is necessary for the k persons.  If the group test is positive each person must be tested individually and so in all (k + 1) tests are required for the group of k persons.
+To reduce the work of testing, the blood samples of N persons are pooled into groups of size k, k  being a factor of N,  and tested together. 
+
+\begin{itemize}
+    \item If the group test is negative no further test is necessary for the k persons.  
+    \item If the group test is positive each person must be tested individually and so in all (k + 1) tests are required for the group of k persons.
+\end{itemize}
 (i) Find the probability that the test for a pooled sample of k persons is positive.
 
 \\ \hline
       \end{tabular}
     \end{table}
     
+
+
+\begin{enumerate}[(i)]
+\item \[P(\mbox{positive})= p. P(\mbox{no positive in k})= (1-p)^k,\]
+(i) and so the probability of a pooled-sample positive is $1 - (1-p)^k$.
+%%%%%%%%%%%%%%%%%%
+
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline  
 (ii) Let m be the number of groups, so that m
 N k = and let S denote the total number of
-tests required for these people.  Show that S can be written  in terms of a Binomially
+tests required for these people.  
+
+Show that $S$ can be written  in terms of a Binomially
 distributed random variable X as
-S = m+kX¸  where X  ~ B (m, 1−(1−p)
-k
-).
-(iii) Hence show that
-                                 E(S)           =  N
-k
-p k1 11 + − −
-  
-   ( ) ;                                 V(S)           =    [] Nk p p kk ( ) ( ) . 1 1 1 − − −
+$S = m+kX$¸  where $X  \sim B (m, 1-(1-p)^k)).$
+
  \\ \hline 
       \end{tabular}
     \end{table}
 
-\begin{enumerate}[(i)]
-\item \[P(\mbox{positive})= p. P(\mbox{no positive in k})= (1-p)^k,\]
-(i) and so the probability of a pooled-sample positive is $1 - (1-p)^k$.
-%%%%%%%%%%%%%%%%%%
+    
 \item S = m(one for each group) + k individual tests if the group was positive,
 taken over each of the m groups = $m+kX$, where m is the number of groups
 and each group has probability $1 - (1-p)^k$ of requiring k tests.
 Therefore X is binomial $(m; 1 - (1-p)^k)$.
 
 %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline 
+(iii) Hence show that
+\[E(S)           =  N
+k
+p k1 11 + − −
+  
+   ( ) ;                \]  
+\[V(S)           =    [] Nk p p kk ( ) ( ) . 1 1 1 − − −\]
+ \\ \hline 
+      \end{tabular}
+    \end{table}
 \item $E[S] = E[m] + kE[X] = N$
 k + k ¢ N
 k ¢ f1 - (1-p)^kg = Nf 1
 k + 1 - (1-p)^kg.
-\[V [S] = k2V [X] = k2mf1 - (1-p)^kg(1-p)^k = Nk(1-p)^kf1 - (1-p)^kg.\]
-%%%%%%%%%%%%%%%%%%
+
+\begin{eqnarray*}
+V [S] &=& k2V [X] \\ &=& k2mf1 - (1-p)^kg(1-p)^k \\ &=& Nk(1-p)^kf1 - (1-p)^kg.
+\end{eqnarray*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
@@ -92,28 +116,32 @@ k + 1 - (1-p)^kg.
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline  
-(v) Given that p = 0.01 and an approximate solution of (A) is k = 10.5, find the value of k which minimises E(S) when N = 9900.
-Turn over\\ \hline
+\noindent Part (e)\\ Given that p = 0.01 and an approximate solution of (A) is $k = 10.5$, find the value of $k$ which minimises $E(S)$ when N = 9900.
+\\ \hline
       \end{tabular}
     \end{table}
 \item 
-\[ \frac{dE}{dk}
- = -N
-k2 - N d
-dk (1-p)^k \]= -N
+
+%%%%%%%%%%%%%%%%%%%%%%%
+\begin{eqnarray*} 
+\frac{dE}{dk}
+ &=& -N
+k2 - N \frac{d}{dk} \left[ (1-p)^k \right] \\
+&=& -N
 k2 - N(1-p)^k ln(1-p).
+\end{eqnarray*}
 (using the result that
 
-\[ \frac{d(ax}{dx} = ax ln a)\].
+\[ \frac{d(ax)}{dx} = ax \ln a)\].
 \begin{itemize}
 \item For minimum, set dE/dk = 0, giving 1 + k2(1-p)^k ln(1-p) = 0.
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item 1 + k2(0:99)k ln(0:99) = 0, so that k2 = -1
-(0:99)k ln(0:99) .
+\item $1 + k^2(0.99)k ln(0.99) = 0$, so that k2 = -1
+(0.99)k ln(0.99) .
 Find E[S] for k = 10 and 11 (since it must be an integer).
-\[E[S|k = 10] = 9900(0:1 + 1 - (0:99)^{10}) = 1936.62.\]
-\[E[S|k = 11] = 9900( 1/11 + 1 - (0:99)^{11}) = 1936.15.\]
+\[E[S|k = 10] = 9900(0.1 + 1 - (0.99)^{10}) = 1936.62.\]
+\[E[S|k = 11] = 9900( 1/11 + 1 - (0.99)^{11}) = 1936.15.\]
 Take k = 11.
 \end{enumerate}
 \end{document}
