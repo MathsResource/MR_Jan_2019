@@ -34,8 +34,27 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}Higher Certificate, Paper III, 2004.  Question 2 
+\begin{framed}
+2. A study is undertaken to compare how the time taken by a particular computer software application to read in data files varies with the format of the file.  Random samples of eight files in each of three formats were taken.  The times in milliseconds to read the files in each format are shown below. 
  
+Standard format First alternative format 
+Second alternative format 2.02 2.18 1.87 1.99 1.84 2.56 2.01 1.99 2.02 1.88 1.91 2.44 2.27 2.09 2.46 2.36 2.08 2.61 2.31 2.23 2.45 2.35 1.84 2.11 
+ 
+ 
+(i) Specify two questions you would want to ask the collector of the data before deciding what sort of analysis might be appropriate. (2) 
+\end{framed}
+
+
+
 (i) Useful questions would be (1) were the files read using the same hardware under the same conditions, (2) were the data given to a fixed number of digits and to the same accuracy, (3) was there any "competition" by other network users (which could slow down the reading time). 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
+
+\begin{framed}
+(ii) State the model for a one-way analysis of variance and the assumptions required for its validity.  How might you investigate whether the assumptions are satisfied? (5) 
+\end{framed}
  
 (ii) , ij i ijy µ τε =++ where yij is the jth reading of format i (here i goes from 1 to 3, j from 1 to 8 for each i), µ is the overall population general mean, τ i the population mean effect due to being in format i.  The Normally distributed residual (error) terms ε ij all have variance σ 2 and are uncorrelated (independent).  Random sampling should lead to independence.  Normality is not easy to check in small samples;  dot-plots or box and whisker plots could be used (or Normal probability plots if available).  Constant variance is also hard to check in small samples as tests are not very sensitive;  dot-plots sometimes give useful information. 
  The format totals and means are: Standard 17.19, 2.149  First 16.16, 2.020  Second 18.52, 2.315 
@@ -51,6 +70,15 @@ SS for formats =
  SOURCE DF SS MS F value Formats   2 0.3500 0.1750      3.89   Compare F2,21 Residual 21 0.9441 0.0450 = 2 ˆ σ
  TOTAL 23 1.2941   
  The upper 5% point of F2,21 is 3.47, 1% point 5.78; the treatments effect is significant at the 5% level.  There is some evidence that the null hypothesis, that mean times for the formats are all equal, should be rejected. 
+\newpage
+
+\begin{framed}
+(iii) Perform a one-way analysis of variance on the above data, stating the null hypothesis, and interpret the result. (7) 
  
+(iv) Test the null hypothesis that the population mean times of the two possible alternative formats are the same against an alternative hypothesis to be stated.  Obtain a 95\% confidence interval for the difference between the mean times of these two possible alternative formats. (6) 
+
+\end{framed}
 (iii) Null hypothesis:  FIRST SECOND µµ = .  Alternative hypothesis:  FIRST SECOND µµ ≠ . 
  We have FS0.295 yy − =− , and the estimated standard deviation for this comparison is 2 ˆ 2 /8 0.106 σ = .  So the t21 test statistic is –0.295/0.106 = –2.78, which is approaching significance at the 1% level (note:  this comparison is likely to be the main reason for the significance of the overall F test in the analysis of variance above).  A 95% confidence interval is given by –0.295 ± (2.08 × 0.106), i.e. (–0.515,  –0.075) [i.e. the interval gives FIRST between 0.515 and 0.075 less than SECOND]. 
+ 
+ \end{document}
