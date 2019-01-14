@@ -37,7 +37,22 @@
 
 Higher Certificate, Paper II, 2004.  Question 5 
  
+\begin{framed}
+5. (i) Explain the meaning of the following terms used in hypothesis tests. 
  
+ (a) Type I error. 
+(2) 
+ 
+ (b) Type II error. 
+(2) 
+ 
+ (c) Level of significance. 
+(2) 
+ 
+ (d) Power. 
+(2) 
+\end{framed}
+
 Part (i) 
  
 (a) A type I error is to reject the null hypothesis, in favour of the alternative hypothesis, when in fact the null hypothesis is true. 
@@ -49,9 +64,22 @@ Part (i)
 (d) The power of a test is the probability of rejecting the null hypothesis, expressed as a function of the parameter (or equivalently, if it is not a test for a single parameter) being investigated.  So it is given by 1 – β , where β is the probability of making a type II error similarly expressed as a function. 
  
  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\newpage
+\begin{framed}
+ 
+ (ii) A manufacturer of coffee uses a machine to fill jars.  The machine is calibrated so that the amount of coffee dispensed into each jar is Normally distributed with mean ( $\mu$ ) 200 grams and standard deviation ( $\sigma$ ) 15 grams.  Each hour, a random sample of 9 jars is taken from the previous hour's output and the sample mean amount (x) is evaluated.  If the sample mean lies in the interval $190 < x < 210$, the previous hour's output is accepted, otherwise it is rejected and the machine is recalibrated before continuing. 
+ 
+(a) Calculate the probability of committing a type I error by rejecting the previous hour's output when $\mu$  = 200 grams and σ  = 15 grams. (6) 
+ 
+(b) Calculate the probability that the previous hour's output will be accepted when $\mu$  = 216 grams and σ  = 15 grams. 
+     
+\end{framed} 
 Part (ii) 
  
-Let X represent the amount of coffee in a jar.  We have X ~ N( µ , 152).  The sample size is n = 9, so X ~ N( µ , 152/9).  Let Z ~ N(0, 1). 
+Let X represent the amount of coffee in a jar.  We have X ~ N( µ , 152).  
+
+The sample size is n = 9, so $X \sim N( \mu , 152/9)$.  Let Z ~ N(0, 1). 
  
  
 (a) We have µ = 200. 
@@ -63,7 +91,10 @@ Let X represent the amount of coffee in a jar.  We have X ~ N( µ , 152).  The s
 (b) Here µ = 216. 
  () 190 216 190 5.2 15/3 P X P Z − < = < =− =   ZERO to several decimal places. 
  () 210 216 210 1.2 0.1151 15/3 P X P Z − < = < =− =   . 
- So the total probability of accepting the output is 0.1151.  (This is the probability of a Type II error for this procedure, i.e. the value of β , for µ = 216.  Thus the power of the procedure when in fact µ = 216 is 1 – 0.1151 = 0.8849.)
+ So the total probability of accepting the output is 0.1151. 
+ 
+ 
+ (This is the probability of a Type II error for this procedure, i.e. the value of β , for µ = 216.  Thus the power of the procedure when in fact µ = 216 is 1 – 0.1151 = 0.8849.)
 
 \end{enumerate}
 \end{document}
