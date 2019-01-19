@@ -24,50 +24,67 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
-\begin{framed}
-A machine is supposed to produce cartons with a mean net weight of at least 400 grams and a standard deviation not exceeding 8 grams.  A simple random sample of the net weights (grams) of 16 cartons is as follows:
-\[\{408 394 403 383 402 383 395 392 404 394 382 402 395 402 389 410\}\]
-Test whether the two production criteria are being met.  Explain your conclusions in plain English, including any assumptions on which your analysis depends.  
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline  
+6. A health questionnaire was administered to people in five areas of a country, the selection being made randomly within areas. One question asked the respondent to rate their own health as "good", "fair" or "poor". The results are summarised in the table below.
+Area Good Fair Poor Total Ruthven  459  178  43  680 Mossmont  926  506 103 1535 Windgyle  954  442  78 1474 Dundonan  985  507  85 1577 Ainster  365  176  35  576 Total 3689 1809 344 5842
+(i) Carry out an appropriate statistical test of whether there are differences between perception of health in different areas and investigate the nature of these differences.
 
-Determine whether your conclusions would have been the same if the sample size had been four times larger, with the same sample mean and standard deviation?
+\\ \hline
+  \end{tabular}
+\end{table}
 
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline  
+(ii) Do you feel that the survey will provide an accurate comparison of health status between the areas? Suggest an alternative way of measuring health status, stating any advantages and disadvantages compared to the survey described here.
+\\ \hline
+\end{tabular}
+\end{table}
 
-\end{framed}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-If we assume the data follow a normal distribution with mean $\mu$ and variance ¾2,
-then we can use the data (16 observations) to test the Null Hypotheses that
-(i) ¹ ¸ 400, (ii) ¾2 · 64 against the Alternatives ¹ < 400 and ¾2 > 64.
-The mean of the sample is $\bar{x}$ = 396:125 and variance $s^2 = 77.9833$.
-
-
-\begin{enumerate}
-    \item For the mean, t(15) = p396:125¡400
-77:9833=16
-= ¡3:875
-2:208 = ¡1:76, which is just on the
-borderline of significance at 5\% in a 1-tail test. The evidence from these
-data is that the mean is not likely to be ¸ 400.
-\item For the variance, (n¡1)s2
-¾2 » Â2(
-n¡1) i.e. 15£77:9833
-64 is Â2
-(15) = 18:28, which is
-less than the 5\% (upper) point of Â2
-(15), so there is no evidence to reject the
-hypothesis that ¾2 · 64, even though the observed value is above this.
 \begin{itemize}
-\item With a sample four times as large, i.e. $n = 64$, assuming the same estimates
-$\bar{x}$ and $s^2$, t(63) would be
-p
-4, i.e. 2, times as large, providing very strong
-evidence against the Null Hypothesis for ¹. 
+\item  Since we have a table of frequencies in various categories, an appropriate Null
+Hypothesis is that the ratio Good:Fair:Poor is the same in each area. A Â2
+(8)
+test is suitable. “Expected” frequencies are calculated from margin totals as
+usual, e.g. Ruthven / Good is 680£3689
+5842 = 429:39.
+OBS(EXP) Good Fair Poor
+Area R 459(429:39) 178(210:56) 43(40:04) : 680
+M 926(969:29) 506(475:32) 103(90:39) : 1535
+W 954(930:77) 442(456:43) 78(86:79) : 1474
+D 985(995:82) 507(488:32) 85(92:86) : 1577
+A 365(363:72) 176(178:36) 35(33:92) : 576
+3689 1809 344 5842
+23
+(Rounding expected frequencies is to the nearest 0.01).
+Â2
+(8) =
+P (0¡E)2
+\[E = 2:04185 + 1:93340 + 0:57977 + 0:11756 + 0:00450 + 5:03492
++1:98027 + 0:45620 + 0:71458 + 0:03123 + 0:21882 + 1:75918
++0:89024 + 0:66530 + 0:03439 = 16:46¤:\]
 
-The variance would be based
-on 63 d.f., and the Â2 statistic would be 63£77:9833
-64 = 76:76, which is not
-significant and so there is still no evidence against the Null Hypothesis for
-¾2.
+This indicates that there are departures from a constant ratio in some areas.
+Comparing observed and corresponding expected frequencies shows that
+\begin{itemize}
+\item Ruthven has more ‘Good’ and less ‘Fair’ than expected; 
+\item Mossmont has less ‘Good’ and more ‘Fair’ or ‘Poor’; 
+\item Windgyle has more ‘Good’ and less ‘Fair’ or ‘Poor’; 
+\item Dundonan has more ‘Fair’ and less ‘Good’ or ‘Poor’.
+\end{itemize}
+\item  Since respondents rate their own health this is very subjective and unlikely
+to produce the same ratings for the same condition in different people or
+areas. Also we obtain relatively little information per person and so require
+a large number of observations.
+\begin{itemize}
+\item Actual measurements on a smaller number of people could provide data
+on blood pressure, cholesterol, weight and many other objective ways of
+assessing health, as well as observing the presence or absence of infections,
+and the general environmental conditions such as air quality.
 \end{itemize}
 \end{enumerate}
 \end{document}
