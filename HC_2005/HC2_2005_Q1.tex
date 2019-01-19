@@ -31,11 +31,31 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}
+\begin{framed}
+1. The following table gives a summary of the numbers of goals scored by the home soccer teams in matches in the English Premier Football League during the 1999–2000 season.  It is required to test the assumption that the data follow a Poisson distribution. 
+ 
+Number of goals scored by the home team, r 0 1 2 3 4 ≥5 Frequency, f 81 112 101 44 28 14 
+ 
+ 
+(i) Explain why it might be reasonable to assume that the number of goals, r, scored by the home team would follow a Poisson distribution. (3) 
+ 
+(ii) The total number of matches was Σf = 380, and the total number of goals scored was Σfr = 634.  Also Σfr2 = 1778.  Calculate the mean and variance of the data. (3) 
+\end{framed}
+
+
+
 \begin{enumerate}
     \item 
-(i) The Poisson distribution to explain numbers of goals might be a reasonable assumption if home team scores can be regarded as random events occurring at a constant average rate throughout the season. If so, the number of home team goals in a match is Poisson with parameter (mean) equal to this constant average rate, μ say.
+(i) The Poisson distribution to explain numbers of goals might be a reasonable assumption if home team scores can be regarded as random events occurring at a constant average rate throughout the season. If so, the number of home team goals in a match is Poisson with parameter (mean) equal to this constant average rate, $\mu$ say.
     \item  (ii) 634/3801.6684r==.
 22221()163417781.90031379380frsfrff⎧⎫⎛⎞Σ=Σ−=−=⎨⎬⎜⎟Σ−Σ⎩⎭⎝⎠.
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+
+\newpage
+\begin{framed}
+(iii) Calculate the expected frequencies, on the Poisson hypothesis, for r = 0 and r = 1.  The expected frequencies in the remaining cells of the table are 99.72, 55.46, 23.13 and 10.51.  Carry out a χ2 goodness-of-fit test of the hypothesis that the data follow a Poisson distribution.  Explain your conclusions carefully.  What problem in carrying out the test would have occurred if the frequencies for values of $r \geq 5$ had not been combined? (11)
+\end{framed}
     \item  (iii) We take μ as 1.6684. So ()1.668400.1885PRe−===, and the expected frequency for r = 0 is 380 × 0.1885 = 71.65.
 Similarly, , and the expected frequency for r = 1 is 119.51. ()1.668411.66840.3145PRe−===
 Hence we have (taking the remaining expected frequencies from the question paper)
@@ -68,6 +88,16 @@ The test statistic is
 ()22222(8171.65)(112119.51)(1410.51)...6.26171.65119.5110.51OEXE−−−−==+++=Σ,
 which is referred to (note 4 degrees of freedom because the table has 6 cells and there is one estimated parameter). This is not significant (the 5\% point is 9.49); we cannot reject the null hypothesis, i.e. there is no evidence against the Poisson model with these data. 24χ
 For the test, the expected frequencies need to be not too small (≥5 is often used as a criterion). This would not be the case if frequencies for large r were not combined.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
+\begin{framed}
+ 
+ 
+(iv) What distribution would you have tried fitting to the data if the variance had been considerably larger than the mean?  Briefly explain your reasoning. (3) 
+ 
+
+
+\end{framed}
     \item (iv) The negative binomial is commonly used where there is "over-dispersion". [It assumes that the rate (μ) is not always constant but varies (from match to match) according to a gamma distribution.]
 \end{enumerate}
 \end{document}
