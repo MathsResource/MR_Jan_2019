@@ -34,27 +34,69 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}
-Higher Certificate, Paper III, 2004.  Question 4 
+Higher Certificate, Paper II, 2004. Question 4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{framed} 
  
+4. The yields on the ordinary shares of 95 large United Kingdom companies at close of trading on 6 March 2003, as given in the Financial Times, were as follows. 
  
-(i) 
-Year Quarter Sales 4-quarter totals 8-quarter totals 
-Moving average 
-1997 1 31.54    1997 2 22.33   1997 3 20.29 209.73 26.216(25) 1997 4 30.30 
- 104.46 105.27   1998 1 32.35    
+Yield (%) Number of companies  ≥ 0 but < 1   5  ≥ 1 but < 2   8  ≥ 2 but < 3 13  ≥ 3 but < 4 18  ≥ 4 but < 5 19     ≥ 5 but < 7.5 21 ≥ 7.5 but < 10   8  ≥ 10 but < 15   2  ≥ 15 but < 20   1 Total 95 
+           Source:  "Financial Times", 6 March 2003. 
  
+You may treat the yields as constituting a random sample from a large population. 
  
-(ii) There is a sharp seasonal variation, "Sales – MA" being always substantially negative in quarters 2 and 3, always substantially positive in quarters 1 and 4.  To estimate the pattern of seasonal variation, we need the average of the "Sales – MA" figures for each quarter. 
+(i) Draw a histogram depicting the above data. 
+(7) 
  
- Q1 Q2 Q3 Q4   1997     –5.93   3.73   1998   5.42   –2.84   –6.38   3.90   1999   6.24   –3.93   –5.88   3.95   2000   5.15   –4.20   –4.78   3.88   2001   5.77      Seasonal totals 22.58 –10.97 –22.97 15.46   Seasonal averages     5.645     –3.657     –5.743     3.865 Sum:  0.110 Correction:  –0.028 Corrected seasonal averages     5.617     –3.685     –5.771     3.837 (–0.002)  
+(ii) State the modal class interval and estimate the mean, median and standard deviation of the observations. (6) 
  
+(iii) Why is it only possible to estimate the mean, median and standard deviation rather than find them? (3) 
  
-(iii) Using this case as an example, the visual pattern can show detail which is lost in the table of figures, such as in the year 2000 where the fluctuation was not so great as in other years, although the pattern was the same.  We can also see that, while it rises overall, the MA trend shows a slight dip from late 1998 onwards before a sharper rise in 2000.  We can visualise the trend from the table when it is fairly smooth like this, but not always so easily.  Trend and seasonal variation are important properties to observe, and a clear method of doing so is invaluable. 
+(iv) Let p be the proportion of companies in the underlying population for which the shares yield 5 per cent or more.  Construct a 95% confidence interval for p. (4) 
  
- 
-(iv) We use observed sales minus estimated seasonal variation.  For year 2000: 
- 
-Q1 Q2 Q3 Q4 32.64 – 5.62 = 27.02 23.64 + 3.69 = 27.33 23.37 + 5.77 = 29.14 32.20 – 3.84 = 28.36 
- 
-It would not be a good idea to use this method on the 2001 sales because the estimated seasonal variation might have changed if we had had enough data to make "Sales – MA" up to the end of the year. 
- 
+
+\end{framed}
+
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+Yield (%) Interval
+width
+Frequency f Frequency
+density
+Midpoint x fx fx2 Cum freq
+F
+≥ 0 but < 1 1 5 5 0.5 2.5 1.25 5
+≥ 1 but < 2 1 8 8 1.5 12.0 18.00 13
+≥ 2 but < 3 1 13 13 2.5 32.5 81.25 26
+≥ 3 but < 4 1 18 18 3.5 63.0 220.50 44
+≥ 4 but < 5 1 19 19 4.5 85.5 384.75 63
+≥ 5 but < 7.5 2.5 21 8.4 6.25 131.25 820.3125 84
+≥ 7.5 but < 10 2.5 8 3.2 8.75 70.0 612.50 92
+≥ 10 but < 15 5 2 0.4 12.5 25.0 312.50 94
+≥ 15 but < 20 5 1 0.2 17.5 17.5 306.25 95
+95 439.25 2757.3125
+\end{framed}
+
+(i)
+(ii) The modal class interval is "≥ 4 but < 5" (based, of course, on frequency
+density; it would be "≥ 5 but < 7.5" if based only on frequency).
+x = 439.25/95 = 4.62 (%).
+For the median, we require the 48th observation from the beginning, which is
+estimated as being at 4 + (4/19 × 1) = 4.21 (%).
+2
+2 1 2757.3125 439.25
+94 95
+s
+ 
+=  − 
+ 
+= 7.7272. So s = 2.78 (%).
+(iii) These are only estimates because we have the data grouped into intervals, not
+the 95 individual values.
+(iv) p is estimated by ˆp = 32/95 = 0.337. The estimated variance of ˆp is
+(0.337)(0.663)/95 = 0.002352, so the estimated standard deviation is 0.0485. Thus a
+95% confidence interval for p is given by, approximately, 0.337 ± (1.96)(0.0485), i.e.
+it is (0.242, 0.432).\end{enumerate}
+\end{document}
