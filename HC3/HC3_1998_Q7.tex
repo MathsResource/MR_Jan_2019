@@ -23,12 +23,27 @@
 \renewcommand{\baselinestretch}{1.3}
 
 \setcounter{MaxMatrixCols}{10}
-\begin{document}7.(i)P(T ¸ t0) =
+\begin{document}\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline  
+7. The survival time after diagnosis, T, of an individual affected by a certain fatal illness is assumed to be exponentially distributed with probability density function
+f t e t T t ( ) . =≥ −λ λ 0 (i) Show that the probability that an individual survives after diagnosis for at least a time t0 is given by
+.)( 0 0 tetTP λ −=≥
+(ii) The survival times in days, of a group of 12 patients recruited into a study of this illness are given in the table below. Obtain the maximum likelihood estimate of λ .
+1327 1464 241 1027 20 332 308 20 100 71 889 229
+\hline
+  \end{tabular}
+\end{table}
+
+
+\begin{enumerate}[(a)]
+\item P(T ¸ t0) =
 R1
 t0
 ¸e¡¸tdt = [¡e¡¸t]1t
 0 = e¡¸t0 ,
-(ii)For 12 observations, L =
+\item For 12 observations, L =
 Q12
 i=1
 ¸e¡¸ti , so the log likelihood is (lnL) = n ln ¸ ¡ ¸
@@ -40,11 +55,21 @@ d
 dt (lnL) = 12
 ¸ ¡ 6028 = 0 when ˆ¸ = 12
 6028 = 0:001991.
-(iii) d2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline  
+(iii) Obtain an approximate value for the variance of  the maximum likelihood estimate of λ .
+(iv) Suppose it was later found that, in addition to the 12 patients described above (who all died), there were another 3 who did not die during the follow up period of the study. At the end of the follow up period these three patients had survived for 641 days, 234 days and 87 days, respectively. Combine  this information  with the data given in part (ii) to obtain the maximum likelihood estimate of λ .\\ \hline
+  \end{tabular}
+\end{table}
+\item  d2
 d¸2 (lnL) = ¡12
 ¸2 , and V ar(ˆ¸) ¼ ¡1=(¡12
 ¸2 ) = ¸2=12.
-(iv)The likelihood function is now
+\item The likelihood function is now
 L = ¸12e¡6028¸ ¢ e¡¸(641+234+87) (using (i))
 = ¸12e¡6990¸
 .
