@@ -32,24 +32,51 @@
 
 \begin{document}
 Higher Certificate, Paper II, 2006.  Question 8 
+\begin{framed}
+8. In the UK, all patients surviving a stroke are supposed to have their cholesterol levels measured soon after their stroke and regularly thereafter.  A sample of medical records of men and women who had suffered a stroke was examined to determine whether there was a difference between the sexes in the proportions of stroke survivors who had had a recently recorded cholesterol measurement.  The following data were obtained. 
+ 
+  Cholesterol level recorded   No Yes 
+  Female 109 22 
+  Sex Male 97 77 
+ 
+ 
+(i) Perform a χ2 test of the null hypothesis that there is no association between an individual's sex and the chance of he or she having a recently recorded cholesterol measurement. (9) 
+ 
+ 
+\end{framed}
 \begin{enumerate}[(a)] 
 \item  We have a 2×2 contingency table.  The null hypothesis is that there is no association between an individual's sex and the chance of he or she having a recently recorded cholesterol measurement.  The contingency table is as follows, with the expected frequencies in brackets in each cell (e.g. 88.48 = 131 × 206 / 305). 
  
-  Cholesterol level recorded    No Yes Total Female 109     (88.48) 22  (42.52) 131    Sex Male   97   (117.52) 77  (56.48) 174  Total 206 99 305 
+  Cholesterol level recorded    No Yes Total 
+  Female 109     (88.48) 22  (42.52) 131    
+  Sex Male   97   (117.52) 77  (56.48) 174  
+  Total 206 99 305 
  
 All the differences between observed and expected frequencies are ±20.52, becoming ±20.02 if Yates' correction is used.  Thus the usual test statistic can be calculated as (using Yates' correction) 
  
 () 2 111120.02 24.46 88.48 42.52 117.52 56.48 ⎧⎫ + + + = ⎨⎬ ⎩⎭
  
  
-(or 25.70 if Yates' correction is not used).  This is referred to .  This is very highly significant (for example, the 1% point is 6.635);  we have very strong evidence to reject the null hypothesis and conclude that there is an association. 2 1χ
- 
+(or 25.70 if Yates' correction is not used).  This is referred to .  This is very highly significant (for example, the 1\% point is 6.635);  we have very strong evidence to reject the null hypothesis and conclude that there is an association. 2 1χ
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
+\begin{framed}
+ (ii) Compute and interpret an approximate 95\% confidence interval for the difference between the proportions of females and males having a recently recorded cholesterol measurement. (8) 
+
+\end{framed} 
  
 \item f m pp − is estimated by 77 22 131 174ˆˆ 0.168 0.443 0.275 fm pp − = − = − =− .  The estimated variance of ˆˆ f m pp − is given by 
  ()() ˆˆ 1 ˆˆ 1 0.001067 0.001418 0.002485ff mm fm pppp nn − − + = + = . 
  
 Thus the approximate 95\% confidence interval for f m pp − is given by –0.275 ± (1.96×√0.002485) i.e. it is (–0.177, –0.373). 
- 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
+\begin{framed}
+  
+(iii) Comment on your conclusions to parts (i) and (ii), relating one to the other.
+\end{framed} 
  
 \item There is clear evidence that the proportions are not the same for men and women.  In part (i), this is interpreted via the very strong evidence of an association.  In part (ii), the confidence interval does not contain 0, indeed it is a long way from 0, again giving very strong evidence of a real difference. 
 \end{enumerate}
