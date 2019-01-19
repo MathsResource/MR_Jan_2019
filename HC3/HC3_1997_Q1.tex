@@ -24,13 +24,30 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+\begin{framed}
+1. The quarterly profits, in thousands of dollars, of a small but growing company are shown in the table below. The table also includes the centred 4 point moving average of the time series and the differences ( profit − centred moving average ).
+Profit ($'000's)
+Moving average
+Difference
+1992       Q1 45.5 Q2 59.3 Q3 82.8 67.900 Q4 69.4 75.163 -5.7625 1993       Q1 74.7 82.125 Q2 88.2 87.762 0.4375 Q3 109.6 92.887 16.7125 Q4 87.7 98.325 -10.6250 1994       Q1 97.4 102.637 -5.2375 Q2 109.0 Q3 123.3 115.250 8.0500 Q4 118.9 121.938 -3.0375 1995       Q1 122.2 129.587 -7.3875 Q2 137.7 136.400 1.3000 Q3 155.8 Q4 140.9 147.700 -6.8000 1996       Q1 144.3 152.475 -8.1750 Q2 161.9 156.913 4.9875 Q3 169.8 Q4 162.4
+(i) Complete the calculation of the moving averages and the differences.
+(ii) Plot the data together with the moving average.
+(iii) Estimate the seasonal effects assuming that an additive model is appropriate for describing the data.
+(iv) Explain how the deseasonalized values are calculated, but do not calculate them.
+
+(v) A straight line was fitted to the deseasonalized data and the result was
+profit = 50 + 6 t  
+where t  is the number of quarters from the start of the series, so that, for example, the value of t for  1993 Q2 is 6. Use this information concerning the fitted line and the seasonal effects to produce profit projections for 1997. What assumptions does this require?
+
+\end{framed}
 \begin{enumerate}
     \item Missing entries are (¤ indicates cannot be calculated):
 Moving Average ¤, ¤, 108.250, 141.913, ¤, ¤.
 Difference ¤, ¤, 14.90000, -7.4250, 0.7500, 13.8875, ¤, ¤.
 \item  see next sheet for graph.
 \item  Seasonal effects:
-Quarter 1 2 3 4
+\begin{verbatim}
+    Quarter 1 2 3 4
 ¡7:4250 0:4375 14:9000 ¡5:7625
 ¡5:2375 0:7500 16:7125 ¡10:6250
 ¡7:3875 1:3000 8:0500 ¡3:0375
@@ -38,6 +55,8 @@ Quarter 1 2 3 4
 MEAN ¡7:05625 1:86875 13:3875 ¡6:55625 : 1:64375
 Correction ¡0:41094 ¡0:41094 ¡0:41094 ¡0:41094 (¼ 0)
 SEASONAL ¡7:4672 1:4578 12:9766 ¡6:9672
+\end{verbatim}
+
 \item  Since the data are given to 1 decimal place, 7.5 should be added to each Q1
 item, 7.0 to each Q4 item, 1.5 subtracted from each Q2 item and 13.0 from
 each Q3 item, to “deseasonalise”.
