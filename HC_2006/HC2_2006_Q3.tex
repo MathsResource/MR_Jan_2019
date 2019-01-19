@@ -31,7 +31,32 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}Higher Certificate, Paper II, 2006.  Question 3 
+ \begin{framed}
+A sample of 10 sea bass was caught by a fisheries scientist who then measured their length x (in millimetres) and their weight y (in grams).  The data are given in the table below. 
+
+\begin{center}
+\begin{tabular}{cc|c|c|c|c|c|c|c|c|c} 
+Length (x) &387 & 366& 329& 293& 273& 268& 294& 198 &185 & 169 \\ 
+Weight (y) & 720& 680& 480& 330& 270& 220& 380& 108  & 89 &  68 \\
+\end{tabular} 
+\end{center}
+(i) Plot the weights of the 10 sea bass (on the y or vertical axis) against the corresponding lengths (on the x or horizontal axis).  Does it appear appropriate to fit a straight line to these data? (8) 
  
+(ii) (a) Calculate the least-squares estimates of the parameters $\beta_0$ and $\beta_1$ 1 of the regression line y x 0 1 ββ += . 
+ 
+[Note: 
+ 
+11 10, 2762, 3345, nn ii ii n x y == = = = ∑∑
+ 
+ 
+22
+1 1 1 812594, 1610009, 1075861. n n n i i i i i i i x y x y = = = = = = ∑ ∑ ∑ ] 
+ 
+ 
+(b) Comment on the appropriateness of the regression line estimated in part (a) as a model for the relationship between the weights and lengths of sea bass. (8) 
+ 
+
+ \end{framed}
 \begin{enumerate} 
 \item  The graph suggests that a linear fit will be reasonable, at least as a first approximation.  There may be curvature in the relation of weight and length. 
  
@@ -64,10 +89,20 @@ n
 01 ˆˆ334.5 (3.056 276.2) 509.56 yx ββ = − = − × = − . 
  
  
- (b) The first three points are not fitted at all well.  Note that the intercept is –509.56, whereas it looks as if it should be much nearer 0 if these are to be fitted.  But the remaining points are fitted reasonably well.  It would however be sensible to examine also a quadratic relationship. 
+ (b) The first three points are not fitted at all well. 
  
- 
-\item  The coefficient of determination is given by R2 = Sxy2/SxxSyy. 
+ \begin{itemize}
+     \item Note that the intercept is –509.56, whereas it looks as if it should be much nearer 0 if these are to be fitted.  
+     \item But the remaining points are fitted reasonably well. 
+     \item It would however be sensible to examine also a quadratic relationship. 
+ \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\newpage 
+\begin{framed}
+(iii) Calculate and interpret the coefficient of determination. 
+\end{framed} 
+\item  The coefficient of determination is given by 
+\[R2 = \frac{Sxy2}{SxxSyy.}\] 
  23345 1610009 491106.5 10yy S = − = . 
  
 2 2 151972.0 0.9457 49729.6 491106.5 R∴ == × . 
