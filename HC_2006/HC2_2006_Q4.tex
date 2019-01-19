@@ -31,7 +31,21 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}Higher Certificate, Paper II, 2006.  Question 4 
+ \begin{framed}
+ 4. An experiment was performed to investigate the clotting time (in minutes) of plasma from 8 subjects treated by three different methods.  The resulting data are presented in the table below. 
  
+Subject Method 1 Method 2 Method 3 1   6.8   8.3   8.1 2   9.7 10.0 11.1 3   8.3   8.5 10.0 4   9.0   7.9   9.6 5 11.0 10.8 11.1 6 12.4 12.6 14.5 7   8.8   8.4 10.0 8 12.6 12.8 12.5 
+ 
+ 
+(i) Treating the subjects as blocks, analyse the data using analysis of variance.  State the assumptions necessary for this analysis to be valid and provide a brief interpretation of your findings. 
+ 
+[Note.  The sum of all the observations is 244.8 and the sum of their squares is 2585.22.] 
+ 
+(15) 
+ 
+ 
+
+ \end{framed}
  
 (i) The key assumption is that the experimental errors are independent N(0, σ 2) variables (note constant σ 2). 
  
@@ -82,13 +96,29 @@ The least significant difference between any pair of these means is
 14 14 2 0.3207 0.283 8 tt × =     where   14 2.145 at5% 2.977 at1% 4.140 at0.1% t ⎧ ⎪= ⎨ ⎪ ⎩
  
 so the least significant differences are 0.607 for 5%, 0.842 for 1% and 1.172 for 0.1%.  Clearly methods 1 and 2 do not appear to differ in mean clotting time but there is strong evidence that method 3 has a higher mean clotting time than either of the others. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
+\begin{framed}
+ (ii) Suppose that both the "method" sum of squares and the total sum of squares you calculated in part (i) had resulted from a similar experiment, which used 24 different subjects, eight being randomised to each method, rather than blocking on 8 subjects.  Re-analyse the data on this basis and compare your conclusion with that from part (i).  What impact has blocking had on the power to detect a difference between methods? (5) 
+
+\end{framed}
  
  
  
- 
-(ii) In the analysis of variance now, there will be no "subjects" term, only "methods" and "residual".  The new residual will include both the amount previously classified as residual and the amount previously classified as the subjects term.  Thus the new analysis of variance table is as follows. 
+(ii) In the analysis of variance now, there will be no "subjects" term, only "methods" and "residual". 
+
+\begin{itemize}
+    \item The new residual will include both the amount previously classified as residual and the amount previously classified as the subjects term.  
+    \item Thus the new analysis of variance table is as follows. 
+\begin{verbatim}    
  SOURCE DF SS MS F value Methods   2   5.30 2.65        0.67   Compare F2,21 Residual 21 82.96 3.95 = 2 ˆ σ
  TOTAL 23 88.26   
- The F value for methods is now not significant  –  we have no evidence to reject the null hypothesis that the methods are the same in terms of mean clotting time.  This is because the apparent underlying variability in the data is now very high, due to the consistent but unidentified between-subject variation.  Blocking therefore greatly increased the power to detect differences between the methods. 
+\end{verbatim} 
+\item  The F value for methods is now not significant  –  we have no evidence to reject the null hypothesis that the methods are the same in terms of mean clotting time.  
+\item This is because the apparent underlying variability in the data is now very high, due to the consistent but unidentified between-subject variation.  
+\item Blocking therefore greatly increased the power to detect differences between the methods. 
+\end{itemize}
  
  \end{document}
