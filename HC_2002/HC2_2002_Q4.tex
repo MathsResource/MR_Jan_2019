@@ -25,18 +25,62 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
 Higher Certificate, Paper II, 2002.  Question 4 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{table}[ht!]
  
+\centering
+ 
+\begin{tabular}{|p{15cm}|}
+ 
+\hline  
+
+
+4. (a) State and explain a linear model that can be used for a two-way analysis of variance.  Explain clearly what each term in the model represents and state any assumptions required for the analysis to be valid.  (6) 
+
+\\ \hline
+  
+\end{tabular}
+
+\end{table}
+
+\begin{table}[ht!]
+ 
+\centering
+ 
+\begin{tabular}{|p{15cm}|}
+ 
+\hline  
+  
+(b) A construction company makes concrete beams from cement mixed with gravel.  
+The company wishes to compare the relative strengths of the concrete made from the different types of cement available.  There are four different types of cement and three types of gravel.  From each of the 12 different combinations of cement and gravel, a test beam was made and tested to destruction.  The following table gives the breaking load, in coded units, for each test beam. 
+ 
+  Cement type   A B C D 
+  1 10 12 16 8 2 14 15 18 10 
+  Gravel type 3 18 22 26 20 
+ 
+ 
+Carry out a suitable analysis of these data and write a report for the manager of the construction company who is not trained in statistics. (14) 
+ 
+\\ \hline
+  
+\end{tabular}
+
+\end{table} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \begin{enumerate} 
 \item  
 %Note.  The discussion presented here includes aspects that are further explored in Higher Certificate Paper III and/or in the Graduate Diploma Applied Statistics papers. 
 
-
-In two-way analysis of variance, there are two "factors" (A and B) that are sources of systematic variation that might affect the outcome.  Factor A has a "levels" and factor B has b "levels".  The observation when A is at level i and B is at level j is denoted by yij (for the time being we suppose there is only one observation at each such combination).  The usual linear model is that an observation yij can be explained in terms of an overall mean µ , an effect ( α i, deviation from µ ) due to having the ith level of A, similarly an effect ( β j, deviation from µ ) due to having the jth level of B, and a "residual" term ε ij which explains the random natural variation and is assumed N(0, σ 2) where σ 2 is constant for all observations.  Thus the model is 
-  1,2,..., 1,2,..., ij i j ij y i a j b µ α β ε = + + + = = . This is often applied for designed experiments where one of the factors is a "blocking factor" and the other represents the "treatments" that are actually being compared.  The factors are often then called "blocks" and "treatments", with appropriate Greek letters ( β and τ ) being used. 
+\begin{itemize}
+\item In two-way analysis of variance, there are two "factors" (A and B) that are sources of systematic variation that might affect the outcome.  Factor A has a "levels" and factor B has b "levels".  The observation when A is at level i and B is at level j is denoted by yij (for the time being we suppose there is only one observation at each such combination).  
+\item The usual linear model is that an observation yij can be explained in terms of an overall mean µ , an effect ( α i, deviation from µ ) due to having the ith level of A, similarly an effect ( β j, deviation from µ ) due to having the jth level of B, and a "residual" term ε ij which explains the random natural variation and is assumed N(0, σ 2) where σ 2 is constant for all observations.  Thus the model is 
+  1,2,..., 1,2,..., ij i j ij y i a j b µ α β ε = + + + = = . 
+ \item This is often applied for designed experiments where one of the factors is a "blocking factor" and the other represents the "treatments" that are actually being compared.  The factors are often then called "blocks" and "treatments", with appropriate Greek letters ( β and τ ) being used. 
  
- Sometimes there is more than one observation ("replication") for each combination of a level from factor A and a level from factor B  −  usually the same number of observations, say n, for every combination  −  and in such cases an observation is denoted by yijk where the third subscript k (k = 1, 2, …, n) indicates the replicate.  The residual term correspondingly needs to be denoted by ε ijk.  The model then becomes 
+\item Sometimes there is more than one observation ("replication") for each combination of a level from factor A and a level from factor B  −  usually the same number of observations, say n, for every combination  −  and in such cases an observation is denoted by yijk where the third subscript k (k = 1, 2, …, n) indicates the replicate.  The residual term correspondingly needs to be denoted by ε ijk.  The model then becomes 
   1,2,..., 1,2,..., 1,2,..., ijk i j ijk y i a j b k n µ α β ε = + + + = = = and can be further extended to include also an "interaction" term, usually denoted by ( αβ )ij.  This represents the situation where some levels of A give a 'better' result in combination with some levels of B whereas other levels of A give a 'better' result with other levels of B.  It is often assumed that there is no such interaction, especially in the blocks-and-treatments designed experiments situation. 
- 
+\end{itemize} 
  
 (b) Totals (of rows and columns in the given table) are as follows. 
  
