@@ -36,6 +36,65 @@
 \begin{document}
 
 Higher Certificate, Paper II, 2004. Question 1
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+\begin{table}[ht!]
+ 
+\centering
+ 
+\begin{tabular}{|p{15cm}|}
+ 
+\hline  
+
+ (i) State an analysis of variance model suitable for a randomised block design.  
+Explain clearly what each term in the model represents and state any assumptions required for the analysis based on this model to be valid. 
+ 
+
+\\ \hline
+  
+\end{tabular}
+
+\end{table} 
+
+\begin{table}[ht!]
+ 
+\centering
+ 
+\begin{tabular}{|p{15cm}|}
+ 
+\hline  
+
+ An experiment was conducted to investigate the toxic effects of four different chemical compounds A, B, C and D on the skin.  
+
+Four adjacent regions, each a square of side 3 cm, were marked on the left forearm of each of six subjects, and each chemical was applied to each subject, 
+choosing the sites of application of the chemicals at random for each subject.  
+
+After three hours, the skin was examined and scored from 0 to 10 depending on the degree of irritation, with 0 representing no irritation and 10 severe irritation.  
+The data are given in the following table. 
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|} 
+
+
+Subject 1 &  Subject 2 &  Subject 3&  Subject 4 &  Subject 5 & Subject 6 \\ \hline
+
+D  5  &  A  7  &  B  2 &  B  4 & A  3 &  D  6  \\ \hline
+B  3  & C  4 & A  1 & A  6&  B  1 & B  7 \\ \hline 
+A  3  &   D  7 &  D  3 & C  6 &  D  2 &  C  3 \\ \hline
+C  2  &  B  6 & C  1  & D  7 & C  2 & A  5  \\ \hline
+\end{tabular}
+\end{center}
+ 
+Carry out a suitable analysis of these data.  Explain clearly your conclusions and comment on the differences, if any, between the toxic effects of the compounds.  Discuss briefly whether all the necessary assumptions can safely be made. (14) 
+ 
+
+\\ \hline
+  
+\end{tabular}
+
+\end{table} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \begin{enumerate}
 \item , 1, 2, ..., , 1, 2, ..., , { } ~ ind N(0, 2 ) ij i j ij ij y = μ +τ +β +ε i = ν j = b ε σ .
 There are ν treatments and b blocks. yij is the observation (response) on the unit (plot)
@@ -75,8 +134,11 @@ Blocks 5 73.00 14.600 13.14 Compare F5,15
 Treatments 3 12.33 4.111 3.70 Compare F3,15
 Residual 15 16.67 1.111 = σˆ 2
 TOTAL 23 102.00
-The upper 0.1% point of F5,15 is 7.57; the blocks effect is very highly significant.
-The upper 5% point of F3,15 is 3.29; the treatments effect is significant.
+
+\begin{itemize}
+    \item 
+The upper 0.1\% point of F5,15 is 7.57; the blocks effect is very highly significant.
+The upper 5\% point of F3,15 is 3.29; the treatments effect is significant.
 Continued on next page
 Clearly there are block (subject) differences. Even after removing these, the results
 are quite variable.
@@ -96,15 +158,20 @@ t
 =
 
 
-so the least significant differences are 1.30 for 5%, 1.79 for 1% and 2.48 for 0.1%.
-Thus the only apparent difference is between C and D, significant at the 1% level.
+so the least significant differences are 1.30 for 5\%, 1.79 for 1% and 2.48 for 0.1%.
+\item Thus the only apparent difference is between C and D, significant at the 1% level.
 The results must be interpreted with caution.
 The data are on a 10-point scale of integers, so obviously cannot have an underlying
-Normal distribution. However, when the means of 6 replicates are being compared,
+Normal distribution. 
+\item However, when the means of 6 replicates are being compared,
 the (necessarily approximate) results should give a good guide to likely treatment (i.e.
 compound) differences.
-Some of the subjects are considerably more prone to irritation than others. Because of
+Some of the subjects are considerably more prone to irritation than others. 
+\item Because of
 this, the underlying variances might be different in some blocks from others. This
 would be contrary to an assumption in the modelling, and would thus be a further
-feature making the results only approximate.\end{enumerate}
+feature making the results only approximate.
+
+\end{itemize}
+\end{enumerate}
 \end{document}
