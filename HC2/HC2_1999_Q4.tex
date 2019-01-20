@@ -26,61 +26,99 @@
 
 \begin{document}
 
-\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht!]
+ 
+\centering
+ 
+\begin{tabular}{|p{15cm}|}
+ 
+\hline  
 
-  \begin{table}[ht!]
-     \centering
-     \begin{tabular}{|p{15cm}|}
-     \hline        
-Question Text 1
+
+
+4. (i) An investigator suspects that one particular form of senile dementia is associated with a reduction in cerebral blood flow.  To investigate this he identifies 120 people with this form of senile dementia and 120 people of the same age without dementia.  The investigator then tests to see whether or not each person has reduced cerebral blood flow with the following results. 
+ 
+Cerebral blood flow  Normal 
+Reduced  No 92 28 
+Dementia     Yes 80 40 
+ 
+ 
+  Apply an appropriate test to these data and interpret your results. 
+(10) 
 \\ \hline
-      \end{tabular}
-    \end{table}
-    
-  \begin{table}[ht!]
-     \centering
-     \begin{tabular}{|p{15cm}|}
-     \hline  
-Question Text 2   
- \\ \hline 
-      \end{tabular}
-    \end{table}
-  \begin{table}[ht!]
-     \centering
-     \begin{tabular}{|p{15cm}|}
-     \hline  
-Question Text 3 
-\\ \hline
-      \end{tabular}
-    \end{table}
-        \begin{enumerate}
+  
+\end{tabular}
+
+\end{table} 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
     \item (i) H0: cerebral blood flow and senile dementia are independent.
 H1: they are not independent.
 Calculate expected frequencies in the 2-way table:
-OBS Blood Flow Normal Reduced EXP N R
+
+OBS Blood Flow Normal Reduced 
+EXP N R
 Dementia No 92 28 120 No 86 34
 Y ES 80 40 120 Y ES 86 34
 172 68 240 172 68
+
 Â2
 (1) = 62( 2
 86 + 2
 34 ) = 72£ 120
 86£34 = 2:955,n.s.,providing no statistical evidence for rejecting
 H0.
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht!]
+ 
+\centering
+ 
+\begin{tabular}{|p{15cm}|}
+ 
+\hline   
+(ii) Suppose that in the study described in (i) each case with dementia had in fact been paired with a control of the same age and gender with the following results. 
+ 
+Controls  Normal cerebral blood flow Reduced cerebral blood flow 
+ 
+ 
+ 
+Cases 
+Normal cerebral blood flow 
+ 
+74 6 
+ 
+ Reduced 18 22  cerebral blood flow   
+ 
+Carry out a suitable analysis of these data and comment on the usefulness or otherwise of matching cases with controls in this study.  
+
+\\ \hline
+  
+\end{tabular}
+
+\end{table}
 \item  For a matched case-control study, McNemar’s test is required, which has greater power
 of discrimination because of the matching.
 CONTROL
 N R
 CASE N 74 6
 R 18 22
-Â2
+
+
+\[
 (1) = (6¡18)2
 6+18 = 144
-24 = 6:00, so H0 is rejected.
+24 = 6:00,\] so H0 is rejected.
 \end{enumerate}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Definition}
-The test is applied to a 2 × 2 contingency table, which tabulates the outcomes of two tests on a sample of n subjects, as follows. 
+The test is applied to a $2 \times 2$ contingency table, which tabulates the outcomes of two tests on a sample of n subjects, as follows. 
 
 Test 2 positive
 Test 2 negative
@@ -97,17 +135,21 @@ Column total
 a + c
 b + d
 n 
-The null hypothesis of marginal homogeneity states that the two marginal probabilities for each outcome are the same, i.e. pa + pb = pa + pc and pc + pd = pb + pd. 
+\begin{itemize}
+    \item The null hypothesis of marginal homogeneity states that the two marginal probabilities for each outcome are the same, i.e. pa + pb = pa + pc and pc + pd = pb + pd. 
 Thus the null and alternative hypotheses are[1] 
 \[{\displaystyle {\begin{aligned}H_{0}&:~p_{b}=p_{c}\\H_{1}&:~p_{b}\neq p_{c}\end{aligned}}} \]
 
-Here pa, etc., denote the theoretical probability of occurrences in cells with the corresponding label. 
+\item Here pa, etc., denote the theoretical probability of occurrences in cells with the corresponding label. 
 The McNemar test statistic is: 
-χ 2 = ( b − c ) 2 b + c . \[{\displaystyle \chi ^{2}={(b-c)^{2} \over b+c}.} \]
+ \[{\displaystyle \chi ^{2}={(b-c)^{2} \over b+c}.} \]
 
-Under the null hypothesis, with a sufficiently large number of discordants (cells b and c), 
+\item Under the null hypothesis, with a sufficiently large number of discordants (cells b and c), 
 ${\displaystyle \chi ^{2}} $
- has a chi-squared distribution with 1 degree of freedom. If the 
+ has a chi-squared distribution with 1 degree of freedom. 
+ \item If the 
 ${\displaystyle \chi ^{2}} $
  result is significant, this provides sufficient evidence to reject the null hypothesis, in favour of the alternative hypothesis that pb ≠ pc, which would mean that the marginal proportions are significantly different from each other. 
+\end{itemize}
+
 \end{document}
