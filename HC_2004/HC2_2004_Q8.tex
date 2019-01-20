@@ -35,17 +35,40 @@
 
 \begin{document}
 Higher Certificate, Paper II, 2004. Question 8
-\begin{framed}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\begin{table}[ht!]
+ 
+\centering
+ 
+\begin{tabular}{|p{15cm}|}
+ 
+\hline  
+
 8. (a) A zoologist conducted an investigation into the nesting habits of a particular species of bird that builds its nests in medium sized shrubs.  One question of particular interest was whether the birds have any directional preference when building their nests.  To investigate this, pairs of birds, chosen at random, were monitored and the directional positions of their nests were recorded.  The data are summarised in the following table. 
  
-Nest position N NE E SE S SW W NW Number of nests 27 24 35 33 38 33 24 26 
- 
-Test the hypothesis that the birds have no directional preference in positioning their nests, using a χ2 goodness of fit test. (8) 
+\begin{center}
+\begin{tabular}{ccccccccc}
+Nest position  &N & NE & E & SE & S & SW&  W&  NW  \\
+Number of nests & 27&  24&  35&  33&  38&  33&  24&  26 \\ 
+\end{tabular}
+\end{center} 
+Test the hypothesis that the birds have no directional preference in positioning their nests, using a ?2 goodness of fit test. (8) 
  
 What limitations, if any, does your test have?  Why would a KolmogorovSmirnov test have been inappropriate here? (4) 
- \end{framed}
+ 
+ 
 
-(a) The total number of nests is 240. On the null hypothesis that each of the 8
+\\ \hline
+  
+\end{tabular}
+
+\end{table} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+\begin{enumerate}[(a)]
+\item  The total number of nests is 240. On the null hypothesis that each of the 8
 directional categories has the same probability of being used, the expected number
 will be 30 for each. Thus the observed and expected frequencies (O and E) are as
 follows.
@@ -73,24 +96,48 @@ following in order round the positions. Thus it is not testing a relevant null h
 for this problem.
 
 \newpage
-\begin{framed}
+\begin{table}[ht!]
  
+\centering
+ 
+\begin{tabular}{|p{15cm}|}
+ 
+\hline
  (b) An art gallery is due to celebrate its 50th anniversary in 2005.  As part of its celebrations, it wishes to commission a new sculpture to be displayed in the gallery.  To find a suitable sculpture, it decided to run a competition in which it invited local artists to submit designs.  A panel of experts selected a short-list of three designs for the gallery to choose from.  To assist in the final decision, the gallery conducted a survey in which a random sample of local adults were sent copies of the three designs and asked to indicate their preference.  The replies received from male and female adults are given in the following table. 
+\begin{verbatim}
+     Preferred design  
+ A B C
+ Males 129 24 47 
+ Females 126 44 55
+\end{verbatim} 
  
- Preferred design  A B C
- Males 129 24 47 Females 126 44 55 
- 
-Carry out a suitable analysis of these data to investigate whether the opinion of adults concerning the preferred design is the same for males and females. (8) 
- 
-\end{framed}
-(b) We have a 2×3 contingency table. The null hypothesis is that males and
+Carry out a suitable analysis of these data to investigate whether the opinion of adults 
+concerning the preferred design is the same for males and females.  
+\\ \hline
+  
+\end{tabular}
+
+\end{table}
+
+\item   We have a 2×3 contingency table. The null hypothesis is that males and
 females have the same ratio of preferences for designs A, B and C. The contingency
 table is as follows, with the expected frequencies in brackets in each cell.
-A B C Total
-Males 129 (120) 24 (32) 47 (48) 200
-Females 126 (135) 44 (36) 55 (54) 225
-Total 255 68 102 425
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+& A & B & C & Total \\
+Males & 129 (120) & 24 (32)&  47 (48)& 200\\
+Females & 126 (135)&  44 (36) & 55 (54)&  225\\
+Total & 255 & 68 & 102 & 425 \\
+\end{tabular}
+\end{center}
+
+
 The test statistic is
+
+\[ \chi^2_{TS} =   \frac{(129-120)^2}{120} + \frac{(24-32)^2}{32} + \frac{(129-120)^2}{48} + \frac{(24-32)^2}{135}+ \frac{(129-36)^2}{36} + \frac{(55-54)^2}{54}  \]
+
+
 ( )2 2 2 2 2 2 2
 2 9 8 1 9 8 1 5.09
 120 32 48 135 36 54
@@ -100,6 +147,6 @@ E
 −
 =Σ = + + + + + = ,
 which is referred to 22
-χ . This is not significant (the 5% point is 5.99); we cannot
+χ . This is not significant (the 5\% point is 5.99); we cannot
 reject the null hypothesis.
 \end{document}
