@@ -33,53 +33,110 @@
 
 \setcounter{MaxMatrixCols}{10}
 
-\begin{document}Higher Certificate, Paper II, 2004. Question 6
-Part (i)
-(a) If a set of data can be assumed to be a sample from a Normal distribution
-(with mean μ and variance σ 2), the sample mean ( x ) from a sample of size n itself
-has an underlying Normal distribution (with mean μ and variance σ 2/n). Thus the null
-hypothesis μ = μ 0, where μ 0 is a specified value, is tested using the test statistic
-0
-/
-z x
-n
-μ
-σ
-= −
-and referring this to the N(0, 1) distribution.
-In practice it is unusual to know σ
-2. It might be known from past experience
-("historical data"), and this can for example arise in some industrial statistical work, in
-which case this method can be used.
-In large samples from any distribution that is reasonably symmetrical, the method
-works to a very good level of approximation using the estimated variance s2 instead of
-σ 2. As an example, economic data (sales etc) are often so treated. How large the
-sample needs to be depends on the symmetry of the underlying distribution.
-Many "Normal approximations" of other measurements exist. An example is the
-observed proportion in a binomial situation, such as the proportion of households
-owning more than one car; the size of sample required for the approximation to be
-good depends on the value of the proportion.
-(b) If data are sampled from a Normal distribution where σ 2 is not known (so that
-s2 is used in its place) and where the sample size is small – typically smaller than 30
-– the t distribution must be used instead of N(0, 1) as above. Most sets of biological
-and agricultural data are like this; the samples are not large, and the underlying
-variability needs to be estimated from the data in each new experiment or study.
-Part (ii)
-2 2 10; 2159, 22360.44. 10; 2830, 19310.22. S S S N N N n = x = s = n = x = s =
-The "pooled estimate" of variance is s2 = 20835.33.
-The test statistic for testing the null hypothesis 600 N S μ −μ = is
-1 1
-10 10
-600 71 1.10
-64.55
-N S x x
-s
-− − = =
-+
-,
-which is referred to t18. This is not significant, so the null hypothesis cannot be
-rejected. (The alternative hypothesis would be "difference > 600". Presumably the
-result of the test would lead to the change not being made, on economic grounds.)
-The time to recharging in each case is assumed to be Normally distributed, and the
-variances of these Normal distributions are assumed to be equal.\end{enumerate}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\begin{table}[ht!]
+ 
+\centering
+ 
+\begin{tabular}{|p{15cm}|}
+ 
+\hline  
+
+7. (i) A psychologist wished to examine the degree of association between intelligence and the ability to think laterally.  An experiment was conducted in which each member of a random sample of 12 subjects was given both an intelligence test and a test of lateral thinking.  The scores obtained by each subject on each test are given in the following table.  The intelligence test has a maximum score of 150 while the lateral thinking test has a maximum score of 10. 
+
+\begin{tabular}{|c|cccccccccccc|} \hline
+Subject & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 \\ \hline 
+Intelligence test score & 121 &  148 & 108 & 137 & 141&  124 & 131&  115&  118&  110&  132&  127 \\ \hline
+Lateral thinking test score & 3 & 9 & 6 & 7 & 8 & 2 & 5 & 5 & 6 & 4 & 8 & 7 \\ \hline
+\end{tabular}
+ 
+The psychologist analyses these data using Spearman's rank correlation coefficient. 
+ 
+(a) Some subjects had the same lateral thinking scores.  How, if at all, should this be allowed for in the analysis? 
+ 
+(b) Calculate Spearman's coefficient between these two test scores, and test it for statistical significance. 
+ 
+(c) What does your result indicate about the association between intelligence and the ability to think laterally? (12) 
+  
+
+\\ \hline
+  
+\end{tabular}
+
+\end{table}  
+
+
+\begin{table}[ht!]
+ 
+\centering
+ 
+\begin{tabular}{|p{15cm}|}
+ 
+\hline  
+
+ (ii) The psychologist suspects that females have a greater ability to think laterally than males of equal intelligence.  To test this hypothesis, each member of a random sample of 50 males was paired with a female who achieved a similar score on a standard intelligence test.  Each subject was given five minutes to complete an identical lateral-thinking task.  Once the time limit had elapsed, it was noted whether or not each subject had successfully completed the task.  The data are summarised in the following table. 
+ 
+  Males   Successful Unsuccessful Successful 16 15 Females Unsuccessful   9 10 
+ 
+Carry out a suitable analysis of these data and comment on your results. 
+\\ \hline
+  
+\end{tabular}
+
+\end{table} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+Higher Certificate, Paper III, 2004.  Question 7 
+ 
+\begin{enumerate}[(a)] 
+\item A trimmed mean is likely to have removed any major outliers, and in the case of a skew distribution it will be a better central measure than the mean of all the data.  Although hypothesis testing is still very approximate, descriptive statistics are improved. 
+ 
+ 
+\item These particular sets of wage data appear to be skew, as would be anticipated, rather than having many obvious outliers.  In sector 0, the 44.50 and perhaps the 1.75 appear to be outliers, but there is doubt about regarding any others as such.  The other noticeable "gap" is between 16.42 and 19.00 in sector 1;  some people would argue for regarding the top three values in that sector as outliers. 
+ 
+One convention is to regard as outliers any observations below Q1 – 1.5R or above Q3 + 1.5R, where R is the interquartile range (R = Q3 – Q1).  This would cover all above 22.4 in sector 0, i.e. the top nine;  only 20.4 in sector 1 (in spite of the obvious "gap" already mentioned);  and none in sector 2. 
+ 
+The lowest value in sector 0 is suspect, but in a distribution of this shape no automatic calculation is likely to declare it to be an outlier. 
+ 
+In the boxplots, the "whiskers" have been extended all the way to the minimum and maximum for each sector except for the lowest and highest values in sector 0. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[Note.  The limits of electronic reproduction may mean that the boxplots will not appear in their correct locations with precise accuracy.] 
+ 
+ 
+ 
+Continued on next page 
+Sector 0
+Sector 1
+Sector 2
+0 10 20 30 40 50 Wages 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\newpage 
+\item  
+
+
+\begin{itemize}
+    \item Most of the available data are for sector 0.  The extreme values for this sector are under \$2 and over \$40, but there is only one very small and one very large value.  The median is below that for the other two sectors, indicating a general tendency towards lower payments.  The overall pattern is skew. 
+ 
+\item Wages in sectors 1 and 2 show a rather similar pattern, but this is based on a much larger sample of data for sector 1 than for sector 2.  In sector 1, there are top values (three of them) around \$19 or \$20, and three of \$4 or less.  The three top values could be checked to see if they are indeed from this sector, or perhaps from a distinctly different sub-sector compared with the rest. 
+ 
+\item Wages in sector 2 do not exceed \$15 in these (few) data, but there are none below \$3.75.  In fact there are only three below \$7.  This suggests that workers are on the whole better paid at the lower end of this sector but wages do not rise to the level of the other sectors. 
+\end{itemize}
+
+ 
+ 
+\end{enumerate}
 \end{document}
