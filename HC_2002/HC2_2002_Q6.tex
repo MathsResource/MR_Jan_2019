@@ -23,22 +23,78 @@
 \renewcommand{\baselinestretch}{1.3}
 
 \setcounter{MaxMatrixCols}{10}
-\begin{document}Higher Certificate, Paper II, 2002.  Question 6 
+\begin{document}
+Higher Certificate, Paper II, 2002.  Question 6 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{table}[ht!]
  
+\centering
+ 
+\begin{tabular}{|p{15cm}|}
+ 
+\hline  
+
+ 
+6. A psychologist studying the behaviour of rats performed the following experiment.  A random sample of 50 rats was taken.  Each rat was placed in a box containing three doors, one leading to food the others leading to no food.  The experiment was stopped as soon as the rat found the food.  The number of doors tried, up to and including the one leading to the food, was recorded for each of the 50 rats.  The results were as follows. 
+
+\begin{center}
+\begin{tabular}{c|cccccccc|} 
+Number of doors tried & 1&  2&  3 & 4 & 5 & 6 & 7 & $\geq$8 \\
+Number of rats & 15&  11&  7&  6&  5&  4&  2 & 0\\ 
+\end{tabular} 
+\end{center}
+ 
+(i) Explain why the number of doors tried by each rat might follow a geometric distribution whose probability density function is  
+ ( ) ( ) 11 x P X x p p −= = − 
+ 
+ with parameter p = 1/3. 
+\\ \hline
+  
+\end{tabular}
+
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate} 
  
 (i) We might reasonably suppose that each trial (i.e. a rat trying a door) has the same probability p of success, independently of all other trials.  These trials continue until there is success, on the xth trial;  there is only one order in which this can occur, namely x − 1 failures followed by one success, so we have ( ) ( ) 11 xP X x p p −= = − . 
  
 The possible values of x are 1, 2, 3, … . 
  
 In this case, if the rat is "guessing" there will be probability 1/3 of choosing the food door on any trial;  i.e. p is 1/3.  The weakness in this argument may be that the rat does not "guess" because it can detect food, e.g. by smell.  If that occurs, P(food door) is >1/3, and unknown. 
+
+\newpage
+
+\begin{table}[ht!]
  
+\centering
+ 
+\begin{tabular}{|p{15cm}|}
+ 
+\hline  
+ 
+ 
+(ii) Test the hypothesis that the distribution of the number of doors tried by each rat is geometric with  p = 1/3.   Explain your conclusions carefully.   How many degrees of freedom are there in the distribution you use in your test? (14) 
+ 
+\\ \hline
+  
+\end{tabular}
+
+\end{table} 
  
 (ii) Expected frequencies are 
 11250 33 x−         
  for x = 1, 2, … on the null hypothesis 
 of a geometric distribution with p =1/3. 
- 
-x 1 2 3 4 5 6 7 ≥ 8 TOTAL Obs 15 11 7 6 5 4 2 0 50 Exp 16.67 11.11 7.41 4.94 3.29 2.19 1.46 2.93       5.48 4.39  
+
+\begin{tabular}{cccccccccc} 
+x & 1&  2&  3&  4&  5 & 6 & 7&  ≥ 8 & TOTAL \\ \hline  
+Obs & 15&  11&  7&  6 & 5 & 4 & 2 & 0 & 50 \\ \hline 
+Exp &  16.67 &  11.11& 7.41& 4.94 &3.29 &2.19& 1.46& 2.93 \\ \hline
+\end{tabular}
+
+5.48 4.39  
  
 Because the geometric distribution tails off very slowly, it is not easy to combine expected values, but the above grouping is better than combining the whole tail from (say) 5 upwards because the pattern is better preserved (and degrees of freedom are saved). 
  
