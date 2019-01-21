@@ -24,140 +24,116 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
-Higher Certificate, Paper III, 2003. Question 2
+Higher Certificate, Paper III, 2003. Question 1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{framed}
-2.
-An experiment, described in the Journal of Materials Science 1986, was conducted to
-investigate the effect of antimony on the strength of tin-lead solder joints. Four
-different amounts of antimony were considered (0%, 3%, 5% and 10% weight) and
-four different cooling methods. Each of the four different amounts of antimony was
-used with each of the cooling methods, giving a total of sixteen different treatments.
-Three joints were assigned at random to each of these sixteen treatments and their
-shear strengths were measured in MPa.
-Table 1 shows the mean shear strength at each treatment. Table 2 shows some results
-of an analysis of variance of the data.
-Table 1. Mean shear strengths
-Rows: amount of antimony (% weight)
-Columns: cooling method
-AB
-FC
-OQ
-WQ
-All
-0
-3
-5
-10 20.333
-22.233
-21.400
-16.733 19.833
-19.933
-18.833
-17.200 22.067
-20.433
-21.467
-17.833 18.467
-19.033
-20.767
-16.300 20.175
-20.408
-20.617
-17.017
-All 20.175 18.950 20.450 18.642 19.554
-Key: AB
-FC
-OQ
-WQ
-=
-=
-=
-=
-air-blown
-furnace-cooled
-oil-quenched
-water-quenched
-Table 2
-Two-way ANOVA: strength versus cooling, antimony
-Analysis of Variance for strength
-Source
-Cooling
-Antimony
-Interaction
-Error
-Total
-DF
-3
-3
-9
-32
+1.
+Three types of watch dial were tested on 21 subjects under simulated conditions. One
+dial was assigned at random to each subject and the number of errors the subject made
+in reading this dial during a standardised series of tests was recorded. The results are
+shown in Table 1 below.
+Table 1
+1
+42
+30
+21
 47
+34
+22
+42
+38
+Dial type
+2
+62
+53
+61
+47
+45
+59
+3
+56
+36
+43
+58
+46
+24
+31
+Incomplete results of a one-way analysis of variance of the data are shown in Table 2.
+Table 2
+One-way ANOVA: type 1, type 2, type 3
+Analysis of Variance
+Source
+DF
 SS
-28.63
-104.19
-25.13
-55.25
-213.20
-MS
-9.54
-34.73
-2.79
-1.73
-F
-5.53
-20.12
-1.62
-P
-0.004
-0.000
-0.152
-(i) Explain what is meant by interaction, both generally and in the context of this
-experiment.
+Dial type
+2
+1377
+Error
+18
+1858
+Total
+20
+3234
+(i) Complete the analysis and interpret your results, stating any assumptions you
+have made in reaching a conclusion.
 (6)
-(ii) By referring to the results of the analysis of variance, and by drawing a suitable
-plot, comment on whether there appears to be interaction between the amount
-of antimony and the cooling method.
-(7)
-(iii) Explain carefully how to interpret the F and P values for cooling and for
-antimony in Table 2, stating any assumptions needed for your answer.
-(7)
+(ii) Estimate the difference between the mean numbers of errors that would be
+made by subjects reading dials of type 1 and of type 2, and find a 95%
+confidence interval for this difference. Explain what is meant by describing
+your interval as a "95% confidence interval". You may take it that any
+assumptions needed for your analysis are satisfied.
+(10)
+(iii) How could you investigate the assumptions needed for the one-way analysis of
+variance of the data in Table 1? If you were unwilling to accept these
+assumptions, explain briefly how you might proceed. (Do not actually do so.)
+(4)
+2
+
 \end{framed}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}[(a)]
-\item  If two (or more) "factors", qualitative or quantitative, are included in the same
-experiment at various levels, it is often the case that the response to one factor
-depends on the level at which the other factor is applied. For example, in this
-experiment, the response to a given % antimony may be different according to which
-cooling method has been used for a particular experimental unit. When this happens,
-such factors are said to interact.
+\item Analysis of variance
+Source of variation df SS Mean Square F ratio
+Dial type 2 1377 688.50 6.67
+Residual (Error) 18 1858 103.22
+Total 20 3234
+The F ratio of 6.67 is referred to F2,18 and is very highly significant (p =
+0.007). We reject the null hypothesis that the mean numbers of errors with the
+three dial types are all the same. We deduce that at least one mean is different
+from the other two.
+We have assumed that all sets of data come from Normally distributed
+populations with the same variance σ 2.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item The row in the analysis of variance which refers to the possible interaction
-contains the p-value 0.152, which means that there is no real evidence of interaction
-(since p > 0.05). A graph of the means for the different cooling methods can help to
-illustrate this (the overall mean is also shown):-
-mean shear strengths
-15
-20
-25
-0 5 10
-AB
-FC
-OQ
-WQ
-Overall Mean
-antimony (% weight)
-(NB: For clarity in the diagram, and to avoid taking up excessive space, the vertical axis is shown with a
-"false origin" at 15.)
-The graph shows some departure from "parallelism" in the patterns for the cooling
-methods, but this is not great when compared with (residual) natural variation.
+\item We have x2 − x1 = 20.0 , and the standard error of this estimate is
+2 2
+1 2
+s s
+n n
++
+= ( 1 1 )
+8 6 103.22 + = 5.487. [Thus the difference between the means for dial
+types 1 and 2 is very highly significant: test statistic is 20.0/5.487 = 3.645,
+refer to t18.] The 5% critical value for t18 is 2.101, so 95% confidence limits
+for the true population mean difference μ2 – μ1 are
+20.0 ± (2.101 × 5.487) or 20.0 ± 11.53, i.e. (8.47, 31.53).
+This means that, on the basis of these experimental data, we can say with 95%
+confidence of being correct that the calculated interval does contain the true
+value of μ2 – μ1.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item Since there is no interaction, the main effects of percentage antimony and cooling
-method can be studied directly. Both are significant. The main characteristic for %
-antimony is the drop at 10\% compared with all the others. This is very large and is
-the reason why "p = 0.000". For cooling, AB and OQ give higher strengths than FC
-and WQ. Cooling has p = 0.004, still clearly highly significant though the difference
-is not so big as that given by the drop for 10% antimony.
-As usual, the variances underlying all sets of data are assumed to be the same, and the
-residual term in the appropriate linear model is assumed to be Normally distributed.
+\item Residuals could be calculated for the 21 observations, and their pattern studied
+either as a Normal probability plot or by plotting residuals against fitted
+values.
+The variances within the three dial types could be checked for equality, but no
+good, sensitive, test exists for small amounts of data such as we have here.
+Outliers, if any, could be checked for possible recording error or change in
+background conditions. Any outliers could be removed from the data before
+re-doing an analysis.
+Sometimes a transformation (such as log) will make data behave more like
+data from Normal homoscedastic distributions.
+Summary: Dial type 1 2 3
+Total 276 327 294
+Number of tests ni 8 6 7 Total 21
+Mean number of errors i x 34.5 54.5 42.0
 \end{enumerate}
 \end{document}
