@@ -31,6 +31,85 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}Higher Certificate, Paper III, 2005. Question 4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+4.
+(i) Describe four types of component into which a time series can be decomposed.
+Define an additive model for a time series with these components and
+demonstrate how a multiplicative model might be converted to an additive
+model.
+%----------------------------------------------------------------%
+(ii) The half-yearly profits of a company (in £million) are shown below for the past 10 years. These 20 figures have been inflation adjusted to present them at
+today's values.
+Year
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+(a)
+Feb–Jul
+1.6
+1.8
+1.9
+2.0
+2.1
+2.1
+2.2
+2.2
+2.3
+2.4
+Aug–Jan
+1.2
+1.4
+1.6
+1.7
+1.7
+1.8
+1.8
+1.8
+1.9
+2.0
+MA1
+1.55
+1.7
+1.825
+1.9
+1.925
+2
+2
+2.075
+2.175
+MA2
+1.45
+1.625
+1.775
+1.875
+1.9
+1.975
+2
+2.025
+2.125
+A plot of the data is shown below. Describe its main features.
+(3)
+(b) An additive model is assumed, and the table above shows the half-
+yearly moving average values. Identify from these values the form of
+the moving average used. Comment on the suitability of the moving
+average chosen. Suggest an alternative moving average that might be
+used and contrast it with the one chosen.
+(4)
+(c) Using the moving average given in the table, obtain the detrended
+series and from this estimate the seasonal components. Hence calculate
+the irregular components and plot them against time. Comment on the
+fit of the model.
+\end{framed}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}
     \item The measured response in a time series is often decomposed into trend, seasonal variation, cyclical variation and "irregular" or residual variation. The trend is a long-term change in the average response. Seasonal variation is a regular change which may occur quarterly, monthly, weekly, daily or on any other time-scale according to the nature of the series. Cyclical variation is likewise a regular change occurring (usually) on a much longer time-scale; this also depends on the nature of the series, but it will often refer to "economic cycles" or "business cycles" which are typically several years long and thus are qualitatively different from being seasonal. The irregular or residual variation may be genuinely random, or just irregular on a (much) shorter time-scale than the other components.
 Using obvious notation, an additive model for the measured response Yt at time t is
@@ -39,10 +118,13 @@ A multiplicative model is which becomes additive if logs (to any base) are taken
 Notes.
 (1) It can be difficult to identify cyclical components – a long series is often needed. A model might therefore omit the Ct component; if there is any cyclical variation present, it would then be bound up with the St (or possibly Tt) components.
 (2) An alternative approach it to measure the trend as variation from an overall average X which then becomes a further component in the model.
+%----------------------------------------------------------------%
 \item There is an upward trend, possibly linear, but there is a suggestion of curvature of the type y = log x. There is a strong seasonal “up–down” effect. Over this period of time it is not possible to say whether there is a cyclical component (as often happens with economic data). Besides the seasonal effect there may be some irregular variation.
+%----------------------------------------------------------------%
 (b) MA1 refers to the moving averages at the first half-years and MA2 to those at the second half-years. The first such figure is MA2 at the second half-year of year 1. This is in the second cell of the table, so only three of the original observations can have gone into it. However ()131.61.21.81.533++= so this simple three-point average is not the form that has been used. Instead, a weighted moving average has been used, so as to reduce fluctuation in the detrended series. The weights are 1:2:1 over the three observations – we note that (141.45(11.6)(21.2)(11.8)=×+×+× . This can also be checked for
 the first MA1 figure [()141.55(11.2)(21.8)(11.4)=×+×+×], and it works similarly for all the others.
 A possible alternative weighted MA would use 4 observations with weights (11116336,,, . This would reduce fluctuation further, but would not be so appropriate for half-yearly data.
+%----------------------------------------------------------------%
 (c) The detrended data table is as shown on the left below. The entries in it are (observation – MA). Hence the seasonal components are +0.2056 and –0.2056, as shown at the foot of the table. These give the deseasonalised or irregular components as shown on the right.
 Deseasonalised
 Year 1
