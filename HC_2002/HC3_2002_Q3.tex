@@ -26,6 +26,32 @@
 \begin{document}
 
 Higher Certificate, Paper III, 2002. Question 3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{framed}
+3. The table below shows the UK Gross Domestic Product (GDP, y) for the years 1989 − 1999, with years also coded as t = year − 1994.  
+The figures are given in units of £bn, and are expressed in 1995 prices. 
+ 
+ 
+Year 1989 1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 t -5 -4 -3 -2 -1 0 1 2 3 4 5 y 655.2 659.5 649.8 650.3 665.4 694.6 714.0 732.2 757.9 777.9 794.4 
+ Source:  United Kingdom National Accounts, 2000 edn, table 1.1. 
+ Note:    Σy = 7751.2,    Σy2 = 5491108.76,    Σt = 0,    Σt2 = 110,    Σty = 1706.3. 
+ 
+ 
+ 
+(i) A model $y = \alpha + \beta t + \varepsilon$ , where ε is a random error term with the usual properties, is proposed for the data. 
+ Obtain least squares estimates of α
+ and β , and calculate r2 (the coefficient of determination).  Also estimate $\sigma^2$, the variance of ε , and obtain estimates of the standard errors of the coefficients α and β . (6) 
+ 
+(ii) What are "the usual properties" of the errors?  How realistic is the assumption that the errors have these properties?  (You are not expected to describe or conduct any tests.) (2) 
+ (iii) Interpret the value of r2, and the values of your estimates of $\alpha$ and $\beta$ . (3) 
+ 
+(iv) Draw a time chart of the data and superimpose your estimated function on it. (5) 
+ 
+(v) Use your estimated model to predict GDP in 2000 and 2010, and comment on your predictions in the light of your graph. (4) 
+ 
+ 
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 n =11, 0 i Σt = , 2 110 i Σt = , 7751.2 i Σy = , 2 5491108.76 i Σy = , 1706.3 i i Σt y = .
 \begin{enumerate} 
@@ -58,8 +84,9 @@ S
 S
 S
 − = .
-This has 11 – 2 = 9 df and so σˆ 2 = 302.5147.
-Thus estimated variances of ˆ α and ˆβ are given by
+\begin{itemize}
+\item This has 11 – 2 = 9 df and so σˆ 2 = 302.5147.
+\item Thus estimated variances of $\hat{\alpha}}$ and $\hat{\beta}}$ are given by
 ( ) ˆ ˆ 2 Var
 tt S
 β =σ = 2.7501, ( )
@@ -73,17 +100,19 @@ n S
 =  +  =
  
 (since t = 0 ) = 27.5013.
-Hence SE(αˆ ) = 5.24 and SE(βˆ ) = 1.658.
+\item Hence SE($\hat{\alpha}}$) = 5.24 and SE($\hat{\beta}}$ ) = 1.658.
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%
 \item  The { ε
 i} in the linear model are usually assumed to be independent, from the
 same Normal distribution, mean 0, variance σ 2. As y increases with t, it is possible
 that the variance also increases (heteroscedasticity); and due to likely trade-cycles
 and also non-linearity of the model, independence may also be doubtful.
 \item  The correlation coefficient r = 0.9067 = 0.952 . This shows a strong linear
-relation between y and time. Alternatively, r2 shows that 90.7% of the variation in the
+relation between y and time. Alternatively, r2 shows that 90.7\% of the variation in the
 annual GDP figures can be explained as a linear trend in time, with positive slope
 (βˆ =15.52 ). The slope is the average annual increase in GDP over the period, which
-is £15.52 bn (expressed at 1995 prices); this is over 2% of the annual figure.
+is £15.52 bn (expressed at 1995 prices); this is over 2\% of the annual figure.
 αˆ = 704.65 was the figure estimated for t = 0 , i.e. 1994, on the basis of all the data
 (the actual figure allowing for the random variation was 694.6).
 Continued on next page
