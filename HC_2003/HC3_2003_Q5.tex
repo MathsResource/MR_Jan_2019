@@ -25,6 +25,128 @@
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
 Higher Certificate, Paper III, 2003. Question 5
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+5.
+In World War II, a particular shipyard built numerous Liberty Ships. Orders for ships
+were given serial numbers, so the first such order was given the order number (NBR)
+1, the second such order was given NBR 2, and so on. The number of thousand man-
+hours per ship built to meet each order (HRS) was noted. Table 1 below shows a
+number of values of NBR together with the corresponding values of HRS. Table 2
+gives some regression results.
+It is conjectured that man-hours per ship depends on the order number.
+(i) Draw a graph showing the data in Table 1. Is the relation between man-hours
+per ship and order number linear? Justify your answer.
+(8)
+(ii) On the basis of the regression results, which of the three linear regressions
+reported do you consider is best? Justify your answer.
+(2)
+(iii) Interpret the estimated constant and regression coefficient for the regression
+you considered to be best in part (ii).
+(8)
+(iv) What other transformation of the data might you try to improve further on the
+regression you considered to be best, and why?
+(2)
+Table 1
+NBR
+HRS
+5
+1094
+10
+894
+25
+647
+30
+659
+75
+529
+100
+424
+125
+376
+150
+395
+175
+395
+200
+388
+225
+376
+250
+353
+285
+280
+Table 2
+Regression Analysis: HRS versus NBR
+The regression equation is
+HRS = 790 - 2.09 NBR
+Predictor
+Constant
+NBR
+S = 138.8
+Coef
+789.54
+-2.0871
+SE Coef
+65.77
+0.4190
+R-Sq = 69.3%
+T
+12.00
+-4.98
+P
+0.000
+0.000
+R-Sq(adj) = 66.5%
+\begin{verbatim}
+Regression Analysis: HRS versus 1/NBR
+The regression equation is
+HRS = 391 + 3975 1/NBR
+Predictor
+Constant
+1/NBR
+S = 84.09
+Coef
+391.14
+3975.2
+SE Coef
+27.34
+427.4
+R-Sq = 88.7%
+T
+14.31
+9.30
+P
+0.000
+0.000
+R-Sq(adj) = 87.7%
+\end{verbatim}
+\begin{verbatim}
+Regression Analysis: HRS versus logNBR
+The regression equation is
+HRS = 1306 - 181 logNBR
+Predictor
+Constant
+logNBR
+S = 48.17
+Coef
+1306.24
+-180.51
+SE Coef
+48.14
+10.67
+R-Sq = 96.3%
+T
+27.13
+-16.92
+P
+0.000
+0.000
+R-Sq(adj) = 96.0%
+\end{verbatim}
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}[(a)]
 \item 
 The relation is not linear. It began by showing an exponential-type fall over
