@@ -39,15 +39,16 @@ Higher Certificate, Paper III, 2004.  Question 1
  
 \begin{framed}
   (i) By means of examples, or otherwise, explain how you might decide when to perform the following significance tests.  State the null hypothesis under test in each case. 
+
+\begin{description} 
+\item[(a)] Two independent samples t test. 
  
-(a) Two independent samples t test. 
+\item[(b)] Matched pairs t test. 
  
-(b) Matched pairs t test. 
+\item[(c)] Mann-Whitney test (also known as the Wilcoxon rank sum test). 
  
-(c) Mann-Whitney test (also known as the Wilcoxon rank sum test). 
- 
-(d) Wilcoxon signed-rank test. 
-(12) 
+\item[(d)] Wilcoxon signed-rank test. 
+\end{escription}
 \end{framed}
 Part (i) 
  
@@ -64,9 +65,16 @@ All four tests are for comparing two samples of data.
     \item The population of differences between responses within the pairs has to be Normally distributed and the null hypothesis is that the mean of this population is zero (which is equivalent to the means of the two separate populations of responses being equal). 
 \end{itemize}
 
- 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \item  This test also compares two "treatments" but using rankings. 
- As an example, suppose each member of a group of people, chosen to be as similar as possible, is asked to carry out a computer task under one of two different sets of background conditions, and their accuracies are ranked 1, 2, 3, … as a single ordering.  The null hypothesis is that the two underlying populations are the same, the alternative being that they differ in location.  The null hypothesis is equivalent to the single ordering of ranks being in random order as far as the "treatments" (conditions) are concerned.  [In contrast, if "treatment" A was better than "treatment" B, we would anticipate that A would tend to have high ranks (if "high" means "better") so that, with respect to the "treatments", the single ordering would have mainly Bs at the start and As at the end.]  The test is based on the sum of the ranks for each "treatment".  No background distributional assumptions are required. 
+\begin{itemize}
+    \item  As an example, suppose each member of a group of people, chosen to be as similar as possible, is asked to carry out a computer task under one of two different sets of background conditions, and their accuracies are ranked 1, 2, 3, … as a single ordering.  
+    \item The null hypothesis is that the two underlying populations are the same, the alternative being that they differ in location.  
+    \item The null hypothesis is equivalent to the single ordering of ranks being in random order as far as the "treatments" (conditions) are concerned.  [In contrast, if "treatment" A was better than "treatment" B, we would anticipate that A would tend to have high ranks (if "high" means "better") so that, with respect to the "treatments", the single ordering would have mainly Bs at the start and As at the end.] 
+    \item The test is based on the sum of the ranks for each "treatment".  No background distributional assumptions are required. 
+\end{itemize}
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
 \item  This, like (b) above, is a paired test.  It is carried out for the same general reason of removing possible systematic variation in experimental material. 
 \begin{itemize}
