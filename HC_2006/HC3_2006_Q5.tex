@@ -32,15 +32,59 @@
 
 \begin{document}
 Higher Certificate, Paper III, 2006. Question 5
-(i) The survivor function is P(T > t) = 2tedλθλθθ∞−∫
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+5.
+The survival time of patients treated for a certain critical illness is a random variable,
+T, which is assumed to follow a distribution having probability density function
+f ( t ) = λ  te − λ t ,
+(i)
+t ≥ 0,
+λ > 0.
+Show that the survivor function (the probability of surviving beyond time t) is
+\[S ( t ) = (1 + λ t ) e − λ t .\]
+()
+
+%---------------------------%
+(ii)
+For a random sample of n observations, t 1 , t  , ..., t n , drawn from the defined
+distribution, derive the maximum likelihood estimator of λ.
+Survival times (in months) of a group of ten patients were
+16, , 5, 44, 51, 55, 67, 97, 17, 19.
+Calculate λ̂ , the maximum likelihood estimate of λ , for the above data.
+\end{framed}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}[(a)]
+\item The survivor function is P(T > t) = 2tedλθλθθ∞−∫
 211ttttteeedteteλθ λθλθλλλθθλλλλλλ∞∞−∞−−−−⎧⎫⎡⎤⎡⎤⎪⎪⎛⎞=−+=+=+⎨⎬⎜⎟⎢⎥⎢⎥−⎝⎠⎣⎦⎣⎦⎪⎪⎩⎭∫ ,
 as required.
 [Alternatively, as we are only asked to show that the given function S(t) is the survivor function, , and f(t) is therefore –S'(t) as required.]
-(ii) 21intiiLteλλ−==Π, and hence 11log2loglognniiiiLntλλ===+− ΣΣ.
+\item 21intiiLteλλ−==Π, and hence 11log2loglognniiiiLntλλ===+− ΣΣ.
 log2idLntdλλ∴=−Σ which on setting equal to zero gives that the maximum likelihood estimate is 2ˆintλ=Σ. [Consideration of 22logddλ confirms that this is a maximum: 222log20dLndλλ−=<.]
 So for the given sample, the value of ˆλ is 20/707 = 0.0283.
-(iii) The estimated value of S(240) is (1 + (0.0283 × 240))e–0.0283 × 240 = 7.792e–6.792 = 0.00875.
-(iv) F*(x) is sometimes referred to as the "empirical cdf". Its values for this set of data are 1/20, 3/20, …, 17/20, 19/20 at x = 16, 23, …, 127, 192. Strictly speaking it is a step function, "jumping" (from 0) to value 1/20 at x = 16, retaining that value up to a further "jump" to 3/20 at x = 23, and so on. On the graph below, for convenience its values at x = 16, 23, …, 192 are shown, with these being joined by line segments.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+(iii) Using λ̂ , estimate the probability that a patient treated for the illness survives
+longer than 40 months.
+
+(iv) It is thought that a function which provides a good estimate of the cumulative
+distribution function (cdf) for a random sample of data is F*(x), defined as
+F*(x) = (i – 0.5)/n, where i is the number of sample values less than or equal
+to x. Thus, for the data above, F*(16) = 0.5/n, F*() = 1.5/n, and so on.
+Plot F*(x) against x, for the given survival times, on a graph. Using λ̂ as an
+estimate of λ , calculate the estimated cumulative distribution function values
+for the given survival times, and plot them on the same graph.
+Use your graph to comment on how well this set of data is represented by the
+fitted model. Does this have any consequences for your answer to part (iii)?
+(8)
+\end{framed}
+
+\item The estimated value of S(240) is (1 + (0.0283 × 240))e–0.0283 × 240 = 7.792e–6.792 = 0.00875.
+\item F*(x) is sometimes referred to as the "empirical cdf". Its values for this set of data are 1/20, 3/20, …, 17/20, 19/20 at x = 16, 23, …, 127, 192. Strictly speaking it is a step function, "jumping" (from 0) to value 1/20 at x = 16, retaining that value up to a further "jump" to 3/20 at x = 23, and so on. On the graph below, for convenience its values at x = 16, 23, …, 192 are shown, with these being joined by line segments.
 ˆ()Fx is given by ˆˆˆ1()1(1)xSxxeλλ−−=−+ calculated at x = 16, 23, …, 192 using ˆλ = 0.0283 as found in part (ii). The values of ˆ()Fx are given in the table. These also are plotted on the graph, joined by line segments for convenience.
 x
 16
