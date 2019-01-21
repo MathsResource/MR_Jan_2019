@@ -31,7 +31,45 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}Higher Certificate, Paper III, 2005. Question 7
-\begin{enumerate
+\begin{framed}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+7.
+The amount (£) paid out by an insurance company on claims arising from a certain
+group of policies is considered to follow an exponential distribution with mean μ .
+(i) For a random sample of n claims x 1 , x 2 , ..., x n , write down the likelihood
+function in terms of μ and hence find the maximum likelihood estimator of μ .
+(5)
+(ii) Over the course of a year, 96 claims are received and the amounts ( x , in £) paid
+out by the insurance company are shown below, grouped into categories. The
+sample mean claim size is £2989.8. Calculate the missing entries in the
+column of expected numbers of claims based on the exponential model, and
+carry out an appropriate statistical test to determine whether or not an
+exponential model is suitable for these data.
+
+\begin{center}
+\begin{tabular}{|l|c|c|}
+Interval	&	Number of claims	& 	Expected number of claims	\\ \hline 
+0 $\leq$ x $<$ 250	&	11	& 	7.7	\\ \hline 
+250 $\leq$ x $<$ 500	&	16	& 	7.08	\\ \hline 
+500 $\leq$ x $<$ 1000	&	16	& 		\\ \hline 
+1000 $\leq$ x $<$ 1500	&	10	& 	10.58	\\ \hline 
+1500 $\leq$ x $<$ 2000	&	10	& 	8.95	\\ \hline 
+2000 $\leq$ x $<$ 3000	&	11	& 		\\ \hline 
+3000 $\leq$ x $<$ 4000	&	7	& 	10.01	\\ \hline 
+4000 $\leq$ x $<$ 6000	&	5	& 	12.29	\\ \hline 
+6000 $\leq$ x $<$ 8000	&	4	& 		\\ \hline 
+8000 $\leq$ x $<$ 10000	&	2	& 		\\ \hline 
+10000 $\leq$ x $<$ 20000	&	2	& 	3.27	\\ \hline 
+20000 $\leq$ x $<$ 40000	&	1	& 	0.12	\\ \hline 
+40000 $\leq$ x $<$ 60000	&	1	& 	0	\\ \hline 
+\end{tabular}
+\end{center}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{framed}
+\begin{enumerate}
 \item Let X denote the underlying random variable, with pdf ()/1xfxeμμ−=. So the likelihood function is ()/11,...,inxnniLxxeμμ−−==Π and 1loglog/niiLnxμμ==−−Σ.
 ()2log1iLnxμμμ∂∴=−+∂Σ, which we set equal to 0 to obtain the MLE ˆμ. Hence
 []11ˆniixxnμ===Σ.
@@ -103,6 +141,18 @@ The value of the test statistic is
 ()()()()22222117.70167.0846.2966.61...20.547.707.086.296.61X−−−−=++++=.
 This is referred to . It is significant at slightly beyond the 1% level (critical point is 20.09). 28χ
 Hence the (strong) evidence is that the model does not fit the data. The largest contributions to X2 come from the first two intervals, especially the (250, 500) interval, and from the (4000, 6000) interval.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{framed}
+(iii) Use the fitted exponential model to estimate the probability that the amount
+paid out on a claim exceeds £20 000. Comment on your answer in relation to
+the data.
+(3)
+(iv) Use your answers to (ii) and (iii) to discuss the characteristics of an improved
+model for claim payments on this group of policies.
+(2)
+8
+\end{framed}
 \item 
 ()//20000/2000020000120000xxPXedxeeμμμμ∞∞−−−⎡⎤>==−=⎣⎦∫.
 Estimating this using ˆ2989.8xμ==, we get 0.01244.
