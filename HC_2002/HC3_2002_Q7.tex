@@ -26,6 +26,46 @@
 \begin{document}
 
 Higher Certificate, Paper III, 2002. Question 7
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\begin{framed}
+7. The time a cashier takes, in minutes, to serve a customer in a supermarket is modelled as a random variable X with probability density function 
+  ( ) 2 , 0, x f x xe x λλ −= ≥ 
+ where $\lambda$ is an unknown parameter ( λ > 0).  It can be shown that the mean of this distribution is 2/ λ , and that the cumulative 
+distribution function is given by  ( ) ( )1 1 , 0. x F x x e x λλ −= − + ≥ 
+ 
+(i) Find the value of x for which f(x) takes its maximum value (the mode of X). (4) 
+ (ii) Draw a rough sketch of f(x) against x for the case λ = 1. (2) 
+ (iii) Give a theoretical (that is, mathematical) explanation for the large difference between the mean and the mode of X.  
+Do you consider that this distribution might be a good model for the times taken to serve customers in a supermarket? (3) 
+ (iv) A random sample of n customers is selected, and their service times x1, x2, …, xn are measured.  
+Find the maximum likelihood estimator and the method of moments estimator of λ .  
+Comment on your findings. (6) 
+ (v) The manager sets a target that the mean service time should be 2 minutes;  that is, $\lambda = 1$.  
+To test this, a random sample of 200 service times was obtained.  
+The data were then grouped into the frequency distribution shown below.  
+The expected frequencies shown were calculated on the assumption that $\lambda = 1$.  
+Calculate the remaining expected frequencies, and use the information to test the hypothesis that 
+the data come from this distribution with $\lambda = 1$λ = 1. 
+
+\begin{center}
+\begin{tabular}{|c|c|c|} 
+Range of x & Observed frequency & Expected frequency \\ \hline
+0.0 $< x \leq $0.5 & 21 & 18.04 \\ \hline
+0.5 $< x \leq $1.0 & 30 & 34.81 \\ \hline 
+1.0 $< x \leq $1.5 & 36 &       \\ \hline
+1.5 $< x \leq $2.0 & 29 & 30.36 \\ \hline
+2.0 $< x \leq $2.5 & 27 & 23.74 \\ \hline
+2.5 $< x \leq $3.0 & 19 & 17.63 \\ \hline
+3.0 $< x \leq $3.5 & 17 & 12.65 \\ \hline
+3.5 $< x \leq $4.0 &  4 &  8.86 \\ \hline
+4.0 $< x \leq $4.5 &  8 &  6.10 \\ \hline
+4.5 $< x \leq $5.0 &  2 &  4.13 \\ \hline
+x $\geq $ 5.0  &  7  & \\ \hline
+\end{tabular}
+\end{center}
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 f (x) =λ 2xe−λ x , x ≥ 0 . Mean is 2/λ. Cdf is F (x) =1− (1+λ x)e−λ x , x ≥ 0 .
 \begin{enumerate}
 \item  ( ) 2 { x x} df x
@@ -58,12 +98,18 @@ dx
 \item  When λ =1, f (x) = xe−x and the mode is at x = 1. f (1) = 0.3679 .
 [Note. The diagram is not drawn to scale.]
 \item  In general, the mode is at 1/λ and the mean is 2/λ. The distribution is strongly
-skew to the right. It is not very likely that this distribution would work well in a
+skew to the right. 
+\begin{itemize}
+    \item It is not very likely that this distribution would work well in a
 supermarket that channels customers with only few ("less than 10", say) purchases
-through special cash outlets. But if there are none of these and everyone must go
+through special cash outlets.
+\item But if there are none of these and everyone must go
 through the same channels, then there will be some very small values of x to combine
-with the higher ones, and with a few very high service times. This distribution could
+with the higher ones, and with a few very high service times.
+\item This distribution could
 work if applied to pooled data from all the outlets together.
+\end{itemize}
+
 Continued on next page
 f(x)
 x
