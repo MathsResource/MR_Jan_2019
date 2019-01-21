@@ -37,8 +37,20 @@
 \begin{framed}
 2. A study is undertaken to compare how the time taken by a particular computer software application to read in data files varies with the format of the file.  Random samples of eight files in each of three formats were taken.  The times in milliseconds to read the files in each format are shown below. 
  
-Standard format First alternative format 
-Second alternative format 2.02 2.18 1.87 1.99 1.84 2.56 2.01 1.99 2.02 1.88 1.91 2.44 2.27 2.09 2.46 2.36 2.08 2.61 2.31 2.23 2.45 2.35 1.84 2.11 
+\begin{center}
+\begin{tabular}{ccc}
+Standard format	&	First alternative	& 	Second alternative	\\ \hline 
+	&	format	& 	format	\\ \hline 
+2.02	&	2.18	& 	1.87	\\ \hline 
+1.99	&	1.84	& 	2.56	\\ \hline 
+2.01	&	1.99	& 	2.02	\\ \hline 
+1.88	&	1.91	& 	2.44	\\ \hline 
+2.27	&	2.09	& 	2.46	\\ \hline 
+2.36	&	2.08	& 	2.61	\\ \hline 
+2.31	&	2.23	& 	2.45	\\ \hline 
+2.35	&	1.84	& 	2.11	\\ \hline 
+\end{tabular}
+\end{center} 
  
  
 (i) Specify two questions you would want to ask the collector of the data before deciding what sort of analysis might be appropriate. (2) 
@@ -67,9 +79,13 @@ Second alternative format 2.02 2.18 1.87 1.99 1.84 2.56 2.01 1.99 2.02 1.88 1.91
 SS for formats = 
 222 17.19 16.16 18.52 112.1040 0.3500 888 + + − = . 
  The residual SS is obtained by subtraction. 
- SOURCE DF SS MS F value Formats   2 0.3500 0.1750      3.89   Compare F2,21 Residual 21 0.9441 0.0450 = 2 ˆ σ
+ \begin{verbatim}
+      SOURCE DF SS MS F value Formats   2 0.3500 0.1750      3.89   Compare F2,21 
+      Residual 21 0.9441 0.0450 = 2 ˆ σ
  TOTAL 23 1.2941   
- The upper 5% point of F2,21 is 3.47, 1% point 5.78; the treatments effect is significant at the 5% level.  There is some evidence that the null hypothesis, that mean times for the formats are all equal, should be rejected. 
+ \end{verbatim}
+
+ The upper 5\% point of F2,21 is 3.47, 1% point 5.78; the treatments effect is significant at the 5% level.  There is some evidence that the null hypothesis, that mean times for the formats are all equal, should be rejected. 
 \newpage
 
 \begin{framed}
