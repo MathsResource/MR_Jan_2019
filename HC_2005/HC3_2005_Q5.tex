@@ -32,6 +32,20 @@
 
 \begin{document}
 Higher Certificate, Paper III, 2005. Question 5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+5.
+(i)
+From a very large batch of mass produced widgets, a simple random sample of 20 is selected and each widget in the sample is inspected to see whether or not
+it meets the quality requirement. The batch is accepted if the sample contains 0 or 1 defective widgets.
+In a simple random sample, every widget has the same probability of being selected for the sample. Calculate the exact probability of accepting a batch if
+it contains a proportion p of defectives, for p = 0.01, 0.05, 0.1.
+(4)
+
+\end{framed}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}
 \item The number of defectives in a sample, X, has the binomial distribution with parameters 20 and p, i.e. X ~ B(20, p).
 P(accept batch ⏐ p) = P(X = 0 or 1 ⏐ p) = (1 – p)20 + 20p(1 – p)19
@@ -39,6 +53,16 @@ P(accept batch ⏐ p) = P(X = 0 or 1 ⏐ p) = (1 – p)20 + 20p(1 – p)19
 p = 0.01 : P(accept batch) = 0.9831
 0.05 : 0.7358
 0.1 : 0.3917
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+(ii)
+The above scheme is now modified in that, if the sample contains more than 2 defectives the batch is still rejected, but if the sample of 20 contains just 2
+defectives, a further random sample of size 20 is selected, which may be assumed independent of the first sample. If the second sample contains no
+defectives then the batch is accepted, otherwise the batch is rejected. List the possible numbers of defectives in the two samples which lead to
+acceptance of the batch, and hence calculate the probability of accepting a batch, for p = 0.01, 0.05, 0.1.
+(7)
+\end{framed}
 (ii) The batch is accepted in the following cases.
 Number of defectives in first sample
 0
@@ -56,15 +80,28 @@ The values of this are as follows.
 \[p = 0.01 : 0.9831 + (0.01586×0.81791) = 0.9831 + 0.01297 = 0.9961\]
 \[p = 0.05 : 0.7358 + (0.18868×0.35849) = 0.7358 + 0.06764 = 0.8034\]
 \[p = 0.1 : 0.3917 + (0.28518×0.12158) = 0.3917 + 0.03467 = 0.4264.\]
+
+\begin{framed}
+
+(iii)
+Rejected batches are subject to 100% inspection and all defectives are removed. If the batch size is 1000, calculate the expected total number of
+items inspected in the two sampling schemes in (i) and (ii), for each of the values of p given. Comment briefly on your results.
+(9)
+\end{framed}
+
 \item 
 Scheme (i) P(reject batch) = 0.0169 for p = 0.01
 0.2642 for p = 0.05
 0.6083 for p = 0.1.
 Let S = total number inspected. E(S) = 20P(accept batch) + 1000P(reject batch).
 The values of E(S) are as follows.
-p = 0.01 : (20×0.9831) + (1000×0.0169) = 36.6
-p = 0.05 : (20×0.7358) + (1000×0.2642) = 278.9
-p = 0.1 : (20×0.3917) + (1000×0.6083) = 616.1.
+\begin{itemize}
+\item p = 0.01 : (20×0.9831) + (1000×0.0169) = 36.6
+\item p = 0.05 : (20×0.7358) + (1000×0.2642) = 278.9
+\item p = 0.1 : (20×0.3917) + (1000×0.6083) = 616.1.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Scheme (ii)
 E(S) = 20P(accept batch based on first sample)
 + 40P(2 defectives in first sample and 0 in second).
