@@ -24,6 +24,31 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht!]
+     
+\centering
+     
+\begin{tabular}{|p{15cm}|}
+     
+\hline 
+7. A factory manager wishes to know whether or not the number of rejects produced by an
+industrial process within a set period follows a Poisson distribution. The previous month’s
+data, given below, are thought to be typical:
+Number of rejects 0 1 2 3 4 5 6 or more
+Frequency 38 49 43 17 11 2 0
+(i) For what reasons might the rejects follow a Poisson distribution?
+(ii) Test the hypothesis that the distribution of rejects is Poisson, and explain your result to
+the factory manager.
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The value of the test-statistic is 
+\[ {\displaystyle \chi ^{2}=\sum _{i=1}^{n}{\frac {(O_{i}-E_{i})^{2}}{E_{i}}} \]
 
 \begin{enumerate}
 \item If the process is producing individual rejects “at random”, i.e. singly and
@@ -37,24 +62,24 @@ follow a Poisson distribution.
 (0 + 49 + 86 + 51 + 44 + 10) =
 240
 160
-= 1:5
-Expected frequencies are 160e¡1:5(1:5)r=r! for r = 0; 1; ¢ ¢ ¢.
+= 1.5
+Expected frequencies are 160e-1.5(1.5)r=r! for r = 0; 1; ¢ ¢ ¢.
 r : 0 1 2 3 4 ¸ 5 TOTAL
 Obs: 38 49 43 17 11 2 160
-Exp: 35:70 53:55 40:16 20:08 7:53 2:98 160
+Exp: 35.70 53.55 40.16 20.08 7.53 2:98 160
 (The last two cells may be combined, but this is not really necessary.)
 Â2 has 4 d.f., since 1 parameter had to be estimated and the totals of Obs
 and Exp have to be the same.
 15
 Â2
-(4) = (38¡35:70)2
-35:70 + (49¡53:55)2
-53:55 + (43¡40:16)2
-40:16 + (17¡20:08)2
-20:08 + (11¡7:53)2
-7:53 + (2¡2:98)2
-2:98
-= 3:13; not significance.
+(4) 
+
+\begin{eqnarray*}
+\chi^2 &=& \frac{(38-35.70)^2}{35.70} + \frac{(49-53.55)^2}{53.55} + \frac{(43-40.16)^2}{40.16} + \frac{(17-20.08)^2}{20.08} + \frac{(11-7.53)^2}{7.53} + \frac{(2-2.98)^2}{2.98}\\
+&=& \frac{(38-35.70)^2}{35.70} + \frac{(49-53.55)^2}{53.55} + \frac{(43-40.16)^2}{40.16} + \frac{(17-20.08)^2}{20.08} + \frac{(11-7.53)^2}{7.53} + \frac{(2-2.98)^2}{2.98}\\
+&=& 3:13;
+\end{eqnarray*}
+not significance.
 \begin{itemize}
 \item There is no reason to reject the hypothesis that the data follow a Poisson
 distribution. 
