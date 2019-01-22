@@ -27,6 +27,81 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Higher Certificate, Paper III, 2001. Question 4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[ht!]
+     
+
+
+\centering
+     
+
+
+\begin{tabular}{|p{15cm}|}
+     
+
+
+\hline 
+
+4. Describe the circumstances in which simple exponential smoothing may be used to provide forecasts 
+of future values of a time series t X .  
+ (i) If () ˆ ,1 x t denotes the one-step-ahead forecast at time t where 
+ 
+  ( ) ( ) ( ) ( ) 23 123ˆ ,1 1 1 1 ... t t t t x t x x x x α α α α α α α −−− = + − + − + − +
+ 
+ show that ( ) ( ) { } () ˆ ˆ ˆ ,1 1,1 1,1 . t x t x x t x t α = − − + −   
+
+\begin{framed}
+The raw data sequence is often represented by 
+${\displaystyle \{x_{t}\}}$ 
+ beginning at time 
+$ {\displaystyle t=0}$ 
+, and the output of the exponential smoothing algorithm is commonly written as 
+$ {\displaystyle \{s_{t}\}} $
+, which may be regarded as a best estimate of what the next value of 
+$ {\displaystyle x} $
+ will be. When the sequence of observations begins at time 
+${\displaystyle t=0} $
+, the simplest form of exponential smoothing is given by the formulas:[1] 
+\[ {\displaystyle {\begin{aligned}s_{0}&=x_{0}\\s_{t}&=\alpha x_{t}+(1-\alpha )s_{t-1},\ t>0\end{aligned}}} \]
+ 
+where 
+$ {\displaystyle \alpha } $
+ is the smoothing factor, and 
+$ {\displaystyle 0<\alpha <1} $. 
+\end{framed}
+ 
+(ii) The following data give the weekly sales of a commodity over a 12 week period where no special sales promotions or higher 
+than usual levels of advertising took place. 
+ 
+Week 1 2 3 4 5 6 7 8 9 10 11 12 
+Sales 5105 5618 5514 5423 6044 5790 5437 5848 6253 5835 5740 6063 
+ 
+(a) Plot the data as a time series. 
+
+ 
+(b) Use simple exponential smoothing with α = 0.25 and the first week's sales as the forecast for the second week's sales to forecast
+ one week ahead at each time point. 
+ 
+(c) Plot the set of forecasts on the same graph as the original series and comment on their adequacy. 
+ 
+(d) Suppose a similar set of forecasts had been calculated for some other value of $\alpha$ .  How would you compare the adequacy of the two sets of forecasts?  
+ 
+ 
+
+\\ \hline
+
+
+
+\end{tabular}
+    
+
+
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 If using a model based on polynomial trends, long-past observations still have some
 influence on forecasts. Weighted averages of observations are useful, most recent
 receiving largest weights. In (i), the forecast x (tˆ,1) uses weights (1 )j \alpha  −\alpha  which
