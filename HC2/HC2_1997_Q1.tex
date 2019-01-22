@@ -24,6 +24,42 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht!]
+     
+\centering
+     
+\begin{tabular}{|p{15cm}|}
+     
+\hline 
+1. The table below contains some data about hospital patients.
+Descriptive statistics of 1383 hospital stays at Hospital del Mar, Barcelona,
+in 1988 and 1990
+\begin{center}
+\begin{tabular}{|c|c|c|}
+Variable 	&	1988	&	1990	\\ \hline
+Total number of stays 	&	750	&	633	\\ \hline
+Mean age at admission	&	53.4 years	&	55.3 years	\\ \hline
+Standard deviation of age	&	19.7 years	&	19.5 years	\\ \hline
+Males	&	349	&	321	\\ \hline
+Females	&	401	&	312	\\ \hline
+\end{tabular}
+\end{center}
+
+(Source: S.J. Gange et al, Applied Statistics, No 3, 1996)
+You may take these patients to be simple random samples of admissions to this hospital in
+1988 and 1990. Use appropriate statistical tests to examine whether, between 1988 and
+1990:
+i) the mean age at admission increased;
+ii) the sex ratio changed.
+In each case, if you reject the null hypothesis of no change, estimate the change and provide
+a 95 per cent confidence interval for your estimate.
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}
 
 \item  For 1988, ¯x1 = 53:4, s1 = 19:7; also n = 750;
@@ -60,31 +96,44 @@ quote this result as (0; 3:97).
 The hypotheses H0: pM;1988 = pM;1990 and H1 : pM has changed can be
 examined in a 2 £ 2 table of ‘observed’ frequencies and ‘those expected on
 H0’.
+
+\begin{center}
+{
+\begin{tabular}{c|c|c|c|}
+  \multicolumn{2} {c} {} & \multicolumn{2}{c} {{OBSERVED(EXPECTED)}} \\
+\cline{3-4}
+\multicolumn{2}{c|}{} & 1988        & 1990        \\
+ \cline{2-4}
+\multirow  {{}}& Male & 349(363:34) & 321(306:66) \\
+ \cline{2-4}
+& Female &401(386:66)& 312(326:34)\\
+\cline{2-4}
+
+%\hline
+\end{tabular}
+}
+\end{center}
 OBSERVED(EXPECTED) 1988 1990 TOTAL
-MALE 349(363:34) 321(306:66) 670
-FEMALE 401(386:66) 312(326:34) 713
+MALE   670
+FEMALE   713
 750 633 1383
-Â2
-(1) =
-(349 ¡ 363:34)2
-363:34
-+ ¢ ¢ ¢ +
-(312 ¡ 326:34)2
-326:34
-= (14:34)2f
-1
-363:34
-+
-1
-306:66
-+
-1
-386:66
-+
-1
-326:34
-g
-= 205:6356 £ 0:011664 = 2:40n:s:
+
+\begin{eqnarray*}
+\chi^2_{
+(1)} &=& 
+\frac{(349 - 363.34)^2}{
+363.34} 
++ \frac{(321 - 306.66)^2}{
+306.66} 
++   \frac{(401 - 386.66)^2}{
+386.66} 
++ \frac{(349 - 
+326.34)^2}{
+326.34}\\
+&=&  \frac{(-14.34)^2}{363.34} + \frac{(14.34)^2}{306.66} + \frac{(14.34)^2}{386.66} + \frac{(-14.34)^2}{326.34}  \\
+&=&  \\
+&=& 2.40n.s.\\
+\end{eqnarray*}
 \begin{itemize}
     \item There is no evidence of change.
 \item An alternative method is to use normal approximations for pM: N(p; p(1¡p)
