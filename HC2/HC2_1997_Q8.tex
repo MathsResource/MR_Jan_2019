@@ -24,59 +24,111 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht!]
+     
+\centering
+     
+\begin{tabular}{|p{15cm}|}
+     
+\hline 
+8. (a) Using examples to illustrate your answer, discuss the uses made of the F distribution in
+statistical methods.
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \begin{enumerate}
 \item The F distribution with (v1; v2) degrees of freedom is the distribution of the
-ratio of two Â2 distributions - specifically F(v1; v2) = Â(v1)
+ratio of two $\chi^2$ distributions - specifically $F(v1; v2) = \chi^2(v1)
 v1
 =
-Â(v2)
-v2
+\chi^2(v2)
+v2$
 . 
 \begin{itemize}
 \item Therefore,
 two independent estimates of variance from the same population, based respectively
-on (v1 + 1) and (v2 + 1) observations may be compared in an F
+on $(v_1 + 1)$ and $(v_2 + 1)$ observations may be compared in an F
 distribution. An example of this is in (b), assuming observations normally
 distributed.
 \item Also, two sums of squares of normally distributed variables can be compared.
 An examples is in the analysis of designed experiments (see Question
 2), where the residual sum of squares provides an estimate of natural variation,
-¾2, and the treatment sum of squares also provides an estimate of
+$\sigma^2$, and the treatment sum of squares also provides an estimate of
 this on the Null Hypothesis of no treatment differences: the actual estimates
 are the sums of squares divided by their degrees of freedom, i.e. the “mean
 squares”.
 \item Hence these mean squares can be compared in an F-test, as long
 as observations are normally distributed.
 \item Similarly, in linear regression, the sum of squares of deviations from the fitted
-“live” provides a test of fit: sums of squares for regression is Â2
-(p¡1) when
-p x-variables are used, and the residual sum of squares is Â2
-(n¡p). 
+“live” provides a test of fit: sums of squares for regression is $\chi^2_2$
+$(p-1)$ when
+p x-variables are used, and the residual sum of squares is $\chi^2_2/(n-p)$. 
 \item Hence two
-mean squares can be found whose ratio will be F(p ¡ 1; n ¡ p) if a linear fit
+mean squares can be found whose ratio will be $F(p - 1; n - p)$ if a linear fit
 is adequate.
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{table}[ht!]
+     
+\centering
+     
+\begin{tabular}{|p{15cm}|}
+     
+\hline 
+(b) New working practices have been introduced into a factory and its manager is
+concerned that, as a consequence, the variation in the time taken to complete a standard
+task (in minutes) might now differ between men and women. Times taken in random
+samples of their work are given below.
+\begin{center}
+\begin{tabular}{|c|c|}
+Men & \{21 23 12 18 20 27 23 25 26 10 14 19\} \\ \hline
+Women & \{ 18 24 17 21 18 22 18 19 23 24\}\\
+\end{tabular}
+ 
+\end{center}
+Is there any statistical evidence that male times are more variable than female? Explain
+your conclusion, giving a confidence interval for the ratio of the variances, stating any
+assumptions which you made.
+\\ \hline
+      
+\end{tabular}
+    
+\end{table}
 \item  For men, v1 = 12 and for women, v2 = 10. Calculate s2 = 1
 v¡1
 P
 (xi¡¯x)2 for
-each sample. For men, s21
-= 30:3333 and for women s22
-= 7:3778, F(11;9) =
-s21
-s22
-= 4:1114¤. Since this is significant at 5% on the Null Hypothesis that the
-two variances are equal, we must reject that hypothesis.. Each set of data is
+each sample. For men, $s^2_1$
+= 30.3333 and for women $s^2_2
+= 7.3778$, 
+
+\[ F(11;9) = \frac{s^2_1}{s^2_2}  = \frac{30.3333}{7.3778} 
+= 4.1114\]. 
+
+\begin{itemize}
+    \item Since this is significant at 5\% on the Null Hypothesis that the
+two variances are equal, we must reject that hypothesis.
+\item Each set of data is
 assumed to be from a normal population, there is some suggestion that this
 may not be true for the men, but rather there are two sub-populations.
+\end{itemize}
+
 (v2¡1)s22 ¾2
 2
 ¥ (v1¡1)s21
 ¾2
 1
-is the ratio Â(v2¡1)2
-Â(v1¡1)2
+is the ratio \chi^2(v2¡1)2
+\chi^2(v1¡1)2
 i.e. F(v2 ¡ 1; v1 ¡ 1). Therefore
 v2¡1
 v1¡1 ¢ s22
@@ -91,26 +143,35 @@ s21
 2
 = (v1¡1)s21
 (v2¡1)s22
-F(v2 ¡1; v1 ¡1). Limits for
+F(v2 ¡1; v1 ¡1). 
+\begin{itemize}
+    \item Limits for
 ¾2
 1
 ¾2
 2
 are 11
 9 ¢4:1114¢F(9; 11), where the upper and lower 21
-2% points of F(9; 11)
-are to be used. The upper point is 3.59. For the lower point, use the fact
+2\% points of F(9; 11)
+are to be used. 
+\item The upper point is 3.59. 
+\item For the lower point, use the fact
 16
 that P(F > F¤) = P( 1
 F < 1
-F¤ ), where F¤ is the critical value. But 1
+F¤ ), where F¤ is the critical value.
+\item But 1
 F is also
-an F-variable, with upper and lower degrees of freedom interchanged. The
+an F-variable, with upper and lower degrees of freedom interchanged. \item The
 upper 21
-2% point of F(11; 9) is 3.92. Hence the required lower 21
-2% points
-1=3:92 = 0:255. The 95% confidence interval is 5:025£0:255 to 5:025£3:59
+2\% point of F(11; 9) is 3.92.
+\item Hence the required lower 21
+2\% points
+1=3:92 = 0.255. 
+\item The 95\% confidence interval is $5.025\times 0.255$ to $5.025\times 3:59$
 
 i.e. (1.2814 to 18.04).
+\end{itemize}
+
 \end{enumerate}
 \end{document}
