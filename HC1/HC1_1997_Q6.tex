@@ -48,14 +48,8 @@ f(x) and F(x).Also find $E(X)$ and $V(X)$.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \begin{enumerate}[(i)]
-\item (i) P(X · ») =
-Z »
-0
-dx
-$\mu$
-= »
-$\mu$
-, for 0 · » · $\mu$; = 0 for » < 0; = 1 for » > $\mu$.
+\item (i) \[ \Pr(X \leq k) = \int^{k}_{0} \frac{1}{\theta} dx\] for $0\leq k \leq \theta$
+$ \Pr(X \leq k) = 0 for k < 0$; $\Pr(X \leq k) = 1 for k > \theta$.
 
 \[E(X) = \int^{\theta}_{0} \frac{x\;dx}{\theta} = \frac{1}{2\theta}\left[ x^2 \right]^{\theta}_{0} = \frac{\theta}{2}\]
 
@@ -76,18 +70,24 @@ x n θ
   
    ,  0 ≤≤ x θ ,
 and deduce the pdf of the sample maximum, X n() say.
+
+
 Show that
-EX
-n nn ( ) , () = + θ 1
-VX
+\[EX
+n nn ( ) , () = + θ 1\]
+\[VX
 n
 nn
 n ()
 ( ) ( ) .() = ++ θ 2 2 12
+\]
+
 Write down a multiple of  X n() which is an unbiased estimator of 
 θ
  and obtain its
 variance.
+
+
 Is  X n() the maximum likelihood estimate? \\ \hline 
   \end{tabular}
 \end{table}
@@ -95,70 +95,68 @@ Is  X n() the maximum likelihood estimate? \\ \hline
 \begin{itemize}
 \item P(X · x) =
 x
-$\mu$ for each item, all are required to be · x, so probability for n items is (x
-$\mu$ )n,
-when 0 · x · $\mu$. 
+$\theta$ for each item, all are required to be · x, so probability for n items is (x
+$\theta$ )n,
+when 0 · x · $\theta$. 
 \item This is F(X(n)), where X(n) is the sample maximum, and
 so f(x(n)) = F
 0(x(n)) = nxn¡1
-$\mu$n , when 0 · x · $\mu$, =0 otherwise.
+$\theta$n , when 0 · x · $\theta$, =0 otherwise.
 \item E[X(n)] =
-Z $\mu$
+Z $\theta$
 0
 nxn
-$\mu$n dx = [ nxn+1
-(n + 1)$\mu$n ]$\mu$
-0 = n$\mu$
+$\theta$n dx = [ nxn+1
+(n + 1)$\theta$n ]$\theta$
+0 = n$\theta$
 n + 1
 ,
 \item E[X2
 (n)] =
-Z $\mu$
+Z $\theta$
 0
 nxn+1
-$\mu$n dx = [ nxn+2
-(n + 2)$\mu$n ]$\mu$
-0 = n$\mu$2
+$\theta$n dx = [ nxn+2
+(n + 2)$\theta$n ]$\theta$
+0 = n$\theta$2
 n + 2
 .
 
 \end{itemize}
 Hence
 \begin{eqnarray*}
-V [X(n)] &=& n\mu^2
-n+2 ¡ ( n\mu
-n+1)2\\ &=& \mu2f n
-n+2 ¡ n2
-(n+1)2 g\\
-&=& \mu2
-(n+1)2(n+2)fn(n + 1)2 ¡ n2(n + 2)g \\ &=& 
-n \mu 2
-(n+1)2(n+2) :
+V \left[X_{(n)}\right] 
+&=& \frac{n\theta^2}{n+2} - \left( \frac{n\theta}{(n+1)^2} \right)^2\\ 
+&=& \theta^2 \left[ \frac{n}{n+2} -  \frac{n^2}{(n+1)^2 }\right]\\
+&=& \frac{\theta^2}{(n+1)^2(n+2)} \left[n(n + 1)^2 - n^2(n + 2)\right] \\ 
+&=& \frac{n \theta^2}{(n+1)^2(n+2)}\\
 \end{eqnarray*}
 
 \begin{itemize}
-\item n+1
-n X(n) is unbiased for estimating $\mu$.
-\item V ar[n+1
-n X(n)] = (n+1
-n )2 n$\mu$2
-(n+1)2(n+2) = $\mu$2
-n(n+2) .
-\item The likelihood of a sample fx1; ¢ ¢ ¢ ; xng is 1
-$\mu$n , (0 · x · $\mu$).
-\item Setting $\hat{\mu} = X(n)$, where is the lowest value of $\mu$ possible on the evidence of
+\item $\displaystyle{ \frac{n+1}{n}X(n) }$ is unbiased for estimating $\theta$.
+\item
+
+\begin{eqnarray*}
+\operatorname{Var} [\frac{n+1}{n} X_{(n)}]  &=&
+\left(\frac{n+1}{n}\right)^2  \frac{n\;\theta^2}{(n+1)^2(n+2)} \\
+&=& \frac{\theta^2}{n(n+2)}\\
+\end{eqnarray*}
+
+\item The likelihood of a sample $\{x1,x_2,\ldots, x_n\}$ is $\frac{1}{\theta^n}$
+$(0 \leq x \leq \theta)$.
+\item Setting $\hat{\theta} = X(n)$, where is the lowest value of $\theta$ possible on the evidence of
 the sample values, gives the largest possible value of the likelihood.
-\item  Hence X(n) is the m.l. estimator.
+\item  Hence $X_{(n)}$ is the m.l. estimator.
 \end{itemize}
 %%%%%%%%%%%%%%%%%%
-\item Method of moments estimator $\hat{\mu}$ is found from setting $\bar{x} = E[x]$, i.e., $\bar{x} = 1/2$
-$\hat{\mu}$
-so that $\hat{\mu} = 2\bar{x}$. 
+\item Method of moments estimator $\hat{\theta}$ is found from setting $\bar{x} = E[x]$, i.e., $\bar{x} = 1/2$
+$\hat{\theta}$
+so that $\hat{\theta} = 2\bar{x}$. 
 
-\[V [\hat{\mu}] = 4V [\bar{x}] = 4
+\[V [\hat{\theta}] = 4V [\bar{x}] = 4
 nV [x] = 4\]
-n ¢ $\mu$2
-12 = $\mu$2=3n.
+n ¢ $\theta$2
+12 = $\theta$2=3n.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 % 1997 Question 6
 
@@ -169,6 +167,7 @@ V(\hat{\theta}) &=& 4 \times V(\bar{x})\\
  &=& \frac{\theta^2}{3n}
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
   \begin{table}[ht!]
  \centering
  \begin{tabular}{|p{15cm}|}
@@ -188,10 +187,10 @@ n
   \end{tabular}
 \end{table}
 %%%%%%%%%%%%%%%%%%
-\item n+1
-n X(n) is unbiased, and X(n) very nearly so if n is at all large; their
-variances are much smaller than that for $\hat{\mu}$, the estimator based on the mean.
-Hence, use X(n) if there are a reasonable number of offcuts; if only few,
+\item $\displaystyle{ \frac{n+1}{n} X_{(n)}}$
+is unbiased, and $X_{(n)}$ very nearly so if n is at all large; their
+variances are much smaller than that for $\hat{\theta}$, the estimator based on the mean.
+Hence, use $X_{(n)}$ if there are a reasonable number of offcuts; if only few,
 multiply by the factor n+1
 n .
 \end{enumerate}
