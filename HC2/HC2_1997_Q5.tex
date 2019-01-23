@@ -47,11 +47,11 @@
 
 \begin{enumerate}[(a)]
 \item  The Central Limit Theorem says that if $\{x_i\}$ are n independent observations,
-all taken from the same distribution with (finite) mean and variance ¹ and
-¾2, then the limiting distribution as n ! 1 of the mean $\bar{x}$ is N(¹; ¾2=n).
+all taken from the same distribution with (finite) mean and variance $\mu$ and
+$\sigma^2$, then the limiting distribution as n ! 1 of the mean $\bar{x}$ is N($\mu$; $\sigma^2$=n).
 
 \begin{itemize}
-\item Therefore if ¹; ¾2 are known, the actual form of the distribution of $\{x_i\}$ is
+\item Therefore if $\mu$; $\sigma^2$ are known, the actual form of the distribution of $\{x_i\}$ is
 not important provided n is large. 
 \item However, if the X distribution is skew,
 n in practice needs to be very large, 500+, whereas if this distribution is
@@ -65,34 +65,36 @@ applied to discrete distributions, e.g. in testing proportions.
 \item  If there are systematic differences between “blocks” or groups of items which
 have to be used in the same experiment, as well as random variation and
 systematic effects of treatments, a linear model (as in 2(a)) needs to contain
-a term for blocks: yij = ¹ + ¿i + ¯j + eij , (i = 1 to v; j = 1 to r), where
+a term for blocks: yij = $\mu$ + ¿i + ¯j + eij , (i = 1 to v; j = 1 to r), where
 every treatment, 1 to v, appears once in every block, 1 to r. A “two-way”
 analysis of variance, to remove blocks as well as treatments from the total
 sum of squares, is required:
-\begin{verbatim}
-    SOURCE OF VARIATION D.F.
-Blocks r ¡ 1
-Treatments v ¡ 1
-Residual (r ¡ 1)(v ¡ 1)
-TOTAL rv ¡ 1
-\end{verbatim}
+\begin{center}
+\begin{tabular}{|c|c|}
+    SOURCE OF VARIATION&  D.F.\\
+Blocks & r - 1\\
+Treatments & v - 1\\
+ Residual & (r - 1)(v - 1)\\
+TOTAL & rv - 1\\
+\end{tabular}
+\end{center}
 
 13
-The feijg are required to be i.i.d. N(0; ¾2), and an estimate of ¾2 is provided
+The feijg are required to be i.i.d. N(0; $\sigma^2$), and an estimate of $\sigma^2$ is provided
 by the residual mean square in this analysis.
 \item  Degrees of freedom is a parameter in a Â2-distribution. The square of a
 N(0; 1) variate is X2
 (1), and the sum of the squares of n independent N(0; 1)0s
 is Â2(
-n). Thus for X = N(¹; ¾2), so that X¡¹
+n). Thus for X = N($\mu$; $\sigma^2$), so that X¡$\mu$
 ¾ = r is N(0; 1) the sum of n
 independent observations
 Xn
 i=1
-(xi ¡ ¹
+(xi ¡ $\mu$
 ¾
 )2 is Â2
-(n). When ¹ is not known and
+(n). When $\mu$ is not known and
 must be replaced by an estimate $\bar{x}$ from a sample,
 Xn
 i=1
@@ -118,30 +120,38 @@ of d.f. as the estimate s2 used in it, e.g. the residual d.f. in the analysis of
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item  Confidence intervals often give more information than significance tests
-based on the same sample of data. When a parameter (e.g. ¹) has been
-estimated (by, e.g. $\bar{x}$) we may set up a Null Hypothesis that ¹ takes a
+based on the same sample of data. 
+\begin{itemize}
+    \item When a parameter (e.g. $\mu$) has been
+estimated (by, e.g. $\bar{x}$) we may set up a Null Hypothesis that $\mu$ takes a
 certain value and then test whether $\bar{x}$ is close enough to this for the NH not
-to be rejected. However, there is a whole range of values of ¹ which would
+to be rejected. 
+\item However, there is a whole range of values of $\mu$ which would
 be consistent with the observed value of $\bar{x}$, and it is this range which forms
-a confidence interval. Fox example, if fxig are taken from N(¹; ¾2), with ¾2
+a confidence interval. 
+\item Fox example, if fxig are taken from N($\mu$; $\sigma^2$), with $\sigma^2$
 known, and their mean is $\bar{x}$, then we know that if i = 1 to n then $\bar{x}$ has the
-distribution N(¹; ¾2=n), so that P(¡1:96 · $\bar{x}$¡¹
+distribution N($\mu$; $\sigma^2$=n), so that P(¡1:96 · $\bar{x}$¡$\mu$
 ¾=
 p
 n
 · +1:96) = 0:95, which
 can be written as P($\bar{x}$ ¡ 1:96¾=
 p
-n · ¹ · $\bar{x}$ + 1:96¾=
+n · $\mu$ · $\bar{x}$ + 1:96¾=
 p
 n) = 0:95, giving a
-95\% confidence interval for the true value of ¹, based on the sample mean
-$\bar{x}$. With probability 0.95, the interval contains ¹. To alter the probability,
-or confidence level, to e.g. 90% or 99% the corresponding r-values (N(0; 1))
-must be used instead of 1.96, e.g. 1.645 and 2.576. Confidence intervals can
+95\% confidence interval for the true value of $\mu$, based on the sample mean
+$\bar{x}$. 
+\item With probability 0.95, the interval contains $\mu$. To alter the probability,
+or confidence level, to e.g. 90\% or 99\% the corresponding r-values (N(0; 1))
+must be used instead of 1.96, e.g. 1.645 and 2.576.
+\item Confidence intervals can
 be set up whenever we know the distribution of a parameter estimate, e.g.
 14
-s2 for ¾2, b for ¯ in linear regression. If an interval is wide relative to the size
+s2 for $\sigma^2$, b for ¯ in linear regression. 
+\item If an interval is wide relative to the size
 of the estimate, the lack of precision is immediately clear; this information
 is hidden in a significance test.
+\end{itemize}
 \end{document}
