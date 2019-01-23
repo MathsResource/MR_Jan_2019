@@ -33,9 +33,9 @@
  
 \hline  
 
-3. (a) A manufacturer of industrial light bulbs wishes to control the variability in the length of life of the bulbs so that its standard deviation σ is less than or equal to 150 hours.  A random sample of 10 bulbs was taken and tested in the laboratory giving the following results in hours:
+3. (a) A manufacturer of industrial light bulbs wishes to control the variability in the length of life of the bulbs so that its standard deviation $\sigma$ is less than or equal to 150 hours.  A random sample of 10 bulbs was taken and tested in the laboratory giving the following results in hours:
 \[\{2100,  2302,  1951,  2415,  2067,  1911,  2149,  2489,  2083,  2124\}\]
-Test the hypothesis H0: $\sigma \leq 150$ hours against a suitable alternative.  Explain your results and state any assumptions which you made.
+Test the hypothesis $H_0: \sigma \leq 150$ hours against a suitable alternative.  Explain your results and state any assumptions which you made.
 
 \\ \hline
   
@@ -45,13 +45,11 @@ Test the hypothesis H0: $\sigma \leq 150$ hours against a suitable alternative. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}
 \item If we can assume that the lifetime distribution for the bulbs is normal with variance $\sigma^2$,
-and all observations are independent of one another, then (n ¡ 1)s2=$\sigma^2$ will be distributed Â2
-n¡1.
-Here n=10, and on H0 we take $\sigma^2$ = 1502. Then effectively we test H0 : $\sigma^2$ · 1502 against
+and all observations are independent of one another, then $(n - 1)s^2=\sigma^2$ will be distributed $\chi^2_{(n-1)}$.
+Here n=10, and on H0 we take $\sigma^2$ = $150^2$. Then effectively we test $H_0 : \sigma^2$ · 1502 against
 H1 : $\sigma^2$ > 1502.
-For the data,(n - 1)s2 = 9 £ 35410:99. Hence Â2
-(9) = 14:16, which is not significant at the 5%
-level. Therefore we do not have enough evidence to reject H0 which says ¾ · 150.
+For the data, $(n - 1)s^2 = 9 \times 35410.99$. Hence $\chi^2_{(9)} = 14.16$, which is not significant at the 5\%
+level. Therefore we do not have enough evidence to reject $H_0$ which says ¾ · 150.
 \begin{table}[ht!]
  
 \centering
@@ -87,15 +85,12 @@ of variances $\sigma^2$
 1 > $\sigma^2$
 2.
 \begin{itemize}
-\item From the data, s21
-= 0:012536 and s22
-= 0:003590.
-\item Assuming that the distributions of impurity levels are normal, s21
-=s22
+\item From the data, $s^2_1= 0.012536$ and $s^2_2= 0.003590$.
+\item Assuming that the distributions of impurity levels are normal, $s^2_1=s^2_2$
+
 is distributed as F(11,11).
-s21
-s22
-= 3:49¤, significant at the 5\% level so that H0 is rejected in favor of H1: there is evidence of a
+The test statistic is \[ \frac{s^2_1}{s^2_2}
+= 3.49\], significant at the 5\% level so that $H_0$ is rejected in favor of H1: there is evidence of a
 reduction in process variability.
 \end{itemize}
 \end{enumerate}
