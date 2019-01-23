@@ -87,8 +87,13 @@ p
 \hline  
 
 (b) In a trial of anti-inflammatory drugs in the treatment of arthritis, 200 arthritic patients were allocated at random to receive one of two treatments.  After one month each patient was asked to state whether their arthritis had improved.  The results were as follows:
-Improved           Not improved
-Treatment A     45  55 Treatment B     63  37
+\begin{center}
+\begin{tabular}{|c|c|c|}
+ & Improved  &          Not improved \\ \hline
+Treatment A   &   45 &  55 \\ \hline
+Treatment B &     63 &  37\\ \hline
+\end{tabular}
+\end{center}
 Apply a chi-squared test to these data and explain your results.
 \\ \hline
   
@@ -97,11 +102,15 @@ Apply a chi-squared test to these data and explain your results.
 \end{table}
 \item On the Null Hypothesis of no difference in improvement under the two treatments, expected
 numbers are calculated:
-7
-OBS(EXP) Improved Not Improved TOTAL
-A 45(54) 55(46) : 100
-B 63(54) 37(46) : 100
-108 92 200
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+OBS(EXP) & Improved & Not Improved&  TOTAL\\ \hline
+A & 45(54) & 55(46) & 100\\ \hline
+B & 63(54) & 37(46) & 100\\ \hline
+Total & 108 & 92 & 200\\ \hline
+\end{tabular}
+\end{center}
+
 Â2
 (1) =
 P (O¡E)2
@@ -112,6 +121,6 @@ E = 92( 2
 46 ) = 6:52¤.
 (Â2
 (1) = 5:80 if Yates’ correction is used: not essential).
-We have evidence to reject the Null Hypothesis at the 5% significance level. This is an indication
+We have evidence to reject the Null Hypothesis at the 5\% significance level. This is an indication
 of treatment difference.\end{enumerate}
 \end{document}
