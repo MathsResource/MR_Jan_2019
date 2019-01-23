@@ -41,8 +41,7 @@ water.
 
 
 \begin{center}
-\begin{tabular}{|c|c|c|c|c|c|c|c|}
-
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 	&		&		&		&		&		&		&	Sum	&	 Sum of
 squares	\\  \hline
 Storage 1 	&	19	&	22	&	28	&	21	&	19	&	19	&	128	&	2792	\\  \hline
@@ -51,7 +50,7 @@ Storage 3 	&	22	&	24.9	&	22.7	&	21.1	&		&		&	90.7	&	2064.51	\\  \hline
 Storage 4	&	19	&	24	&	17.5	&		&		&		&	60.5	&	1243.25	\\  \hline
 \end{tabular}
 \end{center}
-(Source: M.J. Crowder, Applied Statistics, No 3, 1996)
+(Source. M.J. Crowder, Applied Statistics, No 3, 1996)
 
 (i) Carry out a one-way analysis of variance of these data, state the assumptions you
 have made and explain what you conclude as a result of your analysis.
@@ -63,57 +62,56 @@ measurements in sample 1 had been rounded?
     
 \end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-. (a) yij = ¹ + ¿i + ²ij , where yij is the observation measured as the jth of the
+. (a) $yij = ¹ + ¿i + \epsilon_{ij}$, where yij is the observation measured as the $j-$th of the
 items receiving treatment i; ¹ is a grand (overall) mean term; ¿i is an effect
 10
-(deviation from mean) due to treatment i; ²ij are i.i.d. N(0; ¾2) residual
-terms. There are i = 1 to v treatments, ri replicates of each, and
+(deviation from mean) due to treatment i; $\epsilon_{ij}$ are i.i.d. $N(0; \sigma^2)$ residual
+terms. There are i = 1 to v treatments, $r_i$ replicates of each, and
 Xv
 i=1
 ri = N,
 the total number of items in the experiment.
 (b)
-“Treatment” ri
-P
-yij
-P
-y2
-ij ¯yi
-1 6 128:0 2792:00 21:33
-2 4 79:4 1582:06 19:85
-3 4 90:7 2064:51 22:68
-4 3 60:5 1243:25 20:17
-17 358:6 7681:82
-Although results 1 are rounded to whole numbers, analysis of variance will
-have to assume that all observations on all treatments have the same variance
-¾2. Also the material used in the trial should have been selected at
-random from what was available, and the samples examined under identical
-conditions in random order.
-(i) Total corrected S:S: = 7681:82¡G2=N = 7681:82¡7564:35 = 117:47. “Treatments”
-S:S: =
-1282
-6
-+
-79:42 + 90:72
-4
-+
-60:52
-3
-¡
-G2
-N
-= 7583:4625 ¡ 7564:35 = 19:11.
-Analysis of Variance D:F: S:S: M:S:
-Treatments(Storages) 3 19:11 6:371 F < 1
-Residual 13 98:36 7:566 = ˆ¾2
-TOTAL 16 117:47
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+“Treatment” & $r_i$ & $\sum 
+y_{ij}$ & $\sum 
+y^2_{ij}$ & $\bar{y}_i$\\ \hline
+
+1	&	6	&	128	&	2792	&	21.33	\\ \hline
+2	&	4	&	79.4	&	1582.06	&	19.85	\\ \hline
+3	&	4	&	90.7	&	2064.51	&	22.68	\\ \hline
+4	&	3	&	60.5	&	1243.25	&	20.17	\\ \hline
+	&	17	&	358.6	&	7681.82	&		\\ \hline
+\end{tabular}
+\end{center}
+
+Although results 1 are rounded to whole numbers, analysis of variance will have to assume that all observations on all treatments have the same variance $\sigma^2$. Also the material used in the trial should have been selected at
+random from what was available, and the samples examined under identical conditions in random order.
+(i) 
+\[\mbox{Total corrected S.S} = 7681.82-\frac{G^2}{N} = 7681.82- 7564.35 = 117.47\]
+\[\mbox{ “Treatments” S.S.} = \frac{1282}{6} + \frac{79.4^2 + 90.7^2}{4} \frac{60.5^2}{3}-\frac{G^2}{N}
+= 7583.4625 - 7564.35 = 19.11.\]
+
+Analysis of Variance 
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}\hline
+ & D.F.&  S.S.&  M.S. &  F \\\hline
+Treatments &  3&  19.11 & 6.371 &  $< 1$\\
+(Storages) & &&&\\ \hline
+Residual & 13 & 98.36&  7.566& ( = $\hat{\sigma}^2$)\\ \hline
+TOTAL & 16 & 117.47 & & \\ \hline
+\end{tabular}
+\end{center}
+
+
 We are not given any specific contrasts among storages to be tested, but
-even if the whole Treatments S:S: were due to one contrast this would still
-not be significant as F(1;13) ( 19:11
-7:566 = 2:52, less than the 5\% point 4.67). We
+even if the whole Treatments S.S. were due to one contrast this would still
+not be significant as F(1;13) ( 19.11
+7.566 = 2.52, less than the 5\% point 4.67). We
 may say confidently, that there are no significant differences among these
 “Treatments”.
 (ii) Given the result in (i), there could be no change to the inference. [In a
 borderline case, some intelligence in looking at individual differences may be
-called for, as ¾2 may be slightly overestimated.]
+called for, as $\sigma^2$ may be slightly overestimated.]
 \end{document}
