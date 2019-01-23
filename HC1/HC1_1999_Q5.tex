@@ -57,8 +57,8 @@ The cumulative distribution function is given by
 
 
 \newpage
-Maximum likelihood[edit]
-The likelihood function for λ, given an independent and identically distributed sample x = (x1, ..., xn) drawn from the variable, is: 
+\subsection*{Maximum likelihood}
+The likelihood function for $\lambda$, given an independent and identically distributed sample $x = (x_1, \ldots, x_n)$ drawn from the variable, is: 
 \[ {\displaystyle L(\lambda )=\prod _{i=1}^{n}\lambda \exp(-\lambda x_{i})=\lambda ^{n}\exp \left(-\lambda \sum _{i=1}^{n}x_{i}\right)=\lambda ^{n}\exp \left(-\lambda n{\overline {x}}\right),} \]
 
 where: 
@@ -94,7 +94,7 @@ Pn
 i=1
 xi) = ¸ne¡n¸x ln(L) = n ln ¸ ¡ n¸x
 d
-\[d¸ (\ln(L)) = 1=¸ ¡ nx = 0 for \lambda¸ = 1=\lambda x d2\]
+\[ \frac{d¸ (\ln(L))}{d} = 1=¸ ¡ nx = 0 for \lambda¸ = 1=\lambda x d2\]
 \[d¸2 (\ln(L)) = ¡n=¸2 < 0 \]for all ¸, 
 so there is a maximum for $\lambda$¸
 
@@ -108,13 +108,13 @@ so there is a maximum for $\lambda$¸
 \noindent \textbf{Part (c)} \\Show that the second derivative of the log-likelihood with respect to $\lambda$ is 
 given by 
  
-\[   2 2 2 ln λλ n d Ld −= . \]
+\[  \frac{d^2\ln L}{d\lambda^2} = - \frac{n}{\lambda^2} \]
  
-  You are given that, if n is large, 
+  You are given that, if $n$ is large, 
  
-   ) ln ,(~ˆ 1 2 2 −       − λ λλ d Ld N approximately. 
+ \[ \hat{\lambda} \sim N \left(\lambda , - \left[\frac{d^2\ln L}{d\lambda^2}   \right] ^{-1}   \right) \mbox{approximately}.    \]  
  
-  By replacing λ by ˆ λ  in the variance of this distribution, obtain an approximate 95\% confidence interval for λ . (7) 
+  By replacing $\lambda$ by $\hat{\lambda}$  in the variance of this distribution, obtain an approximate 95\% confidence interval for $\lambda$ . 
   
 \\ \hline 
    \end{tabular}
