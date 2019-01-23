@@ -58,13 +58,20 @@ appropriate?
 \end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Pair A B C D E F G H I J
-Sign (Gp.2 - Gp.1) + + + ¡ ¡ + ¡ + + + 7+; 3¡
-Difference +3 +8 +5 ¡1 ¡1 +25 ¡1 +3 +19 +10
-Rank 41
-2 7 6 2 2 10 2 41
-2 9 8
-11
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}																				 \hline
+Pair 	&	A 	&	B	&	 C 	&	D 	&	E 	&	F 	&	G 	&	H 	&	I 	&	J	&		\\
+	&		&		&		&		&		&		&		&		&		&		&		\\ \hline
+Sign  	&	 +	&	 + 	&	+ 	&	- 	&	- 	&	+ 	&	- 	&	+ 	&	+ 	&	+ 	&	(7"+", 3"-")	\\
+(Gp.2 - Gp.1)	&		&		&		&		&		&		&		&		&		&		&		\\ \hline
+Difference 	&	3	&	8	&	5	&	-1	&	-1 	&	25	&	-1 	&	3	&	19	&	10	&		\\
+	&		&		&		&		&		&		&		&		&		&		&		\\ \hline
+Rank 	&	$4\frac{1}{2}$	&	7	&	6	&	2	&	2	&	10	&	2	&	$4\frac{1}{2}$ 	&	9	&	8	&		\\
+	&		&		&		&		&		&		&		&		&		&		&		\\ \hline
+\end{tabular}
+\end{center}
+
 \begin{enumerate}
 
 \item  The number of + signs should be binomial (n = 10; p = 1=2) on the Null
@@ -74,20 +81,31 @@ Hypotheses of no difference between groups (i.e. training methods).
 a continuity correction, find P(r ¸ 7) in N(5; 5=2):
 r = 6 1
 2
-¡5
+-5
 p
 2:5
 = 1:5
 1:581 = 0:949, n.s., so no evidence of difference.
-\item The exact probability P(7)+P(8)+P(9)+P(10) in B(10; 1=2) = 1
-210 (( 10
-7 )+
-( 10
-8 ) + ( 10
-9 ) + ( 10
-10 )) = 1
-210 (120 + 45 + 10 + 1) = 176
-1024 = 0:172. 
+\item The exact probability P(7)+P(8)+P(9)+P(10) in B(10; 1=2)  
+\begin{eqnarray*} 
+P(7)+P(8)+P(9)+P(9) &=& 
+\left[ { 10 \choose 2}
+\left( \frac{1}{2} \right) ^2 \left(\frac{1}{2}\right)^2 \right]+ 
+\left[ { 10 \choose 3}
+\left( \frac{1}{2} \right) ^3  \left(\frac{1}{2}\right)^1 \right]\\
+& & +\left[ { 10 \choose 4}
+\left( \frac{1}{2} \right) ^4  \left(\frac{1}{2}\right)^{0} \right]
++\left[ { 10 \choose 4}
+\left( \frac{1}{2} \right) ^4  \left(\frac{1}{2}\right)^{0} \right]
+\\  &=& 
++ \left( \frac{1}{2} \right) ^2  \left(\frac{1}{2}\right)^{3}
++ \left( \frac{1}{2} \right) ^3  \left(\frac{1}{2}\right)^{2}\\
+& & + \left( \frac{1}{2} \right) ^4  \left(\frac{1}{2}\right)^{1}
++ \left( \frac{1}{2} \right) ^5  \left(\frac{1}{2}\right)^{0} 
+\\ &=&  \frac{(120 + 45 + 10 + 1)}{1024}    \\
+ &=& \frac{176}{1024} \\
+ &=& 0.172.
+\end{eqnarray*}
 \item So the
 probability of the given result in a 2-tail test (A. H. “there is a difference
 between groups”, direction not specified) is 0.344. 
@@ -95,22 +113,18 @@ between groups”, direction not specified) is 0.344.
 difference.
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%
-\item  The sum of the positive ranks is 49, and of negative 6. The value 6 is
-(approximately) N( 1
-4n(n + 1); 1
-24n(n + 1)(n + 2)), making no allowance for
+\item  The sum of the positive ranks is 49, and of negative 6. 
+\item The value 6 is
+(approximately) $N( \frac{n(n+1)}{4} ,\frac{1}{24}(n + 1)(n + 2)$), making no allowance for
 the ties in the ranks (3 of -1 and 2 of +3). n = 10, the number of nonzero
-differences, so n(n+1)
-4 = 27:5 and 1
-24n(n + 1)(n + 2) = 96:25. Using a
-continuity correction, r = 6p:5¡27:5
-96:25
-= ¡21:0
-9:81 = ¡2:14¤.
+differences, so $\frac{n(n+1)}{4}  = 27.5 $
+ and $\frac{1}{24}(n + 1)(n + 2) = 96.25$. 
+ \item Using a
+continuity correction, \[r = \frac{6.5-27.5}{\sqrt{96.25} }= \frac{-21.0}{9.81} = -2.14.\]
 \begin{itemize}
     \item At the 5\% level, there is significant evidence against the N. H. [Using the
 Wilcoxon table, the critical number is 8, and 6, being less than this, is
-significant at 5%.]
+significant at 5\%.]
 \item This test uses the information on numerical sizes of differences, whereas the
 sign test does not.
 \item All the negative ones were very small.
