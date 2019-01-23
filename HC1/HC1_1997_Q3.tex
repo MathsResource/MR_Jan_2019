@@ -40,7 +40,7 @@ State the distribution of the number of children with blue eyes and find the pro
 
 
 \begin{enumerate}[(a)]
-\item $p(B) = p = 1/4$. Family size $n = 5$. 
+\item $\Pr(B) = p = 1/4$. Family size $n = 5$. 
 The distribution of X, the number with blue
 eyes is binomial (n = 5; p = 1/4).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -52,13 +52,14 @@ eyes is binomial (n = 5; p = 1/4).
       \end{tabular}
     \end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
-\item \[P(X=0) = \left(\frac{3}{4}\right)^5 = \frac{243}{1024} \], so 
+\item \[\Pr(X=0) = \left(\frac{3}{4}\right)^5 = \frac{243}{1024} \] 
+Therefore we can say that
 \begin{eqnarray*}
-P(\mbox{at least 1 with blue eyes}) 
-&=& P(X\geq 1) \\
-&=& 1 - P(X=0)\\ 
+\Pr(\mbox{at least 1 with blue eyes}) 
+&=& \Pr(X\geq 1) \\
+&=& 1 - \Pr(X=0)\\ 
 &=& \frac{781}{1024}\\
-&=& 0:7627.\\
+&=& 0.7627.\\
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \begin{table}[ht!]
@@ -70,22 +71,24 @@ P(\mbox{at least 1 with blue eyes})
       \end{tabular}
     \end{table}
 \item  
-\begin{eqnarray*}
-P(at least 3 B j | at least 1 B)&=&P(r ¸ 3)\\
-&=&P(r ¸ 1)\\ 
-&=& P(r¸3)\\
-&=& \frac{781}{1024}.
-\end{eqnarray*}
+\[
+P(\mbox{at least 3 B} | \mbox{at least 1 B})= \frac{\Pr(X \geq 3)}{\Pr( X \geq 1)}
+= \frac{\Pr(X \geq 3)}{\frac{781}{1024}}.
+\]
 %%%%%%%%%%%%%%%
 \begin{eqnarray*}
-P(X \in \{3,4,5\} &=&  P(X=3) + P(X=4) + P(X=5)\\
-&=& {5 \choose 3} \left(\frac{1}{4}\right)^2 + \left(\frac{}{}\right)^2 + {5 \choose 3} \left(\frac{}{}\right)^2 + \left(\frac{}{}\right)^2 + {5 \choose 3} \left(\frac{}{}\right)^2 + \left(\frac{}{}\right)^2\\
-&=& {5 \choose 3} \left(\frac{}{}\right)^2 + \left(\frac{}{}\right)^2 + {5 \choose 3} \left(\frac{}{}\right)^2 + \left(\frac{}{}\right)^2 + {5 \choose 3} \left(\frac{}{}\right)^2 + \left(\frac{}{}\right)^2\\
-&=& \frac{1}{1024} \left[ 90 + 15 + 1 \right] \\
+\Pr(X \in \{3,4,5\}) &=&  \Pr(X=3) + \Pr(X=4) + \Pr(X=5)\\\\
+&=& \left[ {5 \choose 3} \left(\frac{1}{4}\right)^3  \left(\frac{3}{4}\right)^2 \right]+ 
+    \left[ {5 \choose 4} \left(\frac{1}{4}\right)^4  \left(\frac{3}{4}\right)^1 \right]+ 
+    \left[ {5 \choose 5} \left(\frac{1}{4}\right)^5  \left(\frac{3}{4}\right)^0\right]\\\\
+&=& \left[ 10 \times \left(\frac{1}{4}\right)^3  \left(\frac{3}{4}\right)^2\right] + 
+    \left[ 5 \times \left(\frac{1}{4}\right)^4  \left(\frac{3}{4}\right)\right] + 
+    \left[ 1 \times \left(\frac{1}{4}\right)^5  \times 1 \right]\\\\
+&=& \frac{1}{1024} \left[ 90 + 15 + 1 \right] \\\\
 &=& \frac{106}{1024}
 \end{eqnarray*}
 
-So required answer is \[ \frac{106/1024}{781/1024} = \frac{106}{781} = 0.1357. \]
+So required answer is \[ P(\mbox{at least 3 B} | \mbox{at least 1 B}) = \frac{106/1024}{781/1024} = \frac{106}{781} = 0.1357. \]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
@@ -171,8 +174,20 @@ f1£5£(
 4
 )
 5
-
-
+{
+\large
+\begin{center}
+\begin{tabular}{|c|c|c|} \hline
+$x$ & $\Pr(x)$ & $x \Pr(x)$\\ \hline
+1&  $ {5 \choose 1}  \left( \frac{1}{4} \right) ^1  \left(\frac{3}{4}\right)^{4} = \frac{81}{1024}$&  $\frac{405}{1024}$ \\\hline
+2&  ${5 \choose 2}\left( \frac{1}{4} \right) ^2  \left(\frac{3}{4}\right)^{3} = \frac{270}{1024}$&  $\frac{540}{1024}$ \\\hline
+3&  ${5 \choose 3}\left( \frac{1}{4} \right) ^3  \left(\frac{3}{4}\right)^{2} = \frac{90}{1024}$&  $\frac{270}{1024}$ \\\hline
+4&  ${5 \choose 4}\left( \frac{1}{4} \right) ^4  \left(\frac{3}{4}\right)^{1}= \frac{15}{1024}$&  $\frac{60}{1024}$\\ \hline
+5& ${5 \choose 5}\left( \frac{1}{4} \right) ^5  \left(\frac{3}{4}\right)^{0} = \frac{1}{1024}$&  $\frac{5}{1024}$ \\\hline
+Total & & $\frac{1280}{1024}$\\ \hline
+\end{tabular}
+\end{center}
+}
 
 \begin{eqnarray*} 
 P(2)+P(3)+P(4) &=& 
