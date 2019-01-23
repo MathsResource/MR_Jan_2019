@@ -64,9 +64,14 @@ follow a Poisson distribution.
 160
 = 1.5
 Expected frequencies are 160e-1.5(1.5)r=r! for r = 0; 1; ¢ ¢ ¢.
-r : 0 1 2 3 4 ¸ 5 TOTAL
-Obs: 38 49 43 17 11 2 160
-Exp: 35.70 53.55 40.16 20.08 7.53 2:98 160
+
+\begin{center}
+\begin{tabular}{cc|cc|cc|cc}
+r : &0 & 1 & 2 & 3 & 4 & $\geq¸ 5$ & TOTAL\\
+Obs:& 38 & 49 & 43 & 17 & 11 & 2&  160\\
+Exp: &35.70& 53.55& 40.16 & 20.08 & 7.53&  2:98 160 \\
+\end{tabular}
+\end{center}
 (The last two cells may be combined, but this is not really necessary.)
 Â2 has 4 d.f., since 1 parameter had to be estimated and the totals of Obs
 and Exp have to be the same.
@@ -75,8 +80,10 @@ and Exp have to be the same.
 (4) 
 
 \begin{eqnarray*}
-\chi^2 &=& \frac{(38-35.70)^2}{35.70} + \frac{(49-53.55)^2}{53.55} + \frac{(43-40.16)^2}{40.16} + \frac{(17-20.08)^2}{20.08} + \frac{(11-7.53)^2}{7.53} + \frac{(2-2.98)^2}{2.98}\\
-&=& \frac{(38-35.70)^2}{35.70} + \frac{(49-53.55)^2}{53.55} + \frac{(43-40.16)^2}{40.16} + \frac{(17-20.08)^2}{20.08} + \frac{(11-7.53)^2}{7.53} + \frac{(2-2.98)^2}{2.98}\\
+\chi^2 &=& \frac{(38-35.70)^2}{35.70} \;+\; \frac{(49-53.55)^2}{53.55} \;+\; \frac{(43-40.16)^2}{40.16} +\\ 
+& & \frac{(17-20.08)^2}{20.08} \;+\; \frac{(11-7.53)^2}{7.53} \;+\; \frac{(2-2.98)^2}{2.98}\\\\
+&=& \frac{(38-35.70)^2}{35.70} \;+\; \frac{(49-53.55)^2}{53.55} \;+\; \frac{(43-40.16)^2}{40.16} +  \\ 
+& &  \frac{(17-20.08)^2}{20.08} \;+\; \frac{(11-7.53)^2}{7.53} \;+\; \frac{(2-2.98)^2}{2.98}\\\\
 &=& 3:13;
 \end{eqnarray*}
 not significance.
