@@ -32,7 +32,7 @@
 Y x e i n i i i = + = β , ,..., , 1
 where the ei are independent Normally distributed error terms with mean zero.
 (i) If the ei have constant known variance 
-$\sigma^2$, show that the maximum likelihood (ML)
+$\sigma^2$, show that the max_{i}mum likelihood (ML)
 estimate of 
 $\beta$
  minimises ei i n 2 1= ∑ and is given by
@@ -57,6 +57,53 @@ n =
       \end{tabular}
     \end{table}
     
+
+    
+
+
+\begin{framed}
+In the case of simple regression, the formulas for the least squares estimates are 
+\[{\displaystyle {\widehat {\beta }}_{1}={\frac {\sum (x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}{\sum (x_{i}-{\bar {x}})^{2}}}{\text{ and }}{\widehat {\beta }}_{0}={\bar {y}}-{\widehat {\beta }}_{1}{\bar {x}}} \]
+
+where 
+$ {\displaystyle {\bar {x}}} $
+ is the mean (average) of the 
+$ {\displaystyle x} $
+ values and 
+${\displaystyle {\bar {y}}}$ 
+ is the mean of the 
+$ {\displaystyle y} $
+ values.
+
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{enumerate}[(i)]
+\item 7. (i) $Y_i = \beta\;x_i + e_i$ for $i = \{1; 2; \ldots; n\}$, with $\{e_i\}$ i.i.d. $N(0, \sigma^2)$.
+
+Likelihood
+\[ L = \prod^n_{i=1} \left[ \frac{1}{\sigma \sqrt{2\pi}} exp\left( - \frac{(y_i - \beta\;x_i)^2}{2\sigma^2}   \right)   \right] \]
+
+\[lnL = \Lambda = -n \ln(\sigma \sqrt{2\pi}) - 1
+2\sigma^2\sum^{n}_{i=1}(yi - \beta\;x_i)2.\]
+
+\[
+\frac{\partial \Lambda}{\partial \beta} \;=\; 0 + \frac{1}{2 \sigma^2}2 \sum (y_i - \beta\;x_i)x_i\]
+1
+2\sigma^2
+¢ 2
+\sum^{n}_{i=1}(y_{i}- \beta\;x_{i})x_{i}\] and is zero when
+P
+$(y_{i}- \hat{\beta}\;x_{i})x_{i} = 0$ i.e.
+
+\[\sum y_{i}x_{i} = \beta \sum x_{i}^2\] or $\hat{\beta}1 =
+- \frac{\sum y_i\;x_i}{\sum x_i^2}
+.$
+\[ \frac{\partial^2\Lambda}{\partial^2 \beta} = - \frac{\sum x_i^2}{\sigma^2}, \]
+
+confirming maximum.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
@@ -64,7 +111,7 @@ n =
 (ii) If instead the variance of ei is given by 
 σ
 2
-xi ,  i = 1, …, n,  show that the
+x_{i} ,  i = 1, …, n,  show that the
 ML estimate of 
 β
  minimises 
@@ -72,10 +119,58 @@ e x i ii n 2 1= ∑ and is given by
 ˆ β 2 =   
 y x
 ,
-where x and y are the sample mean values of xx n1 ,..., and yy n1 ,..., respectively. \\ \hline 
-      \end{tabular}
-    \end{table}
-    
+where x and y are the sample mean values of xx n1 ,..., and yy n1 ,..., respectively. 
+\\ \hline 
+\end{tabular}
+\end{table}
+\item  If now feig are N(0; \sigma2x_{i}),
+Likelihood
+\[ L = \prod^n_{i=1} \left[ \frac{1}{\sigma \sqrt{2\pix_i}} exp\left( - \frac{(y_i - \beta\;x_i)^2}{2x_i\sigma^2}   \right)   \right]\]
+
+and\[ \Lambda = -n ln(\sigma
+p
+\sqrt{2\pi}) ¡ n
+2
+\sum^{n}_{i=1} \ln x_{i} -
+\frac{1}{2\sigma^2} \sum^{n}_{i=1} \frac{(y_{i}- \beta\;x_{i})2}{x_{i}}.
+\]
+
+\[\frac{\partial\;\Lambda}{\partial \beta}
+= 0 + 0 +
+\frac{1}{2\sigma^2}
+\sum^{n}_{i=1} \frac{1}{x_{i}}
+\frac{(y_{i}- \beta\;x_{i})^2}{x_{i}} =
+\frac{1}{\sigma^2} \sum^{n}_{i=1}(y_{i}- \beta\;x_{i}).\]
+This is zero when\[
+\sum^{n}_{i=1}(y_{i}- \hat{\beta}\;x_{i}) = 0 i.e.
+X
+yi = \hat{\beta}
+X
+x_{i}\] or\[ \hat{\beta}^2 =
+P
+Pyi
+x_{i}
+.
+\]
+
+\[\frac{\partial^2\Lambda}{\partial \beta^2} = \frac{\sum x_i}{2\sigma^2}\] confirming maximum.
+\begin{itemize}
+\item The first case (i) has $L = Constant - \frac{1}{2\sigma^2} \sum {e^2_i}$
+considered as a function of $\beta$;
+\item similarly case (ii) has $L = Constant - \frac{1}{2\sigma^2} \sum \frac{e^2_i}{x_{i}}$
+
+\item Considering as a function
+of $\beta$. 
+\item Thus L is maximized when (i)
+P
+e2
+i or (ii)
+P
+e2
+i =x_{i} is minimized (note
+the - sign).
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%
     
   \begin{table}[ht!]
      \centering
@@ -94,165 +189,14 @@ Plot the data and calculate $\hat{\beta}_1$ and $\hat{\beta}_2$ .  Which of the 
 \\ \hline
       \end{tabular}
     \end{table}
-
-\begin{framed}
-In the case of simple regression, the formulas for the least squares estimates are 
-\[{\displaystyle {\widehat {\beta }}_{1}={\frac {\sum (x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}{\sum (x_{i}-{\bar {x}})^{2}}}{\text{ and }}{\widehat {\beta }}_{0}={\bar {y}}-{\widehat {\beta }}_{1}{\bar {x}}} \]
-
-where 
-$ {\displaystyle {\bar {x}}} $
- is the mean (average) of the 
-$ {\displaystyle x} $
- values and 
-${\displaystyle {\bar {y}}}$ 
- is the mean of the 
-$ {\displaystyle y} $
- values.
-
-\end{framed}
-\begin{enumerate}[(i)]
-\item 7. (i) Yi = ¯xi + ei, i = 1; 2; ¢ ¢ ¢ ; n, feig i.i.d. N(0; ¾2).
-\[Likelihood L =
-Yn
-i=1
-f
-1
-¾
-p
-2¼
-exp[¡
-(yi ¡ ¯xi)2
-2¾2 ]g,\]
-\[lnL = ¤ = ¡n ln(¾
-p
-2¼) ¡ 1
-2¾2
-Xn
-i=1
-(yi ¡ ¯xi)2.\]
-
-\[
-\frac{\partial \Lambda}{\partial \beta}
-
-= 0 +
-1
-2¾2
-¢ 2
-Xn
-i=1
-(yi ¡ ¯xi)xi\] and is zero when
-P
-(yi ¡ ˆ ¯xi)xi = 0 i.e.
-
-\[X
-yixi = ˆ ¯
-X
-xi
-2 or ¯ˆ1 =
-P
-Pyixi
-x2
-i
-.\]
-\[@2¤
-@¯2 = ¡
-P
-x2
-i
-¾2 , confirming maximum.\]
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item  If now feig are N(0; ¾2xi),
-L =
-Yn
-i=1
-f
-1
-¾
-p
-2¼xi
-exp[¡
-(yi ¡ ¯xi)2
-2xi¾2 ]g
-and ¤ = ¡n ln(¾
-p
-2¼) ¡ n
-2
-Xn
-i=1
-ln xi ¡
-1
-2¾2
-Xn
-i=1
-(yi ¡ ¯xi)2
-xi
-.
-@¤
-@¯
-= 0 + 0 +
-1
-2¾2
-¢
-Xn
-i=1
-1
-xi
-2(yi ¡ ¯xi)xi =
-1
-¾2
-Xn
-i=1
-(yi ¡ ¯xi).
-This is zero when
-X
-(yi ¡ ˆ ¯xi) = 0 i.e.
-X
-yi = ˆ ¯
-X
-xi or ¯ˆ2 =
-P
-Pyi
-xi
-.
-6
-@2¤
-@¯2 = ¡
-P
-xi
-¾2 , confirming maximum.
-\begin{itemize}
-\item The first case (i) has L = Constant¡ 1
-2¾2
-P
-e2
-i , considered as a function of ¯;
-\item similarly case (ii) has L = Constant ¡ 1
-2¾2
-P e2
-i
-xi
-. 
-\item Considering as a function
-of ¯. 
-\item Thus L is maximized when (i)
-P
-e2
-i or (ii)
-P
-e2
-i =xi is minimized (note
-the - sign).
-\end{itemize}
-%%%%%%%%%%%%%%%%%%%%%%%%%
 \item 
 SUM
 \begin{center}
-\begin{tabular}{c|cccc|c|c|c|c|c|c|}
-X & 4.3& 4.9& 6.5& 5.7& 7.2& 8.3 &8.4 &9.6 &10.1 &  65.0\\
-Y & 123 & 156 & 183 & 183 & 204&  234 & 270& 273 & 324 & 1950\\
-XY & 528.9 & 764.4& 1043.1 & 1189.5& 1468.8& 1942.2 & 2268.0& 2620.8& 3272.4 & 15098.1\\
-X2 & 18.49& 24.01& 32.49& 42.25& 51.84 & 68.89&  70.56& 92.16& 102.01 & 502.70\\
+\begin{tabular}{c|c|c|c|c|c|c|c|c|c|c|}\hline
+X & 4.3& 4.9& 6.5& 5.7& 7.2& 8.3 &8.4 &9.6 &10.1 &  65.0\\ \hline
+Y & 123 & 156 & 183 & 183 & 204&  234 & 270& 273 & 324 & 1950\\ \hline
+XY & 528.9 & 764.4& 1043.1 & 1189.5& 1468.8& 1942.2 & 2268.0& 2620.8& 3272.4 & 15098.1\\ \hline
+X2 & 18.49& 24.01& 32.49& 42.25& 51.84 & 68.89&  70.56& 92.16& 102.01 & 502.70\\ \hline
 \end{tabular}
 \end{center}
 
