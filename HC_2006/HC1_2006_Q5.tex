@@ -95,7 +95,7 @@ E(X-1) &=&  \sum^{\infty}_{x=0} x(x-1)\frac{e^{-\lambda}\lambda^{x}}{x!}  \\
 
 \noindent
 
-(ii) Given a random sample of values x1, x2, …, xn from this distribution, obtain the maximum likelihood estimator (MLE) of λ, say. λˆ
+(ii) Given a random sample of values $x_1, x_2, \ldots, x_n$ from this distribution, obtain the maximum likelihood estimator (MLE) of $\lambda$, say. $\hat{lambda}$
 \\ \hline
       
 \end{tabular}
@@ -104,7 +104,9 @@ E(X-1) &=&  \sum^{\infty}_{x=0} x(x-1)\frac{e^{-\lambda}\lambda^{x}}{x!}  \\
 
 \item  \[1!ixniieLx$\lambda$$\lambda$−==Π, \]and hence . 1loglogconstantniiLnx$\lambda$$\lambda$==−++Σ
 logixdLnd$\lambda\]
-\[\lambda$Σ∴=−+\] which on setting equal to zero gives that the maximum likelihood estimate is ˆixxn$\lambda$Σ==. [Consideration of 22logdd$\lambda$ confirms that this is a maximum: 222log0ixdLd$\lambda$$\lambda$−Σ=<.]
+\[\lambda$Σ∴=−+\] which on setting equal to zero gives that the maximum likelihood estimate is ˆixxn$\lambda$Σ==. [Consideration of $\frac{d^2(\lambda}{d}$  $22logdd$ confirms that this is a maximum: 222log0ixdLd$\lambda$$\lambda$−Σ=<.]
+
+
 
 
 
@@ -118,24 +120,28 @@ logixdLnd$\lambda\]
 \hline        
 
 \noindent
-(iii) Write down Var() as a function of λ, and hence find the MLE of Var(). Show that a large-sample approximate
-95% confidence interval (CI) for λ is given by λˆλˆˆˆˆˆ 1.961.96nnλλλλλ−≤≤+.
+(iii) Write down $Var(\lambda)$ as a function of $\lambda$ , and hence find the MLE of $Var(\lambda)$. Show that a large-sample approximate
+95\% confidence interval (CI) for $\lambda$ is given by 
+\[\hat{\lambda} -  1.96  \sqrt{ \frac{\hat{\lambda} }{n} } \leq \lambda \leq  \hat{\lambda} +   1.96  \sqrt{ \frac{\hat{\lambda} }{n} }.\]
 \\ \hline
       
 \end{tabular}
     
 \end{table}
 
-\item  ()()Var()ˆVarVarXXnn$\lambda$$\lambda$== .
-Thus the maximum likelihood estimator of Var(ˆ
-$\lambda$) is ˆn$\lambda$.
+
+
+
+\item  \[Var(\hat{\lambda}) = Var(\bar{X}) = \frac{Var(X)}{n} = \frac{\lambda}{n}.\]
+Thus the maximum likelihood estimator of $Var(\hat{
+\lambda)$ is $ \frac{ \lambda}{n}$.
 \begin{itemize}
-    \item By the central limit theorem, ˆ( X$\lambda$= is approximately Normally distributed with mean $\lambda$ and variance $\lambda$ /n. 
+    \item By the central limit theorem, $\bar{X} = \hat{\lambda}$ is approximately Normally distributed with mean $\lambda$ and variance $\lambda$ /n. 
     \item We estimate the variance by ˆ
 $\lambda$/n, so that we have ˆˆ~N,n$\lambda$$\lambda$$\lambda$⎛⎞⎜⎜⎝⎠, approximately.
 \item Hence an approximate 95\% confidence interval is given by
-\[ˆ0.951.961.96ˆ/Pn$\lambda$$\lambda$$\lambda$⎛⎞−≈−<<⎜⎟⎜⎟⎝⎠,\]
-leading to the interval \[ˆˆˆˆ1.96,1.96nn$\lambda$$\lambda$$\lambda$$\lambda$⎛⎞⎜⎟−+⎜⎟⎝⎠.\]
+\[0.95 \approx P \left( -1.96 \leq { \frac{ \hat{\lambda} - \lambda }{   \hat{lambda} / \sqrt{n} } }  \leq 1.96 \right) \]
+leading to the interval \[\hat{\lambda} -  1.96  \sqrt{ \frac{\hat{\lambda} }{n} } \leq \lambda \leq  \hat{\lambda} +   1.96  \sqrt{ \frac{\hat{\lambda} }{n} }.\]
 \end{itemize}
 
 
@@ -148,9 +154,9 @@ leading to the interval \[ˆˆˆˆ1.96,1.96nn$\lambda$$\lambda$$\lambda$$\lambda
 \hline        
 \noindent
 
-(iv) Assume that the numbers of books, x1, x2, x3, …, that go missing each month from the local library follow a Poisson 
-distribution with unknown mean λ. The monthly numbers of missing books in 2005 were
-3 7 2 5 8 2 4 5 4 4 1 3.
+(iv) Assume that the numbers of books, $x_1, x_2, x_3, \ldots$, that go missing each month from the local library follow a Poisson 
+distribution with unknown mean $\lambda$. The monthly numbers of missing books in 2005 were
+\[ \{3, 7 ,2, 5, 8, 2, 4, 5, 4, 4 ,1, 3.\}\]
 Use these data to calculate and an approximate 95\% CI for $\lambda$. Also compute the sample variance of the data; discuss 
 briefly whether this computation supports, or throws doubt on, the Poisson model suggested (no formal test is required). $\hat{\lambda}$
 \\ \hline
@@ -159,8 +165,8 @@ briefly whether this computation supports, or throws doubt on, the Poisson model
 \end{table}
 \item  For the given sample, we have n = 12 and Σxi = 48, leading to ˆ4x$\lambda$==. The approximate confidence interval is therefore
 441.96to41.961212⎛⎞−+⎜⎟⎜⎟⎝⎠, i.e. 2.87 to 5.13.
-The sample also gives Σxi2 = 238; so the sample variance is
-\[s2 = 2148462384.182111211⎛⎞−==⎜⎟⎝⎠.\]
+The sample also gives $\sum(x_i)^2 = 238$; so the sample variance is
+\[s2 = \frac{1}{11} \left( 238  - \frac{48^2}{12} \right)  = \frac{46}{11} = 4.182.\]
 This is close to the sample mean (4), supporting a Poisson hypothesis for the underlying model.
 \end{enumerate}
 \end{document}
