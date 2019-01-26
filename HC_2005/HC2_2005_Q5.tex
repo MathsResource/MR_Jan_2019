@@ -47,16 +47,22 @@ Higher Certificate, Paper II, 2005. Question 5
  
 \begin{framed} 
 An individual is considering purchasing a two-bedroomed terraced house in one of two adjacent towns in the north of England.  To compare prices, he extracts some price data from one week's issue of the local newspaper's "Property Supplement" for all such properties advertised by estate agents with branches in both towns.  He wishes to determine whether the mean price in one town differs from that in the other.  The data extracted are given in the table below (units are thousands of pounds). 
- 
-Town 1  77.50 74.95 74.50 60.00 45.00 25.00 25.00 
- 
-Town 2  72.95 72.95 65.00 62.50 56.95 54.95 52.95     49.95 46.95 35.00 34.95 30.00 29.95 25.00 
+
+\begin{tabular}{|c|c|c|}
+Town 1      & \{ 77.50 74.95 74.50 60.00 45.00 25.00 25.00\}    & $n_1=7$\\
+Town 2      & \{72.95 72.95 65.00 62.50 56.95 54.95 52.95   & $n_2=14$ \\
+& 49.95 46.95 35.00 34.95 30.00 29.95 25.00 & \\
+\end{tabular} 
+       
 \end{framed}
     \item 
 221112227;54.56,534.6956.14;49.29,261.3001.nxsnxs======
 The "pooled estimate" of variance is
-\[s^2 = \frac{22112212(1)(1)11nsnsnn−+−−+−}{(n_1-1) + (n_2-1)} = 347.6355.\]
-The test statistic for testing the null hypothesis 120μμ−=, where $\mu_1$ and $\mu_2$ are the respective population mean prices, is
+\begin{eqnarray*}
+s_p^2 &=& \frac{(n_1 -1 )(534.6956) + (n_2-1 )(261.3001) }{(n_1-1) + (n_2-1)}\\ 
+&=& \frac{(7 -1 )s^2_1 + (14-1 )s^2_2 }{(7-1) + (14-1)}\\
+&=& 347.6355.\]
+The test statistic for testing the null hypothesis $\mu_1-\mu_2 = 0$, where $\mu_1$ and $\mu_2$ are the respective population mean prices, is
 \[121171405.270.6118.631xxs−−==+,\]
 which is referred to $t_{(19)}$. This is not significant, so the null hypothesis cannot be rejected. There is no evidence that the true means in the two towns differ.
 
@@ -64,7 +70,7 @@ which is referred to $t_{(19)}$. This is not significant, so the null hypothesis
 
 \begin{framed}
  
-(ii) Assuming that all the necessary assumptions hold, perform an independent two-sample t test and draw your conclusion. (12) 
+(ii) Assuming that all the necessary assumptions hold, perform an independent two-sample t test and draw your conclusion. 
  
 (iii) Town 1 has a considerably larger population, and greater numbers of all types of properties, than town 2.  Taking note of this information, and of the way in which the data were obtained, discuss critically whether there is a valid basis for the test in part (ii). 
  
