@@ -34,17 +34,18 @@
 Higher Certificate, Paper II, 2005. Question 6
 \begin{framed}
  
-6. (i) Explain in what circumstances the Mann-Whitney U test might be preferred, rather than the t test, when comparing two independent samples. (4) 
+6. (i) Explain in what circumstances the Mann-Whitney U test might be preferred, rather than the $t$ test, when comparing two independent samples. 
  
  
 The lifetimes of two electronic components, A and B, are to be compared by a manufacturer of televisions with the intention of using the type with the longer average lifetime.  The manufacturer samples 10 components of each type at random from large batches of them and, in controlled conditions, tests the length of time to failure (the lifetime), resulting in the data (in days) given in the table below. 
  
-Component A Component B 410 460 416 233 456 301 407 285 421 301 491 343 532 400 432 231 634 249 481 328 
+Component A 
+Component B 410 460 416 233 456 301 407 285 421 301 491 343 532 400 432 231 634 249 481 328 
  
  
-(ii) Draw a dot-plot for each sample.  With reference to your answer in part (i), suggest which test might be preferred in this case. (6) 
+(ii) Draw a dot-plot for each sample.  With reference to your answer in part (i), suggest which test might be preferred in this case. 
  
-(iii) Perform a Mann-Whitney U test on the data given in the above table.  Briefly explain your conclusion in a manner appropriate for the television manufacturer to understand. (10) 
+(iii) Perform a Mann-Whitney U test on the data given in the above table.  Briefly explain your conclusion in a manner appropriate for the television manufacturer to understand. 
  
  
 \end{framed}
@@ -122,12 +123,12 @@ A
 A
 A
 A
-n1 = 10, n2 = 10. Total rank for component type A is TA = 149; for B is TB = 61.
+n1 = 10, n2 = 10. Total rank for component type A is $T_A = 149$; for B is $T_B = 61$.
 Calculating the Mann-Whitney statistic via the ranks (note: it can also be calculated directly, or the Wilcoxon rank-sum form could be used),
-()11121121AUnnnnT=++− = 100 + 55 – 149 = 6.
-()12122221BUnnnnT=++− = 100 + 55 – 61 = 94.
+\[U_1 = n_1n_2 + \frac{1}{2}n_1(n_1+1) = 100 + 55 – 149 = 6.\]
+\[U_1 = n_1n_2 + \frac{1}{2}n_2(n_2+1)= 100 + 55 – 61 = 94.\]
 \begin{itemize}
-\item So Umin = 6. From tables, the critical value for a U test with n1 = n2 = 10 at the 5\% two-tailed level is 23. As 6 < 23, we reject the null hypothesis at the 5\% level of significance.
+\item So $U_{min} = 6$. From tables, the critical value for a U test with $n_1 = n_2 = 10$ at the 5\% two-tailed level is 23. As $6 < 23$, we reject the null hypothesis at the 5\% level of significance.
 \item In fact we would also reject at the 1\% level. So (in a form for the non-statistician to understand) there is extremely strong evidence that the lifetimes of the two types of components are different. 
 \item Therefore we can strongly conclude that, on the whole, lifetimes of type A are longer than those of type B.
 \end{itemize}
@@ -136,10 +137,10 @@ Calculating the Mann-Whitney statistic via the ranks (note: it can also be calcu
 
 U is then given by:[4]
 $ {\displaystyle U_{1}=R_{1}-{n_{1}(n_{1}+1) \over 2}\,\!}  $ 
-where n1 is the sample size for sample 1, and R1 is the sum of the ranks in sample 1.Note that it doesn't matter which of the two samples is considered sample 1. An equally valid formula for U is
+where n1 is the sample size for sample 1, and R1 is the sum of the ranks in sample 1.Note that it doesn't matter which of the two samples is considered sample 1. An equally valid formula for $U$ is
 ${\displaystyle U_{2}=R_{2}-{n_{2}(n_{2}+1) \over 2}\,\!} $
 The smaller value of U1 and U2 is the one used when consulting significance tables. The sum of the two values is given by \[ {\displaystyle U_{1}+U_{2}=R_{1}-{n_{1}(n_{1}+1) \over 2}+R_{2}-{n_{2}(n_{2}+1) \over 2}.\,\!}\] 
-Knowing that R1 + R2 = N(N + 1)/2 and N = n1 + n2, and doing some algebra, we find that the sum is U1 + U2 = n1n2.
+Knowing that R1 + R2 = N(N + 1)/2 and N = n1 + n2, and doing some algebra, we find that the sum is $U1 + U2 = n_1n_2$.
 \end{framed}
 \end{enumerate}
 \end{document}
