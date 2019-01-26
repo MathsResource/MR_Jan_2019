@@ -47,28 +47,26 @@
 
  \begin{enumerate}
 \item The variance of this sample is 
+
+\[ s^2 = \frac{1}{59}\left( 4054484 - \frac{(15568)^2}{60} \right) = \frac{15106.93}{59} =256.05\]
  
-2 2 1 15568 15106.93 4054484 256.05 59 60 59
-s
-⎛⎞ = − = = ⎜⎟ ⎝⎠ . 
+%%%%%%%%%%%%%%%%%%%%%%
  
 The null hypothesis to be tested is "σ 2 = 256".  It seems obvious that this null hypothesis is not likely to be rejected (even if the sample had been of considerably smaller size), but continuing with a formal test we use test statistic 
  
-2
-2 ( 1) 59 256.05 59.01 256 ns σ −× ==
+\[  \frac{(n-1)s^2}{\sigma^2} = \frac{59 \times 256.05}{256} =59.01 \]
  
  
-which is referred to .  The upper 5\% point is about 78.  Clearly we cannot reject the null hypothesis as the data give no evidence for doing so. 2 59χ
- 
- 
+which is referred to $\chi^2_{(59)}$.  The upper 5\% point is about 78.  Clearly we cannot reject the null hypothesis as the data give no evidence for doing so. 
+
 \begin{framed}
-(ii) Test whether there is evidence that the mean pregnancy duration for this sampled population differs from 266 days.  Find an approximate p-value for your test, and state your conclusions clearly. (10) 
+(ii) Test whether there is evidence that the mean pregnancy duration for this sampled population differs from 266 days.  Find an approximate p-value for your test, and state your conclusions clearly. 
 \end{framed} 
-\item We have  15568 259.46 60 x ==  and we wish the test the null hypothesis μ = 266.  Taking the value of σ as 16, which seems highly plausible from part (i), we use test statistic 
- 266 3.1616 60 x − =− 
+\item We have  $ \displaymode{\bar{x} = \frac{15568}{60} = 259.46 }$  and we wish the test the null hypothesis $\mu=266$.  Taking the value of $\sigma$ as 16, which seems highly plausible from part (i), we use test statistic 
+\[  \frac{\bar{x} - 266}{16 / \sqrt{60} }\]
  
 and refer to N(0, 1). 
- [Alternatively, we could continue to use the sample variance s2 (= 256.05) and refer 266 60 x s − to t59;  this makes hardly any difference in practice in this case.] 
+ [Alternatively, we could continue to use the sample variance $s^2 (= 256.05)$ and refer 266 60 x s − to t59;  this makes hardly any difference in practice in this case.] 
  
 This is well beyond the double-tailed 1\% point of N(0, 1);  there is strong evidence against this null hypothesis.  It is reasonable to conclude that this population has a mean different from the "normal" one;  it appears to be less. 
  
