@@ -33,8 +33,18 @@
 \begin{document}Higher Certificate, Paper II, 2006.  Question 4 
  \begin{framed}
  4. An experiment was performed to investigate the clotting time (in minutes) of plasma from 8 subjects treated by three different methods.  The resulting data are presented in the table below. 
- 
-Subject Method 1 Method 2 Method 3 1   6.8   8.3   8.1 2   9.7 10.0 11.1 3   8.3   8.5 10.0 4   9.0   7.9   9.6 5 11.0 10.8 11.1 6 12.4 12.6 14.5 7   8.8   8.4 10.0 8 12.6 12.8 12.5 
+
+\begin{tabular}{|c|c|c|c|} 
+Subject & Method 1 & Method 2 & Method 3 \\ \hline
+1  & 6.8 &  8.3 &  8.1 \\
+2  & 9.7 &10.0 &11.1 \\
+3  & 8.3  & 8.5& 10.0 \\
+4 &  9.0  & 7.9 &  9.6 \\
+5 & 11.0 &10.8 &11.1 \\
+6 & 12.4 &12.6 &14.5 \\
+7 &  8.8  & 8.4 &10.0 \\
+8 & 12.6 & 12.8& 12.5 \\
+\end{tabular}
  
  
 (i) Treating the subjects as blocks, analyse the data using analysis of variance.  State the assumptions necessary for this analysis to be valid and provide a brief interpretation of your findings. 
@@ -47,55 +57,70 @@ Subject Method 1 Method 2 Method 3 1   6.8   8.3   8.1 2   9.7 10.0 11.1 3   8.3
 
  \end{framed}
  
-(i) The key assumption is that the experimental errors are independent N(0, σ 2) variables (note constant σ 2). 
+(i) The key assumption is that the experimental errors are independent $N(0, \sigma^2)$ variables (note constant σ 2). 
  
 Totals are 
+\begin{description}
+\item[Method 1:] 78.6
+\item[Method 2:] 79.3
+\item[Method 3:] 86.9
+\end{description} 
  
-Method 1 Method 2 Method 3 78.6 79.3 86.9 
  
 Subj. 1 Subj. 2 Subj. 3 Subj. 4 Subj. 5 Subj. 6 Subj. 7 Subj. 8 23.2 30.8 26.8 26.5 32.9 39.5 27.2 37.9 
  The grand total is 244.8.     ΣΣyij2 = 2585.22. 
  
 "Correction factor" is 
 2244.8 2496.96 24 = . 
- Therefore total SS = 2585.22 – 2496.96 = 88.26. 
+ Therefore 
+ \[ \mbox{total SS} = 2585.22 – 2496.96 = 88.26.\] 
  
 SS for methods = 
 222 78.6 79.3 86.9 2496.96 5.30 888 + + − =. 
  
 SS for subjects = 
-2 2 2 23.2 30.8 37.9... 2496.96 78.47 3 3 3 + + + − = . 
- 
+\[
+\frac{23.2^2}{3} + \frac{30.8^2}{3}  + \ldots + \frac{37.9^2}{3} - 2496.96 =  78.47\] 
+
+
  
 The residual SS is obtained by subtraction. 
- Hence the analysis of variance table is as follows. 
- SOURCE DF SS MS F value Methods   2   5.30   2.65        8.26   Compare F2,14 Subjects   7 78.47 11.21      34.95   Compare F7,14 Residual 14   4.49 0.3207 = 2 ˆ σ
- TOTAL 23 88.26   
+ Hence the analysis of variance table is as follows.
  
+ \begin{center}
+ \begin{tabular}{cccccc}
+ SOURCE & DF&  SS&  MS&  F&  value\\ 
+ Methods&   2 &  5.30 &  2.65&        8.26  & Compare F2,14\\ 
+ Subjects &  7& 78.47& 11.21&      34.95&   Compare F7,14\\ Residual & 14&    4.49 & 0.3207 & &\\ %= 2 ˆ σ
+ TOTAL & 23&  88.26 & && \\
+ \end{tabular}
+ \end{center}
  
 Upper critical points of F2,14 and F7,14 are as follows. 
  
- 5% 1% 0.1% F2,14 3.74 6.51 11.78 F7,14 2.76 4.28   7.08 
+ 5\% 1\% 0.1\% F2,14 3.74 6.51 11.78 F7,14 2.76 4.28   7.08 
  
  
  
+%%%%%%%%%%%%%%%%%%%%%%%
  
- 
-Solution continued on next page 
- 
-The F value for methods is highly significant;  we have strong evidence that not all the methods are the same in terms of mean clotting time.  The F value for subjects is very highly significant.  We have very strong evidence that not all the subjects are the same in this regard;  the analysis has detected and removed a large systematic source of variation. 
+The F value for methods is highly significant;  we have strong evidence that not all the methods are the same in terms of mean clotting time.  The $F$ value for subjects is very highly significant.  We have very strong evidence that not all the subjects are the same in this regard;  the analysis has detected and removed a large systematic source of variation. 
  
  
  
 To investigate method differences, we need the method means, which are 
  
-Method 1 :   9.825         Method 2 :   9.9125         Method 3 :   10.8625. 
+\begin{itemize}
+    \item Method 1 :   9.825         
+    \item Method 2 :   9.9125         \item Method 3 :   10.8625. 
+\end{itemize}
+
  
 The least significant difference between any pair of these means is 
  
-14 14 2 0.3207 0.283 8 tt × =     where   14 2.145 at5% 2.977 at1% 4.140 at0.1% t ⎧ ⎪= ⎨ ⎪ ⎩
+14 14 2 0.3207 0.283 8 tt × =     where   14 2.145 at5\% 2.977 at1% 4.140 at0.1% t ⎧ ⎪= ⎨ ⎪ ⎩
  
-so the least significant differences are 0.607 for 5%, 0.842 for 1% and 1.172 for 0.1%.  Clearly methods 1 and 2 do not appear to differ in mean clotting time but there is strong evidence that method 3 has a higher mean clotting time than either of the others. 
+so the least significant differences are 0.607 for 5\%, 0.842 for 1\% and 1.172 for 0.1%.  Clearly methods 1 and 2 do not appear to differ in mean clotting time but there is strong evidence that method 3 has a higher mean clotting time than either of the others. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
