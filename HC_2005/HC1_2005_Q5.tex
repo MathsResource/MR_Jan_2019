@@ -50,18 +50,16 @@ n = 100 and y = 20.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}[(a)]
 \item We have Y ~ B(n, p), so ( ) ( ) ! (1 )
-! !
-P Y y n py p n y
-y n y
-− = = −
-−
-(for y = 0, 1, 2, …, n
-and 0 < p < 1). 
+
+ probability mass function:
+
+\[{\displaystyle f(y,n,p)=\Pr(k;n,p)=\Pr(Y=y)={\binom {n}{y}}p^{y}(1-p)^{n-y}} \]
+for $y = 0, 1, 2, ..., n$, and $0 < p < 1$. 
 \begin{itemize}
 \item
 The likelihood L is simply P(Y = y).
 \item
-Hence \[\log L = constant + y \log p + (n − y)\log(1− p).\]
+Hence \[\log L = \mbox{constant} + y \log p + (n − y)\log(1− p).\]
 \item 
 log
 1
@@ -74,10 +72,8 @@ n
 = . 
 
 \item Consideration of
-2
-2
-d log L
-dp
+$ \frac{d^2(\log L)}{dp}2
+
 confirms that this is a
 maximum.
 
@@ -90,36 +86,36 @@ p Y np p
 n n n
 −
 = = − = . 
-\item We may estimate p by \hat{p} in this and
-thus obtain an estimate of the standard error of pˆ as ( ) ( ) ˆ 1 ˆ
-SE ˆ
-p p
-p
-n
-−
-= .
+\item We may estimate p by $\hat{p}$ in this and
+thus obtain an estimate of the standard error of $\hat{p}$ as 
+\[SE (\hat{p}) = \sqrt{\frac{\hat{p} \times (1-\hat{p}) }{n}.\]
 \item 
-For n = 100 and y = 20, we have $\hat{p} = 0.2$ and 
+For $n = 100$ and $y = 20$, we have $\hat{p} = 0.2$ and 
 \[SE( \hat{p} )  =  \sqrt{ \frac{0.2 \times 0.8}{100} } = 0.04\]
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{framed}
 (ii) A statistician now advises her that, because of the sensitivity of the question of
-drug-taking, some students may not answer truthfully, so causing bias. He
-suggests using an anonymising device to encourage truthful answers. He
+drug-taking, some students may not answer truthfully, so causing bias.
+\begin{itemize}
+    \item He
+suggests using an anonymising device to encourage truthful answers. 
+\item He
 provides a biased coin with faces labelled "takes drugs" and "does not take
 drugs", which show with respective probabilities 0.75 and 0.25 when the coin
 is tossed.
-A second random sample, also of size n, is selected independently of the first.
-Each of the n students is asked to toss the coin, unseen by the interviewer, and
+\item A second random sample, also of size n, is selected independently of the first.
+ 
+\item Each of the n students is asked to toss the coin, unseen by the interviewer, and
 to answer "yes" if he/she is in the group indicated by the coin and "no"
 otherwise.
-Assuming truthful responses, show that the probability of a "yes", θ say, is
+\end{itemize}
+Assuming truthful responses, show that the probability of a "yes", \theta say, is
 given by
-θ = 0.25 + 0.5p .
+\theta = 0.25 + 0.5p .
 Assuming further that the number of students answering "yes", Z say, is
-distributed B(n, θ ) with observed value z, write down the MLE of θ, θˆ say,
-and an estimate of its standard error. Use the relationship between θ and p to
+distributed B(n, \theta ) with observed value z, write down the MLE of \theta, \thetaˆ say,
+and an estimate of its standard error. Use the relationship between \theta and p to
 deduce the MLE of p, p ~ say, and SE(p ~ ). Calculate the values of p ~ and
 SE(p ~ ), given that n = 100 and z = 45.
 \end{framed}
@@ -128,9 +124,9 @@ SE(p ~ ), given that n = 100 and z = 45.
 \item P("yes") is given by P(takes drugs and coin shows "takes drugs") + P(does not
 take drugs and coin shows "does not take drugs").
 \begin{itemize}
-    \item Hence θ = P("yes") = 0.75p + 0.25(1 – p) = 0.25 + 0.5p.
-    \item Z ~ B(n, θ ), so from part (i) we have \hat{theta} = z/n and SE(\hat{theta}) = \hat{theta} (1−\hat{theta})/ n .
-    \item We have p = 2θ – ½, so the MLE of p is 1
+    \item Hence \theta = P("yes") = 0.75p + 0.25(1 – p) = 0.25 + 0.5p.
+    \item Z ~ B(n, \theta ), so from part (i) we have \hat{theta} = z/n and SE(\hat{theta}) = \hat{theta} (1−\hat{theta})/ n .
+    \item We have p = 2\theta – ½, so the MLE of p is 1
 2
 p�� = 2\hat{theta} − .
     \item Thus SE( p�� ) = 2 SE(\hat{theta}) = 2 \hat{theta} (1−\hat{theta})/ n .
