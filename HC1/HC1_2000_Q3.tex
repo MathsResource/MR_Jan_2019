@@ -28,13 +28,10 @@
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline        
-For i = 1, 2, …, n, let Xi be Normally distributed with mean µ i and variance σ i 2, and let X1, X2, …, Xn be independent.  If a1, a2, …, an are any 
+For $i = 1, 2, \ldots, n$, let $X_i$ be Normally distributed with mean $\mu_i$ i and variance $\sigma^2_i$, and let $X_1, X_2, \ldots, X_n$ be independent.  If $a_1, a_2, \ldots$, an are any 
 non-zero constants, state the distribution of 
-1
-n
-ii
-i Y a X = =∑ .  Deduce the 
-distribution of X1 + X2 and X1 - X2 . 
+\[  \sum^{n}_{i=1} a_iX_i\] .  Deduce the 
+distribution of $X_1 + X_2$ and $X_1 - X_2$ . 
  \\ \hline
       \end{tabular}
     \end{table}
@@ -46,20 +43,10 @@ distribution of X1 + X2 and X1 - X2 .
     \item 
 Linear combinations of normal variables remain normal.
 \[
-y \sim N(
-Xn
-i=1
-ai¹i;
-Xn
-i=1
-a2
+y \sim N( \sum^{n}_{i=1} a_iX_i;  \sum^{n}_{i=1} a_iX_i)
 i \sigma^2
 i )\]
-Hence $x1 + x2 \sim N(¹1 + ¹2; \sigma^2
-1 + \sigma^2
-2)$; $x1 - x2 \sim N(¹1 - ¹2; \sigma^2
-1 + \sigma^2
-2)$
+Hence $x1 + x2 \sim N(\mu_1 + \mu_2; \sigma^2_1 + \sigma^2_2)$; $x1 - x2 \sim N(\mu_1 - \mu_2; \sigma^2_1 + \sigma^2_2)$
 %%%%%%%%%%%
 \newpage
   \begin{table}[ht!]
@@ -114,9 +101,9 @@ and require probability is $0.1056 \times 0.1587 = 0.0168$
 (c) In an office there are 20 computers, each of which has, independently of the rest, a Poisson incidence of breakdowns at the rate of 0.02 per week.  Breakdowns are invariably repaired with negligible delay.  Find the probabilities that 
  
 (i) a period of 4 weeks passes with no breakdowns, 
-(2) 
+
  
-(ii) in a period of 4 weeks there is at least one breakdown each week. (2) 
+(ii) in a period of 4 weeks there is at least one breakdown each week. 
  
 Use a suitable approximation to calculate the probability of more than 26 breakdowns over a 52 week period.   
  \\ \hline 
@@ -125,13 +112,13 @@ Use a suitable approximation to calculate the probability of more than 26 breakd
 \item  The number of breakdowns per week will follow a poisson distribution with mean
 $20 \times 0.02 = 0.4$
 \item 
-\[P(no breakdowns) = e^{-0.4}\]
-\[P(none in 4 weeks) = (e^{-0.4})4 = e-1:6 = 0.2019\]
+\[P(\mbox{no breakdowns}) = e^{-0.4}\]
+\[P(\mbox{none in 4 weeks}) = (e^{-0.4})4 = e-1:6 = 0.2019\]
 \item 
 \[P(1 or more in a week) = 1 - e^{-0.4} = 0.39297\]
-required probability = (0.3297)4 = 0.0118
+required probability = $(0.3297)^4 = 0.0118$
 \begin{itemize}
-    \item In 52 weeks, number of breakdowns in poisson with mean 0.4 \times 52 = 20.8 
+    \item In 52 weeks, number of breakdowns in poisson with mean $0.4 \times 52 = 20.8$ 
     \item A normal
 approximation $N(20.8,20.8)$ may be used, and using a continuity correction we
 require $P(number > 26.5)$
