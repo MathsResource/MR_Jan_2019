@@ -30,67 +30,69 @@
      \hline        
 The total claim amount X made in one year on a portfolio of insurance policies has probability density function 
  
- ()
-2 0, 0 0 otherwise x xe x
-fx
-λ λλ − ≥> =  
+\[ f(x) = \begin{cases} \lambda^2 x^{-\lambda\;x} &x \geq0, \lambda >0  & \mbox{ otherwise } \end{cases} \]
+
  
+Show that 
  
-(i) Show that 
+(a) $E(X)  = \frac{2}{\lambda}$
  
- (a) ()2 EX λ = , 
+(b) $\operatorname{Var}(X)  = \frac{2}{\lambda^2}$
  
- (b) () 2 2 Var X λ = , 
- 
- (c) ()() 1x P X x e x λ λ − > = + . 
-(5) 
- 
+(c) $P(X > x) = e^{-\lambda\;x}(1 + \lambda x) $
+
 \\ \hline
-      \end{tabular}
-    \end{table}
+\end{tabular}
+\end{table}
     
+
+\begin{framed}
+  Very Important: Definition of area under the pdf curve:
+\[\int^\infty_0 f(x) dx \;=\; \int^\infty_0 \lambda^2 xe^{-\lambda x}dx \;=\; 1\]
+
+\begin{itemize}
+\item $E(X) = \int^\infty_0 x f(x) dx $
+\item $ E(X^2) = \int^\infty_0 x^2 f(x) dx $  
+\item $Var(X) = E(X^2) - [ E(X^2) ]^2$
+\end{itemize}
+\end{framed}
 
 
 \begin{enumerate}
-\item  Note that Z 1
-0
-\[\lambda^2 xe^{-\lambda}xdx = 1\]
 \item 
-\[E[x] = \lambda^2  \int^{\infty}_{0}
-0 x2e^{-\lambda}xdx = \lambda^2 [-1
-\lambda \;x2e^{-\lambda}x]1
-0 + \lambda^2  \int^{\infty}_{0}
-0
-1
-\lambda e^{-\lambda}x \times 2xdx\]
-\[= 0 + 2
-\lambda
-\int^{\infty}_{0}
- \lambda^2 xe^{-\lambda}xdx = 2
-\lambda\]
+\begin{eqnarray*}
+E(X) &=& \lambda^2  \int^{\infty}_{0}  x^2\;e^{-\lambda x}dx \\
+& & (\mbox{Integration by Parts}) 
+\\ &=& \lambda^2 \left[- \frac{1}{\lambda} \;x^3\;e^{-\lambda}x\right]^\infty_0 + \lambda^2  \int^{\infty}_{0} \frac{1}{\lambda} e^{-\lambda}x \times 2xdx 
+\\ &=& 0 + \frac{2}{\lambda} \int^{\infty}_{0} \lambda^2 xe^{-\lambda z}dx 
+\\ &=& \frac{2}{\lambda}\\
+\end{eqnarray*}
 (b)
-\[E[x2] = \lambda^2  \int^{\infty}_{0}
-0 x3e^{-\lambda}xdx = \lambda^2 [-1
-\lambda \;x3e^{-\lambda}x]1
-0 + \lambda^2  \int^{\infty}_{0}
-0
-1\]
-\[\lambda e^{-\lambda}x \times 3x2dx
-= 0 + 3\]
-\[E[x] = 6
-\lambda^2 \]
+\begin{eqnarray*}
+E(x^2) &=& \lambda^2  \int^{\infty}_{0} x^3e^{-\lambda x} dx \\
+& & (\mbox{Integration by Parts})
+\\&=& \lambda^2 \left[-1
+\lambda \;x3e^{-\lambda}x  \right]^1_0 + \lambda^2  \int^{\infty}_{0} \frac{1}{\lambda} e^{-\lambda x} \times 3x^2\;dx
+\\ &=&  0 + \frac{3}{\lambda}E(X) 
+\\ &=& \frac{6}{\lambda^2}
+\end{eqnarray*}
+
+
+
+
 Therefore
-\[v[x] =
-6
-\lambda^2 
-- (
-2
-\lambda
-)2 =
-2
-\lambda^2 
-7\]
+\[\operatorname{Var}(X) = \frac{6}{\lambda^2 } - \left(  \frac{2}{\lambda} \right)^2 = \frac{2}{\lambda^2} \]
 %%%%%%%%%%%%%%%%%%5
+\item 
+\begin{eqnarray*}
+P(X > x) &=&
+\int^{\infty}_{x}  \lambda^2 ue^{-\lambda u}du \\ &=& [-\lambda u e\lambda u]^{\infty}_{x}
++
+\int^{\infty}_{x} x \lambda e^{-\lambda u}du
+\\ &=& \lambda \;xe^{-\lambda}x + [-e^{-\lambda}u]^{\infty}_{x}
+\\ &=& e^{-\lambda x}(1 + \lambda \;x):
+\end{eqnarray*}
+
 \newpage
 
 
@@ -98,23 +100,18 @@ Therefore
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline  
-(ii) If X is measured in units of £1000, λ may be assumed to take the value 0.01.  The company has a total sum (policyholders’ premiums + reserves) of £500,000 available to meet the year’s claims.  Show that the probability that the company is ruined (i.e. P(X > 500)) is 0.040 (to 3 decimal places). (5) 
+(ii) If $X$ is measured in units of \$1000, $\lambda$λ may be assumed to take the value 0.01.  The company has a total sum (policyholders’ premiums + reserves) of \$500,000 available to meet the year’s claims.  
+
+
+Show that the probability that the company is ruined (i.e. $P(X > 500)$ ) is 0.040 (to 3 decimal places). 
  \\ \hline
       \end{tabular}
     \end{table}
         
-\item 
-\begin{eqnarray*}
-P(X > x) &=&
-\int^{\infty}_{0}
-x \lambda^2 ue^{-\lambda}udu \\ &=& [-\lambda u e\lambda u]1x
-+
-\int^{\infty}_{0}
-x \lambda e^{-\lambda}udu
-\\ &=& \lambda \;xe^{-\lambda}x + [-e^{-\lambda}u]1x
-\\ &=& e^{-\lambda}x(1 + \lambda \;x):
-\end{eqnarray*}
-\item  \lambda = 0:01; x = 500 in(c) ; so \[P(x > 500) = e-5(1 + 5) = 0:04043\]
+
+\item  $$\lambda = 0.01$; x = 500 
+
+Therefore \[P(x > 500) = e^{-5}(1 + 5) = 0.04043\]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
@@ -125,22 +122,17 @@ x \lambda e^{-\lambda}udu
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline  
-(iii) A trainee actuary mistakenly assumes the distribution of total claim amount to be Normal with the same mean and variance as X (taking λ = 0.01).  On this assumption, find the probability of ruin, given that £500,000 is available to meet the year’s claims. (5) 
+(iii) A trainee actuary mistakenly assumes the distribution of total claim amount to be Normal with the same mean and variance as X (taking $\lambda = 0.01$).  On this assumption, find the probability of ruin, given that \$500,000 is available to meet the year’s claims. 
 \\ \hline
       \end{tabular}
     \end{table}
-\item Assume X » N( 2
-\lambda; 2
-\lambda^2  ) i:e: N(200; 20000)
+\item Assume $X \sim N \left( \frac{2}{\lambda} ; \frac{2}{\lambda^2}  \right)$ i:e: $X \sim N(200; 20,000)$
 Now
-
 \begin{eqnarray*}
-P(x > 500) &=& 1 - Á( 500-200
-100
-p2 ) \\
-&=& 1 - Á(p3 2 )\\
-&=& 1 - Á(2:1213) \\
-&=& 1 - 0:9835 \\ &=& 0:0165
+P(x > 500) &=& 1 - \phi \left( \frac{500-200}{100 \sqrt{2} } \right) \\
+&=& 1 - \phi ( 3 /\sqrt{2} )\\
+&=& 1 - \phi (2.1213) \\
+&=& 1 - 0.9835 \\ &=& 0.0165
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
@@ -149,13 +141,13 @@ p2 ) \\
      \begin{tabular}{|p{15cm}|}
      \hline 
      \noindent \textbf{part(d)}\\
-     Making this mistaken assumption of Normality, the trainee calculates that £450,000 is the sum to be set aside to meet the year’s claims with a probability of ruin of less than 0.04.  What is the true probability of ruin, if only £450,000 is available to meet the year’s claims?  \\ \hline 
+     Making this mistaken assumption of Normality, the trainee calculates that \$450,000 is the sum to be set aside to meet the year’s claims with a probability of ruin of less than 0.04.  What is the true probability of ruin, if only \$450,000 is available to meet the year’s claims?  \\ \hline 
       \end{tabular}
     \end{table}
-\item Using the correct distribution (which is positive skewed),with \lambda = 0:01 and x = 450;
+\item Using the correct distribution (which is positive skewed),with $\lambda = 0.01$ and $x = 450$;
 
 \begin{itemize}
-    \item P(twin) = e-4:5(1 + 4:5) = 0:0611: 
+    \item $P(twin) = e^{-4.5}(1 + 4.5) = 0:0611$ 
     \item The skewness raises the right-hand tail probability
 considerably
 \end{itemize}
