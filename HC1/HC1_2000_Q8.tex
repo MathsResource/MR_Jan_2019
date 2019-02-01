@@ -62,7 +62,8 @@ p
 \item Plot 1B supports
 the inadequacy of a linear model for the full set of data, because the residuals do not appear to be a normally distribution set with mean zero.
 \end{itemize}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
@@ -97,7 +98,7 @@ logarithmic, whereas in 1 and 2 they were natural.
      \begin{tabular}{|p{15cm}|}
      \hline  
  
-Critically compare Regressions 1 and 3 for their success in fitting the data.  Interpret the statement ‘R-Sq = 99.1\%’ in Regression 3 in terms of the Analysis of Variance output, and explain why the total sum of squares in Regression 3 (0.28760) differs from the total sum of squares in Regressions 1 and 2 (186120). (5) 
+Critically compare Regressions 1 and 3 for their success in fitting the data.  Interpret the statement ‘R-Sq = 99.1\%’ in Regression 3 in terms of the Analysis of Variance output, and explain why the total sum of squares in Regression 3 (0.28760) differs from the total sum of squares in Regressions 1 and 2 (186120). 
   \\ \hline
       \end{tabular}
     \end{table}
@@ -128,4 +129,58 @@ parameters.
 \end{itemize}
 
 \end{enumerate}
+\newpage
+\begin{framed}
+\begin{verbatim}
+MTB > Print ’y’ 175  195  225  275  333  383  423  483  643 
+# sales of widgets (100s)   
+MTB > Print ’x’   1    2    3    4    5    6    7    8    9 
+
+# time from product launch (months)   MTB > Plot ’y’ ’x’.                     640+                                                         *                y                                        480+                                                  *                    PLOT 1A            -                                                                       ------            -                                            *            -                                     *                     320+                              *            -                        *                        -                 *            -          *         160+    *              ------+---------+---------+---------+---------+---------+x                  1.5       3.0       4.5       6.0       7.5       9.0
+ \end{verbatim}
+ \end{framed}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \begin{framed}
+ \begin{verbatm}
+ MTB >  #################   REGRESSION  1   #################   
+ MTB > Regress ’y’ 1 ’x’; 
+ SUBC>  Residuals C4.  # C4 stores residuals from the regression of y on x   The regression equation is y = 78.3 + 54.0 x   Predictor        Coef       StDev          T        P   Constant        78.33       29.01       2.70   x              54.000       5.155      10.48   S = 39.93       R-Sq = 94.0%     R-Sq(adj) = 93.1%   Analysis of Variance   Source            DF          SS          MS         F        P   Regression         1      174960      174960    109.74    0.000   Residual Error     7       11160        1594   Total              8      186120   MTB >  Let C5 = 78.33 + 54*’x’     # C5 gives the fitted values from regression 1   MTB > Name  C3 ’x-sq’  C4 ’slr-res’ C5 ’slr-fit’   MTB > Plot ’slr-res’ ’slr-fit’.          80+                                                        *                slr-res                                   40+  *                                                                    PLOT 1B            -                                                                       ------                                    -        *           0+                        -               *      *      *     *            -                                                 *            -                                          *         -40+                          ----+---------+---------+---------+---------+---------+--slr-fit                160       240       320       400       480       560
+   MTB > Let C3 = ’x’*’x’       # C3 is time  squared   
+   
+  \end{verbatim}
+ \end{framed}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \begin{framed}
+ \begin{verbatm}  
+   MTB >  #################   REGRESSION  2   #################   MTB > Regress ’y’ 2  ’x’ ’x-sq’; SUBC>   Residuals C6.   The regression equation is   y = 170 + 4.0 x + 5.00 x-sq   Predictor        Coef       StDev          T        P   Constant       170.00       30.56       5.56    0.001   x                4.00       14.03       0.29    0.785   x-sq            5.000       1.368       3.65    0.011   S = 24.01       R-Sq = 98.1%     R-Sq(adj) = 97.5%   Analysis of Variance   Source            DF          SS          MS         F        P   Regression         2      182660       91330    158.38    0.000   Residual Error     6        3460         577   Total              8      186120   Source       DF      Seq SS   x             1      174960   x-sq          1        7700   MTB > Let C7=170 + 4*’x’ + 5*’x-sq’    #  C7 stores fitted values from regression 2   MTB > Name C6 ’quadrres’ C7 ’quadrfit’
+ 
+ 
+12 
+   MTB > Plot ’quadrres’ ’quadrfit’.            -                                                       *          25+            -                  *    quadrres-                                                                       PLOT 2            -            *             *                                            -----                       0+       *            - *  *                                    -                                  *         -25+                                    -                                            *                          --------+---------+---------+---------+---------+--------quadrfit                    240       320       400       480       560
+   MTB > Let C8 = logten(’y’)      # C8 contains log (y) to the base 10   MTB > Name C8 ’log10(y)’   
+   MTB > Plot ’log10(y)’ ’x’.                    2.80+                                                         *                log10(y)            -                                                  *            -                                            *        2.60+                                     *                                 PLOT 3A            -                                                                       ------            -                              *                        -                        *        2.40+            -                 *                        -          *            -    *        2.20+              ------+---------+---------+---------+---------+---------+x                  1.5       3.0       4.5       6.0       7.5       9.0
+   
+ \end{verbatim}
+ \end{framed}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \begin{framed}
+ \begin{verbatm}
+   MTB >  #################   REGRESSION  3   #################   MTB > Regress ’log10(y)’ 1  ’x’; SUBC>   Residuals C9.   # C9 stores residuals from regression 3   The regression equation is   log10(y) = 2.16 + 0.0689 x   
+   
+   
+   Predictor        Coef       StDev          T        P   Constant      2.16086     0.01422     151.93    0.000   x            0.068910    0.002527      27.26    0.000   S = 0.01958     R-Sq = 99.1%     R-Sq(adj) = 98.9%   Analysis of Variance   Source            DF          SS          MS         F        P   Regression         1     0.28492     0.28492    743.35    0.000   Residual Error     7     0.00268     0.00038   Total              8     0.28760   
+ \end{verbatim}
+ \end{framed}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \begin{framed}
+ \begin{verbatm}   
+   MTB > Let C10=2.16086 + 0.06891*’x’   # C10 stores fitted values from regression 3   
+   MTB > Name C9 ’logy-res’  C10 ’logy-fit’   
+   MTB > Plot ’logy-res’ ’logy-fit’.    logy-res            -                                                     *                   0.020+            -                              *            -       *                                                               PLOT 3B            -                                    *                                  ------            -                        *       0.000+                        -             *                        -                  *                      *      -0.020+                        -                                               *                          +---------+---------+---------+---------+---------+------logy-fit           2.16      2.28      2.40      2.52      2.64      2.76    
+\end{verbatim}
+\end{framed}
 \end{document}
+
+x <- 1:9
+y <- c(175,195,225,275,333,383,423,483,643) 
+df <- data.frame(x,y)
