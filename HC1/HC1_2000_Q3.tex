@@ -54,41 +54,42 @@ Hence $x1 + x2 \sim N(\mu_1 + \mu_2; \sigma^2_1 + \sigma^2_2)$; $x1 - x2 \sim N(
      \begin{tabular}{|p{15cm}|}
      \hline  
  
-(b) An office manager takes, on average, 35 minutes to get to work;  his travelling time is Normally distributed with standard deviation 4 minutes.  His secretary takes, on average, 33 minutes to get to work;  her travelling time is Normally distributed with standard deviation 3 minutes.  Stating any further assumptions you make, find 
+(b) A mathematician takes, on average, 35 minutes to get to work;  his travelling time is Normally distributed with standard deviation 4 minutes.  
+
+His colleague, the statistician takes, on average, 33 minutes to get to work;  her travelling time is Normally distributed with standard deviation 3 minutes.  Stating any further assumptions you make, find 
  
-(i) the probability that the manager reaches work before his secretary, supposing that they leave their homes at the same time, 
+(i) the probability that the mathematician reaches work before the statistician, supposing that they leave their homes at the same time, 
  
-(ii) how much earlier the secretary must leave her home to be 90\% certain of getting to work before her manager, (3) 
+(ii) how much earlier the statistician must leave her home to be 90\% certain of getting to work before the mathematician, 
  
-(iii) the probability that both get to work within 30 minutes of the times at which they set out. (3) 
+(iii) the probability that both get to work within 30 minutes of the times at which they set out. 
  
  \\ \hline
       \end{tabular}
     \end{table}
-\item Let M,S be travelling times of manager and secretary.
+\item Let M,S be travelling times of mathematician and statistician.
 $M \sim N(35; 16)$ and $S \sim N(33; 9)$
 (i)Assuming journey times are independent ,
 $M - S \sim N(2; 25)$ and $P(M - s < 0) = P(z <
 \frac{0 - 2}{5}$
 where $z \sim N(0.; 1)$; this is $P(z < -0.4) = 0.3446$
 %%%%%%%%%%%%%%%
-\item If secretary leaves t minutes earlier, the difference in arrival times will be $N(2+t,25)$,assuming
+\item If statistician leaves t minutes earlier, the difference in arrival times will be $N(2+t,25)$,assuming
 that the journey times still have the same distributions as before.
 \begin{eqnarray*}
-P(secretary arrives first) &=& P(M - S + t > 0)\\
-&=& 1 - \Phi (\frac{1(2+t)}{5}) \geq¸ 0.9 if
-t + 2
-5
+P(\mbox{statistician arrives first}) &=& P(M - S + t > 0)\\
+&=& 1 - \Phi \left(\frac{1(2+t)}{5} \right) \geq¸ 0.9 
 \end{eqnarray*}
-¸ 1:2826 fromN(0; 1) table i:e: t = 4:408min:
+if
+$ \frac{t + 2}{5} \geq 1:2826$ from $N(0; 1)$ table i.e. $t = 4.408 min$
 \item
 \begin{eqnarray*}
-P(M < 30) &=& \Phi( 30-35
-4 ) \\ &=& \Phi(-1:25)\\ &=& 0.01056
+P(M < 30) &=& \Phi \left( \frac{30-35}{4} \right) 
+ \\ &=& \Phi(-1.25)\\ &=& 0.01056
 \end{eqnarray*}
+
 \begin{eqnarray*}
-P(S < 30)  &=&  \Phi( 30-33
-3 ) \\ &=&  \Phi(-1) \\ &=&  0.1587
+P(S < 30)  &=&  \Phi \left( \frac{30-33}{3} \right) \\ &=&  \Phi(-1) \\ &=&  0.1587
 \end{eqnarray*}
 and require probability is $0.1056 \times 0.1587 = 0.0168$
 
@@ -124,9 +125,7 @@ approximation $N(20.8,20.8)$ may be used, and using a continuity correction we
 require $P(number > 26.5)$
 \end{itemize}
 
-z = 26p:5-20.8
-20.8 = 5:7
-4:5607 = 1:2498
+\[z = \frac{26.5-20.8}{\sqrt{20.8}} = \frac{5.7}{4.5607} = 1.2498\]
 \begin{eqnarray*}
 P(z > 1.2498) 
 &=& P(z < -1.2498) \\
