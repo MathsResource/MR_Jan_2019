@@ -28,79 +28,62 @@
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline        
-The random variable X follows the discrete uniform distribution on the integers 1, 2, ..., k so that the probability mass function of X is given by 
+The random variable $X$ follows the discrete uniform distribution on the integers $1, 2, \ldots, k$ so that the probability mass function of $X$ is given by 
+
+\[ p(x)   = \begin{cases}  \frac{1}{k}   & x = 1,2,\ldots k \\
+0 & \mbox{ otherwise } \\ \end{cases}\]
+
  
- 
-1
-1,2,...,
-()
-0 otherwise
-xk
-kpx  = =   
- 
- 
-(i) Show that for a general positive integer k 
- 
- () 1 2 k EX + = . 
-(5) 
- 
+(i) Show that for a general positive integer $k$ 
+
+ \[E(X)  = \frac{k+1}{2}\] 
+
  
  \\ \hline
       \end{tabular}
     \end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{enumerate}[(a)]
+    \item 
     
+\begin{eqnarray*}
+E(X)    &=& \sum^{k}_{1=1} \frac{i}{k}  \\
+    &=& \frac{1}{k} + \frac{2}{k} + \frac{3}{k} + \ldots + \frac{k}{k}\\
+    & & \mbox{ (Arithmetic Series) } \\
+%&=&  \frac{1}{k} \frac{1}{2} k(k + 1)\\
+&=& \frac{k+1}{2}\\
+\end{eqnarray*}
+
+\begin{framed}
+\noindent \textbf{Arithmetic Series}
+\begin{multicols}{3}
+\begin{itemize} 
+\item $a  = \frac{1}{k}$
+\item $d  = \frac{1}{k}$
+\item $n = k$
+\end{itemize}
+\end{multicols}
+
+
+\[  S_n \;=\; \frac{n}{2}\left( 2a + (n-1)d \right)  \;=\; \frac{k}{2} \left[ 2 \left( \frac{1}{k} \right)  + (k-1) \left( \frac{1}{k} \right) \right] \]
+\end{framed}
+
+\newpage
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline  
-(ii) A random sample of size four, X1, X2, X3, X4, is taken from this distribution, yielding values x1, x2, x3, x4, from which it is intended to estimate the parameter k. 
+(ii) A random sample of size four, $X_1, X_2, X_3, X_4$, is taken from this distribution, yielding values $x_1, x_2, x_3, x_4$, from which it is intended to estimate the parameter $k$. 
  
-(a) Show that the method of moments estimator of k is given by 
-1 ˆ 21 kX =−, where X denotes the sample mean. 
-(5) 
+(a) Show that the method of moments estimator of $k$ is given by $\hat{k}_1 = 2 \bar{X} - 1$ where $bar{X}$ denotes the sample mean. 
+
  
-(b) Explain clearly why the maximum likelihood estimator of k is given by 2 (4) ˆ kX = , the sample maximum. (5) 
+(b) Explain clearly why the maximum likelihood estimator of k is given by $\hat{k}_2 = X_{(4)$, the sample maximum.  
  
-(c) Calculate 1 ˆ k and 2 ˆ k for the sample (1, 10, 3, 2) and comment on your results. (5) \\ \hline 
+(c) Calculate $\hat{k}_1$  and $\hat{k}_2$ for the sample $(1, 10, 3, 2)$ and comment on your results.  \\ \hline 
       \end{tabular}
     \end{table}
-\begin{framed}
-The random variable X follows the discrete uniform distribution on the integers 1, 2, ..., k so that the probability mass function of X is given by 
- 
- 
-1
-1,2,...,
-()
-0 otherwise
-xk
-kpx  = =   
- 
-\end{framed}
-
-\begin{framed}
-(i) Show that for a general positive integer k 
- 
- () 1 2 k EX + = . 
-(
-\end{framed}
-\begin{enumerate}
-    \item E[x] =
-Pk
-i=1
-i
-k = 1
-k
-1
-2k(k + 1) = k+1
-2
-
-
-\begin{framed}
-A random sample of size four, X1, X2, X3, X4, is taken from this distribution, yielding values x1, x2, x3, x4, from which it is intended to estimate the parameter k. 
- 
-(a) Show that the method of moments estimator of k is given by 
-1 ˆ 21 kX =−, where X denotes the sample mean. 
-\end{framed}
 %%%%%%%%%%%%
 \item The moment estimator $\hat{k}_1$ is found from setting $E[x] = \bar{x}$ i.e. $\bar{x}$ = 1
 2 ( $\hat{k}_1$ +
