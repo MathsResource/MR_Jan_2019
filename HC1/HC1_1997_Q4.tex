@@ -42,19 +42,19 @@ Find the probability that a randomly chosen nut will fit a bolt of diameter 9.98
 
 
 \begin{enumerate}[(a)]
-\item To fit a bolt with X = 9:98, we must have Y between 10.00 and 10.18.
-$Y \sim N(10.10; 0.0016)$. z = Y -10.1
-0.04 » N(0; 1).
+\item To fit a bolt with X = 9.98, we must have $Y$ between 10.00 and 10.18.
+$Y \sim N(10.10; 0.0016)$. 
+
+\[z = \frac{Y -10.1}{0.04} \sim N(0; 1^2)\].
 \begin{itemize}
-    \item For Y = 10.0, z = -0.1
-0.04 = -2.5,
-\item For Y = 10.18, z = +0.08
-0.04 = +2:0.
-3
+    \item For Y = 10.0, \[z = \frac{-0.1}{0.04} = -2.5.\]
+\item For Y = 10.18, \[z = \frac{+0.08}{0.04} = +2.0.\]
+
 \item $P(z < 2:0) = 0.97725$. $P(z < -2.5) = 0.00621$.
 We require the difference of these, which is 0.97104.
 \end{itemize}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+\newpage
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
@@ -77,8 +77,8 @@ P(fit satisfactorily) = P(0.02 · Y - X · 0.2). Corresponding z values for
 From Statistical Tables
 
 \begin{itemize}
-\item $P(z < -1:60) = 0.05480,$
-\item $P(z < +2:00) = 0.97725,$
+\item $P(z < -1.60) = 0.05480,$
+\item $P(z < +2.00) = 0.97725,$
 \end{itemize}
 difference is 0.92245.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -98,7 +98,7 @@ are to be bolted together, the two values Z1 and Z2 being independently N(10.3mm
 
 \begin{eqnarray*}
 i.e. &=& P(z > \frac{-0.24}{0.12} ) \\
-&=& P(z > -2:0) \\ 
+&=& P(z > -2.0) \\ 
 &=& 0.97725.
 \end{eqnarray*}
 (a) Plates are independent, so required probability is (0.97725)2 = 0.95502.
@@ -120,6 +120,7 @@ and hence independence, this has probability \[0.69146 \times 0.95502 = 0.66036\
 (or 0.66033).
 \end{itemize}
 
+\newpage
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
