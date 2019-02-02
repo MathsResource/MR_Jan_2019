@@ -34,13 +34,21 @@
 \hline    
 4. The table below shows results from a clinical trial of antibiotics in controlling stomach
 ulcers, giving the number who did or did not recover within four weeks under each of two
-treatments. (Patients were allocated to Drug 1 or Drug 2 at random.) Patients who dropped
-out of treatment because of side-effects were excluded in (A), but included as ‘not
+treatments. (Patients were allocated to Drug 1 or Drug 2 at random.)
+
+Patients who dropped out of treatment because of side-effects were excluded in (A), but included as ‘not
 recovered’ in (B).
 (A). Without drop-outs (B). With drop-outs
-Drug 1 Drug 2 Drug 1 Drug 2
-Recovered 11 13 11 13
-Not recovered 7 2 18 13
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}  \hline 
+& Drug 1& Drug 2 &  Drug 1&  Drug 2\\ \hline 
+Recovered&  11&  13&  11&  13\\  \hline 
+Not recovered &  7 & 2 & 18&  13\\  \hline 
+\end{tabular}
+\end{center}
+
+
 (Source: D.J Hand, Journal of the Royal Statistical Society, Series A, Part 3, 1994.)
 (i) Use Fisher’s exact test to analyse the data in Table (A), and a chi-square test for
 Table (B). Explain clearly in each case what you conclude from your test.
@@ -58,29 +66,29 @@ NR 7 2 : 9
 18 15 33
 j
 More extreme tables are
+\begin{verbatim}
 10 14 : 24
 8 1 : 9
 18 15 33
 and 9 15 : 24
 9 0 : 9
 18 15 33
+\end{verbatim}
 Together, these form the “tail” of the distribution when margins are fixed.
 probability are
-18! 15! 24! 9!
-33! 11! 7! 13! 2!
+$ \frac{18! 15! 24! 9!}{33! 11! 7! 13! 2!}$
+
 ;
-18! 15! 24! 9!
-33! 10! 8! 14! 1!
+$ \frac{18! 15! 24! 9!}{33! 10! 8! 14! 1!}$
 ;
-18! 15! 24! 9!
-33! 9! 9! 15! 0! :
+$ \frac{18! 15! 24! 9!}{33! 9! 9! 15! 0!}$
 i.e. 18£17£14
-55£31£29 = 0:08664; 9£17
-31£290 = 0:01703; 17
-31£29£15 = 0:00126.
+55£31£29 = 0.08664; 9£17
+31£290 = 0.01703; 17
+31£29£15 = 0.00126.
 \begin{itemize}
     \item For a 2-tail test of the Null Hypothesis of no difference, the probability is
-2(0:08664+0:01702+0:00126) = 0:2098. 
+\[2(0.08664+0.01702+0.00126) = 0.2098. \]
 \item There is no significant evidence for
 any difference between the two drugs.
 
@@ -90,17 +98,22 @@ any difference between the two drugs.
 (1) test also tests the N. H. that the proportions recovering are the
 same on each drug. ‘Expected’ frequencies are those given by this N. H. with
 the same marginal totals as the ‘Observed’.
-OBSERVED (EXPECTED) Drug1 Drug2
-Recovered 11(12:65) 13(11:35) 24
-Not recovered 18(16:35) 13(14:65) 31
-29 26 55
-Â2
-(1) = (1:65)2( 1
+
+\begin{center}
+\begn{tabular}{|c|c|c|c|}
+OBSERVED (EXPECTED) & Drug1 & Drug2& Total\\
+Recovered & 11(12:65) & 13(11:35) & 24\\
+Not recovered & 18(16:35)&  13(14:65)&  31\\
+& 29 & 26 & 55\\
+\end{tabular}
+\end{center}
+
+\[ \chi^2_{(1)} = (1:65)2( \frac{1}{12.65} + \frac{1}{11.35} + \frac{1}{16.35} + \frac{1}{14.65} \]1
 12:65 + 1
 11:35 + 1
 16:35 + 1
-14:65 ) = 2:7225 £ 0:296578 = 0:807 n.s.
-Again there is no significant evidence against the N. H.
+14:65 ) = 2:7225 £ 0.296578 = 0.807 n.s.
+Again there is no significant evidence against the Null Hypothessi.
 
 
 (ii) 
