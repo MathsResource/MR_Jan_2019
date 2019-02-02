@@ -26,28 +26,32 @@
 \begin{document}
 Higher Certificate, Paper I, 2003. Question 5
 \begin{framed}
-The random variable X follows a Poisson distribution with probability mass
-function
-\[f(x) = \frac{e^{-lambda} \lambda^{x}}{x!}\]
+The random variable $X$ follows a Poisson distribution with probability mass function
+\[f(x) = \frac{e^{-\lambda} \lambda^{x}}{x!}\]
+with $X \in \{0,1,2,3,4\ldots\}$ and $\lambda >0$.
 
-with $X \in \{0,1,2,3,4\ldots\}$ and $\lambda >0$
-Sketch f(x) for the cases λ = 0.5 and λ = 2, and state the expectation and
-variance of X.
+
+Sketch $f(x)$ for the cases $\lambda = 0.5$ and $\lambda = 0.2$, and state the expectation and
+variance of $X$.
 \end{framed}
 
 
 \begin{enumerate}
 \item Poisson distribution: 
-  \[f(x) = \frac{e^{-lambda} \lambda^{x}}{x!}\]
+  \[f(x) = \frac{e^{-\lambda} \lambda^{x}}{x!}\]
 
 Expectation = variance = $\lambda$.
-(i) 
-$\lambda = 0.5$ : f (0) = e-0.5 = 0.6065, f (1) = 0.3033, f (2) = 0.0758, … .
+
+\begin{enumerate}[(i)]
+    \item 
+$\lambda = 0.5$ : $f (0) = e^{-0.5} = 0.6065, f (1) = 0.3033, f (2) = 0.0758, … $.\\
 Expectation = variance = 0.5.
-$\lambda = 2$ : f (0) = 0.1353, f (1) = 0.2707, f (2) = 0.2707, f (3) = 0.1804,
-f (4) = 0.0902, … . 
+\item $\lambda = 2$ : $f (0) = 0.1353, f (1) = 0.2707, f (2) = 0.2707, f (3) = 0.1804,
+f (4) = 0.0902, \ldots $. \\
 
 Expectation = variance = 2.
+\end{enumerate}
+
 Sketches are as shown.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item Likelihood 
@@ -84,18 +88,16 @@ a maximum.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \begin{framed}
-(ii) Given a random sample x1, x2, …, xn from this distribution, obtain the
-maximum likelihood estimator of λ, ˆ
-ML λ say. State a suitable approximation
-for the distribution of ˆ
-ML λ assuming that the sample size n is large, and use this
+(ii) Given a random sample $x_1, x_2, \ldots , x_n$ from this distribution, obtain the
+maximum likelihood estimator of $\hat{\lambda}$, $\hat{\lambda}_{ML}$  say. State a suitable approximation
+for the distribution of $\hat{\lambda}_{ML}$ assuming that the sample size $n$ is large, and use this
 approximation to deduce an approximate 95\% confidence interval for $\lambda$.
 \end{framed}
 
 
 \item The central limit theorem gives $X \sim N(\lambda , \lambda /n )$, so we have
 (approximately)
-\[P (\lambda - 1.96 \sqrt{ \frac{\lambda}{n}} \leq \; \bar{X} \; \leq \;\lambda + 1.96 \sqrt{ \frac{\lambda}{n}})  =  0.95\]
+\[P \left(\left[ \lambda - 1.96 \sqrt{ \frac{\lambda}{n}} \right] \leq \; \bar{X} \; \leq \; \left[ \lambda + 1.96 \sqrt{ \frac{\lambda}{n}}\right]\right)  =  0.95\]
 
 \item 
 \[P (\bar{X} - 1.96 \sqrt{ \frac{\lambda}{n}} \leq \; \lambda \; \leq \; \bar{X} + 1.96 \sqrt{ \frac{\lambda}{n}})  =  0.95\]
@@ -111,11 +113,10 @@ for $\lambda$ is
 \newpage
 
 \begin{framed}
-A random sample of 400 observations yields Σxi = 2500. Calculate an
-approximate 95\% confidence interval for $\lambda$. Given further that Σxi
-2 = 25600,
+A random sample of 400 observations yields $\sum x_i = 2500$. Calculate an
+approximate 95\% confidence interval for $\lambda$. Given further that $\sum x^2_i= 25600$,
 calculate the sample variance of the given sample. Recalculate the confidence
-interval for λ using the central limit theorem but without assuming that the data
+interval for $\lambda$ using the central limit theorem but without assuming that the data
 are Poisson distributed. Compare this interval with that found in part (ii) and
 comment briefly.
 
@@ -123,12 +124,12 @@ comment briefly.
 \item $n=400$, \sum^{n}_{i=1}(x_i)=2500$ 2500; $\sum^{n}_{i=1}(x_i)^2=25600$.
 
 \begin{itemize}
-\item So the approximate 95% confidence interval is
+\item So the approximate 95\% confidence interval is
 
 
 \[   6.25\pm 1.96 \sqrt{ \frac{6.25}{400} } = \left(6.005, 6.495\right)\]
 
-\item Now using $\sum^{n}_{i=1}(x_i)^2=25600$, we have that the sample variance s2 is
+\item Now using $\sum^{n}_{i=1}(x_i)^2=25600$, we have that the sample variance $s^2$ is
 
 \[  s^2 = \frac{1}{399} \left( 25600 - \frac{(2500)^2}{400} \right)  = \frac{9975}{399} = 25.00 \]
 
