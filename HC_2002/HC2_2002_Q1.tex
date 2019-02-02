@@ -53,13 +53,20 @@
 \hline  
  
 (ii) A farmer wishes to investigate whether the inclusion of a chicken food additive would affect the number of eggs laid by his chickens.  
-To examine the impact of the food additive, the farmer selected a random sample of 24 chickens, all of similar age, and randomly allocated 12 
-to receive the normal food for three weeks and 12 to receive the normal food together with the food additive for three weeks.  
+
+
+To examine the impact of the food additive, the farmer selected a random sample of 24 chickens, all of similar age, and randomly allocated 12 to receive the normal food for three weeks and 12 to receive the normal food together with the food additive for three weeks.  
+
+
 The number of eggs laid by each chicken during this period was recorded as follows. 
  
- 
-Normal food only Normal food and additive   9 18 16 17 13 15 11 14 14 17 18 16 14 14 12 11 12 13 15 18 14 16 12 15 
- 
+\begin{center} 
+\begin{tabular}{|c|c|} \hline 
+Normal food only & \{9 18 16 17 13 15 11 14 14 17 
+18 16\} \\ \hline 
+Normal food and additive & \{14 14 12 11 12 13 15 18 14 16 12 15 \} \\ \hline 
+\end{tabular}
+\end{centre}
  
 Using an appropriate statistical test, investigate whether the inclusion of the food additive in the diet has any effect on the number of eggs laid by the chickens. (14) 
 \\ \hline
@@ -69,16 +76,11 @@ Using an appropriate statistical test, investigate whether the inclusion of the 
 \end{table} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \begin{enumerate} 
-\item If two independent sets of data are available from Normally distributed populations of measurements, with possibly different means µ 1, µ 2 but the same variance σ
- 2, a two-sample t test is used.  It compares the sample means, 1 x and 2 x , based on 1 n and 2 n observations, against the null hypothesis µ 1 = µ 2. 
+\item If two independent sets of data are available from Normally distributed populations of measurements, with possibly different means $\mu_1$, $\mu_2$ but the same variance $\sigma^2$, a two-sample t test is used.  It compares the sample means, 1 x and 2 x , based on $n_1$ and $n_2$ observations, against the null hypothesis $\mu_1 = \mu_2$. 
  
 The test statistic is 
- () 12
-2
-12 11 xx
-s
-nn
-−  +   ,  to be referred to the 12 2nnt +− distribution, and where 
+\[ TS = \frac{\bar{x}_1 - \bar{x}_2}{ \sqrt{ s^2 \left(  \frac{1}{n_1} + \frac{1}{n_2}  \right)} }, \]
+o be referred to the $t_(n_1+n_2-2)$ distribution, and where 
  ()() 12 22 1 1 2 2 112
 12 2
 nn
@@ -86,32 +88,34 @@ ij ij x x x x
 s
 nn == − + −
 =
-+− ∑∑  is a "pooled" estimate of σ
- 2. 
++− ∑∑  is a "pooled" estimate of $\sigma^2$. 
  \begin{itemize}
      \item  This is not valid when the data sets have been collected from the same units (and so are not independent). 
-     \item In this case there will be pairs of data (x1i, x2i);  for example in a medical trial these could be blood pressures before and after a standard exercise programme, or levels of a chemical before and after treatment with a drug. 
+     \item In this case there will be pairs of data ($x1i, x2i$);  for example in a medical trial these could be blood pressures before and after a standard exercise programme, or levels of a chemical before and after treatment with a drug. 
      \item Each patient is now acting as his or her own "control" and systematic patient-to-patient variation is removed. 
-     \item The measurement for analysis is $di = x2i − x1i$ for each pair (i = 1, 2, … , n).  \item A one-sample test of " µ d = 0" is now appropriate, using tn−1.  
+     \item The measurement for analysis is $di = x2i − x1i$ for each pair ($i = 1, 2, \ldots , n$).  \item A one-sample test of "$\mu_d = 0$" is now appropriate, using tn−1.  
      
      \item This procedure is called a paired test. 
  \end{itemize}
 
  
-\item  A two-sample test is required, and since the chickens were all of similar age a common value of σ 2 may be assumed. 
- 
-12 12nn ==. 
- 1 160x =∑ ,   2 1 2196x =∑ ,   1 13.33 x = ,   2 1 5.6970s = . 
- 2 184x =∑ ,   2 2 2870x =∑ ,   2 15.33 x = ,   2 2 4.4242s = . 
- () 2 2 2 12 1 11 11 5.0606 22 s s s = + = . 
- 
+\item  A two-sample test is required, and since the chickens were all of similar age a common value of $\sigma^2$ may be assumed. 
+$n_1 = n_2 = 12$
+
+\begin{tabular}{cccc}
+ $\sum x_1 = 160 $ ,&  $\sum x^2_1 = 2196 $ ,&  $\bar{x}_1= 13.33  $,&   $s^2_1 = 5.6970 $. \\
+ $\sum x_2 =184  $,&  $\sum x^2_2 = 2870  $,& $\bar{x}_2 = 15.33  $,& $ s^2_2 = 4.4242 .$\\ 
+\end{tabular} 
+
+\[s^2 = \frac{1}{22} \left( 11 s_1^2 + 11 s^2_2 \right) = 5.0606\] 
+
 The test statistic is 
-() 11 12 12 13.33 15.33 2.00 2.178 0.9185.0606 − =− =− +
-. 
+
+\[ TS =  \frac{13.33 - 15.33}{5.0606 \left( \frac{1}{12} + \frac{1}{12} \right) } = - \frac{2}{0.918} = -2.178\]
  
-This is significant at the 5% level (the two-tailed 5% point of t22 is 2.074). 
+This is significant at the 5\% level (the two-tailed 5\% point of t22 is 2.074). 
  
-The null hypothesis µ 1 = µ 2 is rejected at the 5% level, and so there is evidence that the two food regimes differ in effect. 
+The null hypothesis \mu_1 = \mu_2 is rejected at the 5\% level, and so there is evidence that the two food regimes differ in effect. 
 
 \end{enumerate}
 \end{document}
