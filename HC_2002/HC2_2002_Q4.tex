@@ -11,6 +11,7 @@
 \usepackage{fancyhdr}
 \usepackage{listings}
 \usepackage{framed}
+\usepackage{multirow}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{chngpage}
@@ -55,9 +56,19 @@ Higher Certificate, Paper II, 2002.  Question 4
 (b) A construction company makes concrete beams from cement mixed with gravel.  
 The company wishes to compare the relative strengths of the concrete made from the different types of cement available.  There are four different types of cement and three types of gravel.  From each of the 12 different combinations of cement and gravel, a test beam was made and tested to destruction.  The following table gives the breaking load, in coded units, for each test beam. 
  
-  Cement type   A B C D 
-  1 10 12 16 8 2 14 15 18 10 
-  Gravel type 3 18 22 26 20 
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{center}
+\begin{tabular}{llllll}
+\cline{3-6}
+                                                   & \multicolumn{1}{l|}{}  & \multicolumn{4}{l|}{Concrete Type}                                                                    \\ \cline{3-6} 
+                                                   & \multicolumn{1}{l|}{}  & \multicolumn{1}{l|}{A}  & \multicolumn{1}{l|}{B}  & \multicolumn{1}{l|}{C}  & \multicolumn{1}{l|}{D}  \\ \hline
+\multicolumn{1}{|l|}{\multirow{3}{*}{Gravel Type}} & \multicolumn{1}{l|}{1} & \multicolumn{1}{l|}{10} & \multicolumn{1}{l|}{12} & \multicolumn{1}{l|}{16} & \multicolumn{1}{l|}{8}  \\ \cline{2-6} 
+\multicolumn{1}{|l|}{}                             & \multicolumn{1}{l|}{2} & \multicolumn{1}{l|}{14} & \multicolumn{1}{l|}{15} & \multicolumn{1}{l|}{18} & \multicolumn{1}{l|}{10} \\ \cline{2-6} 
+\multicolumn{1}{|l|}{}                             & \multicolumn{1}{l|}{3} & \multicolumn{1}{l|}{18} & \multicolumn{1}{l|}{22} & \multicolumn{1}{l|}{26} & \multicolumn{1}{l|}{20} \\ \hline
+         
+\end{tabular}
+\end{center}
  
  
 Carry out a suitable analysis of these data and write a report for the manager of the construction company who is not trained in statistics. (14) 
@@ -73,13 +84,19 @@ Carry out a suitable analysis of these data and write a report for the manager o
 %Note.  The discussion presented here includes aspects that are further explored in Higher Certificate Paper III and/or in the Graduate Diploma Applied Statistics papers. 
 
 \begin{itemize}
-\item In two-way analysis of variance, there are two "factors" (A and B) that are sources of systematic variation that might affect the outcome.  Factor A has a "levels" and factor B has b "levels".  The observation when A is at level i and B is at level j is denoted by yij (for the time being we suppose there is only one observation at each such combination).  
-\item The usual linear model is that an observation yij can be explained in terms of an overall mean µ , an effect ( α i, deviation from µ ) due to having the ith level of A, similarly an effect ( β j, deviation from µ ) due to having the jth level of B, and a "residual" term ε ij which explains the random natural variation and is assumed N(0, σ 2) where σ 2 is constant for all observations.  Thus the model is 
-  1,2,..., 1,2,..., ij i j ij y i a j b µ α β ε = + + + = = . 
- \item This is often applied for designed experiments where one of the factors is a "blocking factor" and the other represents the "treatments" that are actually being compared.  The factors are often then called "blocks" and "treatments", with appropriate Greek letters ( β and τ ) being used. 
+\item In two-way analysis of variance, there are two "factors" (A and B) that are sources of systematic variation that might affect the outcome.  
+\item Factor A has a "levels" and factor B has b "levels".  The observation when A is at level i and B is at level j is denoted by $y_{ij}$ (for the time being we suppose there is only one observation at each such combination).  
+\item The usual linear model is that an observation $y_{ij}$ can be explained in terms of an overall mean $\mu$, an effect ( $\alpha_i$, deviation from $\mu$) due to having the ith level of A, similarly an effect ( $\beta_j$, deviation from $\mu$) due to having the $j-$th level of B, and a "residual" term ε ij which explains the random natural variation and is assumed $N(0, \sigma^2)$ where $\sigma^2$ is constant for all observations.  Thus the model is 
+\[  1,2,..., 1,2,..., ij i j ij y i a j b \mu \alpha\beta ε = + + + = = \]. 
+ \item This is often applied for designed experiments where one of the factors is a "blocking factor" and the other represents the "treatments" that are actually being compared.  The factors are often then called "blocks" and "treatments", with appropriate Greek letters ( $\beta$ and $\tau$ ) being used. 
  
-\item Sometimes there is more than one observation ("replication") for each combination of a level from factor A and a level from factor B  −  usually the same number of observations, say n, for every combination  −  and in such cases an observation is denoted by yijk where the third subscript k (k = 1, 2, …, n) indicates the replicate.  The residual term correspondingly needs to be denoted by ε ijk.  The model then becomes 
-  1,2,..., 1,2,..., 1,2,..., ijk i j ijk y i a j b k n µ α β ε = + + + = = = and can be further extended to include also an "interaction" term, usually denoted by ( αβ )ij.  This represents the situation where some levels of A give a 'better' result in combination with some levels of B whereas other levels of A give a 'better' result with other levels of B.  It is often assumed that there is no such interaction, especially in the blocks-and-treatments designed experiments situation. 
+\item Sometimes there is more than one observation ("replication") for each combination of a level from factor A and a level from factor B  −  usually the same number of observations, say n, for every combination  −  and in such cases an observation is denoted by $y_{ijk}$ where the third subscript $k$ ($k = 1, 2, \ldots, n$) indicates the replicate.  The residual term correspondingly needs to be denoted by $\varepsilon_{ijk}$.  
+
+The model then becomes 
+\[  1,2,..., 1,2,..., 1,2,..., ijk i j ijk y i a j b k n \mu + \alpha + \beta + \epsilon = \] and can be further extended to include also an "interaction" term, usually denoted by $( \alpha \beta )_{ij}$.  
+  
+  
+  This represents the situation where some levels of A give a 'better' result in combination with some levels of B whereas other levels of A give a 'better' result with other levels of B.  It is often assumed that there is no such interaction, especially in the blocks-and-treatments designed experiments situation. 
 \end{itemize} 
  
 (b) Totals (of rows and columns in the given table) are as follows. 
@@ -91,24 +108,36 @@ Gravel types (i = 1, 2, 3):
 Cement types (j = 1, 2, 3, 4 for A, B, C, D respectively): 
   A B C D Grand total Total 42 49 60 38 189 Mean 14.00 16.33 20.00 12.67  
  
-Continued on next page 
- 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
  1 2 3 Grand total Total 46 57 86 189 Mean 15.33 19.00 28.67  
 
- 
- 
-Sum of squares for gravel = () 2 222 1 189 46 57 86 3190.25 2976.75 4 12 + + − = −  = 213.50. Sum of squares for cement = () 2 2222 1 189 42 49 60 38 3069.667 2976.750 3 12 + + + − = − = 92.917. Total sum of squares = 2189 3293 316.25 12 −= .        [3293 is 2 ijyΣΣ .] 
- 
+
+\begin{itemize}
+    \item Sum of squares for gravel = () 2 222 1 189 46 57 86 3190.25 2976.75 4 12 + + − = −  = 213.50. 
+    \item Sum of squares for cement = () 2 2222 1 189 42 49 60 38 3069.667 2976.750 3 12 + + + − = − = 92.917. 
+    \item Total sum of squares = 2189 3293 316.25 12 −= .        [3293 is 2 ijyΣΣ .] 
+\item  
 Residual sum of squares (obtained by subtraction) = 316.25 − 92.917 − 213.50 = 9.833. 
  
-Analysis of Variance: 
- Source of variation df Sum of Squares Mean Square F value Gravels   2 213.500 106.75 65.13  (very highly sig) Cements   3   92.917   30.97 18.90   (highly sig) Error (Residual)   6     9.833       1.639  Total 11 316.250   
- The F value of 65.13 is referred to F2,6.  It is very much larger than even the upper 0.1% point (which is 27.00).  The F value of 18.90 is referred to F3,6.  It substantially exceeds the upper 1% point (9.78) but not the upper 0.1% point (23.70). 
+\item Analysis of Variance: 
+
+\begin{center}
+    \begin{tabular}{|l|l|l|l|l|l|}
+Source of variation & df & Sum of Squares & Mean Square &  F value & \\
+Gravels                                                   & 2 2 & 13.500 & 106.75 & 65.13 & (very highly sig)   \\
+Cements                                                   & 3                      & 92.917            & 30.97 & 18.90 & (highly sig)   \\
+Error (Residual)                                          & 6                      & 9.833             & 1.639       &              & 
+\end{tabular}
+\end{center}  
+
+\ite The F value of 65.13 is referred to F2,6.  It is very much larger than even the upper 0.1\% point (which is 27.00).  The F value of 18.90 is referred to F3,6.  It substantially exceeds the upper 1\% point (9.78) but not the upper 0.1\% point (23.70). 
  
-The residual mean square (1.639) is the estimate of experimental error.  This measures the underlying variability of the production process;  it is not very large, suggesting that the process appears to be in control. 
+\item The residual mean square (1.639) is the estimate of experimental error.  This measures the underlying variability of the production process;  it is not very large, suggesting that the process appears to be in control. 
  
-There are significant differences among both cements and gravels.  The company should use the cement which gives the greatest strength, and on the evidence of these results that is clearly C.  These are also noticeable differences among gravels;  in particular, type 3 gave stronger beams than the others.  In fact the differences among gravels were greater than those among cements;  they would be worth exploring further, and in production this is an important factor to control. 
- 
+\item There are significant differences among both cements and gravels.  The company should use the cement which gives the greatest strength, and on the evidence of these results that is clearly C.  
+\item These are also noticeable differences among gravels;  in particular, type 3 gave stronger beams than the others.  
+\item In fact the differences among gravels were greater than those among cements;  they would be worth exploring further, and in production this is an important factor to control. 
+\end{itemize}  
  
 Technical back-up to go in an appendix to a report would include the significant differences between pairs of means for the cements, which are as follows (1.639 is the residual mean square, from the analysis of variance above): 
  
@@ -118,7 +147,7 @@ t
    ×    = × =         
   , 
  
-showing that C > all others at 5% or more, otherwise the only evidence of real difference is between B and D [in fact it might be reasonable to assume that A, B and D are all the same but C distinctly better].  A similar analysis for significant differences between pairs of means for the gravels would also be included. 
+showing that C > all others at 5\% or more, otherwise the only evidence of real difference is between B and D [in fact it might be reasonable to assume that A, B and D are all the same but C distinctly better].  A similar analysis for significant differences between pairs of means for the gravels would also be included. 
 
 \end{enumerate}
 \end{document}
