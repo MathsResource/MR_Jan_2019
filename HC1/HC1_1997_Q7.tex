@@ -28,30 +28,21 @@
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline        
-7. The data $( x_i, y_i)$, where x i n i >= 01 , ,..., , are thought to conform to a proportional regression model (linear regression through the origin)
-Y x e i n i i i = + = β , ,..., , 1
-where the ei are independent Normally distributed error terms with mean zero.
-(i) If the ei have constant known variance 
-$\sigma^2$, show that the max_{i}mum likelihood (ML)
+7. The data $( x_i, y_i)$, where $x_i>0$  and  $i = \{1 ,2, \ldots,n\}$ , are thought to conform to a proportional regression model (linear regression through the origin)
+$Y_i = \beta\;x_i + e_i$, $i = \{1 ,2, \ldots,n\}$
+where the $e_i$ are independent Normally distributed error terms with mean zero.
+
+
+(i) If the $e_i$ have constant known variance 
+$\sigma^2$, show that the maximum likelihood (ML)
 estimate of 
 $\beta$
- minimises ei i n 2 1= ∑ and is given by
-ˆ β 1 =
-xy
-x
-ii
-i
-n
-i
-i
-n =
-=
-∑
-∑
-1
-2
-1
-.
+ minimises $ \sum^n_{i=1}(e_i)^2$ and is given by
+ 
+ {
+ \large
+ \[ \hat{\beta}_{1} = \frac{\sum^n_{i=1}(x_i y_i)}{\sum^n_{i=1}(x_i)^2}  \]
+}
 
 \\ \hline
       \end{tabular}
@@ -93,8 +84,8 @@ Likelihood
 2\sigma^2
 ¢ 2
 \sum^{n}_{i=1}(y_{i}- \beta\;x_{i})x_{i}\] and is zero when
-P
-$(y_{i}- \hat{\beta}\;x_{i})x_{i} = 0$ i.e.
+
+$\sum (y_{i}- \hat{\beta}\;x_{i})x_{i} = 0$ i.e.
 
 \[\sum y_{i}x_{i} = \beta \sum x_{i}^2\] or $\hat{\beta}1 =
 - \frac{\sum y_i\;x_i}{\sum x_i^2}
@@ -108,13 +99,13 @@ confirming maximum.
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline  
-(ii) If instead the variance of ei is given by 
-σ
+(ii) If instead the variance of $e_i$ is given by 
+$\sigma^2$
 2
-x_{i} ,  i = 1, …, n,  show that the
+x_{i} ,  $i = 1, \ldots, n$,  show that the
 ML estimate of 
-β
- minimises 
+$\beta$  minimises 
+
 e x i ii n 2 1= ∑ and is given by
 ˆ β 2 =   
 y x
@@ -123,7 +114,7 @@ where x and y are the sample mean values of xx n1 ,..., and yy n1 ,..., respecti
 \\ \hline 
 \end{tabular}
 \end{table}
-\item  If now feig are N(0; \sigma2x_{i}),
+\item  If now $\{e_i}$ are $N(0; \sigma2x_{i})$,
 Likelihood
 \[ L = \prod^n_{i=1} \left[ \frac{1}{\sigma \sqrt{2\pix_i}} exp\left( - \frac{(y_i - \beta\;x_i)^2}{2x_i\sigma^2}   \right)   \right]\]
 
