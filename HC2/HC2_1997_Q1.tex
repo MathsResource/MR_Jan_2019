@@ -62,24 +62,22 @@ a 95 per cent confidence interval for your estimate.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}
 
-\item  For 1988, ¯x1 = 53:4, s1 = 19:7; also n = 750;
-for 1990, ¯x2 = 55:3, s2 = 19:5; also n = 633.
-If ¹1; ¹2 are the corresponding population means, H0 is ¹1 = ¹2 (or, strictly,
-¹1 ¸ ¹2) and H1, to be tested, is ¹2 > ¹1.
-V (¯x2 ¡ ¯x1) = s21
-n1
-+ s22
-n2
-= 19:72
-750 + 19:52
-633 = 1:11816, SE = 1:057.
+\item  For 1988, $\bar{x}_1 = 53:4$, $s_1 = 19.7$; also n = 750;
+for 1990, $\bar{x}_2 = 55.3$, s2 = 19:5; also n = 633.
+If $\mu_1$; $\mu_2$ are the corresponding population means, H0 is \mu_1 = \mu_2 (or, strictly,
+$\mu_1 ¸ \mu_2$) and H1, to be tested, is \mu_2 > \mu_1.
+
+\[S.E. (\bar{x}_2 ¡ \bar{x}_1) = 
+
+\sqrt{  \frac{s^2_1}{n_1} + \frac{s^2_2}{n_2} }
+=  \sqrt{  \frac{19.7^2}{750} + \frac{19.5^2}{633} }= \sqrt{1:11816} = 1:057 \], SE .
 As these are large samples of date we use a normal (r) test:
 r = 55:3¡53:4
 1:057 = 1:9
 1:057 = 1:798.
 \begin{itemize}
-\item The form of H1 requires a one-tail test, with critical value 1.645 at 5%.
-\item Hence we reject H0.
+\item The form of $H_1$ requires a one-tail test, with critical value 1.645 at 5\%.
+\item Hence we reject $H_0$.
 \item A 95\% confidence interval for the increase is 1:9§1:96£1:057 = 1:9§2:07,
 or (-0.17; 3.97).
 \item If we are certain that there must have been an increase we may prefer to
@@ -90,12 +88,12 @@ quote this result as (0; 3:97).
 \item 
 
 \begin{itemize}
-\item For 1988, pM = 349/750 = 0:4653 and pF = 0:5347; n = 750.
-\item For 1990, pM = 321/633 = 0:5071 and pF = 0:4929; n = 633.
+\item For 1988, $p_M = \frac{349}{750} = 0.4653$ and $p_F = 0.5347$; n = 750.
+\item For 1990, $p_M = \frac{321}{633} = 0.5071$ and $p_F = 0.4929$; n = 633.
 \end{itemize}
-The hypotheses H0: pM;1988 = pM;1990 and H1 : pM has changed can be
-examined in a 2 £ 2 table of ‘observed’ frequencies and ‘those expected on
-H0’.
+The hypotheses $H_0$: pM;1988 = pM;1990 and H1 : pM has changed can be
+examined in a $2 \times 2$ table of ‘observed’ frequencies and ‘those expected on
+$H_0$’.
 
 \begin{center}
 {
@@ -104,9 +102,9 @@ H0’.
 \cline{3-4}
 \multicolumn{2}{c|}{} & 1988        & 1990        \\
  \cline{2-4}
-\multirow  {{}}& Male & 349(363:34) & 321(306:66) \\
+\multirow  {{}}& Male & 349(363.34) & 321(306.66) \\
  \cline{2-4}
-& Female &401(386:66)& 312(326:34)\\
+& Female &401(386.66)& 312(326.34)\\
 \cline{2-4}
 
 %\hline
@@ -136,8 +134,8 @@ FEMALE   713
 \end{eqnarray*}
 \begin{itemize}
     \item There is no evidence of change.
-\item An alternative method is to use normal approximations for pM: N(p; p(1¡p)
-n )
+\item An alternative method is to use normal approximations for pM: $N(p; \frac{p(1-p)}{n})$
+
 in each year and consider the difference. 
 \item This would be needed if confidence
 intervals had been required. 
