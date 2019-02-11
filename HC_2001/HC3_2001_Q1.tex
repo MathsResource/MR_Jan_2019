@@ -45,7 +45,8 @@ Higher Certificate, Paper III, 2001. Question 1
 
 
 1. The following data are blood cholesterol levels (in mg/100ml) of 10 heart attack patients one and two weeks after the attack, together with the difference between the two levels. 
- 
+
+\begin{verbatim} 
 Patient One week after Two weeks after 
 Difference Total 
 1   142   116   −26   258 
@@ -59,30 +60,18 @@ Difference Total
 9   224   200   −24   424 
 10   311   302     −9   613 
 Total 2477 2354 −123 4831 
- 
+\end{verbatim} 
  
 (i) Perform a paired t test on these data. 
  
  
 (ii) Calculate the sums of squares (SSs) for "patients" and "week" and perform the analysis of variance (ANOVA) for a randomised block design, with "patients" corresponding to blocks.  Note that the (corrected) total SS = 74498.95.  
- 
-(iii) Perform a Wilcoxon signed-rank test on these data. 
- 
- 
-(iv) State the null and alternative hypotheses being tested in parts (i), (ii) and (iii) and the assumptions the tests involved make.  What conclusions do you draw from each of these tests?  Give reasons for your answers.  
- 
-(v) What is the relationship between the paired t value of part (i) and the F value for "week" of part (ii)?  
- 
- 
 \\ \hline
-
-
-
 \end{tabular}
-    
-
-
 \end{table}
+
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -102,18 +91,48 @@ SS for patients 1 (2582 ... 6132 ) correction = 1238009.50 1166928.05
 2
 = ++ − −
 =71081.45
+
 Analysis of Variance
 ITEM DF SS MS
 Patients 9 71081.45 7897.94 F9,9 = 26.71 sig at 0.1%
 Weeks 1 756.45 756.45 F1,9 = 2.56 not significant
 Residual 9 2661.05 295.67
 TOTAL 19 74498.95
+
+\newpage
+\begin{table}[ht!]
+\centering
+\begin{tabular}{|p{15cm}|}
+\hline 
+
+(iii) Perform a Wilcoxon signed-rank test on these data. 
+ 
+\\ \hline
+\end{tabular}
+\end{table}
+
+
 (iii)
 Ranking of |diff| 4 5 6 8 9 24 25 26 40 56
 (1) (2) (3) (4) (5) (6) (7) (8) (9) (10)
 Sign + + + − − − + − − −
 Sum of + ranks is S+ = 13; S− = 42. Tables show that for n = 10 and at the 5% level
 in a two-tail test, the smaller of S+ and S− should be 8 or less for significance.
+
+
+
+\begin{table}[ht!]
+\centering
+\begin{tabular}{|p{15cm}|}
+\hline  
+(iv) State the null and alternative hypotheses being tested in parts (i), (ii) and (iii) and the assumptions the tests involved make.  What conclusions do you draw from each of these tests?  Give reasons for your answers.  
+ 
+(v) What is the relationship between the paired t value of part (i) and the F value for "week" of part (ii)?  
+ 
+ 
+\\ \hline
+\end{tabular}
+\end{table}
 (iv) The null hypothesis for (i) and (ii) is as stated in (i). The alternative
 hypothesis is "mean difference ≠ 0". Normality of the data would be required in (ii),
 not just of the differences. A dot-plot would in either case cast serious doubt on this
