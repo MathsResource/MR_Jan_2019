@@ -43,7 +43,7 @@ profit per unit
 of output
 2.5 4.0 3.1 4.6 7.3 6.2 6.1 11.6 10.0 14.2 16.1 19.5
 These data are entered into Minitab, with profit in column 1 (i.e. c1) and
-% operating capacity in column 2 (i.e. c2), and analysed as shown in the edited
+Percentage of operating capacity in column 2 (i.e. c2), and analysed as shown in the edited
 output. Use the output to answer the following questions, noting the explanations
 incorporated in it. c1 is named 'Profits' and c2 is named 'OpCapcty'.
 (i) Consider the plot of profits against capacity and the subsequent regression
@@ -61,10 +61,10 @@ immediately following?
 
 
 \begin{enumerate}
-\item  yi =α + β xi +ε i
+\item  $y_i = \alpha + \beta x_i + \epsilon_i$
 where y is the response (observation) and x the value of the explanatory variable on
 that unit; { } i
-ε is a set of independent, identically distributed random variables with
+$\epsilon$ is a set of independent, identically distributed random variables with
 mean 0 and the same varianceσ 2 . Usually they are assumed Normal as a basis for
 inference. i x is assumed "fixed", not "random".
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -81,7 +81,7 @@ parameter.
 (d) The subcommand SUBC> predict … on page 13 produces the
 lines starting 'Predicted Values' and ending 'very extreme X values'.
 Noting that, for example, −15.799 + (0.31562)(25) = −7.909 and
-that the 95\% CI is obtained as −7.909 ± 2.714 t10, 0.025 , explain the
+that the 95\% CI is obtained as $−7.909 \pm 2.714$ t10, 0.025 , explain the
 meaning of this section of the output.
 
 \\ \hline
@@ -98,7 +98,7 @@ model; hence it is the square of the correlation between ˆy and y.
 \item In the ANOVA , regression SS 269.33 0.803, or 80.3\%
 total SS 335.37
 = = .
-\item As x (\% operating capacity) increases by 1 unit so y (profit) increases
+\item As x (\Percentage of operating capacity) increases by 1 unit so y (profit) increases
 by 0.31562 units.
 A 95\% confidence interval is 10 0.31562 ± t ×0.04942 , which is
 0.31562 ± 0.11011or (0.2055, 0.4257) .
@@ -112,16 +112,16 @@ true y at a given x with probability 0.95, based on the fitted linear regression
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline        
-\noindent Question 8 continued on next page.
+\noindent 
 Minitab output follows on pages 13 and 14.
 12
 (ii) In the analysis of Model 2, column 3 (i.e. c3) is constructed as
 log10(profits).
-(a) Compare the plot of log10(profits) against % operating capacity
-with that of profits against % operating capacity.
+(a) Compare the plot of log10(profits) against Percentage of operating capacity
+with that of profits against Percentage of operating capacity.
 
-(b) Use the regression of log10(profits) on % operating capacity to
-express profits as a function of % operating capacity.
+(b) Use the regression of log10(profits) on Percentage of operating capacity to
+express profits as a function of Percentage of operating capacity.
 \\ \hline
       \end{tabular}
     \end{table}
@@ -132,7 +132,7 @@ express profits as a function of % operating capacity.
      \hline        
 \noindent 
 
-(c) Convert the predicted value of log10(profits) for 25% operating
+(c) Convert the predicted value of log10(profits) for 25\% operating
 capacity, and its CI, to a corresponding prediction and CI for
 profits. Compare your answers with the corresponding values
 indicated in the output referred to in part (i)(d) above.
@@ -179,11 +179,12 @@ any model.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \begin{framed}
+\begin{verbatim}
 Two pages of Minitab output follow
 13 Turn over
 MTB > set c1 # profit in £1000s, for 12 factories
 DATA> 2.5 4.0 3.1 4.6 7.3 6.2 6.1 11.6 10.0 14.2 16.1 19.5 DATA> end
-MTB > set c2 # corresponding % operating capacity for 12 factories as above
+MTB > set c2 # corresponding Percentage of operating capacity for 12 factories as above
 DATA> 50 57 61 68 77 80 82 85 89 91 95 99 DATA> end
 MTB > name c1 'Profits' c2 'OpCapcty'
 (i) Analysis of Model 1
@@ -206,6 +207,16 @@ Profits - *
 - *
 ----+---------+---------+---------+---------+---------+--OpCapcty
 50 60 70 80 90 100
+
+
+\end{verbatim}
+\end{framed}
+\newpage
+\begin{framed}
+\begin{verbatim}
+    
+
+
 MTB > regress c1 1 c2;
 SUBC> residual c3;
 SUBC> predict c1 for c2 = 25; SUBC> predict c1 for c2 = 50; SUBC> predict c1 for c2 = 75.
@@ -228,6 +239,11 @@ Fit StDev Fit 95.0% CI
 7.872 0.755 ( 6.190, 9.554)
 X denotes use of X values away from the centre
 XX denotes use of very extreme X values
+\end{verbatim}
+\end{framed}
+\newpage
+\begin{framed}
+\begin{verbatim}
 MTB > let c4=c1-c3 # c4 is the fit
 MTB > gstd
 * NOTE * Standard Graphics are enabled. Professional Graphics are disabled.
@@ -251,6 +267,11 @@ c3 - *
 --+---------+---------+---------+---------+---------+----c4
 0.0 3.0 6.0 9.0 12.0 15.0
 14
+\end{verbatim}
+\end{framed}
+\newpage
+\begin{framed}
+\begin{verbatim}
 (ii) Analysis of Model 2
 MTB > let c3=logten(c1)
 MTB > name c3 ‘log Prof’
@@ -296,6 +317,11 @@ Fit StDev Fit 95.0% CI
 0.8089 0.0246 ( 0.7541, 0.8637)
 X denotes a row with X values away from the centre
 XX denotes a row with very extreme X values
+\end{verbatim}
+\end{framed}
+\newpage
+\begin{framed}
+\begin{verbatim}
 MTB > let c5=c3-c4 # c4 contains the residuals from regression, c5 is the fit
 MTB > plot c4 c5
 -
@@ -318,6 +344,9 @@ c4 - * *
 
 
 
+\end{verbatim}
 \end{framed}
 
 \end{document}
+
+2.5 4.0 3.1 4.6 7.3 6.2 6.1 11.6 10.0 14.2 16.1 19.5
