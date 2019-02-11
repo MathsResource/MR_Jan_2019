@@ -13,7 +13,7 @@
 \usepackage{listings}
 \usepackage{framed}
 \usepackage{graphicx}
-\usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{chngpage}
 %\usepackage{bigints}
 
@@ -30,26 +30,26 @@ Higher Certificate, Paper I, 2001. Question 5
  \centering
  \begin{tabular}{|p{15cm}|}
  \hline
-\noindent 5. In an experiment, the number of events happening in any unit time interval is a
+\noindent In an experiment, the number of events happening in any unit time interval is a
 Poisson random variable X with probability mass function
-( ) !
+\[( ) !
 x
 p x e
 x
-= −λ λ , x = 0, 1, 2, … , λ > 0 .
+= -\lambda \lambda , x = 0, 1, 2, … , \lambda > 0 .\]
 Show that
-( 1) ( )
+\[( 1) ( )
 1
 px px
 x
-+ = λ
++ = \lambda
 +
-, x = 0, 1, 2, … .
+, x = 0, 1, 2, … .\]
 (1)
-Draw graphs of p(x) for the cases λ = ½ and λ = 2.
+Draw graphs of p(x) for the cases $\lambda = 0.5$ and $\lambda = 2$.
 
 Obtain the moment generating function (mgf) of X and hence show that
-E(X) = Var(X) = λ. Show also that E[(X − λ)3] = λ.
+$E(X) = Var(X) = \lambda$. Show also that $E[(X - \lambda)3] = \lambda$.
 \\ \hline
   \end{tabular}
 \end{table}
@@ -57,35 +57,28 @@ E(X) = Var(X) = λ. Show also that E[(X − λ)3] = λ.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \begin{framed}
 \noindent The moment-generating function of a random variable X is 
-\[{\displaystyle M_{X}(t):=\operatorname{E} \left[e^{tX}\right],\quad t\in \mathbb{R} ,} \]
+\[{\displaystyle M_{X}(t) = \operatorname{E} \left[e^{tX}\right],\quad t\in \mathbb{R} ,} \]
 
 \noindent wherever this expectation exists. In other words, the moment-generating function is the expectation of the random variable 
 ${\displaystyle e^{tX}}. $
 \end{framed}
 
 \begin{enumerate}
-\item ( )
-( ) ( )
-1 1 ! .
-1 ! 1
-x
-x
-p x e x
-p x x e x
-\lambda
-\lambda
-\lambda \lambda
-\lambda
-− +
-  −
-+
-  = =
-  + +
-  for x = 0, 1, 2, … .
-For 1 , (0) 0.60653; so (1) 0.30327, (2) 0.07582, (3) 0.01264
-2
-\lambda = p = p = p = p = .
-Graph of p(x) for $$\lambda = 1/2$.
+\item 
+
+\[ \frac{P(x+1)}{P(x)}  = \frac{e^{-\lambda \lambda^{x+1}}}{(x+1)!} \times \frac{x!}{-\lambda \lambda^{x}} = \frac{\lambda}{x+1}\]
+  for $x = 0, 1, 2, \ldots $.
+\medskip
+For $\lambda = 1/2$, p(0) = 0.60653;
+
+so
+\begin{itemize}
+\item p(1) = 0.30327,
+\item p(2) = 0.27067,
+\item p(3) = 0.07582, 
+\item p(4) = 0.01264,
+\end{itemize}
+Graph of p(x) for $\lambda = 1/2$.
 For $\lambda = 2$, p(0) = 0.13534;
 
 so
@@ -98,39 +91,22 @@ so
 \end{itemize}
 
 Graph of p(x) for $\lambda = 2$.
-0
-0.1
-0.2
-0.3
-0.4
-0.5
-0.6
-0.7
-0 1 2 3
-0
-0.1
-0.2
-0.3
-0 1 2 3 4 5
-( ) ( ) ( { })
-0 0
-. exp 1
-! !
-  t
+\[ Graph 1\]
+\[Graph 2 \]
   
-\noindent The moment-generating function of a random variable X is 
+\noindent The moment-generating function of a random variable $X$ is 
 \begin{eqnarray*}   
 M_{X}(t) &=& \operatorname {E} \left[e^{tX}\right] \\
 &=& \sum^{\infty}_{x=0} \frac{e^{xt}e^{-\lambda} \lambda^x}{x!}\\
 &=&  e^{-\lambda} \sum^{\infty}_{x=0} \frac{e (\lambda^{t})^x}{x!}\\
 &=& e^{-\lambda} \times e^{lambda e^{t} } \\
-&=& e^{\lambda(e^{lambda t} - 1)\\
+&=& e^{\lambda(e^{lambda t} - 1)}\\
 \end{eqnarray*}
 
 \smallskip
 
 \begin{eqnarray*} 
-\frac{\partialM}{\partial t} &=&  \left(e^{\lambda(e^{lambda t} - 1) } \right)
+\frac{\partial M}{\partial t} &=&  \left(e^{\lambda(e^{lambda t} - 1) } \right)
 \end{eqnarray*}
 
  put 0 and this is $\lambda$ , which is therefore $E(X)$.
@@ -139,21 +115,16 @@ M_{X}(t) &=& \operatorname {E} \left[e^{tX}\right] \\
 \frac{\partial^2M}{\partial t^2} &=& \left( \lambda^2 e^{2t} + \lambda e^{t} \right) \times \left(e^{\lambda(e^{lambda t} - 1) } \right)
 \end{eqnarray*}
 
- put 0 and this is + ,
-et M e t et e t
-t
-\lambda \lambda \lambda \lambda \lambda ∂ = +  −  =  
-∂  
-but it is also E X 2  .
-\begin{itemize}
-\item Hence 
+ put $t=0$ and this is $\lambda^2 + \lambda$ ,
+
+but it is also $E(X^2)$. Hence 
 \begin{eqnarray*}
-Var(X) &=& E[X^2]  − E X(X)^2 \\
-&=&  \lambda^2 +\lambda − (\lambda)^2 \\
+Var(X) &=& E[X^2] - E (X)^2 \\
+&=&  \lambda^2 +\lambda - (\lambda)^2 \\
 &=& \lambda\\
 \end{eqnarray*}
 
-\begin{eqnarray*} \frac{\partial^3M}{\partial t^3} &=& \left( \lambda^3 e^{3t} + 3 \lambda^2 e^{2t} + \lambda e^{t} \right) \times \left(e^{\lambda(e^{lambda t} - 1) } \right)
+\begin{eqnarray*} \frac{\partial^3M}{\partial t^3} &=& \left( \lambda^3 e^{3t} + 3 \lambda^2 e^{2t} + \lambda e^{t} \right) \times \left(e^{\lambda(e^{lambda t} - 1) } \right)\\
 &=&  \lambda^3 + 3\lambda^2 + \lambda \\
 \end{eqnarray*}
 
@@ -167,9 +138,9 @@ Var(X) &=& E[X^2]  − E X(X)^2 \\
  \begin{tabular}{|p{15cm}|}
  \hline
 \noindent 
-In successive unit time intervals, the numbers of events X1, X2, …, Xn are
-independent and each has the same distribution as X. Obtain the mgf of
-Y = X1 + X2 + … + Xn , deduce the form of the distribution of Y and write down
+In successive unit time intervals, the numbers of events $X_1, X_2, \ldots, X_n$ are
+independent and each has the same distribution as $X$. Obtain the mgf of
+$Y = X_1 + X_2 + \ldots + X_n$ , deduce the form of the distribution of Y and write down
 E(Y) and Var(Y).
 \\ \hline
   \end{tabular}
@@ -180,7 +151,7 @@ E(Y) and Var(Y).
  \begin{tabular}{|p{15cm}|}
  \hline
 \noindent 
-In the case λ = ½, n = 50, use an appropriate approximation to find P(Y ≥ 40), and
+In the case $\lambda = 0.5$, $n = 50$, use an appropriate approximation to find $P(Y \geq 40)$, and
 state with a reason whether you would expect your answer to be greater than or
 less than the true value.
 \\ \hline
@@ -194,32 +165,20 @@ less than the true value.
 \\ \hline
   \end{tabular}
 \end{table}
-\item This is M e t e t et e e t E X
-t
-% \lambda \lambda \lambda \lambda \lambda \lambda % \lambda ∂ = + +  −  + + =       ∂  
-.
-
+\item This is $E(X^3)$.
 
 \item Now
 \begin{eqnarray*}  
-E (X −\lambda^3 ) &=&  
-E [X^3] − 3\lambda E[X^2] + 3\lambda^2E[X]−\lambda^3 \\
-&=&  \left[\lambda^3 + 3\lambda^2 +\lambda \right]− 3\lambda \left[ (\lambda^2 +\lambda ) \right]+ 3\lambda^2 left[\lambda \right] −\lambda^3 \\ 
+E (X -\lambda^3 ) &=&  
+E [X^3] - 3\lambda E[X^2] + 3\lambda^2E[X]-\lambda^3 \\
+&=&  \left[\lambda^3 + 3\lambda^2 +\lambda \right]- 3\lambda \left[ (\lambda^2 +\lambda ) \right]+ 3\lambda^2 \left[\lambda \right] -\lambda^3 \\ 
 &=&  \lambda 
 \end{eqnarray*}
 
-For Y = X1 + X2 + … + Xn we have
-( ) ( )
-1
-E i ( ) exp 1 .
-n
-Y t X t n t
-X
-i
-\[E e e M t \lambda n e
-=
-    =Π   = = \] − 
-\end{itemize}
+For $Y = X1 + X2 + … + Xn$ we have
+
+\[E[e^{Yt}] = \prod^{n}_{i=1}E[e^{x_it}] = [M_x(t)]^n = exp[\lambda n(e^t-1)]\]
+
 %%%%%%
 
 
@@ -228,10 +187,10 @@ i
 \item This is the mgf of a Poisson distribution with parameter $\lambda\;n$and so 
 \[E[Y] = Var(Y) = \lambda n.\]
 
-\[P (Y \geq 40) = 1− P(Y \leq 39) \approx 1 - \Phi(\frac{39.5-25}{5})\]
+\[P (Y \geq 40) = 1- P(Y \leq 39) \approx 1 - \Phi(\frac{39.5-25}{5})\]
 
-using continuity correction, and μ = \lambda n = 25. 
-\item This is $1−\Phi(2.9) = 0.00187$.
+using continuity correction, and $\mu = \lambda n = 25$. 
+\item This is $1-\Phi(2.9) = 0.00187$.
 With a positively skew distribution, the Normal approximation is likely to
 underestimate the probability in the right hand tail and so we expect this answer to be
 less than the true value.
