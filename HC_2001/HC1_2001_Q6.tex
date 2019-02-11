@@ -29,39 +29,14 @@ Higher Certificate, Paper I, 2001. Question 6
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline        
-\noindent Text
-\\ \hline
-      \end{tabular}
-    \end{table}
-
-\begin{table}[ht!]
-     \centering
-     \begin{tabular}{|p{15cm}|}
-     \hline        
-\noindent Text
-\\ \hline
-      \end{tabular}
-    \end{table}
-    
-    \begin{table}[ht!]
-     \centering
-     \begin{tabular}{|p{15cm}|}
-     \hline        
-\noindent Text
-\\ \hline
-      \end{tabular}
-    \end{table}
-
-\begin{framed}
-%==========================================================================================%
-6. The random variable X is distributed with the geometric probability mass function
-p(x) = qx−1 p , x = 1, 2, 3, …
-where 0 < p < 1 and q = 1 − p. A random sample x1, x2, …, xn is taken from this
+\noindent 6. The random variable X is distributed with the geometric probability mass function
+\[p(x) = qx−1 p ,\qquad x = 1, 2, 3, \ldots\]
+where $0 < p < 1$ and $q = 1 − p$. A random sample $\{x_1, x_2, \ldots, x_n\}$ is taken from this
 distribution.
-Write down the likelihood function L(p) based on these data, and show that the
+Write down the likelihood function $L(p)$ based on these data, and show that the
 maximum likelihood estimate of p is given by
-pˆ =1/ x
-where x is the sample mean.
+\[\hat{p} =1/ x\]
+where $\bar{x}$ is the sample mean.
 
 By using the approximation
 ( ) 2
@@ -86,30 +61,11 @@ n
 ≈ .
 
 [ Note. You may assume that E(X) = 1/p. ]
-Question 6 continued on next page
-9
-Turn over
-A boy counts the number of times that he has to roll a given die in order to obtain
-a six. His results, summarised, are as follows.
-Number of rolls
-to obtain six
-x: 1 2 3 4 5 6 7 8 9 10
-Frequency f: 7 7 6 4 5 4 2 3 1 2
-so that Σ fx = 448. Find pˆ from these data and use the above result to estimate
-the variance of ˆp . Assuming that values of ˆp are approximately Normally
-distributed, calculate an approximate 95% confidence interval for the true
-probability p of getting a six on a roll of this die.
 
-Finally, suppose that the die is fair, so that p = 1/6. Assuming that values of
-pˆ =1/ x are approximately distributed as N(p, p2(1 − p)/n), where p = 1/6, find
-the approximate probability of the boy obtaining an estimate as low as or lower
-than that given by the data above.
-Comment on your answer.
+\\ \hline
+      \end{tabular}
+    \end{table}
 
-x 11 13 16 17 20 22 25 33
-f 2 2 3 1 2 3 1 1
-
-\end{framed}
 
 
 \begin{enumerate}
@@ -127,37 +83,30 @@ p
 =
 Σ   = = =   −  −  Π
 \[ \ln L = n \ln p − n\ln (1− p) + nx \ln(1− p)\]
-(ln ) 0 when 1 1 which gives ˆ 1 as m.l.estimate.
-1 1 ˆ 1 ˆ
-L n n nx x p
-p p p p p p x
-∂ = + − = = − + =
-∂ − − −
-( ) ( )
-( )
-2
-2 2 2
-ln 1
-which is < 0, confirming the maximum.
-1
-L n n x
-p p p
-∂ −
-= − −
-∂ −
-( ) ( ) ( ) ( )
-2
-2 2 2 2 2 2
-ln 1 1 1
-1 1 1
-E L n n E X n n n n
-p p p p p p p p p
-∂        = +  −  = +  −  = +  ∂  − −   −
-2 (1 )
-n
-p p
-=
-−
+$ \ln L = n\ln p - n \ln(1-p) + n\bar{x}\ln(1-p)$
+
+\[\frac{\partial \ln L}{\partial p} = \frac{n}{p}  + \frac{n}{(1-p)} - \frac{n(\bar{x})}{1-p} \]
+
+This is equal to 0 when
+$ {\displaystyle \frac{1}{\hat{p}} = \frac{-1 + \bar{x}}{1 - \hat{p}} }$, which gives $ {\displaystyle\hat{p} = \frac{1}{x} }$ as a maximum likelihood estimate.
+
+\[\frac{\partial^2 \ln L}{\partial p^2} = -\frac{n}{p^2} - \frac{n(\bar{x} - 1)}{(1-p)^2}\]
+
+Tthis is less than 0, hence confirming the maximum.
+
+
+\begin{eqnarray*}
+E\left[ \frac{\partial \ln L}{\partial p^2} \right] 
+&=& \frac{n}{p^2} + \frac{n}{(1-p)^2} \left[ E(\bar{X}) - 1 \right] \\
+&=& \frac{n}{p^2} + \frac{n}{(1-p)^2} \left[ \frac{1}{p} - 1\right] \\
+&=& \frac{n}{p^2} + \frac{n}{(1-p)^2} \left[ \frac{1-p}{p} \right] \\
+&=& \frac{n}{p^2} + \frac{n}{p(1-p)} \\
+&=& \frac{n(1-p)}{p^2(1-p)} + \frac{np}{p^2(1-p)} \\
+&=& \frac{n}{p^2(1-p)}  \\
+\end{eqnarray*}
+
+Hence $\operatorname{Var}(\hat{p}) \approx \frac{p^2(1-p)}{n} $
+
 \item Hence ( ) ( ) 2 1
 Var ˆ
 p p
@@ -172,25 +121,66 @@ n
 0.1252 0.875 Var ˆ 0.0002441, SE ˆ 0.015625
 56
 p = × = p = .
-Approximate 95\% confidence interval for p is pˆ ±1.96SE(pˆ ) , which is
-0.125 ±1.96×0.015625, i.e. 0.125 ± 0.030625 or (0.0944, 0.1556).
-\item When 1 , we have 1 ~ N 1 , 5
-6 6 216 56
-p
-X
-=    ×   
+Approximate 95\% confidence interval for p is $\hat{p} \pm 1.96SE(\hat{p})$ , which is
+$0.125 \pm (1.96 \times 0.015625)$, i.e. $0.125 \pm 0.030625$ or (0.0944, 0.1556).
+
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent A boy counts the number of times that he has to roll a given die in order to obtain
+a six. His results, summarised, are as follows.
+Number of rolls
+to obtain six
+x: 1 2 3 4 5 6 7 8 9 10
+Frequency f: 7 7 6 4 5 4 2 3 1 2
+so that Σ fx = 448. Find $\hat{p}$ from these data and use the above result to estimate
+the variance of $\hat{p}$ . Assuming that values of $\hat{p}$ are approximately Normally
+distributed, calculate an approximate 95\% confidence interval for the true
+probability p of getting a six on a roll of this die.
+\\ \hline
+      \end{tabular}
+    \end{table}
+ 
+\newpage    
+    \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent 
+Finally, suppose that the die is fair, so that p = 1/6. Assuming that values of
+$\hat{p}$ =1/ x are approximately distributed as $N(p, p^2(1 - p)/n)$, where p = 1/6, find
+the approximate probability of the boy obtaining an estimate as low as or lower
+than that given by the data above.
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|} \hline
+x & 11 & 13 & 16 & 17 & 20 & 22 & 25 & 33 \\ \hline
+f & 2 & 2 & 3 & 1 & 2 & 3 & 1 & 1 \\ \hline
+\end{tabular}
+\end{center}
+
+\\ \hline
+      \end{tabular}
+    \end{table}
+
+
+\item When 1 , we have \[ \frac{1}{\bar{X}} \sim N\left( \frac{1}{6} , \frac{5}{216 \times 56} \right)\]
 , i.e. $N(0.1667, 0.00041336)$; therefore
-the probability of obtaining pˆ ≤ 0.125 is approximately
-0.125 0.1667 ( 2.0496) 0.0202
-0.020331
-Φ −  = Φ − = −  
- 
-.
+the probability of obtaining $\hat{p} \leq 0.125$ is approximately
+When $p = \frac{1}{6}$,w 
+
+\[ \frac{5}{216 \times 56}  = 0.000413\]
+\[ \sqrt{\frac{5}{216 \times 56}}  = \sqrt{0.000413} = 0.0203\]
+
+
+\[ \phi\left( \frac{0.125 - 0.1667}{0.0203} \right) = \Phi (-2.05) = 0.0202\]
+
 \item The confidence interval for p did not include 1
 6
 ; also now the probability being very
-small is consistent with rejecting a null hypothesis that p = 1
-6
+small is consistent with rejecting a null hypothesis that 
+$p = \frac{1}{6}$
 , i.e. that the die is fair.
 \end{enumerate}
 \end{document}
