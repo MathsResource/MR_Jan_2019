@@ -37,17 +37,13 @@
 
 \begin{framed}
 %==========================================================================================%
-7. (a) The continuous random variable X is distributed with probability density
-function (pdf) f(x) and cumulative distribution function (cdf) F(x). A
-random sample X1, X2, …, Xn is drawn from the distribution. Denote the
-maximum value of the sample by Xmax and the minimum value by Xmin .
-(i) Note that Xmax ≤ x if and only if X1 ≤ x, X2 ≤ x, …, Xn ≤ x. Hence
-show that the cdf of Xmax is given by
+7. (a) The continuous random variable X is distributed with probability density function (pdf) f(x) and cumulative distribution function (cdf) F(x). A random sample X1, X2, …, Xn is drawn from the distribution. Denote the
+maximum value of the sample by Xmax and the minimum value by Xmin . (i) Note that Xmax ≤ x if and only if X1 ≤ x, X2 ≤ x, …, Xn ≤ x. Hence show that the cdf of Xmax is given by
 ( ) ( ) max
 n
 FX x = F x  .
 
-(ii) By noting the condition under which Xmin ≥ x, show that
+(ii) By noting the condition under which $X_{min} ≥ x$, show that
 ( ) ( ) min 1 1 n
 X F x = −  − F x  .
 
@@ -93,7 +89,7 @@ f_{X_{min}}= n \left[ F(X) \right]^{n-1}f(x)
 f_{X_{min}}= n \left[ 1- F(X) \right]^{n-1}f(x)
 \end{equation}
 
-since $\frac{\partial F(X)}{\partial x } = f(x)\]
+since $\frac{\partial F(X)}{\partial x } = f(x)$
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 (b)
@@ -110,24 +106,23 @@ since $\frac{\partial F(X)}{\partial x } = f(x)\]
 0.9
 1
 1 2 3 4 5 6 7
-x
-( )
-0 ( ) 1 ( ) ( )
-0
-1 1 1 .
-1 1 1
-x
-x F x du
-u u x \alpha \alpha \alpha
-\alpha
-+
-   
-= = -  = -
-+  +  +
-  ∫
-Median M is such that ( ) 1
-2
-F M = . So we have
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{eqnarray*}
+F(X) &=& \int^{x}_{0} \frac{\alpha}{(1+u)^{\alpha+1}} du \\
+&=& \left[ - \frac{\alpha}{(1+u)^{\alpha}}  \right]^{x}_{0} \\
+&=& 1- \frac{1}{(1+x)^\alpha}
+\end{eqnarray*}
+
+Median M is such that $F(M) = \frac{1}{2}$. So we have
+
+\begin{eqnarray*} 
+1- \frac{1}{(1+M)^\alpha} &=& \frac{1}{2}\\ \medskip
+\mbox{Equivalently   } \qquad \frac{1}{(1+M)^\alpha} &=& \frac{1}{2}\\ \bigskip
+\mbox{Therefore   } (1+M)^\alpha &=& 2\\ \medskip
+\mbox{Rearranging   } M &=& 2^{ \frac{1}{\alpha}} -1 \\ 
+\end{eqnarray*}
 %( ) ( )
 %1 1 1 or 1 1 or 2 (1 ) or 2(1/ ) 1
 %1 2 1 2
@@ -153,7 +148,7 @@ F M = . So we have
      \begin{tabular}{|p{15cm}|}
      \hline        
 \noindent (b) Suppose that the random variable X has the Pareto density given by
-( ) ( ) ( )1 f x 1 x α α − + = + , x > 0 , α > 0.
+\[( ) ( ) ( )1 f x 1 x α α − + = + , x > 0 , α > 0.\]
 Draw a graph of this density and show that the cdf is given by
 F (x) 1 (1 x) −α = − + .
 Deduce that the median of X is 21/α −1 .
@@ -162,39 +157,41 @@ Use result (a)(ii) above to obtain the cdf of the minimum of a random
 sample of n observations distributed as is X, and verify that this cdf is also
 of Pareto form but with a different parameter.
 
-Taking α = 1, find the smallest value of n such that the median value of the
+Taking $alpha = 1$, find the smallest value of n such that the median value of the
 sample minimum is less than 0.1.
 \\ \hline
       \end{tabular}
     \end{table}
 \begin{framed}
-Cumulative distribution function[edit]
-From the definition, the cumulative distribution function of a Pareto random variable with parameters α and xm is 
+Cumulative distribution function
+From the definition, the cumulative distribution function of a Pareto random variable with parameters $\alpha$ and xm is 
 \[ {\displaystyle F_{X}(x)={\begin{cases}1-\left({\frac {x_{\mathrm {m} }}{x}}\right)^{\alpha }&x\geq x_{\mathrm {m} },\\0&x<x_{\mathrm {m} }.\end{cases}}} 
 \]
-Probability density function[edit]
+Probability density function
 It follows (by differentiation) that the probability density function is \[ {\displaystyle f_{X}(x)={\begin{cases}{\frac {\alpha x_{\mathrm {m} }^{\alpha }}{x^{\alpha +1}}}&x\geq x_{\mathrm {m} },\\0&x<x_{\mathrm {m} }.\end{cases}}} 
 \]
 \end{framed}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    Using (a)(ii), 1 1 1 1
-1 1
-n
-X n F
-x x \alpha \alpha
- 
-= -   = -
- +  +  
-, also Pareto but with \alpha replaced
+    Using (a)(ii),
+    
+\begin{eqnarray*}
+F_{X_{min}} &=& 1 - \left( \frac{1}{(1+x)^\alpha} \right)^n    \\
+&=& 1 - \left( \frac{1}{(1+x)^{n\alpha}} \right)
+\end{eqnarray*}    
+    also Pareto but with $\alpha$ replaced
 by $n\alpha$.
-The median of $X_{min}$ is then
-1
-2n\alpha -1, which is 21/ n -1 if \alpha =1. We require
-21/ n -1< 0.1 or 21/ n <1.1, i.e. 1 ln 2 ln1.1
-n
-< , giving ln 2 0.6931 7.27
-ln1.1 0.0953
-n> = = .
+The median of $X_{min}$ is then ${\displaystyle 2^{ \frac{1}{n\alpha}} -1 }$, which is ${\displaystyle 2^{ \frac{1}{n}} -1 }$ if $\alpha =1$. We require
+$2^{ \frac{1}{n}} -1< 0.1$ or $2^{ \frac{1}{n}} < 1.1$, i.e.
+ 
+\[ \frac{1}{n} \ln 2 < {\ln 1.1},\]
+giving  
+
+\[ n > \frac{\ln 2}{\ln 1.1} = \frac{0.6931}{0.0953} = 7.27.\]
+
+
+
+
+
 Hence $n \geq  8$.
 
 \end{enumerate}
