@@ -55,16 +55,15 @@
 \begin{enumerate}
 \item The distribution is defined in the area shown by the shaded triangle.
 
-\item  fx(x) =
-R a¡x
-0 f(x; y)dy = 2
-a2
-R a¡x
-0 dy = 2(a¡x)
-a2 for 0 · x · a; and 0 otherwise
+\item  \begin{eqnarray*}
+f_X(x)
+&=& \int^{a-x}_{0} f(x,y) dy \\
+&=&  \frac{2}{a^2} \int^{a-x}_{0} dy \\
+&=& \frac{2(a-x)}{a^2} \qquad \mbox{ for}  0 \leq x \leq a \mbox{ and } 0 \mbox{ otherwise} \\
+\end{eqnarray*}
+
 \[FX(x) =
-R x
-0 fX(u)du = 2
+\int^{x}_{0}fX(u)du = 2
 a2
 R x
 0 (a ¡ u)du = 2
@@ -74,11 +73,9 @@ a2 [au ¡ 1
 a2 for 0 · x · a.
 4\]
 \item \[E[X] =
-R a
-0 xfX(x)dx = 2
+\int^{a}_{0}xfX(x)dx = 2
 a2
-R a
-0 x(a ¡ x)dx = 2
+\int^{a}_{0}x(a ¡ x)dx = 2
 a2 [ 1
 2ax2 ¡ 1
 3x3]a
@@ -135,7 +132,7 @@ Necessarily $Var(X) = \frac{a^2}{18}$
 
 \item 
 
-\begin{eqnarray}
+\begin{eqnarray*}
 E(XY) &=& \int^{\infty}_{0} \int^{\infty}_{0} xy\; f(x,y) \; dydx \\
     &=&\int^{\infty}_{0} \lambda t\;e^{-\lambda} dt \\
 &=&
@@ -152,7 +149,7 @@ a2 [ 1
 3ax^3 + 1
 4x^4]a
 0\\ &=& \frac{1}{12}a^2\\
-\end{eqnarray}
+\end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
   \begin{table}[ht!]
