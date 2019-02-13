@@ -48,9 +48,10 @@ The random variable X is exponentially distributed with probability density func
 \begin{enumerate}[(a)]
  \item 
  
-\[
-F(X) = P(X \leq x) = \int^{x}_{0} \lambda e^{\lambda u} du
- = [-e^{-\lambda u}]^{x}_{0}  = 1-e^{-\lambda x}\] ($x \geq  0$)
+\begin{eqnarray*}
+F(X) &=& P(X \leq x) \\ &=& \int^{x}_{0} \lambda e^{\lambda u} du\\
+ &=& \left[-e^{-\lambda u}\right]^{x}_{0} \\ &=& 1-e^{-\lambda x} \qquad (x \geq  0)\\
+\end{eqnarray*}
 
 The cumulative distribution function is given by 
 \[ {\displaystyle F(x;\lambda )={\begin{cases}1-e^{-\lambda x}&x\geq 0,\\0&x<0.\end{cases}}} \]
@@ -89,14 +90,21 @@ ${\displaystyle \beta } $
    \end{tabular}
  \end{table}
 %%%%%%%%%%%%%%%%%%%%%%%% 
- \item  L = ¦n i=1¸e¡¸xi = ¸n exp(¡¸
-Pn
-i=1
-xi) = ¸ne¡n¸x ln(L) = n ln ¸ ¡ n¸x
-d
-\[ \frac{d¸ (\ln(L))}{d} = 1=¸ ¡ nx = 0 for \lambda¸ = 1=\lambda x d2\]
-\[d¸2 (\ln(L)) = ¡n=¸2 < 0 \]for all ¸, 
-so there is a maximum for $\lambda$¸
+ \item  \begin{eqnarray*}
+L  &=& \prod^{n}_{i=1} \lambda e^{-\lambda x_i} \\
+ &=& \lambda^n exp( - \lambda \sum^n_{i=1} x_i) \\
+ &=& \lambda_n e^{-n\lambda \bar{x}} ) \ln L \\
+&=& n \ln \lambda -n \lambda \bar{x}
+\end{eqnarray*}
+
+\[\frac{d}{d \lambda}(\ln(L)) = \frac{1}{\lambda} -  n \bar{x} = 0\] for 
+$\hat{\lambda} = \frac{1}{\bar{x}}$
+
+\[\frac{d^2}{d \lambda^2}(\ln(L)) = \frac{n}{\lambda^2}\] 
+
+${\displaystyle \frac{d^2}{d \lambda^2}(\ln(L)) < 0  }$ for all $\lambda$, so there
+is a maximum for $\hat{\lambda}$
+so there is a maximum for $\hat{\lambda}$¸
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -119,14 +127,14 @@ given by
 \\ \hline 
    \end{tabular}
  \end{table}
-\item  Using the result just found ,$\lambda¸ \sim N(¸; ¸2=n) \sim N(¸; 1=n(x)2)$, and so approximately
-\[\lambda¸
-¡¸
-(x
-p
-n)¡1 \sim N(0; 1)\], from which an approximate 95\% confidence interval for ¸ is given by
-\[\lambda¸
-§ 1:96=(x
+\item  Using the result just found 
+$\hat{\lambda} \sim N(\lambda, \lambda^2/n)$
+
+
+$\hat{\lambda} \sim N(\lambda, 1/n(\bar{x})^2)$
+ and so approximately
+\[ \frac{\hat{lambda} - \lambda }{ (\bar{x} \sqrt{n})^{-1} } \sim N(0,1), \] from which an approximate 95\% confidence interval for $\lambda$ is given by
+\[\lambda \pm 1:96=(x
 p
 n)\] or 1
 x (1 § 1p:96
