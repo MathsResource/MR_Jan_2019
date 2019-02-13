@@ -35,26 +35,22 @@ Higher Certificate, Paper I, 2005. Question 3
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{framed}
 3. The failures of a communications system occur in a Poisson process with rate
-parameter λ, so that the random variable X giving the number of failures in time t
+parameter $\lambda$, so that the random variable $X$ giving the number of failures in time $t$
 satisfies
-( ) ( )( ) exp , 0,1, 2, ...
-!
-x t
-P X x t x
-x
-λ
-= = −λ = .
-(i) By considering the probability that there is no failure in time t, or otherwise,
+
+\[P(X=x) =  exp(-\lambda t) \frac{(\lambda t)^x}{x!}, \qquad x=0,1,2,3, \ldots\]
+
+(i) By considering the probability that there is no failure in time $t$, or otherwise,
 show that the probability distribution of the time T to the next failure is given
 by
-P(T > t ) = exp(−λt ), t > 0 ,
-and deduce the probability density function (pdf) of T.
+\[P(T > t ) = exp(−\lambda t ), t > 0 ,\]
+and deduce the probability density function (pdf) of $T$..
 \end{framed}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}[(a)]
-\item \[P(T > t) = P(no failure in time t) = P(X = 0) = e^{-\lambda} t .\]
+\item \[P(T > t) = P(\mbox{no failure in time t}) = P(X = 0) = e^{-\lambda} t .\]
 \[\therefore 1 - F(t) = e^{-\lambda} t \] and so the pdf of T is 
 
 \[ \frac{dF (t )}{dt}  =  \frac{dF (e^{-\lambda\,t} )}{dt}  = \lambda\,e^{-\lambda\,t}\]
@@ -63,36 +59,29 @@ and deduce the probability density function (pdf) of T.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \begin{framed}
-(ii) A bank of n identical but independent communications systems of the above
-type is set in operation at time 0, and Ti denotes the time to failure of the ith
-system, i = 1, 2, …, n. Obtain an expression for the probability that all n
-systems continue to function without failure for at least a time t. Deduce that
-the pdf of Tmin = min(T1, …, Tn), the time to the first failure in the bank of n
-systems, is of exponential form, with a rate parameter given by a function of n
-and λ which should be stated.
+(ii) A bank of n identical but independent communications systems of the above type is set in operation at time 0, and $T_i$ denotes the time to failure of the $i-$th system, $i = 1, 2, \ldots, n$. Obtain an expression for the probability that all $n$ systems continue to function without failure for at least a time $t$. Deduce that the pdf of $T_{min} = min(T1, …, Tn)$, the time to the first failure in the bank of $n$ systems, is of exponential form, with a rate parameter given by a function of $n$ and $\lambda$ which should be stated.
 \end{framed}
 %----------------------------------------------------------------%
 \item 
 \begin{eqnarray*}
 P(\mbox{all n systems still functioning at time t}) &=& \prod^{n}_{i=1} P(T_i > t )\\
  &=& \prod^{n}_{i=1}  e^{-\lambda\,t}\\  
- &=& e^{-n\lambda\,t\} 
+ &=& e^{-n\lambda\,t} 
 \end{eqnarray*} 
- 
 
-
-\therefore the pdf of Tmin is
-\[ \frac{dF (e^{-\lambda\,t} )}{dt}  = \lambda\,e^{-\lambda\,t}\] (for t > 0).
+Therefor the pdf of Tmin is 
+\[ \frac{dF (e^{-\lambda\,t} )}{dt}  = \lambda\,e^{-\lambda\,t}\] (for $t > 0$).
 Thus Tmin is exponential with parameter $n\,\lambda$.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \begin{framed}
-(iii) Show that the probability that all n systems in the bank have failed by time t is
-given by (1− e−λt )n , and deduce the pdf of Tmax = max(T1, …, Tn), the time to
+(iii) Show that the probability that all n systems in the bank have failed by time $t$ is
+given by $(1− e−\lambda\;t )^n$ , and deduce the pdf of $T_{max} = max(T_1,\ldots, T_n)$, the time to
 the last failure in the bank of n systems.
-Given that n = 10 and λ = 0.002, find the times 1 t and 2 t such that
-( ) ( ) min 1 max 2 P T < t = P T > t = 0.05 .
-(11)
+Given that $n = 10$ and $\lambda = 0.002$, find the times $t_1$ and $t_2$ such that
+\[P(T_{min} < t_1) = P(T_{max} > t_2) = 0.05.\]
+
 \end{framed}
 %----------------------------------------------------------------%
 \item  P(all n systems have failed by time t) = ( ) ( )
@@ -100,19 +89,20 @@ Given that n = 10 and λ = 0.002, find the times 1 t and 2 t such that
 \begin{eqnarray*}
 \prod^{n}_{i=1} P(T_i > t )
  &=& \prod^{n}_{i=1}  e^{-\lambda\,t}\\  
- &=& e^{-n\lambda\,t\} 
-\\ &=& - e^{-\lambda} t n , 
+ &=& e^{-n\lambda\,t} \\ 
+ &=& - e^{-\lambda \,t}  n , \\
 \end{eqnarray*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-and this is $P(Tmax) \leq t$.
-\therefore the pdf of Tmax is 
+and this is $P(T_{max}) \leq t$.
+
+Therefore the pdf of $T_{max}$ is 
 
 \[ \frac{d}{dt}\left\{ \left(1-e^{-\lambda\,t} \right)^n  \right\}  =  n \lambda\,e^{-\lambda\,t} (1-e^{-\lambda\,t})^{n-1}\]
 
 
-(for t > 0).
+(for $t > 0$).
 (Note that this is not exponential.)
 
 
@@ -120,9 +110,9 @@ and this is $P(Tmax) \leq t$.
 \item We now have $n = 10$ and $\lambda = 0.002$. 
 \item We require $t_1$ and $t_2$ such that $1- e^{-n\lambda t_1} = 0.05$
 and $(1- e^{-\lambda t_2})^n = 0.95$
-  \item \therefore $1- e^{-n\lambda t_1} = 0.05$ , giving $0.02t_1 = –log(0.95) = 0.051293$ 
+  \item \therefore $1- e^{-n\lambda t_1} = 0.05$ , giving $0.02t_1 = -log(0.95) = 0.051293$ 
 \item so that $t_1 = 2.565$.
-\item Also, $(1- e^{-\lambda t_2}) = 0.95^{1/10} = 0.994884$ , giving $0.002t_2 = –log(0.005116) = –5.2754$
+\item Also, $(1- e^{-\lambda t_2}) = 0.95^{1/10} = 0.994884$ , giving $0.002t_2 = -log(0.005116) = -5.2754$
 \item so that $t_2 = 2638$.
 \end{itemize}
 
