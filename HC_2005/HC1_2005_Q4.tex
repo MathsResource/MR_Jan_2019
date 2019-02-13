@@ -33,30 +33,34 @@
 \begin{document}Higher Certificate, Paper I, 2005. Question 4
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{framed}
-4. (i) The continuous random variable X is distributed with probability density
+%4. (i) 
+The continuous random variable X is distributed with probability density
 function f (x) given by
-f (x) (1 x) 1 , 0 x 1, 0 α α α − = − < < > .
+
+\[f(x) =  \alpha (1-x)^{\alpha-1}, \qquad \mbox{ where }0 < x < 1, \qquad 0 \alpha  > 0 .\]
+
 Find the cumulative distribution function of X, F(x) say, and hence obtain the
 median of X. Also sketch the graphs of f (x) and F(x) for the case α = 3.
 \end{framed}
 %----------------------------------------------------------------%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\[f(x) =  \alpha (1-x)^{\alpha-1}, \qquad \mbox{ where }0 < x < 1, 0 \alpha  > 0 .
+
 
 \begin{enumerate}[(a)]
 \item 
+{
+\large
 \begin{eqnarray*}
 F(x) &=&  \int^{x}_{0}  \alpha (1-u)^{\alpha-1}  du \\
-
- &=& \left[ -(1-u)^\alpha  \right]^{x}_{0} 
- &=& 1- (1-x)^\alpha
+ &=& \left[ -(1-u)^\alpha  \right]^{x}_{0} \\
+ &=& 1- (1-x)^\alpha\\
 \end{eqnarray*}
-
+}
  (for $0 < x < 1$ and $\alpha > 0$).
 
 \begin{itemize}
-\item The median m is given by F(m) = 0.5, so we have $1 – (1 – m)^\alpha = 0.5$ or $(1 – m)^\alpha = 0.5$,
+\item The median m is given by $F(m) = 0.5$, so we have $1 – (1 – m)^\alpha = 0.5$ or $(1 – m)^\alpha = 0.5$,
 so that $1−m = 2^{−1/\alpha}$ , i.e. $m =1− 2^{−1/\alpha}$ .
 \item When $\alpha = 3$, $f(x) = 3(1− x)^2$ and $F x =1−(1− x)^3$ (in [0, 1]).
 \[ \mbox{Image HERE} \]
@@ -69,10 +73,10 @@ L = \prod^{n}_{i=1} \left[ \alpha(1-x_i)^{n-1} \right]  = \alpha^n\prod^{n}_{i=1
 %----------------------------------------------------------------%
 \newpage
 \begin{framed}
-(ii) A random sample x1, x2, …, xn is taken from this distribution with a view to
+(ii) A random sample $x_1, x_2, \ldots, x_n$ is taken from this distribution with a view to
 estimating the unknown parameter α. Write down the likelihood function of
-these data, L(x1, x2, ..., xn  α) say, and show that the maximum likelihood
-estimate (MLE) of α is given by
+these data, $L(x1, x2, ..., xn  α) $ say, and show that the maximum likelihood
+estimate (MLE) of $\alpha$ is given by
 ( )
 1
 ˆ
@@ -95,8 +99,9 @@ log , , ..., | n d Lx x x
 d
 α
 α
-as a function of α and n. Assuming that
-αˆ is approximately Normally distributed with mean α and variance
+as a function of α and n. 
+Assuming that
+$\hat{\alpha$ is approximately Normally distributed with mean α and variance
 2 ( )
 1 2
 2
@@ -108,41 +113,23 @@ d
  
 −  
  
-, deduce an approximate 90% confidence
-interval for α. Evaluate this interval for the sample 0.12, 0.43, 0.07, 0.87, 0.29.
+, deduce an approximate 90\% confidence
+interval for $\alpha$. Evaluate this interval for the sample 0.12, 0.43, 0.07, 0.87, 0.29.
 
 \end{framed}
 Hence 
 \[
 \log L = n \log \alpha + (\alpha-1) \sum^{n}_{i=1} \left[ \log (1-x_i) \right]  \]
-\[d L n x
-d\alpha \alpha =
-∴ = +Σ −\] which on setting equal to zero gives that the maximum
-likelihood estimate is
-\[( )
-1
-\hat{\alpha}
-log 1
-n
-i
-i
-n
-x
-\alpha
-=
-= −
-Σ −\]
+
+
+$ { \displaystyle    \frac{d \log L}{d \alpha} = \frac{n}{\alpha} + \sum^{n}_{i=1} \log(1-x_i)  }$   which on setting equal to zero gives that the maximum likelihood estimate is ${\displaystyle \hat{\alpha} = \frac{-n}{\sum^n_{i=1} \log(1-x_i)  }  }$
 , as required. [Consideration of
-\[2
-2
-d log L
-d\alpha\]
+$ { \displaystyle    \frac{d^2 \log L}{d \alpha^2} }$ 
 (see below) confirms that this is a maximum.]
-\[2
-2 2
-d log L n
-d\alpha \alpha
-= − . \]Hence, using the result quoted in the question, \alpha\hat{\alpha} is approximately
+\[ { \displaystyle    \frac{d^2 \log L}{d \alpha^2} }  = -\frac{n}{\alpha^2} \]
+
+
+Hence, using the result quoted in the question, $\hat{\alpha}$ is approximately
 Normally distributed with mean $\alpha$ and variance
 $\frac{\alpha^2}{n}$ . We estimate the variance by
 $\frac{\hat{\alpha}^2}{n}$
@@ -166,7 +153,7 @@ leading to the interval
 \]
  
 
-\item For the given sample, we have n = 5 and the values of 1 – xi are 0.88, 0.57, 0.93, 0.13
+\item For the given sample, we have n = 5 and the values of $1 – x_i$ are 0.88, 0.57, 0.93, 0.13
 and 0.71. 
 \item Therefore
 \begin{eqnarray*}
