@@ -39,10 +39,10 @@ survey is based on face-to-face interviews with a random sample of n students
 from Wackford Squeers University, y of whom tell her that they take drugs.
 Assume that the true proportion of drug-takers in the population being sampled
 is p, that the responses are truthful, and that the number in the sample who take
-drugs follows the binomial distribution B(n, p). Write down the likelihood
-function for these data and find the maximum likelihood estimator (MLE) of p,
-pˆ say. Also write down Var( pˆ ) and hence obtain an estimate of the standard
-error of pˆ , SE( pˆ ) say. Calculate the values of pˆ and SE( pˆ ), given that
+drugs follows the binomial distribution $B(n, p)$. Write down the likelihood
+function for these data and find the maximum likelihood estimator (MLE) of $p$,
+$\hat{p}$ say. Also write down Var( pˆ ) and hence obtain an estimate of the standard
+error of $\hat{p}$ , $SE(\hat{p})$ say. Calculate the values of $\hat{p}$ and $SE(\hat{p})$, given that
 n = 100 and y = 20.
 \end{framed}
 %----------------------------------------------------------------%
@@ -61,31 +61,24 @@ The likelihood L is simply P(Y = y).
 \item
 Hence \[\log L = \mbox{constant} + y \log p + (n − y)\log(1− p).\]
 \item 
-log
-1
-d L y n y
-dp p p
-− ∴ = −−
+\[ \therefore \frac{d \log L}{dp} = \frac{y}{p} - \frac{n-y}{1-p}\]
 which on setting equal to zero gives that the maximum
 likelihood estimate is pˆ y
 n
 = . 
 
 \item Consideration of
-$ \frac{d^2(\log L)}{dp}2
-
-confirms that this is a
+${ \displaystyle \frac{d^2(\log L)}{dp^2} } $ confirms that this is a
 maximum.
 
 \item 
-( ) ( ) ( ) ( )
-2 2
-1 1 1 Var ˆ Var 1
-p p
-p Y np p
-n n n
-−
-= = − = . 
+\begin{eqnarray*}
+\operatorname{Var}(\hat{p}) &=& 
+\frac{1}{n^2}\operatorname{Var}(Y)\\
+&=& \frac{1}{n^2}np(1-p)\\
+\frac{p(1-p)}{n}\\
+\end{eqnarray*}
+
 \item We may estimate p by $\hat{p}$ in this and
 thus obtain an estimate of the standard error of $\hat{p}$ as 
 \[SE (\hat{p}) = \sqrt{\frac{\hat{p} \times (1-\hat{p}) }{n}.\]
@@ -102,35 +95,40 @@ drug-taking, some students may not answer truthfully, so causing bias.
 suggests using an anonymising device to encourage truthful answers. 
 \item He
 provides a biased coin with faces labelled "takes drugs" and "does not take
-drugs", which show with respective probabilities 0.75 and 0.25 when the coin
+drugs", which show with respective probabilities $0.75$ and $0.25$ when the coin
 is tossed.
-\item A second random sample, also of size n, is selected independently of the first.
+\item A second random sample, also of size $n$, is selected independently of the first.
  
 \item Each of the n students is asked to toss the coin, unseen by the interviewer, and
 to answer "yes" if he/she is in the group indicated by the coin and "no"
 otherwise.
 \end{itemize}
-Assuming truthful responses, show that the probability of a "yes", \theta say, is
+Assuming truthful responses, show that the probability of a "yes", $\theta$ say, is
 given by
-\theta = 0.25 + 0.5p .
+$\theta = 0.25 + 0.5p$ .
 Assuming further that the number of students answering "yes", Z say, is
-distributed B(n, \theta ) with observed value z, write down the MLE of \theta, \thetaˆ say,
-and an estimate of its standard error. Use the relationship between \theta and p to
-deduce the MLE of p, p ~ say, and SE(p ~ ). Calculate the values of p ~ and
-SE(p ~ ), given that n = 100 and z = 45.
+distributed $B(n, \theta )$ with observed value $z$, write down the MLE of $\theta$, $\hat{\theta}$ say,
+and an estimate of its standard error. 
+
+
+Use the relationship between $\theta$ and $p$ to
+deduce the MLE of $p$, $\tilde{p}$ ~ say, and $SE(\tilde{p} )$. Calculate the values of $\tilde{p}$ and
+$SE(\tilde{p})$, given that $n = 100$ and $z = 45$.
 \end{framed}
 %----------------------------------------------------------------%
 
 \item P("yes") is given by P(takes drugs and coin shows "takes drugs") + P(does not
 take drugs and coin shows "does not take drugs").
 \begin{itemize}
-    \item Hence \theta = P("yes") = 0.75p + 0.25(1 – p) = 0.25 + 0.5p.
-    \item Z ~ B(n, \theta ), so from part (i) we have \hat{theta} = z/n and SE(\hat{theta}) = \hat{theta} (1−\hat{theta})/ n .
-    \item We have p = 2\theta – ½, so the MLE of p is 1
-2
-p�� = 2\hat{theta} − .
-    \item Thus SE( p�� ) = 2 SE(\hat{theta}) = 2 \hat{theta} (1−\hat{theta})/ n .
-    \item For n = 100 and z = 45, we have \hat{theta} = 0.45 and so p�� = 0.4 and SE( p�� ) = 0.0995 .
+    \item Hence $\theta = P("\mbox{yes}") = 0.75p + 0.25(1 – p) = 0.25 + 0.5p.$
+    \item $Z \sim B(n, \theta )$, so from part (i) we have $$\hat{theta} = z/n$ and $SE(\hat{\theta}) = \hat{\theta} (1-\hat{\theta})/ n$ .
+    \item We have $p = 2 \theta - 1/2$, so the MLE of p is $\tilde{p} = 2 \hat{\theta} - 1/2$
+    \item Thus 
+\begin{eqnarray*}
+S.E.( \tilde{p} ) &=& 2 SE(\hat{\theta}) \\ 
+&=& 2 \hat{\theta} (1-\hat{\theta})/ n .
+\end{eqnarray*}
+    \item For n = 100 and z = 45, we have $$\hat{theta} = 0.45$ and so $\tilde{p}= 0.4$ and $SE( \tilde{p} ) = 0.0995$ .
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
