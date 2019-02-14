@@ -55,13 +55,15 @@ To reduce the work of testing, the blood samples of N persons are pooled into gr
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline  
-(ii) Let m be the number of groups, so that m
-N k = and let S denote the total number of
-tests required for these people.  
 
-Show that $S$ can be written  in terms of a Binomially
-distributed random variable X as
-$S = m+kX$¸  where $X  \sim B (m, 1-(1-p)^k)).$
+
+
+Let $m$ be the number of groups, so that ${\displaystyle  m = \frac{N}{k}  }$
+and let $S$ denote the total number of tests required for these people. 
+Show that $S$ can be written in terms of a Binomially distributed random variable $X$ as
+
+\[ S = m +kX, \qquad \mbox{ where } X \sim B(m,1-(1-p)^k ).\]
+
 
  \\ \hline 
       \end{tabular}
@@ -81,12 +83,10 @@ Therefore X is binomial $(m; 1 - (1-p)^k)$.
      \begin{tabular}{|p{15cm}|}
      \hline 
 (iii) Hence show that
-\[E(S)           =  N
-k
-p k1 11 + − −
-  
-   ( ) ;                \]  
-\[V(S)           =    [] Nk p p kk ( ) ( ) . 1 1 1 − − −\]
+\[ E(S) = N \left[ \frac{1}{k} + 1-(1-p)^k \right] \]
+
+\[ \operatorname{Var}(S) = Nk(1-p)^k \left[  1-(1-p)^k \right] \]
+
  \\ \hline 
       \end{tabular}
     \end{table}
@@ -95,6 +95,12 @@ k + k ¢ N
 k ¢ f1 - (1-p)^kg = Nf 1
 k + 1 - (1-p)^kg.
 
+
+
+
+
+
+\[ 1 + k^2(1-p)^k\log_e(1-p) = 0\]
 \begin{eqnarray*}
 V [S] &=& k2V [X] \\ &=& k2mf1 - (1-p)^kg(1-p)^k \\ &=& Nk(1-p)^kf1 - (1-p)^kg.
 \end{eqnarray*}
@@ -105,7 +111,7 @@ V [S] &=& k2V [X] \\ &=& k2mf1 - (1-p)^kg(1-p)^k \\ &=& Nk(1-p)^kf1 - (1-p)^kg.
      \begin{tabular}{|p{15cm}|}
      \hline  
 (iv) Treating k as if it were continuous, show by differentiation that the value of k which gives the minimum expected number of tests for the N persons satisfies the equation
-1 1 1 0 2 + − − = k p p k e ( ) log ( ) . (A)
+\[-\frac{N}{k^2} - N(1-p)^k ln(1-p).\]
 (You may assume that this equation has a unique solution and that it gives a minimum.)
 \\ \hline
       \end{tabular}
@@ -125,16 +131,14 @@ V [S] &=& k2V [X] \\ &=& k2mf1 - (1-p)^kg(1-p)^k \\ &=& Nk(1-p)^kf1 - (1-p)^kg.
 %%%%%%%%%%%%%%%%%%%%%%%
 \begin{eqnarray*} 
 \frac{dE}{dk}
- &=& -N
-k2 - N \frac{d}{dk} \left[ (1-p)^k \right] \\
-&=& -N
-k2 - N(1-p)^k ln(1-p).
+ &=&-\frac{N}{k^2}  - N \frac{d}{dk} \left[ (1-p)^k \right] \\
+&=& -\frac{N}{k^2} - N(1-p)^k ln(1-p).
 \end{eqnarray*}
 (using the result that
 
 \[ \frac{d(ax)}{dx} = ax \ln a)\].
 \begin{itemize}
-\item For minimum, set dE/dk = 0, giving 1 + k2(1-p)^k ln(1-p) = 0.
+\item For minimum, set dE/dk = 0, giving $1 + k2(1-p)^k ln(1-p) = 0$.
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item $1 + k^2(0.99)k ln(0.99) = 0$, so that k2 = -1
