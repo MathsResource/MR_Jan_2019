@@ -47,25 +47,19 @@ the approximation is likely to be good if both $np$ and $np(1 - p)$ are $> 10$.
 \item Let $X ~ B(n, p)$ and let $\Phi$ denote the c.d.f. of N(0, 1). 
 
 \item Using a continuity correction,
-( )
-( )
-1
-2
-1
-P X x x np
-np p
- + −  ≤ ≈ Φ 
- −   
-and ( )
-( )
-1
-2
-1
-P X x x np
-np p
- − −  < ≈ Φ 
- −   
-.
+
+\[P(X \leq x)  \approx \Phi \left[ \frac{ x + \frac{1}{2} - np }{\sqrt{np(1-p)}}   \right]\]
+
+\[P(X < x)  \approx \Phi \left[ \frac{ x - \frac{1}{2} - np }{\sqrt{np(1-p)}}   \right]\]
+
+
+%----------------------%
+
+
+\[ \hat{p} - 1.96 \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} < p < \hat{p} + 1.96 \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\]
+
+%----------------------%
+
 \end{itemize}
 %----------------------------%
 
@@ -75,13 +69,7 @@ approximate interval
 \[ {\displaystyle {\hat {p}} \pm z{\sqrt {\frac {{\hat {p}}(1-{\hat {p}})}{n}}}.}  \]
 \[ {\displaystyle {\hat {p}} \pm 1.96 \times {\sqrt {\frac {{\hat {p}}(1-{\hat {p}})}{n}}}.}  \]
 
-ˆ (1 ˆ ) ˆ (1 ˆ )
-ˆ 1.96 ˆ 1.96
-p p p p
-p p p
-n n
-− −
-− < < +
+
 
 \[  {\hat {0.6}} \pm 1.96 \times {\sqrt {\frac {0.6 \times 0.4})}{50}}}   = \left[ {\hat {0.6}} \pm 1.96 \times {\sqrt {\frac {0.6 \times 0.4})}{50}}}   \right] \]
 
@@ -90,18 +78,14 @@ n n
 
 The estimate of p is ˆ 30 0.6
 50
-p= = , so ˆ (1 ˆ ) (0.6)(0.4)
-0.0693
-50
-p p
-n
-−
-= = . Thus
+
+
+\[   \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}  = \sqrt{\frac{0.6 \times 0.4 }{50}} = 0.0693. \] Thus
 the approximate interval is
-\[0.6 \pm (1.96 \times ×0.0693)  = (0.464, 0.736).
+\[0.6 \pm (1.96 \times 0.0693)  = (0.464, 0.736).
 \item  \[P(\mbox{neither hits}) = (1 - p)^2.\] Therefore 
 \begin{eqnarray*}
-P(at least 1 hit) &=& 1 - (1 - p)^2 \\&=& p(2 - p).
+P(\mbox{at least 1 hit}) &=& 1 - (1 - p)^2 \\&=& p(2 - p).
 \end{eqnarray*}
 We estimate this by $(0.6)(2 - 0.6) = 0.84$.
  
