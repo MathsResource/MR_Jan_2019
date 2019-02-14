@@ -55,10 +55,24 @@ where k is a constant.
 \begin{enumerate}
 \item The total sum of probabilities must be 1. Hence k=1/900.
 
-\item Summing in rows : x 1 2 3 TOTAL
-P(x) 7=90 26=90 57=90 : 1
-and in columns : y 1 2 3 4 TOTAL
-P(y) 17=450 31=225 3=10 118=225 : 1
+\item Summing in rows : 
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+x & 1 & 2 & 3 & TOTAL\\
+P(x) &  7/90 & 26/90 &  57/90 &  1 \\
+\end{tabular}
+\end{center}
+and in columns : 
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+y & 1 & 2 & 3 & 4 & TOTAL\\
+P(y) & 17/450 & 31/225 & 3/10  & 118/225 & 1 \\
+\end{tabular}
+\end{center} 
+
+
 These are the marginal distributions of X and Y.
 
 \item 
@@ -74,12 +88,9 @@ E[Y] &=& 1
 \end{eqnarray*}
 
 \begin{eqnarray*}
-E[X2]&=&( 1
-90 )(1 \times  7 + 4 \times  26 + 9 \times  57) 
-\\ &=& 624
-90 
-\\ &=& 104
-15
+E[X2]&=& \frac{1}{90}(1 \times  7 + 4 \times  26 + 9 \times  57) 
+\\ &=& \frac{624}{90}
+\\ &=& \frac{104}{15}
 \end{eqnarray*}
 
 
@@ -88,7 +99,7 @@ V[X]&=&E[X^2] - (E[X])^2
 \\ &=& \frac{104}{15} -  \frac{232}{81} 
 \\ &=& 8424-7935
 15\times 81 
-\\ &=& \frac{163}{405} \\ &=& 0:4025
+\\ &=& \frac{163}{405} \\ &=& 0.4025
 \end{eqnarray*}
 \begin{table}[ht!]
      \centering
@@ -104,15 +115,14 @@ V[X]&=&E[X^2] - (E[X])^2
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
 \begin{eqnarray*}
-E[Y 2] &=& 1
-450 (1 \times  17 + 62 \times  4 + 135 \times  9 + 236 \times  16) \\ &=& 
+E[Y 2] &=& \frac{1}{450} (1 \times  17 + 62 \times  4 + 135 \times  9 + 236 \times  16) \\ &=& 
 \frac{5256}{450}
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
 \begin{eqnarray*} 
-V [Y ] &=& E[Y 2]-  (E[Y ])2  \\ &=& 5256
+V [Y ] &=& E[Y^2]-  (E[Y])^2  \\ &=& 5256
 450-  ( 149
 45 )2 \\ &=& 5256\times 45¡1492\times 4
 45\times 450
@@ -122,14 +132,14 @@ V [Y ] &=& E[Y 2]-  (E[Y ])2  \\ &=& 5256
 \end{eqnarray*}
 
 
-4
-xy : 1 2 3 4 6 8 9 12
-probability : 3=900 20=900 42=900 72=900 156=900 136=900 171=900 300=900
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}\hline
+xy : & 1 & 2 & 3 & 4 & 6 & 8 & 9 & 12 \\ \hline
+probability : 3/900 & 20/900 & 42/900 & 72/900 & 156/900 & 136=/900 & 171/900 & 300/900  \\ \hline
+\end{center}
+
 \begin{eqnarray*} 
-E[XY] &=& 1
-900 (3 + 40 + 126 + 288 + 936 + 1088 + 1539 + 3600) \\ &=& 7620
-900 \\ &=& 127
-15 .
+E[XY] &=& \frac{1}{900}(3 + 40 + 126 + 288 + 936 + 1088 + 1539 + 3600) \\ &=& \frac{7620}{900} \\ &=& \frac{127}{15} .
 \end{eqnarray*} 
 
 \begin{eqnarray*}  
@@ -177,7 +187,7 @@ Find the conditional distribution of X given Y = 1.
 \begin{tabular}{|c|c|c|c|}
 \hline
 x & 1 & 2 & 3 \\ \hline 
-Probability & 3=34 & 10=34 & 21=34\\ \hline 
+Probability & 3/34 & 10/34 & 21/34\\ \hline 
 \end{tabular}
 
 
