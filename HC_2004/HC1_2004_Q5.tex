@@ -35,13 +35,29 @@ Higher Certificate, Paper I, 2004. Question 5
 \begin{framed}
 5. (i) The continuous random variable T has probability density function (pdf) f (t)
 given by
-\[f (t ) =\lambda e^{-\lambda t}  , t > 0; \lambda > 0\]
+\[f (t ) =\lambda e^{-\lambda t} , \qquad  \mbox{ where } t > 0; \lambda > 0\]
 (a) Sketch the graph of f (t).
 (b) Show that the cumulative distribution function is given by
-F (t ) =1− e−λ t , t > 0; λ > 0 .
+\[F (t ) = 1- e^{-\lambda \; t} , \qquad  \mbox{ where } t > 0; \lambda > 0 .\]
 (c) Deduce that
-P(a < T ≤ b) = e−λ a − e−λ b , 0 < a < b.
-(7)
+\[P(a < T \leq b) = e^{-\lambda a} - ^{-\lambda b} , 0 < a < b.\]
+
+\[f(x) = \lambda e^{-\lambda t} \qquad \mbox{ where } t >0 \mbox{ and } \lambda >0 \]
+
+
+\begin{eqnarray*}
+F(t) &=& P(T \leq t) \\
+&=& \int^{t}_{0} \lambda e^{-\lambda \; v} dv \\
+&=& \lambda \left[  -\frac{1}{\lambda} e^{-\lambda \; v} \right]^{t}_{0} \\
+&=& 1- e^{-\lambda \; t}\\
+\end{eqnarray*}
+
+
+\begin{eqnarray*}
+P(a < T \leq b) &=& F(b) - F(a) \\
+&=& e^{-\lambda a} - ^{-\lambda b}
+\end{eqnarray*}
+
 
 \end{framed}
 
@@ -60,10 +76,13 @@ t
 The cumulative distribution function is given by 
 \[ {\displaystyle F(x;\lambda )={\begin{cases}1-e^{-\lambda x}&x\geq 0,\\0&x<0.\end{cases}}} \]
 
+\begin{eqnarray*}
+F(t) &=& P(T \leq t) \\
+&=& \int^{t}_{0} \lambda e^{-\lambda \; v} dv \\
+&=& \lambda \left[  -\frac{1}{\lambda} e^{-\lambda \; v} \right]^{t}_{0} \\
+&=& 1- e^{-\lambda \; t}\\
+\end{eqnarray*}
 
-F t P T t t\lambdae \lambdavdv \lambdae \lambdav e \lambdat
-λ
-= ≤ = - = - -  = - -   ∫ .
 
 \item 
 \begin{eqnarray*}
@@ -82,7 +101,7 @@ For a random sample of 100 invoices, he finds that 50 are
 settled within one week, 35 are settled during the second week and 15 are
 settled after 2 weeks. Explain clearly why the likelihood of these data may be
 written as
-\[( ) ( )50 ( 2 )35 ( 2 )15 L λ = k 1− e−λ e−λ − e− λ e− λ ,\]
+\[( ) ( )50 ( 2 )35 ( 2 )15 L λ = k 1− e^{-lambda} e^{-lambda} − e− λ e− λ ,\]
 where k is a constant.
 Hence show that
 \[log L(\lambda ) = log(k ) + 85log (1− e−\lambda )− 65\lambda .\]
@@ -114,16 +133,22 @@ Taking logarithms (base e),
 &=& \log k + 85\log (1- e^{-\lambda} )- 65\lambda.
 
 \end{eqnarray*}
-\[ 1 1
-d L e
-d e e
-λ
-\lambda\lambdaλ
--
-- ∴ = - = -
-- -
-.\]
-Equating to zero, $85 = 65(e\lambda-1)$ or $e^\lambda=150 / 65$, so that $\hat{\lambda} = log (150 / 65) = 0.836 $$.
+
+%-----------------------------------%
+\begin{eqnarray*}
+\log L(\lambda ) &=& \log k + 50\log(1- e^{-\lambda} )+ 35log{e^{-\lambda} (1- e^{-\lambda} )}+15 \log (e-2\lambda )\\
+&=% \log k +85\log (1- e^{-\lambda} )- (35 + 30)\lambda \\
+&=& \log k + 85\log (1- e^{-\lambda} )- 65\lambda .
+\end{eqnarray*}
+
+
+Therefore
+\begin{eqnarray*}
+\frac{d}{d \lambda} \log L 
+&=& \frac{85 e^{-\lambda}}{1-e^{-\lambda}} - 65\\
+&=& \frac{85 }{e^{\lambda}-1} - 65\\
+\end{eqnarray*}
+Equating to zero, $85 =  65e^{\lambda}-1$ or $e^\lambda  = 150/65$, so that $\hat{\lambda} = \log (150 / 65) = 0.836 $.
 
 
 It is easy to check that this is indeed a maximum; e.g. ( )
