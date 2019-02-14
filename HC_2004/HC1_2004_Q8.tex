@@ -36,13 +36,21 @@
 
 
 
-8. In a study of office efficiency, a firm has established benchmark times, x1, x2, …, x10,
+8. In a study of office efficiency, a firm has established benchmark times, $x_1$, $x_2$,$\ldots$, $x_{10}$,
 for the completion of 10 different routine office tasks. A newly recruited trainee is
-timed for his performance on each of these tasks, giving times y1, y2, …, y10. The
+timed for his performance on each of these tasks, giving times $y_1$, $y_2$,$\ldots$, $y_{10}$. The
 times in minutes, (xi, yi), i = 1, 2, …, 10, are tabulated below.
-Task A B C D E F G H I J
-Benchmark time x 5 5 10 10 10 15 15 20 20 40
-Trainee's time y 8 12 16 16 21 18 20 25 31 53
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+Task & A & B & C & D & E & F & G & H & I & J \\ \hline
+Benchmark time x & 5 & 5 & 10&  10&  10 & 15 & 15&  20 & 20&  40 \\ \hline
+Trainee's time y & 8 & 12&  16&  16& 21& 18 & 20&  25&  31& 53 \\ \hline
+\end{tabular}
+\end{center}
+
+
+
 Note:Σ = 150, Σ 2 = 3200, Σ = 220, Σ 2 = 6280, Σ = 4440 i i i i i i x x y y x y .
 (i) Plot a scatter diagram of these data and briefly comment on the suitability of
 simple linear regression analysis in this case.
@@ -99,19 +107,24 @@ b_1 = \frac{S_{XY}}{S_{XX}}
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item We have
-( )
-( 2 )
-ˆ 4440 150 220 /10 1140 1.20
-3200 150 /10 950
-xy
-xx
-S
-S
-β
-− ×
-= = = =
-−
-and αˆ = 22 − (1.20×15) = 4 ,
+
+\[S_{xy} = \sum(x_i - \bar{x})(y_i - \bar{y})  = \sum x_iy_i - \frac{(\sum x_i)(\sum y_i)}{n}\]
+\[S_{xx} = \sum(x_i - \bar{x})^2 = \sum x^2_i - \frac{(\sum x_i)^2}{n}\]
+
+\[ \hat{\beta}  = \frac{S_{xy}}{S_{xx}} = \frac{4400 - (150 \times 220/10)}{3200-(150^2/10)}
+= \frac{1140}{950} - 1.20\]
+
+\[\hat{alpha} = 22 -(1.20 \times 15) = 4\]
+
+so the line is $\hat{y} = 4 + 1.20 x$.
+
+%%--(iii)
+
+Given that the variance of the slope estimate is ${ \displaystyle \frac{\sigma^2}{\sum( x_i - \bar{x} )^2}  }$
+ , where $x$ denotes
+the sample mean benchmark time, test at the 5\% level of significance the null
+hypothesis that the slope of this regression is 1.
+
 \item so the line is
 y = 4 + 1.2x.
 \item 
@@ -153,13 +166,10 @@ testing the null hypothesis $\beta = 1$ is 1.2 1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \begin{framed}
-(iv) The office manager is dissatisfied with the regression relationship which you
-obtain. He believes that when x = 0 it should also be the case that y = 0. State
-the appropriate form of the linear regression model embodying this restriction,
-derive a formula for the estimate of its slope parameter, and estimate this
-parameter for the above data.
+(iv) The office manager is dissatisfied with the regression relationship which you obtain. He believes that when x = 0 it should also be the case that y = 0. State the appropriate form of the linear regression model embodying this restriction,
+derive a formula for the estimate of its slope parameter, and estimate this parameter for the above data.
 \end{framed}
-\item  The model here is yi = bxi + ei.
+\item  The model here is $y_i = bx_i + e_i$.
 Estimating b by least squares, we minimise ( )2
 1
 n
@@ -187,3 +197,8 @@ db
 Thus we have $\hat{b} = 4440/3200 = 1.3875$.
 \end{enumerate}
 \end{document}
+
+Benchmark <- c(5 , 5 , 10,  10,  10 , 15 , 15,  20 , 20,  40)
+Trainee <- c( 8 , 12,  16,  16, 21, 18 , 20,  25,  31, 53)
+df <- data.frame(Benchmark,Trainee)
+
