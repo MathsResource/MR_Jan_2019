@@ -34,10 +34,9 @@
 Higher Certificate, Paper I, 2004. Question 6
 \begin{framed}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-(i) The random variable X has probability density function f (x) given by
-( ) +1 = xk
-f x k , x ≥ 1, k > 0.
-Sketch the graph of f (x) and find the cumulative distribution function F(x).
+The random variable X has probability density function $f(x)$ given by
+\[ f(x) =  \frac{k}{x^{k+1}}, \qquad \mbox{  where  } x \geq  1, k > 0.\]
+Sketch the graph of $f(x)$ and find the cumulative distribution function $F(x)$.
 
 
 
@@ -53,19 +52,16 @@ x + = ≥ >
 [NOTE. The curve should of course appear as a smooth curve; it might not do so,
 due to the limits of electronic reproduction.]
 
+;
+The CDF is ecomputed as follows
 \begin{eqnarray*}
 F_X(x) &=& P(X \leq x)\\
-&=& \int^{x}_{y}  f(u) du\\
-% &=& \int^{\infty}_{1} x \frac{k}{x^2}f(x) dx\\
-&=& \int^{\infty}_{1} x \frac{k}{x^{k+1}}f(x) dx\\
-\end{eqnarray}
+&=& \int^{x}_{1}  f(u) du\\
+&=& \int^{x}_{1}  \frac{k}{u^{k+1}} du\\
+&=& \left[ - \frac{1}{u^k} \right]^x_1  \\
+&=& 1 - \frac{1}{x^k}  \qquad \mbox{ for } x \geq 1 \\
+\end{eqnarray*}
 
-C.d.f. is ( ) ( ) 1 1
-1
-1 1 1
-
-u + u x
-= ≤ = = −  = −   ∫ (for x ≥ 1).
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,25 +71,24 @@ u + u x
 range of X.
 \end{framed}
 
-\item  Median M has ½ = F(m) = 1 – M –k, so ½ = M –k and hence M = 21/k.
-\begin{itemize}
-    \item Lower quartile Q1 has ¼ = F(Q1) = 1 – Q1
-–k, so ¾ = Q1
-–k, i.e. Q1 = (4/3)1/k.
-\item Upper quartile Q3 has ¾ = F(Q3) = 1 – Q3
-–k, so Q3 = (4)1/k.
-\item Hence the semi-interquartile range is
-1/
-1/ 4
-4
-3
-1
-2
-k
-k      −   
-   
-.
-\end{itemize}
+\item  
+
+
+
+
+\begin{description}
+
+\item[Median]       
+M has ${ \displaystyle \frac{1}{2} = F(m) = 1 – M^{–k} }$, so 
+${ \displaystyle \frac{1}{2} = M^{–k} }$ and hence $M = 2^{1/k}$. 
+
+\item[Lower quartile] $Q_1$ has ${ \displaystyle \frac{1}{4} = F(Q_1) = 1 – Q_1^{–k} }$, so
+${ \displaystyle \frac{3}{4} = Q_1^{–k} }$, i.e. $Q_1 = (4/3)^{1/k}$
+
+\item[Upper quartile] $Q_3$ has ${ \displaystyle \frac{3}{4} = F(Q_3) = 1 – Q_3^{–k} }$, so
+${ \displaystyle \frac{1}{4} = Q_3^{–k} }$, i.e. $Q_3 = 4^{1/k}$
+
+\end{description}
 
 \begin{eqnarray*}
 E(X) &=& \int^{\infty}_{1} x f(x) dx\\
@@ -112,7 +107,7 @@ E(X^2)
 &=& \left[ \frac{-k}{(k-2)x^{k-2} } \right]^{\infty}_{1}\\
 &=& \frac{k}{k-2}
 \end{eqnarray*}
-\[
+
 
 This can be written down
 directly from the c.d.f. found in part (i).
@@ -120,24 +115,22 @@ directly from the c.d.f. found in part (i).
 \newpage
 \begin{framed}
 
-(iii) Assuming k > 2, find the expectation and variance of X. What is the
-probability that X exceeds its expectation?
+(iii) Assuming $k > 2$, find the expectation and variance of X. What is the probability that X exceeds its expectation?
 
-(iv) In the country of Utopia, incomes in units of £10000 are distributed as is X
-with k = 3. Find (a) the median income, (b) the mean income, (c) the
-proportion of incomes greater than £100000.
+(iv) In the country of Utopia, incomes in units of £10000 are distributed as is $X$ with k = 3. Find (a) the median income, (b) the mean income, (c) the
+proportion of incomes greater than \$100000.
 \end{framed}
 \item  For the case k = 3,
 \begin{itemize}
-\item (a) M = 21/3 in the units given, or £12599,
-\item (b) mean = 3/2 in the units given, or £15000,
+\item (a) M = 21/3 in the units given, or \$12599,
+\item (b) mean = 3/2 in the units given, or \$15000,
 \item (c) inserting X = 10, $P(X \leq 10) = 3$
 1 1
 10
 − , so $P(X > 10)$ = 3
 1
 10
-, i.e. 0.1%.
+, i.e. 0.1\%.
 \end{itemize}
 \end{enumerate}
 \end{document}
