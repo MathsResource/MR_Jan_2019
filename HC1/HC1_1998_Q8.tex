@@ -33,7 +33,7 @@
      \hline        
  \noindent \textbf{Part (a)}\\
 \noindent
-The random variable X follows the Geometric distribution such that
+The random variable $X$ follows the Geometric distribution such that
 \[{\displaystyle p(X = x) ={\begin{cases}q^{x-1}p,&x = 1,2,3, ...,\\0&\mbox{otherwise.}\end{cases}}} 
 \]
 
@@ -67,33 +67,33 @@ p \times \sum_{x=1}^{\infty } x \cdot(q)^{k-1}\cdot
  \noindent \textbf{Part (b)}\\
 \noindent Obtain the cumulative distribution function of X and deduce that the median of X is the
 smallest integer not less than − 
-qn l 2ln
- .
+${\displaystyle x = -\ln 2 = \ln q }$
 
 \\ \hline
  \end{tabular}
 \end{table}
 
 \begin{eqnarray*}
-F(x)&=&P(X \leq x)\\&=&
-Px
-n=1
-pqn- 1 \\&=&  p1- qx
-1- q \\&=& 1 -  qx (x = 1; 2; ¢ ¢ ¢) .
+F(X) &=& P(X \leq x) \\
+&=& \sum^{x}_{n=1} pq^{n-1} \\
+&=& p \left[ \frac{1-q^x}{1-q} \right] \\
+&=& 1-q^x \qquad(x=1,2,3,\ldots)\\
 \end{eqnarray*}
+
 (Also F(x)=0 for x<1)
 \begin{itemize}
     \item Strictly, F is a step function, changing value for each integer value of x and holding the value
 1-q[x] until the next change.
 \item ([x] is the integral part of x. )
-\item For the median M, F(M)=1
-2 .
+\item For the median $M$, ${\displaystyle F(M)=\frac{1}{2}  }$.
 
-\item Hence 1-qx = 1
-2 or qx = 1
-2 so that x ln q = - ln 2 or x = - ln 2= ln q. 
-\item M is the smallest integer not
+Hence ${\displaystyle 1-q^x=\frac{1}{2}  }$. or ${\displaystyle q^x=\frac{1}{2}  }$. 
+so that ${\displaystylex \ln q = -\ln 2   }$or ${\displaystyle x = -\ln 2 = \ln q }$. 
+$M$ is the smallest integer not
 less than this.
+
+
+
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%5
@@ -102,7 +102,7 @@ less than this.
      \begin{tabular}{|p{15cm}|}
      \hline        
  \noindent \textbf{Part (c)}\\
-\noindent The random variable Y has the same distribution as X and is independent of X. Show that
+\noindent The random variable $Y$ has the same distribution as $X$ and is independent of $X$. Show that
 \[P(Y = X) =  \frac{p}{1+q}\]
 
 
