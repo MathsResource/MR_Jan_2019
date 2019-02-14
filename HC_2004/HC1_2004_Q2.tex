@@ -38,83 +38,80 @@
 Higher Certificate, Paper I, 2004. Question 2
 
 \begin{framed}
-2. (i) The random variable X follows the Poisson distribution with probability mass function () ! x f x e x λ λ −= ,    x = 0, 1, 2, … . 
+2. (i) The random variable X follows the Poisson distribution with probability mass function,    
+\[ {\displaystyle f_X(x) =  P(X = x{\text{ events in interval}})=e^{-\lambda }{\frac {\lambda ^{x}}{x!}}} \qquad x = 0, 1, 2, \ldots .  \]
+
+
+(a) Find the moment generating function of $X$. 
  
-(a) Find the moment generating function of X. 
+(b) Hence or otherwise show that the mean and variance of X are both equal to $\lambda$ . 
  
-(b) Hence or otherwise show that the mean and variance of X are both equal to λ . 
- 
-(c) State the Poisson approximation to the binomial distribution, indicating the circumstances in which it is appropriate. (8) 
+(c) State the Poisson approximation to the binomial distribution, indicating the circumstances in which it is appropriate.  
  
 \end{framed}
 
 The moment-generating function of a random variable X is 
-\[{\displaystyle M_{X}(t):=\operatorname {E} \left[e^{tX}\right],\quad t\in \mathbb {R} ,} \]
+\[{\displaystyle M_{X}(t) =\operatorname {E} \left[e^{tX}\right],\quad t\in \mathbb {R} ,} \]
 
 wherever this expectation exists. In other words, the moment-generating function is the expectation of the random variable 
 ${\displaystyle e^{tX}} $
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}
 \item  The moment generating function is
-( ) ( ) ( ) ( ) ( ( ))
-0 0
-exp exp 1
-! !
-t x x
-tX tx t t
-X
-x x
-e e M t E e e e e e
-x x
-λ
-λ λ λ λ λ λ
-∞ − ∞
-−
-= =
-= =Σ =Σ = − = −
+%% Tidy Up Elsewhere
+
+\[f(x) = e^{-\lambda} \frac{\lambda^x}{x!}, x=0,1,2,3 \ldots\]
+
+%-------------------------------%
+
+\begin{eqnarray*}
+M_X(t) &=& E(e^{tX}) \\
+&=& \sum^{\infty}_{x=0} e^{tX} \frac{e^{-\lambda}\lambda^{x}}{x!}\\
+&=& \sum^{\infty}_{x=0} e^{-\lambda} \frac{\lambda e^t}{x!}\\
+&=& exp(\lambda e^t - \lambda) \\
+&=& exp(\lambda(e^t-1))
+\end{eqnarray*}
+
+
+
+\begin{eqnarray*}
+E(x) 
+&=& M_X^{\prime}(0) \\
+&=& \left[ \lambda e^{t} e^{\lambda(e^t-1)} \right]_{t=0}\\
+&=& \lambda
+\end{eqnarray*}
+
+\begin{eqnarray*}
+E(X^2) 
+&=& M_X^{\prime\prime}(0) \\
+&=& \left[ \frac{d}{dt} \left( \lambda e^{t} e^{\lambda(e^t-1)} \right)\right]_{t=0}\\
+&=& \left[ \lambda e^{t} e^{\lambda(e^t-1)}\lambda e^{t} + e^{\lambda(e^t-1)}\lambda e^{t}   \right]
+&=& \lambda^2 + \lambda
+\end{eqnarray*}
+
+\begin{framed}
+Product Rule \[ \frac{d(uv)}{dt} = u \frac{dv}{dt} +  v\frac{du}{dt}\]
+
+\begin{itemize}
+\item $u = \lambda e^{t}$  ${ \displaystyle \frac{du}{dt} = \lambda e^{t} }$
+\item $v = e^{\lambda(e^t-1)}$  ${ \displaystyle \frac{dv}{dt} = e^{\lambda(e^t-1)}\lambda e^{t}}$ (remark: using chain rule)
+\end{itemize} 
+\end{framed}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-(b) ( ) ( ) ( )1
-0
-' 0
-et t
-X
-t
-E X M eeλ
-λ λ −
-=
-= =   =  
-.
-( 2 ) ( ) ( 1)
-0
-'' 0
-et t
-X
-t
-E X M d e e
-dt
-λ λ −
-=
-= =         
-( 1) ( 1) 2
-0
-. .
-et et t t t
-t
-e e e e e λ λ λ λ λ λ λ − −
-=
-=  +  = +  
+
 .
 \begin{itemize}
     \item Hence ( ) ( ) ( ) Var X = E X 2 − E X 2 =λ   .
     \item (Alternatively, the moments could be obtained from the power series
 expansion of MX(t).)
     \item (Alternatively, though with comparatively lengthy algebra, the
-moments could be obtained directly by E(X) = ΣxP(X = x) and E(X2) =
-Σx2P(X = x); or, somewhat easier, use E[X(X – 1)] = Σx(x – 1)P(X = x)
-(this is λ2) and then 
+moments could be obtained directly by $E(X) = \sum^{n}_{i=0}xP(X = x)$ and $E(X^2) =
+\sum^{n}_{i=0}x^2P(X = x)$; or, somewhat easier, use \[E[X(X – 1)] = \sum^{n}_{i=0} x(x – 1)P(X = x)\]
+(this is $\lambda^2$) and then 
 \end{itemize}
 
-\[Var(X) = E[X(X – 1)] + E(X) – {E(X)}2.)\]
+\[Var(X) = E[X(X – 1)] + E(X) – [E(X)]^2.)\]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \item  The binomial distribution with parameters n and p may be
 approximated by the Poisson distribution with parameter np if n is large and p is small.
@@ -131,14 +128,13 @@ $np > 10$, a Normal approximation to the binomial may be better.
 
 \begin{eqnarray*}
 P(X=1) &=& { 200 \choose 1}(0.0075)^1(0.9925)^{199} \\
-&=&  200 \times  0.0075^4 0.9925^{196}\\
+&=& 0 \times  0.0075^4 0.9925^{196}\\
 &=& 0.3353\\
 \end{eqnarray*}
 
 \begin{eqnarray*}
 P(X=4) &=& { 200 \choose 4}(0.0075)^4(0.9925)^{196} \\
-&=&  
-\frac{200 199 198 197}{4 3 2 1} 0.00754 0.9925196\\
+&=& \frac{200 199 198 197}{4 3 2 1} 0.00754 0.9925196\\
 &=& 0.0468\\
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -148,7 +144,7 @@ P(X=4) &=& { 200 \choose 4}(0.0075)^4(0.9925)^{196} \\
 (ii) A civil servant calculates weekly social security payments for unemployed adults.  These payments vary according to claimants' circumstances, and errors may occur.  Over a long period of time, the probability of a wrong calculation has been found to be 0.0075.  Find to 4 decimal places the exact probability that a sample of 200 contains (a) 1 wrong calculation, (b) 4 wrong calculations. 
 \end{framed}
 \begin{framed}
-Repeat part (ii) using the Poisson approximation to the binomial distribution.  In each case find to two significant figures the percentage error in the Poisson calculation.  Comment briefly on your results. (7) 
+Repeat part (ii) using the Poisson approximation to the binomial distribution.  In each case find to two significant figures the percentage error in the Poisson calculation.  Comment briefly on your results. 
 \end{framed}
 \end{framed}
 \item  We approximate using $X \sim Poisson(200 × 0.0075 = 1.5)$. With this,
