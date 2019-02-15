@@ -95,16 +95,20 @@ E(X-1) &=&  \sum^{\infty}_{x=0} x(x-1)\frac{e^{-\lambda}\lambda^{x}}{x!}  \\
 
 \noindent
 
-(ii) Given a random sample of values $x_1, x_2, \ldots, x_n$ from this distribution, obtain the maximum likelihood estimator (MLE) of $\lambda$, say. $\hat{lambda}$
+(ii) Given a random sample of values $x_1, x_2, \ldots, x_n$ from this distribution, obtain the maximum likelihood estimator (MLE) of $\lambda$, say. $\hat{\lambda}$
 \\ \hline
       
 \end{tabular}
     
 \end{table}
 
-\item  \[1!ixniieLx$\lambda$$\lambda$−==Π, \]and hence . 1loglogconstantniiLnx$\lambda$$\lambda$==−++Σ
-logixdLnd$\lambda\]
-\[\lambda$Σ∴=−+\] which on setting equal to zero gives that the maximum likelihood estimate is ˆixxn$\lambda$Σ==. [Consideration of $\frac{d^2(\lambda}{d}$  $22logdd$ confirms that this is a maximum: 222log0ixdLd$\lambda$$\lambda$−Σ=<.]
+\item  
+\[L = \prod^{n}_{i=1} \frac{e^{-\lambda}\lambda^{x}}{x!} \]
+
+Hence $\log L = - n \lambda +  \sum^{n}_{i=1} x_i \log \lambda + \mbox{ constant }$.
+Therefore
+\[ \frac{d \log L}{d \lambda } = -n + \frac{\sum^{n}_{i=1} x_i}{\lambda} \]
+which on setting equal to zero gives that the maximum likelihood estimate is \[\hat{\lambda} = \frac{\sum^{n}_{i=1} x_i}{n} = \bar{x}.\]. [Consideration of $\frac{d^2(\log L)}{d \lambda ^2}$  confirms that this is a maximum: \[ \frac{d^2(\log L)}{d \lambda ^2}  = \frac{\sum^{n}_{i=1} x_i}{\lambda^2} < 0.1 \]
 
 
 
@@ -130,15 +134,13 @@ logixdLnd$\lambda\]
 \end{table}
 
 
-
-
-\item  \[Var(\hat{\lambda}) = Var(\bar{X}) = \frac{Var(X)}{n} = \frac{\lambda}{n}.\]
+  \[Var(\hat{\lambda}) = Var(\bar{X}) = \frac{Var(X)}{n} = \frac{\lambda}{n}.\]
 Thus the maximum likelihood estimator of $Var(\hat{
 \lambda)$ is $ \frac{ \lambda}{n}$.
 \begin{itemize}
     \item By the central limit theorem, $\bar{X} = \hat{\lambda}$ is approximately Normally distributed with mean $\lambda$ and variance $\lambda$ /n. 
-    \item We estimate the variance by ˆ
-$\lambda$/n, so that we have ˆˆ~N,n$\lambda$$\lambda$$\lambda$⎛⎞⎜⎜⎝⎠, approximately.
+    \item We estimate the variance by 
+$\hat{\lambda}/n$, so that we have ${ \displaystyle \hat{\lambda} \sim N( \lambda, \frac{\hat{\lambda}}{n})   }$, approximately.
 \item Hence an approximate 95\% confidence interval is given by
 \[0.95 \approx P \left( -1.96 \leq { \frac{ \hat{\lambda} - \lambda }{   \hat{lambda} / \sqrt{n} } }  \leq 1.96 \right) \]
 leading to the interval \[\hat{\lambda} -  1.96  \sqrt{ \frac{\hat{\lambda} }{n} } \leq \lambda \leq  \hat{\lambda} +   1.96  \sqrt{ \frac{\hat{\lambda} }{n} }.\]
@@ -163,8 +165,8 @@ briefly whether this computation supports, or throws doubt on, the Poisson model
  
 \end{tabular}
 \end{table}
-\item  For the given sample, we have n = 12 and Σxi = 48, leading to ˆ4x$\lambda$==. The approximate confidence interval is therefore
-441.96to41.961212⎛⎞−+⎜⎟⎜⎟⎝⎠, i.e. 2.87 to 5.13.
+\item  For the given sample, we have $n = 12$ and $\sum x_i = 484$, leading to $\hat{\lambda} = \bar{x} = 4$. The approximate confidence interval is therefore
+\[ 4 \pm 1.96 \sqrt{ \frac{4}{12}} = 4 \pm 1.13 = (2.87 , 5.13).\]
 The sample also gives $\sum(x_i)^2 = 238$; so the sample variance is
 \[s2 = \frac{1}{11} \left( 238  - \frac{48^2}{12} \right)  = \frac{46}{11} = 4.182.\]
 This is close to the sample mean (4), supporting a Poisson hypothesis for the underlying model.
