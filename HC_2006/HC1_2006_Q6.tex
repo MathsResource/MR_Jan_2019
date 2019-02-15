@@ -87,12 +87,12 @@ Write down $E(X)$ and show that $\operatorname{Var}(X) = \frac{2}{\lambda^2}$. F
 \begin{itemize}
     \item By symmetry, $E(X) = 0$.
 Hence 
-\begin{eqnarray}
+\begin{eqnarray*}
 E(X^2)  &=& \int^{\infty}_{\infty} x^2 \;\frac{\lambda}{2}\;  e^{-\lambda |x|} dx \\
 &=& 2 \times  \int^{\infty}_{0} x^2 \;\frac{\lambda}{2}\;  e^{- \lambda x} dx \\ 
 &=& \lambda \times  \int^{\infty}_{0} x^2 \;  e^{- \lambda x} dx \\ 
 &  & \mbox{(Integration by Parts)}
-\end{eqnarray}
+\end{eqnarray*}
 
 \begin{framed}
 \[I = uv - \int vdu\]
@@ -103,12 +103,19 @@ E(X^2)  &=& \int^{\infty}_{\infty} x^2 \;\frac{\lambda}{2}\;  e^{-\lambda |x|} d
 \end{framed}
 \begin{eqnarray}
 \operatorname{Var}(X) &=& E(X^2) - [0]^2 \\
-&=&
-22Var()()02xXEXxedx$\lambda$$\lambda$∞−−∞=−=∫ {}02202xxxedxxedx$\lambda$$\lambda$$\lambda$∞−−∞=+∫∫.
+&=& \frac{\lambda}{2} \int^{\infty}_{-\infty} x^2 e^{\lambda|x|}dx \\
+&=& \frac{\lambda}{2} \int^{}_{-\infty} x^2 e^{\lambda\;x}dx + \frac{\lambda}{2} \int^{\infty}_{0} x^2 e^{-\lambda\;x}dx \\\\
 \end{eqnarray}
 
 
 \item Substituting $u = –x$ in the first integral gives , which is the same as the second.
+\begin{eqnarray*} 
+E(x^2) &=&  \lambda \int^{\infty}_{0} x^2 e^{-\lambda\;x}dx \\
+&=& \lambda \left( \left[ x^2 \frac{e^{-\lambda\;x}}{-\lambda}   \right]^{\infty}_{0}  + \int^{\infty}_{0} 2x e^{-\lambda\;x}dx \rigth)\\
+&=& (0-0) + \int^{\infty}_{0} 2x e^{-\lambda\;x}dx \\
+&=& MOER
+&=& \frac{2}{\lambda^2}
+\end{eqnarray*}
 \item Hence we get, integrating by parts, 
 
 \begin{eqnarray*}
@@ -131,11 +138,20 @@ E(X^2)  &=& \int^{\infty}_{\infty} x^2 \;\frac{\lambda}{2}\;  e^{-\lambda |x|} d
 %\lambda\lambda$∞−−∞⎧⎫⎡⎤⎪⎪=+⎨⎬⎢⎥−⎣⎦⎪⎪⎩⎭∫
 % []0200xe$\lambda$$\lambda$$$∞−⎡⎤=−+⎢⎥−⎣⎦ 22$\lambda$=.\]
 
-\item If Q, q are the upper and lower quartiles, we have 0124Qxedx$\lambda$$\lambda$− =∫, and q will be the same distance below 0 by symmetry.
-\[(01111422Qxee$\lambda\lambda$−−⎡⎤ ∴=−=−+⎢⎥⎣⎦, giving 112Qe$\lambda$−=\]
+\item
 
-−. 
 
+If $Q$, $q$ are the upper and lower quartiles, we have
+
+
+\[  \int^Q_0 \frac{1}{2} \lambda e^{-\lambda x} dx = \frac{1}{4},\]
+
+and $q$ will be the same distance below 0 by symmetry.
+
+
+\[ \frac{1}{4} = \left[ - \frac{1}{2} e^{-\lambda x} \right]^Q_0 = \frac{1}{2} \left(  -e^{-\lambda Q} + 1 \right)\]  giving
+${ \displaystyle \frac{1}{2}  = 1 -e^{-\lambda Q} }$. Therefore $\lambda Q = \log 2$. Hence
+the semi-interquartile range is ${ \displaystyle \frac{\log 2}{\lambda} }$.
 
 
 %-------------------------------------------------%
@@ -165,6 +181,19 @@ A random sample $x_1, x_2, \ldots, x_n$ is taken from this distribution. Show th
 \item Hence the semi-interquartile range is (log 2)/$\lambda$.
 \end{itemize}
 
-122iinnxxiLee$\lambda$$\lambda$$\lambda$$\lambda$−−=⎛⎞⎛⎞Σ==⎜⎟⎜⎟⎝⎠⎝⎠Π, and hence log constant logiiLn$\lambda$$\lambda$=+−Σ .
-logiidLnxd$\lambda$$\lambda$∴=−Σ which on setting equal to zero gives that the maximum likelihood estimate is ˆiinx$\lambda$=Σ. [Consideration of 22logdd$\lambda$ confirms that this is a maximum: 222log0dLnd$\lambda$$\lambda$−=<.]
+\[L = \prod^{n}_{i=1} \left( \frac{\lambda}{2} e^{-\lambda|x_i|}  \right)  = \left( \frac{\lambda}{2}  \right) e^{-\lambda \sum|x_i|},\]
+
+and hence 
+\[ \log L = \mbox{ constant }+ n \log \lambda − \lambda \sum_{i=1} |x_i| .\]
+
+Therefore
+
+\[  \frac{d \log \lambda L}{d \lambda} = \frac{n}{2} - \sum_{i=1} |x_i|  \]
+
+which on setting equal to zero gives that the maximum
+likelihood estimate is $ { \displaystyle \hat{\lambda} = \frac{n}{\sum_{i=1} |x_i|}  }$
+
+Consideration of $ { \displaystyle  \frac{d^2 \log \lambda L}{d \lambda^2} }$ confirms that this is a maximum.
+
+\[ \frac{d^2 \log \lambda L}{d \lambda^2} = \frac{-n}{\lambda^2} <0.\]
 \end{document}
