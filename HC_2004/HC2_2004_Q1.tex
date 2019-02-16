@@ -103,7 +103,7 @@ in block j which receives treatment i. 0, 0 i i j j Στ = Σ β = (i.e. fixed e
 i the population mean effect due to
 treatment i, β
 j the population mean effect due to block j. The Normally distributed
-residual (error) terms εij all have variance σ 2 and are uncorrelated (independent). All
+residual (error) terms εij all have variance $\sigma^2$ and are uncorrelated (independent). All
 non-random variation is covered by the τ
 i and β
 j terms.
@@ -113,35 +113,48 @@ Totals are: Block 1 Block 2 Block 3 Block 4 Block 5 Block 6
 13 24 7 23 8 21
 Treatment A Treatment B Treatment C Treatment D
 25 23 18 30
-The grand total is 96. ΣΣyij
-2 = 486.
-"Correction factor" is
-962 384
-24
-= .
-Therefore total SS = 486 – 384 = 102.
-SS for blocks =
-132 242 72 232 82 212 384 457 384 73
-4 4 4 4 4 4
-+ + + + + − = − = .
-SS for treatments =
-252 232 182 302 384 396.33 384 12.33
-6 6 6 6
-+ + + − = − = .
-The residual SS is obtained by subtraction.
-SOURCE DF SS MS F value
-Blocks 5 73.00 14.600 13.14 Compare F5,15
-Treatments 3 12.33 4.111 3.70 Compare F3,15
-Residual 15 16.67 1.111 = σˆ 2
-TOTAL 23 102.00
+
+\begin{itemize}
+\item The grand total is 96. $\sum \sum y_{ij}^2 =486$
+
+\item The Correction factor is $ \frac{96^2}{24} = 384 $
+
+\item Therefore $ \mbox{total }SS = 486 - 384 = 102$
+
+\item The SS for blocks is
+
+\begin{eqnarray*} 
+\frac{13^2}{4} + \frac{24^2}{4} + \frac{7^2}{4} + \frac{23^2}{4} + \frac{8^2}{4} + \frac{21^2}{4} - 384\\
+&=& 457 - 384 \\
+&=& 73 \\
+\end{eqnarray*}
+\item The SS for treatments is
+
+\begin{eqnarray*} 
+\frac{25^2}{6} + \frac{23^2}{6} + \frac{18^2}{6} + \frac{30^2}{6} - 384\\
+&=& 396.33 - 384 \\
+&=& 12.33 \\
+\end{eqnarray*}
+
+\item The residual is obtained by subtraction.
+\end{itemize}
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+SOURCE &  DF & SS&  MS&  F value &   \\ \hline
+Blocks &  5 & 73.00 & 14.600 & 13.14 & Compare F5,15 \\ \hline
+Treatments & 3 & 12.33&  4.111 & 3.70 &   Compare F3,15 \\ \hline
+Residual & 15 & 16.67 & 1.111 & & = $\hat{\sigma}^2$ \\ \hline
+TOTAL & 23 & 102.00 & & & \\ \hline
+\end{tabular}
+\end{center}
 
 \begin{itemize}
     \item 
 The upper 0.1\% point of F5,15 is 7.57; the blocks effect is very highly significant.
 The upper 5\% point of F3,15 is 3.29; the treatments effect is significant.
-Continued on next page
-Clearly there are block (subject) differences. Even after removing these, the results
-are quite variable.
+
+Clearly there are block (subject) differences. Even after removing these, the results are quite variable.
 To investigate treatment differences, first calculate the treatment means, which are (in
 ascending order, for clarity)
 C : 3.00 B : 3.8333 A : 4.1667 D : 5.00
