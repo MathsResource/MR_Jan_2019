@@ -51,24 +51,37 @@ respectively.
 f (x) =λ e−λ x x > 0, λ > 0
 \begin{enumerate}
 \item ( ) ( )
-0 0
-tX x tx t x
-X M t E e λ e λ dx λ e λ dx =   = ∞ − + = ∞ − −   ∫ ∫
-( ) 1
-0
-1 1
-e t x t
-t t
-λ λ
-λ λ λ
- − − ∞ − = − = =  −   −  −      
-[| t |<λ ] .
-( )
-2
-2 1 ... x
-M t t t
-λ λ
-= + + + .
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 2002 HC1 Q6 Part i
+
+\begin{eqnarray*}
+M_X(t)  &=& E[ e^{tx}] \\
+&=& \int^{\infty}_{0} \lambda e^{-\lambdax + tx} dx\\
+&=& \int^{\infty}_{0} \lambda e^{-(\lambda-t)x} dx\\
+&=&  \left[ - \frac{\lambda e^{-(\lambda-t)x}}{\lambda-t}  \right]^{\infty}_{0}\\
+&=& \frac{1}{\lambda - t}\
+&=& \left( 1 - \frac{t}{\lambda}\right)^{-1} \mbox{ where } |t| < \lambda  \\
+\end{eqnarray*}
+
+\[ M_x(t) = 1 + frac{t}{\lambda} + \frac{t^2}{\lambda^2}+ \ldots \]
+
+
+${ \displaystyle E(X^k) = \mbox{ coefficent of } \frac{x^k}{k!} \mbox{ in the expansion } \}
+
+Hence $E(X) = \frac{1}{\lambda}$; also $E(X^2) = \frac{2}{\lambda^2}$, and so $\operatorname{Var}(X) = \frac{2}{\lambda^2} - \left(\frac{1}{\lambda} \right)^2 = \frac{2}{\lambda^2}$
+%=--------------------------------------%
+% 2002 HC1 Q6 Part ii
+
+L( \lambda|x_i,\ldots,x_n) = \prod^{n}_{i=1} \left( \lambda e^{-\lambda x_i}) 
+ = \lambda^{n} exp \left (-\lambda \sum^{n}_{i=1} x_i \right)
+
+${ \displaystyle  \ln L = n \ln \lambda - \lambda \sum^{n}_{i=1} x_i = n (\ln \lambda -\lambda \bar{x})  }$
+
+${ \displaystyle  \frac{d (\log L)}{ d \lambda}  = \frac{n}{\lambda} -n \bar{x} \mbox{ for } \hat{lambda} = \frac{1}{\bar{x}} }$
+
+${ \displaystyle  \frac{d^2 (\log L)}{ d \lambda^2}  = -\frac{n}{\lambda^2} }$ which confirms the maximum of $L$.
+
+
 \begin{itemize}
 \item E[Xk] = coefficient of
 !
@@ -151,22 +164,14 @@ p,v distribution. This approximation gives the following values for a 95\% confi
 This approximation may be acceptable for samples containing at least 15 to 20 elements.
 
 \end{framed}
-\item  The asymptotic variance of $\hat{\lambda}$ [Cramér-Rao lower bound for variance] is
-( )
-2
-2
-2
-1
-d ln L n
-E
-d
-λ
-λ
-=
- 
-− 
- 
-.
+\item  
+
+%-----------------------------------------%
+
+The asymptotic variance of $\hat{\lambda}}$ [Cramer- Rao lower bound for variance] is given by
+\[ \frac{1}{ E \left[ - \frac{d^2 (\log L)}{ d \lambda^2} \right] } \frac{n}{\lambda^2}\]
+
+
 We have
 2 ˆ approx N ,
 n
