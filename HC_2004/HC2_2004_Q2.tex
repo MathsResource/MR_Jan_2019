@@ -89,22 +89,15 @@ and select eight tomatoes at random from each.  Comment on the suitability of th
 A 95\% confidence interval for the true mean of this grower's tomatoes is given by
 $x ± t \frac{s}{\sqrt{16}}$ where t is the double-tailed 5\% point of t15, i.e. 2.131. 
 \item So the interval is
-\[3.0875 \pm 2.131 \frac{ 0.3185}{ \sqrt{16} }\] , i.e. 3.0875 ± 0.3007 , i.e. (2.787, 3.388).
+\[3.0875 \pm 2.131 \frac{ 0.3185}{ \sqrt{16} }\] , i.e. $3.0875 \pm 0.3007$ , i.e. $(2.787, 3.388)$.
 As the specified mean of 3.0 is within this interval, it seems this grower could be
 accepted.
-\item It is also specified that the true variance σ 2 should not be greater than (0.5)2, which is
-0.25. A 95% confidence interval for σ 2 is given by
-( ) 2 ( ) 2
-2
-2 2
-U L
-1 1
-χ χ
-n s n s
-σ
-− −
-< <
-where 2
+\item It is also specified that the true variance σ 2 should not be greater than $(0.5)^2$, which is
+0.25. A 95\% confidence interval for $\sigma^2$ is given by
+\[ frac{(n-1)s^2}{\chi^2_{L}} \;<\; \sigma^2  \;<\;  frac{(n-1)s^2}{\chi^2_{U}} \]
+
+where $\chi^2_{L}$ and $\chi^2_{U}$ are the
+
 L χ and 2
 U χ are the lower and upper 2½% points of 2
 1 χn− , i.e. of 2
@@ -116,7 +109,7 @@ but caution is suggested by the fact that the upper limit is well above 0.5; the
 might well not be acceptable on this basis. 
 
 \item Note that the comparatively large value
-of s2 has also affected the confidence interval for the mean calculated above – it is,
+of $s^2$ has also affected the confidence interval for the mean calculated above – it is,
 relatively speaking, rather a wide interval.)
 \item The short report should say that although the mean diameter in the sample is near to
 3.0, the material is so variable that the specified greatest value of 0.5 for the standard
