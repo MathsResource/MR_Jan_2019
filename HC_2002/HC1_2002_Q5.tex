@@ -36,25 +36,37 @@ Higher Certificate, Paper I, 2002. Question 5
 \begin{itemize}
 \item Let A1, …, Ak be a set of mutually exclusive and exhaustive events, and let B be any
 other event.
-Then ( ) ( ) ( )
-( )
-( ) ( )
-( ) ( )
-1
-| |
-|
-|
-i i i i
-i k
-j j
-j
-P B A P A P B A P A
-P A B
-P B P B A P A
-=
-= =
-Σ
-.
+
+Bayes' theorem is stated mathematically as the following equation:
+\[ {\displaystyle P(A\mid B)={\frac {P(B\mid A)\,P(A)}{P(B)}}} \]
+ 
+where 
+${\displaystyle A}$ 
+ and 
+${\displaystyle B}$ 
+ are events and 
+${\displaystyle P(B)\neq 0}$ 
+. 
+${\displaystyle P(A\mid B)}$ 
+ is a conditional probability: the likelihood of event 
+${\displaystyle A}$ 
+ occurring given that 
+${\displaystyle B}$ 
+ is true.
+$ {\displaystyle P(B\mid A)} $
+ is also a conditional probability: the likelihood of event 
+ $ {\displaystyle B} $ occurring given that 
+ ${\displaystyle A}$ 
+ is true.
+${\displaystyle P(A)} $
+ and 
+${\displaystyle P(B)} $
+ are the probabilities of observing 
+$ {\displaystyle A} $
+ and 
+ ${\displaystyle B}$ 
+ independently of each other; this is known as the marginal probability.
+
 \item It is useful in inference about an Ai which cannot be observed directly but is related to
 an observable event B.
 \end{itemize}
@@ -63,29 +75,34 @@ an observable event B.
 \begin{framed}
 A signal corps has to use an information channel, which is faulty. All messages
 are sent as a sequence of six binary digits. The receiver knows that the message is
-one of the following: 'Advance' (A), or 'Retreat' (R), or 'Stay where you are' (S).
+one of the following: '\textbf{\textit{Advance}}' (A), or '\textbf{\textit{Retreat}}' (R), or '\textbf{\textit{Stay where you are}}' (S).
 From past experience he expects these messages in the respective ratios 1:4:5.
 The three messages are sent as
-A: 0 1 0 1 0 0; R: 0 1 1 0 1 1; S: 1 0 1 0 0 1.
+\begin{description}
+\item[A:] 0 1 0 1 0 0; 
+\item[R:] 0 1 1 0 1 1; 
+\item[S:] 1 0 1 0 0 1.
+\end{description}
+
 Independently for each character in the message, the fault causes '0' to be sent in
 place of '1' with probability p, and '1' to be sent in place of '0' with equal
-probability p, the probability that any given character is transmitted correctly
-being 1 – p. The message is received as 0 1 1 1 0 0. Show that
-P(011100 is received | A: 010100 is sent) = p(1− p)5
+probability$ $p, the probability that any given character is transmitted correctly
+being $1 – p$. The message is received as \[0 1 1 1 0 0\]. Show that
+$P(011100 \mbox{ is received } | A: 010100 \mbox{ is sent } ) = p(1− p)^5$
 and obtain similar expressions for
-P(011100 is received | R: 011011 is sent)
+$P(011100 \mbox{ is received } | R: 011011 \mbox{ is sent })$
 and
-P(011100 is received | S: 101001 is sent).
+$P(011100 \mbox{ is received } | S: 101001 \mbox{ is sent })$.
 \end{framed}
 
 
 
 \item 
-\[P(011100|A) = P(\mbox{5 right, 1 wrong}) = p(1− p)5 .\]
-\[P(011100|R) = P(\mbox{3 right, 3 wrong}) = ( )p3 1− p 3 .\]
-\[P(011100|S) = P(\mbox{2 right, 4 wrong}) = ( )p4 1− p 2 .\]
+\[P(011100|A) = P(\mbox{5 right, 1 wrong}) = p(1− p)^5 .\]
+\[P(011100|R) = P(\mbox{3 right, 3 wrong}) = (p^3)(1− p)^3 .\]
+\[P(011100|S) = P(\mbox{2 right, 4 wrong}) = (p^4)(1− p)^2 .\]
 This assumes all errors are independent.
-\item Given that P(A) = 0.1, P(R) = 0.4, P(S) = 0.5, we have 
+\item Given that $P(A) = 0.1$, $P(R) = 0.4$, $P(S) = 0.5$, we have 
 \[P(A|011100) = ( )
 ( )
 5 0.1 p 1 p
@@ -165,7 +182,7 @@ p
 \end{eqnarray*}
 \begin{framed}
 Deduce that
-P(A: 010100 is sent | 011100 is received) = ( )
+P(A: 010100 \mbox{ is sent } | 011100 is received) = ( )
 ( ) ( )
 3
 3 2 3
@@ -177,9 +194,12 @@ p p p p
 −
 − + − +
 and write down similar expressions for
-P(R: 011011 is sent | 011100 is received)
-and
-P(S: 101001 is sent | 011100 is received).
+\begin{itemize}
+    \item $P(R: 011011 \mbox{ is sent } | 011100 is received)$
+
+\item $P(S: 101001 \mbox{ is sent } | 011100 is received)$.
+\end{itemize}
+
 
 If it is assumed that p is at most 0.1, which interpretation of the message is most
 likely to be correct?
@@ -187,15 +207,20 @@ likely to be correct?
 \end{framed}
 
 \begin{itemize}
-As p → 0, P(A|011100) → 1, while the others do not.
-\item In general, P(A|011100) > P(R|011100) if \[(1− p)3 > 4 p2 (1− p) \], or 
-\[( )1− p 2 > 4 p2\] ,
-which requires 1− p > 2 p , i.e. 1 > 3p or 1
-3 p < .
-\item Likewise $P(A|011100) > P(S|011100)$ if ( )1− p 3 > 5p3 , or (1− p) > p 3 5 , which
-requires 1 > p(1+ 51/3 ) = 2.71p , or 1
-2.71
-p < .
+\item As p → 0, $P(A|011100) \rightarrow 1$, while the others do not.
+\item In general, $P(A|011100) > P(R|011100)$ 
+
+% 2002 HC1 Q5
+
+
+if $(1-p)^3 > 4p^2(1-p)$ or $(1-p)^2 >4p^2$, which requires $1-p>2p$, i.e. $1>3p$ or ${\displaystyle p<\frac{1}{3}}$.
+
+
+
+
+\item Likewise $P(A|011100) > P(S|011100)$ if $(1-p)^3 > 4p^2(1-p)$ or $(1-p)^2 >5p^3$,  or ${\displaystyle (1-p) > p \sqrt{3}{5} }$, which requires $1 > p(1+\sqrt{3}{5}$, i.e. $1> 2.71p$, therefore
+\[p < \frac{1}{2.17}\]
+
 \item When $p \leq 0.1$, both these conditions are satisfied so choose A.
 \item The probabilities are in the ratio $A:R:S \equiv≡ 0.729 : 0.036 : 0.005.$
 \end{itemize}
