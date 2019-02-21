@@ -42,12 +42,28 @@ Higher Certificate, Paper II, 2005. Question 4
 Source:  Georgiadis M.P., Johnson W.O., Gardner I.A. and Singh R. (2003).  Correlation-adjusted estimation of sensitivity and specificity of two diagnostic tests.  Applied Statistics, 52, 63–76. 
  
  
-(i) Test the hypothesis that the probability of a positive test result is the same for the two tests. (9) 
- 
-
- 
+(i) Test the hypothesis that the probability of a positive test result is the same for the two tests.  
  
 \end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The test is applied to a $2 \times 2 $ contingency table, which tabulates the outcomes of two tests on a sample of n subjects, as follows. 
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+  & Test 2 positive &  Test 2 negative & Row total   \\ \hline
+Test 1 positive &  a & b & a + b  \\ \hline
+Test 1 negative & c & d & c + d   \\ \hline
+Column total & a + c & b + d & n   \\ \hline
+\end{tabular}
+\end{center}
+
+The null hypothesis of marginal homogeneity states that the two marginal probabilities for each outcome are the same, i.e. $p_a + p_b = p_a + p_c$ and $p_c + p_d = p_b + p_d$. 
+
+Thus the null and alternative hypotheses are         \[{\displaystyle {\begin{aligned}H_{0}&:~p_{b}=p_{c}\\H_{1}&:~p_{b}\neq p_{c}\end{aligned}}}  \]
+Here pa, etc., denote the theoretical probability of occurrences in cells with the corresponding label. 
+
+The McNemar test statistic is: 
+\[ {\displaystyle \chi ^{2}={(b-c)^{2} \over b+c}.}  \]
 
 
 \begin{enumerate}[(a)]
@@ -65,9 +81,17 @@ Thus the test statistic is ()2225411153.409254166−−==+. This is referred to 
     \item  Approximate 95\% confidence intervals for the proportion of positive test results given by each test use the whole data. For MAT, 92462ˆ0.1991Mp==; for ELISA, 108462ˆ0.2338Ep==.
     
 \begin{enumerate}[(i)]
-    \item  The estimated variance of ˆMp is (0.1991)(0.8009)/462 = 0.000345135, so the estimated standard deviation is 0.0186. Thus a 95\% confidence interval for pM is given by, approximately, $0.1991 \pm (1.96)(0.0186)$, i.e. it is (0.163, 0.236).
-\item The estimated variance of ˆEp is (0.2338)(0.7662)/462 = 0.000387744, so the estimated standard deviation is 0.0197 Thus a 95\% confidence interval for pE is given by, approximately, $0.2338 \pm (1.96)(0.0197)$, i.e. it is (0.195, 0.272).
-Neither of these intervals contains the proposed value of 0.069 – in fact, the intervals are a considerable distance away from that. So neither is consistent with this value.
+    \item  The estimated variance of ˆMp is $\displaystyle{\frac{(0.1991)(0.8009)}{462} = 0.000345135}$, so the estimated standard deviation is 0.0186.
+    \begin{itemize}
+        \item Thus a 95\% confidence interval for pM is given by, approximately, $0.1991 \pm (1.96)(0.0186)$, i.e. it is $(0.163, 0.236)$.
+    \end{itemize} 
+\item The estimated variance of ˆEp is (0.2338)(0.7662)/462 = 0.000387744, so the estimated standard deviation is 0.0197 
+\begin{itemize}
+\item Thus a 95\% confidence interval for pE is given by, approximately, $0.2338 \pm (1.96)(0.0197)$, i.e. it is $(0.195, 0.272)$.
+\item Neither of these intervals contains the proposed value of 0.069 – in fact, the intervals are a considerable distance away from that. 
+\item So neither is consistent with this value.
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{enumerate}
 
 \end{enumerate}
