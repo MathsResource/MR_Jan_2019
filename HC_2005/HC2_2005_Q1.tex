@@ -32,14 +32,20 @@
 
 \begin{document}
 \begin{framed}
-1. The following table gives a summary of the numbers of goals scored by the home soccer teams in matches in the English Premier Football League during the 1999–2000 season.  It is required to test the assumption that the data follow a Poisson distribution. 
+1. The following table gives a summary of the numbers of goals scored by the home soccer teams in matches in the English Premier Football League during the 1999/2000 season.  It is required to test the assumption that the data follow a Poisson distribution. 
  
-Number of goals scored by the home team, r 0 1 2 3 4 ≥5 Frequency, f 81 112 101 44 28 14 
+
+Number of goals scored by the home team
+\begin{center}
+\begin{tabular}{|c||c|c|c|c|c|c|}
+Number of goals , r & 0 & 1 & 2 & 3 & 4 & $\geq$ 5\\ Frequency, f & 81 & 112 & 101 & 44 & 28 & 14 \\
+\end{tabular}
+\end{center}
  
  
-(i) Explain why it might be reasonable to assume that the number of goals, r, scored by the home team would follow a Poisson distribution. (3) 
+(i) Explain why it might be reasonable to assume that the number of goals, r, scored by the home team would follow a Poisson distribution. 
  
-(ii) The total number of matches was Σf = 380, and the total number of goals scored was Σfr = 634.  Also Σfr2 = 1778.  Calculate the mean and variance of the data. (3) 
+(ii) The total number of matches was $\sum f = 380$, and the total number of goals scored was $\sum fr = 634$.  Also $\sum fr^2 = 1778$.  Calculate the mean and variance of the data.  
 \end{framed}
 
 
@@ -54,40 +60,46 @@ Number of goals scored by the home team, r 0 1 2 3 4 ≥5 Frequency, f 81 112 10
 
 \newpage
 \begin{framed}
-(iii) Calculate the expected frequencies, on the Poisson hypothesis, for r = 0 and r = 1.  The expected frequencies in the remaining cells of the table are 99.72, 55.46, 23.13 and 10.51.  Carry out a χ2 goodness-of-fit test of the hypothesis that the data follow a Poisson distribution.  Explain your conclusions carefully.  What problem in carrying out the test would have occurred if the frequencies for values of $r \geq 5$ had not been combined? (11)
+(iii) Calculate the expected frequencies, on the Poisson hypothesis, for $r = 0$ and $r = 1$.  The expected frequencies in the remaining cells of the table are 99.72, 55.46, 23.13 and 10.51.  Carry out a $\chi^2$ goodness-of-fit test of the hypothesis that the data follow a Poisson distribution.  Explain your conclusions carefully.  What problem in carrying out the test would have occurred if the frequencies for values of $r \geq 5$ had not been combined? 
 \end{framed}
     \item  (iii) We take μ as 1.6684. So ()1.668400.1885PRe−===, and the expected frequency for r = 0 is 380 × 0.1885 = 71.65.
 Similarly, , and the expected frequency for r = 1 is 119.51. ()1.668411.66840.3145PRe−===
 Hence we have (taking the remaining expected frequencies from the question paper)
-r
-0
-1
-2
-3
-4
-≥5
-Total
-Observed
-81
-112
-101
-44
-28
-14
-380
-Expected
-71.65
-119.51
-99.72
-55.46
-23.13
-10.51
-379.98
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+r	&	Observed	&		&	Expected	\\ \hline
+0	&	81	&		&	71.65	\\ \hline
+1	&	112	&		&	119.51	\\ \hline
+2	&	101	&		&	99.72	\\ \hline
+3	&	44	&		&	55.46	\\ \hline
+4	&	28	&		&	23.13	\\ \hline
+$\geq$5	&	14	&		&	10.51	\\ \hline
+Total	&	380	&		&	379.98	\\ \hline
+\end{tabular}
+\end{center}
 [Note. There is a very small rounding error in the calculations of expected frequencies.]
-The test statistic is
-()22222(8171.65)(112119.51)(1410.51)...6.26171.65119.5110.51OEXE−−−−==+++=Σ,
-which is referred to (note 4 degrees of freedom because the table has 6 cells and there is one estimated parameter). This is not significant (the 5\% point is 9.49); we cannot reject the null hypothesis, i.e. there is no evidence against the Poisson model with these data. 24χ
-For the test, the expected frequencies need to be not too small (≥5 is often used as a criterion). This would not be the case if frequencies for large r were not combined.
+
+\begin{itemize}
+\item The test statistic is
+()22222()()(1410.51)...6.26171.65119.5110.51OEXE−−−−==+++=Σ,
+
+\begin{eqnarray*}
+\chi^2 &=& \frac{(81-71.65)^2}{71.65} + \frac{(112-119.51)^2}{119.51} + \frac{(101	-	99.72)^2}{99.72} + \\
+& & \frac{(44 -	55.46)^2}{55.46} + \frac{(28	- 23.13)^2}{23.13} + \frac{(14	-	10.51)^2}{10.51}  \\
+& & \\ 
+&=& \frac{87.42}{71.65} \; + \;
+\frac{56.40}{119.51} \; + \;
+\frac{1.64}{99.72} + \frac{131.33}{55.46} \; + \;
+\frac{23.72}{23.13} \; + \;
+\frac{12.18}{10.51} \\
+&=& 1.22	+ 0.47	+ 0.02	+ 2.37	+ 1.03	+ 1.16 \\
+& & \\ 
+&=& 6.26
+\end{eqnarray*}
+which is referred to (note 4 degrees of freedom because the table has 6 cells and there is one estimated parameter).
+\item This is not significant (the 5\% point is 9.49); we cannot reject the null hypothesis, i.e. there is no evidence against the Poisson model with these data. 24χ
+\item For the test, the expected frequencies need to be not too small ($\geq $5 is often used as a criterion). This would not be the case if frequencies for large r were not combined.
+\end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \newpage
 \begin{framed}
