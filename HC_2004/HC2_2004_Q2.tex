@@ -49,10 +49,14 @@ Higher Certificate, Paper II, 2004. Question 2
 
 A supermarket has a policy of only buying tomatoes from growers who can supply tomatoes that have a mean diameter of 3.0 cm and a standard 
 deviation of no more than 0.5 cm.  A representative of the supermarket goes to visit a potential new supplier and selects a random sample of 
-16 tomatoes from the tomato grower's greenhouse.  The diameter of each tomato is measured and the data are as follows, recorded for convenience in ascending order. 
+16 tomatoes from the tomato grower's greenhouse.  
+
+The diameter of each tomato is measured and the data are as follows, recorded for convenience in ascending order. 
     \[\{2.2   2.3   2.5   2.6   2.6   2.7   2.9   3.0   3.2   3.3   3.4   3.6   3.6   3.8   3.8   3.9 \}\]
 By constructing suitable confidence intervals, analyse these data to establish whether the tomatoes provided by the grower 
 will meet the supermarket's requirements, clearly stating any assumptions on which your analysis depends.  
+
+
 Write a short report to the board of directors outlining your recommendations concerning whether or not to use this 
 tomato grower to supply tomatoes for sale in the supermarket.  
 \\ \hline
@@ -82,12 +86,15 @@ and select eight tomatoes at random from each.  Comment on the suitability of th
 
 \end{table} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-(i) n = 16. Σxi = 49.4, Σxi
-2 = 157.3; x = 3.0875, s2 = 0.3185.
+
+\begin{tabular}{ccccc}
+$n = 16$ &  $\sum (x_i) = 49.4$ & $\sum (x_i)^2 = 157.3$ & $\bar{x} = 3.0875$ & $s^2 = 0.3185$.
+\end{tabular}
+
 \begin{itemize}
     \item We need to assume that diameters are Normally distributed.
 A 95\% confidence interval for the true mean of this grower's tomatoes is given by
-$x ± t \frac{s}{\sqrt{16}}$ where t is the double-tailed 5\% point of t15, i.e. 2.131. 
+$x \pm t \frac{s}{\sqrt{16}}$ where $t$ is the double-tailed 5\% point of $t_{15}$, i.e. 2.131. 
 \item So the interval is
 \[3.0875 \pm 2.131 \frac{ 0.3185}{ \sqrt{16} }\] , i.e. $3.0875 \pm 0.3007$ , i.e. $(2.787, 3.388)$.
 As the specified mean of 3.0 is within this interval, it seems this grower could be
@@ -99,12 +106,13 @@ accepted.
 where $\chi^2_{L}$ and $\chi^2_{U}$ are the
 
 L χ and 2
-U χ are the lower and upper 2½% points of 2
+U χ are the lower and upper 2.5\% points of 2
 1 χn− , i.e. of 2
 15 χ , which are
-6.262 and 27.488. Thus the interval is 0.1738 < σ 2 < 0.7629, which is equivalent to
-0.42 < σ < 0.87. 
-\item This interval does contain the specified greatest value of 0.5 for σ,
+6.262 and 27.488. 
+\item Thus the interval is $0.1738 < \sigma^2 < 0.7629$, which is equivalent to
+$0.42 < \sigma < 0.87$. 
+\item This interval does contain the specified greatest value of 0.5 for $\sigma$,
 but caution is suggested by the fact that the upper limit is well above 0.5; the grower
 might well not be acceptable on this basis. 
 
