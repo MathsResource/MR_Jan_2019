@@ -35,8 +35,15 @@ Higher Certificate, Paper II, 2005. Question 3
 \begin{framed}
 
 3. In a small survey of perceived health risks in the UK, each member of a random sample of 50 people was asked the question "When buying food, do you check the pack for artificial additives?".  The researchers wanted to discover whether females or males were more likely to check for artificial additives when buying food. 
- 
-  Sex   Female Male No 18 17 Answer Yes 11   4 
+
+ \begin{center}
+ \begin{tabular}{|c|c|c|}
+ & Female & Male \\
+  Answer No & 18 & 17\\ 
+  Answer Yes & 11 &   4 \\
+ \end{tabular}
+ \end{center}
+
  
  
 (i) Test for a difference between the percentages of males and females responding "Yes" to the question about checking for artificial additives. (9) 
@@ -47,7 +54,7 @@ Higher Certificate, Paper II, 2005. Question 3
 
 \end{framed}
 \begin{enumerate}
-\item (i) The expected frequencies on the null hypothesis of no difference between the sexes in the response are found in the usual way from the marginal totals (e.g. that for "Female, No" is 29×35/50 = 20.3). Thus the observed and expected frequencies are
+\item (i) The expected frequencies on the null hypothesis of no difference between the sexes in the response are found in the usual way from the marginal totals (e.g. that for "Female, No" is $29\times35/50 = 20.3$). Thus the observed and expected frequencies are
 Observed frequencies
 Expected frequencies
 Female
@@ -71,18 +78,26 @@ Total
 29
 21
 50
-All the differences between observed and expected frequencies are ±2.3, becoming ±1.8 if Yates' correction is used. Thus the usual test statistic can be calculated as (using Yates' correction)
+\begin{itemize}
+    \item All the differences between observed and expected frequencies are $\pm2.3$, becoming $\pm1.8$ if Yates' correction is used. 
+        \item Thus the usual test statistic can be calculated as (using Yates' correction)
 ()211111.81.26720.38.714.76.3⎧⎫+++=⎨⎬⎩⎭
-(or 2.07 if Yates' correction is not used). This is referred to ; the upper 5\% point is 3.84, so we have no evidence of a real sex difference. 21χ
+(or 2.07 if Yates' correction is not used).     \item This is referred to ; the upper 5\% point is 3.84, so we have no evidence of a real sex difference. 21χ
+\end{itemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \begin{framed}
-(ii) Calculate an approximate 95\% confidence interval for the difference in percentages of males and females responding "Yes" to the question about checking for artificial additives.  How good do you believe the approximation to be?  (State your reason.) (11) 
+(ii) Calculate an approximate 95\% confidence interval for the difference in percentages of males and females responding "Yes" to the question about checking for artificial additives.  How good do you believe the approximation to be?  (State your reason.)
  
 \end{framed}
-\item  fmpp− is estimated by 1142921ˆˆ0.37930.19050.1888fmpp−=−=−=. The estimated variance of ˆˆfmpp− is given by
-()()ˆˆ1ˆˆ10.00811840.00734260.015461ffmmfmppppnn−−+=+=.
-Thus the approximate 95% confidence interval is given by 0.1888 ± (1.96×√0.015461) i.e. it is (–0.0548, 0.4324) or, in percentage terms, (–5.48%, 43.24%).
-The Normal approximation is unlikely to be very good with these small samples, especially as the values of ˆfp and ˆmp suggest that fp and mp are some way from 0.5.
+\item  $p_f - p_m$ is estimated by 1142921ˆˆ0.37930.19050.1888fp_mp−=−=−=. The estimated variance of ˆˆfp_mp− is given by
+()()ˆˆ1ˆˆ10.00811840.00734260.015461ffmmfp_mpppnn−−+=+=.
+\begin{itemize}
+    \item Thus the approximate 95\% confidence interval is given by $0.1888 \pm (1.96\times \sqrt{0.015461})$ i.e. it is $(–0.0548, 0.4324)$ or, in percentage terms, $(–5.48\%, 43.24\%)$.
+\item The Normal approximation is unlikely to be very good with these small samples, especially as the values of $\hat{p}_f$ and $\hat{p}_m$ suggest that $p_f$ and $p_m$ are some way from 0.5.
 (We might note also that the confidence interval is very wide; it does not give much information, due to lack of sufficient data.)
+\end{itemize}
+
 \end{enumerate}
 \end{document}
