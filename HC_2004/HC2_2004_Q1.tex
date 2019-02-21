@@ -74,9 +74,7 @@ After three hours, the skin was examined and scored from 0 to 10 depending on th
 The data are given in the following table. 
 
 \begin{center}
-\begin{tabular}{|c|c|c|c|c|c|} 
-
-
+\begin{tabular}{|c|c|c|c|c|c|} \hline
 Subject 1 &  Subject 2 &  Subject 3&  Subject 4 &  Subject 5 & Subject 6 \\ \hline
 
 D  5  &  A  7  &  B  2 &  B  4 & A  3 &  D  6  \\ \hline
@@ -99,21 +97,34 @@ Carry out a suitable analysis of these data.  Explain clearly your conclusions a
 \item , 1, 2, ..., , 1, 2, ..., , { } ~ ind N(0, 2 ) ij i j ij ij y = μ +τ +β +ε i = ν j = b ε σ .
 There are ν treatments and b blocks. yij is the observation (response) on the unit (plot)
 in block j which receives treatment i. 0, 0 i i j j Στ = Σ β = (i.e. fixed effects model).
-μ is the overall population general mean, τ
-i the population mean effect due to
-treatment i, β
-j the population mean effect due to block j. The Normally distributed
-residual (error) terms εij all have variance $\sigma^2$ and are uncorrelated (independent). All
-non-random variation is covered by the τ
-i and β
-j terms.
+\begin{itemize}
+    \item $\mu$ is the overall population general mean, 
+        \item $\tau_i$ the population mean effect due to
+treatment $i$,    \item $\beta_j$ the population mean effect due to block $j$. 
+    \item The Normally distributed
+residual (error) terms $\varepsilon_{ij}$ all have variance $\sigma^2$ and are uncorrelated (independent).    \item All
+non-random variation is covered by the $\tau_i$
+ and $\beta_j$ terms.
+\end{itemize}
+
 \item The "blocks" here are subjects 1 to 6. The "treatments" are compounds A to
 D. In the notation of part (i), ν = 4 and b = 6.
-Totals are: Block 1 Block 2 Block 3 Block 4 Block 5 Block 6
-13 24 7 23 8 21
-Treatment A Treatment B Treatment C Treatment D
-25 23 18 30
-
+Totals are: 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+Block 1 & Block 2 & Block 3 & Block 4 & Block 5 & Block 6 \\
+13  & 24 & 7 & 23 & 8 & 21 \\ \hline
+\end{tabular}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+Treatment A & Treatment B & Treatment C & Treatment D \\ \hline
+25 & 23 & 18 & 30 \\ \hline
+\end{tabular}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{itemize}
 \item The grand total is 96. $\sum \sum y_{ij}^2 =486$
 
@@ -124,7 +135,7 @@ Treatment A Treatment B Treatment C Treatment D
 \item The SS for blocks is
 
 \begin{eqnarray*} 
-\frac{13^2}{4} + \frac{24^2}{4} + \frac{7^2}{4} + \frac{23^2}{4} + \frac{8^2}{4} + \frac{21^2}{4} - 384\\
+ SS for blocks &=& \frac{13^2}{4} + \frac{24^2}{4} + \frac{7^2}{4} + \frac{23^2}{4} + \frac{8^2}{4} + \frac{21^2}{4} - 384\\
 &=& 457 - 384 \\
 &=& 73 \\
 \end{eqnarray*}
@@ -171,8 +182,8 @@ t
 =
 
 
-so the least significant differences are 1.30 for 5\%, 1.79 for 1% and 2.48 for 0.1%.
-\item Thus the only apparent difference is between C and D, significant at the 1% level.
+so the least significant differences are 1.30 for 5\%, 1.79 for 1\% and 2.48 for 0.1\%.
+\item Thus the only apparent difference is between C and D, significant at the 1\% level.
 The results must be interpreted with caution.
 The data are on a 10-point scale of integers, so obviously cannot have an underlying
 Normal distribution. 
