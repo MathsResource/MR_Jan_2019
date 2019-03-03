@@ -30,66 +30,133 @@
  
 
 \begin{document}
+\large
+
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline
-An electronic device consists of two identical components which each have, independently, probability p of being faulty.  The device works unless both components are faulty.  A random sample of n devices is checked. 
+     \large
+     \smallskip
+\noindent \textbf{Part a} \\ \large
+An electronic device consists of two identical components which each have, independently, probability $p$ of being faulty.  
+
+
+The device works unless both components are faulty.  A random sample of $n$ devices is checked. 
+
  
-(i) Write down the probability distribution of R, the number of devices found to work. \\
+Write down the probability distribution of R, the number of devices found to work. \\
  \hline
       \end{tabular}
     \end{table}
     
     
+
+\begin{itemize}
+    \item P(device fails) = P(both components faulty) = $p^2$, by independence.
+    
+
+    \item Hence P(device works) =
+$1-p^2$. 
+\item Again assuming independence of performance of individual devices, R is Binomial
+$(n; 1 - p^2)$
+\end{itemize}
+
+\newpage
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline
-There are two separate production lines.  Line A uses components from factory A for which p = 1/2 and line B uses components from factory B for which p = 1/3.  Calculate the probability that a randomly chosen device from the output of line A is found to be faulty, and make the corresponding calculation for line B. 
-
-
+ \smallskip      \large
+\noindent \textbf{Part b} \\
+\large
+There are two separate production lines.  Line A uses components from factory A for which $p = 1/2$ and line B uses components from factory B for which $p = 1/3$.  Calculate the probability that a randomly chosen device from the output of line A is found to be faulty, and make the corresponding calculation for line B. \\
+ \hline
       \end{tabular}
     \end{table}
-
-\begin{enumerate}
-    \item P(device fails) = P(both components faulty) = p2, by independence.
     
 \begin{itemize}
-    \item Hence P(device works) =
-1-p2. 
-\item Again assuming independence of performance of individual devices, R is Binomial
-(n; 1 - p2)
+\item For line A, $P(\mbox{device faulty}) = 1/4$.
+\item For line B, $P(\mbox{faulty}) = 1/9$
 \end{itemize}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item For line A, $P(\mbox{device faulty}) = 1/4$; and for B; $P(\mbox{faulty}) = 1/9$
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\item  Let event F denote failure/faulty.
+\newpage
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline
-(iii) A device is chosen at random from the combined output of both production lines and is found to be faulty.  Find the probability that the faulty device came from line A, 
+     \large
+     \smallskip
+\noindent \textbf{Part c} \\
+\large
+A device is chosen at random from the combined output of both production lines and is found to be faulty.  Find the probability that the faulty device came from line A, 
  
-(a) supposing that lines A and B produce equal numbers of devices, 
+\begin{enumerate}[(i)]
+\item supposing that lines A and B produce equal numbers of devices, 
+\item supposing that line B produces three times as many as line A. 
+\end{enumerate}
 \\ \hline 
       \end{tabular}
     \end{table} 
-$P(F|A) = 1/4$; $P(F|B) = 1/9$; from (ii)
+    
 
-(a) If $P(A) = P(B) = 1=2$; 
-\[P(A|F) = \frac{P(F|A)P(A)}{P(F)}\] 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{itemize}
+\item  Let event F denote failure/faulty.
+\item   $P(F|A) = 1/4$; $P(F|B) = 1/9$; from before.
+
+\item Scenario (i) : ${  \displaystyle P(A) = P(B) = \frac{1}{2}  }$; 
+\[P(A|F) = \frac{P(F|A) \times P(A)}{P(F)}\] 
 \begin{eqnarray*}
-P(F) &=&  P(F|A)P(A)+P(F|B)P(B) \\ 
+P(F) &=&  P(F|A)\times P(A) \;+\; P(F|B) \times P(B) \\ 
+& & \\
 &=& \left[\frac{1}{4} \times \frac{1}{2} \right] + \left[\frac{1}{9} \times \frac{1}{2} \right] \\
-&=& 9/13
+& & \\
+&=& \frac{1}{8} + \frac{1}{18}\\
+& & \\
+&=& \frac{13}{72}
 \end{eqnarray*}
 
 \begin{eqnarray*}
 P(A|F) &=& \frac{P(F|A)P(A)}{P(F)} \\ 
-&=& \frac{\frac{1}{4} \times \frac{1}{2}}{P(F)}\\
-&=& 9/13
+& & \\
+&=& \frac{\frac{1}{4} \times \frac{1}{2}}{\frac{13}{72}}\\
+& & \\
+&=& \frac{\frac{9}{72} }{\frac{13}{72}}\\
+& & \\
+&=& \frac{9}{13} 
 \end{eqnarray*}
+\bigskip 
+\item Scenario (ii) :  If $P(A) = 1/4$; $P(B) = 3/4$;
+
+\begin{eqnarray*}
+P(F) &=&  P(F|A)\times P(A) \;+\; P(F|B) \times P(B) \\ 
+& & \\
+&=& \left[\frac{1}{4} \times \frac{1}{4} \right] + \left[\frac{1}{9} \times \frac{3}{4} \right] \\
+& & \\
+&=& \frac{1}{16} + \frac{1}{12}\\
+& & \\
+&=& \frac{7}{48}
+\end{eqnarray*}
+
+
+\begin{eqnarray*}
+P(A|F) &=& \frac{P(F|A)P(A)}{P(F)} \\ 
+& & \\
+&=& \frac{\frac{1}{4} \times \frac{1}{4}}{\frac{7}{48}}\\
+& & \\
+&=& \frac{\frac{3}{48} }{\frac{7}{48}}\\
+& & \\
+&=& \frac{ 3 }{7}\\
+\end{eqnarray*}
+
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
@@ -97,16 +164,16 @@ P(A|F) &=& \frac{P(F|A)P(A)}{P(F)} \\
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline
-\noident Part (c)
-\\ Supposing that line B produces three times as many as line A. 
+     \large
+     \smallskip
+\noindent \textbf{Part d} \\
+\large
  
- 
-  Comment on the difference between your answers to (a) and (b).\\ 
+  Comment on the difference between the answers to scenarios (i) and (ii).\\ 
  \hline
       \end{tabular}
     \end{table}
-\item  If $P(A) = 1/4$; $P(B) = 3/4$; $P(A|F) = 3/7$
-Although individually devices from A are more likely to fail, in case(b) more devices
-are made on line B which results in a higher probability for(b).
-\end{enumerate}
+
+\noindent Although individually devices from A are more likely to fail, in scenario (ii) more devices
+are made on line B which results in a higher probability for scenario /(ii).
 \end{document}
