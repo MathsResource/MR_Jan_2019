@@ -24,12 +24,28 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+\large
+
 \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
-     \hline        
- The probability that any given child in a certain family has blue eyes is 1/4, and this feature is independent of the eye colours of the other children in the family.  There are 5 children in the family.\\\medskip
+     \hline     
+     \large
+ The probability that any given child in a certain family has blue eyes is 1/4, and this feature is independent of the eye colours of the other children in the family.  
+ 
+There are 5 children in the family.
+\\ \hline
+      \end{tabular}
+    \end{table}
+    \medskip
+    
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline     
+     \large    
 \noindent \textbf{Part (a)}\\ 
+\large
 State the distribution of the number of children with blue eyes and find the probability that at least one child has blue eyes.
 
 
@@ -40,15 +56,22 @@ State the distribution of the number of children with blue eyes and find the pro
 
 
 \begin{enumerate}[(a)]
-\item $\Pr(B) = p = 1/4$. Family size $n = 5$. 
-The distribution of X, the number with blue
-eyes is binomial (n = 5; p = 1/4).
+\item 
+\begin{itemize}
+    \item $\Pr(B) = p = 1/4$. 
+    \item Family size $n = 5$. 
+\item The distribution of X, the number with blue
+eyes is binomial $(n = 5; p = 1/4)$.
+\end{itemize}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline  
-\noindent \textbf{Part (b)}\\ Find the probability that at least three children have blue eyes, given that at least one child has blue eyes. \\ \hline 
+\noindent \textbf{Part (b)}\\ 
+\large Find the probability that at least three children have blue eyes, given that at least one child has blue eyes. \\ \hline 
       \end{tabular}
     \end{table}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
@@ -59,52 +82,45 @@ Therefore we can say that
 &=& \Pr(X\geq 1) \\
 &=& 1 - \Pr(X=0)\\ 
 &=& \frac{781}{1024}\\
-&=& 0.7627.\\
+&=& 0.7627\\
 \end{eqnarray*}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \begin{table}[ht!]
-     \centering
-     \begin{tabular}{|p{15cm}|}
-     \hline  
-\noindent \textbf{Part (c)}\\Find the probability that at least three of the children have blue eyes, given that the youngest child has blue eyes.
-\\ \hline
-      \end{tabular}
-    \end{table}
-\item  
+
+
 \[
-P(\mbox{at least 3 B} | \mbox{at least 1 B})= \frac{\Pr(X \geq 3)}{\Pr( X \geq 1)}
-= \frac{\Pr(X \geq 3)}{\frac{781}{1024}}.
+P(\mbox{at least 3 B } | \mbox{ at least 1 B})= \frac{\Pr(X \geq 3)}{\Pr( X \geq 1)}
+%= \frac{\Pr(X \geq 3)}{\frac{781}{1024}}.
 \]
 %%%%%%%%%%%%%%%
 \begin{eqnarray*}
 \Pr(X \in \{3,4,5\}) &=&  \Pr(X=3) + \Pr(X=4) + \Pr(X=5)\\\\
 &=& \left[ {5 \choose 3} \left(\frac{1}{4}\right)^3  \left(\frac{3}{4}\right)^2 \right]+ 
-    \left[ {5 \choose 4} \left(\frac{1}{4}\right)^4  \left(\frac{3}{4}\right)^1 \right]+ 
-    \left[ {5 \choose 5} \left(\frac{1}{4}\right)^5  \left(\frac{3}{4}\right)^0\right]\\\\
+    \left[ {5 \choose 4} \left(\frac{1}{4}\right)^4  \left(\frac{3}{4}\right)^1 \right]+ \\
+& &    \left[ {5 \choose 5} \left(\frac{1}{4}\right)^5  \left(\frac{3}{4}\right)^0\right]\\\\
 &=& \left[ 10 \times \left(\frac{1}{4}\right)^3  \left(\frac{3}{4}\right)^2\right] + 
-    \left[ 5 \times \left(\frac{1}{4}\right)^4  \left(\frac{3}{4}\right)\right] + 
-    \left[ 1 \times \left(\frac{1}{4}\right)^5  \times 1 \right]\\\\
-&=& \frac{1}{1024} \left[ 90 + 15 + 1 \right] \\\\
+    \left[ 5 \times \left(\frac{1}{4}\right)^4  \left(\frac{3}{4}\right)\right] + \\
+& &    \left[ 1 \times \left(\frac{1}{4}\right)^5  \times 1 \right]\\\\
+&=& \frac{1}{1024} \left[ 90 + 15 + 1 \right] \\
+& & \\
 &=& \frac{106}{1024}
 \end{eqnarray*}
 
-So required answer is \[ P(\mbox{at least 3 B} | \mbox{at least 1 B}) = \frac{106/1024}{781/1024} = \frac{106}{781} = 0.1357. \]
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+So required answer is 
+\begin{eqnarray*} P(\mbox{at least 3 B} | \mbox{at least 1 B})
+&=& \frac{\Pr(X \geq 3)}{\Pr( X \geq 1)} \\ 
+&=&  \frac{106/1024}{781/1024} \\ 
+&=& \frac{106}{781} \\ 
+&=& 0.1357.\\ \end{eqnarray*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
-     \hline  
-(iv) Calculate the expected number of children with blue eyes,
-\begin{enumerate}[(i)]
-\item given that at least one child has blue eyes;
-\item given that the youngest child has blue eyes.
-\end{enumerate}
+     \hline  \large
+\noindent \textbf{Part (c)}\\ \large Find the probability that at least three of the children have blue eyes, given that the youngest child has blue eyes.
 \\ \hline
       \end{tabular}
     \end{table}
-%%%%%%%%%%%%%%%%%%%%%%%5
+
 \item Given that a particular one - the youngest - has blue eyes means that of the
 other four, at least two have blue eyes. This is found as P(2)+P(3)+P(4) in
 binomial (4; 1=4): 
@@ -115,14 +131,29 @@ P(2)+P(3)+P(4) &=&
 \left( \frac{1}{4} \right) ^2 \left(\frac{3}{4}\right)^2 \right]+ 
 \left[ { 4 \choose 3}
 \left( \frac{1}{4} \right) ^3  \left(\frac{3}{4}\right)^1 \right]
-+\left[ { 4 \choose 4}
++ \\
+& & \left[ { 4 \choose 4}
 \left( \frac{1}{4} \right) ^4  \left(\frac{3}{4}\right)^{0} \right]
-\\ &=& 6 \left(\frac{1 \times 9}{4^4}\right) + 4 \left(\frac{1 \times 3}{4^4}\right) + 1 \left(\frac{1}{4^4}\right)\\
+\\ &=& 6 \left(\frac{1 \times 9}{4^4}\right) + 4 \left(\frac{1 \times 3}{4^4}\right)+ \\ & &  1 \left(\frac{1}{4^4}\right)\\
 \\ &=&  \frac{6\times 9+4 \times 3+1}{256}    \\
  &=& \frac{67}{256} \\
  &=& 0.2617.
 \end{eqnarray*}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+  \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline  \large
+\noindent \textbf{Part (d)}\\ \large  Calculate the expected number of children with blue eyes,
+\begin{enumerate}[(i)]
+\item given that at least one child has blue eyes;
+\item given that the youngest child has blue eyes.
+\end{enumerate}
+\\ \hline
+      \end{tabular}
+    \end{table}
+%%%%%%%%%%%%%%%%%%%%%%%5
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \item  Using binomial (5; 1=4) and excluding r = 0, the expected number is
 1
@@ -195,7 +226,7 @@ P(2)+P(3)+P(4) &=&
 \left( \frac{1}{4} \right) ^2 \left(\frac{3}{4}\right)^2 \right]+ 
 \left[ { 4 \choose 3}
 \left( \frac{1}{4} \right) ^3  \left(\frac{3}{4}\right)^1 \right]
-+\left[ { 4 \choose 4}
++\\ & & \left[ { 4 \choose 4}
 \left( \frac{1}{4} \right) ^4  \left(\frac{3}{4}\right)^{0} \right]
 \\  &=& 
 + \left( \frac{1}{4} \right) ^2  \left(\frac{3}{4}\right)^{3}
