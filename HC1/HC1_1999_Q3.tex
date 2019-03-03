@@ -25,27 +25,39 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}
+\large
   \begin{table}[ht!]
   \centering
   \begin{tabular}{|p{15cm}|}
-  \hline
-3. A year-group at the local secondary school consists of 100 boys and 81 girls.  The heights of the boys may be assumed to be distributed Normally with mean 160 cm and variance 16 cm2, and the heights of the girls to be distributed Normally with mean 150 cm and variance 9 cm2. 
- 
-(i) Find the probability 
- 
-  (a) that a randomly chosen boy is more than 156.0 cm tall,   
-  (b) that a randomly chosen girl is more than 156.0 cm tall,   
-  (c) that a randomly chosen student from the year-group is more than 156.0 cm tall.     
+  \hline \large
+%3. 
+A year-group at the local secondary school consists of 100 boys and 81 girls.  The heights of the boys may be assumed to be distributed Normally with mean 160 cm and variance 16 cm$^2$, and the heights of the girls to be distributed Normally with mean 150 cm and variance 9 cm$^2$. 
+ \smallskip
+\begin{enumerate}[(a)]
+\item Find the probability that a randomly chosen boy is more than 156.0 cm tall.
+\item Find the probability that a randomly chosen girl is more than 156.0 cm tall.
+\item Find the probability that a randomly chosen student from the year-group is more than 156.0 cm tall. 
+\end{enumerate} \\
+
   \hline
    \end{tabular}
  \end{table}
  
+ \begin{itemize}
+ \item For boys’ heights, $n_1 = 100$; $X \sim N(160; 16)$.
+ \item For girls’ heights, $n_2 = 81$; $Y \sim N(150; 9)$ 
+ \item Z has the distribution $N(0,1)$. 
+ \end{itemize}
+
 \begin{enumerate}[(a)]
- \item 3 For boys’ heights, n1 = 100; $X \sim N(160; 16)$; and for girls’ heights, n2 = 81; $Y \sim N(150; 9)$
-\item (a) P(X > 156) = P(X¡160
+
+\item (a) 
+\begin{eqnarray*}
+P(X > 156) &=& P(X¡160
 4 > 156¡160
-4 ) = P(Z > - 1) where Z has the distribution
-N(0,1). This is the same as P(Z¡1), which is 0.8413.
+4 ) = P(Z > - 1)
+\end{eqnarray*}
+This is the same as P(Z¡1), which is 0.8413.
 (b) 
 \begin{eqnarray*}
   P(Y > 156) &=& P(Y - 150
@@ -60,17 +72,19 @@ N(0,1). This is the same as P(Z¡1), which is 0.8413.
 \mbox{Probability} &=&P(> 156|\mbox{ boy })P(\mbox{ boy }) + P(> 156|girl)P(girl)\\ &=& 0.8412 \times 100=181 +
 0:0228 \times 81 \\&=&181
 \end{eqnarray*} if selection is random from the whole population. This is 0.4750.
-\item (a) Assuming that the boy’s heights are independent, the required probability is (0:8413)4
-= 0:5010.
+\item (a) Assuming that the boy’s heights are independent, the required probability is $(0.8413)^4 =  0.5010$.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\newpage
   \begin{table}[ht!]
   \centering
   \begin{tabular}{|p{15cm}|}
   \hline
 Four boys go to watch a football match.  Making a suitable assumption (which should be stated), find the probability 
- 
-  (a) that all four boys are more than 156.0 cm tall,   (2)   (b) that their mean height exceeds 156.0 cm.    
+\begin{enumerate}[(i)] 
+\item that all four boys are more than 156.0 cm tall,  
+\item that their mean height exceeds 156.0 cm.   
+\end{enumerate}
+\\
   \hline
     \end{tabular}
  \end{table}
@@ -90,12 +104,12 @@ the same family.
 \begin{eqnarray*}
 P(X - Y > 0) &=& P(X - Y - 10
 5 > 0¡10
-5 ) \\ &=& P(Z > - 2) &=& 0:9772 
+5 ) \\ &=& P(Z > - 2) &=& 0:9772 \\
 \end{eqnarray*}
 Both X and Y are assumed
 chosen from the year group.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\newpage
 
    \begin{table}[ht!]
   \centering
