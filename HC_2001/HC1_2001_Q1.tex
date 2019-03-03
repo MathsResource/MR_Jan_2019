@@ -31,88 +31,109 @@
  \centering
  \begin{tabular}{|p{15cm}|}
  \hline
-\noindent 1. The events A, B and C are such that
-A is independent of B,
-A is independent of C,
-and
-( )
-( )
-( )
-( )
-( )
-23
-1
-2
-35
-1
-4
-1
-10
-,
-,
-,
-,
-.
-P A
-P B
-P C
-P A B C
-P A B C
-=
-=
-=
-\cap \cap =
-\cap \cap =
+ \large
+\noindent %1. 
+The events A, B and C are such that 
+
+\begin{itemize} 
+\item A is independent of B, 
+\item A is independent of C, 
+\end{itemize} 
+ and 
+\begin{multicols}{2}
+\begin{itemize}
+\item ${ \displaystyle P(A ) = \frac{2}{3} }$
+\item ${ \displaystyle P(B ) =  \frac{1}{2} }$
+\item ${ \displaystyle P(C ) = \frac{3}{5} }$
+\item ${ \displaystyle P(A \cap B \cap C) = \frac{1}{4} }$
+\item ${ \displaystyle P(\bar{A} \cap \bar{B} \cap C)  = \frac{1}{10} }$
+\end{itemize} 
+\end{multicols} \\
 \\ \hline
   \end{tabular}
 \end{table}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bigskip
 \begin{table}[ht!]
  \centering
  \begin{tabular}{|p{15cm}|}
  \hline
-\noindent Find
+ \large
+ \\ \large
+Find the following
+\begin{multicols}{3}
+\begin{enumerate}[(a)]
+\item ${ \displaystyle P(\bar{A} \cap \bar{B} ) }$  
 
-(i) $P(A \cap B)$ ,
+ 
+\item ${ \displaystyle P(\bar{A} \cap \bar{B} \cap \bar{C}   }$  
+ 
+ 
+\item ${ \displaystyle P (B \cap  C) }$
+ 
+\item ${ \displaystyle P (B |  C) }$
+
+\item ${ \displaystyle P (A| B \cap  C) }$
+ 
+
+\item ${ \displaystyle P (A  \cap  B| B \cap  C) }$
+\end{enumerate} 
+\end{multicols}
+\\ \hline
+  \end{tabular}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline
+ \large
+\noindent \textbf{Part a} \\
+\large
+Find $P(\bar{A} \cap \bar{B} )$ ,
 \\ \hline
   \end{tabular}
 \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\large
 \begin{itemize}
 \item[(a)] A and B are independent. So $P(A\cap B) = P(A)P(B)$ .
 
 \begin{itemize}
 \item[$\bullet$] $P (\bar{A}) = 1 - P(A) = 1/3 $
-\item[$\bullet$] $P (B) = 1/2$
-\item[$\bullet$] $P (A\cap B)= 1/6$
+\item[$\bullet$] $P (\bar{B}) = 1/2$
+\item[$\bullet$] $P (\bar{A} \cap \bar{B} )= 1/6$
 \end{itemize}
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\newpage
 \begin{table}[ht!]
  \centering
  \begin{tabular}{|p{15cm}|}
  \hline
-\noindent Find
-(ii) $P(A \cap B \cap C)$ ,
+ \large
+\noindent \textbf{Part b} \\
+\large Find
+$P(\bar{A} \cap \bar{B} \cap{C})$ ,
 \\ \hline
   \end{tabular}
 \end{table}
 
 \begin{itemize}
-\item[(b)] \[A\cap B = [(A\cap B)\cap C]\cup[(A\cap B)\cap C],\]
+\item[(b)] \[A\cap B = [(\bar{A} \; \cap \; \bar{B})\cap C]\;\cup\;[(\bar{A} \;\cap\; \bar{B})\;\cap\; \bar{C}],\]
 with the two events $[(A\cap B)\cap C]$ and $[(A\cap B)\cap C]$ being disjoint .
 Hence 
 \begin{eqnarray*}
-P A\cap B \cap C &=& P A\cap B - P A\cap B \cap C \\ #
+P( A\cap B \cap C) &=& P (A\cap B - P A\cap B \cap C) \\ 
 &=& \frac{1}{6} - \frac{1}{10}\\
 &=& \frac{5}{30} - \frac{3}{30}\\
 &=&  \frac{1}{15}\\
 \end{eqnarray*}
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%
+\newpage
 \begin{table}[ht!]
  \centering
  \begin{tabular}{|p{15cm}|}
@@ -126,7 +147,7 @@ P A\cap B \cap C &=& P A\cap B - P A\cap B \cap C \\ #
 \end{table}
 
 \begin{itemize}
-\item[(c)]  \[B\cap C = (A\cap B\cap C)\cup(\bar{A} \cap B\cap C), \] these being disjoint.
+\item[(c)]  \[B\cap C = (A\cap B\cap C)\;\cup\;(\bar{A} \;\cap\; B \;\cap\; C), \] these being disjoint.
 \begin{itemize}
 \item[$\bullet$] Further, \[(A\cap B \cap C)\cup(A\cap B \cap C) = (A\cap B) .\]
 \item[$\bullet$] Hence \[P(B \cap C) = P(A\cap B \cap C) + P(\bar{A} \cap B) - P(\bar{A} \cap B \cap \bar{C})\]
@@ -150,7 +171,7 @@ P( B \cap C)  &=& \frac{1}{4} +\frac{1}{6} -\left( \frac{1}{3} \times \frac{2}{5
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\newpage
 \begin{table}[ht!]
  \centering
  \begin{tabular}{|p{15cm}|}
@@ -163,39 +184,50 @@ $P (B | C)$ ,
 \begin{itemize}
 \item[(d)] Compute $P (B | C)$
 
-\[
-P (B | C) = \frac{P( B \cap C)}{P (C)} = \frac{7/20}{3/5} = \frac{7/20}{12/20} = \frac{7}{12}\]
+\begin{eqnarray*}
+P (B | C) &=& \frac{P( B \cap C)}{P (C)} \\ &=& \frac{7/20}{3/5}\\ &=& \frac{7/20}{12/20} \\ &=& \frac{7}{12} \\\end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \begin{table}[ht!]
  \centering
  \begin{tabular}{|p{15cm}|}
  \hline
 \noindent  $P( A B\cap C)$ ,
-
-
 \\ \hline
-  \end{tabular}
+ \end{tabular}
 \end{table}
 
 \item Compute $P (A | B  \cap C)$ 
-\[
-P (A | B  \cap C) = \frac{P( A \cap B \cap C)}{P (B \cap C)} = \frac{1/4}{7/20} = \frac{20}{28} = \frac{5}{7}\]
+\begin{eqnarray*}
+P (A | B  \cap C) &=& \frac{P( A \cap B \cap C)}{P (B \cap C)} \\ 
+&=& \frac{1/4}{7/20} \\ 
+&=&  \frac{20}{28} \\ 
+&=&  \frac{5}{7} \\
+\\\end{eqnarray*}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \begin{table}[ht!]
  \centering
  \begin{tabular}{|p{15cm}|}
  \hline
 \noindent 
 
- $P( A\cap B A\cap C)$ .
+\large Find $P (A  \cap  B| B \cap  C))$ .
 \\ \hline
   \end{tabular}
 \end{table}
 
 
 \item Compute $P (A \cap B | A \cap C)$ 
-\[
-P (A \cap B | A \cap C) = \frac{P( A \cap B \cap C)}{P (A \cap C)} = \frac{1/4}{2/3 \times 3/5} = \frac{1/4}{6/15} = \frac{15}{24} = \frac{5}{8}\]
+\begin{eqnarray*}
+P (A \cap B | A \cap C) = \frac{P( A \cap B \cap C)}{P (A \cap C)} \\ 
+&=&  \frac{1/4}{2/3 \times 3/5} \\ 
+&=& \frac{1/4}{6/15} \\ 
+&=&  \frac{15}{24} \\ 
+&=&  \frac{5}{8} \\
+\\\end{eqnarray*}
 (A, C are independent).
 \end{itemize}
 \end{document}
