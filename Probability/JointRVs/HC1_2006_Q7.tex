@@ -1,0 +1,311 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+\usepackage{multirow}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+	%Higher Certificate, Paper I, 2006. Question 7
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%-------------------------------------------------%
+	\large
+	\begin{table}[ht!]
+		
+		\centering
+		
+		\begin{tabular}{|p{15cm}|}
+			
+			\hline \large
+			
+			\noindent
+			The table below shows the joint distribution of two random variables: $X$ and $Y$.
+			
+			\begin{center}
+				\begin{tabular}{|l|l|l|l|l|l|}
+					\hline
+					\multicolumn{2}{|l|}{\multirow{2}{*}{}}  & \multicolumn{4}{l|}{Values of Y} \\ \cline{3-6} 
+					\multicolumn{2}{|l|}{}   &\phantom{sp} 1 \phantom{sp}& \phantom{sp}2 \phantom{sp}  &\phantom{sp} 3\phantom{sp}   & \phantom{sp}4 \phantom{sp}   \\ \hline \hline
+					\multirow{3}{*}{\begin{tabular}[c]{@{}l@{}}Values of  X\end{tabular}} & \phantom{sp} 1 \phantom{sp} & 6c & 3c & 2c & 4c\\ \cline{2-6} 
+					& \phantom{sp} 2 \phantom{sp} & 4c & 2c & 4c & 0 \\ \cline{2-6} 
+					& \phantom{sp} 3 \phantom{sp} & 2c & c  & 0  & 2c\\ \hline
+				\end{tabular}
+			\end{center}
+			
+			
+			\noindent \textbf{Part (a)} \\\large
+			
+			(i) Find $c$.
+			
+			(ii) Calculate the marginal distributions of $X$ and $Y$.
+			\\ \hline
+			
+		\end{tabular}
+		
+	\end{table}
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\noindent \textbf{Part (a)} \\
+	\begin{enumerate}[(i)]
+		\item  The sum of all 12 table entries is $30c$. These probabilities must add up to 1, so $c = 1/30$.
+		
+		\begin{center}
+			\begin{tabular}{|l|l|l|l|l|l|l|}
+				\hline
+				\multicolumn{2}{|l|}{\multirow{2}{*}{}}  & \multicolumn{5}{l|}{Values of Y} \\ \cline{3-7} 
+				\multicolumn{2}{|l|}{}   &\phantom{sp} 1 \phantom{sp}& \phantom{sp}2 \phantom{sp}  &\phantom{sp} 3\phantom{sp}   & \phantom{sp}4 \phantom{sp}  & Total  \\ \hline
+				\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Values of \\  X\end{tabular}} & 1 & 6c& 3c  & 2c  & 4c  & 15c\\ \cline{2-7} 
+				& 2 & 4c& 2c  & 4c  & 0   & 10c\\ \cline{2-7} 
+				& 3 & 2c& c   & 0   & 2c  & 5c \\ \cline{2-7} 
+				& Total & 12c   & 6c  & 6c  & 6c  & 30c\\ \hline
+			\end{tabular}
+		\end{center}
+		
+		
+		
+		
+		\begin{center}
+			\begin{tabular}{|l|l|l|l|l|l|l|}
+				\hline
+				\multicolumn{2}{|l|}{\multirow{2}{*}{}}  & \multicolumn{5}{l|}{Values of Y} \\ \cline{3-7} 
+				\multicolumn{2}{|l|}{}   &\phantom{sp} 1 \phantom{sp}& \phantom{sp}2 \phantom{sp}  &\phantom{sp} 3\phantom{sp}   & \phantom{sp}4 \phantom{sp}  & Total  \\ \hline
+				\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Values of \\  X\end{tabular}} & \phantom{sp} 1 \phantom{sp} & 6/30& 3/30  & 2/30  & 4/30  & 15/30\\ \cline{2-7} 
+				& \phantom{sp} 2 \phantom{sp} & 4/30& 2/30  & 4/30  & 0   & 2/30\\ \cline{2-7} 
+				& \phantom{sp} 3 \phantom{sp} & 2/30& 1/30   & 0   & 2/30  & 5/30 \\ \cline{2-7} 
+				& Total & 12/30   & 6/30  & 6/30  & 6/30  & 30/30\\ \hline
+			\end{tabular}
+		\end{center}
+		\item  The marginal distributions are given by the row and column totals.
+		Hence:  
+		\begin{itemize}
+			\item $P(X = 1) = 15c = 1/2$; 
+			\item $P(X = 2) = 10c = 1/3$; 
+			\item $P(X = 3) = 5c = 1/6$.
+		\end{itemize}
+		Similarly: 
+		\begin{itemize}
+			\item $P(Y = 1) = 12/30 = 2/5$; 
+			\item $P(Y = 2) = 6/30 = 1/5$; 
+			\item $P(Y = 3) = 6/30 = 1/5$; 
+			\item $P(Y = 4) = 6/30 = 1/5$.
+		\end{itemize}
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\end{enumerate}
+	%-------------------------------------------------%
+	\newpage
+	\large
+	\begin{table}[ht!]
+		
+		\centering
+		
+		\begin{tabular}{|p{15cm}|}
+			
+			\hline
+			\large
+			\noindent \textbf{Part (b)} \\ \large
+			\noindent
+			Calculate $E(X)$ and $\operatorname{Var}(X)$, and show that the covariance $\operatorname{Cov}(X, Y) = 0$. \medskip
+			\\ \hline
+			
+		\end{tabular}
+		
+	\end{table}
+	\noindent \textbf{Part (b)}
+	\\ Expected values of $X$ and $X^2$.
+	
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|} \hline
+			x & 1 & 2 & 3 \\ \hline
+			P(X = x) & 1/2 & 1/3 & 1/6 \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\begin{eqnarray*}
+		E(X) &=& \left(  1 \times  \frac{1}{2} \right) +  \left( 2 \times    \frac{1}{3} \right) +  \left( 3 \times   \frac{1}{6} \right) \\
+		&=& \frac{1}{2} + \frac{2}{3} + \frac{1}{2} \\
+		&=& \frac{5}{3}
+	\end{eqnarray*}
+	
+	\begin{eqnarray*}
+		E(X^2) &=& \left(  1 \times  \frac{1}{2} \right) +  \left( 4 \times    \frac{1}{3} \right) +  \left( 9 \times   \frac{1}{6} \right) \\
+		&=& \frac{1}{2} + \frac{4}{3} + \frac{3}{2} \\
+		&=& \frac{10}{3}
+	\end{eqnarray*}
+	
+	\[ \operatorname{Var}(X) = \frac{10}{3} - \left( \frac{5}{3} \right)^2 = \frac{5}{9}\]
+	
+	\medskip
+	
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|} \hline
+			y & 1 & 2 & 3 & 4\\ \hline
+			P(Y = y) & 2/5 & 1/5 & 1/5& 1/5 \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\begin{eqnarray*}
+		E(Y) &=& \left(  1 \times  \frac{2}{5} \right) +  \left( 2 \times    \frac{1}{5} \right) +  \left( 3 \times   \frac{1}{5} \right)  +  \left( 4 \times   \frac{1}{5} \right) \\
+		&=& \frac{2}{5} +\frac{2}{5} + \frac{3}{5} + \frac{4}{5} \\
+		&=& \frac{11}{5}
+	\end{eqnarray*}
+	\newpage
+	Distribution of $XY$
+	%-------------------------------------------------%
+	\begin{center}
+		\begin{tabular}{|l|c|c|c|c|c|}
+			\hline
+			\multicolumn{2}{|c|}{\multirow{2}{*}{Values of XY}} & \multicolumn{4}{c|}{Values of Y} \\ \cline{3-6} 
+			\multicolumn{2}{|c|}{}   &\phantom{sp} 1 \phantom{sp}& \phantom{sp}2 \phantom{sp}  &\phantom{sp} 3\phantom{sp}   & \phantom{sp}4 \phantom{sp}   \\ \hline
+			\multirow{3}{*}{\begin{tabular}[c]{@{}c@{}}Values of  X\end{tabular}} & \phantom{s}1\phantom{s} & 1 & 2   & 3   & 4 \\ \cline{2-6} 
+			& 2 & 2 & 4 & 6 & 8 \\ \cline{2-6} 
+			& 3 & 3 & 6  & 9  & 12\\ \hline
+		\end{tabular}
+	\end{center}
+	
+	Probability Distribution of $XY$:
+	\begin{center}
+		\begin{tabular}{|c|c|c|} \hline 
+			Values of $XY$ & Probability & $XY \times P(XY)$\\ \hline
+			1 & 6/30 & 6/30 \\ \hline 
+			2 & 7/30 & 14/30 \\ \hline 
+			3 & 4/30 &  12/30 \\ \hline 
+			4 & 6/30 &  24/30 \\ \hline
+			6 & 5/30 &  30/30 \\ \hline
+			12 & 2/30 &  24/30 \\ \hline
+			& Total & 110/30 \\ \hline 
+		\end{tabular}
+	\end{center}
+	\[ E(XY) \;=\; \frac{110}{30} \;=\; \frac{11}{3} \]
+	\medskip
+	Also we have 
+	
+	\[E(X) E(Y) \;=\; \frac{5}{3} \times \frac{11}{5} \;=\; \frac{55}{15} \;=\; \frac{11}{3} \]
+	
+	\
+	\begin{eqnarray*}
+		Cov(X,Y) &=& E(XY) \;-\;E(X)E(Y) \\
+		&=&  \frac{11}{3} \;=\; \frac{11}{3}\\
+		&=& 0 \\
+	\end{eqnarray*}
+	
+	%%%%%%%
+	
+	\begin{table}[ht!]
+		
+		\centering
+		
+		\begin{tabular}{|p{15cm}|}
+			
+			\hline
+			
+			\noindent
+			\large
+			\noindent \textbf{Part (c)}\\ \large
+			State, with a reason, whether or not $X$ and $Y$  are independent.
+			\\ \hline
+			
+		\end{tabular}
+		
+	\end{table}
+	\large
+	
+	\begin{center}
+		\begin{tabular}{|l|l|l|l|l|l|l|}
+			\hline
+			\multicolumn{2}{|l|}{\multirow{2}{*}{}}  & \multicolumn{5}{l|}{Values of Y} \\ \cline{3-7} 
+			\multicolumn{2}{|l|}{}   &\phantom{sp} 1 \phantom{sp}& \phantom{sp}2 \phantom{sp}  &\phantom{sp} 3\phantom{sp}   & \phantom{sp}4 \phantom{sp}  & Total  \\ \hline
+			\multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Values of \\  X\end{tabular}} & \phantom{sp} 1 \phantom{sp} & 6/30& 3/30  & 2/30  & 4/30  & 15/30\\ \cline{2-7} 
+			& \phantom{sp} 2 \phantom{sp} & 2/30& 4/30  & 4/30  & 0   & 2/30\\ \cline{2-7} 
+			& \phantom{sp} 3 \phantom{sp} & 2/30& 1/30   & 0   & 2/30  & 5/30 \\ \cline{2-7} 
+			& Total & 10/30   & 8/30  & 6/30  & 6/30  & 30/30\\ \hline
+		\end{tabular}
+	\end{center}
+	
+	\large
+	
+	%-------------------------------------------------%
+	\noindent $X$ and $Y$ are not independent [even though $Cov(X, Y) = 0$ and even though some cells have 
+	\[P(X = x, Y = y) = P(X = x).P(Y = y)].\] 
+	For example, we have \[P(X = 1, Y = 4) = 2/15,\] but 
+	\[P(X = 1).P(Y = 4) = 1/10.\]
+	%%%%%%%%%%%%%
+	
+	%-------------------------------------------------%
+	\newpage
+	\begin{table}[ht!]
+		
+		\centering
+		
+		\begin{tabular}{|p{15cm}|}
+			
+			\hline
+			
+			\noindent
+			\large
+			
+			\noindent \textbf{Part (d)}\\ \large
+			The random variables $U$ and $V$ are defined by
+			\begin{center}
+				\begin{tabular}{ll}
+					U = 1 if X = 1 or 3,& U = 0 if X = 2,\\
+					V = 1 if Y = 1 or 3,& V = 0 if Y = 2 or 4.\\
+				\end{tabular}
+			\end{center}
+			\large
+			Tabulate the joint distribution of $U$ and $V$ and state with a reason whether or not $U$ and $V$ are independent.
+			
+			\\ \hline
+			
+		\end{tabular}
+		
+	\end{table}
+	
+	\large
+	%-------------------------------------------------%
+	Table of joint distribution of $U$ and $V$, with margins.
+	% Please add the following required packages to your document preamble:
+	% \usepackage{multirow}
+	\begin{center}
+		\begin{tabular}{cc|c|c|c|}
+			\cline{3-5}
+			&   & \multicolumn{2}{l|}{Values of V} & \multirow{2}{*}{Total} \\ \cline{3-4}
+			&   & 0               & 1              &                        \\ \hline
+			\multicolumn{1}{|l|}{\multirow{2}{*}{Values of U}} & 0 & 2c  =  1/15     & 8c  =  4/15    & 10c  =  1/3            \\ \cline{2-5} 
+			\multicolumn{1}{|l|}{}                             & 1 & 10c = 1/3       & 10c = 1/3      & 20c = 2/3              \\ \hline
+			\multicolumn{2}{|l|}{Total}                            & 12c = 2/5       & 18c = 3/5      & 1                      \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	
+	\noindent Consider the cell with $(U, V) = (0, 0)$. The cell probability is 1/15 but the product of the marginal probabilities is 2/15. So $U$ and $V$ are not independent.
+	
+\end{document}
