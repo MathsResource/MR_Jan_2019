@@ -1,0 +1,178 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+\noindent \large
+Paget's disease is estimated to affect 10\% of persons over 65 years old.\smallskip
+
+It is known that, among persons over 65 without the disease, a blood measure X in suitable units is distributed N(7,9) (i.e. Normally, with mean 7 and variance 9) but for persons over 65 suffering from the disease, X is distributed $N(19,36)$.  \smallskip
+\\ \hline
+ \end{tabular}
+\end{table}
+
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \large \textbf{Part (a)}\\ \large \smallskip
+\noindent A value of $X \geq 10$ is taken as a cause for further investigation. \smallskip
+
+(a) What proportion of non-sufferers over 65 will be investigated because of their value of $X$?
+
+
+
+\\ \hline
+ \end{tabular}
+\end{table}
+\large
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}[(a)]
+\item For a non-sufferer, $X\sim N(7,9)$,
+
+Compute $P(X \geq 10)$
+
+%----------------%
+\begin{framed}
+
+\noindent \textbf{Z Score for $X = 10$}
+
+\[z_{10}  = \frac{10-7}{ 3}  = \frac{3}{3} = 1\]
+\end{framed}
+%------------------%
+\begin{eqnarray*}
+P(x \geq 10 ) &=&  1- P(X \leq 10)
+\\ & &
+\\ &=&  1 - P(Z \leq 1)
+\\ & & 
+\\ &=& 1 - 0.8413
+\\ & &
+\\ &=& 0.1587 \\
+\end{eqnarray*}
+where $Z\sim N(0,1)$
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        \large
+ \noindent \textbf{Part (b)}\\ \large
+\noindent What proportion of sufferers over 65 will go undiagnosed? \smallskip
+\\ \hline
+ \end{tabular}
+\end{table}
+
+\item For a sufferer, $X\sim N(19,36)$, so
+
+
+%----------------%
+\begin{framed}
+
+\noindent \textbf{Z Score for $X = 10$}
+
+\[z_{10}  = \frac{10\;-\;19}{ 6}  = -\frac{9}{6} = -1.50\]
+\end{framed}
+%------------------%
+
+\begin{eqnarray*}
+P(X<10) 
+&=& P(Z < -1.50 )\\ &=& 0.0668
+\end{eqnarray*}
+where $Z\sim N(0,1)$
+%[Calculate as 1-P(Z<+3/2) if using tables.]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        \large
+ \noindent \textbf{Part (c)}\\ \large
+\noindent At what critical level of X (instead of 10) would the false positive rate be 5\% (i.e. 5\% of non-sufferers would have $X$ above this level)?
+
+\\ \hline
+ \end{tabular}
+\end{table}
+\item If critical level is $x_0$, $P(X¸\geq x_0 | x \sim N(7,9))=0.05$.
+
+In $N(0,1)$ the upper 5\% point is $z_0=1.645$ ; hence 
+\[z_0 = \frac{x_0\;-\;7}{3} = 1.645 \]
+Re-arranging
+\[x_0 = 7+(3\times1.645) =
+11.935.\]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
+
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (d)}\\
+\noindent If all people over 65 are screened using $X \geq 10$ as the criterion for further investigation, what proportion will be investigated?
+\\ \hline
+ \end{tabular}
+\end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item 
+
+\begin{eqnarray*}
+P(X\geq 10) &=& 
+P(X \geq 10|\mbox{sufferer})P(\mbox{has disease}) +\\ & & P(X \geq 10|\mbox{non - sufferer})P(\mbox{does not have disease})\\
+& & \\
+&=& \left[(1 - 0.0668) \times 0.1\right] + \left[0.1587 \times 0.9\right]\\
+& & \\
+&=& 0.2362.\\
+\end{eqnarray*}
+
+% [use answers(i),(ii) and information that 10\% if population affected.]
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
+
+\begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline        
+ \noindent \textbf{Part (e)}\\
+\noindent Of those investigated further, what is the proportion of individuals that will actually have the disease?
+
+\\ \hline
+ \end{tabular}
+\end{table}
+
+\item \[P(\mbox{disease}|x \geq 10)=\frac{(0.9332\times0.1)}{0.2362}=0.3951 .\]
+\end{enumerate}
+\end{document}
