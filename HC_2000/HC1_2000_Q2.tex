@@ -24,21 +24,24 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
-
+\large
 \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
-     \hline        
-(a) Suppose that a lawyer has been guilty of financial irregularities in 5 of the 50 client accounts that she controls.  An auditor randomly samples 10 accounts to check in detail.  Find the probability that the auditor checks  
- 
-(i) none, (ii) two or more of the irregular accounts. 
+     \hline        \large
+\noindent Suppose that a lawyer has been guilty of financial irregularities in 5 of the 50 client accounts that they control.  An auditor randomly samples 10 accounts to check in detail.  Find the probability that the auditor checks  
+\begin{enumerate}[(i)]
+\item none, 
+\item two or more of the irregular accounts. 
+\end{enumerate}
  \\ \hline
       \end{tabular}
     \end{table}
     
   
 \begin{framed}
-A random variable 
+\large
+\noindent A random variable 
 $ {\displaystyle X} $
  follows the hypergeometric distribution if its probability mass function (pmf) is given by
 \[ {\displaystyle p_{X}(k)=\Pr(X=k)={\frac {{\binom {K}{k}}{\binom {N-K}{n-k}}}{\binom {N}{n}}},} \]
@@ -58,6 +61,10 @@ where
 \end{itemize}
 
 \end{framed}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}
 \item P(x irregular in sample) =
 Ã
@@ -76,38 +83,53 @@ For x=0,1,2,3,4,5
 The sampling leads to the hypergeometric distribution:
 
 \begin{center}
-\begin{tabular}{|c|c|c|c|}
+\begin{tabular}{|c|c|c||c|} \hline
 Account & Ok & Irregular &  Total\\ \hline
 Sampled & 10 - x & x & 10\\ \hline 
-Notsampled & 35 + x & 5 - x & 40\\ \hline 
+Notsampled & 35 + x & 5 - x & 40\\ \hline  \hline
 Total & 45 & 5 & 50 \\ \hline
 \end{tabular}
 \end{center}
 So
 \begin{eqnarray*}
 P(X=0) &=& \frac{ {10 \choose 0} \times {40 \choose 5} }{ {50 \choose 5}}\\
+& &  \\
 &=& \frac{1 \times 40! \times 5!  \times 45!}{5! \times 35! \times 50|}\\
+& &  \\
 &=& \frac{ 40 \times 39 \times 38 \times 37 \times 36}{50 \times 49 \times 48 \times 47 \times 46}\\
+& &  \\
 &=& 0.3106
 \end{eqnarray*}
 (ii)
 $P(X \geq¸ 2) = 1 - P(X = 0) - P(Z = 1):$
 \begin{eqnarray*}
 P(X=1) &=& \frac{ {10 \choose 1} \times {40 \choose 4} }{ {50 \choose 5}}\\
+& &  \\
 &=& \frac{10 \times 40! \times 5!  \times 45!}{4! \times 36! \times 50|}\\
+& &  \\
 &=& \frac{10 \times 5 \times 40 \times 39 \times 38 \times 37}{50 \times 49 \times 48 \times 47 \times 46}\\
+& &  \\
 &=& 0.4313
 \end{eqnarray*}
 
+\begin{eqnarray*}
+P( X = 2) &=& 1\;-\; \left( P( X = 0) + P( X = 1) \right) \\
+& & \\
+&=& 1\;-\; \left( 0.3106 + 0.4313 \right) \\
+& & \\
+&=& 0.2581\\
+\end{eqnarray*}
 
-and P(x ¸ 2) = 0.2581:
 \newpage
 
 \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
      \hline  
-(b) In tennis, when the score reaches deuce (“40 all”) the game is won by the first player to lead by two consecutive points.  Suppose that the outcomes of all points are independent, and that the server is twice as likely to win a point as the receiver.  Show that, once a game has reached deuce, the probability that the server wins the game is 4 5 . (4) 
+     \large
+(b) In tennis, when the score reaches deuce (“40 all”) the game is won by the first player to lead by two consecutive points.  Suppose that the outcomes of all points are independent, and that the server is twice as likely to win a point as the receiver.  Show that, once a game has reached deuce, the probability that the server wins the game is 4/ 5 . 
+
+\medskip
  
 Writing N for the number of points played from when the game first reaches deuce until it ends (i.e. is won by server or receiver), show that 
  
