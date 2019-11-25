@@ -29,12 +29,18 @@
 \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
-     \hline        
-5. It is desired to carry out a blood test on a large number (N) of persons, to check for the presence or absence of a rare characteristic.  It is assumed that the probability p of a positive result is the same for all persons and is independent of the results of tests on other persons. 
+     \hline        \large
+5. It is desired to carry out a blood test on a large number (N) of persons, to check for the presence or absence of a rare characteristic. 
+
+\begin{itemize}
+    \item It is assumed that the probability p of a positive result is the same for all persons and is independent of the results of tests on other persons. 
  
-To reduce the work of testing, the blood samples of N persons are pooled into m groups of size k, where $N = mk$.  The k samples in each group are first tested together.  If the group test is negative, no further test is necessary for the persons in that group.  If the group test is positive each person is tested individually and so in all ($k + 1$) tests are required for the group of k persons. 
+\item To reduce the work of testing, the blood samples of N persons are pooled into m groups of size $k$, where $N = mk$.  The $k$ samples in each group are first tested together.  
+
+\item If the group test is negative, no further test is necessary for the persons in that group.  If the group test is positive each person is tested individually and so in all ($k + 1$) tests are required for the group of $k$ persons. 
+\end{itemize} 
  
-(i) Find the probability that the test for any particular pooled sample of k persons is positive. 
+(i) Find the probability that the test for any particular pooled sample of $k$ persons is positive. 
  
 \\ \hline
       \end{tabular}
@@ -43,7 +49,7 @@ To reduce the work of testing, the blood samples of N persons are pooled into m 
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
-     \hline   Let $kS$ denote the total number of tests required for the N people when initially tested in groups of k.  Explain why $S_k$ can be written in terms of a binomial random variable $X$, as 
+     \hline   Let $kS$ denote the total number of tests required for the N people when initially tested in groups of $k$.  Explain why $S_k$ can be written in terms of a binomial random variable $X$, as 
  
 \[S_k = m + kX, \mbox{ where } X \sim \mbox{Bin}\left(m, 1-(1-p)^k\right)\]
 \\ \hline
@@ -53,7 +59,7 @@ To reduce the work of testing, the blood samples of N persons are pooled into m 
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
-     \hline   Hence show that 
+     \hline \large  Hence show that 
 
 \[ E(S_k) =  N \left( \frac{1}{k} + 1-(1-p)^k\right)  \] , 
  
@@ -74,7 +80,7 @@ P(\mbox{group test: Positive}) &=& 1 - P(\mbox{grouptest : negative})&=&
 \item The N persons form m independent groups ,each group having a group test: also
 if the group test is positive there are k individual tests, so this happens with probability
 $(1 - (1 - p)^k)$
-Hence the number of test is S_{k} = m + k £ x,where $x$ is the number out of the m
+Hence the number of test is $S_{k} = m + k \times x$,where $x$ is the number out of the m
 groups where individual tests have to be made; so x is $Binomial(m; 1 - (1 - p)^k)$.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -114,7 +120,7 @@ E(S_{10}) - E(S_{11}) &=& N \left( \frac{1}{10} -  \frac{1}{11} - (0.99^{10}) + 
 E(S_{12}) - E(S_{11}) &=& N \left( \frac{1}{12} - \frac{1}{11} - (0.99^{12}) + (0.99^{11}) \right)\\&=& N \left( \frac{1}{12} - \frac{1}{11} + 0.01 \times 0.9911 \right) \\&=&
  1.3776 \times 10^{-3} N\\
 \end{eqnarray*}
-Both of these are positive, so E(S_{11}) is less than E(S_{10})andE(S_{12}).
+Both of these are positive, so $E(S_{11})$ is less than $E(S_{10})$ and $E(S_{12})$.
 ALTERNATIVELY by directly calculation as below.
 6
 \item When p=0.05,
@@ -125,13 +131,13 @@ ALTERNATIVELY by directly calculation as below.
 \item $E[S_{7}] = N[\frac{8}{7} - 0.95^7] = 0.444520$N
 \end{itemize}
 
-k=5 minimizes E[S_{k}] in this range.
+k=5 minimizes $E[S_{k}]$ in this range.
 %%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
   \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
-     \hline  Find the value of k for which () k ES is minimised when p = 0.05. [Note: the optimum value of k lies between 4 and 7 inclusive.] 
+     \hline  \large Find the value of $k$ for which $E(S_{k})$ is minimised when p = 0.05. [Note: the optimum value of $k$ lies between 4 and 7 inclusive.] 
 \\ \hline
       \end{tabular}
     \end{table}
@@ -154,8 +160,8 @@ k=5 minimizes E[S_{k}] in this range.
 reduced. 
 \item Even for $P=0.05$ it is (more than) halved. 
 \item Also the group size may
-be larger the smaller P is: the above results suggest optima of k=11 or 5 for p=0.01 or
-0.05. 
+be larger the smaller P is: the above results suggest optima of k=11 or 5 for $p=0.01$ or
+$0.05$. 
 \item As P increase there is less scope for economy of testing.
 \end{itemize}
 
