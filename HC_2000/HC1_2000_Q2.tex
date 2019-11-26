@@ -67,18 +67,12 @@ where
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}
 \item P(x irregular in sample) =
-Ã
-10
-x
-! Ã
-40
-5 ¡ x
-!
-=
-Ã
-50
-5
-!
+
+
+\begin{eqnarray*}
+P(x \mbox{ regular in sample }) &=& \frac{ {10 \choose x} \times {40 \choose 5-x} }{ {50 \choose 5} } \\
+\end{eqnarray*}
+
 For x=0,1,2,3,4,5
 The sampling leads to the hypergeometric distribution:
 
@@ -151,13 +145,13 @@ where the number of possible sequence doubles each deuce.this is
 
 
 \begin{eqnarray*}
-P(server wins from deuce) &=& 
+P(\mbox{server wins from deuce}) &=& 
 \left( \frac{2}{3} \right)^2 + 2\left( \frac{2}{3} \right)^2 \left( \frac{1}{3} \times  \frac{2}{3} \right) + 4\left( \frac{2}{3} \right)^2 \left( \frac{1}{3} \times  \frac{2}{3} \right)^2 + \\ 
 & & 8\left( \frac{2}{3} \right)^2 \left( \frac{1}{3} \times  \frac{2}{3} \right)^3 +\ldots
-\\ &=& \left( \frac{2}{3} \right)^2 \left[ 1 + \left( \frac{2}{3} \right)^2 + \left( \frac{2}{3} \right)^4+ \left( \frac{2}{3} \right)^6+ \ldots \right]
+\\ & & \\ &=& \left( \frac{2}{3} \right)^2 \left[ 1 + \left( \frac{2}{3} \right)^2 + \left( \frac{2}{3} \right)^4+ \left( \frac{2}{3} \right)^6+ \ldots \right]
 \\ &=&  \left( \frac{4}{9}\right) \left[1 + \left( \frac{4}{9}\right) +\left( \frac{4}{9}\right)2 +   \left( \frac{4}{9}\right)3 + \ldots \right] \\ &=&  \left( \frac{4}{9}\right) \times  \frac{1}{ 1- \left( \frac{4}{9}\right)} 
-\\ &=&  \left( \frac{4}{9}\right)\left( \frac{9}{5}\right)
-\\ &=&  \left( \frac{4}{5}\right)
+\\ & & \\ &=&  \left( \frac{4}{9}\right)\left( \frac{9}{5}\right)
+\\ & & \\ &=&  \left( \frac{4}{5}\right)
 \end{eqnarray*}
 
 \begin{eqnarray*}
