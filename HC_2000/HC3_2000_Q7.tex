@@ -35,17 +35,19 @@ Alloy A Alloy B   5.30   3.19   5.53   4.26   5.60   4.47   6.30   4.53   6.92  
  
 A computer package produced the five-number summaries in the form (minimum, lower quartile, median, upper quartile, maximum) giving 
  
-Alloy A   ( 5.30, 5.58, 9.71, 16.58, 18.24 ) 
+\[Alloy A   ( 5.30, 5.58, 9.71, 16.58, 18.24 ) \]
  
-Alloy B   ( 3.19, 4.42, 4.68, 10.22, 12.78 ) 
+\[Alloy B   ( 3.19, 4.42, 4.68, 10.22, 12.78 ) \]
  
- 
-(i) Draw dot plots, side by side, of the results for the two alloys and mark the mean failure time for each alloy.  (6) 
- 
-(ii) Use a non-parametric test to assess whether the distribution of times to failure differs for the two types of alloy.  Explain carefully why your test might be more appropriate than a two sample t-test.  (10) 
- 
+\begin{enumerate}
+    \item (i) Draw dot plots, side by side, of the results for the two alloys and mark the mean failure time for each alloy.  %(6) 
+\item 
+(ii) Use a non-parametric test to assess whether the distribution of times to failure differs for the two types of alloy.  Explain carefully why your test might be more appropriate than a two sample t-test.  %(10) 
+\item 
 (iii) State clearly the conclusion that can be drawn from the analysis. 
-(4) \\ \hline
+\end{enumerate}
+
+\\ \hline
   \end{tabular}
 \end{table}
 \begin{enumerate}
@@ -54,15 +56,22 @@ Because of the very irregular distribution and total table lake of concentration
 about the mean, the assumption of normality can not be made and so a t test is not
 valid. The summary measure of location, if one were needed, should be the median
 (9.71 for A and 4.68 for B ). 
-\item The Maun Whitney U test, will examine whether the two
+\item The Mann Whitney U test, will examine whether the two
 distribution of times differ; so will the Wilcoxon rank same test.
 Jocut ranking:
-(1) (2) (3) (4) (5) (6) (7) (8) (9) (10)
-3:19 4:26 4:47 4:53 4:67 4:69 5:30 5:53 5:60 6:30
-B B B B B B A A A A
-(11) (12) (13) (14) (15) (16) (17) (18) (19) (20)
-6:79 6:92 9:37 12:51 12:75 12:78 12:95 16:04 18:21 18:24
-B A B A B B A A A A
+
+%HC3 - Question 7
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+(1)&(2)&(3)&(4)&(5)&(6)&(7)&(8)&(9)&(10)\\ \hline
+3.19&4.26&4.47&4.53&4.67&4.69&5.30&5.53&5.60&6.30\\ \hline
+B&B&B&B&B&B&A&A&A&A\\ \hline
+(11)&(12)&(13)&(14)&(15)&(16)&(17)&(18)&(19)&(20)\\ \hline
+6.79&6.92&9.37&12.51&12.75&12.78&12.95&16.04&18.21&18.24\\ \hline
+B&A&B&A&B&B&A&A&A&A\\ \hline
+\end{tabular}
+
 Sums of ranks are: A,134 ;B,76 (check : 134 + 76 = 210 = 1
 2 £ 20 £ 21)
 22
@@ -74,6 +83,7 @@ Sums of ranks are: A,134 ;B,76 (check : 134 + 76 = 210 = 1
 2
 £ 10 £ 11 = 21 Umin = 21\]
 From table this is significant at 5%.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ALTERNATIVELY, count the number of times member of A come before B’s in the
 ranking :U=4+4+4+4+3+2=21.(B’s before A’s gives U=79). A normal approximation,
 strictly only for NA; NBboth>10, is that \[U is N( 1
