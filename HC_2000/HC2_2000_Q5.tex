@@ -38,11 +38,13 @@
 \hline 
 \large
 
-5. Four different marine paints were compared for their ability to protect ships in a sea-going environment.  Sixteen ships were used, each painted with one of the four paints.  Each of the ships was deployed for 6 months and on the ship's return a score was assigned according to the amount of chipping, peeling and average remaining paint thickness.  A higher score indicated a "better" state of repair.  The scores are given in the following table. 
+%%-- 5. 
+
+Four different marine paints were compared for their ability to protect ships in a sea-going environment.  Sixteen ships were used, each painted with one of the four paints.  Each of the ships was deployed for 6 months and on the ship's return a score was assigned according to the amount of chipping, peeling and average remaining paint thickness.  A higher score indicated a "better" state of repair.  The scores are given in the following table. 
  
 
 \begin{center}
-\begin{tabular}{|c||c|c|c|c|}
+\begin{tabular}{|c||c|c|c|c|} \hline
 Paint 1 & 80 & 73 & 72&  90 \\ \hline 
 Paint 2 & 81 & 82 & 88&  84  \\ \hline
 Paint 3 & 93 & 80 & 80&  97 \\ \hline
@@ -50,10 +52,10 @@ Paint 4 & 89 & 86 & 96&  99 \\ \hline
 \end{tabular}
 \end{center}
  
-\begin{enumerate} 
-\item (i) Carry out a one-way analysis of variance of these data, stating the assumptions you have made and explaining what you conclude as a result of your analysis. (10) 
+\begin{enumerate}[(i)]
+\item Carry out a one-way analysis of variance of these data, stating the assumptions you have made and explaining what you conclude as a result of your analysis. %%-- (10) 
 \item  
-(ii) After completing the analysis in part (i) you discover that each column of the above table represents a different geographical area in which the ships were deployed.  Using this additional information re-analyse the data and comment upon whether your conclusions are affected by this additional information. (10) 
+After completing the analysis in part (i) you discover that each column of the above table represents a different geographical area in which the ships were deployed.  Using this additional information re-analyse the data and comment upon whether your conclusions are affected by this additional information. %%-- (10) 
 \end{enumerate} 
 \\ \hline
 
@@ -78,14 +80,25 @@ for paint = 1
 4(3152 + 3352 + 3502 + 3702) ¡ 13702
 16 = 406:25
 Analysis Of Variance
-Source of V ariation Degrees of freedom Sum of squre Mean square
-Paints 3 406:25 135:42
-Residual 12 577:50 48:125
-Total 15 983:75
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+Source 	&	DF 	&	SS 	&	MS	&		&		\\ \hline
+Paints 	&	3	&	406.25	&	 135.42	&	2.81	&	$F_{3,12}$	\\ \hline
+Residual 	&	12	&	577.50.00	&	48.125	&		&		\\ \hline
+Total 	&	15	&	983.75	&		&		&		\\ \hline
+\end{tabular}
+\end{center}
+
+%-------------------------------------%
+
+
+
+
 F(3; 12) = 2:81 n:s:
 \item 
 Assuming the scores can be modelled by a normal distribution, the linear model underlining
-this analysis is y = ¹i +"ij ; f"ijg all N(0; ¾2). 
+this analysis is $y = \mu_i + \varepsilon_{ij}$ with $\varepsilon_{ij} \sim N(0, \sigma^2)$
 \item we do not reject the N.H. that all
 ¹iare the same.
 \item If the columns repeat geographical differences, we should remove these in a 2-way analysis.
@@ -101,11 +114,17 @@ this analysis is y = ¹i +"ij ; f"ijg all N(0; ¾2).
 
 \end{itemize}
 ANALYSIS OF VARIANCE
-Source DF SS MS
-Paint 3 406:25 136:42 F(3; 9) = 4:65
-Areas 3 315:25 105:08 F(3; 9) = 3:61n:s:
-Residual 9 262:25 29:139 = ¾ˆ2
-Total 15 983:75
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+Source 	&	DF 	&	SS 	&	MS	&		&		\\ \hline
+Paint 	&	3	&	406.25.00	&	136.42.00	&	 4.65	&	F(3; 9)  =	\\ \hline
+Areas 	&	3	&	315.25.00	&	105.08.00	&	3.61n.s.	&	F(3; 9)  = 	\\ \hline
+Residual	&	9	&	 262.25 	&	 29.139 	&		&	 ¾ˆ2	\\ \hline
+Total 	&	15	&	983.75	&		&		&		\\ \hline
+\end{tabular}
+\end{center}
+
 \begin{itemize}
     \item Making allowance for area differences reduce the residual variation to that which is
 purely random natural variation, so make the paints comparison more precise. 
