@@ -39,9 +39,12 @@
  
  
 2. An experiment was conducted to test the effect of a new drug on viral infection.  
-The infection was induced in 48 mice and the mice were randomly spilt into two groups of 24.  
-The first group, the control group, received no treatment for the infection.  
-The second group received the drug.  After a 30-day period, the numbers of survivors in the two groups were noted.  In the control group, 10 mice survived while in the group receiving the drug 17 mice survived.  Apply a 2×2 chi-squared test to these data, both with and without Yates's correction, and explain your results. (10) 
+\begin{itemize}
+    \item The infection was induced in 48 mice and the mice were randomly spilt into two groups of 24.  
+\item The first group, the control group, received no treatment for the infection.  The second group received the drug.
+\item  After a 30-day period, the numbers of survivors in the two groups were noted. In the control group, 10 mice survived while in the group receiving the drug 17 mice survived. 
+\end{itemize}
+ Apply a $2 \times 2$ chi-squared test to these data, both with and without Yates's correction, and explain your results. %%--(10) 
 \\ \hline
 
 
@@ -56,38 +59,66 @@ The second group received the drug.  After a 30-day period, the numbers of survi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}[(a)]
 \item N=48 mice, Table of results is:
-survival : No Y es
-control : 14(10:5) 10(13:5) 24
-Drug 7(10:5) 17(13:5) 24
-21 27 48
+
+
+
+\begin{center}
+\begin{tabular}{|c|cc|cc|c|} \hline
+Survival & No & & Yes & & \\ \hline
+Control & 14 & (10.5) & 10 & (13.5) & 24 \\ \hline
+Drug & 7& (10.5) & 17& (13.5)&  24 \\ \hline
+& 21 & & 27 & & 48\\ \hline
+\end{tabular}
+\end{center}
+
 values in brackets are the frequencies expected on the null hypothesis that survival rates
 are the same in both groups of mice.
-\begin{eqnarray*}x2
-(1) &=&
-X(O ¡ E)2
-E
-\\ &=& (3:5)2(
-1
-10:5
-+
-1
-10:5
-+
-1
-13:5
-+
-1
-13:5
-) \\ &=&  4:148
+\begin{eqnarray*}
+\chi^2_{TS} &=&
+\sum  \frac{(O_{i} - E_{i})^2}{E_{i}}
+\\ 
+&=& \frac{(14 \;-\;10.5)^2}{10.5} + \frac{(10 \;-\;13.5)^2}{13.5} + \frac{(7 \;-\;10.5)^2}{10.5} + \frac{(17 \;-\;13.5)^2}{13.5} \\
+& & \\
+&=&\frac{(3.5)^2}{10.5} + \frac{(-3.5)^2}{13.5} + \frac{(-3.5)^2}{10.5} + \frac{(3.5)^2}{13.5} \\
+& & \\
+&=&\frac{12.25}{10.5} + \frac{12.25}{13.5} + \frac{12.25}{10.5} + \frac{12.25}{13.5} \\
+& & \\
+&=& 1.116 \;+\; 0.907 \;+\; 1.116 \;+\;  0.907 \\ & & \\ &=&  4.148
 \end{eqnarray*}
-with Yates correction, each $(O-E)$ is reduced by 0.5 before squaring, which gives 32( 2
-10:5+
+
+
+
+The following is Yates's corrected version of Pearson's chi-squared statistics:
+
+\[{\displaystyle \chi _{\text{Yates}}^{2}=\sum _{i=1}^{N}{(|O_{i}-E_{i}|-0.5)^{2} \over E_{i}}}
+\]
+
+with Yates correction, each $(O-E)$ is reduced by 0.5 before squaring, which gives 
+\large
+\begin{eqnarray*}
+\chi^2_{TS} &=&
+\sum  \frac{( |O - E| -0.5)^2}{E}
+\\ 
+&=& \frac{(|14 \;-\;10.5|-0.5)^2}{10.5} + \frac{(|10 \;-\;13.5|-0.5)^2}{13.5} + \\
+& & \frac{(|7 \;-\;10.5|-0.5)^2}{10.5} + \frac{(|17 \;-\;13.5| - 0.5)^2}{13.5} \\
+& & \\
+&=&\frac{(3)^2}{10.5} + \frac{(-3)^2}{13.5} + \frac{(-3)^2}{10.5} + \frac{(3)^2}{13.5} \\
+& & \\
+&=&\frac{9}{10.5} + \frac{9}{13.5} + \frac{9}{10.5} + \frac{9}{13.5} \\
+& & \\
+&=& 0.857 + 0.666 + 0.857 + 0.666\\
+& & \\ &=&  3.408
+\end{eqnarray*}
+
+
+32( 2
+10.5+
 2
-13:5 ) = 3:408 n.s. as X2
+13.5 ) = 3:408 n.s. as X2
 (1):
 \begin{itemize}
     \item Yates’ correction can sometimes over-correct for continuity (discreteness). so the ”exact”
-probability of obtain the results on the N.H.-which could be found by Fisher’s
+probability of obtain the results on the Null Hypothesis, which could be found by Fisher’s
 Exact Test-is found about the 5\% value(3.84). 
 \item this leaves the significance or otherwise
 of the result in doubt, but indicates that further data would be needed before a clear
@@ -96,49 +127,64 @@ decision could be made.
 proportions.
 \end{itemize}
 
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 \begin{table}[ht!]
-     
-
 \centering
-     
 
 \begin{tabular}{|p{15cm}|}
-     
-
 \hline 
-
-
-After completing the experiment the researcher receives a letter from a colleague detailing the results of a similar experiment he had just completed.  In this experiment the viral infection was induced in 144 mice with 72 randomly allocated to the control and active groups respectively.  After a 30-day period, 30 mice survived in the control group and 51 in the group receiving the drug treatment.  Carry out similar analyses of these data and comment on the results from the two experiments. (10) 
+\large
+After completing the experiment the researcher receives a letter from a colleague detailing the results of a similar experiment he had just completed.  In this experiment the viral infection was induced in 144 mice with 72 randomly allocated to the control and active groups respectively.  
+\large
+After a 30-day period, 30 mice survived in the control group and 51 in the group receiving the drug treatment.  Carry out similar analyses of these data and comment on the results from the two experiments. % (10) 
 
 \\ \hline
-
-
 \end{tabular}
-    
 
 \end{table}
 
 \item 
 For the second trial, N=144, and the results are:
-survival : No Y es
-control : 42(31:5) 30(40:5) 72
-Drug 21(31:5) 51(40:5) 72
-63 81 144
-x(1)
-2 = (10:5)2(
-2
-31:5
-+
-2
-40:5
-) = 12:44
+
+\begin{center}
+\begin{tabular}{|c|cc|cc|c|} \hline
+survival & No & & Y es & & \\ \hline
+control & 42& (31.5)& 30&(40.5)& 72 \\ \hline
+Drug & 21&(31.5) & 51&(40.5) & 72 \\ \hline
+& 63& &  81& &  144 \\ \hline
+\end{tabular}
+\end{center}
+
+
+
+\begin{eqnarray*}
+\chi^2_{TS} &=& \frac{(10.5)^2}{31.5} + \frac{(-10.5)^2}{40.5} + \frac{(10.5)^2}{31.5} + \frac{(-10.5)^2}{40.5}\\
+& & \\
+&=& 3.5 + 2.722 + 3.5 + 2.722 \\
+& & \\
+&=& 12.44 \\
+\end{eqnarray*}
+
 and with Yates’ correction,the value of X2
-(1): is 102( 2
-31:5 + 2
-40:5 ) = 11:29
-Both values are significant at the 0.1% lever, leaving little doubt that there is a difference
+\begin{eqnarray*}
+\chi^2_{TS} &=& \frac{(|10.5|-0.5)^2}{31.5} + \frac{(|-10.5|-0.5)^2}{40.5} + \frac{(|10.5|-0.5)^2}{31.5} + \frac{(|-10.5|-0.5)^2}{40.5}\\
+& & \\
+&=& \frac{(10)^2}{31.5} + \frac{(10)^2}{40.5} + \frac{(10)^2}{31.5} + \frac{(10)^2}{40.5}\\
+& & \\
+&=& 3.175 + 2.47 + 3.175 + 2.47 \\
+& & \\
+&=& 11.29 \\
+\end{eqnarray*}
+
+
+\begin{itemize}
+    \item Both values are significant at the 0.1\% lever, leaving little doubt that there is a difference
 between Control and Drug.
-since we are only asked to test ”the effect” of the drug a 1-tail test may not be valid;
+since we are only asked to test ``the effect” of the drug a 1-tail test may not be valid;
 but the data from the second experiment show a firm indication in favor of the drug.
-\end{enumerate}
+\end{itemize}
+
+
 \end{document}
