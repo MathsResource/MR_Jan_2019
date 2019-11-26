@@ -29,20 +29,28 @@
  \centering
  \begin{tabular}{|p{15cm}|}
  \hline  
+ \large
 5. The Poisson distribution may be used to provide a simple statistical model for the number of vehicles passing a traffic survey point when traffic is light.  The data below were collected from 120 independent one-minute intervals at a survey point. 
  
-Number of vehicles 0 1 2 3 4 5 6 7 8 ≥9 Number of intervals 8 30 32 20 13 9 5 2 1 0 
+Number of vehicles 0 1 2 3 4 5 6 7 8 ≥9 
+Number of intervals 8 30 32 20 13 9 5 2 1 0 
  
  
-(i) Assuming that a Poisson model is appropriate, calculate the expected numbers of intervals with x vehicles per minute for x = 0, 1, 2, …, 8 and for x ≥ 9. (7) 
+ \begin{enumerate}[(i)]
+\item (i) Assuming that a Poisson model is appropriate, calculate the expected numbers of intervals with x vehicles per minute for x = 0, 1, 2, …, 8 and for x ≥ 9. %%--- (7) 
  
-(ii) Use an appropriate statistical test to assess whether a Poisson model is reasonable for this set of data. (7) 
+\item (ii) Use an appropriate statistical test to assess whether a Poisson model is reasonable for this set of data. (7) 
  
+ \item 
 (iii) Assuming that a Poisson model is valid, obtain approximate 95% confidence intervals for: 
  
 (a) the mean number of vehicles passing the survey point per minute, 
  
-(b) the probability of at least one vehicle passing the survey point in a minute. (6) \\ \hline
+(b) the probability of at least one vehicle passing the survey point in a minute. (6) 
+
+\end{enumerate}
+
+\\ \hline
   \end{tabular}
 \end{table}
 \begin{enumerate}Mean =
@@ -60,44 +68,50 @@ Ei = 9:607 24:258 30:625 25:776 16:271 8:217 3:458 1:788
 oi = 8 30 32 20 13 9 8
 .
 (ii)
-x25
-=
-1:6072
-9:607
+
+%HC3 - Question 5
+
+\begin{eqnarray*}
+\chi^2_{TS}
+&=&
+\frac{(1.607)2 }{9.607}
 +
-(¡5:742)2
-24:258
+\frac{(-5.742)2 }{24.258}
 +
-(¡1:375)2
-30:625
+\frac{(-1.375)2}{30.625}
 +
-5:7762
-25:776
+\frac{5.776^2}{25.776}
 +
-3:2712
-16:271
+\frac{3.271^2}{16.271}
 +
-(¡0:783)2
-8:217
+\frac{(¡0.783)^2}{8.217}
 +
-(¡2:754)2
-6:246
-= 5:162 n:s:
-20
+\frac{(¡2.754)^2}{6.246}\\
+
+&=& 5.162 \\ 
+\end{eqnarray*}
+
+n.s.
+
 So a Null Hypothesis that the poisson model holds is not rejected.
 (iii) Assuming that the Poisson model is valid we use 2.525 as the variance, so
 2:525 § 1:96
 q
 2:525
 120 is an approximate 95% confidence interval for the true mean.
-(a) This is 2:525 § 1:96 £ 0:145 = 2:525 § 0:284 or (2.24 to 2.81).
-Note. it is often specified that this approximation require a mean of at least 5 to be
+
+\begin{itemize}
+    \item (a) This is 2:525 § 1:96 £ 0:145 = 2:525 § 0:284 or (2.24 to 2.81).
+\item Note. it is often specified that this approximation require a mean of at least 5 to be
 satisfactory.
-(b)P(¸ 1) = 1 ¡ P(0) = 1 ¡ 0:080 = 0:92. This is an estimate of the proportion
+\item (b)P(¸ 1) = 1 ¡ P(0) = 1 ¡ 0:080 = 0:92. 
+\item This is an estimate of the proportion
 of non-zero minutes, and variance is 0:92£0:08
 120 which is 0.0006133, whose square root is
 0.0248.
-An approximate 95% interval for the true proportion is 0:92§1:96£0:0248 or 0:92§0:049,
+\item An approximate 95% interval for the true proportion is 0:92§1:96£0:0248 or 0:92§0:049,
 i.e. 0.87 to 0.97.
+\end{itemize}
+
 \end{enumerate}
 \end{document}
