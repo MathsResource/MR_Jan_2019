@@ -66,50 +66,97 @@ poisson distribution with mean 2, P(0) = e¡2 = 0:1353,so the expected frequency
 zeros is 13.53.
 
 
-\item Similarly P(1) = 2e¡2 = 0:2707; P(2) = 4e¡2
-2 = 0:2707 P(3) = 8e¡2
-3 =
-0:1804 P(4) = 16e¡2
-4 = 0.0902 P(5) = 0.0361; P(¸ 6) = 0.0166: 
+[
+
+%------------------------------------------------------------------%
+\large
+\begin{center}
+\[
+\begin{array}{c|cc|c|c}
+k	&	P(X=k)	&		&		&	P(X \leq k)	\\ \hline
+0	&	\frac{2^k \times e^{-2} }{k!}	&	\frac{2^k }{k!}  \times e^{-2}	&	0.1353	&	0.1353	\\ \hline
+1	&	\frac{2^k \times e^{-2} }{k!}	&	\frac{2^k }{k!}  \times e^{-2}	&	0.2707	&	0.4060	\\ \hline
+2	&	\frac{2^k \times e^{-2} }{k!}	&	\frac{2^k }{k!}  \times e^{-2}	&	0.2707	&	0.6767	\\ \hline
+3	&	\frac{2^k \times e^{-2} }{k!}	&	\frac{2^k }{k!}  \times e^{-2}	&	0.1804	&	0.8571	\\ \hline
+4	&	\frac{2^k \times e^{-2} }{k!}	&	\frac{2^k }{k!}  \times e^{-2}	&	0.0902	&	0.9473	\\ \hline
+5	&	\frac{2^k \times e^{-2} }{k!}	&	\frac{2^k }{k!}  \times e^{-2}	&	0.0361	&	0.9834	\\ \hline
+6	&	\frac{2^k \times e^{-2} }{k!}	&	\frac{2^k }{k!}  \times e^{-2}	&	0.0120	&	0.9955	\\ \hline
+\end{array}
+\]
+\end{center}
+
+}
+%------------------------------------------------------------------%
+
 \item The table of observed
 and corresponding expected frequencies is :
-count 0 1 2 3 4 ¸ 5 Total
-Obs:freq 24 25 18 12 7 14 : 100
-Exp:freq 13:53 27.07 27.07 18.04 9.02 5:27 : 100
+
+\begin{center}
+\begin{tabular}{cccccccc}
+count 	&	0	&	1	&	2	&	3	&	4	&	5	&	Total	\\ \hline
+Obs.freq 	&	24	&	25	&	18	&	12	&	7	&	14.00	&	100	\\ \hline
+Exp.freq 	&	13.53	&	27.07	&	27.07	&	18.04	&	9.02	&	5.27	&	100	\\ \hline
+\end{tabular}
+\end{center}
+
 \item Comparing these in a $\chi^2$ test, there will be 4 degrees o freedom since we are using an
 estimate of the mean.
+
+%------------------------------------------------------------------%
+\begin{center}
+\begin{tabular}{cccccccc}
+count 	&	0	&	1	&	2	&	3	&	4	&	$ \geq 5$	&	Total	\\ \hline
+O	&	24	&	25	&	18	&	12	&	7	&	14	&	100	\\ \hline
+E	&	13.53	&	27.07	&	27.07	&	18.04	&	9.02	&	5.27	&	100	\\ \hline
+O-E	&	10.47	&	-2.07	&	-9.07	&	-6.04	&	-2.02	&	8.73	&	100	\\ \hline
+\end{tabular}
+\end{center}
+
+
 \begin{eqnarray*}
-\chi^2{2,4}
-&=&
-XO ¡ E
-E
-\\ &=& 
-10:472
-13:53
-+
-2.072 + 9.072
-27.07
-+
-6.042
-18.04
-+
-2.022
-9.02
-+
-8:732
-5:27
-\\ &=& 28:236
-\end{eqnarray*}
+\chi^2_{TS} &=& \frac{(10.47)^2}{13.53} + \frac{(-2.07)^2}{27.07} + \frac{(-9.07)^2}{27.07} + \\
+& & \frac{(-6.04)^2}{18.04} + \frac{(-2.02)^2}{9.02} + \frac{(8.73)^2)^2}{5.27} \\
+& & \\
+&=& \frac{109.6209}{13.53} + \frac{4.2849}{27.07} + \frac{82.2649}{27.07} + 	\\
+& & \frac{36.4816}{18.04} + 	\frac{4.0804}{9.02} + 	
+\frac{76.2129}{5.27}\\
+& &\\
+&=& 8.102 + 0.158 + 3.03 + 2.022 + 0.452 + 	14.462 \\
+& &\\
+&=& 28.226\\
+\end{eqnarray}
+
+
 \item There is strong evidence against the N.H. of a poisson distribution, which is therefore
 rejected.
 \end{itemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{framed}
+\large
+The Kolmogorov–Smirnov test may also be used to test whether two underlying one-dimensional probability distributions differ. In this case, the Kolmogorov–Smirnov statistic is
+
+\[{\displaystyle D_{n,m}=\sup _{x}|F_{1,n}(x)-F_{2,m}(x)|,}\]
+ % {\displaystyle D_{n,m}=\sup _{x}|F_{1,n}(x)-F_{2,m}(x)|,}
+where ${\displaystyle F_{1,n}}$ and ${\displaystyle F_{2,m}}$ are the empirical distribution functions of the first and the second sample respectively, and ${\displaystyle \sup }$ is the supremum function.
+\end{framed}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
 \begin{enumerate}
 \item kolmogorov-smirnor uses cumulative probabilities:
-0 1 2 3 4 5 6 (1)
-OBS 0:24 0:49 0:67 0:79 0:86 0:95 1.00 (¡)
-EXP 0:1353 0:4060 0:6767 0:8571 0:9473 0:9843 0:9945 (1.0000)
-jO ¡ Ej 0:1047 0.0840 0.0067 0.0671 0.0873 0.0334 0.0046 (¡)
+
+%------------------------------------------------------------------%
+\begin{center}
+\begin{tabular}{ccccccc|c|c}
+	&	0	&	1	&	2	&	3	&	4	&	5	&	6	&	-1	\\ \hline
+OBS 	&	0.24	&	0.49	&	0.67	&	0.79	&	0.86	&	0.95	&	1	&	(¡)	\\ \hline
+EXP 	&	0.1353	&	0.406	&	0.6767	&	0.8571	&	0.9473	&	0.9843	&	0.9945	&	-1	\\ \hline
+|O - E| 	&	0.1047	&	0.084	&	0.0067	&	0.0671	&	0.0873	&	0.0334	&	0.0046	&	(¡)	\\ \hline
+\end{tabular}
+\end{center}
+
+
+
 \begin{itemize}
     \item The maximum modulus of difference in cumulative probabilities is 0.1047; for n=100
 observations, the upper 5\% tail starts at 1p:36
@@ -118,12 +165,7 @@ not significant and there is no evidence for rejecting the poisson N.H. Chi-squa
 the pattern of frequencies, which had too heavy a tail that was balanced by too many
 zeros for a mean=2; Kolmogrorov-smirnov by using cumulative probabilities is not so
 affected by the upper-tail.
-\item The gross value added by all manufacturing fell in the period 1991/2/3, so any study
-of individual component must allow for this. 
-\item Also the data are based on 1995 price, so
-change in costs of raw materials, labor and manufacture over the nine years will reflect
-this: not all price can be automatically increase to compensate for increase in expenditure.
-\item The weightings are 1995,so if there were substantial change over the period.
+
 \end{itemize}
  
 \end{enumerate}
