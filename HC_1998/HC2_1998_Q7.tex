@@ -34,17 +34,38 @@
  
 \hline  
 
-7. One of the tasks undertaken in a particular laboratory is the measurement of the nitrogen content of various chemical preparations.  
-It has been established that, when experienced workers repeatedly test the same preparation, the standard deviation of their measurements is 0.025 g%.
+%%- Question 7. 
+\large
+\noindent One of the tasks undertaken in a particular laboratory is the measurement of the nitrogen content of various chemical preparations.  
+It has been established that, when experienced workers repeatedly test the same preparation, the standard deviation of their measurements is 0.025 g\%.
 Two new laboratory workers A and B are given initial training.  They are then each required to make ten repeat 
-analyses of a test preparation, which is known to have an exact nitrogen content of 1.81 g%.  The results (in g%) are as follows:
+analyses of a test preparation, which is known to have an exact nitrogen content of 1.81 g\%.  The results (in g\%) are as follows:
 
-Worker A 1.73 1.75 1.80 1.83 1.79 1.88 1.85 1.79 1.78 1.80
-Worker B 1.85 1.86 1.80 1.83 1.87 1.85 1.90 1.84 1.84 1.86
+
+
+
+
+
+\begin{center}
+\begin{tabular}{|c|c|} \hline
+Worker A &  1.73 1.75 1.80 1.83 1.79  \\&  1.88 1.85 1.79 1.78 1.80\\ \hline
+Worker B&  1.85 1.86 1.80 1.83 1.87  \\&  1.85 1.90 1.84 1.84 1.86\\ \hline
+\end{tabular}
+\end{center}
+\begin{itemize}
+    \item 0.111966
+0.061957
+\end{itemize}
+
+
 For each worker is there evidence that
-(i) his/her experimental technique is more variable than the general laboratory standard?
-(ii) his/her results are biased?
+\begin{enumerate}[(a)]
+    \item their experimental technique is more variable than the general laboratory standard?
+  \item their results are biased?
+  \item 
 Using these results what comments would you make to the manager of the laboratory about the accuracy of measurements made by each worker?
+\end{enumerate}
+
 \\ \hline
   
 \end{tabular}
@@ -54,36 +75,62 @@ Using these results what comments would you make to the manager of the laborator
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\large
 \begin{enumerate}[(a)]
 \item
-.Given ¹ = 1:81; ¾2 = (0:025)2. n=10.
-(i)For A, ¯x=1.80 and s2=0.001977.
-For B, ¯x=1.85 and s2=0.000689.
-(n¡1)s2
-A
-¾2 = 9£0:001977
-0:0252 = 28:47¤¤¤ » Â2
-(9), giving very strong evidence to reject an NH that A’s
-variability is the same as the laboratory standard, and to accept an AH that it is greater.
-(n¡1)s2
-B
-¾2 = 9£0:000689
-0:0252 = 9:92; n:s: as Â2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% - HC2 - 1998 - Question 7
+
+\begin{itemize}
+
+\item
+.Given $\mu = 1.81$; $\sigma^2 = (0.025)^2$. $n=10$.
+(i)
+
+
+%---------------------------%
+\begin{itemize}
+\item For A, $\bar{x}=1.80 and s2=0.001977.$
+
+\item For B, $\bar{x}=1.85 and s2=0.000689.$
+\end{itemize}
+%---------------------------%
+
+\[ \frac{(n - 1)s^2_A}{\sigma^2} = \frac{9£0:001977}{0:025^2} = 28:47 \]
+
+%%- ¤¤¤ \sim \chi^2
+(9),\]  
+
+giving very strong evidence to reject an NH that A’s
+ variability is the same as the laboratory standard, and to accept an Alternative Hypothesis $H_1$ AH that it is greater.
+\item 
+
+\[ 
+\frac{ (n - 1)s^2_B}{\sigma^2} = \frac{ 9£0:000689}{0:0252} = 9:92;\]
+ n:s: as $\chi^2$
 (9), so there is no statistical evidence that B’s variability
 is unacceptable.
-\item For A,p x¯¡1:81
+\item For A,p x¯ - 1:81
 0:001977=10
-= ¡0:01
-0:014 = ¡0:71 n:s: as t(9).
+=  - 0:01
+0:014 =  - 0:71 n:s: as t(9).
 No evidence that A’s results are biased.
-For B,p x¯¡1:81
+For B,p x¯ - 1:81
 0:000689=10
 = 0:04
 0:0083 = 4:82¤¤¤ as t(9).
-\begin{itemize}
-    \item B’s results do seem to be biased, because this value of t(9) leads us to reject the N.H. “mean=1.81”
+
+   
+
+\item B’s results do seem to be biased, because this value of t(9) leads us to reject the N.H. “mean=1.81”
+
+
 \item Hence worker A produces results which are unbiased but very variable, while B is biased but precise.
+
+
 \end{itemize}
 
-\end{enumerate}
+
+
 \end{document}
