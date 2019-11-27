@@ -32,12 +32,19 @@
 
 \begin{document}Higher Certificate, Paper II, 2006.  Question 1 
 \begin{framed}
+\large
+%%1. 
+The duration of a "normal" pregnancy (i.e. one without medical complications) can be modelled by a Normal distribution with mean 266 days and standard deviation 16 days.  In an urban hospital in a relatively deprived area of the USA, a random sample of 60 pregnancies was studied and the duration of each pregnancy determined.  The relevant statistics were 
+ 
 
-1. The duration of a "normal" pregnancy (i.e. one without medical complications) can be modelled by a Normal distribution with mean 266 days and standard deviation 16 days.  In an urban hospital in a relatively deprived area of the USA, a random sample of 60 pregnancies was studied and the duration of each pregnancy determined.  The relevant statistics were 
+
+\begin{itemize}
+    \item $\sum x = 15,568$
+    \item $\sum x^2 = 4,054,484$
+\end{itemize}
  
-2 15568, 4054484 xx == ∑∑. 
- 
-(i) Test whether the variance of this sampled population differs from that of "normal" pregnancy durations. (10) 
+(i) Test whether the variance of this sampled population differs from that of "normal" pregnancy durations. 
+%%-- (10) 
  
 
 \end{framed}
@@ -52,24 +59,35 @@
  
 %%%%%%%%%%%%%%%%%%%%%%
  
-The null hypothesis to be tested is "σ 2 = 256".  It seems obvious that this null hypothesis is not likely to be rejected (even if the sample had been of considerably smaller size), but continuing with a formal test we use test statistic 
+The null hypothesis to be tested is "$\sigma^2= 256$".  It seems obvious that this null hypothesis is not likely to be rejected (even if the sample had been of considerably smaller size), but continuing with a formal test we use test statistic 
  
 \[  \frac{(n-1)s^2}{\sigma^2} = \frac{59 \times 256.05}{256} =59.01 \]
  
  
 which is referred to $\chi^2_{(59)}$.  The upper 5\% point is about 78.  Clearly we cannot reject the null hypothesis as the data give no evidence for doing so. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 
 \begin{framed}
-(ii) Test whether there is evidence that the mean pregnancy duration for this sampled population differs from 266 days.  Find an approximate p-value for your test, and state your conclusions clearly. 
+\large
+%%-- (ii) 
+Test whether there is evidence that the mean pregnancy duration for this sampled population differs from 266 days.  Find an approximate p-value for your test, and state your conclusions clearly. 
 \end{framed} 
-\item We have  $ \displaymode{\bar{x} = \frac{15568}{60} = 259.46 }$  and we wish the test the null hypothesis $\mu=266$.  Taking the value of $\sigma$ as 16, which seems highly plausible from part (i), we use test statistic 
+
+\large
+\item We have  $ \displaystyle {\bar{x} = \frac{15568}{60} = 259.46 }$  and we wish the test the null hypothesis $\mu=266$.
+\begin{itemize}
+    \item Taking the value of $\sigma$ as 16, which seems highly plausible from part (i), we use test statistic 
 \[  \frac{\bar{x} - 266}{16 / \sqrt{60} }\]
  
 and refer to N(0, 1). 
- [Alternatively, we could continue to use the sample variance $s^2 (= 256.05)$ and refer 266 60 x s − to t59;  this makes hardly any difference in practice in this case.] 
+   \item Alternatively, we could continue to use the sample variance $s^2 (= 256.05)$ and refer 266 60 x s − to t59;  this makes hardly any difference in practice in this case. 
  
-This is well beyond the double-tailed 1\% point of N(0, 1);  there is strong evidence against this null hypothesis.  It is reasonable to conclude that this population has a mean different from the "normal" one;  it appears to be less. 
+   \item This is well beyond the double-tailed 1\% point of $N(0, 1)$;  there is strong evidence against this null hypothesis.  
+   
+      \item It is reasonable to conclude that this population has a mean different from the "normal" one;  it appears to be less. 
  
-Using N(0, 1), we have , giving a p-value of 0.0016. 
+   \item Using $N(0, 1)$, we have , giving a p-value of 0.0016. 
+\end{itemize}
 \end{enumerate}
 \end{document}
