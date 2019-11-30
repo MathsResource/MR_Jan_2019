@@ -34,85 +34,151 @@
 Higher Certificate, Paper III, 2006. Question 5
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{framed}
-5.
-The survival time of patients treated for a certain critical illness is a random variable,
+%%--5.
+\large
+\noindent The survival time of patients treated for a certain critical illness is a random variable,
 T, which is assumed to follow a distribution having probability density function
-f ( t ) = λ  te − λ t ,
-(i)
-t ≥ 0,
-λ > 0.
-Show that the survivor function (the probability of surviving beyond time t) is
-\[S ( t ) = (1 + λ t ) e − λ t .\]
-()
+\[f(t) = \lambda^2 t e^{-\lambda t} ,\]
 
-%---------------------------%
-(ii)
-For a random sample of n observations, t 1 , t  , ..., t n , drawn from the defined
-distribution, derive the maximum likelihood estimator of λ.
-Survival times (in months) of a group of ten patients were
-16, , 5, 44, 51, 55, 67, 97, 17, 19.
-Calculate λ̂ , the maximum likelihood estimate of λ , for the above data.
+\noindent where $t \geq 0$ and $\lambda >0$. \\
+
+\noindent Show that the survivor function (the probability of surviving beyond time t) is
+\[S ( t ) = (1 + \lambda t ) e^{ - \lambda t} .\]
 \end{framed}
 
+\large
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{enumerate}[(a)]
-\item The survivor function is P(T > t) = 2tedλθλθθ∞−∫
-211ttttteeedteteλθ λθλθλλλθθλλλλλλ∞∞−∞−−−−⎧⎫⎡⎤⎡⎤⎪⎪⎛⎞=−+=+=+⎨⎬⎜⎟⎢⎥⎢⎥−⎝⎠⎣⎦⎣⎦⎪⎪⎩⎭∫ ,
-as required.
-[Alternatively, as we are only asked to show that the given function S(t) is the survivor function, , and f(t) is therefore –S'(t) as required.]
-\item 21intiiLteλλ−==Π, and hence 11log2loglognniiiiLntλλ===+− ΣΣ.
-log2idLntdλλ∴=−Σ which on setting equal to zero gives that the maximum likelihood estimate is 2ˆintλ=Σ. [Consideration of 22logddλ confirms that this is a maximum: 222log20dLndλλ−=<.]
-So for the given sample, the value of ˆλ is 20/707 = 0.0283.
+\begin{itemize}
+\item The survivor function is 
 
+\begin{eqnarray*}
+P(T > t) &=& \int^{\infty}_{t} \lambda^2 \theta e^{-\lambda\theta}  \;d \theta\\
+& & \\
+&=& \lambda^2 \left\{ \left[]  \theta \left( -\frac{1}{\lambda} \times e^{-\lambda\theta} \right) \right]^{\infty}_{t} + \frac{1}{\lambda} \int^{\infty}_{t} e^{-\lambda\theta} d \theta \right\}\\
+& & \\
+&=& \lambda t e^{-\lambda\theta}  + \lambda \left[ \frac{e^{-\lambda\theta}}{-\lambda} \right]^{\infty}_{t}\\
+& & \\
+&=& \lambda t e^{-\lambda\theta} + e^{-\lambda\theta} \\
+& & \\
+&=& (1 + \lambda t ) e^{ - \lambda t}
+\end{eqnarray*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
+\large 
+
+Alternatively, as we are only asked to show that the given function $S(t)$ is the survivor function, , and $f(t)$ is therefore $-S^{\prime}(t)$ as required.
+
+\[S ( t ) = (1 + \lambda t ) e^{ - \lambda t}\]
+
+\begin{eqnarray*}
+\frac{dS}{dt} &=& \frac{d}{dt} \left[(1 + \lambda t ) e^{ - \lambda t}  \right]\\
+& & \\
+&=& -\lambda (1 + \lambda t) e^{-\lambda t} + \lambda e^{-\lambda t}\\
+& & \\
+&=& -\lambda^2 t e^{-\lambda t}
+\end{eqnarray*}
+
+\large
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \begin{framed}
-(iii) Using λ̂ , estimate the probability that a patient treated for the illness survives
-longer than 40 months.
+\large
+%---------------------------%
+(ii)
 
-(iv) It is thought that a function which provides a good estimate of the cumulative
-distribution function (cdf) for a random sample of data is F*(x), defined as
-F*(x) = (i – 0.5)/n, where i is the number of sample values less than or equal
-to x. Thus, for the data above, F*(16) = 0.5/n, F*() = 1.5/n, and so on.
-Plot F*(x) against x, for the given survival times, on a graph. Using λ̂ as an
-estimate of λ , calculate the estimated cumulative distribution function values
+For a random sample of n observations, $t_1 , t_2  , \ldots , t_n$ , drawn from the defined
+distribution, derive the maximum likelihood estimator of $\lambda$.
+\\
+Survival times (in months) of a group of ten patients were
+\[16, , 5, 44, 51, 55, 67, 97, 17, 19.\]
+Calculate $\hat{\lambda}$  , the maximum likelihood estimate of $\lambda$ , for the above data.
+\end{framed}
+
+\[ L = \prod^{n}_{i=1} \lambda^2t_{i} e^{-\lambda t_i}\]
+
+\[ \log L = 2n \log \lambda + \sum^{n}_{i=1} \log t_i - \lambda \sum^{n}_{i=1} t_i \]
+
+Therefore
+
+\[ \frac{d \log L}{ d \lambda} =  \frac{2n}{\lambda} -  \sum t_{i} \]
+
+which on setting equal to zero gives that the maximum
+likelihood estimate is
+\[ \hat{\lambda} = \frac{2n}{\sum^{n}_{i=1} t_i }  \]
+
+\begin{eqnarray*} 
+\frac{d \log L}{ d \lambda} &=&  \frac{2n}{\lambda} \\
+& & \\
+\frac{d^2 \log L}{ d \lambda^2} &=&  -\frac{2n}{\lambda^2}  \mbox{ which is} <0 \\
+\end{eqnarray*}
+%------------------------------%
+
+\[ \hat{\lambda}  = \frac{20}{707} = 0.0283 \]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{itemize}
+
+
+\newpage
+
+
+
+\begin{framed}
+(iii) Using $\hat{\lambda}$  , estimate the probability that a patient treated for the illness survives
+longer than 40 months.
+\end{framed}
+
+
+
+
+\begin{itemize}
+\item The estimated value of $S(240)$ is 
+\begin{eqnarray*}
+S(240)  &=& (1 + (0.0283 \times 240))e^{–0.0283 \times  240} \\
+&=& = 7.792e^{–6.792}\\
+&=& 0.00875.\\
+\end{eqnarray*}
+\item $F^{\ast}(x)$ is sometimes referred to as the "empirical cdf". 
+\item Its values for this set of data are $1/20, 3/20, \ldots, 17/20, 19/20$ at x = 16, 23, …, 127, 192. 
+\item Strictly speaking it is a step function, "jumping" (from 0) to value 1/20 at x = 16, retaining that value up to a further "jump" to 3/20 at x = 23, and so on. 
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\newpage
+
+\begin{framed}
+\large
+(iv) It is thought that a function which provides a good estimate of the cumulative distribution function (cdf) for a random sample of data is $F^{\ast}(x)$, defined as $F^{\ast}(x) = (i – 0.5)/n$, where $i$ is the number of sample values less than or equal to $x$. Thus, for the data above, $F^{\ast}(16) = 0.5/n$, $F^{\ast}() = 1.5/n$, and so on.
+Plot $F^{\ast}(x)$ against $x$, for the given survival times, on a graph. 
+
+Using $\hat{\lambda}$ as an estimate of $\lambda$ , calculate the estimated cumulative distribution function values
 for the given survival times, and plot them on the same graph.
 Use your graph to comment on how well this set of data is represented by the
 fitted model. Does this have any consequences for your answer to part (iii)?
-(8)
+%% (8)
 \end{framed}
+\begin{itemize}
+\item On the graph below, for convenience its values at $x = 16, 23, \ldots, 192$ are shown, with these being joined by line segments.
+\begin{eqnarray*}
+\hat{F}(x) &=& 1 - \hat{S}(x) \\
+& & \\
+&=& 1 - \left[( 1 + \hat{\lambda} t ) e^{ - \hat{\lambda} t} \right]
+\end{eqnarray*}calculated at x = 16, 23, …, 192 using $\hat{\lambda} = 0.0283$ as found in part (ii). 
 
-\item The estimated value of S(240) is (1 + (0.0283 × 240))e–0.0283 × 240 = 7.792e–6.792 = 0.00875.
-\item F*(x) is sometimes referred to as the "empirical cdf". Its values for this set of data are 1/20, 3/20, …, 17/20, 19/20 at x = 16, 23, …, 127, 192. Strictly speaking it is a step function, "jumping" (from 0) to value 1/20 at x = 16, retaining that value up to a further "jump" to 3/20 at x = 23, and so on. On the graph below, for convenience its values at x = 16, 23, …, 192 are shown, with these being joined by line segments.
-ˆ()Fx is given by ˆˆˆ1()1(1)xSxxeλλ−−=−+ calculated at x = 16, 23, …, 192 using ˆλ = 0.0283 as found in part (ii). The values of ˆ()Fx are given in the table. These also are plotted on the graph, joined by line segments for convenience.
-x
-16
-23
-35
-44
-51
-55
-67
-97
-127
-192
-ˆ()Fx
-0.076
-0.139
-0.261
-0.354
-0.423
-0.461
-0.565
-0.759
-0.874
-0.972
-Solution continued on next page
+\item The values of $\hat{F}(x)$ are given in the table. These also are plotted on the graph, joined by line segments for convenience.
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|} \hline
+$x$ &16&23&35&44&51&55&67&97&127&192\\ \hline
+$\hat{F}(x)$&0.076&0.139&0.261&0.354&0.423&0.461&0.565&0.759&0.874&0.972\\ \hline
+\end{tabular}
+\end{center}
+%%--- Solution continued on next page
 Key:
 F*
 (NB shown as just F on the graph) ˆF
 F* and are close except between survival times of about 50 and 100, where (the fitted model) somewhat underestimates the cumulative probability of dying – in that interval, patients are more likely to die than the fitted model predicts. In addition, the fitted model is slightly pessimistic towards the end of the range of survival times, so the result in part (iii) may be an underestimate of this probability of survival. ˆFˆF
- \end{enumerate}
+ \end{itemize}
  \end{document}
  
