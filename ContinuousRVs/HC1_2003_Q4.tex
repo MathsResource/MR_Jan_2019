@@ -24,98 +24,132 @@
 
 \setcounter{MaxMatrixCols}{10}
 \begin{document}
+\large
 %- Higher Certificate, Paper I, 2003. Question 4
 \begin{framed}
-The random variable X has probability density function f(x) given by
-\[f(x) = kx^2 (1- x) , 0 \leq x \leq 1 \]
-Show that k = 12.
+\noindent The random variable $X$ has probability density function $f(x)$ given by
+\[f(x) \;=\; kx^2 (1- x) , \qquad 0 \leq x \leq 1 \]
+\medskip
+\noindent \textbf{Part (a)}\\
+Show that $k = 12$.
 
 \end{framed}
 
-\[f(x) = kx^2 (1− x) , 0 \leq x \leq 1 \]
+\large
+
+\begin{framed}
+\noindent Total area under probability density function is 1 (between lower and upper limits)
+{
+\Large
+\[\int^{U}_{L} f(x) dx = 1\]
+}
+\end{framed}
+\newpage
+
 \begin{enumerate}[(a)]
 \item 
+\[f(x) \;=\; kx^2 (1- x) , \qquad 0 \leq x \leq 1 \]
 \begin{eqnarray*}
 \mbox{ Area Under Curve } &=& \int^{1}_{0} f(x) dx \\
-&=& \int^{1}_{0} k(x^2\;-\;x^3)] dx \\
+&=& \int^{1}_{0} k(x^2\;-\;x^3) dx \\
 &=& \int^{1}_{0} kx^2\;-\;kx^3 dx \\
 &=& k \left[ \frac{x^3}{3} - \frac{x^4}{4}\right]^1_0\\
-&=& k \left[ \left( \frac{1}{3}- 0 \right) - \left( \frac{1}{4}- 0 \right)  \right]\\
+&=& k \left[ \left( \frac{1}{3} \;-\; \frac{1}{4} \right) - \left( 0 \;-\; 0 \right)  \right]\\
 &=& k \left[  \frac{1}{3} - \frac{1}{4} \right]\\
 &=& k \left[  \frac{4}{12} - \frac{3}{12} \right]\\
 1 &=&  \frac{k}{12} \\
 \end{eqnarray*}
 
-which must be equal to 1. So k = 12.
+Necessarily $k = 12$.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
+\large
 \begin{framed}
- Show that the mode of X is at x = 23
-and draw a graph of f(x).
+\noindent \textbf{Part (b)}\\
+Show that the mode of $X$ is at $x = 2/3$.
+and draw a graph of $f(x)$.
 \end{framed}
 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1.0\textwidth]{images/Curve-RSS-2003-Q4.jpeg}
+\end{figure}
 \item  
+\begin{itemize}
+\item Differentiating the probability density function
 \begin{eqnarray*}
 \frac{d\;f(x)}{dx} &=& \frac{d}{dx}\left( 12x^2-12x^3 \right)\\
 &=&  24x-36x^2 \\
 \end{eqnarray*}
-which is zero for $2 – 3x = 0$ [and for x = 0, but this is clearly not the mode (i.e.not the maximum of f (x)], i.e. x = 2/3. To check that this is the maximum (i.e.                                                                                                                                                         the mode), we can consider the second derivative:-
+which is zero for $2 - 3x = 0$.\\
+Therefore $x = 2/3$.
+\smallskip
+\item \noindent \textbf{Remark:} \\ The derivative is zero for x = 0 also, but this is clearly not the mode, i.e.not the maximum of f (x).
+\newpage
+    \item 
+To check that this is the maximum (i.e.the mode), we can consider the second derivative:-
 \begin{eqnarray*}
 \frac{d^2\;f(x)}{d^2x} &=& \frac{d}{dx}\left( 24x-36x^2 \right)\\
 &=&  24-72x \\
 \end{eqnarray*}
-which is clearly < 0 at x = 2/3.
-Hence the mode is at x = 2/3, and the graph of f (x) is as shown. 
+which is clearly $< 0$ at $x = 2/3$.
+\item Hence the mode is at $x = 2/3$, and the graph of $f(x)$ is as shown above. 
 
 % [NOTE. The  curve should of course appear smooth; it might not do so, due to the limits of
 % electronic reproduction.]
 
-[At the mode, f (x) = 12(2/3)2(1/3) = 16/9.]
-
-
+%[At the mode, f (x) = 12(2/3)2(1/3) = 16/9.]
+\end{itemize}
+\large
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \begin{framed}
-(iii) Find the mean and variance of X.
+\large
+\noindent \textbf{Part (c)}\\
+Find the mean and variance of $X$.
 
 \end{framed}
+\large
 \item  
 \begin{eqnarray*}
 E(X) &=& \int^{1}_{0} x \;f(x) dx \\
 &=& \int^{1}_{0} x[12(x^2\;-\;x^3)] dx \\
 &=& \int^{1}_{0} 12x^3\;-\;12x^4 dx \\
 &=& 12 \left[ \frac{x^4}{4} \;-\; \frac{x^5}{5}\right]^1_0\\
-&=& 12 \left[ \left( \frac{1}{4}- 0 \right) \;-\; \left( \frac{1}{4}- 0 \right)  \right]\\
+&=& 12 \left[ \left( \frac{1}{4}- \frac{1}{5}\right) \;-\; \left( 0 - 0 \right)  \right]\\
 &=& 12 \left[  \frac{5}{20} \;-\; \frac{4}{20} \right]\\
 &=&  \frac{12}{20} \\
 &=&  \frac{3}{5}\\
 \end{eqnarray*}
 
-
+\large
 \begin{eqnarray*}
 E(X^2) &=& \int^{1}_{0} x^2 \;f(x) dx \\
 &=& \int^{1}_{0} x^2[12(x^2\;-\;x^3)] dx \\
-&=& \int^{1}_{0} 12x^4\;-\;12x^4 dx \\
+&=& \int^{1}_{0} 12x^4\;-\;12x^5 dx \\
 &=& 12 \left[ \frac{x^5}{5} \;-\; \frac{x^6}{6}\right]^1_0\\
-&=& 12 \left[ \left( \frac{1}{5}- 0 \right) \;-\; \left( \frac{1}{6}- 0 \right)  \right]\\
+&=& 12 \left[ \left( \frac{1}{5}-\frac{1}{6} \right) \;-\; \left(0 - 0 \right)  \right]\\
 &=& 12 \left[  \frac{6}{30} \;-\; \frac{5}{30} \right]\\
 &=&  \frac{12}{30} \\
+& & \\
 &=&  \frac{2}{5}\\
 \end{eqnarray*}
 So 
 
 \begin{eqnarray*}
-Var(X) &=& E(X^2) – [E(X)]^2 \\
+\operatorname{Var}(X) &=& E(X^2) - [E(X)]^2 \\
  &=& \frac{2}{5} - \left(\frac{3}{5}\right)^2 \\
  &=& \frac{10}{25} - \frac{9}{25} \\
+ & & \\
  &=& \frac{1}{25} \\
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \begin{framed}
- Find the cumulative distribution function of X and obtain the probability that X
+\noindent \textbf{Part (d)}\\
+ Find the cumulative distribution function of X and obtain the probability that $X$
 lies within one standard deviation of its mean.
 
 \end{framed}
@@ -124,22 +158,21 @@ lies within one standard deviation of its mean.
 F(X) &=& \int^{x}_{0} f(u) du \\
 &=& \int^{x}_{0} 12(u^2\;-\;u^3)] du \\
 &=& 12 \left[ \frac{u^3}{3} - \frac{u^4}{4}\right]^1_0\\
-&=& 12 \left[ \left( \frac{x^3}{3}- 0 \right) - \left( \frac{x^4}{4}- 0 \right)  \right]\\
+&=& 12 \left[ \left( \frac{x^3}{3}- \frac{x^4}{4} \right) - \left( 0 - 0 \right)  \right]\\
 &=&  4x^3- 3x^4  \qquad 0 \leq x \leq 1 \\
 \end{eqnarray*}
 The mean is $3/5$
-and the standard deviation is $1/5$5 . 
+and the standard deviation is $1/5$ . 
 
 We require  $P(2/5 < X < 4/5)$ .
 
-This can be found by integrating the pdf between 2
-5 and 4
-5 or, directly, as
+This can be found by integrating the cdf between $2/5$ and $4/5$ or, directly, as
 
 \begin{eqnarray*}
 F\left(\frac{4}{5}\right) - F\left(\frac{2}{5}\right) &=& \left(\frac{4}{5}\right)^3\left(\frac{8}{5}\right) - \left(\frac{2}{5}\right)^3\left(\frac{14}{5}\right)\\
 &=& \frac{(64 \times 8) - (8 \times 14)}{625} \\
 &=& \frac{400}{625} \\
+& & \\
 &=& \frac{16}{25}
 \end{eqnarray*}
 
