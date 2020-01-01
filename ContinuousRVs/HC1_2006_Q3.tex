@@ -32,14 +32,14 @@
 
 \begin{document}
 
-Higher Certificate, Paper I, 2006. Question 3
+%- Higher Certificate, Paper I, 2006. Question 3
 \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
-     \hline        
-\noindent  The continuous random variable X has probability density function given by
+     \hline   \large     
+\noindent  \large The continuous random variable $X$ has probability density function given by
 \[ f(x) = \begin{cases}  kx^2(1\;-\;x)^2  & 0 \leq x \leq 1\\
-0 &  elsewhere
+0 &  \mbox{elsewhere}
 \end{cases}
 \]
 \\ \hline
@@ -49,54 +49,84 @@ Higher Certificate, Paper I, 2006. Question 3
 \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
-     \hline        
-\noindent (i) Find k and sketch the graph of f (x).
+     \hline \large        
+\noindent \textbf{Part (a)} \\ \large Find the value of $k$.% and sketch the graph of $f(x)$.
 
 
 \\ \hline
       \end{tabular}
     \end{table}
-    
+\large    
 
+The probability density function (for $ 0 \leq x \leq 1$) is
 
-\begin{enumerate}
-\item We have , so 
+\begin{eqnarray*}
+f(x) &=&   kx^2\;(1\;-\;x)^2  \\
+&=& kx^2\;(1\;-\;2x\;+\;x^2) \\
+\end{eqnarray*}
 
+\begin{framed}
+\noindent Total area under probability density function is 1 (between lower and upper limits)
+{
+\Large
+\[\int^{U}_{L} f(x) dx = 1\]
+}
+\end{framed}
+\newpage
 % 2006 Question 3
 
 \begin{eqnarray*}
-\mbox{Area} 
+\mbox{Area} &=& \int^{1}_{0} kx^2\;(1\;-\;2x\;+\;x^2) dx \\
 &=& k \left[ \frac{1}{3}x^3 - \frac{1}{2}x^4 + \frac{1}{5}x^5 \right]^{1}_{0}\\
 &=& k \left[  \left( \frac{1}{3} - 0 \right)  -  \left(\frac{1}{2} - 0 \right) +  \left( \frac{1}{5} - 0 \right) \right]\\
 &=& k \left[  \frac{1}{3} - \frac{1}{2} + \frac{1}{5} \right]\\
 &=& k \left[  \left(\frac{10}{30} - \frac{15}{30} + \frac{6}{30}\right)\right]\\
-&=& k \times \frac{1}{30} \\
+1 &=& k \times \frac{1}{30} \\
 \end{eqnarray*}
 
 
-so k = 30.
-f(x) = 0 at x = 0 and at x = 1. f(x) is symmetrical about x = ½. The sketch is as follows. 1.00.90.80.70.60.50.40.30.20.10.0210xf(x)
+Necessarily $k = 30$.
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=1.0\textwidth]{images/curve.png}
+\end{figure}
+
+\begin{itemize}
+    \item $f(x) = 0$ at $x = 0$ and at $x = 1$.
+    \item $f(x)$ is symmetrical about $x = 1/2$.
+ \item ${\displaystyle E(X) = \frac{1}{2} }$ by symmetry 
+\end{itemize}
+
+\newpage
+
+
 
     \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
-     \hline        
-\noindent (ii) Find $E(X)$ and $Var(X)$, and show that \[  P(X \leq 1/3 ) = \frac{17}{81} \]
+     \hline \large        
+\noindent \textbf{Part (b)} \\ \large Find $E(X)$ and $\operatorname{Var}(X)$.\\ \smallskip
 
 \\ \hline
       \end{tabular}
     \end{table}
 
-\item ${\displaystyle E(X) = \frac{1}{2} }$ by symmetry [or by direct integration: 10()xfxdx∫].
+
 {
 \large
+\begin{framed}
+\noindent \textbf{Important}
+\[E(X) = \int^{1}_{0} x \;f(x) dx \]
+\end{framed}
 \begin{eqnarray*}
 E(X) &=& \int^{1}_{0} x \;f(x) dx \\
-&=& \int^{1}_{0} x[30(x^2)(1\;-\;x)^2] dx \\
-&=& 30 \int^{1}_{0} x  \times \left[(x^2)(1-x)^2\right] dx\\
-&=& 30 \int^{1}_{0} (x^3)(1-x)^2 dx\\
+&=& \int^{1}_{0} x[30x^2 \; (1\;-\;x)^2] dx \\
+&=& 30 \int^{1}_{0} x  \times \left[ x^2 (1 \;-\; 2x \;+\; x^2\right] dx\\
+% &=& 30 \int^{1}_{0} (x^3)(1-x)^2 dx\\
 &=& 30 \int^{1}_{0} (x^3)(1-2x + x^2) dx\\
-&=& 30 \int^{1}_{0} (x^3 -2x^4 + x^5) dx \qquad { \mbox{ Standard Definite Integral} \\
+&=& 30 \int^{1}_{0} (x^3 -2x^4 + x^5) dx \qquad { \mbox{ Standard Definite Integral}} \\
 &=& 30 \left[ \frac{x^4}{4}  \;-\;  \frac{2x^5}{5} \; + \; \frac{x^6}{6}  \right]^{1}_{0}\\
 &=& 30 \left[ \left( \frac{1}{4}- 0 \right) \;-\; \left( \frac{2}{5}- 0 \right) + \left( \frac{1}{6}- 0 \right) \right]\\
 &=& 30 \left[  \frac{15}{60} \;-\;  \frac{24}{60} +  \frac{10}{60} \right]\\
@@ -105,10 +135,17 @@ E(X) &=& \int^{1}_{0} x \;f(x) dx \\
 \end{eqnarray*}
 }
 %----------%
+\newpage
+\begin{framed}
+\large
+\noindent \textbf{Important}
+\[E(X^2) = \int^{1}_{0} x^2 \;f(x) dx \]
+\end{framed}
+\large
 \begin{eqnarray*}
 E(X^2) 
-&=& 30 \int^{1}_{0} x^2  \times \left[(x^2)(1-x)^2 \right] dx\\
-&=& 30 \int^{1}_{0} (x^4)(1-x)^2 dx\\
+%&=& 30 \int^{1}_{0} x^2  \times \left[(x^2)(1-x)^2 \right] dx\\
+%&=& 30 \int^{1}_{0} (x^4)(1-x)^2 dx\\
 &=& 30 \int^{1}_{0} (x^4)(1-2x + x^2) dx\\
 &=& 30 \int^{1}_{0} (x^4 -2x^5 + x^6) dx\\
 &=& 30 \left[  \frac{x^5}{5} - \frac{2x^6}{6} + \frac{x^7}{7}\right]^{1}_{0}\\
@@ -117,60 +154,72 @@ E(X^2)
 &=& 30 \times \frac{1}{105} \\
 &=&  \frac{2}{7} \\
 \end{eqnarray*}
-
+\large
 \begin{eqnarray*}
-Var(X) &=& E(X^2) - [E(X)]^2 \\
+\operatorname{Var}(X) &=& E(X^2) - [E(X)]^2 \\
  &=& \frac{2}{7} - \left(\frac{1}{2}\right)^2 \\
  &=& \frac{8}{28} - \frac{7}{28} \\
  &=& \frac{1}{28} \\
 \end{eqnarray*}
 
+\newpage
+    \begin{table}[ht!]
+     \centering
+     \begin{tabular}{|p{15cm}|}
+     \hline \large        
+\noindent \textbf{Part (c)} \\ \large Show that \[  P(X \leq 1/3 ) = \frac{17}{81} \]
+
+\\ \hline
+      \end{tabular}
+    \end{table}
 {
 \large
 \begin{eqnarray*}
-P(X \leq 1/3 ) &=& \int^{1/3}_{0} [30(x^2)(1\;-\;x)^2] dx \\
-&=& 30 \int^{1/3}_{0}  \left[(x^2)(1-x)^2\right] dx\\
-&=& 30 \int^{1/3}_{0} (x^2 -2x^3 + x^4) dx\\
+P(X \leq 1/3 ) &=& \int^{1/3}_{0} [30(x^2)(1\;-\;x)^2]\; dx \\
+%&=& 30 \int^{1/3}_{0}  \left[(x^2)(1-x)^2\right] dx\\
+&=& 30 \int^{1/3}_{0} (x^2 -2x^3 + x^4)\; dx\\
 &=& 30 \left[ \frac{x^3}{3}  \;-\;  \frac{2x^4}{4} \; + \; \frac{x^5}{5}  \right]^{1/3}_{0}\\
+& & \\
 &=& 30 \left[ \frac{x^3}{3}  \;-\;  \frac{x^4}{2} \; + \; \frac{x^5}{5}  \right]^{1/3}_{0}\\
+& & \\
 &=& 30 \left[ \left( \frac{(1/3)^3}{3}- 0 \right) \;-\; \left( \frac{(1/3)^4}{2}- 0 \right) +  \left( \frac{(1/3)^5}{5}- 0 \right) \right]\\
+& & \\
 &=& 30 \left[ \left( \frac{1}{3^4} \right) \;-\; \left( \frac{15}{30} \times \frac{1}{3^4} \right) +  \left( \frac{6}{30} \times \frac{1}{3}\times \frac{1}{3^4} \right) \right]\\
+& & \\
 &=& 30 \times \left( \frac{1}{3^4} \right) \times \left[ \frac{30}{30} \;-\;  \frac{15}{30}  + \frac{2}{30}  \right]\\
+& & \\
 &=&  \frac{30}{81} \times \frac{17}{30} \\
+& & \\
 &=&  \frac{17}{81}\\
 \end{eqnarray*}
 }
 
-The cumulative distribution function is
-\begin{eqnarray*}
-F(X) &=& \int^{x}_{0} f(u) du \\
-&=& \int^{x}_{0} 30(u^2\;-\;u^3)] du \\
-&=& 30 \left[ \frac{u^3}{3} - \frac{u^4}{4}\right]^1_0\\
-&=& 30 \left[ \left( \frac{x^3}{3}- 0 \right) - \left( \frac{x^4}{4}- 0 \right)  \right]\\
-&=& 30 \int^{1}{0} (x^4 -2x^5 + x^6) dx\\
-&=& 30 \left[  \frac{1}{3} - \frac{1}{2} + \frac{1}{5}\right]
-\end{eqnarray*}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 
 \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
-     \hline        
-\noindent 
-(iii) A random sample of size 5 is taken from this distribution. Find, correct to 4 decimal places, the probability that all 5 observations exceed 1/3.
+     \hline \large        
+\noindent \textbf{Part (d)} \\ \large A random sample of size 5 is taken from this distribution. \\  \large 
+Find, correct to 4 decimal places, the probability that all 5 observations exceed 1/3.
 
 
 \\ \hline
       \end{tabular}
     \end{table}
-    
+\large    
+\begin{itemize}
+\item The probability that one observation exceeds 1/3 is
+\[ P(X > 1/3 ) = 1- \frac{17}{81} = \frac{64}{81} \]
+\item As each observation is an independent event, the required probability is 
+\[  \left( \frac{64}{81} \right)^5 = 0.3079.\]
+\end{itemize}
 
 
 
 
-\item The required probability is 
-\[ \left( 1 - \frac{17}{81} \right)^5  = \left( \frac{64}{81} \right)^5 = 0.3079.\]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
@@ -178,22 +227,27 @@ F(X) &=& \int^{x}_{0} f(u) du \\
     \begin{table}[ht!]
      \centering
      \begin{tabular}{|p{15cm}|}
-     \hline        
-\noindent (iv) Find, correct to 4 decimal places, the variance of the mean of a random sample of size 5.
+     \hline \large        
+\noindent \textbf{Part (e)} \\ \large Find, correct to 4 decimal places, the variance of the mean of a random sample of size 5.
 \\ \hline
       \end{tabular}
     \end{table}
-
-\item The variance of $X$ for a sample of size 5 is 
+\large
+The variance of $\bar{X}$ for a sample of size 5 is 
 
 
 \[  \frac{\operatorname{Var}(X)}{5}  = \frac{1/28}{5}  = \frac{1}{140} =  0.00714.\]
-\end{enumerate}
+
 \end{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%
 
-f(x) <- (30 * (x^2) * (1-x)^2)
 
-eq = function(x){(30 * (x^2) * (1-x)^2)}
-plot(eq(0:1000/1000), type='l')
+
+X <- seq(0, 1, by=0.050)
+f <- function(x) (x^2 - 2*x^3 + x^4 )*30
+plot(X, f(X), type='l',col="purple",lwd=4,ylab="pdf",font.lab=2,font.axis=2)
+abline(h=0)
+abline(v=0)
+abline(v=0.5,lty=2,col="red",lwd=1.5)
+getwd()
