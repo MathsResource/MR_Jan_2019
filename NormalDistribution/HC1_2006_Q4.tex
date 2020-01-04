@@ -31,34 +31,37 @@
 \setcounter{MaxMatrixCols}{10}
 
 \begin{document}
+\large
 % Higher Certificate, Paper I, 2006. Question 4
-\begin{table}[ht!]
-     \centering
-     \begin{tabular}{|p{15cm}|}
-     \hline        
-\noindent 4. My cycle journey to work is 3 km, and my cycling time (in minutes) if there are no delays is distributed N(15, 1), i.e. Normally with mean $\mu = 15$ and variance $\sigma^2 = 1$.
+% 4. 
+\noindent My cycle journey to work is 3 km, and my cycling time (in minutes) if there are no delays is distributed $N(15, 1)$, i.e. Normally with mean $\mu = 15$ and variance $\sigma^2 = 1$.
+\smallskip
 
-(i) Find the probability that, if there are no delays, I get to work in at most 17 minutes.
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline\large
+\noindent \textbf{Part (a)}\\ \large  Find the probability that, if there are no delays, I get to work in at most 17 minutes.
 
 \\ \hline
-      \end{tabular}
-    \end{table}
+  \end{tabular}
+\end{table}
 
 
 
-
+\large 
 
 
 
 \begin{enumerate}[(a)]
 \item 
 
-Let X represent cycling time without delays: $X \sim N(15, 1)$.
+Let $X$ represent cycling time without delays: $X \sim N(15, 1)$.
 
 Compute $P(X \leq 17)$
 \begin{framed}
 \noindent \textbf{Z-score}
-\[Z_{17} = \frac{17-15}{1}= 2.00\]
+\[Z_{17} \;=\; \frac{17 - \mu}{\sigma} \;= \;\frac{17-15}{1}= 2.00\]
 \end{framed}
 \begin{eqnarray*} 
 P(X \leq 17)  &=& P(Z \leq 2.00) \\
@@ -66,15 +69,17 @@ P(X \leq 17)  &=& P(Z \leq 2.00) \\
  & & (\mbox{From Statistical Tables}) \\
  &=& 0.9772
 \end{eqnarray*} 
-
-Here $\Phi$ denotes the cdf of the standard Normal distribution.
+\large
+Here $\Phi$ denotes the cumulative distribution function of the standard Normal distribution (for Statistical Tables.)
 
 \newpage
+\large
+
 \begin{table}[ht!]
-     \centering
-     \begin{tabular}{|p{15cm}|}
-     \hline        
-\noindent \textbf{Part (b)}\\ On my route there are three sets of traffic lights.
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline
+\noindent \textbf{Part (b)}\\ \large On my route there are three sets of traffic lights.
 
 Each time I meet a red traffic light, I am delayed by a random time that is distributed $N(0.7, 0.09)$. 
 
@@ -87,24 +92,24 @@ These lights operate independently. Find the probability of my getting to work i
 (3) if all three lights are set at red when I reach them.
 
 \\ \hline
-      \end{tabular}
-    \end{table}
-    
+  \end{tabular}
+\end{table}
 
 
 
+\large
 \item  Adding in the delay times, also Normally distributed [N(0.7, 0.09)], and letting $T$ denote the total time:
 \begin{itemize}
-\item $T \sim N(15.7, 1.09)$, so
+\item One red light: $T \sim N(15.7, 1.09)$, so
 
-\[P(T \leq 17) = \Phi \left( \frac{17 - 15.7}{\sqrt{1.09}} \right) \Phi \left( \frac{1.3}{ 1.0440} \right)  = \Phi(1.245) = 0.8934\]
-\item $T \sim N(16.4, 1.18)$, so
+\[P(T \leq 17) = \Phi \left( \frac{17 - 15.7}{\sqrt{1.09}} \right) = \Phi \left( \frac{1.3}{ 1.0440} \right)  = \Phi(1.245) = 0.8934\]
+\item Two red lights: $T \sim N(16.4, 1.18)$, so
 
 
 
 \[P(T \leq 17) = \Phi \left(\frac{17 - 16.4}{\sqrt{1.18}} \right) = \Phi \left(\frac{0.6}{1.0863}\right) = \Phi(0.552) = 0.7096\]
 
-\item $T \sim N(17.1, 1.27)$, so
+\item Three red lights: $T \sim N(17.1, 1.27)$, so
 
 \[P(T \leq 17) = \Phi \left(\frac{17 - 17.1}{\sqrt{1.27}} \right) = \Phi \left( \frac{-0.1}{1.127}\right) = \Phi(-0.0887) = 0.4646\]
 .
@@ -114,21 +119,22 @@ These lights operate independently. Find the probability of my getting to work i
 
 
 \begin{table}[ht!]
-     \centering
-     \begin{tabular}{|p{15cm}|}
-     \hline        
-\noindent (iii) Suppose that, for each set of lights, the chance of delay is 0.5. Deduce that the mean value of 
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline  \large  
+\noindent \textbf{Part (c)}\\ \large  Suppose that, for each set of lights, the chance of delay is 0.5. Deduce that the mean value of 
 $T$, my total journey time, is 16.05 minutes.
 
 
 \\ \hline
-      \end{tabular}
-    \end{table}
- \item The number of delays is distributed as $B(3, 1/2)$. Hence the situations in (i), (ii)(a), (ii)(b) and (ii)(c) arise with probabilities 1/8, 3/8, 3/8 and 1/8 respectively.
+  \end{tabular}
+\end{table}
+ \item The number of delays is distributed as $B(3, 1/2)$. Hence the situations described in the previous parts will arise with probabilities 1/8, 3/8, 3/8 and 1/8 respectively.
  
 \begin{center} 
 \begin{tabular}{|c|c|c|c|c|} \hline
-Delays  & 0 & 1 & 2 & 3 \\ \hline
+Scenario  & No Delays & 1 Red light & 2 Red lights  & 3 Red lights  \\ \hline
+Expected Time & 15 & 15.7 & 16.4 & 17.1 \\ \hline 
 Probability &  1/8 & 3/8 & 3/8 & 1/8  \\ \hline
 \end{tabular}
 \end{center}
@@ -141,18 +147,20 @@ E(T) &=& \frac{1}{8} \times 15 + \frac{3}{8} \times 15.7 + \frac{3}{8} \times 16
 \end{eqnarray*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
-    \begin{table}[ht!]
-     \centering
-     \begin{tabular}{|p{15cm}|}
-     \hline        
-\noindent (iv) Given that Var(T ) = 1.5025, use a suitable approximation to calculate the probability that, over 10 journeys, my average journey time to work is at most 17 minutes.
+\begin{table}[ht!]
+ \centering
+ \begin{tabular}{|p{15cm}|}
+ \hline  \large  
+\noindent \textbf{Part (d)}\\ \large Given that $\operatorname{Var}(\bar{T}) = 1.5025$, use a suitable approximation to calculate the probability that, over 10 journeys, my average journey time to work is at most 17 minutes.
 \\ \hline
-      \end{tabular}
-    \end{table}
+  \end{tabular}
+\end{table}
 
 
 \item Mean time $\bar{T} \sim N(16.05,\frac{1.5025}{10})$ 
 
 \[P(\bar{T} \leq 17) = \Phi \left(\frac{17 - 16.05}{\sqrt{0.15025}} \right) = \Phi \left(\frac{0.95}{0.3876}\right) = \Phi(2.451) = 0.9929\]
 \end{enumerate}
+\newpage
+End
 \end{document}
