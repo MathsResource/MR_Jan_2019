@@ -1,0 +1,155 @@
+\documentclass[a4paper,12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+
+%\usepackage{bigints}
+\usepackage{vmargin}
+
+% left top textwidth textheight headheight
+
+% headsep footheight footskip
+
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+
+\begin{document}
+	% Higher Certificate, Paper I, 2005. Question 2
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{framed}
+		\large 
+		\noindent I have three ways of travelling to work. If I cycle, my travelling time is distributed
+		$N(27, 6.25)$, i.e. Normally with mean 27 minutes and standard deviation $\sqrt{6.25} = 2.5$
+		minutes. \\ \\
+		\large 
+		If I use the bus, my time walking from home to pick up the bus is distributed
+		$N(7, 4)$, the bus journey time is distributed $N(13, 20)$ and the time to walk from the
+		bus stop to work is distributed $N(5, 1)$, all three components of the journey time being
+		independent. \\ \\
+		\large 
+		If I drive my car, the journey time is distributed $N(23, 36)$.
+	\end{framed}
+	\medskip
+	\begin{framed}
+		\large
+		\noindent \textbf{Part (a)}\\ \large 
+		Find the distribution of my total journey time if I use the bus.
+	\end{framed}
+	%----------------------------------------------------------------%
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{description}
+		\item[A] Car $\sim N(23, 36)$
+		\item[B] Bus $\sim N(13, 20)$, Walk 1 $\sim$ N(7, 4), Walk 2 $\sim$ N(5, 1)
+		\item[C] Cycle $\sim N(27, 6.25)$
+	\end{description}
+	\large 
+	\begin{framed}
+		\large
+		\noindent The sum of independent random variables $\{X_1,X_2,\ldots,X_n\}$ where $X_i \sim N( \mu_i, \sigma^2_i)$ is distributed with the sums of the means and variances as the parameters, i.e. is $N(\sum \mu_i, \sum\sigma^2_i)$.
+	\end{framed}
+	
+	\begin{enumerate}[(a)]
+		\large
+		\item The distribution of total journey time by bus is $X_{total} \sim N(7+13+5, 4+20+1)$, i.e. $X_{total} \sim N(25,25)$.
+		
+		\newpage
+		%----------------------------------------------------------------%
+		\begin{framed}
+			\noindent \textbf{Part (b)}\\ \large 
+			\noindent \large Which method of transport gives me the best chance of achieving a total
+			journey time of 30 minutes or less, and what chance does it give me of doing
+			so?
+		\end{framed}
+		%----------------------------------------------------------------%
+		\item
+		
+		\begin{description}
+			\item[Car (Automobile):]
+			\[P (N(23,36) < 30)  = \Phi \left( \frac{30- 23}{\sqrt{36}} \right)  = \Phi(1.1667) = 0.8783\]
+			
+			
+			\large 
+			\item[Bus:]
+			\[P (N(25,25) < 30)  = \Phi \left( \frac{30- 25}{\sqrt{25}} \right)  = \Phi(1) = 0.8413\]
+			
+			\item[Cycle: ]
+			\[P (N(27,6.25) < 30)  = \Phi \left( \frac{30 -27}{\sqrt{6.25}} \right)  = \Phi(1.2) = 0.8849\]
+			
+		\end{description}
+		
+		Cycling is best, with a probability of 0.8849.
+		\newpage
+		%----------------------------------------------------------------%
+		\begin{framed}
+			\noindent \textbf{Part (c)}\\ \large 
+			\noindent \large  Which method of transport gives me the least chance of a journey time of 35
+			minutes or more, and what is then my chance of taking at least 35 minutes?
+		\end{framed}
+		\item 
+		\large 
+		\begin{description}
+			\item[Car (Automobile):]
+			\[P (N(23,36) >35)  = 1- \Phi \left( \frac{35- 23}{\sqrt{36}} \right)  = 1- \Phi(2) = 0.0228\]
+			
+			\item[Bus:]
+			\[P (N(25,25) >35)  = 1- \Phi \left( \frac{35- 25}{\sqrt{25}} \right)  = 1- \Phi(2) = 0.0228\]
+			
+			\item[Cycle: ]
+			\[P (N(27,6.25) >35)  = 1- \Phi \left( \frac{35- 27}{\sqrt{6.25}} \right)  = 1- \Phi(3.2) = 0.0007\]
+			
+			
+		\end{description}
+		Again cycling is best, with a probability of 0.0007.
+		
+
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		\newpage
+		
+		%----------------------------------------------------------------%
+		%----------------------------------------------------------------%
+		\begin{framed}
+			\noindent \textbf{Part (d)}\\ \large 
+			\noindent \large Taken over many journeys to work, the numbers of times I drive the car, take the bus
+			or cycle are in the ratio $3 : 3 : 4$. \\\\ \large Given that my journey time yesterday
+			was under 30 minutes, find the respective probabilities of the three modes of
+			travel.
+			
+		\end{framed}
+		\item  $P(\mbox{car}) = 0.4$,  $P(\mbox{bus}) = 0.3$, $P(\mbox{cycle}) = 0.3$
+		
+		\[ P (\mbox{cycle}| <30)  = \frac{P (<30 | \mbox{cycle} ) P(\mbox{cycle}) }{P ( <30 )},\]
+		and similarly for the other modes of travel.
+		\begin{eqnarray*}
+			P( < 30) &=& P(< 30| \mbox{cycle})P( \mbox{cycle}) + P(< 30| bus)P( \mbox{bus}) + P(< 30| \mbox{car} )P(\mbox{car})\\
+			&=& (0.8849\times 0.3) + (0.8413\times 0.3) + (0.8783\times 0.4)\\
+			&=& 0.26547 + 0.25239 + 0.35132 \\ 
+			&=& 0.86918.\\
+		\end{eqnarray*}
+		
+		Hence 
+		\begin{itemize}
+			\item P(cycle $| < 30$) = 0.26547 / 0.86918 = 0.3054
+			\item P(bus $| < 30$) = 0.25239 / 0.86918 = 0.2904
+			\item P(car $| < 30$) = 0.35132 / 0.86918 = 0.4042 .
+		\end{itemize}
+	\end{enumerate}
+\end{document}
