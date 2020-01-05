@@ -30,85 +30,116 @@
 %- SOLUTIONS Paper I :
 %- Statistical Theory
 \begin{document}
+	\large 
+\noindent The game of Snip is played for marbles.  In this game two players, A and B say, each have a coin which, unseen by the other player, they independently choose to display as Heads (H) or Tails (T).  When A and B have made their choices, the coins are disclosed and the outcome of the game is decided in accordance with the table below.
+	
+	\begin{center}
+		\begin{tabular}{|ll|l|l|}\hline
+			\multicolumn{2}{|l}{}   & \multicolumn{2}{l|}{B displays} \\ \hline
+			\multicolumn{2}{|l|}{}   & H      & T      \\ 
+			\multirow{2}{*}{A displays} & H & A wins 3 from B & B wins 2 from A \\ 
+			& T & B wins 2 from A & A wins 1 from B \\ \hline
+		\end{tabular}
+	\end{center}
+	
+	
+	\begin{table}[ht!]
+		\centering
+		\begin{tabular}{|p{15cm}|}
+			\hline  \large 
+			\noindent \textbf{Part (a)} \\ \large Suppose that A and B independently both randomly display H and T with probability 1/2.  Show that all four outcome combinations in the table above have the same probability, and deduce that the expected gain to A (or B) is zero. 
+			\\ \hline
+		\end{tabular}
+	\end{table}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% Please add the following required packages to your document preamble:
+	
+	\large 
+	\noindent The outcome probabilities are:
+	
+	$P(H|A) = 1/2$, $P(H|B) = 1/2$ and so $P(T|A)$ = $P(T|B) = 1/2$ .
+	\begin{itemize}
+		
+		\item The expected gain for player $X$ is the 
+		\[ E(G_{X}) = \sum W_{ij} P_{ij} \]
+		where $W_{ij}$ denoted the winnings from a particular outcome.
+		
+		\item Probabilities of each pair of outcomes
+		
+		
+		\begin{center}
+			\begin{tabular}{|ll|l|l|}\hline
+				\multicolumn{2}{|l}{}   & \multicolumn{2}{l|}{B displays} \\ \hline
+				\multicolumn{2}{|l|}{}   & H      & T      \\ \hline 
+				\multirow{2}{*}{A displays} & H  &  $\frac{1}{2} \times \frac{1}{2}  \;=\; \frac{1}{4}$ & $\frac{1}{2} \times \frac{1}{2}  \;=\; \frac{1}{4}$ \\ 
+				&  T &  $\frac{1}{2} \times \frac{1}{2}  \;=\; \frac{1}{4}$ & $\frac{1}{2} \times \frac{1}{2}  \;=\; \frac{1}{4}$ \\ \hline \end{tabular}
+		\end{center}
+		
+		\item Every entry in the body of the table is the product of marginal probabilities (by
+		independence),$1/2 \times 1/2 = 1/4$.
+		
+		\item Writing $G_A$ = Gain for A and $G_B$ = Gain for B ,
+		\item $E[G_A] = (3 \times 1/4) - (2 \times 1/4) - (2 \times 1/4) + (1 \times 1/4) \;=\; 0 $
+		\item Since this is a two person game $E[G_B] = 0$
+	\end{itemize} 
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+	\newpage
+	
+	\begin{table}[ht!]
+		\centering
+		\begin{tabular}{|p{15cm}|}
+			\hline  
+			\noindent \textbf{Part (b)} \\ \large 
+			Suppose now that A and B independently both randomly display H and T, but A displays H and T with respective probabilities 2/3 and 1/3 while B displays H and T with respective probabilities 1/3 and 2/3. \\ \smallskip
+			\large 
+			Calculate the four outcome probabilities under these conditions and find the expected gain to A. 
+			\\ \hline 
+		\end{tabular}
+	\end{table}
+	
+	\begin{itemize}
+		\item Probabilities of each pair of outcomes
+		
+		
+		\begin{center}
+			\begin{tabular}{|ll|l|l|}\hline
+				\multicolumn{2}{|l}{}   & \multicolumn{2}{l|}{B displays} \\ \hline
+				\multicolumn{2}{|l|}{}   & H      & T      \\ \hline 
+				\multirow{2}{*}{A displays} & H  &  $\frac{2}{3} \times \frac{1}{3}  \;=\; \frac{2}{9}$ & $\frac{2}{3} \times \frac{2}{3}  \;=\; \frac{4}{9}$ \\ 
+				&  T &  $\frac{1}{3} \times \frac{1}{3}  \;=\; \frac{1}{9}$ & $\frac{1}{3} \times \frac{2}{3}  \;=\; \frac{2}{9}$ \\ \hline \end{tabular}
+		\end{center}
+		
+		\item $E[G_A] = (3 \times 2/9) - (2 \times 4/9) - (2 \times 1/9) + (1 \times 2/9) = -2/9$
+	\end{itemize}
+	
+	
+	%%%%%%%%%%%%%%%%%%%%
+	\newpage
+	\begin{table}[ht!]
+		\centering
+		\begin{tabular}{|p{15cm}|}
+			\hline  
+			\noindent \textbf{Part (c)} \\ \large 
+			Finally, suppose that A and B independently and randomly display H and T with respective probabilities $p_A$ and $1- p_A$;  $p_B$ and $1- p_B$.  Calculate the four outcome probabilities and show that the expected gain to A may be written: 
+			
+			\[1 \;-\; 3p_A \;-\; 3p_B \;+\; 8p_Ap_B\]
+			\large 
+			Noting that this may be written as \[1\;-\; p_A(3\;-\;8p_B)\;-\; 3p_B\] or as \[1\;-\; p_B(3 \;-\;8p_A)\;-\; 3p_A,\] discuss whether you would prefer to play as A or B and how you would play. \\ \hline
+		\end{tabular}
+	\end{table}
+	\large
+	%-------------------------------------%
+	\begin{itemize}
+		\item Following from part (b)
+		\begin{eqnarray*}
+			E[G_A] &=& 3\left[p_Ap_B\right] - 2\left[p_A(1 - p_B)\right] - 2\left[(1 - p_A)p_B\right] + 1\left[(1 - p_A)(1 - p_B)\right]\\ & & \\ &=& 1 - 3p_A -
+			3p_B + 8p_Ap_B\\
+		\end{eqnarray*}
+		\item If $p_B = 3/8$ then $E[G_A] \;=\; 1 - 3p_B$ from the first alternative form. 
+		\item In this case \[E[G_A] \;=\; 1 - \frac{9}{8}  = - \frac{1}{8}\]
+		\item Hence choose to play as B, with $p_B = 3/8$. 
+		\item In the long run will guarantee a win of $1/8$
+		(since $E[G_B] = -E[G_A]$)
+	\end{itemize}
 
-The game of Snip is played for marbles.  In this game two players, A and B say, each have a coin which, unseen by the other player, they independently choose to display as Heads (H) or Tails (T).  When A and B have made their choices, the coins are disclosed and the outcome of the game is decided in accordance with the table below.
-
-\begin{center}
-\begin{tabular}{|ll|l|l|}\hline
-\multicolumn{2}{|l}{}   & \multicolumn{2}{l|}{B displays} \\ \hline
-\multicolumn{2}{|l|}{}   & H      & T      \\ 
-\multirow{2}{*}{A displays} & H & A wins 3 from B & B wins 2 from A \\ 
-       & T & B wins 2 from A & A wins 1 from B \\ \hline
-\end{tabular}
-\end{center}
-
-
-  \begin{table}[ht!]
-  \centering
-  \begin{tabular}{|p{15cm}|}
-  \hline  
-  \noindent \textbf{Part (a)} \\Suppose that A and B independently both randomly display H and T with probability 1/2.  Show that all four outcome combinations in the table above have the same probability, and deduce that the expected gain to A (or B) is zero. (6) 
-\\ \hline
-   \end{tabular}
- \end{table}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Please add the following required packages to your document preamble:
-
-
-
-
-1 Outcome probabilities are:
-\begin{enumerate}[(a)]
- \item  $P(H|B) = 1/2$ and so $P(T|A)$ = $P(T|B) = 1/2$ .
-\begin{itemize}
-\item Hence every entry in the body of the table is the product of marginal probabilities (by
-independence),$1/2 \times 1/2 = 1/4$.
-\item Writing GA = Gain for A;GB = Gain for B ,
-\item $E[G_A] = (3 \times 1/4) - (2 \times 1/4) - (2 \times 1/4) + (1 \times 1/4) = 0 = E[G_B]$
-since this is a two person game.
-\end{itemize}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
-\newpage
- 
-  \begin{table}[ht!]
-  \centering
-  \begin{tabular}{|p{15cm}|}
-  \hline  
-  \noindent \textbf{Part (c)} \\
-Suppose now that A and B independently both randomly display H and T, but A displays H and T with respective probabilities 2/3 and 1/3 while B displays H and T with respective probabilities 1/3 and 2/3. \\ \smallskip
-
-Calculate the four outcome probabilities under these conditions and find the expected gain to A. 
- \\ \hline 
-   \end{tabular}
- \end{table}
- 
-
-\item $E[G_A] = (3 \times 2/9) - (2 \times 4/9) - (2 \times 1/9) + (1 \times 2/9) = -2/9$
-\item giving 
-\begin{eqnarray*}
-E[G_A] &=& 3p_Ap_B - 2p_A(1  p_B) - 2(1 - p_A)p_B + (1 - p_A)(1 - p_B)\\ &=& 1 - 3p_A -
-3p_B + 8p_Ap_B\\
-\end{eqnarray*}
-%%%%%%%%%%%%%%%%%%%%
-\newpage
-\begin{table}[ht!]
- \centering
-  \begin{tabular}{|p{15cm}|}
-  \hline  
-  \noindent \textbf{Part (c)} \\
-Finally, suppose that A and B independently and randomly display H and T with respective probabilities A p and 1− pA;  pB and 1− pB.  Calculate the four outcome probabilities and show that the expected gain to A may be written: 
- 
-   B ABA p ppp 8331 +−− . 
- 
- Noting that this may be written as 1− pA(3−8pB)− 3pB or as 1− pB(3 −8pA)− 3pA, discuss whether you would prefer to play as A or B and how you would play. \\ \hline
-   \end{tabular}
- \end{table}
-%-------------------------------------%
-\begin{itemize}
-\item If $p_B = 3/8$ ;$E[GA] = 1 - 3p_B$ from the first alternative form; in this case \[E[G_A] =
-1 - \frac{9}{8}  = - \frac{1}{8}\]
-\item Hence choose to play as B, with $p_B = 3/8$ ,which in the long run will guarantee a win of $1/8$
-(since $E[G_B] = -E[G_A]$)
-\end{itemize}
-\end{enumerate}
 \end{document}
