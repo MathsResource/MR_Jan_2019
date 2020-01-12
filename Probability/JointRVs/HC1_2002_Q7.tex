@@ -1,0 +1,201 @@
+\documentclass[a4paper,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{eurosym}
+\usepackage{vmargin}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{epsfig}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{chngpage}
+%\usepackage{bigints}
+
+\usepackage{vmargin}
+% left top textwidth textheight headheight
+% headsep footheight footskip
+\setmargins{2.0cm}{2.5cm}{16 cm}{22cm}{0.5cm}{0cm}{1cm}{1cm}
+\renewcommand{\baselinestretch}{1.3}
+
+\setcounter{MaxMatrixCols}{10}
+\begin{document}
+	%- Higher Certificate, Paper I, 2002. Question 7
+	\begin{framed}
+		%- 7. 
+		\large 
+		\noindent The bivariate probability distribution of the random variables X and Y is
+		summarised in the following table:
+		\large 
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|c|} \hline 
+				&  Y= 0 & Y =1 & Y= 2 & Y= 3\\ \hline 
+				X = 0 & k & 6k & 9k & 4k \\ \hline 
+				X = 1 & 8k & 18k & 12k & 2k \\ \hline 
+				X = 2 & k & 6k & 9k & 4k \\ \hline 
+			\end{tabular}
+		\end{center}
+	\end{framed}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	\begin{table}[ht!]
+		\centering
+		\begin{tabular}{|p{15cm}|}
+			\hline  \large
+			\noindent \textbf{Part (a)} \\ \large
+			Find the value of $k$.
+			\\ \hline
+		\end{tabular}
+	\end{table}
+	
+	
+	
+	\begin{center}
+		\large 
+		\begin{tabular}{|c||c|c|c|c||c|} \hline
+			&  Y= 0 & Y =1 & Y= 2 & Y= 3 & Total\\ \hline 
+			X = 0 & k & 6k & 9k & 4k & 20k\\ \hline 
+			X = 1 & 8k & 18k & 12k & 2k & 40k\\ \hline 
+			X = 2 & k & 6k & 9k & 4k &  20k\\ \hline  \hline
+			Total & 10k  &30k & 30k & 10k &80k \\ \hline 
+		\end{tabular}
+	\end{center}
+	\large
+	
+	\begin{itemize}
+		
+		\item The sum of all the entries in the table is $80k$, which necessarily equals 1. 
+		\item Hence 
+		${ \displaystyle k = \frac{1}{80}}$.
+		
+		\newpage
+		
+		\begin{table}[ht!]
+			\centering
+			\begin{tabular}{|p{15cm}|}
+				\hline  \large
+				\noindent \textbf{Part (b)} \\ \large Obtain the marginal distributions of X and Y.
+				\\ \hline
+			\end{tabular}
+		\end{table}
+		\large
+		
+		
+		
+		\item  Row and column totals give the marginal distributions of $X$ and $Y$:
+		
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|c|} \hline
+				X & 0 & 1 & 2\\ \hline
+				P(X) & 1/4 & 1/2 & 1/4 \\ \hline
+			\end{tabular}
+		\end{center}
+		
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|c|} \hline
+				Y & 0 & 1 & 2 & 3\\ \hline
+				P(Y)&  1/8 & 3/8 & 3/8 & 1/8\\ \hline
+			\end{tabular}
+		\end{center}
+		
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		\newpage
+		\begin{table}[ht!]
+			\centering
+			\begin{tabular}{|p{15cm}|}
+				\hline  \large
+				\noindent \textbf{Part (c)} \\ \large  Find the conditional distribution of X given Y = 2.
+				\\ \hline
+			\end{tabular}
+		\end{table}
+		\large 
+		\item  For $P( X = x |Y = 2)$ , use the conditional probability formula
+		
+		\[ \frac{P( X \;=\; x \mbox{ and } Y \;=\;2)}{P(Y\;=\;2)}  \]
+		
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|} \hline
+				X &  0 & 1 & 2 \\ \hline
+				Probability & $\frac{9/80}{30/80} = 9/30 = 0.3$ & $\frac{12/80}{30/80}  = 0.4$  & $\frac{9/80}{30/80} = 9/30 = 0.3$  \\ \hline
+			\end{tabular}
+		\end{center}
+		
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		
+		
+		
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		\newpage
+		
+		\begin{table}[ht!]
+			\centering
+			\begin{tabular}{|p{15cm}|}
+				\hline  \large
+				\noindent \textbf{Part (d)} \\ \large  Calculate the correlation coefficient between $X$ and $Y$.
+				\\ \hline
+			\end{tabular}
+		\end{table}
+		\item $E[X] = 1$, $E[Y]$ = 1.5, by symmetry. 
+		
+		The distribution of $XY$ is:
+		
+		\begin{center}
+			\begin{tabular}{|c||c|c|c|c|} \hline
+				&  Y= 0 & Y =1 & Y= 2 & Y= 3 \\ \hline 
+				X = 0 & ({\normalsize XY=0} )  1/80 & ({\normalsize XY=0} )  6/80 & ({\normalsize XY=0} )  9/80 & ({\normalsize XY=0} )  4/80 \\ \hline 
+				X = 1 & ({\normalsize XY=0} )  8/80 & ({\normalsize XY=1} ) 18/80 & ({\normalsize XY=2} ) 12/80 & ({\normalsize XY=3} ) 2/80 \\ \hline 
+				X = 2 & ({\normalsize XY=0} ) 1/80 & ({\normalsize XY=2} ) 6/80 & ({\normalsize XY=4} )  9/80 &  ({\normalsize XY=6} ) 4/80 \\ \hline  
+				
+			\end{tabular}
+		\end{center}
+		
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|c|c|c|} \hline 
+				xy & 0 & 1 & 2 & 3 & 4 & 6\\ \hline
+				P( xy ) & 29/80&  18/80&  18/80 & 2/80&  9/80&  4/80\\ \hline
+			\end{tabular}
+		\end{center}
+		
+		\begin{eqnarray*}
+			E(XY) &=& \sum xy \times P(xy) \\
+			&=& \left( 0 \times 29/80 \right) \; + \; \left( 1 \times  18/80 \right) \; + \; \left( 2 \times  18/80 \right) \; + \\
+			& & \left( 3 \times  2/80 \right) \; + \; \left( 4 \times  9/80 \right) \; + \; \left( 6 \times   4/80 \right) \\
+			& &\\ &=& \left( \frac{0 \;+\; 18 \;+\; 36  \;+\; 6 \;+\; 36  \;+\; 24  }{80} \right)\\
+			& &\\&=& \frac{120}{80}\\
+			& &\\&=& 1.5\\
+		\end{eqnarray*}
+		\begin{eqnarray*}\operatorname{Cov}( X,Y ) 
+			&=& E(XY) - E(X )E(Y ) \\
+			&=& 1.5 -( 1 \times 1.5)\\
+			&=& 0 \\
+		\end{eqnarray*}
+		Therefore the correlation = 0.
+		
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		\newpage
+		\large
+		
+		
+		\begin{table}[ht!]
+			\centering
+			\begin{tabular}{|p{15cm}|}
+				\hline  \large
+				\noindent \textbf{Part (e)} \\ \large State with a reason whether or not $X$ and $Y$ are independent.
+				\\ \hline
+			\end{tabular}
+		\end{table}
+		\item Zero correlation is not sufficient. 
+		\item Every individual $P( X = x, Y = y)$ in the
+		table must be the product of its two marginal probabilities.
+		\item Consider $x = y = 0$ ; We have 
+		\[ P(0,0) = k = \frac{1}{80} \] 
+		But \[P(X =0) \times P(Y=0)  = \frac{1}{4} \times \frac{1}{8} = \frac{1}{32}.\] 
+		\item Therefore there is no independence.
+	\end{itemize}
+\end{document}
