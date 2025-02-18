@@ -132,3 +132,76 @@ if $ pi \neq 1/2$ the product $pi(1 - pi)$ is < 1=4 for each component.
 
 \end{enumerate}
 \end{document}
+
+Here is your document converted to Markdown:
+
+```markdown
+### Part (a)
+Suppose that a random variable \(X\) is the number of successes in \(n\) independent trials, each of which has a probability of success \(p\). Derive the expected value of \(X\), and write down the variance of \(X\).
+
+\begin{enumerate}[(a)]
+\item  \(X\) is binomially distributed \(B(n, p)\) and so 
+\[P(X = x) = { n \choose x} p^x(1 - p)^{n-x}  \qquad \mbox{ where } x = 0, 1, 2, \ldots n.\]
+
+Hence
+\begin{eqnarray*}
+E[X] 
+&=&  \sum^{n}_{x=0}xp^{x} (1-p)^{n-x} \frac{n!}{x!(n-x)!}\\
+&=&  np \sum^{n}_{x=0} \frac{(n-1)! p^{x-1}(1-p)^{n-x}}{(x-1)!([n-1]=[x-1])!}
+\end{eqnarray*}
+
+Since the term in \(E[X]\) for the value \(x = 0\) is zero, put \(Y = (x - 1)\):
+\begin{eqnarray*}
+E[X] 
+&=&  np \sum^{n-1}_{y=0} {{n-1}\choose y} (n-1)! p^{y}(1-p)^{n-y}\\
+&=& (p+(1-p))^n \times np\\
+&=& np 
+\end{eqnarray*}
+
+The expression for variance is \(V[X] = np(1 - p).\)
+
+\newpage
+
+### Part (b)
+On a journey to work, a cyclist has to pass through four sets of traffic lights. Assume that the lights operate independently and that at each light there is a probability of \( \frac{1}{2} \) that the cyclist has to stop. Let \(Y\) be the number of lights at which the cyclist has to stop. Find  \(P(Y \geq 3)\) and \(P(Y = 2)\).
+
+(b) Use the results of part (i) above to obtain the mean and variance of \(Y\).
+
+\item  (a) \(Y\) is \(B(4, \frac{1}{2})\) so 
+\[P(Y = y) = \binom{4}{y} \left(\frac{1}{2}\right)^y \left(1 - \frac{1}{2}\right)^{4-y} \text{ for } y = 0, 1, 2, 3, 4.\]
+
+Hence
+\begin{eqnarray*}
+P(Y \geq 3) &=& P(Y = 3) + P(Y = 4) = 4 \times \frac{1}{16} + 1 \times \frac{1}{16}\\
+ &=&  5/16
+\end{eqnarray*}
+
+\begin{eqnarray*}
+P(Y = 2) &=& \frac{4!}{2!2!} \left(\frac{1}{2}\right)^2 \left(\frac{1}{2}\right)^2\\ &=& 3/8
+\end{eqnarray*}
+
+\newpage
+
+### Part (c)
+Assume now that the probabilities of stopping at the four lights are \( \frac{3}{4} \), \( \frac{1}{3} \), \( \frac{2}{3} \), \( \frac{1}{4} \), but that the lights still operate independently. Find the mean and variance of the number of lights at which the cyclist has to stop, and compare your results with those of part (b).
+
+\item E[Y] = 2 ; V[Y] = 1.
+\item Now \(Y = Z_1 + Z_2 + Z_3 + Z_4\), where each \(Z_i\) is a Bernoulli variable with mean \(p_i\) and variance \(p_i(1 - p_i)\).
+
+By independence, \(E[Y] = \sum_{i=1}^{4} E[Z_i]\) and \(V[Y] = \sum_{i=1}^{4} V[Z_i]\).
+
+\begin{itemize}
+ \item \(E[Y] = \frac{3}{4} + \frac{1}{3} + \frac{2}{3} + \frac{1}{4} = 2\) (the same as before since the new probabilities average to 1/2).
+ \item Also 
+\begin{eqnarray*}
+V(Y) &=& \left(\frac{3}{4} \times \frac{1}{4}\right)
++  \left(\frac{1}{3} \times \frac{2}{3}\right)
++  \left(\frac{2}{3} \times \frac{1}{3}\right)
++  \left(\frac{1}{4} \times \frac{3}{4}\right) \\
+ &=& \frac{12}{72} + \frac{16}{72} + \frac{6}{72}
+\end{eqnarray*}
+5/9 (less than before)
+
+\item NOTE: For probabilities which average to 1/2, the first case gives the maximum variance. If \(p_i \neq 1/2\), the product \(p_i(1 - p_i)\) is < 1/4 for each component.
+\end{itemize}
+```
